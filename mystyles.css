@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'NexaBold';
-    src: url('fonts/nexa_bold.ttf');
+    src: url('fonts/nexa_bold.otf');
 }
 @font-face {
     font-family: 'NexaLight';
-    src: url('fonts/nexa_light.ttf');
+    src: url('fonts/nexa_light.otf');
 }
 html {
     background-color: #333;
