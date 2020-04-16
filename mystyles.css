@@ -360,7 +360,7 @@ position: absolute;
 .top-section-subtitle {
   display: block;
   font-family: 'NexaLight', 'Lato';
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
 .section-lockscreen{
@@ -514,15 +514,29 @@ position: absolute;
       width: 70%;
   }
 }
-@media (max-width: 480px) {
-  .top-section-subtitle{
-    font-size: 1.2em;
-  }
+
+.section-video{
+  padding-bottom: 10%;
 }
-@media (max-width: 320px) {
-  .top-section-subtitle{
-    font-size: 1.3em;
-  }
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 4%; /* padding */
+    width: 92%; /* padding */
+    height: 100%;
 }
 
 
