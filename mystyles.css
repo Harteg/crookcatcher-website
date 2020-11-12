@@ -17,7 +17,10 @@ body {
 h1, h2, h3, h4, h5{
   font-family: "NexaLight", "Lato", "Helvetica", "Arial", sans-serif;
 }
-
+strong{
+  font-family: 'NexaBold', 'Lato';
+  font-weight: 700;
+}
 .shattered-background {
     background-image: url('images/texture_shattered.png');
 
@@ -342,8 +345,16 @@ position: absolute;
 }
 .help-section p {
     color: white;
-    opacity: 0.8;
     margin-bottom: 32px;
+    font-size: 16px;
+}
+.help-section a {
+  color: white;
+}
+
+.help-section li{
+  font-size: 16px;
+  margin-bottom: 8px;
 }
 .top-section-icon {
     height: 200px;
