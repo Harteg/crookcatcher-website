@@ -277,15 +277,15 @@ position: absolute;
     -ms-flex-align: center;
     align-items: center;
     padding-right: 32px;
-    margin-bottom: 64px;
+    margin-bottom: 32px;
 }
 .feature-last {
     margin-bottom: 16px !important;
 }
 .feature_icon {
-    height: auto;
+    height: 32px;
     max-height: 120px;
-    margin-right: 50px;
+    margin-right: 32px;
 }
 .feature_text {
     -webkit-flex-grow: 1;
