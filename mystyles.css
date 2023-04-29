@@ -349,7 +349,7 @@ hr {
 }
 .header-button {
     cursor: pointer;
-    opacity: 0.5;
+    opacity: 0.75;
     transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
