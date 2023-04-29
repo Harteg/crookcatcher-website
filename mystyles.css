@@ -29,7 +29,7 @@ hr {
 }
 
 #section_CC h1:after{
-    content: "Crook Catcher";
+    content: "CrookCatcher";
 }
 
 @media (max-width: 840px) {
