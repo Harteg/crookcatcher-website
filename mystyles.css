@@ -567,3 +567,28 @@ hr {
         padding-bottom: 64px !important;
     }
 }
+
+
+.social-link-box {
+    display: table;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px 20px 7px 20px;
+    background-color: #64DD91; /* X (Twitter) brand color */
+    color: #00391C;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.social-link-box a {
+    color: #00391C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-link-box:hover {
+    background-color: #56bf7d; /* Darker shade for hover effect */
+}
