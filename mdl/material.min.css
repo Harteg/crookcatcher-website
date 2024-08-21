@@ -4020,7 +4020,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
 }
 .mdl-layout__header--waterfall {
     box-shadow: none;
-    overflow: hidden
+    overflow: hidden;
     animation-name: header-color-anim-out;
     animation-duration: 0.35s;
     background-color: transparent;

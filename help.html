@@ -24,7 +24,122 @@
     <meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#64DD91">
 
-    <title>CrookCatcher/Help</title><!-- Page styles -->
+    <title>Help</title><!-- Page styles -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How to uninstall CrookCatcher?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CrookCatcher needs Device Administrator Permission to work. Apps with Device Administrator Permission need to be deactivated before they can be uninstalled. So, simply open up CrookCatcher and deactivate it before uninstalling. If you run into issues, try restarting your phone, wait 5 minutes and try again."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does CrookCatcher need Device Administrator Permission?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Device Administrator Permission is required for CrookCatcher to be notified about wrong unlock attempts. CrookCatcher will never delete any of your data, despite the system warning shown when activating."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does CrookCatcher stop working?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your phone manufacturer might have imposed battery optimizing restrictions on CrookCatcher, preventing it from working in the background. To solve the issue, please follow instructions for your device on www.dontkillmyapp.com."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is CrookCatcher not detecting a wrong password?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you are testing CrookCatcher, note that Android only detects a password or pattern as incorrect if it has at least 4 digits, characters, or pattern dots."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can CrookCatcher detect wrong fingerprints?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, android sadly does not allow for CrookCatcher to detect wrong fingerprints."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does CrookCatcher work with Face Unlock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, android sadly does not allow for CrookCatcher to detect wrong faces."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does CrookCatcher not work with a pattern lock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some phones (e.g. some Xioami) fail to transmit wrong unlock attempts to CrookCatcher when using a pattern lock. If CrookCatcher is not working, please try switching to a PIN or password lock."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I have CrookCatcher Pro on multiple devices?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if you purchase CrookCatcher Pro on one device, it will also be available on any other device that is signed into Google Play with the same Google account."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is CrookCatcher not working after a reboot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Due to Android security rules, your phone must be unlocked once after reboot for CrookCatcher to access the camera. Unfortunately, this is a limitation that cannot be changed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I do if I forgot my password, PIN code, or pattern lock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The lock screen, and the password that is associated with it, is not a part of CrookCatcher. If you have forgotten your password, PIN code, or pattern, refer to your device's user manual."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will CrookCatcher erase all my phone or tablet's data if too many incorrect passwords are typed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. CrookCatcher will never erase your device's data."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does CrookCatcher need access to my Gmail account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Unlike other security applications, CrookCatcher does not rely on a third-party server for sending emails. Privacy is important, so CrookCatcher instead uses Google's authorization system OAuth2.0 to safely send emails directly from your device. This will not give CrookCatcher access to your email addresses or contacts. CrookCatcher will only use this permission to send security alert emails from your Gmail account to the email address defined by you from within the app. If you still feel uncomfortable with it, you can always create a new gmail account just for CrookCatcher."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I get CrookCatcher for iPhone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, it is sadly not currently possible to build CrookCatcher for iPhone due to system limitations."
+          }
+        }
+      ]
+    }
+    </script>
+
+
+
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css">
     <link href="fonts/nexa_bold.otf" rel="stylesheet">
     <link href="fonts/nexa_light.otf" rel="stylesheet">
@@ -78,42 +193,45 @@
 
                     <h1>Help</h1>
 
-                    <h4>If you are testing CrookCatcher, note that...</h4>
-                    <p>Android only detects a password or pattern as incorrect if it has at least 4 digits/characters or pattern dots.</p>
+                    <h4>How to uninstall CrookCatcher?</h4>
+                    <p>CrookCatcher needs Device Administrator Permission to work. Apps with Device Administrator Permission need to be deactivated before they can be uninstalled. So, simply open up CrookCatcher and deactivate it before uninstalling. If you run into issues, try restarting your phone, wait 5 minutes and try again.</p>
 
-                    <h4>How to uninstall CrookCatcher from your Android device?</h4>
-                    <p>When CrookCatcher is activated it is an administrator app. Administrator apps cannot be uninstalled. You must therefore first deactivate CrookCatcher to uninstall it. <em>Note: You can uninstall CrookCatcher from the bottom of the settings menu.</em></p>
+                    <h4>Why does CrookCatcher need Device Administrator Permission?</h4>
+                    <p>The Device Administrator Permission is required for CrookCatcher to be notified about wrong unlock attempts. CrookCatcher will never delete any of your data, despite the system warning shown when activating.</p>
 
-                    <h4>Why does CrookCatcher need to be administrator?</h4>
-                    <p>CrookCatcher need administrator rights to look out for failed unlock attempts.</em></p>
+                    <h4>Why does CrookCatcher stop working?</h4>
+                    <p>Your phone manufacturer might have imposed battery optimizing restrictions on CrookCatcher, preventing it from working in the background. To solve the issue, please follow instructions for your device on <a href="https://www.dontkillmyapp.com" target="_blank">www.dontkillmyapp.com</a>.</p>
 
-                    <h4>Will CrookCatcher erase all my phone or tablet's data if too many failed unlock attempts?</h4>
-                    <p><strong>No.</strong> CrookCatcher will <strong>never</strong> erase your device's data, even though a warning appears when you activate CrookCatcher that says "... erase all the phone's data if too many incorrect passwords are typed". The warning you see is just a standard unchangeable message provided by the Android System.</p>
+                    <h4>Why is CrookCatcher not detecting a wrong password?</h4>
+                    <p>If you are testing CrookCatcher, note that Android only detects a password or pattern as incorrect if it has at least 4 digits, characters, or pattern dots.</p>
+
+                    <h4>Can CrookCatcher detect wrong fingerprints?</h4>
+                    <p>No, Android sadly does not allow for CrookCatcher to detect wrong fingerprints.</p>
+
+                    <h4>Does CrookCatcher work with Face Unlock?</h4>
+                    <p>No, Android sadly does not allow for CrookCatcher to detect wrong faces.</p>
+
+                    <h4>Why does CrookCatcher not work with a pattern lock?</h4>
+                    <p>Some phones (e.g., some Xiaomi models) fail to transmit wrong unlock attempts to CrookCatcher when using a pattern lock. If CrookCatcher is not working, please try switching to a PIN or password lock.</p>
+
+                    <h4>Can I have CrookCatcher Pro on multiple devices?</h4>
+                    <p>Yes, if you purchase CrookCatcher Pro on one device, it will also be available on any other device that is signed into Google Play with the same Google account.</p>
+
+                    <h4>Why is CrookCatcher not working after a reboot?</h4>
+                    <p>Due to Android security rules, your phone must be unlocked once after reboot for CrookCatcher to access the camera. Unfortunately, this is a limitation that cannot be changed.</p>
+
+                    <h4>What should I do if I forgot my password, PIN code, or pattern lock?</h4>
+                    <p>The lock screen, and the password that is associated with it, is not a part of CrookCatcher. If you have forgotten your password, PIN code, or pattern, refer to your device's user manual.</p>
+
+                    <h4>Will CrookCatcher erase all my phone or tablet's data if too many incorrect passwords are typed?</h4>
+                    <p>No. CrookCatcher will never erase your device's data.</p>
 
                     <h4>Why does CrookCatcher need access to my Gmail account?</h4>
-                    <p>Not resembling other security applications, CrookCatcher is a
-                    standalone application. It does not send your pictures or locations
-                    to any third party server that would then forward this data to your
-                    email. Privacy is important, so CrookCatcher instead uses Google's
-                    authorization system OAuth2.0 to safely send emails directly from
-                    your device. This will not give CrookCatcher access to your email
-                    addresses or contacts. CrookCatcher will only use this permission
-                    to send security alert emails from your Gmail account to the email
-                    address defined by you from within the app.</p>
+                    <p>Unlike other security applications, CrookCatcher does not rely on a third-party server for sending emails. Privacy is important, so CrookCatcher instead uses Google's authorization system OAuth2.0 to safely send emails directly from your device. This will not give CrookCatcher access to your email addresses or contacts. CrookCatcher will only use this permission to send security alert emails from your Gmail account to the email address defined by you from within the app. If you still feel uncomfortable with it, you can always create a new Gmail account just for CrookCatcher.</p>
 
-                    <h4>I forgot my screen lock pin/pass/pattern?</h4>
-                    <p>The lockscreen, and the password that is associated with, is
-                    not a part of CrookCatcher. If you have forgotten your password,
-                    pin code or pattern refer to your device's user manual.</p>
+                    <h4>Can I get CrookCatcher for iPhone?</h4>
+                    <p>No, it is sadly not currently possible to build CrookCatcher for iPhone due to system limitations.</p>
 
-                    <h4>Location is missing</h4>
-                    <p>Mobile devices are not always able to perfectly determine
-                    its location. GPS does for example not function properly when
-                    indoor. Being out of reach of a network, can also have effect
-                    the location result you are getting. To get the best possible
-                    results make sure GPS is switched on in your device's system
-                    settings.
-                    </p>
 
                     <div style="margin-top: 32px; margin-bottom: 32px; opacity: 0.65">
                         <p style="margin: 0px;">
@@ -129,7 +247,7 @@
             <!-- Footer -->
             <footer class="mdl-mini-footer footer">
               <div class="mdl-mini-footer__left-section">
-                <div class="footer-copyright mdl-mini-footer__link-list"><li>Copyright © 2023 Jakob Harteg</li></div>
+                <div class="footer-copyright mdl-mini-footer__link-list"><li>Copyright © 2024 Jakob Harteg</li></div>
               </div>
                 <div class="mdl-mini-footer__right-section" style="margin-left: 16px; max-width: 100%;">
                   <ul class="mdl-mini-footer__link-list">

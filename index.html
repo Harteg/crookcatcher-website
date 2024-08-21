@@ -3,7 +3,7 @@
    <head>
 
       <!-- For debugging live reload -->
-      <script type="text/javascript" src="https://livejs.com/live.js"></script>
+      <!-- <script type="text/javascript" src="https://livejs.com/live.js"></script> -->
 
       <meta charset="utf-8">
       <meta content="IE=edge" http-equiv="X-UA-Compatible">
@@ -26,81 +26,54 @@
       <meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
       <meta name="theme-color" content="#64DD91">
 
-      <!-- <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicons/apple-touch-icon-57x57.png" />
-      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicons/apple-touch-icon-114x114.png" />
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicons/apple-touch-icon-72x72.png" />
-      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicons/apple-touch-icon-144x144.png" />
-      <link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicons/apple-touch-icon-60x60.png" />
-      <link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicons/apple-touch-icon-120x120.png" />
-      <link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicons/apple-touch-icon-76x76.png" />
-      <link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicons/apple-touch-icon-152x152.png" />
-      <link rel="icon" type="image/png" href="favicons/favicon-196x196.png" sizes="196x196" />
-      <link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96" />
-      <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32" />
-      <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16" />
-      <link rel="icon" type="image/png" href="favicons/favicon-128.png" sizes="128x128" />
-      <meta name="application-name" content="crookcatcher"/>
-      <meta name="msapplication-TileColor" content="#363636" />
-      <meta name="msapplication-TileImage" content="favicons/mstile-144x144.png" />
-      <meta name="msapplication-square70x70logo" content="favicons/mstile-70x70.png" />
-      <meta name="msapplication-square150x150logo" content="favicons/mstile-150x150.png" />
-      <meta name="msapplication-wide310x150logo" content="favicons/mstile-310x150.png" />
-      <meta name="msapplication-square310x310logo" content="favicons/mstile-310x310.png" />
-      <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#64DD91">
-      <link rel="shortcut icon" href="favicon/favicon.ico">
-      <meta name="msapplication-TileColor" content="#5b5b5b">
-      <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png">
-      <meta name="msapplication-config" content="favicon/browserconfig.xml">
-      <meta name="theme-color" content="#64DD91"> -->
-      
-      <title>CrookCatcher for Android [Offical Website]</title>
+      <title>CrookCatcher • Take Pictures when Wrong Password is Entered</title>
+      <meta name="description" content="Protect your phone with CrookCatcher for Android. The app takes secret selfies when someone tries to unlock your phone and sends them with GPS location to your email. Basic features are free. Upgrade to Pro for multiple pictures, audio recordings, fake homescreens, alarms and more!">
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "CrookCatcher",
+        "operatingSystem": "ANDROID",
+        "applicationCategory": "Utility",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "price": "0",
+          "seller": {
+            "@type": "Organization",
+            "name": "CrookCatcher"
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.3",
+          "ratingCount": "67211"
+        },
+        "url": "https://www.crookcatcher.app",
+        "image": "https://www.crookcatcher.app/images/ic_launcher_512.png",
+        "description": "Protect your Android phone with CrookCatcher. The app takes secret selfies when someone enters the wrong password and sends them, along with the GPS location, to your email.",
+        "sameAs": [
+          "https://x.com/CrookCatcherApp"
+        ]
+      }
+      </script>
 
       <!-- Page styles -->
       <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css">
       <link href="fonts/nexa_bold.otf" rel="stylesheet">
       <link href="fonts/nexa_light.otf" rel="stylesheet">
-      <link href="mdl/material.min.css" rel="stylesheet">
+
+      <!-- <link href="mdl/material.min.css" rel="stylesheet"> -->
+      <link href="mdl/material.purged.css" rel="stylesheet"> <!-- Purged version of material.min.css, contains only the used styles -->
+
       <link href="mystyles.css" rel="stylesheet">
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <script src="mdl/material.min.js"></script>
-      <script src="scripts/date.js" type="text/javascript"></script>
-      <style>
-         #view-source {
-         position: fixed;
-         display: block;
-         right: 0;
-         bottom: 0;
-         margin-right: 40px;
-         margin-bottom: 40px;
-         z-index: 900;
-         }
-      </style>
-      <script>
-         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-         ga('create', 'UA-52918752-3', 'auto');
-         ga('send', 'pageview');
-      </script>
-      <script>
-         /**
-         * Function that tracks a click on an outbound link in Analytics.
-         * This function takes a valid URL string as an argument, and uses that URL string
-         * as the event label. Setting the transport method to 'beacon' lets the hit be sent
-         * using 'navigator.sendBeacon' in browser that support it.
-         */
-         var trackOutboundLink = function(url) {
-            ga('send', 'event', 'outbound', 'click', url, {
-              'transport': 'beacon',
-              'hitCallback': function(){document.location = url;}
-            });
-         }
-      </script>
+      <!-- <script src="mdl/material.min.js"></script> -->
+
    </head>
    <body>
-      <!-- ------ SVGs ------- -->
+      <!-- SVGs -->
       <svg class="clip-svg" width="0" height="0">
          <defs>
             <clipPath id="svg2_2" clipPathUnits="objectBoundingBox" >
@@ -115,14 +88,14 @@
             </clipPath>
          </defs>
       </svg>
-      
+
       <!-- Uses a header that scrolls with the text, rather than staying locked at the top -->
       <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
          <header class="mdl-layout__header mdl-layout__header--scroll">
             <div class="mdl-layout__header-row">
                <div class="mdl-layout-spacer"></div>
                <a class="header-button" href="help" title="Help"><img alt=
-                  "ic_help_outline_white_24px.svg" src="images/ic_help_outline_white_24px.svg"></a>
+                  "Help" src="images/ic_help_outline_white_24px.svg"></a>
             </div>
          </header>
       <main class="mdl-layout__content">
@@ -132,10 +105,10 @@
             <div class="section-container">
                <div class="center" style="text-align: center">
                   <img src="images/crookcatcher_icon.svg" class="top-section-icon" alt="Crookcatcher icon" />
-                  <h1 class="top-section-title"></h1> <!-- Text added from CSS -->
-                  <p class="top-section-subtitle">Catch anyone snooping around your phone</p>
+                  <h1 class="top-section-title crookCatcher-font">Crook<wbr>Catcher</h1> <!-- Text added from CSS -->
+                  <p class="top-section-subtitle">Take Pictures when Wrong Password is Entered</p>
                   <a href=
-                     'https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play'
+                     'https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Download CrookCatcher on Google Play'
                      src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'
                      class="top-play-badge" onClick="ga('send', 'event', 'play-badge-1', 'click',);"></a>
                </div>
@@ -154,7 +127,7 @@
                   </p>
                </div>
                <div class="mdl-cell mdl-cell--6-col mdl-cell--order-1-desktop" style="text-align: center; margin: 0 auto;">
-                  <img src="images/screen_alert_event_shadow.png" alt="screen_alert_event_shadow.png" style="max-width: 320px; width: 100%;" />
+                  <img src="images/screen_alert_event_shadow.png" alt="Take pictures when pattern is wrong" style="max-width: 320px; width: 100%;" />
                </div>
             </div>
          </div>
@@ -192,24 +165,25 @@
                </div>
             </div>
          </div>
-         
+
          <hr/>
-         
+
          <div class="section no-padding-top">
-            
+
             <!-- Screenshots-->
             <div class="mdl-grid section"
                style="overflow: visible;
                background-color: #22272B;">
                <div class="screenshots center" style="text-align: center">
-                  <img alt="screen_config.png"  class="screenshot" src="images/screen_config.png">
-                  <img alt="screen_home.png"    class="screenshot" src="images/screen_home.png">
-                  <img alt="screen_crooks.png"  class="screenshot" src="images/screen_crooks.png">
+                  <img alt="CrookCatcher settings"        class="screenshot" src="images/screen_config.png" loading="lazy">
+                  <img alt="Main screen of CrookCatcher"  class="screenshot" src="images/screen_home.png" loading="lazy">
+                  <img alt="List of captured pictures"    class="screenshot" src="images/screen_crooks.png" loading="lazy">
+
                </div>
             </div>
 
             <hr/>
-         
+
             <!-- Premium features -->
             <div class="section transparent-bg" style="width: 100%;">
                <div class="mdl-grid section-container" style="margin-bottom: 48px;">
@@ -217,7 +191,7 @@
                      <p class="mdl-typography--headline crookCatcher-font" style="font-size: 32px; line-height: 1.15; font-weight: 300; text-align: center">CrookCatcher Pro</p>
                      <p class="mdl-typography--headline" style=
                         "font-size: 26px; line-height: 1.15; font-weight: 300; text-align: center">Essential features are free<br>
-                        Upgrade to <span But class="crookCatcher-font">Pro</span> for more
+                        Upgrade to <span class="crookCatcher-font">Pro</span> for more
                      </p>
                   </div>
                </div>
@@ -386,7 +360,7 @@
                   </div>
                   <div class="feature">
                      <div>
-                        <h4>Hide notifications untill unlocked</h4>
+                        <h4>Hide notifications until unlocked</h4>
                         <span>Only show alert notifications on device after successful unlock. This way crooks won't know they got caught.</span>
                      </div>
                      <div>
@@ -420,7 +394,7 @@
                         <img class="" src="images/ic_tick.svg">
                      </div>
                   </div>
-                  
+
                </div> <!-- End of features -->
                </div>
 
@@ -428,37 +402,37 @@
                <div class="mdl-grid section-container" style="margin-top: 64px;">
                   <div class="center" style="text-align: center;">
                      <p class="mdl-typography--headline" style=
-                        "font-size: 26px; line-height: 1.15; font-weight: 300; text-align: center">CrookCatcher <span But class="crookCatcher-font">Pro</span>
+                        "font-size: 26px; line-height: 1.15; font-weight: 300; text-align: center">CrookCatcher <span class="crookCatcher-font">Pro</span>
                         is available for purchase inside the app.
                      </p>
                   </div>
                </div>
 
             </div>
-            
+
             <hr/>
 
             <div class="section transparent-bg" id="section_CC">
                <div class="section-container">
                   <div class="center" style="text-align: center">
                      <img src="images/crookcatcher_icon.svg" class="top-section-icon" alt="Crookcatcher icon" />
-                     <h1 class="top-section-title"></h1> <!-- Text added from CSS -->
+                     <h1 class="top-section-title crookCatcher-font">Crook<wbr>Catcher</h1> <!-- Text added from CSS -->
                      <p class="top-section-subtitle">Download now, before it's too late...</p>
                      <a href=
-                        'https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play'
+                        'https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Download CrookCatcher on Google Play'
                         src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'
                         class="top-play-badge" onClick="ga('send', 'event', 'play-badge-2', 'click',);"></a>
                   </div>
                </div>
             </div>
       </div>
-      
+
 
       <hr/>
       <footer class="mdl-mini-footer footer">
          <div class="mdl-mini-footer__left-section">
             <div class="footer-copyright mdl-mini-footer__link-list">
-               <li>Copyright © 2023 Jakob Harteg</li>
+               <li>Copyright © 2024 Jakob Harteg</li>
             </div>
          </div>
          <div class="mdl-mini-footer__right-section" style="margin-left: 16px; max-width: 100%;">
@@ -470,7 +444,35 @@
             </ul>
          </div>
       </footer>
-         
-      
+
+
+
+      <!-- Load js and analytics once page has been loaded -->
+      <script src="scripts/date.js" type="text/javascript"></script>
+      <script>
+         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+         ga('create', 'UA-52918752-3', 'auto');
+         ga('send', 'pageview');
+      </script>
+      <script>
+         /**
+         * Function that tracks a click on an outbound link in Analytics.
+         * This function takes a valid URL string as an argument, and uses that URL string
+         * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+         * using 'navigator.sendBeacon' in browser that support it.
+         */
+         var trackOutboundLink = function(url) {
+            ga('send', 'event', 'outbound', 'click', url, {
+              'transport': 'beacon',
+              'hitCallback': function(){document.location = url;}
+            });
+         }
+      </script>
+
+
+
    </body>
 </html>

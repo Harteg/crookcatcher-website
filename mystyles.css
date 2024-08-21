@@ -29,7 +29,7 @@ hr {
 }
 
 #section_CC h1:after{
-    content: "CrookCatcher";
+    /* content: "CrookCatcher"; */
 }
 
 @media (max-width: 840px) {
@@ -37,13 +37,6 @@ hr {
         scale: 1;
     }
 }
-
-@media (max-width: 640px) {
-    #section_CC h1:after{
-        content: "Crook\A Catcher";
-    }
-}
-
 
 
 .section-container {
@@ -209,12 +202,12 @@ hr {
     display: block;
     font-size: 16px;
     line-height: 1.3em;
-  }  
+  }
 
 .features_frame{
-    max-width: 1000px; 
-    position: relative; 
-    padding: 0px; 
+    max-width: 1000px;
+    position: relative;
+    padding: 0px;
     padding-top: 88px;
 }
 
