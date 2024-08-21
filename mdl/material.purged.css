@@ -26,7 +26,7 @@ hr {
     margin: 1em 0;
     padding: 0
 }
-
+audio,
 img,
 svg {
     vertical-align: middle
@@ -50,7 +50,7 @@ svg {
     a[href]:after {
         content: " (" attr(href)")"
     }
-    
+
     img {
         page-break-inside: avoid
     }
@@ -162,7 +162,12 @@ a {
     color: #0F9D58;
     font-weight: 500
 }
-
+address {
+    font-size: 12px;
+    line-height: 1;
+    font-style: normal
+}
+address,
 ul {
     font-weight: 400;
     letter-spacing: 0
@@ -214,7 +219,7 @@ ul {
     margin-right: 16px
 }
 @media screen and (min-width: 760px) {
-    
+
     .mdl-mini-footer__link-list li {
         line-height: 36px
     }

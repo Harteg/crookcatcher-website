@@ -5,7 +5,8 @@ $ brew install node
 $ npm install -g purgecss
 
 (run)
-purgecss --css material.min.css --content index.html mystyles.css --output material.purged.css
+$ cd Github/crookcatcher-website
+purgecss --css mdl/material.min.css --content index.html mystyles.css help.html privacy.html terms.html --output material.purged.css
 
 
 where
