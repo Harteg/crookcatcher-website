@@ -1,0 +1,89 @@
+---
+title: Introducing CrookCatcher
+subtitle: 10 years of catching phone thieves and protecting your privacy
+date: '2024-12-01'
+description: "From a 17-year-old's coding project to millions of users - how CrookCatcher became the smartest Android security app for catching phone thieves and snoops in action."
+image: '/images/blog/intro-header.png'
+imageAlt: 'CrookCatcher app interface showing security features'
+published: false
+---
+
+<script>
+  import Features from '$lib/components/Features.svelte';
+  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+</script>
+
+CrookCatcher is an android app that helps you catch phone thieves. It works like this:
+1. Someone tries to unlock your phone with the wrong PIN, password, or pattern.
+2. CrookCatcher silently takes a picture with the front camera.
+3. It then retrieves your phone's GPS location and estimated address.
+4. Finally, all this information is sent directly to your email.
+5. From here on several things can happen:
+
+    - You have a laugh when you see your own stressed face in your inbox 🥳
+    - You now have a picture of your phone thief and can report them to the police 🚨
+    - You now have proof that your spouse was trying to read your messages and can confront them with it 😱
+    - ... 
+
+I know, it's pretty good! Go ahead and <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=website&utm_medium=blog_introducing_cc_go_ahead' target="_blank" rel="noopener noreferrer">download CrookCatcher</a> now or, if you'd like, let me tell you a bit more about it first. Read on! ☺️
+
+## 🌟 Why Choose CrookCatcher? It's the best! Here's why:
+When I first started programming CrookCatcher, back in 2014, <a target="_blank" href="https://play.google.com/store/apps/details?id=com.lookout">Lookout</a> was the only other app that did something similar. I was 17 and teaching myself to program, so I thought it could be fun to make a better version. Today there are really quite many other apps that try to do the same thing, such as <a target="_blank" href="https://play.google.com/store/apps/details?id=com.bloketech.lockwatch">LockWatch</a>, <a target="_blank" href="https://play.google.com/store/apps/details?id=com.hld.screenmonitor">Hidden Eye</a>, <a target="_blank" href="https://play.google.com/store/apps/details?id=com.wtmp.svdsoftware">WTMP</a>, and even some that almost look like clones of CrookCatcher (won't mention any names, cough cough.. <a target="_blank" href="https://play.google.com/store/apps/details?id=com.evezzon.intruderdetector">Intruder Detector</a>). 
+
+The first version of CrookCatcher was pretty basic (<a target="_blank" href="https://www.crookcatcher.app/images/blog/cc_old.png">not pretty!</a> 😅) but it worked. While I've done many other things in my life since then, I also kept working on CrookCatcher and today I think CrookCatcher is really the best app out there. Why you ask? Well.. Because CrookCatcher doesn't just take pictures, but also *records videos*, plays alarm sounds, shows a message to the thief or a *fake home screen* to fool them into thinking they've unlocked the phone, making them click on fake apps which just causes more pictures to be taken! 
+
+CrookCatcher can disguise itself on your home screen as a file manager icon and can require a pattern code to be opened. It can take *multiple pictures* for every failed unlock, even using the *back facing camera* so you can learn about the surroundings, and it can send pictures to multiple email addresses (TIP: just separate the receiver email addresses in CrookCatcher settings by a comma 😉), it can even take pictures when someone guesses the right password! Oh and did I mention *Google Drive* upload? 
+
+And since people of course don't only use CrookCatcher to catch thieves, but also to catch their snooping spouses, children and coworkers who use their phone without permission, CrookCatcher also has a great interface for looking at pictures and videos directly in the app. It even has an immutable activity log which records when various actions in CrookCatcher are taken. Sorry for the rant, but I think that answers the question. 
+
+
+## ⚙️ How it works
+CrookCatcher uses a special permission called *Device Admin* to detect wrong unlock attempts right on the normal lock screen. I've then coded some pretty complicated stuff to make the app take pictures without first showing a preview on the screen. CrookCatcher will then retrieve your phone's GPS location and estimated address and send it together with the picture to your email. 
+
+CrookCatcher uses *gmail* to send emails. This ensures complete transparency about which emails CrookCatcher sends and where your data goes. During the CrookCatcher setup process, you'll be asked to grant CrookCatcher access to a gmail account. You can create a new gmail account just for CrookCatcher or use an existing one (you can also use CrookCatcher without email). CrookCatcher only requests permission to send emails and cannot read, delete or modify any emails in your account. CrookCatcher does *automatic image compression* based on your network speed to ensure emails are sent as fast as possible, while keeping quality as good as possible.  
+
+Here is a look at the email you will receive: 
+
+<figure class="blog-figure">
+  <!-- svelte-ignore a11y_img_redundant_alt -->
+  <img src="/images/blog/email_preview_sm.jpg" alt="Receive photos and location directly in your email" />
+  <figcaption>Receive photos and location directly in your email</figcaption>
+</figure>
+
+
+## Is it all free?
+
+No, but the *most important features are free*. This includes taking pictures and sending emails with location and photo. The price for **CrookCatcher Pro** depends on your country so you will have to look in the app to see it. But it's pretty cheap! Considering the price of your phone (and your privacy), I think it's a good investment. Below is a complete list of features in the free and pro versions.
+
+<Features />
+
+
+## ✈️ What if the thief turns on airplane mode or turns off the device?
+The first thing a thief typically does after stealing a phone is turn on airplane mode or shut down the device. This prevents CrookCatcher from sending emails and tracking your device. So I implemented a feature that tries to prevent this or at least ensure we catch the thief before they do. 
+
+When enabled, CrookCatcher will immediately turn off the screen if the power menu, quick tiles menu, or notification shade is detected on the lock screen—and while doing so, take pictures! This cannot prevent the thief from switching off the device by holding down the power button, but chances are they will try the normal way first and thus be caught by CrookCatcher! 
+
+It was not easy to program this feature because it requires detecting these menus on the screen somewhat manually and it therefore doesn't work on all devices. I'm working to improve this, but these features will likely remain 'experimental'. Give it a try by going to the 'Experimental Features' section in the app settings (it's free!).
+
+## Final Thoughts
+I started building CrookCatcher for fun, but I kept going because I saw how useful it was to so many people. It has accumulated more than 8 million downloads and sent in total more than 400 million emails! Especially when people write in the comments that they managed to get back their stolen phone because of CrookCatcher! I hope this article was helpful to you. If you're concerned about phone security like me, please give CrookCatcher a try!
+
+Best wishes, <br />
+Jakob H. ✌️
+
+<PlayStoreButton utmSource="blog_introducing_cc_bottom" />
+
+
+<figure class="blog-figure only-desktop" style="max-width: 250px;">
+  <img src="/images/qr_codes/play_qr_source_blog_introducing_cc.png" alt="QR code to download CrookCatcher" />
+  <figcaption>Scan to download CrookCatcher</figcaption>
+</figure>
+
+## Frequently Asked Questions
+### Q: How does CrookCatcher affect battery life?
+A: CrookCatcher only activates during incorrect unlock attempts, so battery usage is very minimal.
+
+### Q: Is my privacy protected?
+A: Yes! CrookCatcher never shares your photos, locations, email address or any other personal information with anyone, not even the developer. You can read more about this in the [privacy policy](/en/privacy).
+
+Got more questions? Check out the [FAQ](/en/help).

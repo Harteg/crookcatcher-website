@@ -1,0 +1,263 @@
+{
+  "hero": {
+    "title": "Salut,",
+    "subtitle": "Découvrez <span class='cc-font'>CrookCatcher</span>, l'application Android qui prend des selfies secrets des voleurs de téléphone et vous envoie leur photo et leur localisation par email 🤟"
+  },
+  "features": {
+    "lockscreen": "Entrez un mauvais code PIN, motif ou mot de passe et <strong>CrookCatcher</strong> prend un selfie secret",
+    "gps": "<strong>CrookCatcher</strong> localise ensuite votre téléphone avec le GPS",
+    "email": "Enfin, <strong>CrookCatcher</strong> envoie les photos et la localisation à votre email",
+    "email_expand_btn": "Voir l'email ▼",
+    "comparison": {
+      "free": "Gratuit",
+      "pro": "PRO",
+      "items": {
+        "takePicture": {
+          "title": "Prendre des photos",
+          "description": "Prend une photo lorsqu'un mauvais mot de passe, code PIN ou schéma est saisi."
+        },
+        "location": {
+          "title": "Obtenir la localisation",
+          "description": "Localise le téléphone avec le GPS lorsqu'une photo est prise."
+        },
+        "email": {
+          "title": "Envoyer une alerte par email",
+          "description": "Recevez les photos et la localisation par email."
+        },
+        "video": {
+          "title": "Capture vidéo",
+          "description": "Avec la capture vidéo, vous avez plus de chances d'obtenir une bonne vue de l'intrus et d'identifier sa voix et son environnement."
+        },
+        "drive": {
+          "title": "Sauvegarde Google Drive",
+          "description": "Téléchargez les photos et vidéos directement sur votre Google Drive pour accéder facilement aux fichiers sur n'importe quel appareil."
+        },
+        "backCamera": {
+          "title": "Caméra arrière",
+          "description": "Identifiez l'environnement de l'intrus avec des photos de la caméra arrière."
+        },
+        "alertMessage": {
+          "title": "Message d'alerte",
+          "description": "Affichez un message personnalisé sur l'écran de verrouillage lorsqu'une photo est prise. Vous pouvez dire au voleur de rendre votre téléphone, ou que vous montrerez sa photo à la police."
+        },
+        "soundAlarm": {
+          "title": "Alarme sonore",
+          "description": "Déclenchez une alarme personnalisée à plein volume lorsqu'un mauvais mot de passe est saisi."
+        },
+        "fakeHomeScreen": {
+          "title": "Faux écran d'accueil",
+          "description": "Affichez un faux écran d'accueil lorsqu'un mauvais mot de passe est saisi. Les voleurs penseront avoir déverrouillé votre téléphone. Lorsqu'ils commencent à toucher l'écran, d'autres photos seront prises."
+        },
+        "appLock": {
+          "title": "Verrouillage de l'app",
+          "description": "Verrouillez l'accès à CrookCatcher avec un schéma."
+        },
+        "disguiseApp": {
+          "title": "Déguiser l'app",
+          "description": "Changez l'icône et le nom de l'application pour la faire ressembler à un explorateur de fichiers, ainsi les intrus ne sauront pas que vous avez installé CrookCatcher."
+        },
+        "breakIn": {
+          "title": "Détection d'intrusion",
+          "description": "Prend une photo et envoie une alerte par email si le voleur devine le bon mot de passe après avoir échoué."
+        },
+        "emailSubject": {
+          "title": "Objet d'email personnalisé",
+          "description": "Modifiez l'objet des emails d'alerte pour éviter que les voleurs ne voient des notifications révélatrices."
+        },
+        "hideNotifications": {
+          "title": "Masquer les notifications",
+          "description": "N'affichez les notifications d'alerte sur l'appareil qu'après un déverrouillage réussi. Ainsi, les voleurs ne sauront pas qu'ils ont été pris."
+        },
+        "noAds": {
+          "title": "Sans publicités",
+          "description": "Profitez d'une application sans publicité et soutenez le développement de CrookCatcher."
+        }
+      }
+    },
+    "coming_soon": "Bientôt disponible"
+  },
+  "pro": {
+    "title": "CrookCatcher Pro",
+    "subtitle": "Les fonctionnalités essentielles sont gratuites<br>Passez à <strong>Pro</strong> pour plus",
+    "availableInApp": "<strong>CrookCatcher Pro</strong> est disponible à l'achat dans l'application."
+  },
+  "download": {
+    "subtitle": "Téléchargez maintenant, avant qu'il ne soit trop tard...",
+    "follow": "Suivez CrookCatcher sur X"
+  },
+  "nav": {
+    "blog": "Guides et Tutoriels",
+    "help": "Aide"
+  },
+  "meta": {
+    "title": "CrookCatcher pour Android • Prenez des photos lorsque le mauvais mot de passe est saisi",
+    "description": "Protégez votre téléphone avec CrookCatcher pour Android..."
+  },
+  "help": {
+    "meta": {
+      "title": "CrookCatcher Aide & FAQ • Application Anti-Vol Android",
+      "description": "Obtenez de l'aide avec CrookCatcher, l'application Android qui prend des photos lorsque des mots de passe incorrects sont saisis. Questions fréquentes et support."
+    },
+    "hero": {
+      "title": "Aide & FAQ",
+      "subtitle": "Tout ce que vous devez savoir sur CrookCatcher"
+    },
+    "support": {
+      "title": "Besoin d'aide supplémentaire ?",
+      "emailText": "Envoyez-moi un email à : <a href=\"mailto:contact@crookcatcher.app\">contact@crookcatcher.app</a>"
+    },
+    "faqs": {
+      "notTakingPictures": {
+        "question": "CrookCatcher ne prend pas de photos",
+        "answer": "<ul style='list-style-type: disc'><li>Si vous testez CrookCatcher, notez qu'Android ne détecte un mot de passe ou un schéma comme incorrect que s'il comporte au moins 4 chiffres/caractères ou points de schéma.</li><li>Votre fabricant de téléphone peut avoir imposé des restrictions d'optimisation de la batterie supplémentaires à CrookCatcher, l'empêchant de fonctionner en arrière-plan. Pour résoudre ce problème, veuillez suivre les instructions pour votre appareil sur <a href='https://dontkillmyapp.com'>www.dontkillmyapp.com</a>.</li></ul>"
+      },
+      "eraseData": {
+        "question": "CrookCatcher effacera-t-il toutes les données de mon téléphone ou de ma tablette si trop de mots de passe incorrects sont saisis ?",
+        "answer": "Non. CrookCatcher n'effacera jamais les données de votre appareil."
+      },
+      "gmailAccess": {
+        "question": "Pourquoi CrookCatcher a-t-il besoin d'accéder à mon compte Gmail ?",
+        "answer": "Contrairement aux autres applications de sécurité, CrookCatcher n'utilise pas de serveur tiers pour envoyer des emails. La confidentialité est importante, donc CrookCatcher utilise plutôt le système d'autorisation OAuth2.0 de Google pour envoyer des emails en toute sécurité directement depuis votre appareil. Cela ne donnera pas à CrookCatcher l'accès à vos adresses email ou contacts. CrookCatcher utilisera uniquement cette autorisation pour envoyer des emails d'alerte de sécurité depuis votre compte Gmail vers l'adresse email que vous avez définie dans l'application."
+      },
+      "forgotPassword": {
+        "question": "J'ai oublié mon mot de passe, code PIN ou schéma de verrouillage.",
+        "answer": "L'écran de verrouillage et le mot de passe qui lui est associé ne font pas partie de CrookCatcher. Si vous avez oublié votre mot de passe, code PIN ou schéma, consultez le manuel d'utilisation de votre appareil."
+      },
+      "purchasedPro": {
+        "question": "Déjà acheté la version Pro ?",
+        "answer": "Si vous avez déjà acheté la version Pro mais qu'elle n'apparaît pas dans l'application, assurez-vous d'être connecté à votre appareil avec le même compte Google que celui utilisé pour l'achat, puis cliquez sur le bouton de restauration sur la page de configuration de CrookCatcher."
+      },
+      "revokeAccess": {
+        "question": "Comment révoquer l'accès de CrookCatcher à Gmail ou Drive ?",
+        "answer": "Ouvrez les <a href='https://myaccount.google.com/permissions'>Paramètres du compte Google</a> et sélectionnez CrookCatcher dans la liste. Puis faites défiler jusqu'en bas et sélectionnez supprimer les connexions."
+      },
+      "reboot": {
+        "question": "Ne fonctionne pas après le redémarrage ?",
+        "answer": "En raison des précautions de sécurité d'Android, votre téléphone doit être déverrouillé une fois après le redémarrage pour que CrookCatcher puisse accéder à la caméra. J'aimerais pouvoir corriger cela, mais malheureusement je ne peux rien y faire."
+      },
+      "payment": {
+        "question": "Problèmes de paiement",
+        "answer": "Vous rencontrez des problèmes de paiement ? De nombreux problèmes sont traités dans le <a href='https://support.google.com/googleplay/answer/1267137'>Centre d'aide des paiements Google Play</a>."
+      },
+      "internet": {
+        "question": "CrookCatcher a-t-il besoin d'Internet ?",
+        "answer": "CrookCatcher fonctionne hors ligne pour détecter les tentatives de déverrouillage non autorisées et capturer des données. Une connexion Internet est cependant nécessaire pour envoyer des emails d'alerte. En raison des restrictions Android, CrookCatcher ne peut malheureusement pas activer et désactiver automatiquement les données ou le Wi-Fi lorsque nécessaire."
+      }
+    }
+  },
+  "footer": {
+    "help": "Aide",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité",
+    "copyright": "Copyright © {year} Jakob Harteg"
+  },
+  "terms": {
+    "pageTitle": "Conditions d'utilisation",
+    "metaDescription": "Conditions d'utilisation de CrookCatcher, l'application Android qui prend des photos lorsque de mauvais mots de passe sont saisis.",
+    "title": "Conditions d'utilisation",
+    "subtitle": "En téléchargeant et en utilisant CrookCatcher, vous acceptez les termes et conditions suivants. Veuillez les lire attentivement.",
+    "section1": {
+      "title": "1. Utilisation de l'application",
+      "content": "CrookCatcher est destiné à un usage personnel et non commercial uniquement. Vous vous engagez à utiliser CrookCatcher en conformité avec toutes les lois et réglementations applicables. Vous ne pouvez pas modifier ou copier les matériaux de cette application ni les utiliser à des fins commerciales. Il est interdit de tenter de décompiler ou de désassembler tout logiciel contenu dans l'application."
+    },
+    "section2": {
+      "title": "2. Propriété et droits de propriété intellectuelle",
+      "content": "Tous les matériaux de CrookCatcher, y compris les droits de propriété intellectuelle, sont soit la propriété de Jakob Harteg, soit lui sont concédés sous licence. Vous ne pouvez pas utiliser le contenu de cette application sans l'autorisation écrite expresse de Jakob Harteg."
+    },
+    "section3": {
+      "title": "3. Collecte de données",
+      "content": "CrookCatcher collecte des données utilisateur anonymes sauf si vous vous désinscrivez dans les paramètres de l'application. Cela inclut des métriques de suivi standard avec Google Analytics et Firebase, telles que lorsque qu'un e-mail est envoyé et comment vous naviguez dans l'application. Aucune information privée ou sensible n'est collectée, stockée ou partagée. Veuillez consulter notre Politique de confidentialité pour plus de détails."
+    },
+    "section4": {
+      "title": "4. Exclusions de garantie",
+      "content": "CrookCatcher est fourni \"en l'état\" sans aucune garantie, expresse ou implicite. Cela inclut, sans s'y limiter, les garanties implicites de qualité marchande, d'adéquation à un usage particulier et de non-contrefaçon. Jakob Harteg ne fait aucune déclaration quant à l'exactitude ou la fiabilité du contenu ou des fonctionnalités de l'application."
+    },
+    "section5": {
+      "title": "5. Limitation de responsabilité",
+      "content": "En aucun cas Jakob Harteg ne sera tenu responsable des dommages résultant de l'utilisation ou de l'impossibilité d'utiliser CrookCatcher, y compris, sans s'y limiter, les dommages directs, indirects, accessoires, spéciaux ou consécutifs, ou la perte de données, d'appareils ou de profits."
+    },
+    "section6": {
+      "title": "6. Droit applicable",
+      "content": "Toute réclamation ou tout litige relatif à CrookCatcher sera régi par les lois de l'Allemagne, sans égard aux dispositions relatives aux conflits de lois."
+    },
+    "section7": {
+      "title": "7. Modifications des conditions d'utilisation",
+      "content": "Jakob Harteg se réserve le droit de mettre à jour ou de modifier ces conditions à tout moment sans préavis. En continuant à utiliser CrookCatcher après que des modifications ont été apportées, vous acceptez d'être lié par les conditions mises à jour."
+    },
+    "section8": {
+      "title": "8. Accord intégral",
+      "content": "Ces conditions constituent l'intégralité de l'accord entre vous et Jakob Harteg concernant CrookCatcher et remplacent tout accord antérieur."
+    },
+    "section9": {
+      "title": "9. Divisibilité",
+      "content": "Si une disposition de ces conditions est jugée inapplicable, les autres dispositions resteront en vigueur."
+    }
+  },
+  "privacy": {
+    "pageTitle": "Politique de Confidentialité",
+    "metaDescription": "Politique de confidentialité pour CrookCatcher, l'application Android qui prend des photos lorsque de mauvais mots de passe sont saisis.",
+    "title": "Politique de Confidentialité",
+    "subtitle": "En utilisant CrookCatcher, vous acceptez la politique suivante :",
+    "camera": {
+      "title": "Caméra",
+      "items": [
+        "CrookCatcher utilise l'autorisation de la caméra pour prendre des photos et enregistrer des vidéos lorsque vous saisissez un mauvais mot de passe, code PIN ou schéma de verrouillage, en fonction du nombre de tentatives que vous spécifiez dans les paramètres de l'application sous la préférence 'Échec de déverrouillage'.",
+        "CrookCatcher ne prendra pas de photos ni n'enregistrera de vidéos à d'autres moments, sauf si vous avez activé d'autres fonctionnalités spécifiques dans l'application.",
+        "Les photos et vidéos vous sont envoyées par e-mail si la fonction e-mail est activée dans les paramètres de CrookCatcher. Voir la section E-mail ci-dessous pour plus de détails. Les photos et vidéos peuvent également être téléchargées sur Google Drive si vous l'avez activé.",
+        "Sinon, les photos et vidéos sont stockées uniquement sur votre appareil et ne sont pas partagées avec le développeur ou tout tiers."
+      ]
+    },
+    "location": {
+      "title": "Localisation",
+      "items": [
+        "Si elle est activée dans les paramètres, CrookCatcher trouve la localisation de votre appareil en arrière-plan lorsqu'il prend une photo.",
+        "CrookCatcher n'accèdera pas à votre localisation à d'autres moments.",
+        "La localisation est enregistrée avec la photo et vous est envoyée par e-mail si la fonction e-mail est activée.",
+        "Vos données de localisation ne sont pas partagées avec le développeur ou tout tiers."
+      ]
+    },
+    "microphone": {
+      "title": "Microphone",
+      "items": [
+        "Lorsque l'enregistrement vidéo est activé, CrookCatcher accédera au microphone pour enregistrer des vidéos.",
+        "L'accès au microphone n'est accordé que lorsque vous activez cette fonctionnalité et est utilisé uniquement pour l'enregistrement de vidéos."
+      ]
+    },
+    "email": {
+      "title": "E-mail",
+      "items": [
+        "CrookCatcher vous demande de vous connecter avec votre compte Gmail et d'accorder la permission d'« envoyer des e-mails en votre nom ». Cela évite d'envoyer des données sensibles via des serveurs tiers. Pour révoquer cette permission, visitez <a href=\"https://myaccount.google.com/permissions\">https://myaccount.google.com/permissions</a>.",
+        "Cela ne donne pas à CrookCatcher l'accès pour lire vos e-mails, gérer vos contacts ou effectuer d'autres actions.",
+        "Les e-mails sont envoyés uniquement à l'adresse spécifiée dans le paramètre 'Envoyer l'e-mail à' et seulement lorsque des conditions spécifiques sont remplies, que vous spécifiez dans l'application.",
+        "Vous pouvez toujours voir dans votre compte Gmail quels e-mails CrookCatcher a envoyés.",
+        "Votre adresse e-mail n'est pas partagée avec le développeur ou tout tiers."
+      ]
+    },
+    "analytics": {
+      "title": "Statistiques d'utilisation et rapports de plantage",
+      "content": "CrookCatcher suit des données d'utilisation anonymes et des rapports de plantage en utilisant Firebase Analytics pour améliorer les performances et corriger les bugs. Vous pouvez vous désinscrire en décochant une option en bas du menu des paramètres dans CrookCatcher."
+    },
+    "dataSecurity": {
+      "title": "Sécurité des données",
+      "content": "Nous accordons une grande importance à votre confiance et nous nous engageons à protéger vos données. Toutes les données collectées sont stockées en toute sécurité sur votre appareil ou vous sont envoyées directement par e-mail si cette option est activée. Aucune donnée personnelle n'est transmise à un tiers à des fins publicitaires ou autres."
+    },
+    "changes": {
+      "title": "Modifications de cette Politique de Confidentialité",
+      "content": "Cette politique de confidentialité s'applique à la version la plus récente de CrookCatcher. Nous pouvons mettre à jour notre Politique de Confidentialité de temps à autre. Nous vous conseillons de consulter cette page périodiquement pour tout changement. Les modifications sont effectives immédiatement après leur publication sur cette page."
+    },
+    "footer": {
+      "dataUsage": "Les données sont utilisées uniquement pour permettre à CrookCatcher de fonctionner et de s'améliorer. Aucune donnée personnelle n'est transmise à un tiers à des fins publicitaires ou pour tout autre but.",
+      "compliance": "CrookCatcher est conforme à la <a href=\"https://developers.google.com/terms/api-services-user-data-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Politique officielle sur les données utilisateur pour les services API de Google</a>."
+    }
+  },
+  "share": {
+    "label": "Partager",
+    "platform": "Partager sur {platform}"
+  },
+  "Last updated": "Dernière mise à jour",
+  "blog": {
+    "title": "Guides et Tutoriels • Application Antivol CrookCatcher",
+    "description": "Une collection d'articles vous montrant comment protéger votre téléphone contre les voleurs et tirer le meilleur parti de CrookCatcher.",
+    "readMore": "Lire l'article"
+  }
+} 
