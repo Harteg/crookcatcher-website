@@ -1,6 +1,7 @@
 import { redirect } from '@sveltejs/kit';
 import type { PageLoad } from './$types';
 
-export const load: PageLoad = async () => {
-  throw redirect(307, '/en');
+export const load: PageLoad = async ({ url }) => {
+  const base = url.pathname.startsWith('/crookcatcher') ? '/crookcatcher' : '';
+  throw redirect(307, `${base}/en`);
 }; 
