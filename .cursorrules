@@ -1,0 +1,13 @@
+# Project Rules
+- This is a SvelteKit static site for GitHub Pages deployment
+- Leave NO todos or placeholders
+- Implement full functionality
+- Focus on readability over performance
+- Provide bash commands for:
+  * git branch creation
+  * package installation
+  * file creation
+- Suggest alternative solutions
+- Be concise and direct
+- Treat user as expert 
+- When localizing, please use import { _ } from 'svelte-i18n'
