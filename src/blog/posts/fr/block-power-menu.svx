@@ -1,0 +1,24 @@
+---
+title: Empêchez les voleurs d'éteindre votre téléphone ou d'activer le mode avion
+subtitle: Ou au moins, attrapez-les avant qu'ils ne le fassent.
+date: '2024-12-05'
+description: 'La première chose qu'un voleur fait après avoir volé un téléphone est d'activer le mode avion ou de l'éteindre. Découvrez comment utiliser CrookCatcher pour empêcher cela ou au moins attraper le voleur avant qu'il ne le fasse.'
+image: 
+imageAlt: 'Écrans de configuration de CrookCatcher'
+published: true
+---
+
+La première chose qu'un voleur fait généralement après avoir volé un téléphone est de le mettre en mode avion ou de l'éteindre. Cela empêche CrookCatcher d'envoyer des emails et de localiser votre appareil. J'ai donc implémenté une fonctionnalité qui tente d'empêcher cela ou, au minimum, de prendre le voleur en photo avant qu'il n'y parvienne.
+
+## ⛭ Comment ça marche
+Le système fonctionne en détectant les éléments présents sur votre écran de verrouillage. Une fois activé, CrookCatcher tentera d'éteindre l'écran le plus rapidement possible lorsqu'il détecte le menu d'alimentation ou le volet des notifications sur l'écran de verrouillage. Ce faisant, il prendra des photos du voleur et vous les enverra par email avec la position du téléphone. Bien sûr, le voleur pourra toujours éteindre le téléphone en maintenant le bouton d'alimentation enfoncé. Malheureusement, il n'est pas possible d'empêcher cela avec une application. Cependant, il y a de fortes chances que le voleur essaie d'éteindre le téléphone ou d'activer le mode avion de manière classique et là, nous le prenons en flagrant délit !
+
+## 🧪 C'est Expérimental
+Malheureusement, il est très difficile de faire fonctionner cette fonction de manière fiable sur tous les appareils. Son fonctionnement repose sur l'identification des éléments de l'interface utilisateur sur l'écran de verrouillage, qui varie considérablement selon les modèles de téléphone. Il est donc possible que cela ne fonctionne pas parfaitement sur votre appareil. Vous pouvez l'essayer en allant dans la section "Fonctionnalités Expérimentales" des paramètres de l'application (c'est gratuit !).
+
+<figure class="blog-figure">
+  <img src="/images/screens/block_power_menu_fr.jpg" alt="Paramètres de CrookCatcher pour bloquer le menu d'alimentation" />
+  <figcaption>Choisissez si CrookCatcher doit bloquer le menu d'alimentation et/ou le volet des notifications et s'il doit prendre des photos du voleur.</figcaption>
+</figure>
+
+Nouveau sur CrookCatcher ? <a href="/fr/blog/introducing-crookcatcher">En savoir plus sur l'application</a>
