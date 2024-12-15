@@ -1,1 +1,0 @@
-import{r as e}from"../chunks/index.g5YcAAdQ.js";const o=async()=>{throw e(307,"/en")},t=Object.freeze(Object.defineProperty({__proto__:null,load:o},Symbol.toStringTag,{value:"Module"}));export{t as universal};
