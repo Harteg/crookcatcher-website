@@ -24,14 +24,14 @@
       <span class="cc-font">CrookCatcher</span>
     </a>
     <div class="spacer"></div>
-    <!-- <a 
+    <a 
       class="header-button" 
       href="/{$locale}/blog" 
       title="Blog"
       class:active={$page.url.pathname.includes('/blog')}
     >
       {$_('nav.blog')}
-    </a> -->
+    </a>
     <a 
       class="header-button" 
       href="/{$locale}/help" 
