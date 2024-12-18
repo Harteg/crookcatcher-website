@@ -23,13 +23,11 @@
       key: 'video',
       inFree: false,
       inPro: true,
-      isCommingSoon: true
     },
     {
       key: 'drive',
       inFree: false,
       inPro: true,
-      isCommingSoon: true
     },
     {
       key: 'backCamera',
