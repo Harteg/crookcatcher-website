@@ -14,8 +14,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta name="theme-color" content="#64DD91">
-	<meta property="og:image" content="https:www.crookcatcher.app/images/social_graphic.png">
-	<meta name="twitter:image" content="https:www.crookcatcher.app/images/social_graphic.png">
+	<meta property="og:image" content="https://www.crookcatcher.app/images/social_graphic.png">
+	<meta name="twitter:image" content="https://www.crookcatcher.app/images/social_graphic.png">
 
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">

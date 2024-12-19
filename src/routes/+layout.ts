@@ -9,7 +9,6 @@ export const load: LayoutLoad = async ({ url }) => {
   const pathSegments = url.pathname.split('/');
   const urlLocale = pathSegments[1];
 
-  // If no locale in URL or unsupported locale, redirect to default
   if (!urlLocale || !supportedLocales.includes(urlLocale)) {
     const browserLocale = browser ? 
       window.localStorage.getItem('preferred-locale') || 
@@ -18,7 +17,7 @@ export const load: LayoutLoad = async ({ url }) => {
     const defaultLocale = supportedLocales.includes(browserLocale) ? 
       browserLocale : 
       'en';
-    throw redirect(307, `/${defaultLocale}${url.pathname}`);
+    throw redirect(308, `/${defaultLocale}${url.pathname}`);
   }
 
   // Set and persist the locale
