@@ -6,25 +6,18 @@ import { setLocale } from '$lib/i18n';
 
 export const load: LayoutLoad = async ({ url }) => {
   const supportedLocales = ['en', 'fr'];
-  const pathSegments = url.pathname.split('/');
-  const urlLocale = pathSegments[1];
+  const urlLocale = url.pathname.split('/')[1];
 
   if (!urlLocale || !supportedLocales.includes(urlLocale)) {
-    const browserLocale = browser ? 
+    const defaultLocale = browser ? 
       window.localStorage.getItem('preferred-locale') || 
       window.navigator.language.split('-')[0] : 
       'en';
-    const defaultLocale = supportedLocales.includes(browserLocale) ? 
-      browserLocale : 
-      'en';
-    throw redirect(308, `/${defaultLocale}${url.pathname}`);
+    throw redirect(308, `/${supportedLocales.includes(defaultLocale) ? defaultLocale : 'en'}`);
   }
 
   // Set and persist the locale
   await setLocale(urlLocale);
   locale.set(urlLocale);
-
-  return {
-    url: url.pathname
-  };
+  return { url: url.pathname };
 }; 
