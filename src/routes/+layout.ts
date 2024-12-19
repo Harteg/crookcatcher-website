@@ -13,10 +13,11 @@ export const load: LayoutLoad = async ({ url }) => {
       window.localStorage.getItem('preferred-locale') || 
       window.navigator.language.split('-')[0] : 
       'en';
-    throw redirect(308, `/${supportedLocales.includes(defaultLocale) ? defaultLocale : 'en'}`);
+    const locale = supportedLocales.includes(defaultLocale) ? defaultLocale : 'en';
+    const path = url.pathname === '/' ? '' : url.pathname;
+    throw redirect(308, `/${locale}${path}`);
   }
 
-  // Set and persist the locale
   await setLocale(urlLocale);
   locale.set(urlLocale);
   return { url: url.pathname };
