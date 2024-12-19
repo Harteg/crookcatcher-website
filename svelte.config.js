@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-cloudflare';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { mdsvex } from 'mdsvex';
 import remarkGfm from 'remark-gfm';
@@ -22,13 +22,7 @@ const config = {
 	],
 
 	kit: {
-		adapter: adapter({
-			pages: 'build',
-			assets: 'build',
-			fallback: '404.html', // important for redirecting if you directly access pages with lang in the url.  
-			precompress: false,
-			strict: false
-		}),
+		adapter: adapter(),
 
 		paths: {
 			base: '',

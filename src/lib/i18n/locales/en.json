@@ -263,5 +263,9 @@
     "title": "Guides and Tutorials • CrookCatcher Anti-Theft App",
     "description": "A collection of articles showing you how to protect your phone from thieves and get the most out of CrookCatcher.",
     "readMore": "Read the post"
+  },
+  "error": {
+    "notFound": "Sorry, the page you're looking for doesn't exist.",
+    "goHome": "Go back to home page"
   }
 } 
