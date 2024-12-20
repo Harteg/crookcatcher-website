@@ -14,33 +14,6 @@
     en: "This post is only available in English",
     fr: "Cet article n'est disponible qu'en anglais"
   } as const;
-
-  // Create the JSON-LD data
-  const articleSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'BlogPosting',
-    'headline': data.post.title,
-    'description': data.post.description,
-    'image': data.post.image,
-    'datePublished': data.post.date,
-    'author': {
-      '@type': 'Person',
-      'name': 'Jakob Harteg'
-    },
-    'publisher': {
-      '@type': 'Organization',
-      'name': 'CrookCatcher',
-      'logo': {
-        '@type': 'ImageObject',
-        'url': 'https://www.crookcatcher.app/images/ic_launcher_512.png'
-      }
-    },
-    'mainEntityOfPage': {
-      '@type': 'WebPage',
-      '@id': $page.url.href
-    },
-    'url': $page.url.href
-  };
 </script>
 
 <svelte:head>
@@ -61,7 +34,32 @@
   
   <!-- Article Schema -->
   <script type="application/ld+json">
-    {JSON.stringify(articleSchema)}
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "{data.post.title || 'CrookCatcher Blog Article'}",
+      "description": "{data.post.description || 'Learn more about CrookCatcher.'}",
+      "image": "{data.post.image || 'https://www.crookcatcher.app/images/feature_graphic_en.png'}",
+      "datePublished": "{data.post.datePublished || '2024-01-01'}",
+      "dateModified": "{data.post.dateUpdated || '2024-01-01'}",
+      "author": {
+        "@type": "Person",
+        "name": "Jakob Harteg"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "CrookCatcher",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.crookcatcher.app/images/ic_launcher_512.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{$page.url.href}"
+      },
+      "url": "{$page.url.href}"
+    }
   </script>
 </svelte:head>
 
@@ -97,8 +95,8 @@
         title={data.post.title}
         description={data.post.description}
       />
-      <time datetime={data.post.date}>
-        {$_('Last updated')}: {new Date(data.post.date).toLocaleDateString('en-US', {
+      <time datetime={data.post.dateUpdated}>
+        {$_('Last updated')}: {new Date(data.post.dateUpdated).toLocaleDateString('en-US', {
           year: 'numeric',
           month: 'long',
           day: 'numeric'

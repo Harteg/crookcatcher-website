@@ -1,7 +1,8 @@
 ---
 title: Setting Up CrookCatcher
 subtitle: A step-by-step guide to securing your Android device
-date: '2024-11-26'
+dateUpdated: '2024-12-20'
+datePublished: '2024-11-26'
 description: 'Step-by-step guide to set up CrookCatcher on your Android device'
 image: '/images/blog/stolen.jpg'
 imageAlt: 'CrookCatcher setup screens'

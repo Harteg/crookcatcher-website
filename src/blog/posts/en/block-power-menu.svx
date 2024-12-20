@@ -1,7 +1,8 @@
 ---
 title: Prevent thieves from turning off your phone or activating airplane mode
 subtitle: Or at least, catch them before they do.
-date: '2024-12-05'
+dateUpdated: '2024-12-20'
+datePublished: '2024-12-05'
 description: 'First thing a thief does after stealing a phone is turning on airplane mode or shutting down the device. Learn how to use CrookCatcher to prevent this or at least catch the thief before they do.'
 image: 
 imageAlt: 'CrookCatcher setup screens'

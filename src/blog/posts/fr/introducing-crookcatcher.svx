@@ -1,7 +1,8 @@
 ---
 title: Découvrez CrookCatcher
 subtitle: 10 ans à attraper les voleurs de téléphones et à protéger votre vie privée
-date: '2024-12-18'
+dateUpdated: '2024-12-20'
+datePublished: '2024-12-18'
 description: "Du projet de programmation d'un jeune de 17 ans à des millions d'utilisateurs - comment CrookCatcher est devenue l'application de sécurité Android la plus intelligente pour attraper les voleurs de téléphones."
 image: '/images/blog/intro-header.png'
 imageAlt: "Interface de l'application CrookCatcher montrant les fonctionnalités de sécurité"
