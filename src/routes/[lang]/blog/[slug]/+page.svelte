@@ -14,6 +14,12 @@
     en: "This post is only available in English",
     fr: "Cet article n'est disponible qu'en anglais"
   } as const;
+
+  // Example of how to format dates
+  const formatDate = (dateString) => {
+    const date = new Date(dateString);
+    return date.toISOString(); // Converts to ISO 8601 format
+  };
 </script>
 
 <svelte:head>
@@ -40,8 +46,8 @@
     "headline": "${data.post.title || 'CrookCatcher Blog Article'}",
     "description": "${data.post.description || 'Learn more about CrookCatcher.'}",
     "image": "${data.post.image || 'https://www.crookcatcher.app/images/feature_graphic_en.png'}",
-    "datePublished": "${data.post.datePublished || '2024-01-01'}",
-    "dateModified": "${data.post.dateUpdated || '2024-01-01'}",
+    "datePublished": "${formatDate(data.post.datePublished || '2024-01-01T00:00:00Z')}",
+    "dateModified": "${formatDate(data.post.dateUpdated || '2024-01-01T00:00:00Z')}",
     "author": {
       "@type": "Person",
       "name": "Jakob Harteg"
