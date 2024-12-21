@@ -33,34 +33,34 @@
   <meta name="twitter:image" content={data.post.image}>
   
   <!-- Article Schema -->
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "headline": {data.post.title || 'CrookCatcher Blog Article'},
-      "description": {data.post.description || 'Learn more about CrookCatcher.'},
-      "image": {data.post.image || 'https://www.crookcatcher.app/images/feature_graphic_en.png'},
-      "datePublished": {data.post.datePublished || '2024-01-01'},
-      "dateModified": {data.post.dateUpdated || '2024-01-01'},
-      "author": {
-        "@type": "Person",
-        "name": "Jakob Harteg"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "CrookCatcher",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://www.crookcatcher.app/images/ic_launcher_512.png"
-        }
-      },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": {$page.url.href}
-      },
-      "url": {$page.url.href}
-    }
-  </script>
+  {@html `<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "${data.post.title || 'CrookCatcher Blog Article'}",
+    "description": "${data.post.description || 'Learn more about CrookCatcher.'}",
+    "image": "${data.post.image || 'https://www.crookcatcher.app/images/feature_graphic_en.png'}",
+    "datePublished": "${data.post.datePublished || '2024-01-01'}",
+    "dateModified": "${data.post.dateUpdated || '2024-01-01'}",
+    "author": {
+      "@type": "Person",
+      "name": "Jakob Harteg"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "CrookCatcher",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.crookcatcher.app/images/ic_launcher_512.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{$page.url.href}"
+    },
+    "url": "{$page.url.href}"
+  }
+</script>`}
 </svelte:head>
 
 <header class="app-header">
