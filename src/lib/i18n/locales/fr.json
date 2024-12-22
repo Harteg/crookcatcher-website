@@ -263,5 +263,17 @@
   "error": {
     "notFound": "Désolé, la page que vous recherchez n'existe pas.",
     "goHome": "Retourner à la page d'accueil"
-  }
+  },
+  "appName": "CrookCatcher — Anti-Vol",
+  "description": "CrookCatcher est une application anti-vol qui protège votre téléphone Android en prenant des selfies secrets et en localisant le GPS lorsque quelqu'un essaie de déverrouiller votre appareil avec un mauvais mot de passe, code PIN ou schéma. CrookCatcher peut même empêcher les voleurs d'activer le mode avion.",
+  "meta_features": [
+    "Prend des selfies secrets des intrus",
+    "Envoie des photos et la localisation GPS par email",
+    "Fonctionne hors ligne",
+    "Configuration facile et interface intuitive",
+    "Enregistre des vidéos des intrus",
+    "Affiche un faux écran d'accueil pour tromper les voleurs",
+    "Télécharge toutes les photos et vidéos sur Google Drive",
+    "Empêche les voleurs d'activer le mode avion"
+  ]
 } 

@@ -1,13 +1,31 @@
-<script>
+<script lang="ts">
 	import '../app.css';
 	import '$lib/i18n';
 	import I18nLoader from '$lib/components/I18nLoader.svelte';
+	import { locale, _, json } from 'svelte-i18n';
+	import { get } from 'svelte/store';
+	import { onMount } from 'svelte';
+
+	let appName: string;
+	let description: string;
+	let metaFeatures: string[];
+
+	$: appName = get(_)('appName') || 'Default App Name';
+	$: description = get(_)('description') || 'Default Description';
+	$: {
+		const features = get(json)('meta_features');
+		metaFeatures = Array.isArray(features) ? features : [];
+	}
+
+	onMount(() => {
+		if (typeof window !== 'undefined') {
+			document.documentElement.lang = $locale || 'en';
+		}
+	});
 </script>
 
 <I18nLoader>
-	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-		<slot />
-	</div>
+	<slot />
 </I18nLoader>
 
 <svelte:head>
@@ -34,11 +52,11 @@
 	<link rel="manifest" href="/favicons/manifest.json">
 	<link rel="icon" type="image/png" sizes="512x512" href="/images/ic_launcher_512.png">
 
-	{ @html `<script type="application/ld+json">
+	{@html `<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
 			"@type": "SoftwareApplication",
-			"name": "CrookCatcher — Anti-Theft",
+			"name": "${appName}",
 			"operatingSystem": "ANDROID",
 			"applicationCategory": "Utility",
 			"applicationSubCategory": "SecurityApplication",
@@ -60,16 +78,7 @@
 				"@type": "Person",
 				"name": "Jakob Harteg"
 			},
-			"featureList": [
-				"Takes secret selfies of intruders",
-				"Sends pictures and GPS location to email",
-				"Works offline",
-				"Easy setup and intuitive interface",
-				"Record video of intruders",
-				"Show fake home screen to fool thieves",
-				"Upload all pictures and videos to Google Drive",
-				"Prevent thieves from turning on airplane mode"
-			],
+			"featureList": ${JSON.stringify(metaFeatures)},
 			"publisher": {
 				"@type": "Organization",
 				"name": "CrookCatcher",
@@ -78,7 +87,7 @@
 			"isAccessibleForFree": true,
 			"url": "https://www.crookcatcher.app",
 			"image": "https://www.crookcatcher.app/images/ic_launcher_512.png",
-			"description": "CrookCatcher is an anti-theft app that protects your Android phone by capturing secret selfies and GPS locations when someone tries to unlock your device with the wrong password, pin code or pattern. CrookCatcher can even prevent thieves from turning on airplane mode."
+			"description": "${description}",
 			"downloadUrl": "https://play.google.com/store/apps/details?id=com.harteg.crookcatcher",
 			"sameAs": [
 				"https://x.com/CrookCatcherApp",
