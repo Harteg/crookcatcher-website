@@ -3,6 +3,14 @@ import { error } from '@sveltejs/kit';
 export async function load({ params }) {
     const { lang, slug } = params;
     
+    // Track page view
+    if (typeof window !== 'undefined' && window.gtag) {
+        window.gtag('config', 'G-JH65GSTF8W', {
+            'page_path': `/${lang}/blog/${slug}`,
+            'page_title': `${slug} - Blog`
+        });
+    }
+
     try {
         // Try to load the post in requested language
         const post = await import(`../../../../blog/posts/${lang}/${slug}.svx`);

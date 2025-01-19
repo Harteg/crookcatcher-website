@@ -38,7 +38,7 @@
               <div class="meta">
                 <span class="tag">BLOG</span>
                 <time datetime={post.date}>
-                  {new Date(post.date).toLocaleDateString($locale || 'en', {
+                  {new Date(post.datePublished).toLocaleDateString($locale || 'en', {
                     year: 'numeric',
                     month: 'short',
                     day: 'numeric'
@@ -74,6 +74,12 @@
     overflow: hidden;
     margin-bottom: 24px;
   }
+
+  .blog-card:hover a{
+    /* override default opacity */
+    opacity: 1;
+  }
+
 
   .card-link {
     text-decoration: none;
@@ -124,6 +130,12 @@
     padding: 8px 48px;
     border-radius: 100px;
     font-weight: 500;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+
+  .blog-card:hover .read-more {
+    background: var(--color-primary);
+    color: var(--color-dark-green) !important;
   }
 
   @media (max-width: 600px) {
