@@ -1,12 +1,23 @@
 <script>
   import { _, locale } from 'svelte-i18n';
   export let utmSource = 'website'; // default value if not provided
+
+  function trackButtonClick() {
+    if (window.gtag) {
+      window.gtag('event', 'click', {
+        'event_category': 'Play Store Button',
+        'event_label': utmSource,
+        'value': 1
+      });
+    }
+  }
 </script>
 
 <a href={`https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=${utmSource}&utm_medium=button`}
    class="play-store-link"
    target="_blank"
-   rel="noopener noreferrer">
+   rel="noopener noreferrer"
+   on:click={trackButtonClick}>
   <img alt={$_('playstore.imgAlt')}
        src={`https://play.google.com/intl/${$locale}/badges/images/generic/${$locale}_badge_web_generic.png`}
        class="play-badge" />
