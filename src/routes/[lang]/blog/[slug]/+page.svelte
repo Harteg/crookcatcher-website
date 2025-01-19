@@ -133,10 +133,10 @@
       border: 1px solid #ffffff24;
     }
   }
-
   .post-image {
     width: 100%;
-    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
     border-radius: 12px;
     margin-bottom: 96px;
   }
