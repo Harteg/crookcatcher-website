@@ -38,7 +38,7 @@
               <div class="meta">
                 <span class="tag">BLOG</span>
                 <time datetime={post.date}>
-                  {new Date(post.date).toLocaleDateString($locale || 'en', {
+                  {new Date(post.datePublished).toLocaleDateString($locale || 'en', {
                     year: 'numeric',
                     month: 'short',
                     day: 'numeric'
