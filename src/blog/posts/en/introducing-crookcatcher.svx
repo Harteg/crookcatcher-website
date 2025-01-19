@@ -43,15 +43,6 @@ CrookCatcher uses a special permission called *Device Admin* to detect wrong unl
 
 CrookCatcher uses *gmail* to send emails. This ensures complete transparency about which emails CrookCatcher sends and where your data goes. During the CrookCatcher setup process, you'll be asked to grant CrookCatcher access to a gmail account. You can create a new gmail account just for CrookCatcher or use an existing one (you can also use CrookCatcher without email). CrookCatcher only requests permission to send emails and cannot read, delete or modify any emails in your account. CrookCatcher does *automatic image compression* based on your network speed to ensure emails are sent as fast as possible, while keeping quality as good as possible.  
 
-Here is a look at the email you will receive: 
-
-<figure class="blog-figure">
-  <!-- svelte-ignore a11y_img_redundant_alt -->
-  <img src="/images/blog/email_preview_sm.jpg" alt="Receive photos and location directly in your email" />
-  <figcaption>Receive photos and location directly in your email</figcaption>
-</figure>
-
-
 ## Is it all free?
 
 No, but the *most important features are free*. This includes taking pictures and sending emails with location and photo. The price for **CrookCatcher Pro** depends on your country so you will have to look in the app to see it. But it's pretty cheap! Considering the price of your phone (and your privacy), I think it's a good investment. Below is a complete list of features in the free and pro versions.

@@ -19,7 +19,7 @@
    rel="noopener noreferrer"
    on:click={trackButtonClick}>
   <img alt={$_('playstore.imgAlt')}
-       src={`https://play.google.com/intl/${$locale}/badges/images/generic/${$locale}_badge_web_generic.png`}
+       src={`/images/play_badges/${$locale}_badge_web_generic.png`}
        class="play-badge" />
 </a>
 
