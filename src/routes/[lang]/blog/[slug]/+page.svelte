@@ -120,17 +120,18 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 16px;
-    margin-top: 128px;
+    margin-top: 16px;
   }
 
-  @media (max-width: 900px) {
+  @media (min-width: 1200px) {
     .blog-post {
-      margin-top: 16px;
+      margin-top: 128px;
+      background: var(--color-cc-dark-bg);
+      padding: 40px;
+      border-radius: 40px;
+      margin-bottom: 40px;
+      border: 1px solid #ffffff24;
     }
-  }
-
-  .post-header {
-    margin-bottom: 48px;
   }
 
   .post-image {
@@ -139,6 +140,22 @@
     border-radius: 12px;
     margin-bottom: 96px;
   }
+
+
+  @media (max-width: 900px) {
+    .blog-post {
+      margin-top: 16px;
+    }
+
+    .post-image {
+      margin-bottom: 16px;
+    }
+  }
+
+  .post-header {
+    margin-bottom: 48px;
+  }
+
 
   .post-meta{
     margin-top: 32px;
