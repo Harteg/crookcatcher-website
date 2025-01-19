@@ -1,25 +1,61 @@
 ---
-title: Prevent thieves from turning off your phone or activating airplane mode
-subtitle: Or at least, catch them before they do.
-dateUpdated: '2024-12-20'
-datePublished: '2024-12-05'
-description: 'First thing a thief does after stealing a phone is turning on airplane mode or shutting down the device. Learn how to use CrookCatcher to prevent this or at least catch the thief before they do.'
-image: 
-imageAlt: 'CrookCatcher setup screens'
-published: false
+title: How to Prevent Thieves from Turning off Your Phone or Activating Airplane Mode
+subtitle: And catch them on camera when they try!
+dateUpdated: '2025-01-19'
+datePublished: '2025-01-19'
+description: Learn how to stop thieves from disabling your phone or activating airplane mode using CrookCatcher and other essential tips for keeping your device safe.
+image: /images/blog/Digital_Solitude_Urban_Shadows.jpeg
+imageAlt: Shadowy man with a phone
+published: true
 ---
 
-The first thing a thief typically does after stealing a phone is turn on airplane mode or shut down the device. This prevents CrookCatcher from sending emails and tracking your device. So I implemented a feature that tries to prevent this or at least ensure we catch the thief before they do.
+## Problem: Thieves Disable Phones to Avoid Detection  
 
-## ⛭ How it works
-It works by detecting elements on your lock screen. Once enabled, CrookCatcher will try to turn off the screen as quickly as possible when it detects the power menu or the notification shade on the lock screen. And while doing so, take pictures of the thief and email them to you with the location of the phone. Of course, the thief will still be able to turn off the phone by holding down the power button. Sadly it is not possible to prevent that with an app. Chances are however that the thief will try to turn off the phone or enable airplane mode the conventional way and bam, we catch them! 
+When a thief steals a phone, their first move is often to disable it by shutting it down or activating airplane mode. This *cuts off tracking features* and blocks apps that could alert the phone’s owner.
 
-## 🧪 It's Experimental
-Sadly it is very difficult to get this to work consistently across all devices. It relies on identifying UI elements on the lock screen, which varies significantly between phone models. So it may not work perfectly on your device. You can try it out by going to the "Experimental Features" section in the app settings (it's free!). 
+## Solution: Block Power Menu and Notification Shade  
+
+To combat this, I've added a special feature to <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu" target="_blank" rel="noopener noreferrer">CrookCatcher</a> that *blocks the power menu* and notification shade. Here is how it works:
+
+- <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu" target="_blank" rel="noopener noreferrer">CrookCatcher</a> detects when someone tries to open the power menu or notification shade on the lock screen.  
+- Then, it *instantly turns off the screen*, stopping the thief in their tracks. It also takes a photo of the thief and emails it to you along with the phone’s location.
+
+You can find this feature in the “Experimental Features” section of the app’s settings. Due to the large number of different android phones, I cannot guarantee that it will work on your phone, but *it's free* so give it a try! Download CrookCatcher on [Google Play](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu).
 
 <figure class="blog-figure">
   <img src="/images/screens/block_power_menu_en.jpg" alt="CrookCatcher settings for blocking power menu" />
-  <figcaption>Choose if CrookCatcher should block the power menu and/or the notification shade and whether it should take photos of the thief.</figcaption>
+  <figcaption>Customize settings to block the power menu, lock the notification shade, and capture photos of intruders.</figcaption>
 </figure>
 
-New to CrookCatcher? <a href="/en/blog/introducing-crookcatcher">Learn more about the app</a>
+## Other Suggestions for Keeping Your Phone Safe  
+
+In addition to <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu" target="_blank" rel="noopener noreferrer">CrookCatcher</a>, here are some extra steps to secure your phone:  
+
+1. **Enable Google’s “Find My Device”:**  
+   - Track your phone remotely.  
+   - Lock your device or wipe data if it’s stolen.  
+
+2. **Use Strong Security Settings:**  
+   - Set up a strong PIN or password.  
+   - Enable biometric security like fingerprint or face recognition.  
+
+3. **Keep Your Phone Updated:**  
+   - Regular software updates improve security and protect against vulnerabilities.  
+
+4. **Be Mindful of Public Spaces:**  
+   - Keep your phone in secure, hard-to-access pockets or bags.  
+
+## More Benefits of CrookCatcher  
+
+Beyond blocking thieves from disabling your phone, <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu" target="_blank" rel="noopener noreferrer">CrookCatcher</a> offers additional features:  
+
+- Take pictures and videos when someone enters the wrong PIN, pattern or password.  
+- Receive evidence with GPS location by email
+- Play theft alart sounds
+- Show a fake home screen to fool thieves.
+- Upload pictures and videos to Google Drive
+- Discover all features in <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu" target="_blank" rel="noopener noreferrer">the app</a>.
+
+
+[Download CrookCatcher now](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu) and take the first step toward keeping your phone—and your privacy—safe.    
+

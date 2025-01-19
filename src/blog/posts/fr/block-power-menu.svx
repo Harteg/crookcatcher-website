@@ -1,24 +1,60 @@
 ---
-title: Empêchez les voleurs d'éteindre votre téléphone ou d'activer le mode avion
-subtitle: Ou au moins, attrapez-les avant qu'ils ne le fassent.
-date: '2024-12-05'
-description: 'La première chose qu'un voleur fait après avoir volé un téléphone est d'activer le mode avion ou de l'éteindre. Découvrez comment utiliser CrookCatcher pour empêcher cela ou au moins attraper le voleur avant qu'il ne le fasse.'
-image: 
-imageAlt: 'Écrans de configuration de CrookCatcher'
+title: Comment empêcher les voleurs d'éteindre votre téléphone ou d'activer le mode avion
+subtitle: Et les prendre en photo lorsqu'ils essaient !
+dateUpdated: 2025-01-19
+datePublished: 2025-01-19
+description: Apprenez à empêcher les voleurs de désactiver votre téléphone ou d'activer le mode avion en utilisant CrookCatcher et d'autres conseils essentiels pour garder votre appareil en sécurité.
+image: /images/blog/Digital_Solitude_Urban_Shadows.jpeg
+imageAlt: Homme ombragé avec un téléphone
 published: true
 ---
 
-La première chose qu'un voleur fait généralement après avoir volé un téléphone est de le mettre en mode avion ou de l'éteindre. Cela empêche CrookCatcher d'envoyer des emails et de localiser votre appareil. J'ai donc implémenté une fonctionnalité qui tente d'empêcher cela ou, au minimum, de prendre le voleur en photo avant qu'il n'y parvienne.
+## Le Problème : Les voleurs désactivent les téléphones pour éviter la détection  
 
-## ⛭ Comment ça marche
-Le système fonctionne en détectant les éléments présents sur votre écran de verrouillage. Une fois activé, CrookCatcher tentera d'éteindre l'écran le plus rapidement possible lorsqu'il détecte le menu d'alimentation ou le volet des notifications sur l'écran de verrouillage. Ce faisant, il prendra des photos du voleur et vous les enverra par email avec la position du téléphone. Bien sûr, le voleur pourra toujours éteindre le téléphone en maintenant le bouton d'alimentation enfoncé. Malheureusement, il n'est pas possible d'empêcher cela avec une application. Cependant, il y a de fortes chances que le voleur essaie d'éteindre le téléphone ou d'activer le mode avion de manière classique et là, nous le prenons en flagrant délit !
+Lorsqu'un voleur vole un téléphone, son premier réflexe est souvent de le désactiver en l'éteignant ou en activant le mode avion. Cela coupe les fonctionnalités de suivi et bloque les applications qui pourraient alerter le propriétaire du téléphone.
 
-## 🧪 C'est Expérimental
-Malheureusement, il est très difficile de faire fonctionner cette fonction de manière fiable sur tous les appareils. Son fonctionnement repose sur l'identification des éléments de l'interface utilisateur sur l'écran de verrouillage, qui varie considérablement selon les modèles de téléphone. Il est donc possible que cela ne fonctionne pas parfaitement sur votre appareil. Vous pouvez l'essayer en allant dans la section "Fonctionnalités Expérimentales" des paramètres de l'application (c'est gratuit !).
+## La Solution : Bloquer le menu d'alimentation et le volet de notifications  
+
+Pour contrer cela, j'ai ajouté une fonctionnalité spéciale à <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu" target="_blank" rel="noopener noreferrer">CrookCatcher</a> qui bloque le menu d'alimentation et le volet de notifications. Voici comment cela fonctionne :
+
+- <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu" target="_blank" rel="noopener noreferrer">CrookCatcher</a> détecte quand quelqu'un essaie d'ouvrir le menu d'alimentation ou le volet de notifications sur l'écran de verrouillage.  
+- Ensuite, il verrouille instantanément l'écran, prend une photo du voleur et vous l'envoie avec la localisation du téléphone par email.
+
+Vous pouvez trouver cette fonctionnalité dans la section "Fonctionnalités expérimentales" des paramètres de l'application. En raison du grand nombre de téléphones Android différents, je ne peux pas garantir qu'elle fonctionnera sur votre téléphone, mais c'est gratuit, alors essayez !
 
 <figure class="blog-figure">
   <img src="/images/screens/block_power_menu_fr.jpg" alt="Paramètres de CrookCatcher pour bloquer le menu d'alimentation" />
-  <figcaption>Choisissez si CrookCatcher doit bloquer le menu d'alimentation et/ou le volet des notifications et s'il doit prendre des photos du voleur.</figcaption>
+  <figcaption>Personnalisez les paramètres pour bloquer le menu d'alimentation, verrouiller le volet de notifications et capturer des photos des intrus.</figcaption>
 </figure>
 
-Nouveau sur CrookCatcher ? <a href="/fr/blog/introducing-crookcatcher">En savoir plus sur l'application</a>
+## Autres Suggestions pour Garder Votre Téléphone en Sécurité  
+
+En plus de <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu" target="_blank" rel="noopener noreferrer">CrookCatcher</a>, voici quelques étapes supplémentaires pour sécuriser votre téléphone:  
+
+1. **Activez "Localiser mon appareil" de Google :**  
+   - Suivez votre téléphone à distance.  
+   - Verrouillez votre appareil ou effacez les données s'il est volé.  
+
+2. **Utilisez des Paramètres de Sécurité Solides :**  
+   - Configurez un code PIN ou un mot de passe fort.  
+   - Activez la sécurité biométrique comme l'empreinte digitale ou la reconnaissance faciale.  
+
+3. **Gardez Votre Téléphone à Jour :**  
+   - Les mises à jour logicielles régulières améliorent la sécurité et protègent contre les vulnérabilités.  
+
+4. **Soyez Prudent dans les Espaces Publics :**  
+   - Gardez votre téléphone dans des poches ou sacs sécurisés et difficiles d'accès.  
+
+## Plus d'Avantages de CrookCatcher  
+
+Au-delà de bloquer les voleurs pour qu'ils ne désactivent pas votre téléphone, <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu" target="_blank" rel="noopener noreferrer">CrookCatcher</a> offre des fonctionnalités supplémentaires :  
+
+- Prenez des photos et des vidéos lorsque quelqu'un entre un mauvais code PIN, schéma ou mot de passe.  
+- Recevez des preuves avec la localisation GPS par email
+- Jouez des sons d'alerte de vol
+- Affichez un faux écran d'accueil pour tromper les voleurs.
+- Téléchargez des photos et vidéos sur Google Drive
+- Découvrez toutes les fonctionnalités dans <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu" target="_blank" rel="noopener noreferrer">l'application</a>.
+
+
+[Téléchargez CrookCatcher aujourd'hui](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu) et faites le premier pas pour garder votre téléphone - et votre vie privée - en sécurité.    
