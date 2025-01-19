@@ -42,14 +42,6 @@ CrookCatcher utilise une permission spéciale appelée *Device Admin* pour déte
 
 CrookCatcher utilise *gmail* pour envoyer des emails. Cela garantit une transparence totale sur les emails que CrookCatcher envoie et où vont vos données. Pendant le processus de configuration de CrookCatcher, on vous demandera d'accorder à CrookCatcher l'accès à un compte gmail. Vous pouvez créer un nouveau compte gmail juste pour CrookCatcher ou utiliser un compte existant (vous pouvez aussi utiliser CrookCatcher sans email). CrookCatcher demande uniquement la permission d'envoyer des emails et ne peut pas lire, supprimer ou modifier les emails de votre compte. CrookCatcher effectue une *compression automatique des images* en fonction de votre vitesse réseau pour garantir que les emails sont envoyés le plus rapidement possible, tout en maintenant la meilleure qualité possible.
 
-Voici à quoi ressemble l'email que vous recevrez :
-
-<figure class="blog-figure">
-  <!-- svelte-ignore a11y_img_redundant_alt -->
-  <img src="/images/blog/email_preview_sm.jpg" alt="Recevez un email d'alerte avec la photo de l'intrus et sa localisation" />
-  <figcaption>Recevez les photos et la localisation directement dans votre email</figcaption>
-</figure>
-
 ## Est-ce que tout est gratuit ?
 
 Non, mais les *fonctionnalités les plus importantes sont gratuites*. Cela inclut la prise de photos et l'envoi d'emails avec la localisation et la photo. Le prix de **CrookCatcher Pro** dépend de votre pays, vous devrez donc consulter l'application pour le voir. Mais c'est plutôt bon marché ! Vu le prix de votre téléphone (et de votre vie privée), je pense que c'est un bon investissement. Vous trouverez ci-dessous une liste complète des fonctionnalités dans les versions gratuite et pro.

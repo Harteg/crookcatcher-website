@@ -5,13 +5,13 @@
   import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
   import { _} from 'svelte-i18n';
   import { fly } from 'svelte/transition';
-
-  let isEmailExpanded = false;
 </script>
 
 <svelte:head>
   <title>{$_('meta.title')}</title>
   <meta name="description" content={$_('meta.description')}>
+  <link rel="preload" href="/fonts/nexa_bold.otf" as="font" type="font/otf" crossorigin="anonymous">
+  <link rel="preload" href="/fonts/nexa_light.otf" as="font" type="font/otf" crossorigin="anonymous">
 </svelte:head>
 
 <header class="app-header">
@@ -22,8 +22,7 @@
     <div class="container">
       <!-- Header Section -->
       <section class="section hero-section" id="section_CC" style="padding-bottom: 5rem;">
-        <div class="text-center" 
-            in:fly={{ y: 50, duration: 1000, delay: 200, opacity: 0 }}>
+        <div class="text-center" >
           <!-- <img src="/images/crookcatcher_icon.svg" class="top-section-icon" alt="Crookcatcher icon" /> -->
           <!-- <h1 class="hero-title cc-font">Crook<wbr>Catcher</h1> -->
 
@@ -35,8 +34,7 @@
       </section>
 
       <!-- Lockscreen Section -->
-      <section class="section feature-section" id="section_lockscreen" 
-                in:fly={{ y: 50, duration: 1000, delay: 400, opacity: 0 }}>
+      <section class="section feature-section" id="section_lockscreen" >
         <div class="feature-grid">
           <div class="section_text_right feature-text">
             <h2>{@html $_('features.lockscreen')}</h2>
@@ -49,8 +47,7 @@
       </section>
 
       <!-- GPS Section -->
-      <section class="section feature-section" style='overflow: hidden'
-                in:fly={{ y: 50, duration: 1000, delay: 600, opacity: 0 }}>
+      <section class="section feature-section" style='overflow: hidden'>
         <div class="feature-grid">
           <div class="section_text_left feature-text">
             <h2>{@html $_('features.gps')}</h2>
@@ -64,23 +61,15 @@
       </section>
 
       <!-- Email Section -->
-      <section class="section feature-section email-section" 
-            class:expanded={isEmailExpanded}
-            in:fly={{ y: 50, duration: 1000, delay: 800, opacity: 0 }}>
+      <section class="section feature-section email-section" >
         <div class="feature-grid">
           <div class="section_text_left feature-text">
             <h2>{@html $_('features.email')}</h2>
           </div>
-          <div class="feature-image not-mobile">
-            <img src="/images/paper-plane.svg" style="max-width: 300px;" alt="Email illustration">
+          <div class="feature-image">
+            <img src="/images/email_preview.png" style="" alt="Email illustration">
           </div>
         </div>
-        <img src="/images/blog/email_preview_sm.jpg" alt="Email preview" class="email-preview">
-        <button 
-          class="expand-button"
-          on:click|stopPropagation={() => isEmailExpanded = !isEmailExpanded}>
-          {$_('features.email_expand_btn')}
-        </button>
       </section>
     </div>
 
@@ -143,6 +132,7 @@
 
   .feature-image img {
     max-width: 380px;
+    min-height: 400px;
     width: 100%;
     height: auto;
   }
@@ -196,12 +186,12 @@
 
 /* Features */
 .feature-section {
-    padding: calc(var(--section-spacing) * 0.8) 16px;
+    padding: 16px 16px;
     background: var(--color-cc-dark-bg);
     border-radius: var(--border-radius);
-    /* box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15); */
     margin-bottom: 32px;
     border: 2px solid rgba(255, 255, 255, 0.15);   
+    height: 500px;
 }
 
 .feature-section h2 {
@@ -275,12 +265,12 @@
 }
 
 .earth-icon {
-    transform: translateY(50px);
     scale: 1;  /* Default for mobile */
 }
 
 @media (min-width: 841px) {
     .earth-icon {
+        transform: translateY(50px);
         scale: 1.7;  /* Scale up only on desktop */
     }
 }
@@ -351,70 +341,30 @@
     transition: max-height 1s ease;
   }
 
-  .email-section.expanded {
-    max-height: 3000px;
-  }
 
-  .email-section::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 350px;
-    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.9));
-    pointer-events: none;
-    transition: opacity 0.2s ease;
-    opacity: 1;
-  }
-
-  .email-section.expanded .expand-button {
-    display: none;
-  }
-
-  .email-section.expanded::after {
-    opacity: 0;
-  }
-
-  .email-preview {
-    margin-top: 32px;
-    max-width: 80%;
-    margin: 0 auto;
-    margin-top: 32px;
+  @media (min-width: 841px) {
+    .email-section img{
+      transform: scale(1.1) translateY(20px);
+    }
   }
 
   @media (max-width: 841px) {
     .email-section {
       max-height: none;
     }
-
-    .email-preview {
-      max-width: 100%;
-    }
-
-    .expand-button{
-      display: none;
-    }
-
     .email-section::after{
       display: none;
     }
   }
 
-  .expand-button {
-    position: absolute;
-    bottom: 24px;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-    width: fit-content;
-    background: var(--color-dark-green);
-    color: var(--color-primary);
-    font-weight: 700;
-    padding: 8px 24px;
-    border-radius: 20px;
-    z-index: 1;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+
+  @media (max-width: 840px) {
+    .feature-section {
+      height: auto;
+    }
+    .feature-image img {
+      max-width: none;
+    }
   }
 
 </style>
