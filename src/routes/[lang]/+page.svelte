@@ -26,8 +26,8 @@
           <!-- <img src="/images/crookcatcher_icon.svg" class="top-section-icon" alt="Crookcatcher icon" /> -->
           <!-- <h1 class="hero-title cc-font">Crook<wbr>Catcher</h1> -->
 
-          <h1 class="hero-title">👋</h1>
-          <h1 class="hero-title cc-font">{$_('hero.title')}</h1>
+          <p class="hero-title">👋</p>
+          <p class="hero-title cc-font">{$_('hero.title')}</p>
           <p class="hero-subtitle">{@html $_('hero.subtitle')}</p>
           <PlayStoreButton />
         </div>

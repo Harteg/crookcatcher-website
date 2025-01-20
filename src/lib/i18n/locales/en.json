@@ -77,8 +77,8 @@
     "coming_soon": "Coming soon"
   },
   "pro": {
-    "title": "CrookCatcher Pro",
-    "subtitle": "Essential features are free<br>Upgrade to <strong>Pro</strong> for more",
+    "title": "Catch more intruders with CrookCatcher Pro",
+    "subtitle": "Essential features are free, but Pro contains more than 10 features to further protect your phone and privacy.",
     "availableInApp": "<strong>CrookCatcher Pro</strong> is available for purchase inside the app."
   },
   "download": {
@@ -94,9 +94,9 @@
     "imgAlt": "Download CrookCatcher on Google Play"
   },
   "meta": {
-    "title": "CrookCatcher for android • Take Pictures when the Wrong Password is Entered",
-    "description": "Protect your phone with CrookCatcher for Android..."
-  },
+    "title": "CrookCatcher • Protect Your Phone and Catch Intruders",
+    "description": "Find out who’s using or snooping on your Android! CrookCatcher snaps a photo of anyone trying to unlock your phone with the wrong password or pattern. Receive their picture and GPS location instantly via email to protect your phone from theft or recover it if stolen."
+  },  
   "help": {
     "meta": {
       "title": "CrookCatcher Help & FAQ • Android Anti-Theft App",
