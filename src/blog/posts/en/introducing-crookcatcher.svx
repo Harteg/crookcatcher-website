@@ -1,5 +1,5 @@
 ---
-title: Introducing CrookCatcher
+title: Why I built an app to prevent phone theft
 subtitle: 10 years of catching phone thieves and protecting your privacy
 dateUpdated: '2024-12-20'
 datePublished: '2024-12-18'

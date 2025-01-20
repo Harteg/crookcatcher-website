@@ -1,5 +1,5 @@
 ---
-title: Découvrez CrookCatcher
+title: Pourquoi j'ai créé une application pour prévenir le vol de téléphone
 subtitle: 10 ans à attraper les voleurs de téléphones et à protéger votre vie privée
 dateUpdated: '2024-12-20'
 datePublished: '2024-12-18'
