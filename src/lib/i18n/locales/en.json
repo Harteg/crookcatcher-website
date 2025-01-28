@@ -95,7 +95,7 @@
   },
   "meta": {
     "title": "CrookCatcher • Protect Your Phone and Catch Intruders",
-    "description": "Find out who’s using or snooping on your Android! CrookCatcher snaps a photo of anyone trying to unlock your phone with the wrong password or pattern. Receive their picture and GPS location instantly via email to protect your phone from theft or recover it if stolen."
+    "description": "Find out who's using or snooping on your Android! CrookCatcher snaps a photo of anyone trying to unlock your phone with the wrong password or pattern. Receive their picture and GPS location instantly via email to protect your phone from theft or recover it if stolen."
   },  
   "help": {
     "meta": {
@@ -262,7 +262,9 @@
   "blog": {
     "title": "Guides and Tutorials • CrookCatcher Anti-Theft App",
     "description": "A collection of articles showing you how to protect your phone from thieves and get the most out of CrookCatcher.",
-    "readMore": "Read the post"
+    "readMore": "Read the post",
+    "recentPosts": "Recent Articles",
+    "viewAll": "View all posts"
   },
   "error": {
     "notFound": "Sorry, the page you're looking for doesn't exist.",

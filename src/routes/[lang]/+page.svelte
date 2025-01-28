@@ -3,8 +3,11 @@
   import Footer from '$lib/components/Footer.svelte';
   import Features from '$lib/components/Features.svelte';
   import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+  import RecentPosts from '$lib/components/RecentPosts.svelte';
   import { _} from 'svelte-i18n';
   import { fly } from 'svelte/transition';
+
+  export let data;
 </script>
 
 <svelte:head>
@@ -102,6 +105,12 @@
       <p style="font-size: 1.4rem">
         {@html $_('pro.availableInApp')}
       </p>
+    </div>
+
+    <div class="section-divider" style="margin-top: 64px;"></div>
+
+    <div class="container">
+      <RecentPosts posts={data.posts} />
     </div>
 
     <div class="section-divider" style="margin-top: 64px;"></div>
@@ -364,6 +373,92 @@
     }
     .feature-image img {
       max-width: none;
+    }
+  }
+
+  .recent-posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 48px;
+  }
+
+  .blog-preview {
+    background: var(--color-cc-dark-bg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+  }
+
+  .blog-preview:hover {
+    transform: translateY(-4px);
+  }
+
+  .blog-preview-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .preview-image {
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+  }
+
+  .preview-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .preview-content {
+    padding: 24px;
+  }
+
+  .preview-content time {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  .preview-content h3 {
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 0 0 12px;
+    color: #fff;
+  }
+
+  .preview-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .view-all-link {
+    display: inline-block;
+    color: var(--color-primary);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: opacity 0.2s;
+  }
+
+  .view-all-link:hover {
+    opacity: 0.8;
+  }
+
+  @media (max-width: 840px) {
+    .recent-posts {
+      grid-template-columns: 1fr;
+      gap: 16px;
     }
   }
 

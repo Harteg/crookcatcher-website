@@ -258,7 +258,9 @@
   "blog": {
     "title": "Guides et Tutoriels • Application Antivol CrookCatcher",
     "description": "Une collection d'articles vous montrant comment protéger votre téléphone contre les voleurs et tirer le meilleur parti de CrookCatcher.",
-    "readMore": "Lire l'article"
+    "readMore": "Lire l'article",
+    "recentPosts": "Articles récents",
+    "viewAll": "Voir tous les articles"
   },
   "error": {
     "notFound": "Désolé, la page que vous recherchez n'existe pas.",
