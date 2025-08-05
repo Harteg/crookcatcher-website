@@ -25,12 +25,6 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'NexaLight';
-    src: url('/fonts/nexa_light.otf') format('opentype');
-    font-display: swap;
-}
-
 /* Base Styles */
 html {
     font-size: 16px; /* Larger on desktop, see below*/
@@ -103,10 +97,6 @@ strong {
 
 .nexa-bold{
     font-family: 'NexaBold', 'Helvetica';
-}
-
-.nexa-light{
-    font-family: 'NexaLight', 'Helvetica';
 }
 
 hr {
@@ -222,7 +212,7 @@ hr {
 .hero-subtitle {
     font-size: clamp(24px, 4vw, 32px);
     margin-bottom: 48px;
-    font-family: 'NexaLight', 'Helvetica';
+    font-family: 'NexaBold', 'Helvetica';
     font-size: 1.3em;
     max-width: 800px;
     margin: 0 auto;

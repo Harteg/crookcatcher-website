@@ -14,7 +14,6 @@
   <title>{$_('meta.title')}</title>
   <meta name="description" content={$_('meta.description')}>
   <link rel="preload" href="/fonts/nexa_bold.otf" as="font" type="font/otf" crossorigin="anonymous">
-  <link rel="preload" href="/fonts/nexa_light.otf" as="font" type="font/otf" crossorigin="anonymous">
 </svelte:head>
 
 <header class="app-header">
