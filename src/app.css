@@ -21,9 +21,13 @@
 
 @font-face {
     font-family: 'NexaBold';
-    src: url('/fonts/nexa_bold.otf') format('opentype');
-    font-display: swap;
-}
+    src: url('/fonts/Nexa-Bold.woff2') format('woff2'),
+         url('/fonts/Nexa-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: fallback;
+  }
+
 
 /* Base Styles */
 html {

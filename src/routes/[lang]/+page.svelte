@@ -13,7 +13,10 @@
 <svelte:head>
   <title>{$_('meta.title')}</title>
   <meta name="description" content={$_('meta.description')}>
-  <link rel="preload" href="/fonts/nexa_bold.otf" as="font" type="font/otf" crossorigin="anonymous">
+  
+  <!-- For faster font loading -->
+  <link rel="preload" href="/fonts/Nexa-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/fonts/Nexa-Bold.woff" as="font" type="font/woff" crossorigin="anonymous">
 </svelte:head>
 
 <header class="app-header">
