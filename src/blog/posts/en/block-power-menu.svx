@@ -36,8 +36,7 @@ In addition to <a href="https://play.google.com/store/apps/details?id=com.harteg
    - Lock your device or wipe data if it’s stolen.  
 
 2. **Use Strong Security Settings:**  
-   - Set up a strong PIN or password.  
-   - Enable biometric security like fingerprint or face recognition.  
+   - A password is the strongest screen lock.
 
 3. **Keep Your Phone Updated:**  
    - Regular software updates improve security and protect against vulnerabilities.  

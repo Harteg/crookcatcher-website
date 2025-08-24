@@ -315,7 +315,7 @@
   }
 
   .post-content :global(.play-badge){
-    height: 6rem;
+    height: 4rem;
   }
 
   .post-footer {
