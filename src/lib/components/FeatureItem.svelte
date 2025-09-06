@@ -1,5 +1,5 @@
 <script>
-  import { _ } from 'svelte-i18n';
+  
   export let title;
   export let description;
   export let inFree;
@@ -11,7 +11,7 @@
 
 <div class="feature-row" class:first={isFirst} class:last={isLast}>
   <div class="feature-info {isCommingSoon ? 'coming-soon' : ''}">
-    <h3 data-coming-soon={$_('features.coming_soon')}>{title}</h3>
+    <h3 data-coming-soon="Coming soon">{title}</h3>
     <p>{description}</p>
   </div>
   <div class="feature-check free-check">

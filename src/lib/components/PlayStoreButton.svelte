@@ -1,5 +1,4 @@
 <script>
-  import { _, locale } from 'svelte-i18n';
   export let utmSource = 'website'; // default value if not provided
 
   function trackButtonClick() {
@@ -18,8 +17,8 @@
    target="_blank"
    rel="noopener noreferrer"
    on:click={trackButtonClick}>
-  <img alt={$_('playstore.imgAlt')}
-       src={`/images/play_badges/${$locale}_badge_web_generic.png`}
+  <img alt="Get it on Google Play"
+       src="/images/play_badges/en_badge_web_generic.png"
        class="play-badge" />
 </a>
 

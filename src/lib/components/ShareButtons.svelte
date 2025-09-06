@@ -1,6 +1,6 @@
 <script lang="ts">
     import { page } from '$app/stores';
-    import { _ } from 'svelte-i18n';
+    
     
     export let title: string;
     export let description: string = '';
@@ -25,7 +25,7 @@
   </script>
   
   <div class="share-buttons">
-    <span class="share-text">{$_('share.label')}:</span>
+    <span class="share-text">Share:</span>
     <div class="buttons">
       {#each shareLinks as link}
         <a 
@@ -33,7 +33,7 @@
           target="_blank"
           rel="noopener noreferrer"
           class="share-button"
-          aria-label={$_('share.platform', { values: { platform: link.name } })}
+          aria-label="Share on {link.name}"
         >
           <img src={link.icon} alt={link.name} width="20" height="20" />
         </a>

@@ -1,7 +1,6 @@
 <script>
     import Header from '$lib/components/Header.svelte';
     import Footer from '$lib/components/Footer.svelte';
-    import { _ } from 'svelte-i18n';
 </script>
 
 <header class="app-header">
@@ -10,8 +9,8 @@
 
 <div class="error-container">
     <h1>404</h1>
-    <p>{$_('error.notFound')}</p>
-    <a href="/">{$_('error.goHome')}</a>
+    <p>Page not found</p>
+    <a href="/">Go Home</a>
 </div>
 
 <Footer/>

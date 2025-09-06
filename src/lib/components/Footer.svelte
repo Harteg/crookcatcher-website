@@ -1,6 +1,5 @@
 <script>
   import { page } from '$app/stores';
-  import { _ } from 'svelte-i18n';
   
   const currentYear = new Date().getFullYear();
 </script>
@@ -15,28 +14,28 @@
         <li>
           <a 
             href="help" 
-            title={$_('footer.help')}
+            title="Help"
             class:active={$page.url.pathname === '/help'}
           >
-            {$_('footer.help')}
+            Help
           </a>
         </li>
         <li>
           <a 
             href="terms" 
-            title={$_('footer.terms')}
+            title="Terms"
             class:active={$page.url.pathname === '/terms'}
           >
-            {$_('footer.terms')}
+            Terms of use
           </a>
         </li>
         <li>
           <a 
             href="privacy" 
-            title={$_('footer.privacy')}
+            title="Privacy"
             class:active={$page.url.pathname === '/privacy'}
           >
-            {$_('footer.privacy')}
+            Privacy Policy
           </a>
         </li>
       </ul>

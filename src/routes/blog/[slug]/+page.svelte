@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { PageData } from './$types';
   import ShareButtons from '$lib/components/ShareButtons.svelte';
-  import { _ } from 'svelte-i18n';
+  
   import { page } from '$app/stores';
   
   export let data: PageData;
@@ -102,7 +102,7 @@
         description={data.post.description}
       />
       <time datetime={data.post.dateUpdated}>
-        {$_('Last updated')}: {new Date(data.post.dateUpdated).toLocaleDateString('en-US', {
+        Last updated: {new Date(data.post.dateUpdated).toLocaleDateString('en-US', {
           year: 'numeric',
           month: 'long',
           day: 'numeric'

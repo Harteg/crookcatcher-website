@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-cloudflare';
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { mdsvex } from 'mdsvex';
 import remarkGfm from 'remark-gfm';
@@ -16,13 +16,19 @@ const config = {
 			remarkPlugins: [remarkGfm],
 			rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings],
 			layout: {
-				_: 'src/routes/[lang]/blog/_post.svelte'
+				_: 'src/routes/blog/_post.svelte'
 			}
 		})
 	],
 
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+			pages: 'build',
+			assets: 'build',
+			fallback: '404.html',
+			precompress: false,
+			strict: true
+		}),
 
 		paths: {
 			base: '',
@@ -30,7 +36,19 @@ const config = {
 		},
 
 		prerender: {
-			entries: ['*']
+			entries: [
+				'/',
+				'/blog',
+				'/help',
+				'/privacy',
+				'/terms',
+				'/blog/introducing-crookcatcher',
+				'/blog/crookcatcher-setup',
+				'/blog/block-power-menu',
+				'/blog/phone-theft',
+				'/blog/top_five_settings'
+			],
+			handleMissingId: 'warn'
 		}
 	}
 };

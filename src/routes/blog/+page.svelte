@@ -1,8 +1,8 @@
 <script lang="ts">
   import { page } from '$app/stores';
   import type { PageData } from './$types';
-  import { locale } from 'svelte-i18n';
-  import { _ } from 'svelte-i18n';
+  
+  
   export let data: PageData;
 
   import Header from '$lib/components/Header.svelte';
@@ -10,8 +10,8 @@
 </script>
 
 <svelte:head>
-  <title>{$_('blog.title')}</title>
-  <meta name="description" content={$_('blog.description')} />
+  <title>Guides and Tutorials • CrookCatcher Anti-Theft App</title>
+  <meta name="description" content="A collection of articles showing you how to protect your phone from thieves and get the most out of CrookCatcher." />
   <meta property="og:type" content="blog" />
   <link rel="canonical" href={$page.url.href} />
 </svelte:head>
@@ -25,20 +25,20 @@
 
     <section class="hero-section">
       <div class="text-center">
-        <h1 class="hero-title cc-font">{$_('nav.blog')}</h1>
-        <p class="hero-subtitle">{$_('blog.description')}</p>
+                <h1 class="hero-title cc-font">Guides and Tutorials</h1>
+        <p class="hero-subtitle">A collection of articles showing you how to protect your phone from thieves and get the most out of CrookCatcher.</p>
       </div>
     </section>
 
     <section class="blog-list">
       {#each data.posts as post}
         <article class="blog-card">
-          <a href="/{$locale}/blog/{post.slug}" class="card-link">
+            <a href="/blog/{post.slug}" class="card-link">
             <div class="card-content">
               <div class="meta">
                 <span class="tag">BLOG</span>
-                <time datetime={post.date}>
-                  {new Date(post.datePublished).toLocaleDateString($locale || 'en', {
+                <time datetime={post.datePublished}>
+                  {new Date(post.datePublished).toLocaleDateString('en', {
                     year: 'numeric',
                     month: 'short',
                     day: 'numeric'
@@ -48,7 +48,7 @@
               <h2>{post.title}</h2>
               <p class="description">{post.description}</p>
               <div class="read-more">
-                <span>{$_('blog.readMore')}</span>
+                <span>Read the post</span>
               </div>
             </div>
           </a>

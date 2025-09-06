@@ -4,15 +4,14 @@
   import Features from '$lib/components/Features.svelte';
   import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
   import RecentPosts from '$lib/components/RecentPosts.svelte';
-  import { _} from 'svelte-i18n';
   import { fly } from 'svelte/transition';
 
   export let data;
 </script>
 
 <svelte:head>
-  <title>{$_('meta.title')}</title>
-  <meta name="description" content={$_('meta.description')}>
+  <title>CrookCatcher — Anti-Theft</title>
+  <meta name="description" content="CrookCatcher is an anti-theft app that protects your Android phone by capturing secret selfies and GPS locations when someone tries to unlock your device with the wrong password, pin code or pattern. CrookCatcher can even prevent thieves from turning on airplane mode.">
   
   <!-- For faster font loading -->
   <link rel="preload" href="/fonts/Nexa-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
@@ -32,8 +31,8 @@
           <!-- <h1 class="hero-title cc-font">Crook<wbr>Catcher</h1> -->
 
           <p class="hero-title">👋</p>
-          <p class="hero-title cc-font">{$_('hero.title')}</p>
-          <p class="hero-subtitle">{@html $_('hero.subtitle')}</p>
+          <p class="hero-title cc-font">hi there,</p>
+          <p class="hero-subtitle">Meet <span class='cc-font'>CrookCatcher</span>, the Android app that takes secret selfies of phone thieves and emails you their picture and location 🤟</p>
           <PlayStoreButton />
         </div>
       </section>
@@ -42,7 +41,7 @@
       <section class="section feature-section" id="section_lockscreen" >
         <div class="feature-grid">
           <div class="section_text_right feature-text">
-            <h2>{@html $_('features.lockscreen')}</h2>
+            <h2>Enter a wrong pin, pattern or password and <strong>CrookCatcher</strong> takes a secret selfie</h2>
           </div>
           <div class="feature-image">
             <img src="/images/screen_alert_event_shadow.png" 
@@ -55,7 +54,7 @@
       <section class="section feature-section" style='overflow: hidden'>
         <div class="feature-grid">
           <div class="section_text_left feature-text">
-            <h2>{@html $_('features.gps')}</h2>
+            <h2><strong>CrookCatcher</strong> then locates your phone with GPS</h2>
           </div>
           <div class="feature-image">
             <img src="/images/ic_earth_dark.svg" 
@@ -69,7 +68,7 @@
       <section class="section feature-section email-section" >
         <div class="feature-grid">
           <div class="section_text_left feature-text">
-            <h2>{@html $_('features.email')}</h2>
+            <h2>Finally, <strong>CrookCatcher</strong> sends pictures and location to your email</h2>
           </div>
           <div class="feature-image">
             <img src="/images/email_preview.png" style="" alt="Email illustration">
@@ -97,15 +96,15 @@
 
     <div class="container features-container" style="margin-top: 128px;">
         <section class="features-section text-center">
-            <h2 class="section-title cc-font" style="font-size: 2rem">{@html $_('pro.title')}</h2>
-            <p class="section-subtitle">{@html $_('pro.subtitle')}</p>
+            <h2 class="section-title cc-font" style="font-size: 2rem">Catch more intruders with CrookCatcher Pro</h2>
+            <p class="section-subtitle">Essential features are free, but Pro contains more than 10 features to further protect your phone and privacy.</p>
         <Features />
         </section>
     </div>
 
     <div class="container text-center">
       <p style="font-size: 1.4rem">
-        {@html $_('pro.availableInApp')}
+        <strong>CrookCatcher Pro</strong> is available for purchase inside the app.
       </p>
     </div>
 
@@ -123,10 +122,10 @@
       <div class="text-center">
         <img src="/images/crookcatcher_icon.svg" class="top-section-icon" alt="Crookcatcher icon" />
         <h2 class="hero-title cc-font">Crook<wbr>Catcher</h2>
-        <p class="hero-subtitle">{$_('download.subtitle')}</p>
+        <p class="hero-subtitle">Download now, before it's too late...</p>
         <PlayStoreButton />
         <div class="social-link-box">
-          <a href="https://x.com/CrookCatcherApp" target="_blank">{$_('download.follow')}</a>
+          <a href="https://x.com/CrookCatcherApp" target="_blank">Follow CrookCatcher on X</a>
         </div>
       </div>
     </section>

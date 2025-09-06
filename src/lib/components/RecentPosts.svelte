@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { locale } from 'svelte-i18n';
-  import { _ } from 'svelte-i18n';
+  
+  
   import type { Post } from '$lib/types/blog';
 
   export let posts: Post[] = [];
@@ -8,13 +8,13 @@
 
 <section class="recent-posts-section">
   <h2 class="section-title cc-font text-center" style="font-size: 2rem">
-    {@html $_('blog.recentPosts')}
+        Recent Posts
   </h2>
   
   <div class="recent-posts">
     {#each posts?.slice(0, 3) || [] as post}
       <article class="blog-preview">
-        <a href="/{$locale}/blog/{post.slug}" class="blog-preview-link">
+        <a href="/blog/{post.slug}" class="blog-preview-link">
           {#if post.image}
             <div class="preview-image">
               <img src={post.image} alt={post.imageAlt || ''} loading="lazy">
@@ -22,7 +22,7 @@
           {/if}
           <div class="preview-content">
             <time datetime={post.datePublished}>
-              {new Date(post.datePublished).toLocaleDateString($locale || 'en', {
+              {new Date(post.datePublished).toLocaleDateString('en', {
                 year: 'numeric',
                 month: 'short',
                 day: 'numeric'
@@ -37,8 +37,8 @@
   </div>
 
   <div class="text-center" style="margin-top: 48px;">
-    <a href="/{$locale}/blog" class="social-link">
-      {$_('blog.viewAll')} →
+    <a href="/blog" class="social-link">
+        View all posts →
     </a>
   </div>
 </section>

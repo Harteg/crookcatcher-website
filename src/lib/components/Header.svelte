@@ -1,56 +1,29 @@
 <script lang="ts">
   import { page } from '$app/stores';
-  import { locale } from 'svelte-i18n';
-  import { _ } from 'svelte-i18n';
-  import { goto } from '$app/navigation';
-  import { setLocale } from '$lib/i18n';
-
-  const languages = [
-    { code: 'en', name: 'EN' },
-    { code: 'fr', name: 'FR' }
-  ];
-
-  async function switchLanguage(langCode: string) {
-    const currentPath = $page.url.pathname;
-    const newPath = currentPath.replace(/^\/(en|fr)/, '');
-    await setLocale(langCode);
-    goto(`/${langCode}${newPath}`);
-  }
 </script>
 
 <header class="header-fixed">
   <div class="header-row">
-    <a href="/{$locale}" class="header-button header-logo">
+    <a href="/" class="header-button header-logo">
       <span class="cc-font">CrookCatcher</span>
     </a>
     <div class="spacer"></div>
     <a 
       class="header-button" 
-      href="/{$locale}/blog" 
+      href="/blog" 
       title="Blog"
       class:active={$page.url.pathname.includes('/blog')}
     >
-      {$_('nav.blog')}
+            Guides and Tutorials
     </a>
     <a 
       class="header-button" 
-      href="/{$locale}/help" 
+      href="/help" 
       title="Help"
       class:active={$page.url.pathname.includes('/help')}
     >
-      {$_('nav.help')}
+      Help
     </a>
-    <div class="lang-switcher">
-      {#each languages as { code, name }}
-        <button
-          class="lang-button"
-          class:active={$locale === code}
-          on:click={() => switchLanguage(code)}
-        >
-          {name}
-        </button>
-      {/each}
-    </div>
   </div>
 </header>
 
