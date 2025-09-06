@@ -48,7 +48,8 @@ const config = {
 				'/blog/phone-theft',
 				'/blog/top_five_settings'
 			],
-			handleMissingId: 'warn'
+			handleMissingId: 'warn',
+			handleHttpError: 'warn'
 		}
 	}
 };

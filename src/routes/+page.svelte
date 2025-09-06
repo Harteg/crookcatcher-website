@@ -4,14 +4,13 @@
   import Features from '$lib/components/Features.svelte';
   import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
   import RecentPosts from '$lib/components/RecentPosts.svelte';
-  import { fly } from 'svelte/transition';
 
   export let data;
 </script>
 
 <svelte:head>
-  <title>CrookCatcher — Anti-Theft</title>
-  <meta name="description" content="CrookCatcher is an anti-theft app that protects your Android phone by capturing secret selfies and GPS locations when someone tries to unlock your device with the wrong password, pin code or pattern. CrookCatcher can even prevent thieves from turning on airplane mode.">
+  <title>CrookCatcher • Protect Your Phone and Catch Intruders</title>
+  <meta name="description" content="Find out who's using or snooping on your Android! CrookCatcher snaps a photo of anyone trying to unlock your phone with the wrong password or pattern. Receive their picture and GPS location instantly via email to protect your phone from theft or recover it if stolen.">
   
   <!-- For faster font loading -->
   <link rel="preload" href="/fonts/Nexa-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">

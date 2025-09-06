@@ -117,7 +117,7 @@ If a thief can swipe down and toggle **Airplane Mode**, they can **cut off track
 2. Tap the **edit (✏️)** icon.
 3. Drag **Airplane Mode** out of the visible tile area.
 
-> ✅ Pro tip: CrookCatcher can block access to Quick Settings entirely while your phone is locked. 👉 [Read the full guide here](/en/blog/block-power-menu)
+> ✅ Pro tip: CrookCatcher can block access to Quick Settings entirely while your phone is locked. 👉 [Read the full guide here](/blog/block-power-menu)
 
 <figure class="blog-figure">
   <img src="/images/blog/quick_settings_airplane.jpg" alt="Quick Settings screen with Airplane Mode removed" />

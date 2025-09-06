@@ -76,6 +76,6 @@ Jakob H. ✌️
 A: CrookCatcher only activates during incorrect unlock attempts, so battery usage is very minimal.
 
 ### Q: Is my privacy protected?
-A: Yes! CrookCatcher never shares your photos, locations, email address or any other personal information with anyone, not even the developer. You can read more about this in the [privacy policy](/en/privacy).
+A: Yes! CrookCatcher never shares your photos, locations, email address or any other personal information with anyone, not even the developer. You can read more about this in the [privacy policy](/privacy).
 
-Got more questions? Check out the [FAQ](/en/help).
+Got more questions? Check out the [FAQ](/help).
