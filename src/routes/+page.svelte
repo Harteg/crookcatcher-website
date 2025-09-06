@@ -11,10 +11,62 @@
 <svelte:head>
   <title>CrookCatcher • Protect Your Phone and Catch Intruders</title>
   <meta name="description" content="Find out who's using or snooping on your Android! CrookCatcher snaps a photo of anyone trying to unlock your phone with the wrong password or pattern. Receive their picture and GPS location instantly via email to protect your phone from theft or recover it if stolen.">
+  <link rel="canonical" href="https://www.crookcatcher.app/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="CrookCatcher – Android anti-theft app" />
+  <meta property="og:description" content="Secret intruder selfies + GPS emailed to you." />
+  <meta property="og:url" content="https://www.crookcatcher.app/" />
+  <meta property="og:image" content="https://www.crookcatcher.app/images/social_graphic.png" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="CrookCatcher – Android anti-theft app" />
+  <meta name="twitter:description" content="Secret intruder selfies + GPS emailed to you." />
+  <meta name="twitter:image" content="https://www.crookcatcher.app/images/social_graphic.png" />
   
   <!-- For faster font loading -->
   <link rel="preload" href="/fonts/Nexa-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="preload" href="/fonts/Nexa-Bold.woff" as="font" type="font/woff" crossorigin="anonymous">
+
+  <!-- FAQPage JSON-LD -->
+  {@html `<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {"@type":"Question","name":"What happens when someone tries to unlock my phone?",
+     "acceptedAnswer":{"@type":"Answer","text":"CrookCatcher takes a photo using the front camera, records GPS location if available, and sends these to your email. With Pro, it can also record video, use the back camera, play alarms, and show a fake home screen."}},
+    {"@type":"Question","name":"When does CrookCatcher take action?",
+     "acceptedAnswer":{"@type":"Answer","text":"You can configure how many failed unlock attempts are required before CrookCatcher activates. Once that threshold is reached, it will take photos, record videos (Pro), and send alerts based on your settings."}},
+    {"@type":"Question","name":"What features are included in the free version?",
+     "acceptedAnswer":{"@type":"Answer","text":"The free version includes essential features like taking pictures when wrong passwords are entered, obtaining GPS location, and sending alert emails with photos and location data."}},
+    {"@type":"Question","name":"What additional features does Pro offer?",
+     "acceptedAnswer":{"@type":"Answer","text":"Pro includes video capture, Google Drive upload, back camera photos, custom alert messages, alarm sounds, fake home screen, app lock, app disguise, break-in detection, custom email subjects, hidden notifications and removes ads."}},
+    {"@type":"Question","name":"How much does CrookCatcher Pro cost?",
+     "acceptedAnswer":{"@type":"Answer","text":"The price of CrookCatcher Pro varies depending on your country of residence. You can see the exact price for your region directly inside the app."}},
+    {"@type":"Question","name":"How do I access the captured photos and videos?",
+     "acceptedAnswer":{"@type":"Answer","text":"All photos and videos are stored locally on your device and can be viewed directly in the app. They are also sent to your email automatically. Pro users can additionally have files uploaded to Google Drive for easy access from any device."}},
+    {"@type":"Question","name":"Does it work without internet?",
+     "acceptedAnswer":{"@type":"Answer","text":"Yes. CrookCatcher will take photos and store them locally, then send alerts once internet connection is restored."}},
+    {"@type":"Question","name":"How does CrookCatcher stay discreet?",
+     "acceptedAnswer":{"@type":"Answer","text":"Pro features help keep the app hidden from thieves by disguising the app icon, hiding notifications until unlock, customizing email subjects to avoid revealing alerts, and locking the app itself with a pattern code."}},
+    {"@type":"Question","name":"How does the break-in detection work?",
+     "acceptedAnswer":{"@type":"Answer","text":"This Pro feature ensures that if someone fails password attempts but eventually guesses correctly, CrookCatcher still takes photos and sends alerts, helping catch thieves who manage to break in."}},
+    {"@type":"Question","name":"Can I customize the alert notifications?",
+     "acceptedAnswer":{"@type":"Answer","text":"Pro users can customize email subjects, hide notifications until the phone is unlocked, and display custom messages on the lock screen when photos are taken."}},
+    {"@type":"Question","name":"Will CrookCatcher drain my battery?",
+     "acceptedAnswer":{"@type":"Answer","text":"No. CrookCatcher only activates when wrong unlock attempts are detected, using minimal battery in standby. Even when active, it's optimized for efficient power usage."}},
+    {"@type":"Question","name":"Is my privacy protected?",
+     "acceptedAnswer":{"@type":"Answer","text":"Yes. CrookCatcher only captures photos/videos during wrong unlock attempts. All data is stored locally and only sent to your specified email/Drive. We don't collect or store any of your personal data."}},
+    {"@type":"Question","name":"What if I factory reset my phone?",
+     "acceptedAnswer":{"@type":"Answer","text":"CrookCatcher will be uninstalled with a factory reset. We recommend upgrading to Pro and enabling Google Drive backup to ensure your evidence is safely stored in the cloud."}},
+    {"@type":"Question","name":"How does CrookCatcher handle my email permissions?",
+     "acceptedAnswer":{"@type":"Answer","text":"CrookCatcher requests Gmail sign-in to send emails on your behalf, avoiding transmission through third-party servers. This permission is limited to sending emails only to your specified address and doesn't grant access to read emails or manage contacts. You can revoke this permission anytime through your Google Account settings."}}
+  ]
+}
+</script>`}
 </svelte:head>
 
 <header class="app-header">
@@ -26,9 +78,6 @@
       <!-- Header Section -->
       <section class="section hero-section" id="section_CC" style="padding-bottom: 5rem;">
         <div class="text-center" >
-          <!-- <img src="/images/crookcatcher_icon.svg" class="top-section-icon" alt="Crookcatcher icon" /> -->
-          <!-- <h1 class="hero-title cc-font">Crook<wbr>Catcher</h1> -->
-
           <p class="hero-title">👋</p>
           <p class="hero-title cc-font">hi there,</p>
           <p class="hero-subtitle">Meet <span class='cc-font'>CrookCatcher</span>, the Android app that takes secret selfies of phone thieves and emails you their picture and location 🤟</p>
@@ -113,7 +162,71 @@
       <RecentPosts posts={data.posts} />
     </div>
 
-    <div class="section-divider" style="margin-top: 64px;"></div>
+    <!-- FAQ Section -->
+    <section class="faq-section">
+      <div class="container">
+        <h2 class="section-title cc-font">Frequently Asked Questions</h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h3>What happens when someone tries to unlock my phone?</h3>
+            <p>CrookCatcher takes a photo using the front camera, records GPS location if available, and sends these to your email. With Pro, it can also record video, use the back camera, play alarms, and show a fake home screen.</p>
+          </div>
+          <div class="faq-item">
+            <h3>When does CrookCatcher take action?</h3>
+            <p>You can configure how many failed unlock attempts are required before CrookCatcher activates. Once that threshold is reached, it will take photos, record videos (Pro), and send alerts based on your settings.</p>
+          </div>
+          <div class="faq-item">
+            <h3>What features are included in the free version?</h3>
+            <p>The free version includes essential features like taking pictures when wrong passwords are entered, obtaining GPS location, and sending alert emails with photos and location data.</p>
+          </div>
+          <div class="faq-item">
+            <h3>What additional features does Pro offer?</h3>
+            <p>Pro includes video capture, Google Drive upload, back camera photos, custom alert messages, alarm sounds, fake home screen, app lock, app disguise, break-in detection, custom email subjects, hidden notifications and removes ads.</p>
+          </div>
+          <div class="faq-item">
+            <h3>How much does CrookCatcher Pro cost?</h3>
+            <p>The price of CrookCatcher Pro varies depending on your country of residence. You can see the exact price for your region directly inside the app.</p>
+          </div>
+          <div class="faq-item">
+            <h3>How do I access the captured photos and videos?</h3>
+            <p>All photos and videos are stored locally on your device and can be viewed directly in the app. They are also sent to your email automatically. Pro users can additionally have files uploaded to Google Drive for easy access from any device.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Does it work without internet?</h3>
+            <p>Yes. CrookCatcher will take photos and store them locally, then send alerts once internet connection is restored.</p>
+          </div>
+          <div class="faq-item">
+            <h3>How does CrookCatcher stay discreet?</h3>
+            <p>Pro features help keep the app hidden from thieves by disguising the app icon, hiding notifications until unlock, customizing email subjects to avoid revealing alerts, and locking the app itself with a pattern code.</p>
+          </div>
+          <div class="faq-item">
+            <h3>How does the break-in detection work? (Pro)</h3>
+            <p>This Pro feature ensures that if someone fails password attempts but eventually guesses correctly, CrookCatcher still takes photos and sends alerts, helping catch thieves who manage to break in.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Can I customize the alert notifications?</h3>
+            <p>Pro users can customize email subjects, hide notifications until the phone is unlocked, and display custom messages on the lock screen when photos are taken.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Will CrookCatcher drain my battery?</h3>
+            <p>No. CrookCatcher only activates when wrong unlock attempts are detected, using minimal battery in standby. Even when active, it's optimized for efficient power usage.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Is my privacy protected?</h3>
+            <p>Yes. CrookCatcher only captures photos/videos during wrong unlock attempts. All data is stored locally and only sent to your specified email/Drive. We don't collect or store any of your personal data.</p>
+          </div>
+          <div class="faq-item">
+            <h3>What if I factory reset my phone?</h3>
+            <p>CrookCatcher will be uninstalled with a factory reset. We recommend upgrading to Pro and enabling Google Drive backup to ensure your evidence is safely stored in the cloud.</p>
+          </div>
+          <div class="faq-item">
+            <h3>How does CrookCatcher handle my email permissions?</h3>
+            <p>CrookCatcher requests Gmail sign-in to send emails on your behalf, avoiding transmission through third-party servers. This permission is limited to sending emails only to your specified address and doesn't grant access to read emails or manage contacts. You can revoke this permission anytime through your Google Account settings.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <div class="container">
 
     <!-- Download Section -->
@@ -457,6 +570,54 @@
 
   @media (max-width: 840px) {
     .recent-posts {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+  }
+
+  .faq-section {
+    padding: 64px 0;
+    background: var(--color-cc-dark-bg);
+    margin: 64px 32px;
+    border-radius: var(--border-radius);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 32px;
+    margin-top: 32px;
+  }
+
+  .faq-item {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 24px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .faq-item h3 {
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+
+  .faq-item p {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  @media (max-width: 840px) {
+    .faq-section {
+      margin: 32px 0;
+      border-radius: 0;
+      padding: 32px 16px;
+    }
+
+    .faq-grid {
       grid-template-columns: 1fr;
       gap: 16px;
     }

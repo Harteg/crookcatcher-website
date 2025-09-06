@@ -30,18 +30,7 @@ const config = {
 		},
 
 		prerender: {
-			entries: [
-				'/',
-				'/blog',
-				'/help',
-				'/privacy',
-				'/terms',
-				'/blog/introducing-crookcatcher',
-				'/blog/crookcatcher-setup',
-				'/blog/block-power-menu',
-				'/blog/phone-theft',
-				'/blog/top_five_settings'
-			],
+			entries: ['*'],
 			handleMissingId: 'warn',
 			handleHttpError: 'warn'
 		}

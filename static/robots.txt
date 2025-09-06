@@ -1,5 +1,3 @@
 User-agent: *
-Disallow: /node_modules/
-Disallow: /.svelte-kit/
-Disallow: /private/
 Allow: /
+Sitemap: https://www.crookcatcher.app/sitemap.xml

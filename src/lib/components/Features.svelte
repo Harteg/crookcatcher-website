@@ -77,7 +77,7 @@
     {
       key: 'disguiseApp',
       title: 'Disguise app',
-      description: 'Change the app icon and name to mmake it look like a file explorer app, so intruders won\'t find out you have CrookCatcher installed.',
+      description: 'Change the app icon and name to make it look like a file explorer app, so intruders won\'t find out you have CrookCatcher installed.',
       inFree: false,
       inPro: true
     },

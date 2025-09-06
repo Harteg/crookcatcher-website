@@ -25,12 +25,14 @@
 <svelte:head>
   <title>{data.post.title} - {data.post.subtitle}</title>
   <meta name="description" content={data.post.description}>
+  <link rel="canonical" href="https://www.crookcatcher.app/blog/{data.slug}" />
   
   <!-- Social Tags -->
   <meta property="og:title" content={data.post.title}>
   <meta property="og:description" content={data.post.description}>
   <meta property="og:image" content={data.post.image}>
   <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.crookcatcher.app/blog/{data.slug}" />
   
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
@@ -67,6 +69,30 @@
     "url": "{$page.url.href}"
   }
 </script>`}
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.crookcatcher.app/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.crookcatcher.app/blog"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "${data.post.title}",
+        "item": "https://www.crookcatcher.app/blog/${data.slug}"
+      }
+    ]
+  }
 </svelte:head>
 
 <header class="app-header">
@@ -341,6 +367,54 @@
       flex-direction: column;
       gap: 16px;
       align-items: flex-start;
+    }
+  }
+
+  .faq-section {
+    padding: 64px 0;
+    background: var(--color-cc-dark-bg);
+    margin: 64px 0;
+    border-radius: var(--border-radius);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 32px;
+    margin-top: 32px;
+  }
+
+  .faq-item {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 24px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .faq-item h3 {
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+
+  .faq-item p {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  @media (max-width: 840px) {
+    .faq-section {
+      margin: 32px 0;
+      border-radius: 0;
+      padding: 32px 16px;
+    }
+
+    .faq-grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
     }
   }
 </style> 
