@@ -1,0 +1,5 @@
+# Redirect old language routes to root
+/en/* /:splat 301
+/fr/* /:splat 301
+/en /  301
+/fr /  301
