@@ -18,7 +18,7 @@ import Footer from '$lib/components/Footer.svelte';
         <section class="hero-section">
             <div class="text-center">
                 <h1 class="hero-title cc-font">Privacy Policy</h1>
-                <p class="hero-subtitle">By using CrookCatcher, you agree to the following policy:</p>
+                <p class="hero-subtitle">CrookCatcher is designed with your privacy in mind. Here's how we keep your data safe and private</p>
             </div>
         </section>
 

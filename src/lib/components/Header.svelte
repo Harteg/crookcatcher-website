@@ -1,6 +1,20 @@
 <script lang="ts">
   import { page } from '$app/stores';
+  
+  let menuOpen = false;
+  
+  function toggleMenu() {
+    menuOpen = !menuOpen;
+  }
+  
+  function closeMenu() {
+    menuOpen = false;
+  }
 </script>
+
+<svelte:head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</svelte:head>
 
 <header class="header-fixed">
   <div class="header-row">
@@ -8,22 +22,34 @@
       <span class="cc-font">CrookCatcher</span>
     </a>
     <div class="spacer"></div>
-    <a 
-      class="header-button" 
-      href="/blog" 
-      title="Blog"
-      class:active={$page.url.pathname.includes('/blog')}
+    <nav class="nav-menu" class:open={menuOpen}>
+      <a 
+        class="header-button" 
+        href="/blog" 
+        title="Blog"
+        class:active={$page.url.pathname.includes('/blog')}
+        on:click={closeMenu}
+      >
+        Guides and Tutorials
+      </a>
+      <a 
+        class="header-button" 
+        href="/help" 
+        title="Help"
+        class:active={$page.url.pathname.includes('/help')}
+        on:click={closeMenu}
+      >
+        Help
+      </a>
+    </nav>
+    <button 
+      class="hamburger-button"
+      on:click={toggleMenu}
+      aria-label="Toggle menu"
+      aria-expanded={menuOpen}
     >
-            Guides and Tutorials
-    </a>
-    <a 
-      class="header-button" 
-      href="/help" 
-      title="Help"
-      class:active={$page.url.pathname.includes('/help')}
-    >
-      Help
-    </a>
+      <span class="material-icons">{menuOpen ? 'close' : 'menu'}</span>
+    </button>
   </div>
 </header>
 
@@ -107,8 +133,43 @@
     width: calc(100% - 16px);
   }
 
+  .header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .header-button .cc-font {
     font-size: 1.2rem;
+    line-height: 1;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .hamburger-button {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.2s;
+  }
+
+  .hamburger-button:hover {
+    opacity: 0.8;
+  }
+
+  .hamburger-button .material-icons {
+    font-size: 28px;
   }
 
   .lang-switcher {
@@ -145,33 +206,80 @@
     .header-fixed {
       position: relative;
       height: auto;
-      padding: 8px 0;
+      min-height: 64px;
+      display: flex;
+      align-items: center;
     }
     
     .header-row {
-      flex-wrap: wrap;
-      padding: 8px 16px;
-      gap: 8px;
-      max-width: var(--content-width);
-      justify-content: center;
+      flex-wrap: nowrap;
+      padding: 0 16px;
+      gap: 0;
+      justify-content: space-between;
+      position: relative;
+      width: 100%;
+      min-height: 64px;
     }
 
     .header-logo {
-      width: 100%;
-      justify-content: center;
-      margin-bottom: 8px;
+      flex: 0 0 auto;
+      margin-bottom: 0;
+      height: 64px;
+      display: flex;
+      align-items: center;
     }
 
     .header-logo .cc-font {
-      font-size: 2rem;
-    }
-
-    .header-button:not(:first-child) {
-      flex: 0 1 auto;
+      font-size: 1.2rem;
+      line-height: 1;
     }
 
     .spacer {
       display: none;
+    }
+
+    .nav-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      background: var(--color-dark-bg);
+      border-top: none;
+      padding: 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out;
+      gap: 0;
+    }
+
+    .nav-menu.open {
+      max-height: 300px;
+      padding: 8px 0;
+      border-top: var(--border);
+    }
+
+    .nav-menu .header-button {
+      width: 100%;
+      padding: 16px;
+      height: auto;
+      justify-content: flex-start;
+      border-radius: 0;
+    }
+
+    .nav-menu .header-button::after {
+      display: none;
+    }
+
+    .nav-menu .header-button.active {
+      background: rgba(76, 175, 80, 0.1);
+    }
+
+    .hamburger-button {
+      display: flex;
+      height: 64px;
+      align-items: center;
+      justify-content: center;
     }
 
     .lang-switcher {

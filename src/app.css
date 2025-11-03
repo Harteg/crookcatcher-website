@@ -157,6 +157,11 @@ hr {
         padding: 32px 16px;
     }
 
+    .container:has(.hero-section) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
     .section {
         padding: 10% 16px;
     }
@@ -190,15 +195,13 @@ hr {
     margin: 0;
   }
 
-/* Hero Sections */
-@media (max-width: 640px) {
-    .hero-title {
-        font-size: 42px;
-    }
-
-    .hero-subtitle {
-        font-size: 24px;
-    }
+/* Glass Card - Reusable glass effect card */
+.glass-card {
+  position: relative;
+  background: linear-gradient(135deg, rgba(76, 175, 80, 0.08) 0%, rgba(56, 142, 60, 0.04) 100%);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(76, 175, 80, 0.25);
+  border-radius: 16px;
 }
 
 .hero-section {
@@ -207,10 +210,15 @@ hr {
 }
 
 .hero-title {
-    font-size: clamp(42px, 8vw, 72px);
+    font-size: clamp(24px, 7vw, 72px);
     letter-spacing: -0.5px;
     line-height: 1.1;
     margin-bottom: 16px;
+    display: block;
+    white-space: nowrap;
+    word-break: keep-all;
+    overflow-wrap: normal;
+    padding: 0 8px;
 }
 
 .hero-subtitle {
@@ -221,6 +229,35 @@ hr {
     max-width: 800px;
     margin: 0 auto;
 }
+
+@media (max-width: 640px) {
+
+    .hero-section {
+        padding: 5% 0;
+    }
+
+    .hero-title {
+        font-size: clamp(20px, 8vw, 40px);
+        word-break: keep-all;
+    }
+
+    .hero-subtitle {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: clamp(18px, 9vw, 36px);
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-title {
+        font-size: clamp(16px, 10vw, 32px);
+    }
+}
+
 
 /* CrookCatcher specific */
 .cc-font {
