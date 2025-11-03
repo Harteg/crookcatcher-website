@@ -2,6 +2,7 @@
   import Header from '$lib/components/Header.svelte';
   import Footer from '$lib/components/Footer.svelte';
   import Features from '$lib/components/Features.svelte';
+  import LandingFeatures from '$lib/components/LandingFeatures.svelte';
   import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
   import RecentPosts from '$lib/components/RecentPosts.svelte';
 
@@ -10,11 +11,11 @@
 
 <svelte:head>
   <title>CrookCatcher • Protect Your Phone and Catch Intruders</title>
-  <meta name="description" content="Find out who's using or snooping on your Android! CrookCatcher snaps a photo of anyone trying to unlock your phone with the wrong password or pattern. Receive their picture and GPS location instantly via email to protect your phone from theft or recover it if stolen.">
+  <meta name="description" content="Protect your Android phone and catch intruders. Get instant photos and GPS location via email when someone tries to break into your phone—recover it quickly and catch the thief.">
   <link rel="canonical" href="https://www.crookcatcher.app/" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="CrookCatcher – Android anti-theft app" />
+  <meta property="og:title" content="CrookCatcher - Recover stolen android phones" />
   <meta property="og:description" content="Secret intruder selfies + GPS emailed to you." />
   <meta property="og:url" content="https://www.crookcatcher.app/" />
   <meta property="og:image" content="https://www.crookcatcher.app/images/social_graphic.png" />
@@ -22,13 +23,14 @@
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="CrookCatcher – Android anti-theft app" />
+  <meta name="twitter:title" content="CrookCatcher - Recover stolen android phones" />
   <meta name="twitter:description" content="Secret intruder selfies + GPS emailed to you." />
   <meta name="twitter:image" content="https://www.crookcatcher.app/images/social_graphic.png" />
   
   <!-- For faster font loading -->
   <link rel="preload" href="/fonts/Nexa-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="preload" href="/fonts/Nexa-Bold.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
   <!-- FAQPage JSON-LD -->
   {@html `<script type="application/ld+json">
@@ -76,20 +78,51 @@
 <main>
     <div class="container">
       <!-- Header Section -->
-      <section class="section hero-section" id="section_CC" style="padding-bottom: 5rem;">
+      <section class="section hero-section" id="section_CC" style="padding-bottom: 3rem;">
         <div class="text-center" >
-          <p class="hero-title">👋</p>
-          <p class="hero-title cc-font">hi there,</p>
-          <p class="hero-subtitle">Meet <span class='cc-font'>CrookCatcher</span>, the Android app that takes secret selfies of phone thieves and emails you their picture and location 🤟</p>
-          <PlayStoreButton />
+          <p class="hero-title cc-font" style="margin-bottom: 32px;">Protect your phone and catch intruders</p>
+          <p class="hero-subtitle" style="margin-bottom: 32px;">Get instant photos and GPS location when someone tries to break in—no registration required 🤟</p>
+          
+          <!-- Stats Section -->
+          <div class="hero-stats-minimal" style="margin: 0 auto 32px;">
+            <div class="stat-item-minimal">
+              <div class="stat-number-minimal">50K</div>
+              <div class="stat-label-minimal">5 Star Reviews</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item-minimal">
+              <div class="stat-number-minimal">10M</div>
+              <div class="stat-label-minimal">Downloads</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item-minimal">
+              <div class="stat-number-minimal">10 Years</div>
+              <div class="stat-label-minimal">Protecting Phones</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item-minimal">
+              <div class="stat-number-minimal">1M</div>
+              <div class="stat-label-minimal">Alert Emails Daily</div>
+            </div>
+          </div>
+          
+          <div class="text-center">
+            <PlayStoreButton />
+          </div>
         </div>
       </section>
+
+      <!-- How It Works Intro -->
+      <div class="container text-center" style="margin: 64px 0 48px;">
+        <h2 class="section-title cc-font" style="font-size: 2rem; margin-bottom: 16px;">How It Works</h2>
+        <p class="section-subtitle" style="max-width: 700px; margin: 0 auto;">When someone tries to break into your phone, CrookCatcher automatically captures evidence and sends it to you. Here's how:</p>
+      </div>
 
       <!-- Lockscreen Section -->
       <section class="section feature-section" id="section_lockscreen" >
         <div class="feature-grid">
           <div class="section_text_right feature-text">
-            <h2>Enter a wrong pin, pattern or password and <strong>CrookCatcher</strong> takes a secret selfie</h2>
+            <h2>Catch anyone trying to break into your phone—get their photo instantly when they enter the wrong password</h2>
           </div>
           <div class="feature-image">
             <img src="/images/screen_alert_event_shadow.png" 
@@ -102,7 +135,7 @@
       <section class="section feature-section" style='overflow: hidden'>
         <div class="feature-grid">
           <div class="section_text_left feature-text">
-            <h2><strong>CrookCatcher</strong> then locates your phone with GPS</h2>
+            <h2>Find your phone's exact location—GPS tracking helps you recover it quickly</h2>
           </div>
           <div class="feature-image">
             <img src="/images/ic_earth_dark.svg" 
@@ -116,7 +149,7 @@
       <section class="section feature-section email-section" >
         <div class="feature-grid">
           <div class="section_text_left feature-text">
-            <h2>Finally, <strong>CrookCatcher</strong> sends pictures and location to your email</h2>
+            <h2>Get instant alerts in your email—receive photos and location automatically</h2>
           </div>
           <div class="feature-image">
             <img src="/images/email_preview.png" style="" alt="Email illustration">
@@ -140,26 +173,101 @@
       </div>
     </section>
 
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+      <div class="container">
+        <h2 class="section-title cc-font text-center">Trusted by Users Worldwide</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial-card testimonial-featured">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"Truly love this application, yesterday my handset was stolen but I had the picture of the thief so by the help of some friends I recognised the thief and today I have my phone."</p>
+            <p class="testimonial-author">— Muhammad Bilal</p>
+            <p class="testimonial-date">21 Feb, 2021</p>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"This is one of the best apps to catch anyone trying to steal your phone or the information in your phone without your authorization."</p>
+            <p class="testimonial-author">— Robinson Elerubo</p>
+            <p class="testimonial-date">29 Sep, 2024</p>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"Awesome application! Finally a real security anti thief app. Easy to install and use, and PRO version is perfect. Worth every penny!"</p>
+            <p class="testimonial-author">— Eduard Vrhovec</p>
+            <p class="testimonial-date">10 Dec, 2024</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider" style="margin-top: 128px;"></div>
+
+    <!-- Why Choose & Free Features Section -->
+    <section class="why-choose-free-section">
+      <div class="container">
+        <div class="free-badge">ESSENTIAL FEATURES ARE FREE</div>
+        <h2 class="section-title cc-font text-center">Start Protecting Your Phone Today</h2>
+        <p class="section-subtitle text-center">No credit card required. Get started instantly with powerful protection.</p>
+        
+        <div class="unified-features-grid">
+          <div class="unified-feature-card">
+            <div class="unified-feature-icon">
+              <span class="material-icons">security</span>
+            </div>
+            <h3>10+ Security Features</h3>
+            <p>Comprehensive protection with photos, GPS, video, and stealth features</p>
+          </div>
+          <div class="unified-feature-card">
+            <div class="unified-feature-icon">
+              <span class="material-icons">person_off</span>
+            </div>
+            <h3>No Registration</h3>
+            <p>Start protecting your phone immediately—no signup, no hassle</p>
+          </div>
+          <div class="unified-feature-card">
+            <div class="unified-feature-icon">
+              <span class="material-icons">favorite</span>
+            </div>
+            <h3>Free Forever</h3>
+            <p>Essential features are free forever—upgrade to Pro anytime</p>
+          </div>
+          <div class="unified-feature-card">
+            <div class="unified-feature-icon">
+              <span class="material-icons">lock</span>
+            </div>
+            <h3>Privacy Protected</h3>
+            <p>Your data stays local and private—we don't collect or store your personal information</p>
+          </div>
+          <div class="unified-feature-card">
+            <div class="unified-feature-icon">
+              <span class="material-icons">bolt</span>
+            </div>
+            <h3>Easy Setup</h3>
+            <p>Get started in minutes with simple configuration</p>
+          </div>
+          <div class="unified-feature-card">
+            <div class="unified-feature-icon">
+              <span class="material-icons">battery_charging_full</span>
+            </div>
+            <h3>Battery Efficient</h3>
+            <p>Minimal battery usage—only activates when wrong passwords are detected</p>
+          </div>
+        </div>
+        
+        <div class="text-center" style="margin-top: 56px;">
+          <PlayStoreButton />
+        </div>
+      </div>
+    </section>
+
     <div class="section-divider" style="margin-top: 128px;"></div>
 
     <div class="container features-container" style="margin-top: 128px;">
         <section class="features-section text-center">
-            <h2 class="section-title cc-font" style="font-size: 2rem">Catch more intruders with CrookCatcher Pro</h2>
-            <p class="section-subtitle">Essential features are free, but Pro contains more than 10 features to further protect your phone and privacy.</p>
-        <Features />
+            <h2 class="section-title cc-font" style="font-size: 2rem; margin-bottom: 16px;">All Features</h2>
+            <p class="section-subtitle" style="margin-bottom: 48px;">Complete protection features—essential tools are free, Pro unlocks advanced security</p>
+            <LandingFeatures />
         </section>
-    </div>
-
-    <div class="container text-center">
-      <p style="font-size: 1.4rem">
-        <strong>CrookCatcher Pro</strong> is available for purchase inside the app.
-      </p>
-    </div>
-
-    <div class="section-divider" style="margin-top: 64px;"></div>
-
-    <div class="container">
-      <RecentPosts posts={data.posts} />
     </div>
 
     <!-- FAQ Section -->
@@ -227,6 +335,14 @@
       </div>
     </section>
 
+    <div class="section-divider" style="margin-top: 64px;"></div>
+
+    <div class="container">
+      <RecentPosts posts={data.posts} />
+    </div>
+
+    <div class="section-divider" style="margin-top: 64px;"></div>
+
     <div class="container">
 
     <!-- Download Section -->
@@ -234,7 +350,12 @@
       <div class="text-center">
         <img src="/images/crookcatcher_icon.svg" class="top-section-icon" alt="Crookcatcher icon" />
         <h2 class="hero-title cc-font">Crook<wbr>Catcher</h2>
-        <p class="hero-subtitle">Download now, before it's too late...</p>
+        <p class="hero-subtitle">Protect your phone now, before someone tries to break in...</p>
+        <div class="trust-badges">
+          <span class="trust-badge">✓ Free to Download</span>
+          <span class="trust-badge">✓ No Credit Card</span>
+          <span class="trust-badge">✓ Easy Setup</span>
+        </div>
         <PlayStoreButton />
         <div class="social-link-box">
           <a href="https://x.com/CrookCatcherApp" target="_blank">Follow CrookCatcher on X</a>
@@ -293,6 +414,405 @@
   .social-link-box a:hover {
     background: rgba(255, 255, 255, 0.1);
     border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .trust-badges {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 20px 0 28px;
+  }
+
+  .trust-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    letter-spacing: 0.01em;
+  }
+
+  .hero-stats-minimal {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 16px 24px;
+    width: fit-content;
+    background: linear-gradient(135deg, rgba(76, 175, 80, 0.08) 0%, rgba(56, 142, 60, 0.04) 100%);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(76, 175, 80, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(76, 175, 80, 0.15),
+                0 0 0 1px rgba(76, 175, 80, 0.1),
+                inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  }
+
+  .stat-item-minimal {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat-number-minimal {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.2;
+    margin-bottom: 2px;
+  }
+
+  .stat-label-minimal {
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    line-height: 1.3;
+  }
+
+  .stat-divider {
+    width: 1px;
+    height: 24px;
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+  .stats-section {
+    padding: 64px 0;
+    margin: 0 0 80px;
+    background: linear-gradient(135deg, rgba(76, 175, 80, 0.1) 0%, rgba(56, 142, 60, 0.05) 100%);
+    border-radius: var(--border-radius);
+    border: 2px solid rgba(76, 175, 80, 0.3);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .stats-section.hero-stats {
+    padding: 16px 0;
+    margin: 20px 0 28px;
+    background: linear-gradient(135deg, rgba(76, 175, 80, 0.06) 0%, rgba(56, 142, 60, 0.03) 100%);
+    border: 1px solid rgba(76, 175, 80, 0.15);
+    border-radius: 12px;
+  }
+
+  .stats-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgba(76, 175, 80, 0.6), transparent);
+  }
+
+  .stats-section.hero-stats::before {
+    display: none;
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+
+  .hero-stats .stats-grid {
+    gap: 12px;
+    padding: 0;
+  }
+
+  .stat-item {
+    text-align: center;
+    padding: 32px 24px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+  }
+
+  .hero-stats .stat-item {
+    padding: 12px 8px;
+  }
+
+  .stat-item:hover {
+    transform: translateY(-4px);
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(76, 175, 80, 0.4);
+    box-shadow: 0 8px 24px rgba(76, 175, 80, 0.2);
+  }
+
+  .stat-icon {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  .hero-stats .stat-icon {
+    margin-bottom: 8px;
+    gap: 2px;
+  }
+
+  .stat-icon .material-icons {
+    font-size: 48px;
+    color: rgba(76, 175, 80, 0.9);
+    opacity: 0.95;
+    filter: drop-shadow(0 2px 8px rgba(76, 175, 80, 0.3));
+  }
+
+  .hero-stats .stat-icon .material-icons {
+    font-size: 24px;
+  }
+
+  .stat-item:first-child .stat-icon .material-icons {
+    font-size: 32px;
+    color: rgba(255, 193, 7, 0.95);
+    filter: drop-shadow(0 2px 8px rgba(255, 193, 7, 0.4));
+  }
+
+  .hero-stats .stat-item:first-child .stat-icon .material-icons {
+    font-size: 18px;
+  }
+
+  .stat-number {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 12px;
+    line-height: 1.1;
+    font-family: var(--font-family, sans-serif);
+    letter-spacing: -0.02em;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .hero-stats .stat-number {
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+  }
+
+  .stat-label {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+  }
+
+  .hero-stats .stat-label {
+    font-size: 0.75rem;
+    line-height: 1.3;
+  }
+
+  @media (max-width: 1024px) {
+    .stats-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+
+    .hero-stats .stats-grid {
+      gap: 8px;
+    }
+
+    .stat-number {
+      font-size: 2.5rem;
+    }
+
+    .hero-stats .stat-number {
+      font-size: 1.3rem;
+    }
+
+    .stat-icon .material-icons {
+      font-size: 42px;
+    }
+
+    .hero-stats .stat-icon .material-icons {
+      font-size: 20px;
+    }
+
+    .stat-item:first-child .stat-icon .material-icons {
+      font-size: 30px;
+    }
+
+    .hero-stats .stat-item:first-child .stat-icon .material-icons {
+      font-size: 16px;
+    }
+  }
+
+  .why-choose-free-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, rgba(76, 175, 80, 0.08) 0%, rgba(56, 142, 60, 0.04) 100%);
+    border-radius: var(--border-radius);
+    margin: 64px 0;
+    border: 2px solid rgba(76, 175, 80, 0.25);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .why-choose-free-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgba(76, 175, 80, 0.5), transparent);
+  }
+
+  .unified-features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin-top: 56px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 16px;
+  }
+
+  .unified-feature-card {
+    position: relative;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 32px 28px;
+    text-align: center;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .unified-feature-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  }
+
+  .unified-feature-icon {
+    margin-bottom: 20px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .unified-feature-icon .material-icons {
+    font-size: 64px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.95;
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.2));
+  }
+
+  .unified-feature-card h3 {
+    font-size: 1.15rem;
+    color: #fff;
+    margin: 0 0 12px;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .unified-feature-card p {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    margin: 0;
+    font-size: 0.95rem;
+  }
+
+  .testimonials-section {
+    padding: 80px 0;
+    margin: 64px 0;
+  }
+
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 32px;
+    margin-top: 48px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .testimonial-card {
+    background: var(--color-cc-dark-bg);
+    padding: 32px;
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    transition: transform 0.2s ease;
+  }
+
+  .testimonial-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(255, 255, 255, 0.25);
+  }
+
+  .testimonial-featured {
+    background: linear-gradient(135deg, rgba(76, 175, 80, 0.15) 0%, rgba(56, 142, 60, 0.15) 100%);
+    border: 2px solid rgba(76, 175, 80, 0.4);
+  }
+
+  .testimonial-stars {
+    color: #ffd700;
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+    letter-spacing: 2px;
+  }
+
+  .testimonial-text {
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.7;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+
+  .testimonial-author {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 8px 0 0;
+  }
+
+  .testimonial-date {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.85rem;
+    margin: 4px 0 0;
+  }
+
+  .free-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #66bb6a 0%, #4caf50 50%, #43a047 100%);
+    color: #fff;
+    padding: 12px 32px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 auto 24px;
+    display: block;
+    text-align: center;
+    width: fit-content;
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.4), 
+                0 1px 3px rgba(0, 0, 0, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .text-center {
+    text-align: center;
   }
 
   #section_lockscreen {
@@ -620,6 +1140,131 @@
     .faq-grid {
       grid-template-columns: 1fr;
       gap: 16px;
+    }
+
+    .trust-badges {
+      gap: 8px;
+      margin: 16px 0 24px;
+    }
+
+    .trust-badge {
+      font-size: 0.75rem;
+      padding: 4px 10px;
+    }
+
+    .stats-section {
+      padding: 48px 12px;
+      margin: 0 0 48px;
+      border-radius: 0;
+    }
+
+    .hero-stats-minimal {
+      gap: 12px;
+      margin: 12px 8px 20px;
+      padding: 12px 16px;
+      max-width: calc(100% - 16px);
+    }
+
+    .stat-number-minimal {
+      font-size: 1rem;
+    }
+
+    .stat-label-minimal {
+      font-size: 0.65rem;
+    }
+
+    .stat-divider {
+      height: 20px;
+    }
+
+    .stats-section.hero-stats {
+      padding: 12px 8px;
+      margin: 16px 0 24px;
+    }
+
+    .stats-grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
+      padding: 0;
+      max-width: 100%;
+    }
+
+    .hero-stats .stats-grid {
+      gap: 8px;
+    }
+
+    .stat-item {
+      padding: 32px 20px;
+      min-height: auto;
+    }
+
+    .hero-stats .stat-item {
+      padding: 10px 6px;
+    }
+
+    .why-choose-section {
+      padding: 48px 16px;
+      margin: 32px 0;
+      border-radius: 0;
+    }
+
+    .unified-features-grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    .testimonials-section {
+      padding: 48px 16px;
+      margin: 32px 0;
+    }
+
+    .testimonials-grid {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    .testimonial-featured {
+      order: -1;
+    }
+
+    .why-choose-free-section {
+      padding: 48px 16px;
+      margin: 32px 0;
+      border-radius: 0;
+    }
+
+    .unified-features-grid {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 40px;
+      padding: 0;
+    }
+
+    .unified-feature-card {
+      padding: 24px 20px;
+    }
+
+    .unified-feature-icon {
+      margin-bottom: 16px;
+    }
+
+    .unified-feature-icon .material-icons {
+      font-size: 56px;
+    }
+
+    .unified-feature-card h3 {
+      font-size: 1.05rem;
+      margin-bottom: 10px;
+    }
+
+    .unified-feature-card p {
+      font-size: 0.875rem;
+    }
+
+    .free-badge {
+      font-size: 0.9rem;
+      padding: 10px 24px;
+      margin-bottom: 20px;
     }
   }
 
