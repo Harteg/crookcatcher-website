@@ -78,31 +78,31 @@
 <main>
     <div class="container">
       <!-- Header Section -->
-      <section class="section hero-section" id="section_CC" style="padding-bottom: 3rem;">
+      <section class="section hero-section" id="section_CC" style="padding-bottom: 2rem; margin-bottom: 0;">
         <div class="text-center" >
-          <p class="hero-title cc-font" style="margin-bottom: 32px;">Protect your phone and catch intruders</p>
-          <p class="hero-subtitle" style="margin-bottom: 32px;">Get instant photos and GPS location when someone tries to break in—no registration required 🤟</p>
+          <p class="hero-title cc-font" style="margin-bottom: 32px;">Catch phone thieves.<br>Recover your phone.</p>
+          <p class="hero-subtitle" style="margin-bottom: 32px;">CrookCatcher for Android captures intruder photos and GPS location after failed unlock attempts.</p>
           
           <!-- Stats Section -->
           <div class="hero-stats-minimal" style="margin: 0 auto 32px;">
             <div class="stat-item-minimal">
-              <div class="stat-number-minimal">50K</div>
+              <div class="stat-number-minimal">50K+</div>
               <div class="stat-label-minimal">5 Star Reviews</div>
             </div>
             <div class="stat-divider"></div>
             <div class="stat-item-minimal">
-              <div class="stat-number-minimal">10M</div>
+              <div class="stat-number-minimal">10M+</div>
               <div class="stat-label-minimal">Downloads</div>
             </div>
             <div class="stat-divider"></div>
             <div class="stat-item-minimal">
-              <div class="stat-number-minimal">10 Years</div>
+              <div class="stat-number-minimal">10+ Years</div>
               <div class="stat-label-minimal">Protecting Phones</div>
             </div>
             <div class="stat-divider"></div>
             <div class="stat-item-minimal">
-              <div class="stat-number-minimal">1M</div>
-              <div class="stat-label-minimal">Alert Emails Daily</div>
+              <div class="stat-number-minimal">1M+</div>
+              <div class="stat-label-minimal">Alerts Sent Daily</div>
             </div>
           </div>
           
@@ -112,47 +112,43 @@
         </div>
       </section>
 
-      <!-- How It Works Intro -->
-      <div class="container text-center" style="margin: 64px 0 48px;">
-        <h2 class="section-title cc-font" style="font-size: 2rem; margin-bottom: 16px;">How It Works</h2>
-        <p class="section-subtitle" style="max-width: 700px; margin: 0 auto;">When someone tries to break into your phone, CrookCatcher automatically captures evidence and sends it to you. Here's how:</p>
-      </div>
-
-      <!-- Lockscreen Section -->
-      <section class="section feature-section" id="section_lockscreen" >
-        <div class="feature-grid">
-          <div class="section_text_right feature-text">
-            <h2>Catch anyone trying to break into your phone—get their photo instantly when they enter the wrong password</h2>
-          </div>
-          <div class="feature-image">
-            <img src="/images/screen_alert_event_shadow.png" 
-                alt="Take pictures when the lock pattern is wrong" />
-          </div>
-        </div>
-      </section>
-
-      <!-- GPS Section -->
-      <section class="section feature-section" style='overflow: hidden'>
-        <div class="feature-grid">
-          <div class="section_text_left feature-text">
-            <h2>Find your phone's exact location—GPS tracking helps you recover it quickly</h2>
-          </div>
-          <div class="feature-image">
-            <img src="/images/ic_earth_dark.svg" 
-                alt="Globe showing GPS location tracking capabilities" 
-                class="earth-icon" />
-          </div>
-        </div>
-      </section>
-
-      <!-- Email Section -->
-      <section class="section feature-section email-section" >
-        <div class="feature-grid">
-          <div class="section_text_left feature-text">
-            <h2>Get instant alerts in your email—receive photos and location automatically</h2>
-          </div>
-          <div class="feature-image">
-            <img src="/images/email_preview.png" style="" alt="Email illustration">
+      <!-- How It Works Section -->
+      <section class="how-it-works-section">
+        <div class="container how-it-works-container">
+          <h2 class="section-title cc-font text-center" style="font-size: 2rem; margin-bottom: 8px;">How CrookCatcher Works</h2>
+          <p class="section-subtitle text-center" style="margin-bottom: 48px; max-width: 600px; margin-left: auto; margin-right: auto;">Users recover their phones in three simple steps</p>
+          
+          <div class="how-it-works-steps">
+            <div class="how-it-works-card step-1">
+              <div class="step-number">STEP 1</div>
+              <h3 class="step-title">Instant Photo Proof</h3>
+              <p class="step-description">The moment someone enters the wrong password, CrookCatcher secretly captures their photo and exact location.</p>
+              <div class="step-image">
+                <img src="/images/screen_alert_event_shadow.png" alt="Photo capture" />
+              </div>
+            </div>
+            
+            <div class="how-it-works-card step-2">
+              <div class="step-number">STEP 2</div>
+              <h3 class="step-title">Get Instant Alert</h3>
+              <p class="step-description">You'll receive the intruder's photo and location instantly in your inbox — before they even realize it happened.</p>
+              <div class="step-image step-2-email">
+                <div class="email-header">
+                  <span class="material-icons email-icon">email</span>
+                  <span class="email-text">CrookCatcher Alert — <span class="email-date">Oct 22</span></span>
+                </div>
+                <img src="/images/email_preview.png" alt="Email alert" />
+              </div>
+            </div>
+            
+            <div class="how-it-works-card step-3">
+              <div class="step-number">STEP 3</div>
+              <h3 class="step-title">Recover Your Phone</h3>
+              <p class="step-description">Share the evidence with your community or local authorities to help track down and recover your phone safely.</p>
+              <div class="step-image">
+                <img src="/images/ic_earth_dark.svg" alt="Recovery" class="earth-icon" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -164,19 +160,10 @@
       </h2>
     </div> -->
 
-    <!-- Screenshots Section -->
-    <section class="section" style="padding: 0;">
-      <div class="screenshots center">
-        <img alt="CrookCatcher settings" class="screenshot" src="/images/screen_config.png" loading="lazy">
-        <img alt="Main screen of CrookCatcher" class="screenshot" src="/images/screen_home.png" loading="lazy">
-        <img alt="List of captured pictures" class="screenshot" src="/images/screen_crooks.png" loading="lazy">
-      </div>
-    </section>
-
     <!-- Testimonials Section -->
     <section class="testimonials-section">
       <div class="container">
-        <h2 class="section-title cc-font text-center">Trusted by Users Worldwide</h2>
+        <h2 class="section-title cc-font text-center">Hear it from the users</h2>
         <div class="testimonials-grid">
           <div class="testimonial-card testimonial-featured">
             <div class="testimonial-stars">★★★★★</div>
@@ -201,6 +188,16 @@
     </section>
 
     <div class="section-divider" style="margin-top: 128px;"></div>
+
+      <!-- Screenshots Section -->
+      <section class="section" style="padding: 0;">
+        <div class="screenshots center">
+          <img alt="CrookCatcher settings" class="screenshot" src="/images/screen_config.png" loading="lazy">
+          <img alt="Main screen of CrookCatcher" class="screenshot" src="/images/screen_home.png" loading="lazy">
+          <img alt="List of captured pictures" class="screenshot" src="/images/screen_crooks.png" loading="lazy">
+        </div>
+      </section>
+    
 
     <!-- Why Choose & Free Features Section -->
     <section class="why-choose-free-section">
@@ -481,6 +478,139 @@
     background: rgba(255, 255, 255, 0.15);
   }
 
+  .how-it-works-section {
+    padding: 40px 0 24px;
+    margin: 0;
+  }
+
+  .how-it-works-steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+
+  .how-it-works-card {
+    position: relative;
+    background: linear-gradient(135deg, rgba(76, 175, 80, 0.08) 0%, rgba(56, 142, 60, 0.04) 100%);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(76, 175, 80, 0.25);
+    border-radius: 16px;
+    padding: 36px 28px;
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .step-number {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: rgba(76, 175, 80, 0.95);
+    text-transform: uppercase;
+    opacity: 0.9;
+  }
+
+  .step-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+
+  .step-description {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.7;
+    margin: 0 0 28px;
+    flex-grow: 1;
+    font-weight: 400;
+  }
+
+  .step-image {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 0;
+    min-height: 200px;
+  }
+
+  .step-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    opacity: 0.98;
+  }
+
+  .step-1 .step-image img {
+    box-shadow: none;
+    width: 100%;
+    max-width: 340px;
+    height: auto;
+  }
+
+  .step-2-email {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .email-header {
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+    padding: 6px 12px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+  }
+
+  .email-icon {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    opacity: 0.8;
+  }
+
+  .email-text {
+    font-size: 0.65rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.4;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .email-date {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .step-2-email img {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 0;
+  }
+
+  .step-image .earth-icon {
+    width: 300px;
+    height: 300px;
+    filter: none;
+    opacity: 0.95;
+  }
+
   .stats-section {
     padding: 64px 0;
     margin: 0 0 80px;
@@ -731,8 +861,8 @@
   }
 
   .testimonials-section {
-    padding: 80px 0;
-    margin: 64px 0;
+    padding: 24px 0 80px;
+    margin: 0;
   }
 
   .testimonials-grid {
@@ -1131,6 +1261,83 @@
   }
 
   @media (max-width: 840px) {
+    .how-it-works-container {
+      padding: 0 8px !important;
+    }
+
+    .how-it-works-section {
+      padding: 24px 0;
+      margin: 8px 0;
+    }
+
+    .how-it-works-steps {
+      grid-template-columns: 1fr;
+      gap: 12px;
+      padding: 0;
+    }
+
+    .how-it-works-card {
+      min-height: auto;
+      padding: 16px 12px;
+      border-radius: 14px;
+    }
+
+    .step-number {
+      font-size: 0.7rem;
+      letter-spacing: 1.5px;
+      margin-bottom: 14px;
+    }
+
+    .step-title {
+      font-size: 1.25rem;
+      margin-bottom: 10px;
+      line-height: 1.3;
+    }
+
+    .step-description {
+      font-size: 0.875rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .step-image {
+      padding: 12px 0 0;
+      min-height: 140px;
+    }
+
+    .step-1 .step-image img {
+      max-width: 240px;
+    }
+
+    .step-2-email {
+      max-width: 100%;
+      padding: 0;
+    }
+
+    .email-header {
+      padding: 5px 10px;
+      border-radius: 6px;
+      gap: 5px;
+      margin-bottom: 6px;
+    }
+
+    .email-icon {
+      font-size: 12px;
+    }
+
+    .email-text {
+      font-size: 0.6rem;
+    }
+
+    .step-2-email img {
+      border-radius: 6px;
+    }
+
+    .step-image .earth-icon {
+      width: 200px;
+      height: 200px;
+    }
+
     .faq-section {
       margin: 32px 0;
       border-radius: 0;
