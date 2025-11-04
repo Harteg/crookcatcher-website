@@ -439,7 +439,7 @@
   }
 
   .stat-number-minimal {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.9);
     line-height: 1.2;
@@ -448,7 +448,7 @@
   }
 
   .stat-label-minimal {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
     line-height: 1.3;
@@ -1167,15 +1167,11 @@
     }
 
     .stat-number-minimal {
-      font-size: 0.95rem;
-      line-height: 1.1;
       white-space: normal;
       word-break: break-word;
     }
 
     .stat-label-minimal {
-      font-size: 0.6rem;
-      line-height: 1.2;
       white-space: normal;
       word-break: break-word;
     }
