@@ -14,19 +14,21 @@
 <svelte:head>
   <title>CrookCatcher • Protect Your Phone and Catch Intruders</title>
   <meta name="description" content="Protect your Android phone and catch intruders. Get instant photos and GPS location via email when someone tries to break into your phone—recover it quickly and catch the thief.">
+  <meta name="keywords" content="anti-theft app, phone security, Android security, recover stolen phone, phone protection, intruder detection, GPS tracking, phone theft prevention, security app, catch phone thief">
   <link rel="canonical" href="https://www.crookcatcher.app/" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="CrookCatcher - Recover stolen android phones" />
-  <meta property="og:description" content="Secret intruder selfies + GPS emailed to you." />
+  <meta property="og:title" content="CrookCatcher - Recover Stolen Android Phones | Anti-Theft App" />
+  <meta property="og:description" content="Protect your Android phone and catch intruders. Get instant photos and GPS location via email when someone tries to break into your phone—recover it quickly and catch the thief." />
   <meta property="og:url" content="https://www.crookcatcher.app/" />
   <meta property="og:image" content="https://www.crookcatcher.app/images/social_graphic.png" />
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CrookCatcher" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="CrookCatcher - Recover stolen android phones" />
-  <meta name="twitter:description" content="Secret intruder selfies + GPS emailed to you." />
+  <meta name="twitter:title" content="CrookCatcher - Recover Stolen Android Phones | Anti-Theft App" />
+  <meta name="twitter:description" content="Protect your Android phone and catch intruders. Get instant photos and GPS location via email when someone tries to break into your phone—recover it quickly and catch the thief." />
   <meta name="twitter:image" content="https://www.crookcatcher.app/images/social_graphic.png" />
   
   <!-- For faster font loading -->
@@ -34,6 +36,107 @@
   <link rel="preload" href="/fonts/Nexa-Bold.woff" as="font" type="font/woff" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=format_quote" />
+
+  <!-- BreadcrumbList Schema for Home Page -->
+  {@html `<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.crookcatcher.app/"
+    }
+  ]
+}
+</script>`}
+
+  <!-- HowTo Schema for "How It Works" -->
+  {@html `<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Recover Your Phone with CrookCatcher",
+  "description": "Learn how to protect your Android phone and recover it if stolen using CrookCatcher's three-step process",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Capture Photo Proof",
+      "text": "The moment someone enters the wrong password, CrookCatcher secretly captures their photo and exact location.",
+      "image": "https://www.crookcatcher.app/images/screen_alert_event_shadow.png"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Get Instant Alert",
+      "text": "You'll receive the intruder's photo and location instantly in your email inbox — before they even realize it happened.",
+      "image": "https://www.crookcatcher.app/images/email_preview.png"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Recover Your Phone",
+      "text": "Share the evidence with your community or local authorities to help track down and recover your phone safely."
+    }
+  ]
+}
+</script>`}
+
+  <!-- Review Schema for Testimonials -->
+  {@html `<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "CrookCatcher",
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Muhammad Bilal"
+      },
+      "datePublished": "2021-02-21",
+      "reviewBody": "Truly love this application. Yesterday my handset was stolen, but I had the picture of the thief, so with the help of some friends I recognized the thief and today I have my phone.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "FLAVIA INACIO"
+      },
+      "datePublished": "2025-01-10",
+      "reviewBody": "Excellent app for protection and security! CrookCatcher exceeded my expectations. It is discreet, efficient and does exactly what it promises. I loved the functionality of taking photos of those who try to unlock their cell phone the wrong way.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Abhishek Chettri"
+      },
+      "datePublished": "2021-07-30",
+      "reviewBody": "I am here just to say thank you to this app. I just recovered my phone, which was stolen from my workplace. I think this app should be downloaded to everyone's phone. It directly sends an alert message with a photo if anyone tries to open your lock. Wow... 5 out of 5!",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      }
+    }
+  ]
+}
+</script>`}
 
   <!-- FAQPage JSON-LD -->
   {@html `<script type="application/ld+json">
@@ -83,8 +186,8 @@
       <!-- Header Section -->
       <section class="section hero-section" id="section_CC" style="padding-bottom: 2rem; margin-bottom: 0;">
         <div class="text-center" >
-          <p class="hero-title cc-font" style="margin-bottom: 0;">Catch phone thieves.</p>
-          <p class="hero-title cc-font" style="margin-bottom: 32px;">Recover your phone.</p>
+          <h1 class="hero-title cc-font" style="margin-bottom: 0;">Catch phone thieves.</h1>
+          <h2 class="hero-title cc-font" style="margin-bottom: 32px;">Recover your phone.</h2>
           <p class="hero-subtitle" style="margin-bottom: 32px;">CrookCatcher for Android captures intruder photos and GPS location after failed unlock attempts.</p>
           
           <!-- Stats Section -->
@@ -111,7 +214,7 @@
           </div>
           
           <div class="text-center">
-            <PlayStoreButton />
+            <PlayStoreButton position="hero" />
           </div>
         </div>
       </section>
@@ -129,7 +232,7 @@
             <h3 class="step-title">Capture Photo Proof</h3>
             <p class="step-description">The moment someone enters the wrong password, CrookCatcher secretly captures their photo and exact location.</p>
             <div class="step-image">
-              <img src="/images/screen_alert_event_shadow.png" alt="Photo capture" />
+              <img src="/images/screen_alert_event_shadow.png" alt="CrookCatcher captures intruder photo when wrong password is entered on Android phone" />
             </div>
           </div>
           
@@ -142,7 +245,7 @@
                 <span class="material-icons email-icon">email</span>
                 <span class="email-text">CrookCatcher Alert — <span class="email-date">Oct 22</span></span>
               </div>
-              <img src="/images/email_preview.png" alt="Email alert" />
+              <img src="/images/email_preview.png" alt="CrookCatcher email alert showing intruder photo and GPS location for phone recovery" />
             </div>
           </div>
           
@@ -151,7 +254,7 @@
             <h3 class="step-title">Recover Your Phone</h3>
             <p class="step-description">Share the evidence with your community or local authorities to help track down and recover your phone safely.</p>
             <div class="step-image">
-              <img src="/images/ic_earth_dark.svg" alt="Recovery" class="earth-icon" />
+              <img src="/images/ic_earth_dark.svg" alt="Share CrookCatcher evidence with community or police to recover stolen Android phone" class="earth-icon" />
             </div>
           </div>
         </div>
@@ -253,7 +356,7 @@
         </div>
         
         <div class="download-section">
-          <PlayStoreButton />
+          <PlayStoreButton position="features" />
         </div>
       </div>
     </section>
@@ -261,9 +364,9 @@
     <!-- Screenshots Section -->
     <section class="section" style="padding: 0;">
       <div class="screenshots center">
-        <img alt="CrookCatcher settings" class="screenshot" src="/images/screen_config.png" loading="lazy">
-        <img alt="Main screen of CrookCatcher" class="screenshot" src="/images/screen_home.png" loading="lazy">
-        <img alt="List of captured pictures" class="screenshot" src="/images/screen_crooks.png" loading="lazy">
+        <img alt="CrookCatcher Android app settings screen for configuring anti-theft protection" class="screenshot" src="/images/screen_config.png" loading="lazy">
+        <img alt="CrookCatcher main screen showing anti-theft app dashboard" class="screenshot" src="/images/screen_home.png" loading="lazy">
+        <img alt="CrookCatcher gallery showing captured intruder photos and GPS locations" class="screenshot" src="/images/screen_crooks.png" loading="lazy">
       </div>
     </section>
   
@@ -346,10 +449,10 @@
     <section class="hero-section">
       <div class="container">
       <div class="text-center">
-        <img src="/images/crookcatcher_icon.svg" class="top-section-icon" alt="Crookcatcher icon" />
+        <img src="/images/crookcatcher_icon.svg" class="top-section-icon" alt="CrookCatcher anti-theft app icon for Android phone security" />
         <h2 class="hero-title cc-font">Crook<wbr>Catcher</h2>
         <p class="hero-subtitle">Protect your phone now, before someone tries to break in...</p>
-        <PlayStoreButton />
+        <PlayStoreButton position="footer" />
         <div class="social-link-box">
           <a href="https://x.com/CrookCatcherApp" target="_blank">Follow CrookCatcher on X</a>
         </div>

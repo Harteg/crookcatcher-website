@@ -36,6 +36,7 @@
   <meta property="og:image" content={data.post.image}>
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://www.crookcatcher.app/blog/{slug}" />
+  <meta property="og:site_name" content="CrookCatcher" />
   
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">

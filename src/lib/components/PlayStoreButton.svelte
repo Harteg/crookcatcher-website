@@ -1,13 +1,19 @@
-<script>
+<script lang="ts">
   export let utmSource = 'website'; // default value if not provided
+  export let position: string | undefined = undefined; // optional position for tracking
 
-  function trackButtonClick() {
-    if (window.gtag) {
-      window.gtag('event', 'click', {
-        'event_category': 'Play Store Button',
-        'event_label': utmSource,
-        'value': 1
-      });
+  function trackButtonClick(event: MouseEvent) {
+    if (typeof window !== 'undefined') {
+      const gtag = (window as any).gtag;
+      if (gtag) {
+        gtag('event', 'play_store_button_click', {
+          event_category: 'Play Store Button',
+          event_label: utmSource,
+          button_position: position || 'unknown',
+          value: 1,
+          transport_type: 'beacon'
+        });
+      }
     }
   }
 </script>

@@ -28,6 +28,7 @@
 	<link rel="manifest" href="/favicons/manifest.json">
 	<link rel="icon" type="image/png" sizes="512x512" href="/images/ic_launcher_512.png">
 
+	<!-- SoftwareApplication Schema -->
 	{@html `<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
@@ -48,7 +49,9 @@
 			"aggregateRating": {
 				"@type": "AggregateRating",
 				"ratingValue": "4.3",
-				"ratingCount": "67211"
+				"ratingCount": "67211",
+				"bestRating": "5",
+				"worstRating": "1"
 			},
 			"author": {
 				"@type": "Person",
@@ -71,4 +74,26 @@
 			]
 		}
 	</script>`}
+
+	<!-- Organization Schema -->
+	{@html `<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": "CrookCatcher",
+		"url": "https://www.crookcatcher.app",
+		"logo": "https://www.crookcatcher.app/images/ic_launcher_512.png",
+		"description": "CrookCatcher is an anti-theft Android app that protects your phone by capturing secret photos and GPS location when someone tries to unlock your device with the wrong password.",
+		"sameAs": [
+			"https://x.com/CrookCatcherApp",
+			"https://play.google.com/store/apps/details?id=com.harteg.crookcatcher"
+		],
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"contactType": "Customer Support",
+			"url": "https://www.crookcatcher.app/help"
+		}
+	}
+	</script>`}
+
 </svelte:head>
