@@ -5,6 +5,7 @@
   import LandingFeatures from '$lib/components/LandingFeatures.svelte';
   import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
   import RecentPosts from '$lib/components/RecentPosts.svelte';
+  import TestimonialCard from '$lib/components/TestimonialCard.svelte';
 
   export let data;
 </script>
@@ -31,6 +32,7 @@
   <link rel="preload" href="/fonts/Nexa-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="preload" href="/fonts/Nexa-Bold.woff" as="font" type="font/woff" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=format_quote" />
 
   <!-- FAQPage JSON-LD -->
   {@html `<script type="application/ld+json">
@@ -114,14 +116,14 @@
 
       <!-- How It Works Section -->
       <section class="how-it-works-section">
-        <div class="container how-it-works-container">
+        <div class="">
           <h2 class="section-title cc-font text-center" style="font-size: 2rem; margin-bottom: 8px;">How CrookCatcher Works</h2>
           <p class="section-subtitle text-center" style="margin-bottom: 48px; max-width: 600px; margin-left: auto; margin-right: auto;">Users recover their phones in three simple steps</p>
           
           <div class="how-it-works-steps">
             <div class="how-it-works-card step-1">
               <div class="step-number">STEP 1</div>
-              <h3 class="step-title">Instant Photo Proof</h3>
+              <h3 class="step-title">Capture Photo Proof</h3>
               <p class="step-description">The moment someone enters the wrong password, CrookCatcher secretly captures their photo and exact location.</p>
               <div class="step-image">
                 <img src="/images/screen_alert_event_shadow.png" alt="Photo capture" />
@@ -154,34 +156,66 @@
       </section>
     </div>
 
-    <!-- <div class="container text-center">
-      <h2 style="margin-top: 64px; font-size: 26px;">
-        CrookCatcher starts working silently in the backgorund when the wrong password is entered. Although receiving pictures by email is the most important feature
-      </h2>
-    </div> -->
 
     <!-- Testimonials Section -->
     <section class="testimonials-section">
-      <div class="container">
-        <h2 class="section-title cc-font text-center">Hear it from the users</h2>
-        <div class="testimonials-grid">
-          <div class="testimonial-card testimonial-featured">
-            <div class="testimonial-stars">★★★★★</div>
-            <p class="testimonial-text">"Truly love this application, yesterday my handset was stolen but I had the picture of the thief so by the help of some friends I recognised the thief and today I have my phone."</p>
-            <p class="testimonial-author">— Muhammad Bilal</p>
-            <p class="testimonial-date">21 Feb, 2021</p>
+      <div class="testimonials-container">
+        <h2 class="section-title cc-font text-center">It actually works, hear it from our users</h2>
+        <p class="section-subtitle text-center" style="margin-bottom: 48px; max-width: 600px; margin-left: auto; margin-right: auto;">More than 50,000 five-star reviews</p>
+        <div class="testimonials-layout">
+          <!-- Left Side Cards -->
+          <div class="testimonials-left">
+            <TestimonialCard
+              text="Truly love this application. Yesterday my handset was stolen, but I had the picture of the thief, so with the help of some friends I recognized the thief and today I have my phone."
+              author="Muhammad Bilal"
+              date="21 Feb, 2021"
+              highlighted={true}
+            />
+            
+            <TestimonialCard
+              text="Excellent app for protection and security! CrookCatcher exceeded my expectations. It is discreet, efficient and does exactly what it promises. I loved the functionality of taking photos of those who try to unlock their cell phone the wrong way. Furthermore, sending location information and a photo via email is a big plus, especially in cases where the device is lost or stolen. The app is easy to configure and works perfectly."
+              author="FLAVIA INACIO"
+              date="10 Jan, 2025"
+              highlighted={false}
+            />
+            
+            <TestimonialCard
+              text="I can't say this enough—thank you for making such an amazing app! I truly am in love with this app. CrookCatcher has recovered my cell phone 3 times now. I can't express my appreciation to you all for the effort spent over so many days, weeks, and even years making this amazing app. I thank you from the bottom of my heart for making my life just a little bit easier. I recommend this app to everyone. Everyone should have CrookCatcher installed on their cell phones; it is a truly amazing app."
+              author="Gloria Mancilla"
+              date="20 Feb, 2024"
+              highlighted={false}
+            />
           </div>
-          <div class="testimonial-card">
-            <div class="testimonial-stars">★★★★★</div>
-            <p class="testimonial-text">"This is one of the best apps to catch anyone trying to steal your phone or the information in your phone without your authorization."</p>
-            <p class="testimonial-author">— Robinson Elerubo</p>
-            <p class="testimonial-date">29 Sep, 2024</p>
-          </div>
-          <div class="testimonial-card">
-            <div class="testimonial-stars">★★★★★</div>
-            <p class="testimonial-text">"Awesome application! Finally a real security anti thief app. Easy to install and use, and PRO version is perfect. Worth every penny!"</p>
-            <p class="testimonial-author">— Eduard Vrhovec</p>
-            <p class="testimonial-date">10 Dec, 2024</p>
+          
+          <!-- Right Side Cards -->
+          <div class="testimonials-right">
+            <TestimonialCard
+              text="I am here just to say thank you to this app. I just recovered my phone, which was stolen from my workplace. I think this app should be downloaded to everyone's phone. It directly sends an alert message with a photo if anyone tries to open your lock. Wow... 5 out of 5!"
+              author="Abhishek Chettri"
+              date="30 Jul, 2021"
+              highlighted={false}
+            />
+            
+            <TestimonialCard
+              text="This is one of the best apps to catch anyone trying to steal your phone or the information in your phone without your authorization."
+              author="Robinson Elerubo"
+              date="29 Sep, 2024"
+              highlighted={false}
+            />
+            
+            <TestimonialCard
+              text="Awesome application! Finally a real security anti-thief app. Easy to install and use, and the PRO version is perfect. Worth every penny!"
+              author="Eduard Vrhovec"
+              date="10 Dec, 2024"
+              highlighted={false}
+            />
+            
+            <TestimonialCard
+              text="A fantastic program; it helped me recover my phone from the thief."
+              author="Djamel Milano"
+              date="4 Nov, 2025"
+              highlighted={false}
+            />
           </div>
         </div>
       </div>
@@ -189,19 +223,9 @@
 
     <div class="section-divider" style="margin-top: 128px;"></div>
 
-      <!-- Screenshots Section -->
-      <section class="section" style="padding: 0;">
-        <div class="screenshots center">
-          <img alt="CrookCatcher settings" class="screenshot" src="/images/screen_config.png" loading="lazy">
-          <img alt="Main screen of CrookCatcher" class="screenshot" src="/images/screen_home.png" loading="lazy">
-          <img alt="List of captured pictures" class="screenshot" src="/images/screen_crooks.png" loading="lazy">
-        </div>
-      </section>
-    
-
     <!-- Why Choose & Free Features Section -->
     <section class="why-choose-free-section">
-      <div class="container">
+      <div class="">
         <div class="free-badge">ESSENTIAL FEATURES ARE FREE</div>
         <h2 class="section-title cc-font text-center">Start Protecting Your Phone Today</h2>
         <p class="section-subtitle text-center">No credit card required. Get started instantly with powerful protection.</p>
@@ -257,9 +281,20 @@
       </div>
     </section>
 
+          <!-- Screenshots Section -->
+          <section class="section" style="padding: 0;">
+            <div class="screenshots center">
+              <img alt="CrookCatcher settings" class="screenshot" src="/images/screen_config.png" loading="lazy">
+              <img alt="Main screen of CrookCatcher" class="screenshot" src="/images/screen_home.png" loading="lazy">
+              <img alt="List of captured pictures" class="screenshot" src="/images/screen_crooks.png" loading="lazy">
+            </div>
+          </section>
+        
+    
+
     <div class="section-divider" style="margin-top: 128px;"></div>
 
-    <div class="container features-container" style="margin-top: 128px;">
+    <div class="features-container" style="margin-top: 128px;">
         <section class="features-section text-center">
             <h2 class="section-title cc-font" style="font-size: 2rem; margin-bottom: 16px;">All Features</h2>
             <p class="section-subtitle" style="margin-bottom: 48px;">Complete protection features—essential tools are free, Pro unlocks advanced security</p>
@@ -269,7 +304,7 @@
 
     <!-- FAQ Section -->
     <section class="faq-section">
-      <div class="container">
+      <div class="">
         <h2 class="section-title cc-font">Frequently Asked Questions</h2>
         <div class="faq-grid">
           <div class="faq-item">
@@ -858,58 +893,38 @@
   }
 
   .testimonials-section {
-    padding: 24px 0 80px;
+    padding: 80px 0;
     margin: 0;
   }
 
-  .testimonials-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 32px;
-    margin-top: 48px;
+  .testimonials-section .section-title {
+    color: #66CC99;
+  }
+
+  .testimonials-container {
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    padding: 0 16px;
   }
 
-  .testimonial-card {
-    background: var(--color-cc-dark-bg);
-    padding: 32px;
-    border-radius: 12px;
-    border: 2px solid rgba(255, 255, 255, 0.15);
+  .testimonials-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-top: 64px;
+    align-items: start;
   }
 
-  .testimonial-featured {
-    background: linear-gradient(135deg, rgba(76, 175, 80, 0.15) 0%, rgba(56, 142, 60, 0.15) 100%);
-    border: 2px solid rgba(76, 175, 80, 0.4);
+  .testimonials-left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
   }
 
-  .testimonial-stars {
-    color: #ffd700;
-    font-size: 1.2rem;
-    margin-bottom: 16px;
-    letter-spacing: 2px;
-  }
-
-  .testimonial-text {
-    color: rgba(255, 255, 255, 0.9);
-    line-height: 1.7;
-    font-size: 1rem;
-    margin-bottom: 20px;
-    font-style: italic;
-  }
-
-  .testimonial-author {
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 0.9rem;
-    font-weight: 500;
-    margin: 8px 0 0;
-  }
-
-  .testimonial-date {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 0.85rem;
-    margin: 4px 0 0;
+  .testimonials-right {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
   }
 
   .free-badge {
@@ -1010,10 +1025,6 @@
     margin: 0 auto 32px;
     display: block;
     filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
-}
-
-#section_CC {
-    
 }
 
 .section-title {
@@ -1252,9 +1263,6 @@
   }
 
   @media (max-width: 840px) {
-    .how-it-works-container {
-      padding: 0 8px !important;
-    }
 
     .how-it-works-section {
       padding: 24px 0;
@@ -1431,13 +1439,22 @@
       margin: 32px 0;
     }
 
-    .testimonials-grid {
-      grid-template-columns: 1fr;
-      gap: 24px;
+    .testimonials-container {
+      padding: 0;
     }
 
-    .testimonial-featured {
-      order: -1;
+    .testimonials-layout {
+      grid-template-columns: 1fr;
+      gap: 24px;
+      margin-top: 40px;
+    }
+
+    .testimonials-left {
+      gap: 20px;
+    }
+
+    .testimonials-right {
+      gap: 20px;
     }
 
     .why-choose-free-section {

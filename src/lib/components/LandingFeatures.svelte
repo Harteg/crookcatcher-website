@@ -114,7 +114,7 @@
 
 <div class="features-cards">
   {#each features as feature}
-    <div class="feature-card" class:pro-only={!feature.inFree}>
+    <div class="feature-card glass-card" class:pro-only={!feature.inFree}>
       {#if feature.inFree}
         <div class="feature-badge free-badge">FREE</div>
       {/if}
@@ -141,20 +141,11 @@
 
   .feature-card {
     position: relative;
-    background: linear-gradient(135deg, rgba(76, 175, 80, 0.08) 0%, rgba(56, 142, 60, 0.04) 100%);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(76, 175, 80, 0.25);
-    border-radius: 16px;
     padding: 32px 28px;
     min-height: 220px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
-  }
-
-  .feature-card.pro-only {
-    background: linear-gradient(135deg, rgba(76, 175, 80, 0.08) 0%, rgba(56, 142, 60, 0.04) 100%);
-    border-color: rgba(76, 175, 80, 0.25);
   }
 
   .feature-badge {
