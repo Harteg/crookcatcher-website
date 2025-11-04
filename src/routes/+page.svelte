@@ -83,7 +83,8 @@
       <!-- Header Section -->
       <section class="section hero-section" id="section_CC" style="padding-bottom: 2rem; margin-bottom: 0;">
         <div class="text-center" >
-          <p class="hero-title cc-font" style="margin-bottom: 32px;">Catch phone thieves.<br>Recover your phone.</p>
+          <p class="hero-title cc-font" style="margin-bottom: 0;">Catch phone thieves.</p>
+          <p class="hero-title cc-font" style="margin-bottom: 32px;">Recover your phone.</p>
           <p class="hero-subtitle" style="margin-bottom: 32px;">CrookCatcher for Android captures intruder photos and GPS location after failed unlock attempts.</p>
           
           <!-- Stats Section -->

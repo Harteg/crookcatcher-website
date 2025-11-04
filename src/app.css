@@ -157,6 +157,11 @@ hr {
         padding: 32px 16px;
     }
 
+    .container:has(.hero-section) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
     .section {
         padding: 10% 16px;
     }
@@ -205,10 +210,15 @@ hr {
 }
 
 .hero-title {
-    font-size: clamp(42px, 8vw, 72px);
+    font-size: clamp(24px, 7vw, 72px);
     letter-spacing: -0.5px;
     line-height: 1.1;
     margin-bottom: 16px;
+    display: block;
+    white-space: nowrap;
+    word-break: keep-all;
+    overflow-wrap: normal;
+    padding: 0 8px;
 }
 
 .hero-subtitle {
@@ -227,11 +237,24 @@ hr {
     }
 
     .hero-title {
-        font-size: 42px;
+        font-size: clamp(20px, 8vw, 40px);
+        word-break: keep-all;
     }
 
     .hero-subtitle {
         font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: clamp(18px, 9vw, 36px);
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-title {
+        font-size: clamp(16px, 10vw, 32px);
     }
 }
 
