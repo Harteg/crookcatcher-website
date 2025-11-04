@@ -16,23 +16,26 @@
   } as const;
 
   // Example of how to format dates
-  const formatDate = (dateString) => {
+  const formatDate = (dateString: string) => {
     const date = new Date(dateString);
     return date.toISOString(); // Converts to ISO 8601 format
   };
+
+  // Get slug from page params
+  const slug = $page.params.slug;
 </script>
 
 <svelte:head>
   <title>{data.post.title} - {data.post.subtitle}</title>
   <meta name="description" content={data.post.description}>
-  <link rel="canonical" href="https://www.crookcatcher.app/blog/{data.slug}" />
+  <link rel="canonical" href="https://www.crookcatcher.app/blog/{slug}" />
   
   <!-- Social Tags -->
   <meta property="og:title" content={data.post.title}>
   <meta property="og:description" content={data.post.description}>
   <meta property="og:image" content={data.post.image}>
   <meta property="og:type" content="article">
-  <meta property="og:url" content="https://www.crookcatcher.app/blog/{data.slug}" />
+  <meta property="og:url" content="https://www.crookcatcher.app/blog/{slug}" />
   
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
@@ -69,6 +72,7 @@
     "url": "{$page.url.href}"
   }
 </script>`}
+  {@html `<script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -89,10 +93,11 @@
         "@type": "ListItem",
         "position": 3,
         "name": "${data.post.title}",
-        "item": "https://www.crookcatcher.app/blog/${data.slug}"
+        "item": "https://www.crookcatcher.app/blog/${slug}"
       }
     ]
   }
+</script>`}
 </svelte:head>
 
 <header class="app-header">
@@ -103,9 +108,9 @@
 
   <article class="blog-post">
 
-    {#if data.fallback}
+    {#if (data as any).fallback}
       <div class="fallback-notice">
-        {fallbackMsg[data.lang as keyof typeof fallbackMsg]}
+        {fallbackMsg[((data as any).lang || 'en') as keyof typeof fallbackMsg]}
       </div>
     {/if}
 
