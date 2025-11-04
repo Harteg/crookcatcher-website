@@ -5,17 +5,29 @@
 		<link rel="icon" href="%sveltekit.assets%/favicons/favicon.ico" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
-		<!-- Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-JH65GSTF8W"></script>
+		<!-- Load analytics after page load to improve LCP -->
 		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'G-JH65GSTF8W');
+			// Defer analytics loading
+			window.addEventListener('load', function() {
+				// Google Analytics
+				var script = document.createElement('script');
+				script.async = true;
+				script.src = 'https://www.googletagmanager.com/gtag/js?id=G-JH65GSTF8W';
+				document.head.appendChild(script);
+				
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('config', 'G-JH65GSTF8W');
+				
+				// Ahrefs analytics
+				var ahrefsScript = document.createElement('script');
+				ahrefsScript.async = true;
+				ahrefsScript.src = 'https://analytics.ahrefs.com/analytics.js';
+				ahrefsScript.setAttribute('data-key', 'opj9vaMOgPhTsjG3niWYQQ');
+				document.head.appendChild(ahrefsScript);
+			});
 		</script>
-		
-		<!-- Ahrefs analytics -->
-		<script src="https://analytics.ahrefs.com/analytics.js" data-key="opj9vaMOgPhTsjG3niWYQQ" async></script>
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>

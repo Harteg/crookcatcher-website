@@ -34,8 +34,29 @@
   <!-- For faster font loading -->
   <link rel="preload" href="/fonts/Nexa-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="preload" href="/fonts/Nexa-Bold.woff" as="font" type="font/woff" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=format_quote" />
+  <!-- Defer non-critical Material Icons and Symbols fonts -->
+  <script>
+    function loadStylesheet(href) {
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = href;
+      document.head.appendChild(link);
+    }
+    // Load fonts after critical content
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function() {
+        loadStylesheet('https://fonts.googleapis.com/icon?family=Material+Icons');
+        loadStylesheet('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=format_quote');
+      });
+    } else {
+      loadStylesheet('https://fonts.googleapis.com/icon?family=Material+Icons');
+      loadStylesheet('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=format_quote');
+    }
+  </script>
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=format_quote" />
+  </noscript>
 
   <!-- BreadcrumbList Schema for Home Page -->
   {@html `<script type="application/ld+json">
@@ -91,6 +112,13 @@
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "CrookCatcher",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.3",
+    "reviewCount": "67211",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
   "review": [
     {
       "@type": "Review",
@@ -344,7 +372,7 @@
               <span class="material-icons">lock</span>
             </div>
             <h3>Privacy Protected</h3>
-            <p>Your data stays local and private—we don't collect or store your personal information. <a href="/privacy">Learn more</a></p>
+            <p>Your data stays local and private—we don't collect or store your personal information. <a href="/privacy">Learn more about our privacy policy.</a></p>
           </div>
           <div class="unified-feature-card glass-card">
             <div class="unified-feature-icon">

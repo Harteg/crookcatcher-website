@@ -1,5 +1,5 @@
 <svelte:head>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <!-- Material Icons loaded in parent component, no need to reload here -->
 </svelte:head>
 
 <script>
@@ -105,7 +105,7 @@
     {
       key: 'blockPowerMenu',
       title: 'Block Power off and Airplane mode',
-      description: 'Prevent thieves from disabling your phone. <a href="https://www.crookcatcher.app/blog/block-power-menu">Learn more</a>',
+      description: 'Prevent thieves from disabling your phone. <a href="https://www.crookcatcher.app/blog/block-power-menu">Learn more about blocking power menu.</a>',
       label: 'EXPERIMENTAL',
       icon: 'power_off'
     },
