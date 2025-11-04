@@ -113,60 +113,59 @@
           </div>
         </div>
       </section>
+    </div>
 
-      <!-- How It Works Section -->
-      <section class="how-it-works-section">
-        <div class="">
-          <h2 class="section-title cc-font text-center" style="font-size: 2rem; margin-bottom: 8px;">How CrookCatcher Works</h2>
-          <p class="section-subtitle text-center" style="margin-bottom: 48px; max-width: 600px; margin-left: auto; margin-right: auto;">Users recover their phones in three simple steps</p>
+    <!-- How It Works Section -->
+    <section class="">
+      <div class="container">
+        <h2 class="section-title cc-font text-center" style="font-size: 2rem; margin-bottom: 8px;">How CrookCatcher Works</h2>
+        <p class="section-subtitle text-center" style="margin-bottom: 48px; max-width: 600px; margin-left: auto; margin-right: auto;">Users recover their phones in three simple steps</p>
+        
+        <div class="how-it-works-steps">
+          <div class="how-it-works-card step-1">
+            <div class="step-number">STEP 1</div>
+            <h3 class="step-title">Capture Photo Proof</h3>
+            <p class="step-description">The moment someone enters the wrong password, CrookCatcher secretly captures their photo and exact location.</p>
+            <div class="step-image">
+              <img src="/images/screen_alert_event_shadow.png" alt="Photo capture" />
+            </div>
+          </div>
           
-          <div class="how-it-works-steps">
-            <div class="how-it-works-card step-1">
-              <div class="step-number">STEP 1</div>
-              <h3 class="step-title">Capture Photo Proof</h3>
-              <p class="step-description">The moment someone enters the wrong password, CrookCatcher secretly captures their photo and exact location.</p>
-              <div class="step-image">
-                <img src="/images/screen_alert_event_shadow.png" alt="Photo capture" />
+          <div class="how-it-works-card step-2">
+            <div class="step-number">STEP 2</div>
+            <h3 class="step-title">Get Instant Alert</h3>
+            <p class="step-description">You'll receive the intruder's photo and location instantly in your email inbox — before they even realize it happened.</p>
+            <div class="step-image step-2-email">
+              <div class="email-header">
+                <span class="material-icons email-icon">email</span>
+                <span class="email-text">CrookCatcher Alert — <span class="email-date">Oct 22</span></span>
               </div>
+              <img src="/images/email_preview.png" alt="Email alert" />
             </div>
-            
-            <div class="how-it-works-card step-2">
-              <div class="step-number">STEP 2</div>
-              <h3 class="step-title">Get Instant Alert</h3>
-              <p class="step-description">You'll receive the intruder's photo and location instantly in your email inbox — before they even realize it happened.</p>
-              <div class="step-image step-2-email">
-                <div class="email-header">
-                  <span class="material-icons email-icon">email</span>
-                  <span class="email-text">CrookCatcher Alert — <span class="email-date">Oct 22</span></span>
-                </div>
-                <img src="/images/email_preview.png" alt="Email alert" />
-              </div>
-            </div>
-            
-            <div class="how-it-works-card step-3">
-              <div class="step-number">STEP 3</div>
-              <h3 class="step-title">Recover Your Phone</h3>
-              <p class="step-description">Share the evidence with your community or local authorities to help track down and recover your phone safely.</p>
-              <div class="step-image">
-                <img src="/images/ic_earth_dark.svg" alt="Recovery" class="earth-icon" />
-              </div>
+          </div>
+          
+          <div class="how-it-works-card step-3">
+            <div class="step-number">STEP 3</div>
+            <h3 class="step-title">Recover Your Phone</h3>
+            <p class="step-description">Share the evidence with your community or local authorities to help track down and recover your phone safely.</p>
+            <div class="step-image">
+              <img src="/images/ic_earth_dark.svg" alt="Recovery" class="earth-icon" />
             </div>
           </div>
         </div>
-      </section>
-    </div>
-
+      </div>
+    </section>
 
     <!-- Testimonials Section -->
-    <section class="testimonials-section">
-      <div class="testimonials-container">
+    <section>
+      <div class="container">
         <h2 class="section-title cc-font text-center">It actually works, hear it from our users</h2>
         <p class="section-subtitle text-center" style="margin-bottom: 48px; max-width: 600px; margin-left: auto; margin-right: auto;">More than 50,000 five-star reviews</p>
         <div class="testimonials-layout">
           <!-- Left Side Cards -->
           <div class="testimonials-left">
             <TestimonialCard
-              text="Truly love this application. Yesterday my handset was stolen, but I had the picture of the thief, so with the help of some friends I recognized the thief and today I have my phone."
+              text="Truly love this application. Yesterday my handset was stolen, but I had the picture of the thief, so with the help of some friends I recognized the thief and today I have my phone. 🥰🥰🥰"
               author="Muhammad Bilal"
               date="21 Feb, 2021"
               highlighted={true}
@@ -180,7 +179,7 @@
             />
             
             <TestimonialCard
-              text="I can't say this enough—thank you for making such an amazing app! I truly am in love with this app. CrookCatcher has recovered my cell phone 3 times now. I can't express my appreciation to you all for the effort spent over so many days, weeks, and even years making this amazing app. I thank you from the bottom of my heart for making my life just a little bit easier. I recommend this app to everyone. Everyone should have CrookCatcher installed on their cell phones; it is a truly amazing app."
+              text="I can't say this enough—thank you for making such an amazing app! I truly am in love with this app. CrookCatcher has recovered my cell phone 3 times now. I can't express my appreciation to you all for the effort spent over so many days, weeks, and even years making this amazing app. I thank you from the bottom of my heart for making my life just a little bit easier. I recommend this app to everyone. Everyone should have CrookCatcher installed on their cell phones; it is a truly amazing app. 😘"
               author="Gloria Mancilla"
               date="20 Feb, 2024"
               highlighted={false}
@@ -189,13 +188,6 @@
           
           <!-- Right Side Cards -->
           <div class="testimonials-right">
-            <TestimonialCard
-              text="I am here just to say thank you to this app. I just recovered my phone, which was stolen from my workplace. I think this app should be downloaded to everyone's phone. It directly sends an alert message with a photo if anyone tries to open your lock. Wow... 5 out of 5!"
-              author="Abhishek Chettri"
-              date="30 Jul, 2021"
-              highlighted={false}
-            />
-            
             <TestimonialCard
               text="This is one of the best apps to catch anyone trying to steal your phone or the information in your phone without your authorization."
               author="Robinson Elerubo"
@@ -209,6 +201,13 @@
               date="10 Dec, 2024"
               highlighted={false}
             />
+
+            <TestimonialCard
+              text="I am here just to say thank you to this app. I just recovered my phone, which was stolen from my workplace. I think this app should be downloaded to everyone's phone. It directly sends an alert message with a photo if anyone tries to open your lock. Wow... 5 out of 5!"
+              author="Abhishek Chettri"
+              date="30 Jul, 2021"
+              highlighted={true}
+            />
             
             <TestimonialCard
               text="A fantastic program; it helped me recover my phone from the thief."
@@ -221,52 +220,28 @@
       </div>
     </section>
 
-    <div class="section-divider" style="margin-top: 128px;"></div>
-
     <!-- Why Choose & Free Features Section -->
-    <section class="why-choose-free-section">
-      <div class="">
-        <div class="free-badge">ESSENTIAL FEATURES ARE FREE</div>
-        <h2 class="section-title cc-font text-center">Start Protecting Your Phone Today</h2>
-        <p class="section-subtitle text-center">No credit card required. Get started instantly with powerful protection.</p>
+    <section class="container">
+      <div class="why-choose-free-section">
+        <h2 class="section-title cc-font text-center">Start Protecting Your Phone Today for Free</h2>
+        <p class="section-subtitle text-center">Get started instantly with powerful protection</p>
         
         <div class="unified-features-grid">
-          <div class="unified-feature-card">
+          <div class="unified-feature-card glass-card">
             <div class="unified-feature-icon">
-              <span class="material-icons">security</span>
+              <span class="material-icons">bolt</span>
             </div>
-            <h3>10+ Security Features</h3>
-            <p>Comprehensive protection with photos, GPS, video, and stealth features</p>
+            <h3>Easy Setup & No Registration</h3>
+            <p>Get started in minutes with simple configuration—no signup, no hassle.</p>
           </div>
-          <div class="unified-feature-card">
-            <div class="unified-feature-icon">
-              <span class="material-icons">person_off</span>
-            </div>
-            <h3>No Registration</h3>
-            <p>Start protecting your phone immediately—no signup, no hassle</p>
-          </div>
-          <div class="unified-feature-card">
-            <div class="unified-feature-icon">
-              <span class="material-icons">favorite</span>
-            </div>
-            <h3>Free Forever</h3>
-            <p>Essential features are free forever—upgrade to Pro anytime</p>
-          </div>
-          <div class="unified-feature-card">
+          <div class="unified-feature-card glass-card">
             <div class="unified-feature-icon">
               <span class="material-icons">lock</span>
             </div>
             <h3>Privacy Protected</h3>
-            <p>Your data stays local and private—we don't collect or store your personal information</p>
+            <p>Your data stays local and private—we don't collect or store your personal information. <a href="/privacy">Learn more</a></p>
           </div>
-          <div class="unified-feature-card">
-            <div class="unified-feature-icon">
-              <span class="material-icons">bolt</span>
-            </div>
-            <h3>Easy Setup</h3>
-            <p>Get started in minutes with simple configuration</p>
-          </div>
-          <div class="unified-feature-card">
+          <div class="unified-feature-card glass-card">
             <div class="unified-feature-icon">
               <span class="material-icons">battery_charging_full</span>
             </div>
@@ -275,32 +250,32 @@
           </div>
         </div>
         
-        <div class="text-center" style="margin-top: 56px;">
+        <div class="download-section">
           <PlayStoreButton />
         </div>
       </div>
     </section>
 
-          <!-- Screenshots Section -->
-          <section class="section" style="padding: 0;">
-            <div class="screenshots center">
-              <img alt="CrookCatcher settings" class="screenshot" src="/images/screen_config.png" loading="lazy">
-              <img alt="Main screen of CrookCatcher" class="screenshot" src="/images/screen_home.png" loading="lazy">
-              <img alt="List of captured pictures" class="screenshot" src="/images/screen_crooks.png" loading="lazy">
-            </div>
-          </section>
-        
-    
+    <!-- Screenshots Section -->
+    <section class="section" style="padding: 0;">
+      <div class="screenshots center">
+        <img alt="CrookCatcher settings" class="screenshot" src="/images/screen_config.png" loading="lazy">
+        <img alt="Main screen of CrookCatcher" class="screenshot" src="/images/screen_home.png" loading="lazy">
+        <img alt="List of captured pictures" class="screenshot" src="/images/screen_crooks.png" loading="lazy">
+      </div>
+    </section>
+  
+
 
     <div class="section-divider" style="margin-top: 128px;"></div>
 
-    <div class="features-container" style="margin-top: 128px;">
-        <section class="features-section text-center">
-            <h2 class="section-title cc-font" style="font-size: 2rem; margin-bottom: 16px;">All Features</h2>
-            <p class="section-subtitle" style="margin-bottom: 48px;">Complete protection features—essential tools are free, Pro unlocks advanced security</p>
-            <LandingFeatures />
-        </section>
-    </div>
+    <section>
+      <div class="container">
+          <h2 class="section-title cc-font text-center" style="font-size: 2rem; margin-bottom: 16px;">All Features</h2>
+          <p class="section-subtitle text-center" style="margin-bottom: 48px; max-width: 600px; margin-left: auto; margin-right: auto;">Complete protection features—essential tools are free, Pro unlocks advanced security</p>
+          <LandingFeatures />
+      </div>
+    </section>
 
     <!-- FAQ Section -->
     <section class="faq-section">
@@ -519,18 +494,11 @@
     flex-shrink: 0;
   }
 
-  .how-it-works-section {
-    padding: 40px 0 24px;
-    margin: 0;
-  }
 
   .how-it-works-steps {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 28px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 16px;
   }
 
   .how-it-works-card {
@@ -651,7 +619,7 @@
 
   .step-3 .step-image img {
     box-shadow: none;
-    width: 140%;
+    width: 125%;
     max-width: none;
     filter: none;
     opacity: 0.95;
@@ -821,7 +789,6 @@
     padding: 80px 0;
     background: linear-gradient(135deg, rgba(76, 175, 80, 0.08) 0%, rgba(56, 142, 60, 0.04) 100%);
     border-radius: var(--border-radius);
-    margin: 64px 0;
     border: 2px solid rgba(76, 175, 80, 0.25);
     position: relative;
     overflow: hidden;
@@ -850,10 +817,6 @@
 
   .unified-feature-card {
     position: relative;
-    background: rgba(255, 255, 255, 0.03);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 16px;
     padding: 32px 28px;
     text-align: center;
     display: flex;
@@ -891,26 +854,11 @@
     margin: 0;
     font-size: 0.95rem;
   }
-
-  .testimonials-section {
-    padding: 80px 0;
-    margin: 0;
-  }
-
-  .testimonials-section .section-title {
-    color: #66CC99;
-  }
-
-  .testimonials-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 16px;
-  }
-
+  
   .testimonials-layout {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 32px;
+    gap: 24px;
     margin-top: 64px;
     align-items: start;
   }
@@ -926,25 +874,12 @@
     flex-direction: column;
     gap: 24px;
   }
-
-  .free-badge {
-    display: inline-block;
-    background: linear-gradient(135deg, #66bb6a 0%, #4caf50 50%, #43a047 100%);
-    color: #fff;
-    padding: 12px 32px;
-    border-radius: 30px;
-    font-size: 1.1rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin: 0 auto 24px;
-    display: block;
-    text-align: center;
-    width: fit-content;
-    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.4), 
-                0 1px 3px rgba(0, 0, 0, 0.3),
-                inset 0 1px 0 rgba(255, 255, 255, 0.2);
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  .download-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 56px;
   }
 
   .text-center {
@@ -1099,12 +1034,6 @@
 
   :global(.feature-image img) {
     filter: drop-shadow(0 20px 40px rgba(0,0,0,0.3));
-  }
-  
-  @media (max-width: 640px) {
-    .features-container {
-      padding: 0 !important;
-    }
   }
 
   .email-section {
@@ -1263,12 +1192,6 @@
   }
 
   @media (max-width: 840px) {
-
-    .how-it-works-section {
-      padding: 24px 0;
-      margin: 8px 0;
-    }
-
     .how-it-works-steps {
       grid-template-columns: 1fr;
       gap: 12px;
@@ -1426,21 +1349,11 @@
     .why-choose-section {
       padding: 48px 16px;
       margin: 32px 0;
-      border-radius: 0;
     }
 
     .unified-features-grid {
       grid-template-columns: 1fr;
       gap: 16px;
-    }
-
-    .testimonials-section {
-      padding: 48px 16px;
-      margin: 32px 0;
-    }
-
-    .testimonials-container {
-      padding: 0;
     }
 
     .testimonials-layout {
@@ -1460,7 +1373,6 @@
     .why-choose-free-section {
       padding: 48px 16px;
       margin: 32px 0;
-      border-radius: 0;
     }
 
     .unified-features-grid {
@@ -1491,10 +1403,9 @@
       font-size: 0.875rem;
     }
 
-    .free-badge {
-      font-size: 0.9rem;
-      padding: 10px 24px;
-      margin-bottom: 20px;
+    .download-section {
+      margin-top: 40px;
+      gap: 20px;
     }
   }
 

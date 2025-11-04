@@ -30,11 +30,10 @@
   }
 
   .testimonial-card.highlighted {
-    background: var(--color-primary);
+    border: 3px solid var(--color-primary);
     padding: 48px 40px;
     min-height: 420px;
-    border: none;
-    color: var(--color-on-primary);
+    /* color: var(--color-on-primary); */
   }
 
   .testimonial-header {
@@ -55,29 +54,19 @@
   }
 
   .testimonial-stars {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     letter-spacing: 2px;
     line-height: 1;
     margin-top: 8px;
-  }
-
-  .highlighted .testimonial-stars {
-    font-size: 1.3rem;
+    color: gold;
   }
 
   .testimonial-text {
     line-height: 1.7;
-    font-size: 1rem;
+    font-size: 1.25rem;
     margin-bottom: 32px;
     flex-grow: 1;
     font-weight: 400;
-  }
-
-  .highlighted .testimonial-text {
-    font-size: 1.15rem;
-    line-height: 1.75;
-    margin-bottom: 40px;
-    font-weight: 600;
   }
 
   .testimonial-author-info {
