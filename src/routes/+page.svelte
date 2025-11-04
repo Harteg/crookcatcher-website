@@ -131,7 +131,7 @@
             <div class="how-it-works-card step-2">
               <div class="step-number">STEP 2</div>
               <h3 class="step-title">Get Instant Alert</h3>
-              <p class="step-description">You'll receive the intruder's photo and location instantly in your inbox — before they even realize it happened.</p>
+              <p class="step-description">You'll receive the intruder's photo and location instantly in your email inbox — before they even realize it happened.</p>
               <div class="step-image step-2-email">
                 <div class="email-header">
                   <span class="material-icons email-icon">email</span>
@@ -437,10 +437,11 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 16px;
+    gap: 12px;
     flex-wrap: wrap;
-    padding: 16px 24px;
+    padding: 14px 20px;
     width: fit-content;
+    max-width: 100%;
     background: linear-gradient(135deg, rgba(76, 175, 80, 0.08) 0%, rgba(56, 142, 60, 0.04) 100%);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(76, 175, 80, 0.25);
@@ -455,6 +456,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 0 1 auto;
+    min-width: 0;
   }
 
   .stat-number-minimal {
@@ -463,6 +466,7 @@
     color: rgba(255, 255, 255, 0.9);
     line-height: 1.2;
     margin-bottom: 2px;
+    white-space: nowrap;
   }
 
   .stat-label-minimal {
@@ -470,12 +474,14 @@
     color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
     line-height: 1.3;
+    white-space: nowrap;
   }
 
   .stat-divider {
     width: 1px;
     height: 24px;
     background: rgba(255, 255, 255, 0.15);
+    flex-shrink: 0;
   }
 
   .how-it-works-section {
@@ -550,9 +556,13 @@
     opacity: 0.98;
   }
 
+  .step-1, .step-3 {
+    padding-bottom: 0px;
+  }
+
   .step-1 .step-image img {
     box-shadow: none;
-    width: 100%;
+    width: 150%;
     max-width: 340px;
     height: auto;
   }
@@ -564,14 +574,14 @@
   }
 
   .email-header {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(0, 21, 8, 0.222);
     border-radius: 8px;
     padding: 6px 12px;
     margin-bottom: 8px;
     display: flex;
     align-items: center;
     gap: 6px;
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    border: 1px solid  rgba(72, 91, 79, 0.464);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     width: 100%;
   }
@@ -604,9 +614,10 @@
     margin-top: 0;
   }
 
-  .step-image .earth-icon {
-    width: 300px;
-    height: 300px;
+  .step-3 .step-image img {
+    box-shadow: none;
+    width: 140%;
+    max-width: none;
     filter: none;
     opacity: 0.95;
   }
@@ -672,12 +683,6 @@
     padding: 12px 8px;
   }
 
-  .stat-item:hover {
-    transform: translateY(-4px);
-    background: rgba(255, 255, 255, 0.05);
-    border-color: rgba(76, 175, 80, 0.4);
-    box-shadow: 0 8px 24px rgba(76, 175, 80, 0.2);
-  }
 
   .stat-icon {
     margin-bottom: 20px;
@@ -816,17 +821,9 @@
     border-radius: 16px;
     padding: 32px 28px;
     text-align: center;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .unified-feature-card:hover {
-    transform: translateY(-4px);
-    border-color: rgba(255, 255, 255, 0.2);
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
   }
 
   .unified-feature-icon {
@@ -880,12 +877,6 @@
     padding: 32px;
     border-radius: 12px;
     border: 2px solid rgba(255, 255, 255, 0.15);
-    transition: transform 0.2s ease;
-  }
-
-  .testimonial-card:hover {
-    transform: translateY(-4px);
-    border-color: rgba(255, 255, 255, 0.25);
   }
 
   .testimonial-featured {
@@ -1366,22 +1357,37 @@
     }
 
     .hero-stats-minimal {
-      gap: 12px;
-      margin: 12px 8px 20px;
-      padding: 12px 16px;
+      gap: 12px 8px;
+      margin: 12px auto 20px;
+      padding: 12px 12px;
       max-width: calc(100% - 16px);
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .stat-item-minimal {
+      flex: 0 0 calc(50% - 12px);
+      min-width: 0;
+      max-width: calc(50% - 12px);
     }
 
     .stat-number-minimal {
-      font-size: 1rem;
+      font-size: 0.95rem;
+      line-height: 1.1;
+      white-space: normal;
+      word-break: break-word;
     }
 
     .stat-label-minimal {
-      font-size: 0.65rem;
+      font-size: 0.6rem;
+      line-height: 1.2;
+      white-space: normal;
+      word-break: break-word;
     }
 
     .stat-divider {
-      height: 20px;
+      display: none;
     }
 
     .stats-section.hero-stats {
