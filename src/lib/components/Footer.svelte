@@ -13,7 +13,7 @@
       <ul class="footer-links">
         <li>
           <a 
-            href="help" 
+            href="/help" 
             title="Help"
             class:active={$page.url.pathname === '/help'}
           >
@@ -22,7 +22,7 @@
         </li>
         <li>
           <a 
-            href="terms" 
+            href="/terms" 
             title="Terms"
             class:active={$page.url.pathname === '/terms'}
           >
@@ -31,7 +31,7 @@
         </li>
         <li>
           <a 
-            href="privacy" 
+            href="/privacy" 
             title="Privacy"
             class:active={$page.url.pathname === '/privacy'}
           >
