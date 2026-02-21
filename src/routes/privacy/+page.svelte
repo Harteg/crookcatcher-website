@@ -7,6 +7,19 @@ import Footer from '$lib/components/Footer.svelte';
 <svelte:head>
     <title>Privacy Policy • CrookCatcher Android App</title>
     <meta name="description" content="Privacy policy for CrookCatcher, the Android app that takes pictures when wrong passwords are entered.">
+    <link rel="canonical" href="https://www.crookcatcher.app/privacy" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Privacy Policy • CrookCatcher Android App" />
+    <meta property="og:description" content="Privacy policy for CrookCatcher, the Android app that takes pictures when wrong passwords are entered." />
+    <meta property="og:url" content="https://www.crookcatcher.app/privacy" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="CrookCatcher" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Privacy Policy • CrookCatcher Android App" />
+    <meta name="twitter:description" content="Privacy policy for CrookCatcher, the Android app that takes pictures when wrong passwords are entered." />
 </svelte:head>
 
 <header class="app-header">

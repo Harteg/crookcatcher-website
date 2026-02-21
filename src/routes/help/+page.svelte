@@ -21,6 +21,19 @@ const faqKeys = [
 <svelte:head>
     <title>CrookCatcher Help & FAQ • Android Anti-Theft App</title>
     <meta name="description" content="Get help with CrookCatcher, the Android app that takes pictures when wrong passwords are entered. Frequently asked questions and support.">
+    <link rel="canonical" href="https://www.crookcatcher.app/help" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="CrookCatcher Help & FAQ • Android Anti-Theft App" />
+    <meta property="og:description" content="Get help with CrookCatcher, the Android app that takes pictures when wrong passwords are entered. Frequently asked questions and support." />
+    <meta property="og:url" content="https://www.crookcatcher.app/help" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="CrookCatcher" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CrookCatcher Help & FAQ • Android Anti-Theft App" />
+    <meta name="twitter:description" content="Get help with CrookCatcher, the Android app that takes pictures when wrong passwords are entered. Frequently asked questions and support." />
 </svelte:head>
 
 <header class="app-header">

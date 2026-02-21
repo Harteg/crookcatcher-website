@@ -12,8 +12,19 @@
 <svelte:head>
   <title>Guides and Tutorials • CrookCatcher Anti-Theft App</title>
   <meta name="description" content="A collection of articles showing you how to protect your phone from thieves and get the most out of CrookCatcher." />
+  <link rel="canonical" href="https://www.crookcatcher.app/blog" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Guides and Tutorials • CrookCatcher Anti-Theft App" />
+  <meta property="og:description" content="A collection of articles showing you how to protect your phone from thieves and get the most out of CrookCatcher." />
+  <meta property="og:url" content="https://www.crookcatcher.app/blog" />
   <meta property="og:type" content="blog" />
-  <link rel="canonical" href={$page.url.href} />
+  <meta property="og:site_name" content="CrookCatcher" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Guides and Tutorials • CrookCatcher Anti-Theft App" />
+  <meta name="twitter:description" content="A collection of articles showing you how to protect your phone from thieves and get the most out of CrookCatcher." />
 </svelte:head>
 
 <header class="app-header">

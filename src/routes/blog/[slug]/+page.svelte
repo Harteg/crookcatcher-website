@@ -23,17 +23,20 @@
 
   // Get slug from page params
   const slug = $page.params.slug;
+
+  const baseUrl = 'https://www.crookcatcher.app';
+  $: ogImage = data.post.image?.startsWith('http') ? data.post.image : `${baseUrl}${data.post.image}`;
 </script>
 
 <svelte:head>
-  <title>{data.post.title} - {data.post.subtitle}</title>
+  <title>{data.post.title}</title>
   <meta name="description" content={data.post.description}>
   <link rel="canonical" href="https://www.crookcatcher.app/blog/{slug}" />
   
   <!-- Social Tags -->
   <meta property="og:title" content={data.post.title}>
   <meta property="og:description" content={data.post.description}>
-  <meta property="og:image" content={data.post.image}>
+  <meta property="og:image" content={ogImage}>
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://www.crookcatcher.app/blog/{slug}" />
   <meta property="og:site_name" content="CrookCatcher" />
@@ -42,7 +45,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content={data.post.title}>
   <meta name="twitter:description" content={data.post.description}>
-  <meta name="twitter:image" content={data.post.image}>
+  <meta name="twitter:image" content={ogImage}>
   
   <!-- Article Schema -->
   {@html `<script type="application/ld+json">
@@ -51,7 +54,7 @@
     "@type": "BlogPosting",
     "headline": "${data.post.title || 'CrookCatcher Blog Article'}",
     "description": "${data.post.description || 'Learn more about CrookCatcher.'}",
-    "image": "${data.post.image || 'https://www.crookcatcher.app/images/feature_graphic_en.png'}",
+    "image": "${ogImage || 'https://www.crookcatcher.app/images/feature_graphic_en.png'}",
     "datePublished": "${formatDate(data.post.datePublished || '2024-01-01T00:00:00Z')}",
     "dateModified": "${formatDate(data.post.dateUpdated || '2024-01-01T00:00:00Z')}",
     "author": {

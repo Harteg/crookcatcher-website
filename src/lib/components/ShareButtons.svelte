@@ -1,10 +1,10 @@
 <script lang="ts">
     import { page } from '$app/stores';
-    
-    
+
+
     export let title: string;
     export let description: string = '';
-    
+
     const shareLinks = [
       {
         name: 'X',
@@ -15,20 +15,19 @@
         name: 'LinkedIn',
         icon: '/images/social/linkedin.svg',
         getUrl: () => `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent($page.url.href)}&title=${encodeURIComponent(title)}&summary=${encodeURIComponent(description)}`
-      },
-      {
-        name: 'Email',
-        icon: '/images/social/email.svg',
-        getUrl: () => `mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(`${description}\n\n${$page.url.href}`)}`
       }
     ];
+
+    function handleEmailShare() {
+      window.location.href = 'mail' + 'to:?subject=' + encodeURIComponent(title) + '&body=' + encodeURIComponent(description + '\n\n' + $page.url.href);
+    }
   </script>
-  
+
   <div class="share-buttons">
     <span class="share-text">Share:</span>
     <div class="buttons">
       {#each shareLinks as link}
-        <a 
+        <a
           href={link.getUrl()}
           target="_blank"
           rel="noopener noreferrer"
@@ -38,6 +37,13 @@
           <img src={link.icon} alt={link.name} width="20" height="20" />
         </a>
       {/each}
+      <button
+        on:click={handleEmailShare}
+        class="share-button"
+        aria-label="Share via Email"
+      >
+        <img src="/images/social/email.svg" alt="Email" width="20" height="20" />
+      </button>
     </div>
   </div>
   
@@ -67,6 +73,9 @@
       border-radius: 8px;
       background: var(--color-cc-dark-bg);
       transition: all 0.2s ease;
+      border: none;
+      padding: 0;
+      cursor: pointer;
     }
     
     .share-button:hover {

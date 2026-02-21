@@ -13,13 +13,13 @@
 
 <svelte:head>
   <title>CrookCatcher • Protect Your Phone and Catch Intruders</title>
-  <meta name="description" content="Protect your Android phone and catch intruders. Get instant photos and GPS location via email when someone tries to break into your phone—recover it quickly and catch the thief.">
+  <meta name="description" content="Protect your Android phone and catch intruders. Get instant photos and GPS location via email when someone tries to break into your phone.">
   <meta name="keywords" content="anti-theft app, phone security, Android security, recover stolen phone, phone protection, intruder detection, GPS tracking, phone theft prevention, security app, catch phone thief">
   <link rel="canonical" href="https://www.crookcatcher.app/" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="CrookCatcher - Recover Stolen Android Phones | Anti-Theft App" />
-  <meta property="og:description" content="Protect your Android phone and catch intruders. Get instant photos and GPS location via email when someone tries to break into your phone—recover it quickly and catch the thief." />
+  <meta property="og:description" content="Protect your Android phone and catch intruders. Get instant photos and GPS location via email when someone tries to break into your phone." />
   <meta property="og:url" content="https://www.crookcatcher.app/" />
   <meta property="og:image" content="https://www.crookcatcher.app/images/social_graphic.png" />
   <meta property="og:type" content="website" />
@@ -28,7 +28,7 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="CrookCatcher - Recover Stolen Android Phones | Anti-Theft App" />
-  <meta name="twitter:description" content="Protect your Android phone and catch intruders. Get instant photos and GPS location via email when someone tries to break into your phone—recover it quickly and catch the thief." />
+  <meta name="twitter:description" content="Protect your Android phone and catch intruders. Get instant photos and GPS location via email when someone tries to break into your phone." />
   <meta name="twitter:image" content="https://www.crookcatcher.app/images/social_graphic.png" />
   
   <!-- For faster font loading -->
