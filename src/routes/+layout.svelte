@@ -75,6 +75,19 @@
 		}
 	</script>`}
 
+	<!-- DataFast Analytics -->
+	{@html `<script id="datafast-queue">
+		window.datafast = window.datafast || function() {
+			window.datafast.q = window.datafast.q || [];
+			window.datafast.q.push(arguments);
+		};
+	</script>`}
+	<script
+		defer
+		data-website-id="dfid_sbptsFeUK1mZGhv1BAqY7"
+		data-domain="crookcatcher.app"
+		src="https://datafa.st/js/script.js"></script>
+
 	<!-- Organization Schema -->
 	{@html `<script type="application/ld+json">
 	{
