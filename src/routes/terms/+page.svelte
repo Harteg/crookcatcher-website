@@ -80,6 +80,13 @@ import Footer from '$lib/components/Footer.svelte';
                 <h2>9. Severability</h2>
                 <p>If any provision of these terms is found to be unenforceable, the remaining provisions will remain in effect.</p>
             </div>
+
+            <div class="terms-item">
+                <h2>10. Paid plans and refunds</h2>
+                <p>Some CrookCatcher features may be paid—a subscription or a one-time unlock. The company that actually charges you is whoever you checked out with: usually Google Play for purchases inside the Android app, or Paddle (or a similar partner) if you pay on the web. Their terms apply to that payment as well.</p>
+                <p>If you’d like a refund, how that works and how long you have depend on that same company. Please use their help center or refund flow first—that’s usually the quickest path. You can also contact CrookCatcher support with your receipt or order details; we’ll help however we can, but only the payment provider can approve or deny the refund.</p>
+                <p>After you already have access to what you bought, we don’t offer refunds on our own, except where Google Play, Paddle, or the law says otherwise.</p>
+            </div>
         </section>
     </div>
 </main>
@@ -110,6 +117,10 @@ import Footer from '$lib/components/Footer.svelte';
         line-height: 1.6;
         margin: 0;
         color: rgba(255, 255, 255, 0.9);
+    }
+
+    .terms-item p + p {
+        margin-top: 12px;
     }
 
     @media (max-width: 640px) {
