@@ -17,7 +17,7 @@ When someone steals a phone, one of the first things they do is **turn it off or
 
 The good news: Android and phone makers now have settings that make this much harder. Here's what to turn on, and how to make sure you still have evidence even if a thief gets through.
 
-## ✅ TL;DR
+## TL;DR
 
 1. **Samsung:** turn on *Lock network and security*, so the phone asks for your PIN before it can be turned off from the lock screen.
 2. **All Android phones:** turn on *Theft Detection Lock* and *Offline Device Lock*.
@@ -27,7 +27,7 @@ The good news: Android and phone makers now have settings that make this much ha
 
 ---
 
-## 📱 1. Samsung: Require your PIN to turn off the phone
+## 1. Samsung: Require your PIN to turn off the phone
 
 Many Samsung Galaxy phones have a setting that stops people from turning off the phone or disabling the network from the lock screen without your PIN, pattern or password.
 
@@ -40,7 +40,7 @@ Turn it on. From now on, anyone trying to power off your phone from the lock scr
 
 ---
 
-## 🛡️ 2. All Android phones: Turn on Theft Detection Lock and Offline Device Lock
+## 2. All Android phones: Turn on Theft Detection Lock and Offline Device Lock
 
 These Android features lock your phone automatically, which helps most in the situation where a thief snatches it out of your hand while it's unlocked.
 
@@ -57,7 +57,7 @@ Once the phone is locked, the thief is back at the lock screen, where step 1 and
 
 ---
 
-## 🛬 3. Remove airplane mode from Quick Settings
+## 3. Remove airplane mode from Quick Settings
 
 If airplane mode is one swipe away, a thief can cut off tracking in a second. Moving it out of Quick Settings slows them down:
 
@@ -69,13 +69,13 @@ You can still switch on airplane mode from your settings when you need it.
 
 ---
 
-## 🔍 4. Check your phone for a "power off" lock option
+## 4. Check your phone for a "power off" lock option
 
 Some other manufacturers also include a setting that requires unlocking the phone before it can be switched off. The name and location differ between brands, so the quickest way to check is to **open Settings and search for "power off"**.
 
 ---
 
-## 📸 5. Catch the thief on camera before they succeed
+## 5. Catch the thief on camera before they succeed
 
 Settings make it harder to switch off your phone, but a determined thief may still find a way. That's where CrookCatcher helps: a thief almost always tries to unlock the phone first, and that's exactly when CrookCatcher acts.
 
@@ -91,7 +91,7 @@ With **CrookCatcher Pro**, you can also record video with sound, capture the sur
 
 ---
 
-## 💡 More ways to keep your phone safe
+## More ways to keep your phone safe
 
 - **Turn on Find Hub** (Google's Find My Device) so you can locate, lock or erase your phone.
 - **Use a strong screen lock.** A password or a 6-digit PIN is much harder to guess than a 4-digit one.
@@ -102,7 +102,7 @@ For step-by-step instructions, read our guide to the [top 5 Android settings to 
 
 ---
 
-## ℹ️ What happened to CrookCatcher's power menu blocking?
+## What happened to CrookCatcher's power menu blocking?
 
 An earlier version of this article described an experimental CrookCatcher feature that blocked the power menu and notification shade on the lock screen. Because it couldn't work reliably across all Android phones, and Android and phone makers now offer better built-in protection, the feature has been discontinued. The settings above are the recommended way to protect your phone today.
 

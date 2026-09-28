@@ -19,7 +19,7 @@ Here are **5 essential Android security settings** you should turn on to protect
 
 ---
 
-## ✅ TL;DR: Secure Your Android Phone in 5 Steps
+## TL;DR: Secure Your Android Phone in 5 Steps
 
 1. Use a strong screen lock (PIN, password, or long pattern)  
 2. Turn on Android Theft Protection  
@@ -31,7 +31,7 @@ Here are **5 essential Android security settings** you should turn on to protect
 
 ---
 
-## 🔐 1. Choose a Stronger Screen Lock
+## 1. Choose a Stronger Screen Lock
 
 Your first and most important defense is your **screen lock**. A **password** provides the strongest security, but every lock type can be strengthened.
 
@@ -52,7 +52,7 @@ While biometric options like fingerprint and face unlock are convenient, keep in
 
 ---
 
-## 🛡️ 2. Enable Android’s Theft Protection Features
+## 2. Enable Android’s Theft Protection Features
 
 Android 15+ now includes powerful **theft detection** tools designed to protect your device if someone grabs it and tries to run.
 
@@ -73,7 +73,7 @@ Enable these:
 
 ---
 
-## 🌍 3. Turn On Google’s Find My Device Hub
+## 3. Turn On Google’s Find My Device Hub
 
 The updated **Find My Device Hub** lets you:
 
@@ -93,7 +93,7 @@ Learn more: [google.com/android/find](https://www.google.com/android/find)
 
 ---
 
-## 🔒 4. Activate Remote Lock via android.com/lock
+## 4. Activate Remote Lock via android.com/lock
 
 Google now lets you **lock your Android remotely** via [android.com/lock](https://www.android.com/lock)—using just your **phone number**.
 
@@ -108,7 +108,7 @@ Google now lets you **lock your Android remotely** via [android.com/lock](https:
 
 ---
 
-## 🛬 5. Remove Airplane Mode from Quick Settings
+## 5. Remove Airplane Mode from Quick Settings
 
 If a thief can swipe down and toggle **Airplane Mode**, they can **cut off tracking** instantly.
 
@@ -124,7 +124,7 @@ If a thief can swipe down and toggle **Airplane Mode**, they can **cut off track
 
 ---
 
-## 📸 Want Real Protection? CrookCatcher Has Your Back.
+## Want Real Protection? CrookCatcher Has Your Back.
 
 Settings help prevent theft—but what if someone already tried unlocking your phone?
 

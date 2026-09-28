@@ -1,0 +1,127 @@
+---
+title: "Android Phone Stolen in Australia? What to Do in the First 10 Minutes"
+subtitle: A step-by-step guide to locking your phone, blocking it on every Australian network, protecting your bank and reporting the theft
+dateUpdated: '2026-09-28'
+datePublished: '2026-09-28'
+description: "Had your Android phone stolen in Australia? Lock it remotely, get it blocked on all Australian networks for free, protect your bank accounts and report it to police on 131 444. Here's what to do, step by step."
+image: '/images/blog/phone-stolen-australia-header.png'
+imageAlt: 'Android phone stolen in Australia? What to do in the first 10 minutes: get to safety, lock it remotely, call your provider, call your bank, report it to the police'
+published: true
+---
+
+<script>
+  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+</script>
+
+Around **150,000 phones are blocked as lost or stolen in Australia every year**, and only about one in three is later unblocked because it made its way back to its owner. Many are snatched in busy places, often by thieves on e-bikes or e-scooters targeting people checking a map or taking a photo.
+
+This guide is for Android phones. The first few minutes matter most: thieves often go straight for your bank accounts and payment apps, not just the phone. Here's what to do, in the right order.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/phone-stolen-australia-checklist.png" alt="Checklist: Android phone stolen in Australia? Do these 5 things in the first 10 minutes. 1. Get to safety. 2. Lock it remotely. 3. Call your provider. 4. Call your bank. 5. Report it to the police." />
+  <figcaption>Save or screenshot this checklist so you have it when you need it.</figcaption>
+</figure>
+
+## 1. Get to safety first
+
+**Don't chase the thief.** A phone is never worth getting hurt over. If you've been threatened or hurt, or the theft is happening right now, **call Triple Zero (000)** from someone else's phone or ask a nearby shop for help.
+
+## 2. Lock your phone remotely
+
+Lock your phone as quickly as possible so the thief can't get into your apps.
+
+- **Remote Lock:** go to <a href="https://www.android.com/lock" target="_blank" rel="noopener noreferrer">android.com/lock</a> on any device, enter your phone number and follow the steps. This only works if Remote Lock was turned on before the theft.
+- **Find Hub:** sign in at <a href="https://www.google.com/android/find" target="_blank" rel="noopener noreferrer">google.com/android/find</a> with your Google account to see your phone's location, lock it or make it ring.
+
+> If you can see where your phone is, **don't go there yourself**. Give the location to the police instead.
+
+Your mobile provider can't track or locate your phone for you, so these tools, and the police, are your best options.
+
+## 3. Check your email for the thief's photo
+
+If you had **CrookCatcher** installed, check your email. When someone enters a wrong PIN, pattern or password, CrookCatcher takes a photo with the front camera and emails it to you with the GPS location and an estimated address. Thieves almost always try to unlock a phone, so you may already have their photo and where it happened. Keep these emails for the police and your insurer.
+
+## 4. Call your provider to block your SIM and phone
+
+Call your mobile provider (Telstra, Optus, Vodafone or whoever you're with) and tell them your phone was stolen. Ask them to:
+
+- **Suspend your SIM or eSIM**, so the thief can't use your number, make calls or receive your security codes.
+- **Block your phone using its IMEI number.**
+
+Australia has one of the best systems in the world for this. Once your provider blocks the IMEI, the block is shared with **every Australian mobile network**, so the phone won't work with any Australian SIM. It's **free**, and it also protects you from paying for calls a thief makes. If your phone turns up later, your provider can unblock it.
+
+Your IMEI is a unique 15-digit number for your phone. If you don't have it written down, your provider can usually find it for you, or it may be on the original box or receipt.
+
+Note that the block only works in Australia, and it can take a few days to show up in the national system. You can check the status with <a href="https://amta.org.au/consumer-advice/cyber/lost-and-stolen-mobiles/" target="_blank" rel="noopener noreferrer">AMTA's free IMEI checker</a>.
+
+## 5. Call your bank and secure your money
+
+This is the step people most often forget, and it's often where the real damage happens. A thief who gets into your phone can try to access banking apps, Google Wallet or your email to reset passwords.
+
+- **Call your bank** (the number is on the back of your card) and tell them your phone has been stolen.
+- **Freeze your cards** and ask them to suspend mobile banking and payment apps like Google Wallet.
+- **Check for transactions** you don't recognise over the next few days.
+
+If you think someone is misusing your accounts or identity, <a href="https://www.idcare.org" target="_blank" rel="noopener noreferrer">IDCARE</a>, Australia's national identity and cyber support service, offers free help.
+
+## 6. Report it to the police
+
+Report the theft even if you think the phone won't be found. You'll need a **police report number** for insurance, and reports help police spot theft hotspots and the people behind them.
+
+- **Call 000** if you're hurt, feel unsafe or the theft is happening right now.
+- **Otherwise, call the Police Assistance Line on 131 444**, available 24/7, or report it online through your state or territory police website.
+
+Give them your IMEI number, the time and place of the theft, and any evidence you have, like the photos and location from CrookCatcher's email alerts.
+
+## 7. Change your passwords and warn your contacts
+
+- **Change your Google account password** first, then your email, banking and social media passwords.
+- **Sign out of your accounts** on the stolen phone. In your Google account, go to *Security > Your devices* and remove the stolen phone.
+- **Warn friends and family.** Thieves sometimes message your contacts pretending to be you, asking for money or security codes.
+
+## 8. Erase your phone only as a last resort
+
+If you're sure you won't get the phone back and you're worried about your data, you can erase it remotely through Find Hub. But **once it's erased, you may no longer be able to locate it**, so only do this after you've tried everything else and given the police the location information they need.
+
+## 9. Claim on your insurance
+
+If your phone is insured, through a phone policy, home and contents insurance or a credit card benefit, contact your insurer with your police report number and IMEI.
+
+---
+
+## How to be ready before it happens
+
+Most of the steps above work much better if you prepare in advance. It takes 10 minutes:
+
+- **Save your IMEI.** Dial `*#06#` and save the number somewhere other than your phone, like your email.
+- **Turn on Remote Lock and Find Hub**, so you can lock and locate your phone from any device.
+- **Turn on Theft Detection Lock**, which locks your phone automatically if it's snatched from your hand.
+- **Hide message previews on your lock screen**, so thieves can't read your security codes.
+- **Back up your phone regularly**, so losing it doesn't mean losing your photos and data.
+- **Install CrookCatcher**, so you get a photo and the location of anyone who tries to unlock your phone.
+
+For step-by-step instructions, read our guides to the [top 5 Android settings to secure your phone against theft](/blog/top_five_settings) and [how to stop thieves from turning off your phone](/blog/block-power-menu).
+
+<PlayStoreButton utmSource="blog_phone_stolen_australia" />
+
+## Frequently Asked Questions
+
+### Q: Should I call 000 or 131 444 if my phone is stolen?
+A: Call 000 if you've been hurt, feel unsafe or the theft is happening right now. Otherwise, call the Police Assistance Line on 131 444 or report it online through your state or territory police.
+
+### Q: Does blocking my phone's IMEI cost anything?
+A: No. Blocking a lost or stolen phone is free, and your provider shares the block with all Australian mobile networks.
+
+### Q: Will a blocked phone still work overseas?
+A: Possibly. The IMEI block only applies to Australian networks, and stolen phones are sometimes sent overseas. That's why it's also important to lock the phone remotely and change your passwords.
+
+### Q: Can my provider track my stolen phone?
+A: No. Mobile providers don't track or locate lost and stolen phones. Use Find Hub to see its location, and give that information to the police rather than going there yourself.
+
+### Q: How can I check if a second-hand phone is stolen?
+A: Enter its IMEI in AMTA's free IMEI checker before you buy it. A phone that has been reported lost or stolen won't work on Australian networks, and your provider can't unblock it for you.
+
+### Q: Can CrookCatcher help me get my phone back?
+A: CrookCatcher gives you evidence: a photo of the person who tried to unlock your phone, the time and the location, sent straight to your email. You can share this with the police to help identify the thief. It doesn't guarantee your phone will be recovered, but it gives you and the police much more to go on.
+
+Got more questions? Check out the [FAQ](/help).
