@@ -6,7 +6,7 @@ datePublished: '2024-12-18'
 description: "From a 17-year-old's coding project to millions of users - how CrookCatcher became the smartest Android security app for catching phone thieves."
 image: '/images/blog/intro-header.png'
 imageAlt: 'CrookCatcher app interface showing security features'
-published: true
+published: false
 ---
 
 <script>

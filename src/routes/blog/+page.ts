@@ -15,7 +15,7 @@ export async function load() {
         return {
             posts: posts
                 .filter(post => post.published)
-                .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+                .sort((a, b) => new Date(b.datePublished).getTime() - new Date(a.datePublished).getTime())
         };
     } catch (e) {
         throw error(500, `Could not load blog posts`);

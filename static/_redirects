@@ -3,3 +3,6 @@
 /fr/* /:splat 301
 /en /  301
 /fr /  301
+
+# Replaced post — pass ranking to the new URL
+/blog/introducing-crookcatcher /blog/see-who-tried-to-unlock-your-phone 301
