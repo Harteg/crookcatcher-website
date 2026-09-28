@@ -50,13 +50,6 @@ No, but the *most important features are free*. This includes taking pictures an
 <Features />
 
 
-## ✈️ What if the thief turns on airplane mode or turns off the device?
-The first thing a thief typically does after stealing a phone is turn on airplane mode or shut down the device. This prevents CrookCatcher from sending emails and tracking your device. So I implemented a feature that tries to prevent this or at least ensure we catch the thief before they do. 
-
-When enabled, CrookCatcher will immediately turn off the screen if the power menu, quick tiles menu, or notification shade is detected on the lock screen—and while doing so, take pictures! This cannot prevent the thief from switching off the device by holding down the power button, but chances are they will try the normal way first and thus be caught by CrookCatcher! 
-
-It was not easy to program this feature because it requires detecting these menus on the screen somewhat manually and it therefore doesn't work on all devices. I'm working to improve this, but these features will likely remain 'experimental'. Give it a try by going to the 'Experimental Features' section in the app settings (it's free!).
-
 ## Final Thoughts
 I started building CrookCatcher for fun, but I kept going because I saw how useful it was to so many people. It has accumulated more than 8 million downloads and sent in total more than 400 million emails! Especially when people write in the comments that they managed to get back their stolen phone because of CrookCatcher! I hope this article was helpful to you. If you're concerned about phone security like me, please give CrookCatcher a try!
 

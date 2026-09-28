@@ -102,13 +102,6 @@
       label: null,
       icon: 'notifications_off'
     },
-    {
-      key: 'blockPowerMenu',
-      title: 'Block Power off and Airplane mode',
-      description: 'Prevent thieves from disabling your phone. <a href="https://www.crookcatcher.app/blog/block-power-menu">Learn more about blocking power menu.</a>',
-      label: 'EXPERIMENTAL',
-      icon: 'power_off'
-    },
   ];
 </script>
 

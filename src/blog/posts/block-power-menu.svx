@@ -6,7 +6,7 @@ datePublished: '2025-01-19'
 description: Learn how to stop thieves from disabling your phone or activating airplane mode using CrookCatcher and other essential tips for keeping your device safe.
 image: /images/blog/Digital_Solitude_Urban_Shadows.jpeg
 imageAlt: Shadowy man with a phone
-published: true
+published: false
 ---
 
 ## Problem: Thieves Disable Phones to Avoid Detection  
