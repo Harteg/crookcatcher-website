@@ -1,60 +1,109 @@
 ---
-title: How to Prevent Thieves from Turning off Your Phone or Activating Airplane Mode
-subtitle: And catch them on camera when they try!
-dateUpdated: '2025-01-19'
+title: How to Stop Thieves From Turning Off Your Phone (or Switching On Airplane Mode)
+subtitle: The settings that keep your phone trackable, and how to catch the thief on camera
+dateUpdated: '2026-09-28'
 datePublished: '2025-01-19'
-description: Learn how to stop thieves from disabling your phone or activating airplane mode using CrookCatcher and other essential tips for keeping your device safe.
+description: "Thieves turn off stolen phones so they can't be tracked. Here's how to make that harder on Samsung and other Android phones, and how to get the thief's photo before they succeed."
 image: /images/blog/Digital_Solitude_Urban_Shadows.jpeg
 imageAlt: Shadowy man with a phone
-published: false
+published: true
 ---
 
-## Problem: Thieves Disable Phones to Avoid Detection  
+<script>
+  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+</script>
 
-When a thief steals a phone, their first move is often to disable it by shutting it down or activating airplane mode. This *cuts off tracking features* and blocks apps that could alert the phone’s owner.
+When someone steals a phone, one of the first things they do is **turn it off or switch on airplane mode**. A phone that's off or offline can't be located, locked or erased remotely, so every tracking feature you set up suddenly stops working.
 
-## Solution: Block Power Menu and Notification Shade  
+The good news: Android and phone makers now have settings that make this much harder. Here's what to turn on, and how to make sure you still have evidence even if a thief gets through.
 
-To combat this, I've added a special feature to <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu" target="_blank" rel="noopener noreferrer">CrookCatcher</a> that *blocks the power menu* and notification shade. Here is how it works:
+## ✅ TL;DR
 
-- <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu" target="_blank" rel="noopener noreferrer">CrookCatcher</a> detects when someone tries to open the power menu or notification shade on the lock screen.  
-- Then, it *instantly turns off the screen*, stopping the thief in their tracks. It also takes a photo of the thief and emails it to you along with the phone’s location.
+1. **Samsung:** turn on *Lock network and security*, so the phone asks for your PIN before it can be turned off from the lock screen.
+2. **All Android phones:** turn on *Theft Detection Lock* and *Offline Device Lock*.
+3. **Remove airplane mode** from your Quick Settings.
+4. **Check your phone's settings** for a "require unlock to power off" option.
+5. **Install <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu&utm_medium=tldr" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** to get a photo and the location of anyone who tries to unlock your phone.
 
-You can find this feature in the “Experimental Features” section of the app’s settings. Due to the large number of different android phones, I cannot guarantee that it will work on your phone, but *it's free* so give it a try! Download CrookCatcher on [Google Play](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu).
+---
 
-<figure class="blog-figure">
-  <img src="/images/screens/block_power_menu_en.jpg" alt="CrookCatcher settings for blocking power menu" />
-  <figcaption>Customize settings to block the power menu, lock the notification shade, and capture photos of intruders.</figcaption>
-</figure>
+## 📱 1. Samsung: Require your PIN to turn off the phone
 
-## Other Suggestions for Keeping Your Phone Safe  
+Many Samsung Galaxy phones have a setting that stops people from turning off the phone or disabling the network from the lock screen without your PIN, pattern or password.
 
-In addition to <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu" target="_blank" rel="noopener noreferrer">CrookCatcher</a>, here are some extra steps to secure your phone:  
+**Go to:**
+`Settings > Lock screen > Secure lock settings > Lock network and security`
 
-1. **Enable Google’s “Find My Device”:**  
-   - Track your phone remotely.  
-   - Lock your device or wipe data if it’s stolen.  
+Turn it on. From now on, anyone trying to power off your phone from the lock screen has to unlock it first.
 
-2. **Use Strong Security Settings:**  
-   - A password is the strongest screen lock.
+> Note: this protects the lock screen. If a thief grabs your phone while it's *unlocked*, they can still turn it off, which is why step 2 matters too. Samsung is testing an update that requires your PIN to power off in every situation, and we'll update this post once it's released.
 
-3. **Keep Your Phone Updated:**  
-   - Regular software updates improve security and protect against vulnerabilities.  
+---
 
-4. **Be Mindful of Public Spaces:**  
-   - Keep your phone in secure, hard-to-access pockets or bags.  
+## 🛡️ 2. All Android phones: Turn on Theft Detection Lock and Offline Device Lock
 
-## More Benefits of CrookCatcher  
+These Android features lock your phone automatically, which helps most in the situation where a thief snatches it out of your hand while it's unlocked.
 
-Beyond blocking thieves from disabling your phone, <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu" target="_blank" rel="noopener noreferrer">CrookCatcher</a> offers additional features:  
+- **Theft Detection Lock** locks the screen if the phone notices a snatch-and-run motion.
+- **Offline Device Lock** locks the screen shortly after the phone goes offline, for example when someone switches on airplane mode.
 
-- Take pictures and videos when someone enters the wrong PIN, pattern or password.  
-- Receive evidence with GPS location by email
-- Play theft alart sounds
-- Show a fake home screen to fool thieves.
-- Upload pictures and videos to Google Drive
-- Discover all features in <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu" target="_blank" rel="noopener noreferrer">the app</a>.
+**On most Android phones, go to:**
+`Settings > Security & Privacy > Device Unlock > Theft Protection`
 
+**On Samsung phones, go to:**
+`Settings > Security and privacy > Lost device protection > Theft protection`
 
-[Download CrookCatcher now](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu) and take the first step toward keeping your phone—and your privacy—safe.    
+Once the phone is locked, the thief is back at the lock screen, where step 1 and CrookCatcher take over.
 
+---
+
+## 🛬 3. Remove airplane mode from Quick Settings
+
+If airplane mode is one swipe away, a thief can cut off tracking in a second. Moving it out of Quick Settings slows them down:
+
+1. Swipe down to open Quick Settings.
+2. Tap the **edit (✏️)** icon.
+3. Drag the **Airplane mode** tile out of the visible area.
+
+You can still switch on airplane mode from your settings when you need it.
+
+---
+
+## 🔍 4. Check your phone for a "power off" lock option
+
+Some other manufacturers also include a setting that requires unlocking the phone before it can be switched off. The name and location differ between brands, so the quickest way to check is to **open Settings and search for "power off"**.
+
+---
+
+## 📸 5. Catch the thief on camera before they succeed
+
+Settings make it harder to switch off your phone, but a determined thief may still find a way. That's where CrookCatcher helps: a thief almost always tries to unlock the phone first, and that's exactly when CrookCatcher acts.
+
+- When someone enters a **wrong PIN, pattern or password**, CrookCatcher takes a photo with the front camera.
+- It records the **GPS location** and an estimated address.
+- It **emails you** the photo and location right away.
+
+So even if the phone is switched off a minute later, the thief's photo and the location are already in your inbox. You can then share them with the police.
+
+With **CrookCatcher Pro**, you can also record video with sound, capture the surroundings with the back camera, back everything up to Google Drive, and hide CrookCatcher's notifications so the thief doesn't realize they've been caught.
+
+<PlayStoreButton utmSource="blog_block_power_menu_bottom" />
+
+---
+
+## 💡 More ways to keep your phone safe
+
+- **Turn on Find Hub** (Google's Find My Device) so you can locate, lock or erase your phone.
+- **Use a strong screen lock.** A password or a 6-digit PIN is much harder to guess than a 4-digit one.
+- **Keep your phone updated** to get the latest security features.
+- **Be careful in public places.** Many thefts happen while the phone is in your hand, for example while checking a map or taking a photo.
+
+For step-by-step instructions, read our guide to the [top 5 Android settings to secure your phone against theft](/blog/top_five_settings).
+
+---
+
+## ℹ️ What happened to CrookCatcher's power menu blocking?
+
+An earlier version of this article described an experimental CrookCatcher feature that blocked the power menu and notification shade on the lock screen. Because it couldn't work reliably across all Android phones, and Android and phone makers now offer better built-in protection, the feature has been discontinued. The settings above are the recommended way to protect your phone today.
+
+Got more questions? Check out the [FAQ](/help).
