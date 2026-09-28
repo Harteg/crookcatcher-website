@@ -50,23 +50,22 @@
 <style>
   footer {
     display: block;
-    padding: 0 48px;
+    padding: 0 24px 24px;
   }
 
   .footer-content {
     max-width: var(--content-width);
     width: 100%;
     margin: 0 auto;
-    padding: 48px 48px;
-    margin-bottom: 32px;
+    padding: 28px 32px;
     border-radius: var(--border-radius);
     color: #fff;
-    background: var(--color-cc-dark-bg);
+    background: var(--color-card);
+    border: 1px solid var(--color-card-border);
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
   }
 
   .copyright{

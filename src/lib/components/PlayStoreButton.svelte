@@ -1,6 +1,7 @@
 <script lang="ts">
   export let utmSource = 'website';
   export let position: string | undefined = undefined;
+  export let compact = false;
 
   function trackGtag() {
     if (typeof window === 'undefined') return;
@@ -17,44 +18,63 @@
   }
 </script>
 
-<a href={`https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=${utmSource}&utm_medium=button`}
-   class="play-store-link"
-   target="_blank"
-   rel="noopener noreferrer"
-   data-fast-goal="play_store_click"
-   data-fast-goal-position={position || 'unknown'}
-   data-fast-goal-utm-source={utmSource}
-   on:click={trackGtag}>
-  <img alt="Get it on Google Play"
-       src="/images/play_badges/en_badge_web_generic.png"
-       class="play-badge" />
+<a
+  href={`https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=${utmSource}&utm_medium=button`}
+  class="play-store-link"
+  class:compact
+  target="_blank"
+  rel="noopener noreferrer"
+  data-fast-goal="play_store_click"
+  data-fast-goal-position={position || 'unknown'}
+  data-fast-goal-utm-source={utmSource}
+  on:click={trackGtag}
+>
+  <img
+    alt="Get it on Google Play"
+    src="/images/play_badges/en_badge_web_generic.png"
+    class="play-badge"
+    width="215"
+    height="80"
+  />
 </a>
 
 <style>
   .play-store-link {
     display: inline-block;
-    transition: transform 0.3s ease;
-    margin-top: 32px;
+    transition: transform 0.25s ease;
+    /* Kill the default blue link focus ring; :focus-visible restores keyboard outline */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .play-store-link:focus {
+    outline: none;
+  }
+
+  .play-store-link:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 4px;
+    border-radius: 8px;
   }
 
   .play-store-link:hover {
-    transform: translateY(-4px);
+    transform: translateY(-2px);
   }
 
   .play-badge {
+    display: block;
     width: auto;
-    height: 80px;
-    transition: transform 0.3s ease;
+    height: 56px;
+    outline: none;
   }
 
-  .play-badge:hover {
-    transform: scale(1.08);
+  .compact .play-badge {
+    height: 48px;
   }
 
-  @media (max-width: 840px) {
+  @media (max-width: 640px) {
     .play-badge {
-      height: 80px;
-      position: relative;
+      height: 52px;
     }
   }
-</style> 
+</style>

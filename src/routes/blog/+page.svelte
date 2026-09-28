@@ -18,6 +18,8 @@
   <meta property="og:title" content="Guides and Tutorials • CrookCatcher Anti-Theft App" />
   <meta property="og:description" content="A collection of articles showing you how to protect your phone from thieves and get the most out of CrookCatcher." />
   <meta property="og:url" content="https://www.crookcatcher.app/blog" />
+  <meta property="og:image" content="https://www.crookcatcher.app/images/og-share.png" />
+  <meta name="twitter:image" content="https://www.crookcatcher.app/images/og-share.png" />
   <meta property="og:type" content="blog" />
   <meta property="og:site_name" content="CrookCatcher" />
 

@@ -24,6 +24,10 @@ const config = {
 	kit: {
 		adapter: adapter(),
 
+		alias: {
+			$content: 'content'
+		},
+
 		paths: {
 			base: '',
 			assets: ''

@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "title": "CrookCatcher: Anti-Theft Intruder Selfie App for Android",
+    "description": "CrookCatcher takes an intruder selfie when someone enters a wrong PIN, pattern or password, and emails you their photo and GPS location. Free for Android.",
+    "canonical": "https://www.crookcatcher.app/",
+    "ogImage": "https://www.crookcatcher.app/images/og-share.png",
+    "ogImageAlt": "CrookCatcher: catch anyone who tries to unlock your phone. Email alert with intruder photos and map location."
+  },
+  "hero": {
+    "pill": "ANTI-THEFT INTRUDER SELFIE",
+    "headline": "Catch phone thieves.",
+    "headlineSecond": "Get the evidence to recover your phone.",
+    "headlineSecondHighlight": "the evidence",
+    "subline": "CrookCatcher for Android automatically takes an intruder selfie when someone enters a wrong PIN, pattern or password, and emails you their photo and location.",
+    "playNote": "Free on Android · No registration",
+    "heroImage": {
+      "src": "/images/hero-alert.png",
+      "alt": "CrookCatcher email alert showing two intruder photos, unlock attempt message, time, and a map with location pin"
+    },
+    "stats": [
+      { "value": "4.6★", "label": "from 90K+ ratings" },
+      { "value": "12M+", "label": "downloads" },
+      { "value": "Since 2014", "label": "protecting phones" },
+      { "value": "1.2M", "label": "intruder photos every day" }
+    ]
+  },
+  "howItWorks": {
+    "title": "How CrookCatcher works",
+    "titleHighlight": "works",
+    "subtitle": "Three steps from failed unlock to evidence you can use",
+    "steps": [
+      {
+        "label": "STEP 1",
+        "title": "Intruder selfie",
+        "description": "When someone enters a wrong PIN, pattern or password, CrookCatcher automatically takes an intruder selfie and records the location.",
+        "image": {
+          "src": "/images/screen_alert_event_shadow.png",
+          "alt": "CrookCatcher taking an intruder selfie after a wrong PIN, pattern or password"
+        }
+      },
+      {
+        "label": "STEP 2",
+        "title": "Instant email alert",
+        "description": "You'll receive the intruder's photo and location instantly in your email inbox — before they even realize it happened.",
+        "image": {
+          "src": "/images/email_preview.png",
+          "alt": "CrookCatcher email alert with intruder photo and GPS location"
+        }
+      },
+      {
+        "label": "STEP 3",
+        "title": "Share the evidence",
+        "description": "Share the evidence with the police or people nearby to help get your phone back.",
+        "image": {
+          "alt": "Share sheet with the intruder photo and options to send it to the police, messages, email or people nearby"
+        },
+        "share": {
+          "evidenceTitle": "Intruder photo",
+          "evidenceTime": "Today, 10:35 AM",
+          "evidenceLocation": "Location attached",
+          "targets": [
+            { "icon": "local_police", "label": "Police", "primary": true },
+            { "icon": "sms", "label": "Messages" },
+            { "icon": "mail", "label": "Email" },
+            { "icon": "groups", "label": "Nearby" }
+          ]
+        }
+      }
+    ]
+  },
+  "appGallery": {
+    "title": "All evidence in one place",
+    "titleHighlight": "one place",
+    "image": {
+      "src": "/images/app-gallery.png",
+      "alt": "CrookCatcher gallery showing break-in and unlock-failed events with intruder photos, video, time and location"
+    },
+    "subtitle": "Every attempt is saved as a clear timeline, so you have the full story when you need it.",
+    "callouts": [
+      {
+        "icon": "photo_library",
+        "label": "Photos + video",
+        "description": "Intruder selfies on every attempt, plus video with sound on Pro."
+      },
+      {
+        "icon": "place",
+        "label": "Time + location",
+        "description": "Each event is stamped with when and where it happened."
+      },
+      {
+        "icon": "label",
+        "label": "Labeled events",
+        "description": "See at a glance whether it was a failed unlock or a break-in."
+      },
+      {
+        "icon": "cloud_upload",
+        "label": "Safe off-device",
+        "description": "Pro backs up evidence to Google Drive, even if the phone is gone."
+      }
+    ]
+  },
+  "features": {
+    "title": "Free essentials, Pro when you need more",
+    "titleHighlight": "Pro",
+    "subtitle": "Everything you need to catch an intruder is free. Pro adds stronger evidence and more ways to fight back.",
+    "free": {
+      "badge": "FREE",
+      "title": "Essential protection",
+      "items": [
+        {
+          "icon": "photo_camera",
+          "title": "Intruder selfie",
+          "description": "Front-camera photo on wrong PIN, pattern or password"
+        },
+        {
+          "icon": "location_on",
+          "title": "GPS location",
+          "description": "Location recorded with every alert"
+        },
+        {
+          "icon": "email",
+          "title": "Instant email alerts",
+          "description": "Photo and location sent straight to your inbox"
+        }
+      ]
+    },
+    "pro": {
+      "badge": "PRO",
+      "title": "Unlock more with Pro",
+      "groups": [
+        {
+          "title": "Collect stronger evidence",
+          "items": [
+            {
+              "icon": "videocam",
+              "title": "Video with sound",
+              "description": "Capture voice and movement for stronger proof"
+            },
+            {
+              "icon": "security",
+              "title": "Break-in detection",
+              "description": "Still alert if they guess the right unlock after failing"
+            },
+            {
+              "icon": "camera_alt",
+              "title": "Back camera",
+              "description": "See surroundings, not just the intruder's face"
+            },
+            {
+              "icon": "cloud_upload",
+              "title": "Google Drive backup",
+              "description": "Evidence saved off-device automatically"
+            }
+          ]
+        },
+        {
+          "title": "Fight back",
+          "items": [
+            {
+              "icon": "notifications_active",
+              "title": "Loud alarm",
+              "description": "Startle thieves and alert people nearby"
+            },
+            {
+              "icon": "message",
+              "title": "Lock screen warning",
+              "description": "Show a message when an alert is triggered"
+            },
+            {
+              "icon": "apps",
+              "title": "Fake home screen",
+              "description": "Trick thieves into thinking they unlocked the phone"
+            }
+          ]
+        },
+        {
+          "title": "Stay hidden",
+          "items": [
+            {
+              "icon": "lock",
+              "title": "App lock",
+              "description": "Pattern-lock CrookCatcher so it can't be disabled"
+            },
+            {
+              "icon": "visibility_off",
+              "title": "Disguised icon",
+              "description": "Look like a file explorer so thieves won't find it"
+            },
+            {
+              "icon": "notifications_off",
+              "title": "Hidden notifications",
+              "description": "Alerts only appear after you unlock"
+            },
+            {
+              "icon": "subject",
+              "title": "Custom email subject",
+              "description": "Keep alert emails discreet in your inbox"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "testimonials": {
+    "title": "It actually works",
+    "subtitle": "Rated 4.6★ from more than 90,000 ratings on Google Play",
+    "note": "Reviews from Google Play. Some translated or shortened.",
+    "showMore": "Show more reviews",
+    "showLess": "Show fewer reviews",
+    "readMore": "Read more",
+    "readLess": "Show less",
+    "source": "Google Play"
+  },
+  "trust": {
+    "items": [
+      {
+        "icon": "bolt",
+        "title": "No registration",
+        "text": "Set up in minutes."
+      },
+      {
+        "icon": "mail",
+        "title": "Your photos go only to you",
+        "text": "Alerts are sent from your own Gmail account. We never see your photos.",
+        "link": { "href": "/privacy", "label": "Privacy policy" }
+      },
+      {
+        "icon": "battery_charging_full",
+        "title": "Easy on your battery",
+        "text": "Only activates on a wrong PIN, pattern or password."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "Everything you need to know about setup, privacy and Pro.",
+    "helpLink": { "href": "/help", "label": "Visit the help center" },
+    "showAll": "Show all {count} questions",
+    "showLess": "Show fewer questions",
+    "initialCount": 8,
+    "items": [
+      {
+        "question": "What happens when someone tries to unlock my phone?",
+        "answer": "CrookCatcher takes an intruder selfie with the front camera, records GPS location if available, and emails these to you. With Pro, it can also record video, use the back camera, play alarms, and show a fake home screen."
+      },
+      {
+        "question": "When does CrookCatcher take action?",
+        "answer": "You can configure how many failed unlock attempts (wrong PIN, pattern or password) are required before CrookCatcher activates. Once that threshold is reached, it takes photos, records videos (Pro), and sends alerts based on your settings."
+      },
+      {
+        "question": "What features are included in the free version?",
+        "answer": "The free version includes an intruder selfie on wrong PIN, pattern or password, GPS location, and instant email alerts with the photo and location."
+      },
+      {
+        "question": "What additional features does Pro offer?",
+        "answer": "Pro includes video with sound, Google Drive backup, back camera photos, lock screen warning messages, alarm sounds, fake home screen, app lock, disguised icon, break-in detection, custom email subjects, hidden notifications, and removes ads."
+      },
+      {
+        "question": "How much does CrookCatcher Pro cost?",
+        "answer": "The price of CrookCatcher Pro varies depending on your country of residence. You can see the exact price for your region directly inside the app."
+      },
+      {
+        "question": "How do I access the captured photos and videos?",
+        "answer": "All photos and videos are stored locally on your device and can be viewed in the app. They are also sent to your email automatically. Pro users can additionally upload files to Google Drive for access from any device."
+      },
+      {
+        "question": "Does it work without internet?",
+        "answer": "Yes. CrookCatcher will take intruder selfies and store them locally, then send alerts once an internet connection is restored."
+      },
+      {
+        "question": "How does CrookCatcher stay discreet?",
+        "answer": "Pro features help keep the app hidden by disguising the app icon, hiding notifications until unlock, customizing email subjects, and locking the app itself with a pattern."
+      },
+      {
+        "question": "How does the break-in detection work? (Pro)",
+        "answer": "If someone fails PIN, pattern or password attempts but eventually guesses correctly, break-in detection still takes photos and sends alerts so you catch thieves who manage to unlock the phone."
+      },
+      {
+        "question": "Can I customize the alert notifications?",
+        "answer": "Pro users can customize email subjects, hide notifications until the phone is unlocked, and display a custom message on the lock screen when an alert is triggered."
+      },
+      {
+        "question": "Will CrookCatcher drain my battery?",
+        "answer": "No. CrookCatcher only activates when a wrong PIN, pattern or password is detected, using minimal battery in standby."
+      },
+      {
+        "question": "Is my privacy protected?",
+        "answer": "CrookCatcher only captures photos and videos during failed unlock attempts. Alerts are sent from your own Gmail account — we never see your photos. Analytics help improve the app; see the privacy policy for details."
+      },
+      {
+        "question": "What if I factory reset my phone?",
+        "answer": "CrookCatcher will be uninstalled with a factory reset. We recommend upgrading to Pro and enabling Google Drive backup so your evidence stays safely in the cloud."
+      },
+      {
+        "question": "How does CrookCatcher handle my email permissions?",
+        "answer": "CrookCatcher requests Gmail sign-in to send emails on your behalf, avoiding transmission through third-party servers. This permission is limited to sending emails only to your specified address and does not grant access to read emails or manage contacts. You can revoke this permission anytime through your Google Account settings."
+      },
+      {
+        "question": "Is there an iPhone version?",
+        "answer": "No, CrookCatcher is available for Android only."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Protect your phone before someone tries to break in.",
+    "note": "Android only"
+  }
+}

@@ -51,7 +51,7 @@ No, but the *most important features are free*. This includes taking pictures an
 
 
 ## Final Thoughts
-I started building CrookCatcher for fun, but I kept going because I saw how useful it was to so many people. It has accumulated more than 8 million downloads and sent in total more than 400 million emails! Especially when people write in the comments that they managed to get back their stolen phone because of CrookCatcher! I hope this article was helpful to you. If you're concerned about phone security like me, please give CrookCatcher a try!
+I started building CrookCatcher for fun, but I kept going because I saw how useful it was to so many people. It has accumulated more than 12 million downloads and captures about 1.2 million intruder photos every day! Especially when people write in the comments that they managed to get back their stolen phone because of CrookCatcher! I hope this article was helpful to you. If you're concerned about phone security like me, please give CrookCatcher a try!
 
 Best wishes, <br />
 Jakob H. ✌️

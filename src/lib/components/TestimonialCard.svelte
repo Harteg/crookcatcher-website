@@ -1,142 +1,158 @@
 <script lang="ts">
   export let text: string;
   export let author: string;
-  export let date: string;
-  export let highlighted: boolean = false;
+  export let date: string = '';
+  export let source = 'Google Play';
+  export let readMoreLabel = 'Read more';
+  export let readLessLabel = 'Show less';
+
+  const CLAMP_THRESHOLD = 230;
+
+  let open = false;
+
+  $: truncatable = text.length > CLAMP_THRESHOLD;
+  $: initial = author.trim().charAt(0).toUpperCase();
+
+  function formatDate(value: string) {
+    if (!value) return '';
+    const parsed = new Date(value);
+    if (Number.isNaN(parsed.getTime())) return value;
+    return parsed.toLocaleDateString('en', {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric'
+    });
+  }
 </script>
 
-<div class="testimonial-card glass-card" class:highlighted>
-  <div class="testimonial-header">
-    <span class="material-symbols-outlined quote-icon">format_quote</span>
-    <div class="testimonial-stars">★★★★★</div>
-  </div>
-  <p class="testimonial-text">{text}</p>
-  <div class="testimonial-author-info">
-    <div class="testimonial-author-details">
+<article class="testimonial-card">
+  <div class="testimonial-stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+
+  <blockquote class="testimonial-quote">
+    <p class="testimonial-text" class:clamped={truncatable && !open}>{text}</p>
+  </blockquote>
+
+  {#if truncatable}
+    <button
+      type="button"
+      class="read-more"
+      aria-expanded={open}
+      on:click={() => (open = !open)}
+    >
+      {open ? readLessLabel : readMoreLabel}
+    </button>
+  {/if}
+
+  <footer class="testimonial-footer">
+    <span class="avatar" aria-hidden="true">{initial}</span>
+    <div class="author-meta">
       <p class="testimonial-author">{author}</p>
-      <!-- <p class="testimonial-date">{date}</p> -->
+      <p class="testimonial-date">
+        {source}{#if date}<span class="sep" aria-hidden="true">·</span>{formatDate(date)}{/if}
+      </p>
     </div>
-  </div>
-</div>
+  </footer>
+</article>
 
 <style>
   .testimonial-card {
-    padding: 40px;
     display: flex;
     flex-direction: column;
-    position: relative;
-    overflow: hidden;
-    color: #fff;
-  }
-
-  .testimonial-card.highlighted {
-    border: 3px solid var(--color-primary);
-    padding: 48px 40px;
-    min-height: 420px;
-    /* color: var(--color-on-primary); */
-  }
-
-  .testimonial-header {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-bottom: 24px;
-  }
-
-  .quote-icon {
-    font-size: 72px;
-    font-weight: 300;
-    line-height: 0.8;
-  }
-
-  .highlighted .quote-icon {
-    font-size: 96px;
+    height: 100%;
+    padding: 24px;
+    border: 1px solid var(--color-card-border);
+    border-radius: var(--border-radius);
+    background: var(--color-card);
+    color: var(--color-body);
   }
 
   .testimonial-stars {
-    font-size: 1.5rem;
+    margin-bottom: 14px;
+    font-size: 1rem;
     letter-spacing: 2px;
     line-height: 1;
-    margin-top: 8px;
-    color: gold;
+    color: #e8c84a;
+  }
+
+  .testimonial-quote {
+    margin: 0;
+    padding: 0;
+    border: none;
   }
 
   .testimonial-text {
-    line-height: 1.7;
-    font-size: 1.25rem;
-    margin-bottom: 32px;
-    flex-grow: 1;
-    font-weight: 400;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--color-body);
   }
 
-  .testimonial-author-info {
+  .testimonial-text.clamped {
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .read-more {
+    align-self: flex-start;
+    margin-top: 8px;
+    padding: 0;
+    border: none;
+    background: none;
+    color: var(--color-primary);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .read-more:hover {
+    text-decoration: underline;
+  }
+
+  .testimonial-footer {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 12px;
     margin-top: auto;
+    padding-top: 20px;
   }
 
-  .testimonial-author-details {
+  .avatar {
     display: flex;
-    flex-direction: column;
-    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(94, 224, 143, 0.14);
+    color: var(--color-primary);
+    font-family: 'NexaBold', sans-serif;
+    font-size: 0.9375rem;
+  }
+
+  .author-meta {
+    min-width: 0;
   }
 
   .testimonial-author {
-    font-size: 1rem;
-    font-weight: 600;
     margin: 0;
-  }
-
-  .highlighted .testimonial-author {
-    font-size: 1.05rem;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--color-body);
   }
 
   .testimonial-date {
-    font-size: 0.9rem;
-    margin: 0;
-    font-weight: 400;
+    margin: 2px 0 0;
+    font-size: 0.8125rem;
+    line-height: 1.3;
+    color: var(--color-secondary);
   }
 
-  .highlighted .testimonial-date {
-    font-size: 0.95rem;
-  }
-
-  @media (max-width: 840px) {
-    .testimonial-card {
-      padding: 32px 24px;
-    }
-
-    .testimonial-card.highlighted {
-      min-height: auto;
-      padding: 32px 24px;
-    }
-
-    .quote-icon {
-      font-size: 56px;
-    }
-
-    .highlighted .quote-icon {
-      font-size: 72px;
-    }
-
-    .testimonial-header {
-      margin-bottom: 20px;
-    }
-
-    .testimonial-text {
-      font-size: 0.95rem;
-      margin-bottom: 24px;
-    }
-
-    .highlighted .testimonial-text {
-      font-size: 1.05rem;
-      margin-bottom: 28px;
-    }
-
-    .testimonial-author-info {
-      gap: 12px;
-    }
+  .sep {
+    margin: 0 6px;
   }
 </style>
-

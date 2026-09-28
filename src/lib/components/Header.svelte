@@ -1,49 +1,104 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
   import { page } from '$app/stores';
-  
+
   let menuOpen = false;
-  
+  let heroBadgeVisible = false;
+  let isMobile = false;
+
+  $: ctaDeferred = isMobile && heroBadgeVisible;
+
+  onMount(() => {
+    const heroBadge = document.querySelector('.hero .play-store-link');
+    if (!heroBadge) return;
+
+    const mobileQuery = window.matchMedia('(max-width: 640px)');
+    const updateMobile = () => (isMobile = mobileQuery.matches);
+    updateMobile();
+    mobileQuery.addEventListener('change', updateMobile);
+
+    const observer = new IntersectionObserver(
+      ([entry]) => (heroBadgeVisible = entry.isIntersecting),
+      { rootMargin: '-64px 0px 0px 0px' }
+    );
+    observer.observe(heroBadge);
+
+    return () => {
+      observer.disconnect();
+      mobileQuery.removeEventListener('change', updateMobile);
+    };
+  });
+
+  const playUrl =
+    'https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=website&utm_medium=button';
+
   function toggleMenu() {
     menuOpen = !menuOpen;
   }
-  
+
   function closeMenu() {
     menuOpen = false;
   }
-</script>
 
-<svelte:head>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-</svelte:head>
+  function trackGtag() {
+    const gtag = (window as any).gtag;
+    if (gtag) {
+      gtag('event', 'play_store_button_click', {
+        event_category: 'Play Store Button',
+        event_label: 'website',
+        button_position: 'header',
+        value: 1,
+        transport_type: 'beacon'
+      });
+    }
+  }
+</script>
 
 <header class="header-fixed">
   <div class="header-row">
-    <a href="/" class="header-button header-logo">
-      <span class="cc-font">CrookCatcher</span>
+    <a href="/" class="brand" on:click={closeMenu}>
+      <img src="/images/crookcatcher_icon.svg" alt="" width="20" height="27" class="brand-icon" />
+      <span class="cc-font brand-name">CrookCatcher</span>
     </a>
-    <div class="spacer"></div>
-    <nav class="nav-menu" class:open={menuOpen}>
-      <a 
-        class="header-button" 
-        href="/blog" 
-        title="Blog"
+
+    <nav class="nav-menu" class:open={menuOpen} aria-label="Main">
+      <a
+        class="nav-link"
+        href="/blog"
         class:active={$page.url.pathname.includes('/blog')}
         on:click={closeMenu}
       >
         Guides and Tutorials
       </a>
-      <a 
-        class="header-button" 
-        href="/help" 
-        title="Help"
+      <a
+        class="nav-link"
+        href="/help"
         class:active={$page.url.pathname.includes('/help')}
         on:click={closeMenu}
       >
         Help
       </a>
     </nav>
-    <button 
+
+    <a
+      class="header-cta"
+      class:deferred={ctaDeferred}
+      aria-hidden={ctaDeferred ? 'true' : undefined}
+      tabindex={ctaDeferred ? -1 : undefined}
+      href={playUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      data-fast-goal="play_store_click"
+      data-fast-goal-position="header"
+      data-fast-goal-utm-source="website"
+      on:click={trackGtag}
+    >
+      Get the app
+    </a>
+
+    <button
       class="hamburger-button"
+      type="button"
       on:click={toggleMenu}
       aria-label="Toggle menu"
       aria-expanded={menuOpen}
@@ -59,231 +114,151 @@
     top: 0;
     left: 0;
     right: 0;
-    width: 100%;
     height: 64px;
-    background: var(--color-dark-bg);
     z-index: 1000;
-    border-bottom: var(--border);
+    background: rgba(14, 19, 16, 0.82);
+    backdrop-filter: saturate(140%) blur(12px);
+    -webkit-backdrop-filter: saturate(140%) blur(12px);
+    border-bottom: 1px solid var(--color-card-border);
   }
 
-  @media (max-width: 640px) {
-    .header-fixed {
-      position: relative;
-    }
-  }
-
-
-  
   .header-row {
     display: flex;
     align-items: center;
+    gap: 8px;
     height: 100%;
-    padding: 0 16px;
-    gap: 16px;
+    max-width: var(--content-width);
     margin: 0 auto;
+    padding: 0 24px;
   }
 
-  .spacer {
-    flex: 1;
-  }
-
-  .header-button {
+  .brand {
     display: flex;
     align-items: center;
-    padding: 0 12px;
-    color: white;
-    text-decoration: none;
-    height: 100%;
-    font-size: 0.9rem;
-    transition: background-color 0.2s;
-    font-family: 'NexaBold', 'Helvetica', 'Arial', sans-serif;
-    position: relative;
+    gap: 10px;
+    margin-right: auto;
+    color: var(--color-body);
   }
 
-  .header-button:hover {
+  .brand:hover {
     opacity: 1;
   }
 
-  .header-button::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 8px;
-    right: 8px;
-    height: 3px;
-    background: var(--color-primary);
-    border-radius: 50px;
-    opacity: 0;
-    transition: opacity 0.2s, width 0.2s;
-    width: 0;
-    margin: 0 auto;
+  .brand-icon {
+    display: block;
+    width: 20px;
+    height: auto;
   }
 
-  .header-button:hover::after {
-    opacity: 1;
-    width: calc(100% - 16px);
-  }
-
-  .header-button.active {
-    color: var(--color-primary);
-  }
-
-  .header-button.active::after {
-    opacity: 1;
-    width: calc(100% - 16px);
-  }
-
-  .header-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .header-button .cc-font {
-    font-size: 1.2rem;
+  .brand-name {
+    font-size: 1.15rem;
     line-height: 1;
-    display: inline-block;
-    vertical-align: middle;
+    padding-top: 2px;
+    color: var(--color-body);
   }
 
   .nav-menu {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 4px;
+  }
+
+  .nav-link {
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-secondary);
+    transition: color 0.15s ease, background-color 0.15s ease;
+  }
+
+  .nav-link:hover {
+    opacity: 1;
+    color: var(--color-body);
+    background: rgba(255, 255, 255, 0.04);
+  }
+
+  .nav-link.active {
+    color: var(--color-body);
+    background: var(--color-card);
+  }
+
+  .header-cta {
+    margin-left: 8px;
+    padding: 8px 16px;
+    border-radius: 999px;
+    background: var(--color-primary);
+    color: var(--color-on-primary);
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.2;
+    white-space: nowrap;
+    transition: filter 0.15s ease, opacity 0.2s ease, transform 0.2s ease;
+  }
+
+  .header-cta:hover {
+    opacity: 1;
+    filter: brightness(1.08);
   }
 
   .hamburger-button {
     display: none;
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
-    padding: 8px;
     align-items: center;
     justify-content: center;
-    transition: opacity 0.2s;
-  }
-
-  .hamburger-button:hover {
-    opacity: 0.8;
+    width: 40px;
+    height: 40px;
+    margin-left: 4px;
+    margin-right: -8px;
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    background: none;
+    color: var(--color-body);
+    cursor: pointer;
   }
 
   .hamburger-button .material-icons {
-    font-size: 28px;
-  }
-
-  .lang-switcher {
-    display: flex;
-    gap: 4px;
-    margin-left: 16px;
-    padding: 4px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 6px;
-  }
-
-  .lang-button {
-    background: none;
-    border: none;
-    color: rgba(255, 255, 255, 0.7);
-    padding: 4px 8px;
-    cursor: pointer;
-    border-radius: 4px;
-    font-size: 14px;
-    transition: all 0.2s;
-  }
-
-  .lang-button:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.1);
-  }
-
-  .lang-button.active {
-    background: var(--color-primary);
-    color: var(--color-dark-bg);
+    font-size: 26px;
   }
 
   @media (max-width: 640px) {
-    .header-fixed {
-      position: relative;
-      height: auto;
-      min-height: 64px;
-      display: flex;
-      align-items: center;
-    }
-    
     .header-row {
-      flex-wrap: nowrap;
       padding: 0 16px;
-      gap: 0;
-      justify-content: space-between;
-      position: relative;
-      width: 100%;
-      min-height: 64px;
-    }
-
-    .header-logo {
-      flex: 0 0 auto;
-      margin-bottom: 0;
-      height: 64px;
-      display: flex;
-      align-items: center;
-    }
-
-    .header-logo .cc-font {
-      font-size: 1.2rem;
-      line-height: 1;
-    }
-
-    .spacer {
-      display: none;
     }
 
     .nav-menu {
       position: absolute;
-      top: 100%;
+      top: 64px;
       left: 0;
       right: 0;
       flex-direction: column;
-      background: var(--color-dark-bg);
-      border-top: none;
-      padding: 0;
+      align-items: stretch;
+      gap: 0;
       max-height: 0;
       overflow: hidden;
-      transition: max-height 0.3s ease-out;
-      gap: 0;
+      background: var(--color-dark-bg);
+      transition: max-height 0.25s ease-out;
     }
 
     .nav-menu.open {
-      max-height: 300px;
-      padding: 8px 0;
-      border-top: var(--border);
+      max-height: 240px;
+      padding: 8px 8px 12px;
+      border-bottom: 1px solid var(--color-card-border);
     }
 
-    .nav-menu .header-button {
-      width: 100%;
-      padding: 16px;
-      height: auto;
-      justify-content: flex-start;
-      border-radius: 0;
-    }
-
-    .nav-menu .header-button::after {
-      display: none;
-    }
-
-    .nav-menu .header-button.active {
-      background: rgba(76, 175, 80, 0.1);
+    .nav-link {
+      padding: 14px 12px;
+      font-size: 1rem;
     }
 
     .hamburger-button {
       display: flex;
-      height: 64px;
-      align-items: center;
-      justify-content: center;
     }
+  }
 
-    .lang-switcher {
-      align-self: center;
-    }
+  .header-cta.deferred {
+    opacity: 0;
+    transform: translateY(-4px);
+    pointer-events: none;
   }
 </style>

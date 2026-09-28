@@ -7,11 +7,11 @@
     <Header/>
 </header>
 
-<div class="error-container">
+<main class="error-container">
     <h1>404</h1>
     <p>Page not found</p>
     <a href="/">Go Home</a>
-</div>
+</main>
 
 <Footer/>
 

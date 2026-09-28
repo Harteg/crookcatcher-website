@@ -1,16 +1,20 @@
 <script lang="ts">
-  
-  
   import type { Post } from '$lib/types/blog';
 
   export let posts: Post[] = [];
+  export let title = 'Recent posts';
+  export let viewAllLabel = 'View all posts';
 </script>
 
-<section class="recent-posts-section">
-  <h2 class="section-title cc-font text-center" style="font-size: 2rem">
-        Recent Posts
-  </h2>
-  
+<section class="recent-posts-section" aria-labelledby="recent-posts-title">
+  <header class="recent-header">
+    <h2 id="recent-posts-title" class="section-title">{title}</h2>
+    <a href="/blog" class="view-all">
+      {viewAllLabel}
+      <span class="material-icons" aria-hidden="true">arrow_forward</span>
+    </a>
+  </header>
+
   <div class="recent-posts">
     {#each posts?.slice(0, 3) || [] as post}
       <article class="blog-preview">
@@ -35,43 +39,75 @@
       </article>
     {/each}
   </div>
-
-  <div class="text-center" style="margin-top: 48px;">
-    <a href="/blog" class="social-link">
-        View all posts →
-    </a>
-  </div>
 </section>
 
 <style>
+  .recent-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px 24px;
+    margin-bottom: 24px;
+  }
+
+  .section-title {
+    margin: 0;
+  }
+
+  .view-all {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+
+  .view-all .material-icons {
+    font-size: 18px;
+    transition: transform 0.15s ease;
+  }
+
+  .view-all:hover {
+    opacity: 1;
+  }
+
+  .view-all:hover .material-icons {
+    transform: translateX(3px);
+  }
+
   .recent-posts {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-    margin-top: 48px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
   }
 
   .blog-preview {
-    background: var(--color-cc-dark-bg);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
     overflow: hidden;
-    transition: transform 0.2s ease;
+    border: 1px solid var(--color-card-border);
+    border-radius: var(--border-radius);
+    background: var(--color-card);
+    transition: transform 0.2s ease, border-color 0.2s ease;
   }
 
   .blog-preview:hover {
-    transform: translateY(-4px);
+    transform: translateY(-3px);
+    border-color: rgba(94, 224, 143, 0.35);
   }
 
   .blog-preview-link {
-    text-decoration: none;
-    color: inherit;
     display: block;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .blog-preview-link:hover {
+    opacity: 1;
   }
 
   .preview-image {
     width: 100%;
-    aspect-ratio: 16/9;
+    aspect-ratio: 16 / 9;
     overflow: hidden;
   }
 
@@ -82,53 +118,38 @@
   }
 
   .preview-content {
-    padding: 24px;
+    padding: 20px;
   }
 
   .preview-content time {
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.6);
     display: block;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
+    font-size: 0.8125rem;
+    color: var(--color-secondary);
   }
 
   .preview-content h3 {
-    font-size: 20px;
-    line-height: 1.4;
-    margin: 0 0 12px;
-    color: #fff;
+    margin: 0 0 8px;
+    font-size: 1.1rem;
+    line-height: 1.35;
+    color: var(--color-body);
   }
 
   .preview-content p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: rgba(255, 255, 255, 0.8);
-    margin: 0;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
+    margin: 0;
     overflow: hidden;
-  }
-
-  .social-link {
-    color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
-    padding: 12px 24px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 24px;
-    transition: all 0.2s;
-    font-size: 0.9rem;
-  }
-
-  .social-link:hover {
-    background: rgba(255, 255, 255, 0.1);
-    border-color: rgba(255, 255, 255, 0.3);
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    color: var(--color-secondary);
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
   }
 
   @media (max-width: 840px) {
     .recent-posts {
       grid-template-columns: 1fr;
-      gap: 16px;
     }
   }
-</style> 
+</style>

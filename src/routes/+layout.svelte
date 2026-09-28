@@ -7,9 +7,14 @@
 <svelte:head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<meta name="theme-color" content="#64DD91">
-	<meta property="og:image" content="https://www.crookcatcher.app/images/social_graphic.png">
-	<meta name="twitter:image" content="https://www.crookcatcher.app/images/social_graphic.png">
+	<meta name="theme-color" content="#5EE08F">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block">
+
+	<link rel="alternate" hreflang="en" href="https://www.crookcatcher.app/" />
+	<link rel="alternate" hreflang="x-default" href="https://www.crookcatcher.app/" />
 
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
@@ -48,8 +53,8 @@
 			},
 			"aggregateRating": {
 				"@type": "AggregateRating",
-				"ratingValue": "4.3",
-				"ratingCount": "67211",
+				"ratingValue": "4.587",
+				"ratingCount": "90628",
 				"bestRating": "5",
 				"worstRating": "1"
 			},
@@ -57,7 +62,7 @@
 				"@type": "Person",
 				"name": "Jakob Harteg"
 			},
-			"featureList": ["Takes secret selfies of intruders","Sends pictures and GPS location to email","Works offline","Easy setup and intuitive interface","Record video of intruders","Show fake home screen to fool thieves","Upload all pictures and videos to Google Drive","Prevent thieves from turning on airplane mode"],
+			"featureList": ["Takes intruder selfies on wrong PIN, pattern or password","Sends pictures and GPS location to email","Works offline","Easy setup and intuitive interface","Record video of intruders","Show fake home screen to fool thieves","Upload all pictures and videos to Google Drive"],
 			"publisher": {
 				"@type": "Organization",
 				"name": "CrookCatcher",
@@ -66,7 +71,7 @@
 			"isAccessibleForFree": true,
 			"url": "https://www.crookcatcher.app",
 			"image": "https://www.crookcatcher.app/images/ic_launcher_512.png",
-			"description": "CrookCatcher is an anti-theft app that protects your Android phone by capturing secret selfies and GPS locations when someone tries to unlock your device with the wrong password, pin code or pattern. CrookCatcher can even prevent thieves from turning on airplane mode.",
+			"description": "CrookCatcher takes an intruder selfie when someone enters a wrong PIN, pattern or password, and emails you their photo and GPS location. Free for Android.",
 			"downloadUrl": "https://play.google.com/store/apps/details?id=com.harteg.crookcatcher",
 			"sameAs": [
 				"https://x.com/CrookCatcherApp",
@@ -96,7 +101,7 @@
 		"name": "CrookCatcher",
 		"url": "https://www.crookcatcher.app",
 		"logo": "https://www.crookcatcher.app/images/ic_launcher_512.png",
-		"description": "CrookCatcher is an anti-theft Android app that protects your phone by capturing secret photos and GPS location when someone tries to unlock your device with the wrong password.",
+		"description": "CrookCatcher takes an intruder selfie when someone enters a wrong PIN, pattern or password, and emails you their photo and GPS location. Free for Android.",
 		"sameAs": [
 			"https://x.com/CrookCatcherApp",
 			"https://play.google.com/store/apps/details?id=com.harteg.crookcatcher"

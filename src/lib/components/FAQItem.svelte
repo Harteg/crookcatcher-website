@@ -1,107 +1,158 @@
 <script lang="ts">
   export let question: string;
-  export let answer: string;
-  
+  export let answer = '';
+  export let id: string;
+  export let headingLevel: 2 | 3 | 4 = 3;
+
   let isOpen = false;
-  
-  function toggle() {
-    isOpen = !isOpen;
-  }
 </script>
 
-<div class="faq-item">
-  <button class="faq-question" on:click={toggle} aria-expanded={isOpen}>
-    <span class="faq-question-text">{question}</span>
-    <span class="faq-icon" class:open={isOpen}>+</span>
-  </button>
-  {#if isOpen}
-    <div class="faq-answer">
-      <p>{answer}</p>
+<div class="faq-item" class:open={isOpen}>
+  <svelte:element this={`h${headingLevel}`} class="faq-heading">
+    <button
+      id="{id}-question"
+      class="faq-question"
+      type="button"
+      aria-expanded={isOpen}
+      aria-controls="{id}-answer"
+      on:click={() => (isOpen = !isOpen)}
+    >
+      <span id="{id}-label" class="faq-question-text">{question}</span>
+      <span class="faq-icon" aria-hidden="true">
+        <span class="material-icons">expand_more</span>
+      </span>
+    </button>
+  </svelte:element>
+  <div
+    id="{id}-answer"
+    class="faq-answer"
+    role="region"
+    aria-labelledby="{id}-label"
+    inert={!isOpen}
+  >
+    <div class="faq-answer-inner">
+      <div class="faq-answer-content">
+        <slot><p>{answer}</p></slot>
+      </div>
     </div>
-  {/if}
+  </div>
 </div>
 
 <style>
-  .faq-item {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  .faq-heading {
+    margin: 0;
+    font-size: inherit;
   }
 
   .faq-question {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
-    background: none;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
+    padding: 18px 20px;
     border: none;
-    cursor: pointer;
-    text-align: left;
+    background: none;
     color: inherit;
-  }
-
-  .faq-question:hover {
-    opacity: 0.8;
+    text-align: left;
+    cursor: pointer;
   }
 
   .faq-question-text {
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: #fff;
     flex: 1;
-    margin-right: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.0625rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--color-body);
+    transition: color 0.15s ease;
+  }
+
+  .faq-question:hover .faq-question-text,
+  .open .faq-question-text {
+    color: var(--color-primary);
   }
 
   .faq-icon {
-    font-size: 1.5rem;
-    font-weight: 300;
-    color: white;
-    line-height: 1;
-    transition: transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: rgba(94, 224, 143, 0.1);
+    color: var(--color-primary);
+    transition: transform 0.2s ease, background-color 0.2s ease;
   }
 
-  .faq-icon.open {
-    transform: rotate(45deg);
+  .faq-icon .material-icons {
+    font-size: 20px;
+  }
+
+  .open .faq-icon {
+    transform: rotate(180deg);
+    background: rgba(94, 224, 143, 0.18);
   }
 
   .faq-answer {
-    padding: 0 0 20px 0;
-    animation: fadeIn 0.2s ease;
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.25s ease;
   }
 
-  .faq-answer p {
-    color: rgba(255, 255, 255, 0.8);
-    line-height: 1.6;
+  .open .faq-answer {
+    grid-template-rows: 1fr;
+  }
+
+  .faq-answer-inner {
+    overflow: hidden;
+  }
+
+  .faq-answer-content {
+    padding: 0 64px 20px 20px;
+  }
+
+  .faq-answer-content :global(p),
+  .faq-answer-content :global(li) {
     margin: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--color-secondary);
   }
 
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(-5px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+  .faq-answer-content :global(p + p) {
+    margin-top: 10px;
   }
 
-  @media (max-width: 840px) {
+  .faq-answer-content :global(ul) {
+    margin: 0;
+    padding-left: 20px;
+    list-style: disc;
+  }
+
+  .faq-answer-content :global(li + li) {
+    margin-top: 8px;
+  }
+
+  .faq-answer-content :global(li::marker) {
+    color: var(--color-primary);
+  }
+
+  @media (max-width: 640px) {
     .faq-question {
-      padding: 16px 0;
+      padding: 16px;
     }
 
-    .faq-question-text {
-      font-size: 1rem;
+    .faq-answer-content {
+      padding: 0 16px 18px;
     }
+  }
 
+  @media (prefers-reduced-motion: reduce) {
+    .faq-answer,
     .faq-icon {
-      font-size: 1.3rem;
-    }
-
-    .faq-answer {
-      padding: 0 0 16px 0;
+      transition: none;
     }
   }
 </style>
-

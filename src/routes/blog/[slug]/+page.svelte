@@ -25,7 +25,11 @@
   const slug = $page.params.slug;
 
   const baseUrl = 'https://www.crookcatcher.app';
-  $: ogImage = data.post.image?.startsWith('http') ? data.post.image : `${baseUrl}${data.post.image}`;
+  $: ogImage = !data.post.image
+    ? `${baseUrl}/images/og-share.png`
+    : data.post.image.startsWith('http')
+      ? data.post.image
+      : `${baseUrl}${data.post.image}`;
 </script>
 
 <svelte:head>
@@ -54,7 +58,7 @@
     "@type": "BlogPosting",
     "headline": "${data.post.title || 'CrookCatcher Blog Article'}",
     "description": "${data.post.description || 'Learn more about CrookCatcher.'}",
-    "image": "${ogImage || 'https://www.crookcatcher.app/images/feature_graphic_en.png'}",
+    "image": "${ogImage}",
     "datePublished": "${formatDate(data.post.datePublished || '2024-01-01T00:00:00Z')}",
     "dateModified": "${formatDate(data.post.dateUpdated || '2024-01-01T00:00:00Z')}",
     "author": {
