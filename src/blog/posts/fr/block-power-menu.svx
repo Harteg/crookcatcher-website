@@ -1,0 +1,109 @@
+---
+title: Comment empêcher les voleurs d'éteindre votre téléphone (ou d'activer le mode avion)
+subtitle: Les réglages qui gardent votre téléphone localisable, et comment prendre le voleur en photo
+dateUpdated: '2026-09-28'
+datePublished: '2025-01-19'
+description: "Les voleurs éteignent les téléphones volés pour qu'on ne puisse plus les localiser. Voici comment rendre cela plus difficile sur Samsung et les autres téléphones Android, et comment obtenir la photo du voleur avant qu'il n'y parvienne."
+image: /images/blog/Digital_Solitude_Urban_Shadows.jpeg
+imageAlt: Homme dans l'ombre tenant un téléphone
+published: true
+---
+
+<script>
+  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+</script>
+
+Quand quelqu'un vole un téléphone, l'une des premières choses qu'il fait est de **l'éteindre ou d'activer le mode avion**. Un téléphone éteint ou hors ligne ne peut plus être localisé, verrouillé ni effacé à distance : toutes les fonctions de suivi que vous avez configurées cessent soudain de fonctionner.
+
+La bonne nouvelle : Android et les fabricants proposent désormais des réglages qui rendent cela beaucoup plus difficile. Voici quoi activer, et comment vous assurer d'avoir des preuves même si un voleur parvient à passer.
+
+## En bref
+
+1. **Samsung :** activez *Verrouiller réseau et sécurité*, pour que le téléphone demande votre code PIN avant de pouvoir être éteint depuis l'écran de verrouillage.
+2. **Tous les téléphones Android :** activez le *Verrouillage en cas de détection de vol* et le *Verrouillage de l'appareil hors connexion*.
+3. **Retirez le mode avion** des Réglages rapides.
+4. **Cherchez dans les paramètres de votre téléphone** une option « déverrouiller pour éteindre ».
+5. **Installez <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu_fr&utm_medium=tldr" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** pour recevoir la photo et la position de toute personne qui essaie de déverrouiller votre téléphone.
+
+---
+
+## 1. Samsung : exigez votre code PIN pour éteindre le téléphone
+
+De nombreux Samsung Galaxy disposent d'un réglage qui empêche d'éteindre le téléphone ou de désactiver le réseau depuis l'écran de verrouillage sans votre code PIN, schéma ou mot de passe.
+
+**Allez dans :**
+`Paramètres > Écran de verrouillage > Paramètres de verrouillage sécurisé > Verrouiller réseau et sécurité`
+
+Activez-le. Désormais, toute personne qui essaie d'éteindre votre téléphone depuis l'écran de verrouillage doit d'abord le déverrouiller.
+
+> Remarque : cela protège l'écran de verrouillage. Si un voleur s'empare de votre téléphone pendant qu'il est *déverrouillé*, il peut encore l'éteindre ; c'est pourquoi l'étape 2 compte aussi. Samsung teste une mise à jour qui exigera votre code PIN pour éteindre le téléphone dans tous les cas, et nous mettrons cet article à jour dès sa sortie.
+
+---
+
+## 2. Tous les téléphones Android : activez le Verrouillage en cas de détection de vol et le Verrouillage de l'appareil hors connexion
+
+Ces fonctions Android verrouillent automatiquement votre téléphone, ce qui est surtout utile quand un voleur vous l'arrache des mains alors qu'il est déverrouillé.
+
+- Le **Verrouillage en cas de détection de vol** verrouille l'écran si le téléphone détecte un mouvement typique d'un vol à l'arraché.
+- Le **Verrouillage de l'appareil hors connexion** verrouille l'écran peu après que le téléphone passe hors ligne, par exemple quand quelqu'un active le mode avion.
+
+**Sur la plupart des téléphones Android, allez dans :**
+`Paramètres > Sécurité et confidentialité > Déverrouillage de l'appareil > Protection contre le vol`
+
+**Sur les téléphones Samsung, allez dans :**
+`Paramètres > Sécurité et confidentialité > Protection en cas de perte de l'appareil > Protection contre le vol`
+
+Une fois le téléphone verrouillé, le voleur se retrouve face à l'écran de verrouillage, où l'étape 1 et CrookCatcher prennent le relais.
+
+---
+
+## 3. Retirez le mode avion des Réglages rapides
+
+Si le mode avion est à un glissement de doigt, un voleur peut couper le suivi en une seconde. Le retirer des Réglages rapides le ralentit :
+
+1. Faites glisser vers le bas pour ouvrir les Réglages rapides.
+2. Appuyez sur l'icône **modifier (✏️)**.
+3. Faites glisser la vignette **Mode avion** hors de la zone visible.
+
+Vous pouvez toujours activer le mode avion depuis vos paramètres quand vous en avez besoin.
+
+---
+
+## 4. Vérifiez si votre téléphone propose une option de verrouillage de l'extinction
+
+D'autres fabricants proposent aussi un réglage qui exige de déverrouiller le téléphone avant de pouvoir l'éteindre. Le nom et l'emplacement varient selon la marque : le plus rapide est d'**ouvrir les Paramètres et de rechercher « éteindre »**.
+
+---
+
+## 5. Prenez le voleur en photo avant qu'il n'y parvienne
+
+Les réglages rendent l'extinction de votre téléphone plus difficile, mais un voleur déterminé peut encore trouver un moyen. C'est là que CrookCatcher aide : un voleur essaie presque toujours de déverrouiller le téléphone d'abord, et c'est exactement à ce moment-là que CrookCatcher agit.
+
+- Quand quelqu'un saisit un **mauvais code PIN, schéma ou mot de passe**, CrookCatcher prend une photo avec la caméra frontale.
+- Il enregistre la **position GPS** et une adresse approximative.
+- Il vous **envoie par e-mail** la photo et la position immédiatement.
+
+Ainsi, même si le téléphone est éteint une minute plus tard, la photo du voleur et la position sont déjà dans votre boîte mail. Vous pouvez ensuite les transmettre à la police.
+
+Avec **CrookCatcher Pro**, vous pouvez aussi enregistrer une vidéo avec le son, capturer l'environnement avec la caméra arrière, tout sauvegarder sur Google Drive et masquer les notifications de CrookCatcher pour que le voleur ne se rende pas compte qu'il a été pris.
+
+<PlayStoreButton utmSource="blog_block_power_menu_bottom_fr" />
+
+---
+
+## D'autres moyens de protéger votre téléphone
+
+- **Activez Find Hub** (anciennement Localiser mon appareil de Google) pour pouvoir localiser, verrouiller ou effacer votre téléphone.
+- **Utilisez un verrouillage d'écran solide.** Un mot de passe ou un code PIN à 6 chiffres est bien plus difficile à deviner qu'un code à 4 chiffres.
+- **Gardez votre téléphone à jour** pour profiter des dernières fonctions de sécurité.
+- **Soyez vigilant dans les lieux publics.** Beaucoup de vols ont lieu pendant que le téléphone est dans votre main, par exemple quand vous consultez une carte ou prenez une photo.
+
+Pour des instructions pas à pas, lisez notre guide des [5 réglages Android essentiels pour protéger votre téléphone contre le vol](/fr/blog/top_five_settings).
+
+---
+
+## Qu'est devenu le blocage du menu d'extinction de CrookCatcher ?
+
+Une version précédente de cet article décrivait une fonction expérimentale de CrookCatcher qui bloquait le menu d'extinction et le volet des notifications sur l'écran de verrouillage. Comme elle ne fonctionnait pas de façon fiable sur tous les téléphones Android, et qu'Android et les fabricants proposent désormais une meilleure protection intégrée, cette fonction a été abandonnée. Les réglages ci-dessus sont aujourd'hui la façon recommandée de protéger votre téléphone.
+
+D'autres questions ? Consultez la [FAQ](/fr/help).

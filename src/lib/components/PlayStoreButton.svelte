@@ -1,7 +1,14 @@
 <script lang="ts">
+  import { page } from '$app/stores';
+
+  // Official badges we have in static/images/play_badges; anything else falls back to English.
+  const BADGES = ['en', 'fr'];
+
   export let utmSource = 'website';
   export let position: string | undefined = undefined;
   export let compact = false;
+
+  $: badge = BADGES.includes($page.data.locale) ? $page.data.locale : 'en';
 
   function trackGtag() {
     if (typeof window === 'undefined') return;
@@ -30,8 +37,8 @@
   on:click={trackGtag}
 >
   <img
-    alt="Get it on Google Play"
-    src="/images/play_badges/en_badge_web_generic.png"
+    alt={$page.data.ui.playBadgeAlt}
+    src="/images/play_badges/{badge}_badge_web_generic.png"
     class="play-badge"
     width="215"
     height="80"

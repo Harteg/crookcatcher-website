@@ -1,0 +1,115 @@
+---
+title: Como descobrir quem tentou desbloquear seu celular (e ver a foto da pessoa)
+subtitle: Tire uma selfie do intruso quando alguém errar o PIN, o padrão ou a senha
+dateUpdated: '2026-09-28'
+datePublished: '2026-09-28'
+description: "O Android não mostra quem tentou desbloquear seu celular. Veja como tirar automaticamente uma foto de quem errar o PIN, o padrão ou a senha, e receber por e-mail junto com a localização."
+image: '/images/blog/who-tried-to-unlock-header.png'
+imageAlt: 'Celular mostrando uma tentativa de desbloqueio com padrão errado ao lado de um alerta do CrookCatcher por e-mail com fotos do intruso e localização'
+published: true
+---
+
+<script>
+  import Features from '$lib/components/Features.svelte';
+  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+</script>
+
+Talvez seu celular tenha mudado de lugar enquanto você estava fora. Talvez você tenha visto uma mensagem de "Tente novamente em 30 segundos" que não foi causada por você. Ou talvez você só queira saber se alguém anda tentando entrar no seu celular.
+
+A resposta curta:
+
+- **O Android não guarda um registro** das tentativas de desbloqueio com falha, e não tira foto de quem as fez.
+- **Dá para adicionar isso com um app** que tira uma foto quando alguém erra o PIN, o padrão ou a senha. Essa foto costuma ser chamada de *selfie do intruso*.
+- **O CrookCatcher** faz exatamente isso, de graça, e envia a foto para o seu e-mail junto com a localização.
+
+## O Android mostra quem tentou desbloquear o celular?
+
+Não por padrão. Quando alguém erra o PIN, o padrão ou a senha, o Android simplesmente recusa. Depois de várias tentativas erradas, ele faz a pessoa esperar antes de tentar de novo, mas não salva um registro que você possa consultar depois, e nunca usa a câmera.
+
+Algumas fabricantes incluem uma opção parecida de "foto do intruso" no próprio bloqueio de apps. Normalmente, isso só protege apps específicos, não a tela de bloqueio, então não pega quem tenta entrar no seu celular logo de cara.
+
+Para ver quem tentou desbloquear seu celular, você precisa de um app que monitore a tela de bloqueio e reaja às tentativas com falha.
+
+## Como tirar uma foto de quem errar a senha
+
+Veja como configurar com o CrookCatcher. Leva poucos minutos, e você não precisa criar conta.
+
+1. **Instale o CrookCatcher** pelo <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=website&utm_medium=blog_who_tried_unlock_steps_pt' target="_blank" rel="noopener noreferrer">Google Play</a>.
+2. **Permita o Administrador do dispositivo.** Essa é a permissão do Android que deixa um app perceber quando uma tentativa de desbloqueio falha. O CrookCatcher usa essa permissão só para isso.
+3. **Permita o acesso à câmera e à localização**, para ele poder tirar a foto e registrar onde aconteceu.
+4. **Conecte uma conta do Gmail** para os e-mails de alerta. O CrookCatcher só consegue *enviar* e-mails por ela; ele não pode ler, apagar nem alterar nada na sua caixa de entrada. Você pode criar uma conta do Gmail separada só para isso, ou dispensar o e-mail e guardar as fotos apenas no celular.
+5. **Teste.** Bloqueie o celular, erre o PIN de propósito e depois desbloqueie. Você deve ver o seu próprio rosto (provavelmente confuso) no app e na sua caixa de entrada. 😄
+
+Pronto. A partir de agora, sempre que alguém errar o PIN, o padrão ou a senha, o CrookCatcher faz o trabalho dele em segundo plano, sem chamar atenção.
+
+## O que você recebe quando alguém tenta desbloquear seu celular
+
+A cada tentativa de desbloqueio com falha, você recebe:
+
+- **Uma foto da câmera frontal** de quem estava segurando o celular
+- **A localização GPS** e um endereço aproximado de onde aconteceu
+- **O horário** da tentativa
+- **Um alerta por e-mail** com tudo isso, para você ter as informações mesmo se o celular sumir
+
+Todas as fotos também ficam salvas no app, onde você pode ver cada tentativa com horário e localização.
+
+Com o **CrookCatcher Pro**, você também pode gravar vídeo com som, tirar uma foto do ambiente com a câmera traseira, enviar tudo automaticamente para o Google Drive e pegar a pessoa mesmo quando ela *acerta o seu PIN* depois de uma tentativa errada (detecção de invasão).
+
+## Outros sinais de que alguém usou seu celular
+
+Uma foto é a prova mais clara, mas estes sinais também podem indicar que alguém mexeu no seu celular:
+
+- **Apps abertos recentemente** que você não usou (abra a tela de apps recentes)
+- **Mensagens ou notificações marcadas como lidas** que você não viu
+- **Atividade na sua Conta do Google** que você não reconhece, em <a href="https://myactivity.google.com" target="_blank" rel="noopener noreferrer">myactivity.google.com</a>
+- **O celular está em outro lugar** ou em outra posição de onde você deixou
+
+Se notar algum desses sinais, configurar um app de selfie do intruso é o jeito mais fácil de descobrir quem é da próxima vez.
+
+## O que fazer se foi um ladrão
+
+Se as fotos mostram um desconhecido, ou se o seu celular sumiu:
+
+1. **Não confronte a pessoa sozinho.** Sua segurança vale mais que o celular.
+2. **Registre um boletim de ocorrência** e inclua as fotos, o horário e a localização do e-mail de alerta.
+3. **Use o Find Hub do Google** para localizar, bloquear ou apagar o celular.
+4. **Entre em contato com a sua operadora** para bloquear o chip e o IMEI do aparelho.
+
+Para dificultar o roubo do seu celular desde o início, leia nosso guia com as [5 principais configurações do Android para proteger seu celular contra roubo](/pt/blog/top_five_settings).
+
+## Use só no seu próprio celular
+
+O CrookCatcher foi feito para proteger o *seu* celular. Instale apenas em um aparelho que seja seu. Monitorar o celular de outra pessoa em segredo não é o objetivo do app, e em muitos países isso é crime.
+
+## O CrookCatcher é grátis?
+
+Sim, os recursos mais importantes são grátis: a foto do intruso, a localização e o alerta por e-mail. O **CrookCatcher Pro** adiciona vídeo, câmera traseira, backup no Google Drive, detecção de invasão, alarme, tela inicial falsa e mais. O preço varia de acordo com o país, então confira no app. Veja a comparação completa:
+
+<Features />
+
+<PlayStoreButton utmSource="blog_who_tried_unlock_bottom_pt" />
+
+## Perguntas frequentes
+
+### P: Funciona com padrão, PIN e senha?
+R: Sim. O CrookCatcher reage a um PIN, padrão ou senha errados. Tentativas com falha de impressão digital ou reconhecimento facial não o ativam, e ele não funciona com câmeras retráteis (pop-up).
+
+### P: A pessoa vai saber que foi fotografada?
+R: O CrookCatcher funciona em segundo plano, sem mostrar a imagem da câmera. No Android 13 e versões mais recentes, o Android mostra um pequeno indicador enquanto a câmera está em uso, que é um recurso do sistema que os apps não conseguem esconder.
+
+### P: Preciso criar uma conta?
+R: Não. Não há cadastro. Você só conecta uma conta do Gmail se quiser receber alertas por e-mail.
+
+### P: Quem pode ver minhas fotos?
+R: Só você. Os alertas são enviados da sua própria conta do Gmail, e o desenvolvedor nunca vê suas fotos. Saiba mais na [política de privacidade](/pt/privacy).
+
+### P: Gasta muita bateria?
+R: Não. O CrookCatcher só é ativado quando uma tentativa de desbloqueio falha, então o consumo de bateria é mínimo.
+
+### P: Existe versão para iPhone?
+R: Não. O iPhone não permite que apps detectem tentativas de desbloqueio com falha, então o CrookCatcher está disponível apenas para Android.
+
+### P: Funciona depois de reiniciar o celular?
+R: Sim, depois que você desbloquear o celular uma vez após reiniciar. Até lá, o Android não permite que apps reajam a tentativas de desbloqueio.
+
+Tem mais dúvidas? Confira as [perguntas frequentes](/pt/help).

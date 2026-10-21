@@ -1,5 +1,13 @@
 <script lang="ts">
 	import '../app.css';
+	import { browser } from '$app/environment';
+	import { LOCALE_META } from '$lib/i18n';
+
+	export let data;
+
+	$: schema = data.ui.schema;
+	// hooks.server.ts sets <html lang> for prerendered pages; keep it right on client-side navigation.
+	$: if (browser) document.documentElement.lang = LOCALE_META[data.locale].htmlLang;
 </script>
 
 <slot />
@@ -12,9 +20,6 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block">
-
-	<link rel="alternate" hreflang="en" href="https://www.crookcatcher.app/" />
-	<link rel="alternate" hreflang="x-default" href="https://www.crookcatcher.app/" />
 
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
@@ -62,7 +67,7 @@
 				"@type": "Person",
 				"name": "Jakob Harteg"
 			},
-			"featureList": ["Takes intruder selfies on wrong PIN, pattern or password","Sends pictures and GPS location to email","Works offline","Easy setup and intuitive interface","Record video of intruders","Show fake home screen to fool thieves","Upload all pictures and videos to Google Drive"],
+			"featureList": ${JSON.stringify(schema.featureList)},
 			"publisher": {
 				"@type": "Organization",
 				"name": "CrookCatcher",
@@ -71,7 +76,7 @@
 			"isAccessibleForFree": true,
 			"url": "https://www.crookcatcher.app",
 			"image": "https://www.crookcatcher.app/images/ic_launcher_512.png",
-			"description": "CrookCatcher takes an intruder selfie when someone enters a wrong PIN, pattern or password, and emails you their photo and GPS location. Free for Android.",
+			"description": ${JSON.stringify(schema.description)},
 			"downloadUrl": "https://play.google.com/store/apps/details?id=com.harteg.crookcatcher",
 			"sameAs": [
 				"https://x.com/CrookCatcherApp",
@@ -101,7 +106,7 @@
 		"name": "CrookCatcher",
 		"url": "https://www.crookcatcher.app",
 		"logo": "https://www.crookcatcher.app/images/ic_launcher_512.png",
-		"description": "CrookCatcher takes an intruder selfie when someone enters a wrong PIN, pattern or password, and emails you their photo and GPS location. Free for Android.",
+		"description": ${JSON.stringify(schema.description)},
 		"sameAs": [
 			"https://x.com/CrookCatcherApp",
 			"https://play.google.com/store/apps/details?id=com.harteg.crookcatcher"

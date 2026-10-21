@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "Terms of Use • CrookCatcher Android App",
+    "description": "Terms of use for CrookCatcher, the Android app that takes pictures when wrong passwords are entered.",
+    "canonical": "https://www.crookcatcher.app/terms"
+  },
+  "hero": {
+    "eyebrow": "Legal",
+    "title": "Terms of Use",
+    "lead": "By downloading and using CrookCatcher, you agree to the following terms and conditions. Please read them carefully."
+  },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Use of the App",
+      "body": "<p>CrookCatcher is intended for personal, non-commercial use only. You agree to use CrookCatcher in compliance with all applicable laws and regulations. You may not modify or copy the materials in this app or use them for any commercial purpose. Attempting to decompile or reverse engineer any software contained in the app is prohibited.</p>"
+    },
+    {
+      "number": "2",
+      "title": "Ownership and Intellectual Property",
+      "body": "<p>All materials in CrookCatcher, including intellectual property rights, are either owned by Jakob Harteg or licensed to him. You may not use any content from this app without express written permission from Jakob Harteg.</p>"
+    },
+    {
+      "number": "3",
+      "title": "Data Collection",
+      "body": "<p>CrookCatcher collects anonymous user data unless you opt out in the app settings. This includes standard tracking metrics with Google Analytics and Firebase, such as when an email is sent and how you navigate through the app. No private or sensitive information is collected, stored, or shared. Please refer to our <a href=\"/privacy\">Privacy Policy</a> for more details.</p>"
+    },
+    {
+      "number": "4",
+      "title": "Disclaimers",
+      "body": "<p>CrookCatcher is provided \"as is\" without any warranties, expressed or implied. This includes, but is not limited to, implied warranties of merchantability, fitness for a particular purpose, and non-infringement. Jakob Harteg makes no representations regarding the accuracy or reliability of the app's content or functionality.</p>"
+    },
+    {
+      "number": "5",
+      "title": "Limitation of Liability",
+      "body": "<p>In no event shall Jakob Harteg be liable for any damages arising from the use or inability to use CrookCatcher, including but not limited to direct, indirect, incidental, special, or consequential damages, or loss of data, devices, or profits.</p>"
+    },
+    {
+      "number": "6",
+      "title": "Governing Law",
+      "body": "<p>Any claim or dispute relating to CrookCatcher will be governed by the laws of Germany, without regard to its conflict of law provisions.</p>"
+    },
+    {
+      "number": "7",
+      "title": "Changes to the Terms of Use",
+      "body": "<p>Jakob Harteg reserves the right to update or change these terms at any time without prior notice. By continuing to use CrookCatcher after changes are made, you agree to be bound by the updated terms.</p>"
+    },
+    {
+      "number": "8",
+      "title": "Entire Agreement",
+      "body": "<p>These terms constitute the entire agreement between you and Jakob Harteg regarding CrookCatcher and supersede any prior agreements.</p>"
+    },
+    {
+      "number": "9",
+      "title": "Severability",
+      "body": "<p>If any provision of these terms is found to be unenforceable, the remaining provisions will remain in effect.</p>"
+    },
+    {
+      "number": "10",
+      "title": "Paid plans and refunds",
+      "body": "<p>Some CrookCatcher features may be paid—a subscription or a one-time unlock. The company that actually charges you is whoever you checked out with: usually Google Play for purchases inside the Android app, or Paddle (or a similar partner) if you pay on the web. Their terms apply to that payment as well.</p><p>If you’d like a refund, how that works and how long you have depend on that same company. Please use their help center or refund flow first—that’s usually the quickest path. You can also contact CrookCatcher support with your receipt or order details; we’ll help however we can, but only the payment provider can approve or deny the refund.</p><p>After you already have access to what you bought, we don’t offer refunds on our own, except where Google Play, Paddle, or the law says otherwise.</p>"
+    }
+  ]
+}

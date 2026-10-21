@@ -1,16 +1,21 @@
 <script lang="ts">
-  import type { Post } from '$lib/types/blog';
+  import { page } from '$app/stores';
+  import type { PostSummary } from '$lib/blog';
+  import { localizePath, type Locale } from '$lib/i18n';
 
-  export let posts: Post[] = [];
-  export let title = 'Recent posts';
-  export let viewAllLabel = 'View all posts';
+  export let posts: PostSummary[] = [];
+  export let title: string | undefined = undefined;
+  export let viewAllLabel: string | undefined = undefined;
+
+  $: locale = $page.data.locale as Locale;
+  $: t = $page.data.ui.recentPosts;
 </script>
 
 <section class="recent-posts-section" aria-labelledby="recent-posts-title">
   <header class="recent-header">
-    <h2 id="recent-posts-title" class="section-title">{title}</h2>
-    <a href="/blog" class="view-all">
-      {viewAllLabel}
+    <h2 id="recent-posts-title" class="section-title">{title ?? t.title}</h2>
+    <a href={localizePath('/blog', locale)} class="view-all">
+      {viewAllLabel ?? t.viewAll}
       <span class="material-icons" aria-hidden="true">arrow_forward</span>
     </a>
   </header>
@@ -18,20 +23,13 @@
   <div class="recent-posts">
     {#each posts?.slice(0, 3) || [] as post}
       <article class="blog-preview">
-        <a href="/blog/{post.slug}" class="blog-preview-link">
+        <a href={localizePath(`/blog/${post.slug}`, locale)} class="blog-preview-link">
           {#if post.image}
             <div class="preview-image">
               <img src={post.image} alt={post.imageAlt || ''} loading="lazy">
             </div>
           {/if}
           <div class="preview-content">
-            <time datetime={post.datePublished}>
-              {new Date(post.datePublished).toLocaleDateString('en', {
-                year: 'numeric',
-                month: 'short',
-                day: 'numeric'
-              })}
-            </time>
             <h3>{post.title}</h3>
             <p>{post.description}</p>
           </div>
@@ -119,13 +117,6 @@
 
   .preview-content {
     padding: 20px;
-  }
-
-  .preview-content time {
-    display: block;
-    margin-bottom: 8px;
-    font-size: 0.8125rem;
-    color: var(--color-secondary);
   }
 
   .preview-content h3 {

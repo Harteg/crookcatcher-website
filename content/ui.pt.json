@@ -1,0 +1,119 @@
+{
+  "header": {
+    "mainNav": "Principal",
+    "guides": "Guias e tutoriais",
+    "help": "Ajuda",
+    "getApp": "Baixar o app",
+    "toggleMenu": "Abrir ou fechar menu",
+    "language": "Idioma"
+  },
+  "footer": {
+    "help": "Ajuda",
+    "terms": "Termos de uso",
+    "privacy": "Política de privacidade"
+  },
+  "playBadgeAlt": "Disponível no Google Play",
+  "stars": "estrelas",
+  "starsLabel": "5 de 5 estrelas",
+  "recentPosts": {
+    "title": "Posts recentes",
+    "viewAll": "Ver todos os posts"
+  },
+  "breadcrumbHome": "Início",
+  "schema": {
+    "description": "O CrookCatcher tira uma selfie do intruso quando alguém erra o PIN, o padrão ou a senha, e envia a foto e a localização GPS para o seu e-mail. Grátis para Android.",
+    "featureList": [
+      "Tira selfies do intruso quando o PIN, o padrão ou a senha estão errados",
+      "Envia fotos e localização GPS por e-mail",
+      "Funciona offline",
+      "Configuração fácil e interface intuitiva",
+      "Grava vídeo dos intrusos",
+      "Mostra uma tela inicial falsa para enganar ladrões",
+      "Envia todas as fotos e vídeos para o Google Drive"
+    ]
+  },
+  "blog": {
+    "metaTitle": "Guias e tutoriais • CrookCatcher, app antirroubo",
+    "metaDescription": "Guias práticos para proteger seu celular Android contra ladrões, e o que fazer se ele for roubado.",
+    "eyebrow": "Guias",
+    "title": "Guias e tutoriais",
+    "lead": "Guias práticos para proteger seu celular Android contra ladrões, e o que fazer se ele for roubado.",
+    "latest": "Mais recente",
+    "readGuide": "Ler o guia",
+    "moreGuides": "Mais guias",
+    "ctaTitle": "Esteja preparado antes que aconteça",
+    "ctaText": "O CrookCatcher tira uma foto de quem errar o PIN, o padrão ou a senha, e envia para o seu e-mail junto com a localização. Grátis no Android.",
+    "breadcrumb": "Blog",
+    "share": "Compartilhar:",
+    "shareOn": "Compartilhar no {name}",
+    "shareEmail": "Compartilhar por e-mail"
+  },
+  "featureTable": {
+    "free": "Grátis",
+    "pro": "PRO",
+    "included": "Incluído",
+    "notIncluded": "Não incluído",
+    "items": {
+      "takePicture": {
+        "title": "Tirar fotos",
+        "description": "Tira uma foto quando alguém erra a senha, o PIN ou o padrão."
+      },
+      "location": {
+        "title": "Obter localização",
+        "description": "Localiza o celular por GPS quando a foto é tirada."
+      },
+      "email": {
+        "title": "Enviar e-mail de alerta",
+        "description": "Receba as fotos e a localização por e-mail."
+      },
+      "video": {
+        "title": "Gravação de vídeo",
+        "description": "Com a gravação de vídeo, fica mais fácil ver bem o intruso e talvez identificar a voz dele e o lugar onde ele está."
+      },
+      "drive": {
+        "title": "Envio para o Google Drive",
+        "description": "Envia fotos e vídeos direto para o seu Google Drive, para você acessar os arquivos facilmente em qualquer aparelho."
+      },
+      "backCamera": {
+        "title": "Câmera traseira",
+        "description": "Identifique o lugar onde o intruso está com fotos da câmera traseira."
+      },
+      "alertMessage": {
+        "title": "Mensagem de alerta",
+        "description": "Mostra uma mensagem personalizada na tela de bloqueio quando uma foto é tirada. Você pode pedir para o ladrão devolver seu celular, ou avisar que vai mostrar a foto dele para a polícia."
+      },
+      "soundAlarm": {
+        "title": "Alarme sonoro",
+        "description": "Toca um alarme personalizado no volume máximo quando alguém erra a senha."
+      },
+      "fakeHomeScreen": {
+        "title": "Tela inicial falsa",
+        "description": "Mostra uma tela inicial falsa quando alguém erra a senha. O ladrão vai achar que desbloqueou seu celular. Quando ele começar a tocar na tela, mais fotos serão tiradas."
+      },
+      "appLock": {
+        "title": "Bloqueio do app",
+        "description": "Protege o acesso ao CrookCatcher com um padrão."
+      },
+      "disguiseApp": {
+        "title": "Disfarçar o app",
+        "description": "Muda o ícone e o nome do app para parecer um gerenciador de arquivos, para que intrusos não descubram que você tem o CrookCatcher instalado."
+      },
+      "breakIn": {
+        "title": "Detecção de invasão",
+        "description": "Tira uma foto e envia um e-mail de alerta se o ladrão acertar a senha depois de ter errado."
+      },
+      "emailSubject": {
+        "title": "Assunto de e-mail personalizado",
+        "description": "Muda o assunto do e-mail de alerta, para que o ladrão não veja notificações reveladoras."
+      },
+      "hideNotifications": {
+        "title": "Ocultar notificações",
+        "description": "Só mostra as notificações de alerta no aparelho depois de um desbloqueio bem-sucedido. Assim o ladrão não fica sabendo que foi pego."
+      },
+      "noAds": {
+        "title": "Sem anúncios",
+        "description": "Aproveite o app sem anúncios e apoie o desenvolvimento do CrookCatcher."
+      }
+    }
+  }
+}

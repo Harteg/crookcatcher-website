@@ -1,0 +1,115 @@
+---
+title: Comment savoir qui a essayé de déverrouiller votre téléphone (et obtenir sa photo)
+subtitle: Prenez un selfie de l'intrus quand quelqu'un saisit un mauvais code PIN, schéma ou mot de passe
+dateUpdated: '2026-09-28'
+datePublished: '2026-09-28'
+description: "Android n'affiche pas qui a essayé de déverrouiller votre téléphone. Voici comment prendre automatiquement en photo toute personne qui saisit un mauvais code PIN, schéma ou mot de passe, et la recevoir par e-mail avec sa position."
+image: '/images/blog/who-tried-to-unlock-header.png'
+imageAlt: "Téléphone affichant une tentative de déverrouillage avec un mauvais schéma, à côté d'une alerte CrookCatcher par e-mail avec les photos de l'intrus et sa position"
+published: true
+---
+
+<script>
+  import Features from '$lib/components/Features.svelte';
+  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+</script>
+
+Peut-être que votre téléphone a changé de place pendant votre absence. Peut-être avez-vous vu un message « Réessayez dans 30 secondes » dont vous n'êtes pas responsable. Ou vous voulez simplement savoir si quelqu'un essaie d'accéder à votre téléphone.
+
+La réponse courte :
+
+- **Android ne garde aucune trace** des tentatives de déverrouillage ratées, et ne prend pas de photo de la personne qui les a faites.
+- **Vous pouvez ajouter cette fonction avec une app** qui prend une photo quand quelqu'un saisit un mauvais code PIN, schéma ou mot de passe. Cette photo est souvent appelée *selfie de l'intrus*.
+- **CrookCatcher** fait exactement cela, gratuitement, et vous envoie la photo par e-mail avec la position.
+
+## Android peut-il montrer qui a essayé de déverrouiller votre téléphone ?
+
+Pas par défaut. Quand quelqu'un saisit un mauvais code PIN, schéma ou mot de passe, Android le refuse simplement. Après plusieurs tentatives ratées, il fait patienter la personne avant qu'elle puisse réessayer, mais il n'enregistre aucun journal consultable plus tard, et il n'utilise jamais la caméra.
+
+Certains fabricants proposent une option similaire de « photo de l'intrus » dans leur propre verrouillage d'applications. En général, elle ne protège que certaines apps, pas l'écran de verrouillage lui-même : elle ne repère donc pas quelqu'un qui essaie d'entrer dans votre téléphone.
+
+Pour savoir qui a essayé de déverrouiller votre téléphone, il vous faut une app qui surveille l'écran de verrouillage et réagit aux tentatives ratées.
+
+## Comment prendre en photo toute personne qui saisit un mauvais mot de passe
+
+Voici comment le configurer avec CrookCatcher. Cela prend quelques minutes, et vous n'avez pas besoin de créer de compte.
+
+1. **Installez CrookCatcher** depuis <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=website&utm_medium=blog_who_tried_unlock_steps_fr' target="_blank" rel="noopener noreferrer">Google Play</a>.
+2. **Autorisez l'administrateur de l'appareil.** C'est l'autorisation Android qui permet à une app de savoir quand une tentative de déverrouillage échoue. CrookCatcher ne l'utilise que pour cela.
+3. **Autorisez l'accès à la caméra et à la position**, pour qu'il puisse prendre la photo et enregistrer l'endroit où cela s'est passé.
+4. **Connectez un compte Gmail** pour les e-mails d'alerte. CrookCatcher peut uniquement *envoyer* des e-mails depuis ce compte ; il ne peut rien lire, supprimer ni modifier dans votre boîte mail. Vous pouvez créer un compte Gmail séparé rien que pour cela, ou vous passer complètement de l'e-mail et garder les photos uniquement sur votre téléphone.
+5. **Testez.** Verrouillez votre téléphone, saisissez volontairement un mauvais code PIN, puis déverrouillez-le. Vous devriez voir votre propre visage (sans doute perplexe) dans l'app et dans votre boîte mail. 😄
+
+C'est tout. Désormais, chaque fois que quelqu'un saisit un mauvais code PIN, schéma ou mot de passe, CrookCatcher fait discrètement son travail en arrière-plan.
+
+## Ce que vous recevez quand quelqu'un essaie de déverrouiller votre téléphone
+
+À chaque tentative de déverrouillage ratée, vous recevez :
+
+- **Une photo prise avec la caméra frontale** de la personne qui tenait le téléphone
+- **La position GPS** et une adresse approximative de l'endroit où cela s'est passé
+- **L'heure** de la tentative
+- **Une alerte par e-mail** avec tout cela, pour l'avoir même si le téléphone a disparu
+
+Toutes les photos sont aussi enregistrées dans l'app, où vous pouvez parcourir chaque tentative avec son heure et sa position.
+
+Avec **CrookCatcher Pro**, vous pouvez aussi enregistrer une vidéo avec le son, prendre en photo l'environnement avec la caméra arrière, tout envoyer automatiquement sur Google Drive, et attraper quelqu'un même s'il *trouve votre code PIN* après une tentative ratée (détection d'intrusion).
+
+## Autres signes que quelqu'un a utilisé votre téléphone
+
+Une photo est la preuve la plus claire, mais ces signes peuvent aussi indiquer que quelqu'un a utilisé votre téléphone :
+
+- **Des apps ouvertes récemment** que vous n'avez pas utilisées (ouvrez l'écran des apps récentes)
+- **Des messages ou notifications marqués comme lus** que vous n'avez pas vus
+- **Une activité sur votre compte Google** que vous ne reconnaissez pas, sur <a href="https://myactivity.google.com" target="_blank" rel="noopener noreferrer">myactivity.google.com</a>
+- **Le téléphone n'est pas à l'endroit** ou dans la position où vous l'aviez laissé
+
+Si vous remarquez l'un de ces signes, installer une app de selfie de l'intrus est le moyen le plus simple de savoir qui c'est la prochaine fois.
+
+## Que faire si c'était un voleur
+
+Si les photos montrent un inconnu, ou si votre téléphone a disparu :
+
+1. **Ne confrontez pas la personne vous-même.** Votre sécurité compte plus que le téléphone.
+2. **Portez plainte** auprès de la police et joignez les photos, l'heure et la position de l'e-mail d'alerte.
+3. **Utilisez Find Hub de Google** pour localiser, verrouiller ou effacer le téléphone.
+4. **Contactez votre opérateur** pour bloquer la carte SIM et le numéro IMEI du téléphone.
+
+Pour rendre votre téléphone plus difficile à voler dès le départ, lisez notre guide des [5 réglages Android essentiels pour protéger votre téléphone contre le vol](/fr/blog/top_five_settings).
+
+## À utiliser uniquement sur votre propre téléphone
+
+CrookCatcher est conçu pour protéger *votre* téléphone. Installez-le uniquement sur un appareil qui vous appartient. Surveiller en secret le téléphone de quelqu'un d'autre n'est pas son but, et c'est illégal dans de nombreux pays.
+
+## CrookCatcher est-il gratuit ?
+
+Oui, les fonctionnalités les plus importantes sont gratuites : la photo de l'intrus, la position et l'alerte par e-mail. **CrookCatcher Pro** ajoute la vidéo, la caméra arrière, la sauvegarde Google Drive, la détection d'intrusion, une alarme, un faux écran d'accueil et bien plus. Le prix dépend de votre pays : consultez-le dans l'app. Voici la comparaison complète :
+
+<Features />
+
+<PlayStoreButton utmSource="blog_who_tried_unlock_bottom_fr" />
+
+## Questions fréquentes
+
+### Q : Est-ce que ça fonctionne avec un schéma, un code PIN et un mot de passe ?
+R : Oui. CrookCatcher réagit à un mauvais code PIN, schéma ou mot de passe. Les tentatives ratées par empreinte digitale ou reconnaissance faciale ne le déclenchent pas, et il ne fonctionne pas avec les caméras escamotables.
+
+### Q : La personne saura-t-elle qu'elle a été prise en photo ?
+R : CrookCatcher fonctionne en arrière-plan sans afficher d'aperçu de la caméra. Sur Android 13 et versions ultérieures, Android affiche un petit indicateur pendant que la caméra est utilisée ; c'est une fonction du système que les apps ne peuvent pas masquer.
+
+### Q : Dois-je créer un compte ?
+R : Non. Il n'y a aucune inscription. Vous ne connectez un compte Gmail que si vous voulez recevoir des alertes par e-mail.
+
+### Q : Qui peut voir mes photos ?
+R : Vous seul. Les alertes sont envoyées depuis votre propre compte Gmail, et le développeur ne voit jamais vos photos. Pour en savoir plus, consultez la [politique de confidentialité](/fr/privacy).
+
+### Q : Est-ce que ça vide la batterie ?
+R : Non. CrookCatcher ne s'active que lorsqu'une tentative de déverrouillage échoue, sa consommation de batterie est donc minime.
+
+### Q : Existe-t-il une version pour iPhone ?
+R : Non. L'iPhone ne permet pas aux apps de détecter les tentatives de déverrouillage ratées, CrookCatcher est donc disponible uniquement sur Android.
+
+### Q : Est-ce que ça fonctionne après un redémarrage du téléphone ?
+R : Oui, une fois que vous avez déverrouillé votre téléphone après le redémarrage. D'ici là, Android ne permet pas aux apps de réagir aux tentatives de déverrouillage.
+
+D'autres questions ? Consultez la [FAQ](/fr/help).

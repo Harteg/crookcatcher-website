@@ -1,0 +1,119 @@
+{
+  "header": {
+    "mainNav": "Principal",
+    "guides": "Guides et tutoriels",
+    "help": "Aide",
+    "getApp": "Obtenir l'app",
+    "toggleMenu": "Ouvrir ou fermer le menu",
+    "language": "Langue"
+  },
+  "footer": {
+    "help": "Aide",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité"
+  },
+  "playBadgeAlt": "Disponible sur Google Play",
+  "stars": "étoiles",
+  "starsLabel": "5 étoiles sur 5",
+  "recentPosts": {
+    "title": "Articles récents",
+    "viewAll": "Voir tous les articles"
+  },
+  "breadcrumbHome": "Accueil",
+  "schema": {
+    "description": "CrookCatcher prend un selfie de l'intrus quand quelqu'un saisit un mauvais code PIN, schéma ou mot de passe, et vous envoie sa photo et sa position GPS par e-mail. Gratuit sur Android.",
+    "featureList": [
+      "Prend un selfie de l'intrus en cas de mauvais code PIN, schéma ou mot de passe",
+      "Envoie les photos et la position GPS par e-mail",
+      "Fonctionne hors ligne",
+      "Configuration simple et interface intuitive",
+      "Enregistre une vidéo des intrus",
+      "Affiche un faux écran d'accueil pour tromper les voleurs",
+      "Envoie toutes les photos et vidéos vers Google Drive"
+    ]
+  },
+  "blog": {
+    "metaTitle": "Guides et tutoriels • CrookCatcher, l'app antivol",
+    "metaDescription": "Des guides pratiques pour protéger votre téléphone Android contre les voleurs, et que faire s'il est volé.",
+    "eyebrow": "Guides",
+    "title": "Guides et tutoriels",
+    "lead": "Des guides pratiques pour protéger votre téléphone Android contre les voleurs, et que faire s'il est volé.",
+    "latest": "Le plus récent",
+    "readGuide": "Lire le guide",
+    "moreGuides": "Plus de guides",
+    "ctaTitle": "Soyez prêt avant que ça arrive",
+    "ctaText": "CrookCatcher prend en photo toute personne qui saisit un mauvais code PIN, schéma ou mot de passe, et vous l'envoie par e-mail avec sa position. Gratuit sur Android.",
+    "breadcrumb": "Blog",
+    "share": "Partager :",
+    "shareOn": "Partager sur {name}",
+    "shareEmail": "Partager par e-mail"
+  },
+  "featureTable": {
+    "free": "Gratuit",
+    "pro": "PRO",
+    "included": "Inclus",
+    "notIncluded": "Non inclus",
+    "items": {
+      "takePicture": {
+        "title": "Prendre des photos",
+        "description": "Prend une photo quand un mauvais mot de passe, code PIN ou schéma est saisi."
+      },
+      "location": {
+        "title": "Obtenir la position",
+        "description": "Localise le téléphone par GPS au moment où la photo est prise."
+      },
+      "email": {
+        "title": "Envoyer un e-mail d'alerte",
+        "description": "Recevez les photos et la position par e-mail."
+      },
+      "video": {
+        "title": "Enregistrement vidéo",
+        "description": "Avec la vidéo, vous avez plus de chances de bien voir l'intrus et peut-être d'identifier sa voix et l'endroit où il se trouve."
+      },
+      "drive": {
+        "title": "Envoi vers Google Drive",
+        "description": "Envoie les photos et vidéos directement sur votre Google Drive pour y accéder facilement depuis n'importe quel appareil."
+      },
+      "backCamera": {
+        "title": "Caméra arrière",
+        "description": "Identifiez l'environnement de l'intrus grâce aux photos de la caméra arrière."
+      },
+      "alertMessage": {
+        "title": "Message d'alerte",
+        "description": "Affiche un message personnalisé sur l'écran de verrouillage quand une photo est prise. Vous pouvez demander au voleur de rendre votre téléphone, ou le prévenir que vous montrerez sa photo à la police."
+      },
+      "soundAlarm": {
+        "title": "Alarme sonore",
+        "description": "Joue une alarme personnalisée à plein volume quand un mauvais mot de passe est saisi."
+      },
+      "fakeHomeScreen": {
+        "title": "Faux écran d'accueil",
+        "description": "Affiche un faux écran d'accueil quand un mauvais mot de passe est saisi. Le voleur croira avoir déverrouillé votre téléphone. Dès qu'il touchera l'écran, d'autres photos seront prises."
+      },
+      "appLock": {
+        "title": "Verrouillage de l'app",
+        "description": "Protège l'accès à CrookCatcher avec un schéma."
+      },
+      "disguiseApp": {
+        "title": "Déguiser l'app",
+        "description": "Change l'icône et le nom de l'app pour qu'elle ressemble à un gestionnaire de fichiers, afin que les intrus ne découvrent pas que CrookCatcher est installé."
+      },
+      "breakIn": {
+        "title": "Détection d'intrusion",
+        "description": "Prend une photo et envoie un e-mail d'alerte si le voleur trouve le bon mot de passe après s'être trompé."
+      },
+      "emailSubject": {
+        "title": "Objet d'e-mail personnalisé",
+        "description": "Modifie l'objet de l'e-mail d'alerte pour que le voleur ne voie pas de notification révélatrice."
+      },
+      "hideNotifications": {
+        "title": "Masquer les notifications",
+        "description": "N'affiche les notifications d'alerte sur l'appareil qu'après un déverrouillage réussi. Ainsi, le voleur ne sait pas qu'il a été pris."
+      },
+      "noAds": {
+        "title": "Sans publicité",
+        "description": "Profitez d'une app sans publicité et soutenez le développement de CrookCatcher."
+      }
+    }
+  }
+}

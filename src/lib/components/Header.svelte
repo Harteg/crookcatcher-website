@@ -1,12 +1,16 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { page } from '$app/stores';
+  import { localizePath } from '$lib/i18n';
+  import LanguagePicker from './LanguagePicker.svelte';
 
   let menuOpen = false;
   let heroBadgeVisible = false;
   let isMobile = false;
 
   $: ctaDeferred = isMobile && heroBadgeVisible;
+  $: t = $page.data.ui.header;
+  $: locale = $page.data.locale;
 
   onMount(() => {
     const heroBadge = document.querySelector('.hero .play-store-link');
@@ -56,29 +60,31 @@
 
 <header class="header-fixed">
   <div class="header-row">
-    <a href="/" class="brand" on:click={closeMenu}>
+    <a href={localizePath('/', locale)} class="brand" on:click={closeMenu}>
       <img src="/images/crookcatcher_icon.svg" alt="" width="20" height="27" class="brand-icon" />
       <span class="cc-font brand-name">CrookCatcher</span>
     </a>
 
-    <nav class="nav-menu" class:open={menuOpen} aria-label="Main">
+    <nav class="nav-menu" class:open={menuOpen} aria-label={t.mainNav}>
       <a
         class="nav-link"
-        href="/blog"
+        href={localizePath('/blog', locale)}
         class:active={$page.url.pathname.includes('/blog')}
         on:click={closeMenu}
       >
-        Guides and Tutorials
+        {t.guides}
       </a>
       <a
         class="nav-link"
-        href="/help"
+        href={localizePath('/help', locale)}
         class:active={$page.url.pathname.includes('/help')}
         on:click={closeMenu}
       >
-        Help
+        {t.help}
       </a>
     </nav>
+
+    <LanguagePicker />
 
     <a
       class="header-cta"
@@ -93,14 +99,14 @@
       data-fast-goal-utm-source="website"
       on:click={trackGtag}
     >
-      Get the app
+      {t.getApp}
     </a>
 
     <button
       class="hamburger-button"
       type="button"
       on:click={toggleMenu}
-      aria-label="Toggle menu"
+      aria-label={t.toggleMenu}
       aria-expanded={menuOpen}
     >
       <span class="material-icons">{menuOpen ? 'close' : 'menu'}</span>
@@ -223,7 +229,13 @@
 
   @media (max-width: 640px) {
     .header-row {
+      gap: 4px;
       padding: 0 16px;
+    }
+
+    .header-cta {
+      margin-left: 4px;
+      padding: 8px 12px;
     }
 
     .nav-menu {
@@ -253,6 +265,17 @@
 
     .hamburger-button {
       display: flex;
+    }
+  }
+
+  /* Narrow phones (360px is common on Android): make room for the language picker. */
+  @media (max-width: 400px) {
+    .brand {
+      gap: 8px;
+    }
+
+    .brand-name {
+      font-size: 1rem;
     }
   }
 

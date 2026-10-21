@@ -5,6 +5,8 @@
     export let title: string;
     export let description: string = '';
 
+    $: t = $page.data.ui.blog;
+
     const shareLinks = [
       {
         name: 'X',
@@ -24,7 +26,7 @@
   </script>
 
   <div class="share-buttons">
-    <span class="share-text">Share:</span>
+    <span class="share-text">{t.share}</span>
     <div class="buttons">
       {#each shareLinks as link}
         <a
@@ -32,7 +34,7 @@
           target="_blank"
           rel="noopener noreferrer"
           class="share-button"
-          aria-label="Share on {link.name}"
+          aria-label={t.shareOn.replace('{name}', link.name)}
         >
           <img src={link.icon} alt={link.name} width="20" height="20" />
         </a>
@@ -40,7 +42,7 @@
       <button
         on:click={handleEmailShare}
         class="share-button"
-        aria-label="Share via Email"
+        aria-label={t.shareEmail}
       >
         <img src="/images/social/email.svg" alt="Email" width="20" height="20" />
       </button>

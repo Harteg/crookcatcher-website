@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "CrookCatcher Help & FAQ • Android Anti-Theft App",
+    "description": "Get help with CrookCatcher, the Android app that takes pictures when wrong passwords are entered. Frequently asked questions and support.",
+    "canonical": "https://www.crookcatcher.app/help",
+    "ogImage": "https://www.crookcatcher.app/images/og-share.png"
+  },
+  "hero": {
+    "eyebrow": "Support",
+    "title": "Help & FAQ",
+    "lead": "Answers to the most common questions about setting up and using CrookCatcher."
+  },
+  "items": [
+    {
+      "id": "help-pictures",
+      "question": "CrookCatcher is not taking pictures",
+      "answer": "<ul><li>If you are testing CrookCatcher, note that Android only detects a password or pattern as incorrect if it has at least 4 digits/characters or pattern dots.</li><li>Your phone manufacturer might have imposed further battery optimizing restrictions on CrookCatcher, preventing it from working in the background. To solve the issue please follow instructions for your device on <a href=\"https://dontkillmyapp.com\">www.dontkillmyapp.com</a>.</li></ul>"
+    },
+    {
+      "id": "help-erase",
+      "question": "Will CrookCatcher erase all my phone or tablet's data if too many incorrect passwords are typed?",
+      "answer": "<p>No. CrookCatcher will never erase your device's data.</p>"
+    },
+    {
+      "id": "help-gmail",
+      "question": "Why does CrookCatcher need access to my Gmail account?",
+      "answer": "<p>Unlike other security applications, CrookCatcher does not rely on a third-party server for sending emails. Privacy is important, so CrookCatcher instead uses Google's authorization system OAuth2.0 to safely send emails directly from your device. This will not give CrookCatcher access to your email addresses or contacts. CrookCatcher will only use this permission to send security alert emails from your Gmail account to the email address defined by you from within the app.</p>"
+    },
+    {
+      "id": "help-forgot",
+      "question": "I forgot my password, PIN code or pattern lock.",
+      "answer": "<p>The lock screen, and the password that is associated with it, is not a part of CrookCatcher. If you have forgotten your password, PIN code or pattern, refer to your device's user manual.</p>"
+    },
+    {
+      "id": "help-pro",
+      "question": "Already purchased Pro?",
+      "answer": "<p>If you already purchased Pro but it is not showing in the app, please make sure that you are logged into your device with the same Google account that you used for purchasing and then click the restore button on the config page of CrookCatcher.</p>"
+    },
+    {
+      "id": "help-revoke",
+      "question": "How to revoke CrookCatcher's access to Gmail or Drive?",
+      "answer": "<p>Open <a href=\"https://myaccount.google.com/permissions\">Google Account Settings</a> and select CrookCatcher from the list. Then scroll to the bottom and select delete connections.</p>"
+    },
+    {
+      "id": "help-reboot",
+      "question": "Not working after reboot?",
+      "answer": "<p>Due to Android security precautions, your phone must be unlocked once after reboot for CrookCatcher to access the camera. I wish I could fix this, but unfortunately there is nothing I can do about it.</p>"
+    },
+    {
+      "id": "help-payment",
+      "question": "Payment problems",
+      "answer": "<p>Having payment issues? Many problems are addressed in the <a href=\"https://support.google.com/googleplay/answer/1267137\">Google Play Payments Help Center</a>.</p>"
+    },
+    {
+      "id": "help-internet",
+      "question": "Does CrookCatcher need internet?",
+      "answer": "<p>CrookCatcher works offline to detect unauthorized unlock attempts and capture data. An internet connection is however required to send alert emails. Due to Android restrictions, CrookCatcher sadly cannot automatically turn on and off data or Wi-Fi when needed.</p>"
+    }
+  ],
+  "contact": {
+    "title": "Still need help?",
+    "text": "Send me an email and I'll get back to you as soon as I can.",
+    "showEmail": "Show email address"
+  }
+}
