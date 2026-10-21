@@ -184,7 +184,7 @@
     width: 44px;
     height: 54px;
     border-radius: 8px;
-    background-image: url('/images/hero-alert.png');
+    background-image: url('/images/hero-alert-480.webp');
     background-size: 98px auto;
     background-position: -3.5px -10px;
   }

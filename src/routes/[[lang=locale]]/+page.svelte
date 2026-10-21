@@ -68,7 +68,6 @@
   <meta name="twitter:image" content={home.meta.ogImage} />
 
   <link rel="preload" href="/fonts/Nexa-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
-  <link rel="preload" href="/fonts/Nexa-Bold.woff" as="font" type="font/woff" crossorigin="anonymous" />
 
   {@html `<script type="application/ld+json">${JSON.stringify({
     '@context': 'https://schema.org',

@@ -2,6 +2,7 @@
   import { page } from '$app/stores';
   import type { PostSummary } from '$lib/blog';
   import { localizePath, type Locale } from '$lib/i18n';
+  import { responsiveImage } from '$lib/responsive-image';
 
   export let posts: PostSummary[] = [];
   export let title: string | undefined = undefined;
@@ -26,7 +27,12 @@
         <a href={localizePath(`/blog/${post.slug}`, locale)} class="blog-preview-link">
           {#if post.image}
             <div class="preview-image">
-              <img src={post.image} alt={post.imageAlt || ''} loading="lazy">
+              <img
+                {...responsiveImage(post.image)}
+                sizes="(min-width: 841px) 360px, 100vw"
+                alt={post.imageAlt || ''}
+                loading="lazy"
+              >
             </div>
           {/if}
           <div class="preview-content">

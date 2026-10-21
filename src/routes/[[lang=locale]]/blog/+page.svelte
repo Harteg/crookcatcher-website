@@ -5,6 +5,7 @@
   import PageHero from '$lib/components/PageHero.svelte';
   import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
   import Hreflang from '$lib/components/Hreflang.svelte';
+  import { responsiveImage } from '$lib/responsive-image';
   import { absoluteUrl, localizePath } from '$lib/i18n';
 
   export let data: PageData;
@@ -55,7 +56,12 @@
         <a href={postHref(featured.slug)} class="featured-link">
           {#if featured.image}
             <div class="featured-media">
-              <img src={featured.image} alt={featured.imageAlt || ''} />
+              <img
+                {...responsiveImage(featured.image)}
+                sizes="(min-width: 900px) 640px, 100vw"
+                alt={featured.imageAlt || ''}
+                fetchpriority="high"
+              />
             </div>
           {/if}
           <div class="featured-body">
@@ -82,7 +88,12 @@
               <a href={postHref(post.slug)} class="post-link">
                 <div class="post-media">
                   {#if post.image}
-                    <img src={post.image} alt={post.imageAlt || ''} loading="lazy" />
+                    <img
+                      {...responsiveImage(post.image)}
+                      sizes="(min-width: 900px) 360px, (min-width: 640px) 50vw, 100vw"
+                      alt={post.imageAlt || ''}
+                      loading="lazy"
+                    />
                   {/if}
                 </div>
                 <div class="post-body">

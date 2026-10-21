@@ -1,0 +1,94 @@
+{
+	"/images/blog/Digital_Solitude_Urban_Shadows.jpeg": [
+		{
+			"width": 480,
+			"src": "/images/blog/Digital_Solitude_Urban_Shadows-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/Digital_Solitude_Urban_Shadows-800.webp"
+		},
+		{
+			"width": 1199,
+			"src": "/images/blog/Digital_Solitude_Urban_Shadows-1199.webp"
+		}
+	],
+	"/images/blog/phone-stolen-australia-header.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/phone-stolen-australia-header-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/phone-stolen-australia-header-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/phone-stolen-australia-header-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/phone-stolen-australia-header-1600.webp"
+		}
+	],
+	"/images/blog/phone-stolen-uk-header.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/phone-stolen-uk-header-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/phone-stolen-uk-header-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/phone-stolen-uk-header-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/phone-stolen-uk-header-1600.webp"
+		}
+	],
+	"/images/blog/theft_settings_header.jpeg": [
+		{
+			"width": 480,
+			"src": "/images/blog/theft_settings_header-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/theft_settings_header-800.webp"
+		},
+		{
+			"width": 1199,
+			"src": "/images/blog/theft_settings_header-1199.webp"
+		}
+	],
+	"/images/blog/who-tried-to-unlock-header.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/who-tried-to-unlock-header-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/who-tried-to-unlock-header-800.webp"
+		},
+		{
+			"width": 1024,
+			"src": "/images/blog/who-tried-to-unlock-header-1024.webp"
+		}
+	],
+	"/images/hero-alert.png": [
+		{
+			"width": 480,
+			"src": "/images/hero-alert-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/hero-alert-800.webp"
+		},
+		{
+			"width": 990,
+			"src": "/images/hero-alert-990.webp"
+		}
+	]
+}

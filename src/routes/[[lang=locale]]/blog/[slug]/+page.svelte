@@ -2,6 +2,7 @@
   import type { PageData } from './$types';
   import ShareButtons from '$lib/components/ShareButtons.svelte';
   import Hreflang from '$lib/components/Hreflang.svelte';
+  import { responsiveImage } from '$lib/responsive-image';
   import { LOCALE_META, SITE_URL, absoluteUrl } from '$lib/i18n';
 
   import { page } from '$app/stores';
@@ -88,7 +89,13 @@
 
     <header class="post-header">
       {#if data.post.image}
-        <img src={data.post.image} alt={data.post.imageAlt} class="post-image" />
+        <img
+          {...responsiveImage(data.post.image)}
+          sizes="(min-width: 1200px) 1120px, 100vw"
+          alt={data.post.imageAlt}
+          class="post-image"
+          fetchpriority="high"
+        />
       {/if}
       <div class="post-meta">
         <h1>{data.post.title}</h1>

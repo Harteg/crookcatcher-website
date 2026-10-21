@@ -1,6 +1,7 @@
 <script lang="ts">
   import { page } from '$app/stores';
   import PlayStoreButton from '../PlayStoreButton.svelte';
+  import { responsiveImage } from '$lib/responsive-image';
 
   export let content: {
     pill: string;
@@ -42,7 +43,8 @@
 
     <div class="hero-visual">
       <img
-        src={content.heroImage.src}
+        {...responsiveImage(content.heroImage.src)}
+        sizes="(min-width: 900px) 420px, 360px"
         alt={content.heroImage.alt}
         width="990"
         height="1024"
