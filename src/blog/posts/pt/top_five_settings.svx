@@ -27,7 +27,7 @@ Estas são **5 configurações de segurança essenciais do Android** que você d
 4. Configure o Bloqueio remoto em [android.com/lock](https://www.android.com/lock)
 5. Tire o Modo avião das Configurações rápidas
 
-> Quer proteção completa? [Instale o CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&utm_medium=button&utm_source=blog_android_settings_pt) para pegar ladrões em flagrante.
+> Quer proteção completa? [Instale o CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dtop_five_settings-pt) para pegar ladrões em flagrante.
 
 ---
 
@@ -136,10 +136,10 @@ As configurações ajudam a evitar o roubo, mas e se alguém já tentou desbloqu
 É como ter uma câmera de segurança silenciosa dentro do seu celular Android.
 
 <figure class="blog-figure">
-  <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&utm_medium=button&utm_source=blog_android_settings_pt" target="_blank" rel="noopener noreferrer">
+  <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dtop_five_settings-pt" target="_blank" rel="noopener noreferrer">
     <img src="/images/play_screen_1.png" alt="Captura de tela do app CrookCatcher mostrando os recursos de segurança" />
   </a>
   <figcaption>O CrookCatcher ajuda a proteger seu celular tirando fotos de intrusos e rastreando o aparelho</figcaption>
 </figure>
 
-<PlayStoreButton utmSource="blog_android_settings_pt" />
+<PlayStoreButton />

@@ -23,7 +23,7 @@ The good news: Android and phone makers now have settings that make this much ha
 2. **All Android phones:** turn on *Theft Detection Lock* and *Offline Device Lock*.
 3. **Remove airplane mode** from your Quick Settings.
 4. **Check your phone's settings** for a "require unlock to power off" option.
-5. **Install <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu&utm_medium=tldr" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** to get a photo and the location of anyone who tries to unlock your phone.
+5. **Install <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** to get a photo and the location of anyone who tries to unlock your phone.
 
 ---
 
@@ -87,7 +87,7 @@ So even if the phone is switched off a minute later, the thief's photo and the l
 
 With **CrookCatcher Pro**, you can also record video with sound, capture the surroundings with the back camera, back everything up to Google Drive, and hide CrookCatcher's notifications so the thief doesn't realize they've been caught.
 
-<PlayStoreButton utmSource="blog_block_power_menu_bottom" />
+<PlayStoreButton />
 
 ---
 

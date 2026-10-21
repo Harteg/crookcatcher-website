@@ -102,7 +102,7 @@ Most of the steps above work much better if you prepare in advance. It takes 10 
 
 For step-by-step instructions, read our guides to the [top 5 Android settings to secure your phone against theft](/blog/top_five_settings) and [how to stop thieves from turning off your phone](/blog/block-power-menu).
 
-<PlayStoreButton utmSource="blog_phone_stolen_uk" />
+<PlayStoreButton />
 
 ## Frequently Asked Questions
 

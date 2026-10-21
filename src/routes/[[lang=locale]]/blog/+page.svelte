@@ -116,7 +116,7 @@
         <h2 id="blog-cta-title" class="cta-title">{t.ctaTitle}</h2>
         <p class="cta-text">{t.ctaText}</p>
       </div>
-      <PlayStoreButton utmSource="blog_index" position="blog_index" />
+      <PlayStoreButton position="blog_index" />
     </aside>
   </div>
 </main>

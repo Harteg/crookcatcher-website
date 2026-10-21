@@ -34,7 +34,7 @@ To see who tried to unlock your phone, you need an app that watches the lock scr
 
 This is how to set it up with CrookCatcher. It takes a few minutes, and you don't need to create an account.
 
-1. **Install CrookCatcher** from <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=website&utm_medium=blog_who_tried_unlock_steps' target="_blank" rel="noopener noreferrer">Google Play</a>.
+1. **Install CrookCatcher** from <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsee-who-tried-to-unlock-your-phone' target="_blank" rel="noopener noreferrer">Google Play</a>.
 2. **Allow Device Administrator.** This is the Android permission that lets an app notice when an unlock attempt fails. CrookCatcher uses it only for that.
 3. **Allow camera and location access**, so it can take the photo and record where it happened.
 4. **Connect a Gmail account** for the alert emails. CrookCatcher can only *send* emails from it; it can't read, delete or change anything in your inbox. You can create a separate Gmail account just for this, or skip email entirely and only keep the photos on your phone.
@@ -87,7 +87,7 @@ Yes, the most important features are free: the intruder photo, the location and 
 
 <Features />
 
-<PlayStoreButton utmSource="blog_who_tried_unlock_bottom" />
+<PlayStoreButton />
 
 ## Frequently Asked Questions
 

@@ -34,7 +34,7 @@ Pour savoir qui a essayé de déverrouiller votre téléphone, il vous faut une 
 
 Voici comment le configurer avec CrookCatcher. Cela prend quelques minutes, et vous n'avez pas besoin de créer de compte.
 
-1. **Installez CrookCatcher** depuis <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=website&utm_medium=blog_who_tried_unlock_steps_fr' target="_blank" rel="noopener noreferrer">Google Play</a>.
+1. **Installez CrookCatcher** depuis <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsee-who-tried-to-unlock-your-phone-fr' target="_blank" rel="noopener noreferrer">Google Play</a>.
 2. **Autorisez l'administrateur de l'appareil.** C'est l'autorisation Android qui permet à une app de savoir quand une tentative de déverrouillage échoue. CrookCatcher ne l'utilise que pour cela.
 3. **Autorisez l'accès à la caméra et à la position**, pour qu'il puisse prendre la photo et enregistrer l'endroit où cela s'est passé.
 4. **Connectez un compte Gmail** pour les e-mails d'alerte. CrookCatcher peut uniquement *envoyer* des e-mails depuis ce compte ; il ne peut rien lire, supprimer ni modifier dans votre boîte mail. Vous pouvez créer un compte Gmail séparé rien que pour cela, ou vous passer complètement de l'e-mail et garder les photos uniquement sur votre téléphone.
@@ -87,7 +87,7 @@ Oui, les fonctionnalités les plus importantes sont gratuites : la photo de l'i
 
 <Features />
 
-<PlayStoreButton utmSource="blog_who_tried_unlock_bottom_fr" />
+<PlayStoreButton />
 
 ## Questions fréquentes
 

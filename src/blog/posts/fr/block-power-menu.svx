@@ -23,7 +23,7 @@ La bonne nouvelle : Android et les fabricants proposent désormais des réglage
 2. **Tous les téléphones Android :** activez le *Verrouillage en cas de détection de vol* et le *Verrouillage de l'appareil hors connexion*.
 3. **Retirez le mode avion** des Réglages rapides.
 4. **Cherchez dans les paramètres de votre téléphone** une option « déverrouiller pour éteindre ».
-5. **Installez <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu_fr&utm_medium=tldr" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** pour recevoir la photo et la position de toute personne qui essaie de déverrouiller votre téléphone.
+5. **Installez <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-fr" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** pour recevoir la photo et la position de toute personne qui essaie de déverrouiller votre téléphone.
 
 ---
 
@@ -87,7 +87,7 @@ Ainsi, même si le téléphone est éteint une minute plus tard, la photo du vol
 
 Avec **CrookCatcher Pro**, vous pouvez aussi enregistrer une vidéo avec le son, capturer l'environnement avec la caméra arrière, tout sauvegarder sur Google Drive et masquer les notifications de CrookCatcher pour que le voleur ne se rende pas compte qu'il a été pris.
 
-<PlayStoreButton utmSource="blog_block_power_menu_bottom_fr" />
+<PlayStoreButton />
 
 ---
 

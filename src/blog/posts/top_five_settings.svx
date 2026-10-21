@@ -27,7 +27,7 @@ Here are **5 essential Android security settings** you should turn on to protect
 4. Set up Remote Lock at [android.com/lock](https://www.android.com/lock)  
 5. Remove Airplane Mode from Quick Settings
 
-> Want full protection? [Install CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&utm_medium=button) to catch thieves in action.
+> Want full protection? [Install CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dtop_five_settings) to catch thieves in action.
 
 ---
 
@@ -136,10 +136,10 @@ That’s where **CrookCatcher** shines:
 It’s like having a silent security camera inside your Android phone.
 
 <figure class="blog-figure">
-  <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&utm_medium=button" target="_blank" rel="noopener noreferrer">
+  <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dtop_five_settings" target="_blank" rel="noopener noreferrer">
     <img src="/images/play_screen_1.png" alt="CrookCatcher app screenshot showing security features" />
   </a>
   <figcaption>CrookCatcher helps protect your phone by taking photos of intruders and tracking your device</figcaption>
 </figure>
 
-<PlayStoreButton utmSource="blog_android_settings" />
+<PlayStoreButton />

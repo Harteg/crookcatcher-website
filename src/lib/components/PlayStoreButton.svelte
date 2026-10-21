@@ -1,13 +1,15 @@
 <script lang="ts">
   import { page } from '$app/stores';
+  import { playStoreUrl, playTracking } from '$lib/play-store';
 
   // Official badges we have in static/images/play_badges; anything else falls back to English.
   const BADGES = ['en', 'fr'];
 
-  export let utmSource = 'website';
+  /** Where the button sits (hero, testimonials, ...); the Play campaign outside guides. */
   export let position: string | undefined = undefined;
   export let compact = false;
 
+  $: tracking = playTracking($page, position);
   $: badge = BADGES.includes($page.data.locale) ? $page.data.locale : 'en';
 
   function trackGtag() {
@@ -16,7 +18,7 @@
     if (gtag) {
       gtag('event', 'play_store_button_click', {
         event_category: 'Play Store Button',
-        event_label: utmSource,
+        event_label: tracking.campaign,
         button_position: position || 'unknown',
         value: 1,
         transport_type: 'beacon'
@@ -26,14 +28,14 @@
 </script>
 
 <a
-  href={`https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=${utmSource}&utm_medium=button`}
+  href={playStoreUrl(tracking.medium, tracking.campaign)}
   class="play-store-link"
   class:compact
   target="_blank"
   rel="noopener noreferrer"
   data-fast-goal="play_store_click"
   data-fast-goal-position={position || 'unknown'}
-  data-fast-goal-utm-source={utmSource}
+  data-fast-goal-utm-source={tracking.campaign}
   on:click={trackGtag}
 >
   <img

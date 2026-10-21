@@ -27,7 +27,7 @@ Voici **5 réglages de sécurité Android essentiels** à activer pour protéger
 4. Configurez le verrouillage à distance sur [android.com/lock](https://www.android.com/lock)
 5. Retirez le mode avion des Réglages rapides
 
-> Vous voulez une protection complète ? [Installez CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&utm_medium=button&utm_source=blog_android_settings_fr) pour prendre les voleurs sur le fait.
+> Vous voulez une protection complète ? [Installez CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dtop_five_settings-fr) pour prendre les voleurs sur le fait.
 
 ---
 
@@ -136,10 +136,10 @@ C'est là que **CrookCatcher** fait la différence :
 C'est comme avoir une caméra de sécurité silencieuse dans votre téléphone Android.
 
 <figure class="blog-figure">
-  <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&utm_medium=button&utm_source=blog_android_settings_fr" target="_blank" rel="noopener noreferrer">
+  <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dtop_five_settings-fr" target="_blank" rel="noopener noreferrer">
     <img src="/images/play_screen_1.png" alt="Capture d'écran de l'app CrookCatcher montrant ses fonctions de sécurité" />
   </a>
   <figcaption>CrookCatcher aide à protéger votre téléphone en prenant les intrus en photo et en localisant votre appareil</figcaption>
 </figure>
 
-<PlayStoreButton utmSource="blog_android_settings_fr" />
+<PlayStoreButton />

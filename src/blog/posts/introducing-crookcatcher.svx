@@ -26,7 +26,7 @@ CrookCatcher is an android app that helps you catch phone thieves. It works like
     - You now have proof that your spouse was trying to read your messages and can confront them with it 😱
     - ... 
 
-I know, it's pretty good! Go ahead and <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=website&utm_medium=blog_introducing_cc_go_ahead' target="_blank" rel="noopener noreferrer">download CrookCatcher</a> now or, if you'd like, let me tell you a bit more about it first. Read on! ☺️
+I know, it's pretty good! Go ahead and <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dintroducing-crookcatcher' target="_blank" rel="noopener noreferrer">download CrookCatcher</a> now or, if you'd like, let me tell you a bit more about it first. Read on! ☺️
 
 ## Why Choose CrookCatcher? It's the best! Here's why:
 When I first started programming CrookCatcher, back in 2014, <a target="_blank" href="https://play.google.com/store/apps/details?id=com.lookout">Lookout</a> was the only other app that did something similar. I was 17 and teaching myself to program, so I thought it could be fun to make a better version. Today there are really quite many other apps that try to do the same thing, such as <a target="_blank" href="https://play.google.com/store/apps/details?id=com.bloketech.lockwatch">LockWatch</a>, <a target="_blank" href="https://play.google.com/store/apps/details?id=com.wtmp.svdsoftware">WTMP</a>, and even some that almost look like clones of CrookCatcher (won't mention any names, cough cough.. <a target="_blank" href="https://play.google.com/store/apps/details?id=com.evezzon.intruderdetector">Intruder Detector</a>). 
@@ -56,7 +56,7 @@ I started building CrookCatcher for fun, but I kept going because I saw how usef
 Best wishes, <br />
 Jakob H. ✌️
 
-<PlayStoreButton utmSource="blog_introducing_cc_bottom" />
+<PlayStoreButton />
 
 
 <figure class="blog-figure only-desktop" style="max-width: 250px;">

@@ -34,7 +34,7 @@ Para ver quem tentou desbloquear seu celular, você precisa de um app que monito
 
 Veja como configurar com o CrookCatcher. Leva poucos minutos, e você não precisa criar conta.
 
-1. **Instale o CrookCatcher** pelo <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=website&utm_medium=blog_who_tried_unlock_steps_pt' target="_blank" rel="noopener noreferrer">Google Play</a>.
+1. **Instale o CrookCatcher** pelo <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsee-who-tried-to-unlock-your-phone-pt' target="_blank" rel="noopener noreferrer">Google Play</a>.
 2. **Permita o Administrador do dispositivo.** Essa é a permissão do Android que deixa um app perceber quando uma tentativa de desbloqueio falha. O CrookCatcher usa essa permissão só para isso.
 3. **Permita o acesso à câmera e à localização**, para ele poder tirar a foto e registrar onde aconteceu.
 4. **Conecte uma conta do Gmail** para os e-mails de alerta. O CrookCatcher só consegue *enviar* e-mails por ela; ele não pode ler, apagar nem alterar nada na sua caixa de entrada. Você pode criar uma conta do Gmail separada só para isso, ou dispensar o e-mail e guardar as fotos apenas no celular.
@@ -87,7 +87,7 @@ Sim, os recursos mais importantes são grátis: a foto do intruso, a localizaç�
 
 <Features />
 
-<PlayStoreButton utmSource="blog_who_tried_unlock_bottom_pt" />
+<PlayStoreButton />
 
 ## Perguntas frequentes
 

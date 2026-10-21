@@ -3,6 +3,7 @@
   import { page } from '$app/stores';
   import { localizePath } from '$lib/i18n';
   import LanguagePicker from './LanguagePicker.svelte';
+  import { playStoreUrl, playTracking } from '$lib/play-store';
 
   let menuOpen = false;
   let heroBadgeVisible = false;
@@ -33,8 +34,8 @@
     };
   });
 
-  const playUrl =
-    'https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=website&utm_medium=button';
+  $: tracking = playTracking($page, 'header');
+  $: playUrl = playStoreUrl(tracking.medium, tracking.campaign);
 
   function toggleMenu() {
     menuOpen = !menuOpen;
