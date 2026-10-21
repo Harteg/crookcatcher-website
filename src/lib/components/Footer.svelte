@@ -1,7 +1,11 @@
 <script>
   import { page } from '$app/stores';
-  
+  import { localizePath } from '$lib/i18n';
+
   const currentYear = new Date().getFullYear();
+
+  $: t = $page.data.ui.footer;
+  $: locale = $page.data.locale;
 </script>
 
 <footer>
@@ -13,29 +17,29 @@
       <ul class="footer-links">
         <li>
           <a 
-            href="/help" 
-            title="Help"
-            class:active={$page.url.pathname === '/help'}
+            href={localizePath('/help', locale)}
+            title={t.help}
+            class:active={$page.url.pathname === localizePath('/help', locale)}
           >
-            Help
+            {t.help}
           </a>
         </li>
         <li>
           <a 
-            href="/terms" 
-            title="Terms"
-            class:active={$page.url.pathname === '/terms'}
+            href={localizePath('/terms', locale)}
+            title={t.terms}
+            class:active={$page.url.pathname === localizePath('/terms', locale)}
           >
-            Terms of use
+            {t.terms}
           </a>
         </li>
         <li>
           <a 
-            href="/privacy" 
-            title="Privacy"
-            class:active={$page.url.pathname === '/privacy'}
+            href={localizePath('/privacy', locale)}
+            title={t.privacy}
+            class:active={$page.url.pathname === localizePath('/privacy', locale)}
           >
-            Privacy Policy
+            {t.privacy}
           </a>
         </li>
       </ul>

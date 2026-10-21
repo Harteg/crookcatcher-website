@@ -1,4 +1,7 @@
 <script lang="ts">
+  import { page } from '$app/stores';
+  import { LOCALE_META } from '$lib/i18n';
+
   export let text: string;
   export let author: string;
   export let date: string = '';
@@ -17,7 +20,7 @@
     if (!value) return '';
     const parsed = new Date(value);
     if (Number.isNaN(parsed.getTime())) return value;
-    return parsed.toLocaleDateString('en', {
+    return parsed.toLocaleDateString(LOCALE_META[$page.data.locale as keyof typeof LOCALE_META].htmlLang, {
       year: 'numeric',
       month: 'short',
       day: 'numeric'
@@ -26,7 +29,7 @@
 </script>
 
 <article class="testimonial-card">
-  <div class="testimonial-stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+  <div class="testimonial-stars" role="img" aria-label={$page.data.ui.starsLabel}>★★★★★</div>
 
   <blockquote class="testimonial-quote">
     <p class="testimonial-text" class:clamped={truncatable && !open}>{text}</p>

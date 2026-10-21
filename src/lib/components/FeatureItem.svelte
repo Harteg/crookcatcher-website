@@ -7,6 +7,8 @@
   export let isCommingSoon = false;
   export let isFirst = false;
   export let isLast = false;
+  export let includedLabel = 'Included';
+  export let notIncludedLabel = 'Not included';
 </script>
 
 <div class="feature-row" class:first={isFirst} class:last={isLast}>
@@ -17,22 +19,22 @@
   <div class="feature-check free-check">
     {#if inFree}
       <div class="check-circle">
-        <img src="/images/ic_check_green_24px.svg" alt="Included">
+        <img src="/images/ic_check_green_24px.svg" alt={includedLabel}>
       </div>
     {:else}
       <div class="cross-circle">
-        <img src="/images/ic_close_red_24px.svg" alt="Not included">
+        <img src="/images/ic_close_red_24px.svg" alt={notIncludedLabel}>
       </div>
     {/if}
   </div>
   <div class="feature-check pro-check">
     {#if inPro}
       <div class="check-circle">
-        <img src="/images/ic_check_green_24px.svg" alt="Included">
+        <img src="/images/ic_check_green_24px.svg" alt={includedLabel}>
       </div>
     {:else}
       <div class="cross-circle">
-        <img src="/images/ic_close_red_24px.svg" alt="Not included">
+        <img src="/images/ic_close_red_24px.svg" alt={notIncludedLabel}>
       </div>
     {/if}
   </div>

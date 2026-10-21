@@ -1,0 +1,109 @@
+---
+title: Como impedir que ladrões desliguem seu celular (ou ativem o modo avião)
+subtitle: As configurações que mantêm seu celular rastreável, e como pegar o ladrão na câmera
+dateUpdated: '2026-09-28'
+datePublished: '2025-01-19'
+description: "Ladrões desligam celulares roubados para que não possam ser rastreados. Veja como dificultar isso no Samsung e em outros celulares Android, e como conseguir a foto do ladrão antes que ele consiga."
+image: /images/blog/Digital_Solitude_Urban_Shadows.jpeg
+imageAlt: Homem nas sombras segurando um celular
+published: true
+---
+
+<script>
+  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+</script>
+
+Quando alguém rouba um celular, uma das primeiras coisas que faz é **desligar o aparelho ou ativar o modo avião**. Um celular desligado ou offline não pode ser localizado, bloqueado nem apagado a distância, então todos os recursos de rastreamento que você configurou param de funcionar de uma hora para outra.
+
+A boa notícia: o Android e as fabricantes agora têm configurações que dificultam muito isso. Veja o que ativar, e como garantir que você ainda tenha provas mesmo se o ladrão conseguir passar.
+
+## Resumo
+
+1. **Samsung:** ative *Bloquear rede e segurança*, para que o celular peça seu PIN antes de poder ser desligado pela tela de bloqueio.
+2. **Todos os celulares Android:** ative o *Bloqueio por detecção de roubo* e o *Bloqueio do dispositivo off-line*.
+3. **Tire o modo avião** das Configurações rápidas.
+4. **Procure nas configurações do seu celular** uma opção de "exigir desbloqueio para desligar".
+5. **Instale o <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source=blog_block_power_menu_pt&utm_medium=tldr" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** para receber a foto e a localização de quem tentar desbloquear seu celular.
+
+---
+
+## 1. Samsung: exija o PIN para desligar o celular
+
+Muitos celulares Samsung Galaxy têm uma configuração que impede que alguém desligue o celular ou desative a rede pela tela de bloqueio sem o seu PIN, padrão ou senha.
+
+**Acesse:**
+`Configurações > Tela de bloqueio > Configurações de bloqueio seguro > Bloquear rede e segurança`
+
+Ative. A partir de agora, quem tentar desligar seu celular pela tela de bloqueio vai precisar desbloqueá-lo primeiro.
+
+> Observação: isso protege a tela de bloqueio. Se um ladrão pegar seu celular enquanto ele estiver *desbloqueado*, ainda vai conseguir desligá-lo, e é por isso que o passo 2 também é importante. A Samsung está testando uma atualização que exige o PIN para desligar em qualquer situação, e vamos atualizar este post quando ela for lançada.
+
+---
+
+## 2. Todos os celulares Android: ative o Bloqueio por detecção de roubo e o Bloqueio do dispositivo off-line
+
+Esses recursos do Android bloqueiam seu celular automaticamente, o que ajuda principalmente quando um ladrão arranca o aparelho da sua mão enquanto ele está desbloqueado.
+
+- O **Bloqueio por detecção de roubo** bloqueia a tela se o celular perceber um movimento de quem pega o aparelho e sai correndo.
+- O **Bloqueio do dispositivo off-line** bloqueia a tela pouco depois de o celular ficar offline, por exemplo quando alguém ativa o modo avião.
+
+**Na maioria dos celulares Android, acesse:**
+`Configurações > Segurança e privacidade > Desbloqueio do dispositivo > Proteção contra roubo`
+
+**Nos celulares Samsung, acesse:**
+`Configurações > Segurança e privacidade > Proteção contra perda do dispositivo > Proteção contra roubo`
+
+Com o celular bloqueado, o ladrão volta para a tela de bloqueio, onde o passo 1 e o CrookCatcher entram em ação.
+
+---
+
+## 3. Tire o modo avião das Configurações rápidas
+
+Se o modo avião estiver a um deslizar de dedo, o ladrão corta o rastreamento em um segundo. Tirar o atalho das Configurações rápidas atrasa o ladrão:
+
+1. Deslize para baixo para abrir as Configurações rápidas.
+2. Toque no ícone de **editar (✏️)**.
+3. Arraste o bloco **Modo avião** para fora da área visível.
+
+Você ainda pode ativar o modo avião pelas configurações quando precisar.
+
+---
+
+## 4. Veja se o seu celular tem uma opção de bloqueio para desligar
+
+Algumas outras fabricantes também incluem uma configuração que exige desbloquear o celular antes de desligá-lo. O nome e o lugar mudam de marca para marca, então o jeito mais rápido de conferir é **abrir as Configurações e pesquisar "desligar"**.
+
+---
+
+## 5. Pegue o ladrão na câmera antes que ele consiga
+
+As configurações dificultam desligar seu celular, mas um ladrão determinado ainda pode encontrar um jeito. É aí que o CrookCatcher ajuda: o ladrão quase sempre tenta desbloquear o celular primeiro, e é exatamente nesse momento que o CrookCatcher age.
+
+- Quando alguém erra o **PIN, o padrão ou a senha**, o CrookCatcher tira uma foto com a câmera frontal.
+- Ele registra a **localização GPS** e um endereço aproximado.
+- Ele **envia para o seu e-mail** a foto e a localização na hora.
+
+Assim, mesmo que o celular seja desligado um minuto depois, a foto do ladrão e a localização já estão na sua caixa de entrada. Depois você pode compartilhá-las com a polícia.
+
+Com o **CrookCatcher Pro**, você também pode gravar vídeo com som, registrar o ambiente com a câmera traseira, fazer backup de tudo no Google Drive e ocultar as notificações do CrookCatcher para que o ladrão não perceba que foi pego.
+
+<PlayStoreButton utmSource="blog_block_power_menu_bottom_pt" />
+
+---
+
+## Mais formas de manter seu celular seguro
+
+- **Ative o Find Hub** (o Encontre Meu Dispositivo do Google) para poder localizar, bloquear ou apagar seu celular.
+- **Use um bloqueio de tela forte.** Uma senha ou um PIN de 6 dígitos é muito mais difícil de adivinhar do que um de 4.
+- **Mantenha o celular atualizado** para ter os recursos de segurança mais recentes.
+- **Tenha cuidado em lugares públicos.** Muitos roubos acontecem enquanto o celular está na sua mão, por exemplo quando você olha um mapa ou tira uma foto.
+
+Para instruções passo a passo, leia nosso guia com as [5 principais configurações do Android para proteger seu celular contra roubo](/pt/blog/top_five_settings).
+
+---
+
+## O que aconteceu com o bloqueio do menu de desligar do CrookCatcher?
+
+Uma versão anterior deste artigo descrevia um recurso experimental do CrookCatcher que bloqueava o menu de desligar e a barra de notificações na tela de bloqueio. Como ele não funcionava de forma confiável em todos os celulares Android, e como o Android e as fabricantes agora oferecem uma proteção nativa melhor, o recurso foi descontinuado. As configurações acima são a forma recomendada de proteger seu celular hoje.
+
+Tem mais dúvidas? Confira as [perguntas frequentes](/pt/help).

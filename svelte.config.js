@@ -16,13 +16,35 @@ const config = {
 			remarkPlugins: [remarkGfm],
 			rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings],
 			layout: {
-				_: 'src/routes/blog/_post.svelte'
+				_: 'src/routes/[[lang=locale]]/blog/_post.svelte'
 			}
 		})
 	],
 
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+			// Cloudflare caps _routes.json at 100 rules; listing every static file individually
+			// overflows it, so exclude the asset folders with wildcards instead.
+			routes: {
+				include: ['/*'],
+				exclude: [
+					'<build>',
+					'<prerendered>',
+					'/images/*',
+					'/favicons/*',
+					'/fonts/*',
+					'/email_res/*',
+					'/scripts/*',
+					'/stats/*',
+					'/robots.txt',
+					'/app-ads.txt',
+					// Cloudflare ignores static/_redirects for requests that reach the worker, so
+					// every redirect source listed there must also be excluded here.
+					'/blog/introducing-crookcatcher',
+					'/fr/blog/introducing-crookcatcher'
+				]
+			}
+		}),
 
 		alias: {
 			$content: 'content'

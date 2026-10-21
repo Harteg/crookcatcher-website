@@ -1,0 +1,145 @@
+---
+title: As 5 principais configurações do Android para proteger seu celular contra roubo
+subtitle: Reforce as defesas do seu Android com estes recursos essenciais
+dateUpdated: '2025-08-24'
+datePublished: '2025-08-24'
+description: "Da detecção de roubo ao bloqueio remoto: conheça as melhores configurações do Android para barrar ladrões, e como o CrookCatcher te protege quando mais importa."
+image: '/images/blog/theft_settings_header.jpeg'
+imageAlt: 'Configurações de proteção contra roubo do Android e dicas do CrookCatcher'
+published: true
+---
+
+<script>
+  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+</script>
+
+Seja roubado do bolso, esquecido em um táxi ou levado de uma mesa de café, seu celular está sempre em risco. Por isso é importante protegê-lo *antes* que algo aconteça.
+
+Estas são **5 configurações de segurança essenciais do Android** que você deve ativar para proteger seu celular, seus dados e sua tranquilidade.
+
+---
+
+## Resumo: proteja seu celular Android em 5 passos
+
+1. Use um bloqueio de tela forte (PIN, senha ou padrão longo)
+2. Ative a Proteção contra roubo do Android
+3. Ative o Find Hub
+4. Configure o Bloqueio remoto em [android.com/lock](https://www.android.com/lock)
+5. Tire o Modo avião das Configurações rápidas
+
+> Quer proteção completa? [Instale o CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&utm_medium=button&utm_source=blog_android_settings_pt) para pegar ladrões em flagrante.
+
+---
+
+## 1. Escolha um bloqueio de tela mais forte
+
+Sua primeira e mais importante defesa é o **bloqueio de tela**. Uma **senha** oferece a maior segurança, mas todo tipo de bloqueio pode ser reforçado.
+
+Veja como deixar cada tipo mais seguro:
+
+- **Senha** _A escolha mais segura!_<br>
+  Dica: uma senha com **seis caracteres** em vez de quatro é **3.844 vezes mais segura**.
+
+- **PIN** _Uma escolha muito segura!_ <br>
+  Dica: um **PIN de seis dígitos** é **100 vezes mais seguro** que um de quatro.
+
+- **Padrão** _Uma boa escolha!_<br>
+  Dica: um padrão que liga **seis pontos em vez de quatro** é **16 vezes mais seguro**.
+
+> Dica extra: evite códigos fáceis como 1234, 0000 ou a sua data de nascimento.
+
+A impressão digital e o reconhecimento facial são práticos, mas lembre-se de que podem ser usados sem o seu consentimento. Para ter o máximo de segurança, considere usar apenas uma senha forte.
+
+---
+
+## 2. Ative os recursos de proteção contra roubo do Android
+
+O Android 15 e versões mais recentes agora incluem ferramentas poderosas de **detecção de roubo**, criadas para proteger seu aparelho se alguém pegá-lo e sair correndo.
+
+**Acesse**:
+`Configurações > Segurança e privacidade > Desbloqueio do dispositivo > Proteção contra roubo`
+
+Ative estes recursos:
+
+- **Bloqueio por detecção de roubo**: bloqueia a tela se o celular perceber que foi arrancado da sua mão.
+- **Bloqueio do dispositivo off-line**: bloqueia a tela pouco depois de o aparelho ficar offline.
+
+<figure class="blog-figure">
+  <img src="/images/blog/settings_theft.jpeg" alt="Configurações de proteção contra roubo no Android" />
+  <figcaption>Configurações de proteção contra roubo no Android</figcaption>
+</figure>
+
+> Esses recursos estão disponíveis em muitos aparelhos com Android 15 ou mais recente. Confira suas configurações para ativá-los.
+
+---
+
+## 3. Ative o Find Hub do Google
+
+O novo **Find Hub** (antigo Encontre Meu Dispositivo) permite:
+
+- 📍 Acompanhar a localização do seu celular em tempo real
+- 🔔 Fazer o aparelho tocar a distância
+- 🔒 Bloquear ou apagar o celular se ele for roubado
+
+**Ative em**:
+`Configurações > Segurança e privacidade > Localizadores de dispositivos > Find Hub`
+
+Saiba mais: [google.com/android/find](https://www.google.com/android/find)
+
+<figure class="blog-figure">
+  <img src="/images/blog/find_hub.png" alt="Interface do Find Hub para localizar seu celular" />
+  <figcaption>Find Hub do Google mostrando a localização do celular em um mapa</figcaption>
+</figure>
+
+---
+
+## 4. Ative o Bloqueio remoto em android.com/lock
+
+O Google agora permite **bloquear seu Android a distância** em [android.com/lock](https://www.android.com/lock), usando apenas o seu **número de telefone**.
+
+**Requisitos**:
+- O **Bloqueio remoto precisa estar ativado** nas configurações do celular
+- O celular precisa estar online para receber o comando de bloqueio
+
+<figure class="blog-figure">
+  <img src="/images/blog/settings_remote_lock.jpeg" alt="Página android.com/lock mostrando o campo para digitar o número de telefone" />
+  <figcaption>Tela do Bloqueio remoto com instruções para bloquear o celular usando o número de telefone</figcaption>
+</figure>
+
+---
+
+## 5. Tire o Modo avião das Configurações rápidas
+
+Se um ladrão consegue deslizar a tela para baixo e ativar o **Modo avião**, ele **corta o rastreamento** na hora.
+
+**Para evitar isso:**
+1. Abra o painel de Configurações rápidas.
+2. Toque no ícone de **editar (✏️)**.
+3. Arraste o **Modo avião** para fora da área de blocos visíveis.
+
+<figure class="blog-figure">
+  <img src="/images/blog/quick_settings_airplane.jpg" alt="Configurações rápidas sem o Modo avião" />
+  <figcaption>Tire o Modo avião para impedir que ladrões desativem o rastreamento</figcaption>
+</figure>
+
+---
+
+## Quer proteção de verdade? Conte com o CrookCatcher.
+
+As configurações ajudam a evitar o roubo, mas e se alguém já tentou desbloquear seu celular?
+
+É aí que o **CrookCatcher** se destaca:
+- 📸 Tira uma foto com a câmera frontal depois de desbloqueios com falha
+- 📍 Registra a localização GPS e um endereço aproximado
+- 📤 Envia tudo direto para a sua caixa de entrada
+
+É como ter uma câmera de segurança silenciosa dentro do seu celular Android.
+
+<figure class="blog-figure">
+  <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&utm_medium=button&utm_source=blog_android_settings_pt" target="_blank" rel="noopener noreferrer">
+    <img src="/images/play_screen_1.png" alt="Captura de tela do app CrookCatcher mostrando os recursos de segurança" />
+  </a>
+  <figcaption>O CrookCatcher ajuda a proteger seu celular tirando fotos de intrusos e rastreando o aparelho</figcaption>
+</figure>
+
+<PlayStoreButton utmSource="blog_android_settings_pt" />

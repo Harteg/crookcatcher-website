@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Politique de confidentialité • CrookCatcher, app Android",
+    "description": "Politique de confidentialité de CrookCatcher, l'app Android qui prend des photos quand un mauvais mot de passe est saisi.",
+    "canonical": "https://www.crookcatcher.app/fr/privacy"
+  },
+  "hero": {
+    "eyebrow": "Mentions légales",
+    "title": "Politique de confidentialité",
+    "lead": "CrookCatcher a été conçu dans le respect de votre vie privée. Voici comment nous gardons vos données sûres et privées."
+  },
+  "sections": [
+    {
+      "icon": "photo_camera",
+      "title": "Caméra",
+      "body": "<ul><li>CrookCatcher utilise l'autorisation d'accès à la caméra pour prendre des photos et enregistrer des vidéos lorsqu'un mauvais mot de passe, code PIN ou schéma de verrouillage est saisi, selon le nombre de tentatives que vous avez défini dans les paramètres de l'app, sous l'option de déverrouillage raté (« Failed Unlock »).</li><li>CrookCatcher ne prend pas de photos et n'enregistre pas de vidéos à d'autres moments, sauf si vous avez activé d'autres fonctionnalités spécifiques dans l'app.</li><li>Les photos et vidéos vous sont envoyées par e-mail si la fonction e-mail est activée dans les paramètres de CrookCatcher. Consultez la section E-mail ci-dessous pour plus de détails. Les photos et vidéos peuvent aussi être envoyées sur Google Drive si vous l'avez activé.</li><li>Sinon, les photos et vidéos sont stockées uniquement sur votre appareil et ne sont partagées ni avec le développeur ni avec des tiers.</li></ul>"
+    },
+    {
+      "icon": "location_on",
+      "title": "Position",
+      "body": "<ul><li>Si cette option est activée dans les paramètres, CrookCatcher détermine la position de votre appareil en arrière-plan lorsqu'il prend une photo.</li><li>CrookCatcher n'accède à votre position à aucun autre moment.</li><li>La position est enregistrée avec la photo et vous est envoyée par e-mail si la fonction e-mail est activée.</li><li>Vos données de position ne sont partagées ni avec le développeur ni avec des tiers.</li></ul>"
+    },
+    {
+      "icon": "mic",
+      "title": "Micro",
+      "body": "<ul><li>Lorsque l'enregistrement vidéo est activé, CrookCatcher accède au micro pour enregistrer les vidéos.</li><li>L'accès au micro n'est accordé que si vous activez cette fonctionnalité et sert uniquement à enregistrer des vidéos.</li></ul>"
+    },
+    {
+      "icon": "mail",
+      "title": "E-mail",
+      "body": "<ul><li>CrookCatcher vous demande de vous connecter avec votre compte Gmail et d'accorder l'autorisation d'« envoyer des e-mails en votre nom ». Cela évite de faire transiter des données sensibles par des serveurs tiers. Pour révoquer cette autorisation, rendez-vous sur <a href=\"https://myaccount.google.com/permissions?hl=fr\">https://myaccount.google.com/permissions</a>.</li><li>Cela ne permet pas à CrookCatcher de lire vos e-mails, de gérer vos contacts ou d'effectuer d'autres actions.</li><li>Les e-mails sont envoyés uniquement à l'adresse indiquée dans le paramètre du destinataire (« Send email to ») et seulement lorsque les conditions que vous avez définies dans l'app sont remplies.</li><li>Vous pouvez toujours voir dans votre compte Gmail quels e-mails CrookCatcher a envoyés.</li><li>Votre adresse e-mail n'est partagée ni avec le développeur ni avec des tiers.</li></ul>"
+    },
+    {
+      "icon": "insights",
+      "title": "Statistiques d'utilisation et rapports de plantage",
+      "body": "<p>CrookCatcher recueille des données d'utilisation anonymes et des rapports de plantage avec Firebase Analytics afin d'améliorer les performances et de corriger les bugs. Vous pouvez désactiver cette collecte en décochant une option en bas du menu des paramètres de CrookCatcher.</p>"
+    },
+    {
+      "icon": "lock",
+      "title": "Sécurité des données",
+      "body": "<p>Nous tenons à votre confiance et nous nous engageons à protéger vos données. Toutes les données collectées sont stockées en toute sécurité sur votre appareil, ou vous sont envoyées directement par e-mail si cette option est activée. Aucune donnée personnelle n'est transmise à des tiers à des fins publicitaires ou autres.</p>"
+    },
+    {
+      "icon": "update",
+      "title": "Modifications de cette politique de confidentialité",
+      "body": "<p>Cette politique de confidentialité s'applique à la version la plus récente de CrookCatcher. Nous pouvons mettre à jour notre politique de confidentialité de temps à autre. Nous vous conseillons de consulter régulièrement cette page pour prendre connaissance des éventuelles modifications. Les modifications prennent effet dès leur publication sur cette page.</p>"
+    }
+  ],
+  "note": "<p>Les données sont utilisées uniquement pour permettre à CrookCatcher de fonctionner et de s'améliorer. Aucune donnée personnelle n'est transmise à des tiers à des fins publicitaires ou autres.</p><p>CrookCatcher respecte le <a href=\"https://developers.google.com/terms/api-services-user-data-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Règlement officiel sur les données utilisateur des services d'API Google</a>.</p>"
+}

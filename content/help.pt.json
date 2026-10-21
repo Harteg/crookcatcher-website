@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Ajuda e perguntas frequentes do CrookCatcher • App antirroubo para Android",
+    "description": "Tire suas dúvidas sobre o CrookCatcher, o app para Android que tira fotos quando alguém erra a senha. Perguntas frequentes e suporte.",
+    "canonical": "https://www.crookcatcher.app/pt/help",
+    "ogImage": "https://www.crookcatcher.app/images/og-share.png"
+  },
+  "hero": {
+    "eyebrow": "Suporte",
+    "title": "Ajuda e perguntas frequentes",
+    "lead": "Respostas para as dúvidas mais comuns sobre como configurar e usar o CrookCatcher."
+  },
+  "items": [
+    {
+      "id": "help-pictures",
+      "question": "O CrookCatcher não está tirando fotos",
+      "answer": "<ul><li>Se você estiver testando o CrookCatcher, saiba que o Android só considera uma senha ou um padrão como incorreto quando ele tem pelo menos 4 dígitos/caracteres ou pontos.</li><li>A fabricante do seu celular pode ter aplicado restrições extras de economia de bateria ao CrookCatcher, impedindo que ele funcione em segundo plano. Para resolver, siga as instruções para o seu aparelho em <a href=\"https://dontkillmyapp.com\">www.dontkillmyapp.com</a>.</li></ul>"
+    },
+    {
+      "id": "help-erase",
+      "question": "O CrookCatcher vai apagar todos os dados do meu celular ou tablet se a senha for digitada errado muitas vezes?",
+      "answer": "<p>Não. O CrookCatcher nunca apaga os dados do seu aparelho.</p>"
+    },
+    {
+      "id": "help-gmail",
+      "question": "Por que o CrookCatcher precisa de acesso à minha conta do Gmail?",
+      "answer": "<p>Ao contrário de outros apps de segurança, o CrookCatcher não depende de um servidor de terceiros para enviar e-mails. Privacidade é importante, por isso o CrookCatcher usa o sistema de autorização do Google, o OAuth 2.0, para enviar e-mails com segurança diretamente do seu aparelho. Isso não dá ao CrookCatcher acesso aos seus e-mails nem aos seus contatos. O CrookCatcher só usa essa permissão para enviar e-mails de alerta de segurança da sua conta do Gmail para o endereço que você definir no app.</p>"
+    },
+    {
+      "id": "help-forgot",
+      "question": "Esqueci minha senha, PIN ou padrão de desbloqueio.",
+      "answer": "<p>A tela de bloqueio, e a senha associada a ela, não fazem parte do CrookCatcher. Se você esqueceu sua senha, PIN ou padrão, consulte o manual do seu aparelho.</p>"
+    },
+    {
+      "id": "help-pro",
+      "question": "Já comprou o Pro?",
+      "answer": "<p>Se você já comprou o Pro, mas ele não aparece no app, verifique se o aparelho está conectado à mesma conta do Google usada na compra e toque no botão de restaurar na página de configuração do CrookCatcher.</p>"
+    },
+    {
+      "id": "help-revoke",
+      "question": "Como revogar o acesso do CrookCatcher ao Gmail ou ao Drive?",
+      "answer": "<p>Abra as <a href=\"https://myaccount.google.com/permissions?hl=pt-BR\">configurações da Conta do Google</a> e selecione o CrookCatcher na lista. Depois, role até o final e selecione excluir conexões.</p>"
+    },
+    {
+      "id": "help-reboot",
+      "question": "Não funciona depois de reiniciar?",
+      "answer": "<p>Por medidas de segurança do Android, o celular precisa ser desbloqueado uma vez depois de reiniciar para que o CrookCatcher possa acessar a câmera. Eu gostaria de resolver isso, mas infelizmente não há nada que eu possa fazer.</p>"
+    },
+    {
+      "id": "help-payment",
+      "question": "Problemas com pagamento",
+      "answer": "<p>Está com problemas de pagamento? Muitos deles são tratados na <a href=\"https://support.google.com/googleplay/answer/1267137?hl=pt-BR\">Central de Ajuda de pagamentos do Google Play</a>.</p>"
+    },
+    {
+      "id": "help-internet",
+      "question": "O CrookCatcher precisa de internet?",
+      "answer": "<p>O CrookCatcher funciona offline para detectar tentativas de desbloqueio não autorizadas e registrar as evidências. Mas é preciso conexão com a internet para enviar os e-mails de alerta. Por restrições do Android, o CrookCatcher infelizmente não consegue ligar e desligar os dados móveis ou o Wi-Fi automaticamente quando necessário.</p>"
+    }
+  ],
+  "contact": {
+    "title": "Ainda precisa de ajuda?",
+    "text": "Mande um e-mail e eu respondo assim que puder.",
+    "showEmail": "Mostrar endereço de e-mail"
+  }
+}
