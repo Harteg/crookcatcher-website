@@ -1,4 +1,5 @@
 import type { Component } from 'svelte';
+import { dev } from '$app/environment';
 import { LOCALES, type Locale } from '$lib/i18n';
 
 /** Frontmatter of a .svx post. */
@@ -43,18 +44,19 @@ export async function listPosts(locale: Locale): Promise<PostSummary[]> {
 		.sort((a, b) => new Date(b.datePublished).getTime() - new Date(a.datePublished).getTime());
 }
 
+/** A published post, or in `npm run dev` also a draft, so drafts can be reviewed at their URL. */
 export async function loadPost(locale: Locale, slug: string) {
 	const resolver = Object.entries(MODULES[locale]).find(([path]) => slugOf(path) === slug)?.[1];
 	if (!resolver) return null;
 
 	const post = (await resolver()) as PostModule;
-	return post.metadata.published ? { ...post.metadata, content: post.default } : null;
+	return post.metadata.published || dev ? { ...post.metadata, content: post.default } : null;
 }
 
 /** Locales in which a slug is published — used for hreflang and the language switcher. */
 export async function postLocales(slug: string) {
 	const published = await Promise.all(
-		LOCALES.map(async (locale) => ((await loadPost(locale, slug)) ? locale : null))
+		LOCALES.map(async (locale) => ((await loadPost(locale, slug))?.published ? locale : null))
 	);
 	return published.filter((l): l is Locale => l !== null);
 }

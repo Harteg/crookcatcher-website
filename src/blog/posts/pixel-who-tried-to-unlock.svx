@@ -1,0 +1,124 @@
+---
+title: How to See Who Tried to Unlock Your Pixel (2026)
+subtitle: What a Google Pixel records after a wrong PIN, and how to get a photo of the person
+dateUpdated: '2026-10-21'
+datePublished: '2026-10-21'
+description: "Google Pixel phones don't show who tried to unlock them or keep a record of wrong PIN attempts. Here's what your Pixel does after failed unlocks, the theft protection settings to turn on, and how to get a photo of the person by email."
+image: '/images/blog/pixel-who-tried-to-unlock-header.png'
+imageAlt: 'How to see who tried to unlock your Pixel: Pixel phones count wrong guesses but never show who made them. CrookCatcher takes their photo.'
+published: false
+---
+
+<script>
+  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+</script>
+
+**A Google Pixel can't show you who tried to unlock it.** Android counts wrong PIN, pattern and password guesses only to make the person wait before trying again. There's no list of attempts, no time, and no photo. To find out who it was, install an app that's notified of failed unlocks, like [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock). It takes a photo with the front camera after a wrong PIN and emails it to you with the location.
+
+## What your Pixel does after a wrong PIN
+
+Pixels get new Android versions first. On Android 16 QPR2 and later, Google's published waits look like this:
+
+| Wrong guesses | Wait before the next try |
+| --- | --- |
+| 1 to 4 | None |
+| 5 | 1 minute |
+| 6 | 5 minutes |
+| 8 | 30 minutes |
+| 10 | 4 hours |
+| 12 | 36 hours |
+| 15 | 41 days |
+| 20 | No more guesses allowed |
+
+Google says Android 17 is stricter still. A few more things to know:
+
+- **Repeating the same wrong PIN doesn't count again**, so a child tapping the same code won't use up your attempts.
+- **On Android 17, the lock screen shows a link** (g.co/android/unlock) with recovery options you can open on another device.
+- **If you can't unlock your Pixel at all, it has to be erased.** You can restore your data from your Google Account backup afterwards, if you know the PIN or pattern you used when the backup was made.
+
+A "Try again in…" message is the only sign you'll see that someone tried. It doesn't say who, when, or how many times.
+
+## Pixel settings worth turning on
+
+These don't show you who tried, but they make your Pixel much harder to get into or take away.
+
+### Theft protection
+
+**Go to:**
+`Settings > Security & privacy > Device unlock > Theft protection`
+
+It's also under `Settings > Google > All services > Theft protection`.
+
+- **Theft Detection Lock:** locks the screen if your Pixel detects it's been snatched.
+- **Offline Device Lock:** locks the screen soon after the phone goes offline, so a thief can't stop it being found.
+- **Failed Authentication Lock:** locks the screen when unlock attempts fail repeatedly. It's on by default; on Android 16 and later it has its own switch.
+- **Identity Check:** away from trusted places, sensitive actions like changing your screen lock or turning off Find Hub need your fingerprint or face.
+
+### Remote Lock and Find Hub
+
+- **Remote Lock** lets you lock your Pixel from any browser at [android.com/lock](https://www.android.com/lock) with just your phone number. Turn it on under **Theft protection > Remote Lock**. You can add a security question so nobody else can use it.
+- **Find Hub** shows where your Pixel is and lets you ring, lock or erase it. Make sure it's on before you need it.
+
+For more settings, see the [top 5 Android settings to secure your phone against theft](/blog/top_five_settings).
+
+## What your Pixel can't tell you
+
+- **Who tried.** No photo of the person.
+- **When it happened**, or how many times.
+- **Where the phone was** at the time.
+- **An alert while it happens.**
+
+## How to get a photo of whoever tries to unlock your Pixel
+
+CrookCatcher fills exactly that gap. Android notifies apps with the **Device admin** permission each time an unlock fails. CrookCatcher uses that to take a photo with the front camera, record the location and an approximate address, and email both to you. Every attempt is also saved in the app with its time.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/email_preview.png" alt="CrookCatcher email alert with the intruder's photo, the time of the attempt and a map of the location" />
+  <figcaption>The email CrookCatcher sends after a failed unlock attempt.</figcaption>
+</figure>
+
+**Set it up on your Pixel:**
+
+1. **Install CrookCatcher** from <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock" target="_blank" rel="noopener noreferrer">Google Play</a>. There's no account to create.
+2. **Allow Device admin.** CrookCatcher uses this permission only to know when an unlock attempt fails.
+3. **Allow camera and location access.**
+4. **Connect a Gmail account** for the alert emails. CrookCatcher can only *send* emails from it, not read them.
+5. **Test it.** Lock your Pixel, enter a wrong PIN on purpose, then unlock it. Your own photo should appear in the app and your inbox.
+
+You choose how many wrong attempts it takes before CrookCatcher acts. Since 2014, CrookCatcher has been downloaded more than 12 million times, and it takes around 1.2 million intruder photos a day.
+
+## Frequently Asked Questions
+
+### Q: Can a Pixel show failed unlock attempts?
+A: No. Your Pixel counts wrong guesses only to time the lockouts, and it never shows them. To keep a record with a photo, time and location, you need an app like CrookCatcher.
+
+### Q: How many wrong PIN attempts does a Pixel allow?
+A: On recent Android versions, the first 4 wrong guesses have no wait, then the waits grow from 1 minute to days. After 20 wrong guesses no more are allowed. Android 17 is stricter.
+
+### Q: What if I'm locked out of my own Pixel?
+A: Google's only option is to erase it, either remotely with Find Hub or with the buttons in Recovery Mode. Afterwards you can restore from your Google Account backup if you know the PIN or pattern from the time of the backup.
+
+### Q: Does a Pixel have an intruder photo feature?
+A: No. Pixel's theft protection locks the phone after failed attempts or a snatch, but it doesn't photograph the person or keep a list of attempts.
+
+### Q: Does CrookCatcher work with Pixel's fingerprint and Face Unlock?
+A: Yes, you can keep using them. CrookCatcher reacts to a wrong PIN, pattern or password. Failed fingerprint or face attempts don't trigger it.
+
+### Q: Will the person see that they were photographed?
+A: CrookCatcher works in the background without a camera preview. Your Pixel shows a small indicator while the camera is in use; that's a system feature apps can't hide.
+
+## Sources
+
+- Google, Android Help: [Protect your personal data against theft](https://support.google.com/android/answer/15146908?hl=en)
+- Android Open Source Project: [Lockscreen rate limiting](https://source.android.com/docs/security/features/authentication/rate-limiting)
+- Google, The Keyword: [New Android theft protection feature updates](https://blog.google/security/android-theft-protection-feature-updates/) (January 2026)
+- Google, Pixel Help: [Can't unlock your Pixel phone](https://support.google.com/pixelphone/answer/3388218?hl=en)
+- Android Developers: [DeviceAdminReceiver](https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver) (how apps are notified of failed attempts)
+
+## Related guides
+
+- [How to see who tried to unlock your phone (and get their photo)](/blog/see-who-tried-to-unlock-your-phone)
+- [Top 5 Android settings to secure your phone against theft](/blog/top_five_settings)
+- [How to stop thieves from turning off your phone](/blog/block-power-menu)
+
+<PlayStoreButton />

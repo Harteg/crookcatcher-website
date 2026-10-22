@@ -1,0 +1,121 @@
+---
+title: Dá para ver as tentativas de desbloqueio com falha no Android? (2026)
+subtitle: O que o Android registra quando alguém erra o PIN, e como descobrir quem foi
+dateUpdated: '2026-10-21'
+datePublished: '2026-10-21'
+description: "O Android não guarda uma lista das tentativas de desbloqueio com falha nem mostra quem as fez. Ele só conta os erros para bloquear o celular por cada vez mais tempo. Veja exatamente o que o Android faz, e como conseguir uma foto da pessoa."
+image: '/images/blog/failed-unlock-attempts-android-header-pt.png'
+imageAlt: 'Dá para ver as tentativas de desbloqueio com falha no Android? O Android só conta os erros. O CrookCatcher mostra quem os cometeu.'
+published: false
+---
+
+<script>
+  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+</script>
+
+**Não. O Android não guarda uma lista das tentativas de desbloqueio com falha e nunca mostra quem as fez.** Ele conta os erros de PIN, padrão e senha só para fazer a pessoa esperar cada vez mais antes de tentar de novo. Depois que o celular é desbloqueado, não há nada para consultar: nenhuma lista, nenhum horário, nenhuma foto. Para ver as tentativas com falha, você precisa de um app que seja avisado sempre que um desbloqueio falha, como o [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-pt), que tira uma foto da pessoa e envia para o seu e-mail com a localização.
+
+## O que o Android faz quando alguém erra o PIN
+
+Cada erro é contado e, depois de alguns, a tela de bloqueio faz a pessoa esperar. Nas versões recentes do Android (Android 16 QPR2 e posteriores), a tabela publicada pelo Google é:
+
+| Erros | Espera antes da próxima tentativa |
+| --- | --- |
+| 1 a 4 | Nenhuma |
+| 5 | 1 minuto |
+| 6 | 5 minutos |
+| 7 | 15 minutos |
+| 8 | 30 minutos |
+| 10 | 4 horas |
+| 12 | 36 horas |
+| 15 | 41 dias |
+| 20 | Nenhuma tentativa permitida |
+
+Segundo o Google, o Android 17 usa limites ainda mais rígidos por padrão, e as fabricantes podem definir os seus. No One UI 9 da Samsung, o celular é bloqueado permanentemente no 13º erro; depois disso, só uma restauração de fábrica faz ele voltar a funcionar.
+
+Outras duas coisas mudaram recentemente:
+
+- **Repetir o mesmo PIN errado não conta de novo** em muitos celulares mais novos. O Android e a Samsung ignoram tentativas erradas idênticas, então uma criança digitando 1111 sem parar não vai bloquear você.
+- **O Bloqueio por Falha na Autenticação** (Android 15 e posteriores, ativado por padrão) bloqueia a tela quando a autenticação falha repetidas vezes.
+
+Nada disso é mostrado para você depois. A contagem só existe para definir o tempo de espera.
+
+## As únicas pistas que o Android dá
+
+Se alguém tentou enquanto você estava longe, você pode notar:
+
+- **Uma mensagem de "Tente novamente em…"** na tela de bloqueio quando pega o celular.
+- **Um aviso de tentativas restantes.** Os celulares Samsung com One UI 9 mostram isso quando alguém se aproxima do limite.
+
+Isso indica que *algo* aconteceu. Não diz quando, quantas vezes nem quem.
+
+## O que o Android não consegue dizer
+
+- **Quem foi.** Nenhuma foto, nenhum nome.
+- **Quando aconteceu**, nem quantas tentativas foram feitas.
+- **Onde o celular estava.**
+- **Um alerta na hora.** Você só fica sabendo se notar as pistas acima.
+
+## Como ver quem tentou desbloquear seu celular
+
+O Android avisa apps sobre as tentativas com falha. Um app ao qual você dá a permissão de **Administrador do dispositivo** é avisado pelo sistema sempre que alguém erra o PIN, o padrão ou a senha. É exatamente isso que o CrookCatcher usa.
+
+Quando um desbloqueio falha, o CrookCatcher:
+
+- tira uma foto com a câmera frontal,
+- registra a localização GPS e um endereço aproximado,
+- salva tudo no app com o horário, e
+- envia tudo para o seu e-mail, para você ter as informações mesmo se o celular sumir.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/email_preview.png" alt="E-mail de alerta do CrookCatcher com a foto do intruso, o horário da tentativa e um mapa com a localização" />
+  <figcaption>O e-mail que o CrookCatcher envia depois de uma tentativa de desbloqueio com falha.</figcaption>
+</figure>
+
+Você escolhe depois de quantos erros o CrookCatcher entra em ação. Ele já foi baixado mais de 12 milhões de vezes desde 2014 e tira cerca de 1,2 milhão de fotos de intrusos por dia. A configuração leva poucos minutos e não é preciso criar conta: veja [como descobrir quem tentou desbloquear seu celular](/pt/blog/see-who-tried-to-unlock-your-phone) para o passo a passo.
+
+## Ative também a proteção do próprio Android
+
+O CrookCatcher mostra quem tentou. A proteção contra roubo do Android dificulta que a pessoa consiga. Ative as duas.
+
+**Acesse:**
+`Configurações > Google > Todos os serviços > Proteção contra roubo`
+
+Confira se o **Bloqueio por Falha na Autenticação**, o **Bloqueio por Detecção de Roubo** e o **Bloqueio de Dispositivo Off-line** estão ativados. Se uma opção estiver esmaecida, seu celular não é compatível com ela. Para a lista completa, veja [as 5 principais configurações do Android para proteger seu celular contra roubo](/pt/blog/top_five_settings).
+
+## Perguntas frequentes
+
+### P: Existe um registro das tentativas de desbloqueio com falha no Android?
+R: Não. O Android só mantém um contador para o tempo de espera, e ele não aparece em lugar nenhum. Para ter um registro, você precisa de um app como o CrookCatcher, que salva cada tentativa com foto, horário e localização.
+
+### P: Quantas vezes dá para errar o PIN no Android?
+R: Nas versões recentes do Android, os 4 primeiros erros não têm espera. Depois, a espera vai de 1 minuto a dias, e após 20 erros nenhuma tentativa é permitida. Nos celulares Samsung com One UI 9, o bloqueio permanente acontece no 13º erro.
+
+### P: Meu celular se apaga sozinho depois de muitas tentativas erradas?
+R: Na maioria dos celulares, não por padrão. Alguns celulares Samsung têm uma opção de restauração automática de fábrica que apaga o celular depois de um certo número de erros. Se um celular esgota as tentativas, as páginas de ajuda do Google dizem que a única forma de voltar a usá-lo é apagá-lo.
+
+### P: Digitar o mesmo PIN errado duas vezes conta?
+R: Em muitos celulares mais novos, não. O Android 16 QPR2 e posteriores, e o One UI 9 da Samsung, ignoram tentativas erradas idênticas repetidas para você não ser bloqueado por engano.
+
+### P: Um app consegue ver as tentativas de desbloqueio com falha?
+R: Sim, se você der permissão. O Android avisa os apps com a permissão de Administrador do dispositivo sempre que um desbloqueio falha. É assim que o CrookCatcher sabe quando tirar a foto. Ele só usa a permissão para isso.
+
+### P: Tentativas com falha de impressão digital ou rosto contam?
+R: O CrookCatcher reage a um PIN, padrão ou senha errados, não a tentativas com falha de impressão digital ou reconhecimento facial.
+
+## Fontes
+
+- Google, Ajuda do Android: [Proteger seus dados pessoais contra roubo](https://support.google.com/android/answer/15146908?hl=pt-BR)
+- Android Open Source Project: [Lockscreen rate limiting](https://source.android.com/docs/security/features/authentication/rate-limiting) (em inglês)
+- Google, The Keyword: [New Android theft protection feature updates](https://blog.google/security/android-theft-protection-feature-updates/) (em inglês, janeiro de 2026)
+- Samsung: [One UI 9.0 lockscreen security policy changes](https://www.samsung.com/hk_en/support/mobile-devices/one-ui-9-lockscreen-security-policy/) (em inglês)
+- Google, Ajuda do Pixel: [Não é possível desbloquear o smartphone Pixel](https://support.google.com/pixelphone/answer/3388218?hl=pt-BR)
+- Android Developers: [DeviceAdminReceiver](https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver) (em inglês; como os apps são avisados das tentativas com falha)
+
+## Guias relacionados
+
+- [Como descobrir quem tentou desbloquear seu celular (e ver a foto da pessoa)](/pt/blog/see-who-tried-to-unlock-your-phone)
+- [As 5 principais configurações do Android para proteger seu celular contra roubo](/pt/blog/top_five_settings)
+- [Como impedir que ladrões desliguem seu celular](/pt/blog/block-power-menu)
+
+<PlayStoreButton />

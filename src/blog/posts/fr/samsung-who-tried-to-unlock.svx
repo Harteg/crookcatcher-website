@@ -1,0 +1,127 @@
+---
+title: Comment savoir qui a essayé de déverrouiller votre Samsung (2026)
+subtitle: Ce qu'enregistrent les téléphones Galaxy après un mauvais code PIN, et comment obtenir une photo de la personne
+dateUpdated: '2026-10-21'
+datePublished: '2026-10-21'
+description: "Les téléphones Samsung Galaxy ne montrent pas qui a essayé de les déverrouiller et ne gardent aucune liste des codes PIN erronés. Voici ce que fait One UI des tentatives ratées, les réglages Samsung à activer et comment recevoir une photo de la personne par e-mail."
+image: '/images/blog/samsung-who-tried-to-unlock-header-fr.png'
+imageAlt: "Comment savoir qui a essayé de déverrouiller votre Samsung : les téléphones Galaxy comptent les erreurs mais ne montrent jamais qui les a faites. CrookCatcher prend la personne en photo."
+published: false
+---
+
+<script>
+  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+</script>
+
+**Les téléphones Samsung Galaxy ne peuvent pas vous montrer qui a essayé de les déverrouiller.** One UI compte les erreurs de code PIN, de schéma et de mot de passe uniquement pour bloquer le téléphone de plus en plus longtemps. Il ne garde aucune liste consultable et ne prend jamais de photo. Pour savoir qui c'était, installez une app qui réagit aux déverrouillages ratés, comme [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-fr). Elle prend une photo avec la caméra frontale après un mauvais code PIN et vous l'envoie par e-mail avec la position.
+
+## Ce que fait votre Samsung après un mauvais code PIN
+
+La dernière politique d'écran de verrouillage de Samsung (One UI 9) fait patienter la personne plus longtemps à chaque erreur :
+
+| Erreurs | Attente avant le prochain essai |
+| --- | --- |
+| 5 | 1 minute |
+| 6 | 5 minutes |
+| 7 | 15 minutes |
+| 8 | 30 minutes |
+| 9 | 90 minutes |
+| 10 | 4 heures |
+| 11 | 12 heures |
+| 12 | 24 heures |
+| 13 | Le téléphone est bloqué définitivement |
+
+Après la 13e erreur, le téléphone ne redevient utilisable qu'après une réinitialisation d'usine, qui efface tout son contenu. Samsung ne peut pas récupérer votre code PIN.
+
+Quelques précisions de Samsung :
+
+- **Cela concerne les téléphones livrés avec One UI 9.** Les téléphones mis à jour vers One UI 9 gardent leur ancien fonctionnement jusqu'à une réinitialisation d'usine.
+- **Répéter la même saisie erronée ne compte plus.** Les erreurs identiques consécutives sont ignorées : un enfant qui tape le même code ne vous bloquera pas.
+- **L'écran de verrouillage vous avertit** du nombre d'essais restants quand quelqu'un approche de la limite.
+
+Cet avertissement, ou un message « Réessayez dans… », est le seul signe que quelqu'un a essayé. Il ne dit ni qui, ni quand, ni combien de fois.
+
+## Les réglages Samsung à activer
+
+Ils ne montrent pas qui a essayé, mais ils rendent votre téléphone bien plus difficile à forcer ou à emporter. Les noms peuvent varier légèrement selon le modèle et la version de One UI.
+
+### Protection contre le vol
+
+**Allez dans :**
+`Paramètres > Sécurité et confidentialité > Protection de l'appareil perdu > Protection contre le vol`
+
+- **Confirmation d'identité :** loin des lieux que vous avez définis comme sûrs (comme votre domicile), modifier les réglages de sécurité sensibles demande votre empreinte ou votre visage, pas seulement votre code PIN.
+- **Délai de sécurité :** fait partie de la Confirmation d'identité. Si quelqu'un tente de modifier vos données biométriques, la modification ne s'applique qu'au bout d'une heure, ce qui vous laisse le temps de verrouiller le téléphone à distance.
+- **Verrouillage en cas de vol :** verrouille l'écran si le téléphone détecte qu'il vous a été arraché.
+- **Verrouillage appareils hors ligne :** verrouille l'écran si un voleur maintient le téléphone déconnecté.
+
+### Paramètres de verrouillage sécurisé
+
+**Allez dans :**
+`Paramètres > Écran de verrouillage > Paramètres de verrouillage sécurisé` (saisissez votre code PIN)
+
+- **Verrouiller réseau et sécurité :** garde les fonctions réseau et sécurité verrouillées tant que le téléphone l'est, pour qu'un voleur ne puisse pas simplement couper la connexion ou l'éteindre depuis l'écran de verrouillage. Plus de détails dans [comment empêcher les voleurs d'éteindre votre téléphone](/fr/blog/block-power-menu).
+- **Réinitialisation automatique :** efface le téléphone après trop de tentatives de déverrouillage erronées (la page d'assistance de Samsung indique 15). Réfléchissez-y à deux fois si des enfants utilisent votre téléphone. Elle efface aussi les photos d'intrus stockées sur le téléphone, une raison de plus de les recevoir par e-mail.
+
+## Ce que Samsung ne peut pas vous dire
+
+- **Qui a essayé.** Aucune photo de la personne.
+- **Quand c'est arrivé**, ni combien de fois.
+- **Où se trouvait le téléphone** à ce moment-là.
+- **Une alerte au moment où ça se passe.**
+
+## Comment obtenir une photo de quiconque essaie de déverrouiller votre Samsung
+
+CrookCatcher comble exactement ce manque. Quand quelqu'un saisit un mauvais code PIN, schéma ou mot de passe, il prend une photo avec la caméra frontale, enregistre la position et une adresse approximative, et vous envoie le tout par e-mail. Chaque tentative est aussi enregistrée dans l'app avec son heure.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/email_preview.png" alt="E-mail d'alerte CrookCatcher avec la photo de l'intrus, l'heure de la tentative et une carte avec la position" />
+  <figcaption>L'e-mail envoyé par CrookCatcher après une tentative de déverrouillage ratée.</figcaption>
+</figure>
+
+**Configurez-le sur votre Galaxy :**
+
+1. **Installez CrookCatcher** depuis <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-fr" target="_blank" rel="noopener noreferrer">Google Play</a>. Aucun compte à créer.
+2. **Autorisez l'administrateur de l'appareil.** C'est par cette autorisation Android que l'app apprend qu'un déverrouillage a échoué. CrookCatcher ne l'utilise que pour cela.
+3. **Autorisez l'accès à la caméra et à la position.**
+4. **Connectez un compte Gmail** pour les e-mails d'alerte. CrookCatcher peut seulement *envoyer* des e-mails depuis ce compte, pas les lire.
+5. **Empêchez la mise en veille.** Samsung peut mettre des apps en veille pour économiser la batterie, ce qui peut bloquer les alertes. Ajoutez CrookCatcher aux **applications jamais mises en veille** : `Paramètres > Batterie > Limites d'utilisation en arrière-plan` (sur les modèles plus anciens, le chemin commence par `Paramètres > Maintenance de l'appareil > Batterie`).
+6. **Testez.** Verrouillez votre téléphone, saisissez volontairement un mauvais code PIN, puis déverrouillez-le. Votre propre photo devrait apparaître dans l'app et dans votre boîte mail.
+
+C'est vous qui choisissez au bout de combien d'erreurs CrookCatcher se déclenche. Depuis 2014, CrookCatcher a été téléchargé plus de 12 millions de fois et prend environ 1,2 million de photos d'intrus par jour.
+
+## Questions fréquentes
+
+### Q : Samsung propose-t-il une fonction de selfie de l'intrus intégrée ?
+R : Pas pour l'écran de verrouillage. Les réglages d'écran de verrouillage et de protection contre le vol de Samsung bloquent le téléphone après des erreurs, mais aucun ne prend la personne en photo ni ne garde la liste des tentatives. Pour cela, il vous faut une app comme CrookCatcher.
+
+### Q : Combien de codes PIN erronés un Samsung autorise-t-il ?
+R : Sur les téléphones livrés avec One UI 9, l'attente commence après 5 erreurs et le téléphone est bloqué définitivement à la 13e. Seule une réinitialisation d'usine le rend alors de nouveau utilisable. Les téléphones plus anciens et ceux mis à jour vers One UI 9 suivent leurs limites précédentes.
+
+### Q : Mon Samsung va-t-il s'effacer après trop d'erreurs ?
+R : Seulement si la réinitialisation automatique est activée dans les Paramètres de verrouillage sécurisé. Sur les téléphones sous One UI 9, épuiser les essais n'efface pas le téléphone de lui-même, mais vous devrez le réinitialiser pour l'utiliser à nouveau.
+
+### Q : CrookCatcher fonctionne-t-il avec l'empreinte digitale et la reconnaissance faciale de Samsung ?
+R : Oui, vous pouvez continuer à les utiliser. CrookCatcher réagit à un mauvais code PIN, schéma ou mot de passe. Les échecs d'empreinte ou de visage ne le déclenchent pas.
+
+### Q : La personne saura-t-elle qu'elle a été prise en photo ?
+R : CrookCatcher fonctionne en arrière-plan sans afficher d'aperçu de la caméra. Les versions récentes d'Android affichent un petit indicateur pendant que la caméra est utilisée ; c'est une fonction du système que les apps ne peuvent pas masquer.
+
+### Q : Pourquoi CrookCatcher n'envoie-t-il plus d'alertes sur mon Samsung ?
+R : En général parce que Samsung a mis l'app en veille pour économiser la batterie. Ajoutez-la aux applications jamais mises en veille (voir l'étape 5 ci-dessus) et testez à nouveau.
+
+## Sources
+
+- Samsung : [One UI 9.0 lockscreen security policy changes](https://www.samsung.com/hk_en/support/mobile-devices/one-ui-9-lockscreen-security-policy/) (en anglais)
+- Samsung : [What are the Secure Lock settings?](https://www.samsung.com/nz/support/mobile-devices/what-are-the-secure-lock-settings/) (en anglais)
+- Samsung : [Comment utiliser les paramètres de sécurité sur mon smartphone Galaxy](https://www.samsung.com/be_fr/support/mobile-devices/comment-utiliser-les-parametres-de-securite-sur-mon-smartphone-galaxy/)
+- Samsung : [Comment optimiser la durée de vie de la batterie sur un smartphone Galaxy](https://www.samsung.com/be_fr/support/mobile-devices/how-to-optimise-the-battery-life-on-a-galaxy-smartphone/)
+- Google, Aide Android : [Protéger vos données personnelles contre le vol](https://support.google.com/android/answer/15146908?hl=fr)
+
+## Guides associés
+
+- [Comment savoir qui a essayé de déverrouiller votre téléphone (et obtenir sa photo)](/fr/blog/see-who-tried-to-unlock-your-phone)
+- [Comment empêcher les voleurs d'éteindre votre téléphone](/fr/blog/block-power-menu)
+- [Les 5 réglages Android essentiels pour protéger votre téléphone contre le vol](/fr/blog/top_five_settings)
+
+<PlayStoreButton />

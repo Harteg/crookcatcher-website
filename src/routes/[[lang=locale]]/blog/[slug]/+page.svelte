@@ -279,6 +279,38 @@
     margin-bottom: 0;
   }
 
+  .post-content :global(table) {
+    width: 100%;
+    margin: 24px 0 32px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid var(--color-card-border);
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--color-card);
+    font-size: 0.95rem;
+  }
+
+  .post-content :global(th),
+  .post-content :global(td) {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid var(--color-card-border);
+  }
+
+  .post-content :global(th) {
+    color: var(--color-secondary);
+    font-weight: 600;
+  }
+
+  .post-content :global(td) {
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .post-content :global(tr:last-child td) {
+    border-bottom: none;
+  }
+
   .post-content :global(.blog-figure) {
     margin: 32px 0;
     border-radius: 12px;

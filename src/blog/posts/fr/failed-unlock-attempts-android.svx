@@ -1,0 +1,121 @@
+---
+title: Peut-on voir les tentatives de déverrouillage ratées sur Android ? (2026)
+subtitle: Ce qu'Android enregistre quand quelqu'un se trompe de code PIN, et comment savoir qui c'était
+dateUpdated: '2026-10-21'
+datePublished: '2026-10-21'
+description: "Android ne garde aucune liste des tentatives de déverrouillage ratées et ne montre jamais qui les a faites. Il compte seulement les erreurs pour bloquer le téléphone de plus en plus longtemps. Voici exactement ce que fait Android, et comment obtenir une photo de la personne."
+image: '/images/blog/failed-unlock-attempts-android-header-fr.png'
+imageAlt: "Peut-on voir les tentatives de déverrouillage ratées sur Android ? Android ne fait que les compter. CrookCatcher vous montre qui les a faites."
+published: false
+---
+
+<script>
+  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+</script>
+
+**Non. Android ne garde aucune liste des tentatives de déverrouillage ratées et ne montre jamais qui les a faites.** Il compte les erreurs de code PIN, de schéma et de mot de passe uniquement pour faire patienter la personne de plus en plus longtemps. Une fois le téléphone déverrouillé, il n'y a rien à consulter : ni liste, ni heure, ni photo. Pour voir les tentatives ratées, il vous faut une app prévenue à chaque échec de déverrouillage, comme [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-fr), qui prend la personne en photo et vous l'envoie par e-mail avec sa position.
+
+## Ce que fait Android après un mauvais code PIN
+
+Chaque erreur est comptée et, au bout de quelques-unes, l'écran de verrouillage fait patienter la personne. Sur les versions récentes d'Android (Android 16 QPR2 et versions ultérieures), le barème publié par Google est le suivant :
+
+| Erreurs | Attente avant le prochain essai |
+| --- | --- |
+| 1 à 4 | Aucune |
+| 5 | 1 minute |
+| 6 | 5 minutes |
+| 7 | 15 minutes |
+| 8 | 30 minutes |
+| 10 | 4 heures |
+| 12 | 36 heures |
+| 15 | 41 jours |
+| 20 | Plus aucun essai autorisé |
+
+Selon Google, Android 17 applique des limites encore plus strictes par défaut, et les fabricants peuvent définir les leurs. Sous One UI 9, Samsung bloque définitivement le téléphone à la 13e erreur ; seule une réinitialisation d'usine le rend alors de nouveau utilisable.
+
+Deux autres changements récents :
+
+- **Répéter le même code erroné ne compte plus** sur de nombreux téléphones récents. Android et Samsung ignorent les saisies erronées identiques : un enfant qui tape 1111 en boucle ne vous bloquera pas.
+- **Le Verrouillage en cas d'échec de l'authentification** (Android 15 et versions ultérieures, activé par défaut) verrouille l'écran quand l'authentification échoue à plusieurs reprises.
+
+Rien de tout cela ne vous est montré ensuite. Le compteur ne sert qu'à calculer les délais d'attente.
+
+## Les seuls indices qu'Android vous donne
+
+Si quelqu'un a essayé pendant votre absence, vous remarquerez peut-être :
+
+- **Un message « Réessayez dans… »** sur l'écran de verrouillage quand vous reprenez votre téléphone.
+- **Un avertissement sur les essais restants.** Les téléphones Samsung sous One UI 9 l'affichent quand quelqu'un approche de la limite.
+
+Ces indices vous disent qu'il s'est passé *quelque chose*. Pas quand, ni combien de fois, ni qui.
+
+## Ce qu'Android ne peut pas vous dire
+
+- **Qui c'était.** Ni photo, ni nom.
+- **Quand c'est arrivé**, ni combien de tentatives ont eu lieu.
+- **Où se trouvait le téléphone.**
+- **Une alerte au moment où ça se passe.** Vous ne le savez que si vous remarquez les indices ci-dessus.
+
+## Comment savoir qui a essayé de déverrouiller votre téléphone
+
+Android prévient les apps en cas d'échec. Une app à laquelle vous donnez l'autorisation **Administrateur de l'appareil** est avertie par le système chaque fois que quelqu'un saisit un mauvais code PIN, schéma ou mot de passe. C'est exactement ce qu'utilise CrookCatcher.
+
+Quand un déverrouillage échoue, CrookCatcher :
+
+- prend une photo avec la caméra frontale,
+- enregistre la position GPS et une adresse approximative,
+- enregistre le tout dans l'app avec l'heure, et
+- vous envoie tout par e-mail, pour que vous l'ayez même si le téléphone a disparu.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/email_preview.png" alt="E-mail d'alerte CrookCatcher avec la photo de l'intrus, l'heure de la tentative et une carte avec la position" />
+  <figcaption>L'e-mail envoyé par CrookCatcher après une tentative de déverrouillage ratée.</figcaption>
+</figure>
+
+C'est vous qui choisissez au bout de combien d'erreurs CrookCatcher se déclenche. L'app a été téléchargée plus de 12 millions de fois depuis 2014 et prend environ 1,2 million de photos d'intrus par jour. La configuration prend quelques minutes et ne demande aucun compte : consultez [comment savoir qui a essayé de déverrouiller votre téléphone](/fr/blog/see-who-tried-to-unlock-your-phone) pour les étapes détaillées.
+
+## Activez aussi la protection d'Android
+
+CrookCatcher vous dit qui a essayé. La protection contre le vol d'Android l'empêche de réussir. Activez les deux.
+
+**Allez dans :**
+`Paramètres > Google > Tous les services > Protection contre le vol`
+
+Vérifiez que **Verrouillage en cas d'échec de l'authentification**, **Verrouillage en cas de détection de vol** et **Verrouillage de l'appareil hors connexion** sont activés. Si une option est grisée, votre téléphone ne la prend pas en charge. Pour la liste complète, consultez [les 5 réglages Android essentiels pour protéger votre téléphone contre le vol](/fr/blog/top_five_settings).
+
+## Questions fréquentes
+
+### Q : Existe-t-il un historique des tentatives de déverrouillage ratées sur Android ?
+R : Non. Android ne garde qu'un compteur pour les délais d'attente, et il n'est affiché nulle part. Pour avoir un historique, il vous faut une app comme CrookCatcher, qui enregistre chaque tentative avec une photo, l'heure et la position.
+
+### Q : Combien de fois peut-on se tromper de code PIN sur Android ?
+R : Sur les versions récentes d'Android, les 4 premières erreurs n'entraînent aucune attente. Ensuite, l'attente passe d'une minute à plusieurs jours, et après 20 erreurs plus aucun essai n'est autorisé. Sur les téléphones Samsung sous One UI 9, le blocage définitif intervient à la 13e erreur.
+
+### Q : Mon téléphone va-t-il s'effacer après trop d'erreurs ?
+R : Pas par défaut sur la plupart des téléphones. Certains téléphones Samsung proposent une option de réinitialisation automatique qui efface le téléphone après un certain nombre d'erreurs. Si un téléphone n'a plus d'essais, les pages d'aide de Google indiquent que la seule solution est d'en effacer les données.
+
+### Q : Saisir deux fois le même code erroné compte-t-il ?
+R : Sur de nombreux téléphones récents, non. Android 16 QPR2 et versions ultérieures, ainsi que One UI 9 de Samsung, ignorent les saisies erronées identiques répétées pour éviter un blocage par erreur.
+
+### Q : Une app peut-elle voir les tentatives de déverrouillage ratées ?
+R : Oui, si vous lui en donnez l'autorisation. Android prévient les apps disposant de l'autorisation Administrateur de l'appareil à chaque échec de déverrouillage. C'est ainsi que CrookCatcher sait quand prendre une photo. Il n'utilise cette autorisation que pour cela.
+
+### Q : Les échecs d'empreinte digitale ou de reconnaissance faciale comptent-ils ?
+R : CrookCatcher réagit à un mauvais code PIN, schéma ou mot de passe, pas aux échecs d'empreinte digitale ou de reconnaissance faciale.
+
+## Sources
+
+- Google, Aide Android : [Protéger vos données personnelles contre le vol](https://support.google.com/android/answer/15146908?hl=fr)
+- Android Open Source Project : [Lockscreen rate limiting](https://source.android.com/docs/security/features/authentication/rate-limiting) (en anglais)
+- Google, The Keyword : [New Android theft protection feature updates](https://blog.google/security/android-theft-protection-feature-updates/) (en anglais, janvier 2026)
+- Samsung : [One UI 9.0 lockscreen security policy changes](https://www.samsung.com/hk_en/support/mobile-devices/one-ui-9-lockscreen-security-policy/) (en anglais)
+- Google, Aide Pixel : [Impossible de déverrouiller votre téléphone Pixel](https://support.google.com/pixelphone/answer/3388218?hl=fr)
+- Android Developers : [DeviceAdminReceiver](https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver) (en anglais ; comment les apps sont prévenues des tentatives ratées)
+
+## Guides associés
+
+- [Comment savoir qui a essayé de déverrouiller votre téléphone (et obtenir sa photo)](/fr/blog/see-who-tried-to-unlock-your-phone)
+- [Les 5 réglages Android essentiels pour protéger votre téléphone contre le vol](/fr/blog/top_five_settings)
+- [Comment empêcher les voleurs d'éteindre votre téléphone](/fr/blog/block-power-menu)
+
+<PlayStoreButton />

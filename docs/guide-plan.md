@@ -49,10 +49,10 @@ This is the cluster where CrookCatcher is the direct answer, because Android sho
 | # | Guide title | Main search | Slug | Status |
 | --- | --- | --- | --- | --- |
 | 1 | How to See Who Tried to Unlock Your Phone (and Get Their Photo) | who tried to unlock my phone | see-who-tried-to-unlock-your-phone | Published |
-| 2 | How to See Who Tried to Unlock Your Samsung Phone | samsung wrong password photo | samsung-who-tried-to-unlock | Planned |
-| 3 | How to See Who Tried to Unlock Your Pixel | pixel failed unlock attempts | pixel-who-tried-to-unlock | Planned |
+| 2 | How to See Who Tried to Unlock Your Samsung Phone | samsung wrong password photo | samsung-who-tried-to-unlock | Draft (in review) |
+| 3 | How to See Who Tried to Unlock Your Pixel | pixel failed unlock attempts | pixel-who-tried-to-unlock | Draft (in review) |
 | 4 | How to See Who Tried to Unlock Your Xiaomi Phone | xiaomi intruder selfie | xiaomi-who-tried-to-unlock | Planned |
-| 5 | Can You See Failed Unlock Attempts on Android? | see failed unlock attempts android | failed-unlock-attempts-android | Planned |
+| 5 | Can You See Failed Unlock Attempts on Android? | see failed unlock attempts android | failed-unlock-attempts-android | Draft (in review) |
 | 6 | How to Tell if Someone Went Through Your Android Phone | how to tell if someone went through my phone | signs-someone-went-through-your-phone | Planned |
 | 7 | How to Take a Picture of Someone Who Enters the Wrong Password | take picture wrong password android | photo-wrong-password | Planned |
 | 8 | What Is an Intruder Selfie and How Does It Work? | intruder selfie app | what-is-intruder-selfie | Planned |

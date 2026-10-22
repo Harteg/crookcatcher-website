@@ -23,7 +23,7 @@ Grow app installs through SEO: publish genuinely useful guides on the blog that 
 3. Honest section on Android's / Samsung's built-in options, with real steps.
 4. The gap: what built-in options can't do (typically no photo of the person, no email alert).
 5. How CrookCatcher fills the gap: short, with a screenshot of the intruder photo or email alert.
-6. FAQ with 4 to 6 real search questions. Note: post pages don't emit FAQPage schema yet; existing guides write the FAQ as `### Q:` / `A:` markdown. Adding schema support is an open task.
+6. FAQ with 4 to 6 real search questions, written as visible `### Q:` / `A:` markdown like the existing guides. Don't add FAQPage schema: since 2023 Google only shows FAQ rich results for government and health sites, so it gains nothing here. The visible Q&A is what helps (long-tail searches, AI overviews).
 7. Sources: links to the official Google / Samsung support pages used.
 8. Related guides: 2 to 3 internal links.
 9. One CTA at the end (`<PlayStoreButton />`), plus the site's existing header button.
@@ -54,17 +54,18 @@ The site is in English (root URLs), Brazilian Portuguese (`/pt`) and French (`/f
 
 - Follow `docs/guide-images.md`. Graphics with text or info (headline headers, checklists, alert mockups) are built by Claude Code as HTML and rendered to PNG with headless Chrome. Images without any text come from ChatGPT using the prompt in that doc.
 - Headers are 1600×840 (`static/images/blog/<slug>-header.png`); in-article checklists 1080×1350.
-- Then run `npm run optimize-images` (needs `cwebp`, installed with `brew install webp`). This creates the WebP versions the site serves and updates `src/lib/responsive-images.json`. Without it the image still works, but loads slower.
+- When the guide is published, run `npm run optimize-images` (needs `cwebp`, installed with `brew install webp`). It only processes published guides. It creates the WebP versions the site serves and updates `src/lib/responsive-images.json`; without it the image still works, but loads slower.
 - No real intruder faces in images; use the owner's own photo or pixelate/blur faces.
 
 ## Workflow
 
 - Draft guides in batches; the owner (Jakob) reviews every guide before it is published. Never publish unreviewed.
+- Drafts have `published: false`. They're left out of the build, index and sitemap, but open at their URL in `npm run dev` (e.g. `http://localhost:5173/blog/<slug>`) for review.
 - Publish about one guide per day, never a large batch at once.
 - After adding a guide:
   - add internal links to it from 1 to 3 related existing guides;
   - make sure it appears in the sitemap and the blog index;
-  - add its header image and run `npm run optimize-images`;
+  - add its header image, and run `npm run optimize-images` once it's published;
   - run `npm run build` and `npm run check`.
 - Verify every Android/Samsung/Google feature name and step against official support pages at the time of writing (names change, e.g. Find My Device is now Find Hub). Never invent steps.
 

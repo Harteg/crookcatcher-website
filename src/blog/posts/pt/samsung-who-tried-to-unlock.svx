@@ -1,0 +1,128 @@
+---
+title: Como descobrir quem tentou desbloquear seu Samsung (2026)
+subtitle: O que os celulares Galaxy registram depois de um PIN errado, e como conseguir uma foto da pessoa
+dateUpdated: '2026-10-21'
+datePublished: '2026-10-21'
+description: "Os celulares Samsung Galaxy não mostram quem tentou desbloqueá-los nem guardam uma lista das tentativas com PIN errado. Veja o que o One UI faz com as tentativas com falha, as configurações da Samsung que valem a pena ativar e como receber uma foto da pessoa por e-mail."
+image: '/images/blog/samsung-who-tried-to-unlock-header-pt.png'
+imageAlt: 'Como descobrir quem tentou desbloquear seu Samsung: os celulares Galaxy contam os erros, mas nunca mostram quem os cometeu. O CrookCatcher tira a foto da pessoa.'
+published: false
+---
+
+<script>
+  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+</script>
+
+**Os celulares Samsung Galaxy não conseguem mostrar quem tentou desbloqueá-los.** O One UI conta os erros de PIN, padrão e senha só para bloquear o celular por cada vez mais tempo. Ele não guarda uma lista que você possa consultar e nunca tira foto. Para ver quem foi, instale um app que reage a desbloqueios com falha, como o [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-pt). Ele tira uma foto com a câmera frontal depois de um PIN errado e envia para o seu e-mail com a localização.
+
+## O que o seu Samsung faz depois de um PIN errado
+
+A política de tela de bloqueio mais recente da Samsung (One UI 9) faz a pessoa esperar mais a cada erro:
+
+| Erros | Espera antes da próxima tentativa |
+| --- | --- |
+| 5 | 1 minuto |
+| 6 | 5 minutos |
+| 7 | 15 minutos |
+| 8 | 30 minutos |
+| 9 | 90 minutos |
+| 10 | 4 horas |
+| 11 | 12 horas |
+| 12 | 24 horas |
+| 13 | O celular é bloqueado permanentemente |
+
+Depois do 13º erro, o celular só volta a funcionar com uma restauração de fábrica, que apaga tudo. A Samsung não consegue recuperar seu PIN.
+
+Alguns detalhes da Samsung:
+
+- **Isso vale para celulares que já vêm com o One UI 9.** Celulares atualizados para o One UI 9 mantêm o comportamento antigo até serem restaurados para as configurações de fábrica.
+- **Repetir a mesma tentativa errada não conta de novo.** Tentativas erradas idênticas seguidas são ignoradas, então uma criança tocando o mesmo código não vai bloquear você.
+- **A tela de bloqueio avisa** quantas tentativas restam quando alguém se aproxima do limite.
+
+Esse aviso, ou uma mensagem de "Tente novamente em…", é o único sinal de que alguém tentou. Ele não diz quem, quando nem quantas vezes.
+
+## Configurações da Samsung que valem a pena ativar
+
+Elas não mostram quem tentou, mas deixam seu celular muito mais difícil de invadir ou levar embora. Os nomes podem variar um pouco conforme o modelo e a versão do One UI.
+
+### Proteção contra roubo
+
+**Acesse:**
+`Configurações > Segurança e privacidade > Proteção do aparelho perdido > Proteção contra roubo`
+
+- **Verificação de identidade:** longe dos lugares que você marcou como seguros (como sua casa), mudar configurações de segurança importantes exige sua impressão digital ou rosto, não só o PIN.
+- **Atraso de segurança:** faz parte da Verificação de identidade. Se alguém tentar mudar seus dados biométricos, a mudança só vale depois de uma hora, o que dá tempo para você bloquear o celular a distância.
+- **Bloqueio por detecção de roubo:** bloqueia a tela se o celular perceber que foi arrancado da sua mão.
+- **Bloqueio de dispositivo off-line:** bloqueia a tela se o ladrão mantiver o celular desconectado.
+
+### Configurações de bloqueio seguro
+
+**Acesse:**
+`Configurações > Tela de bloqueio > Configurações de bloqueio seguro` (digite seu PIN)
+
+- **Bloquear rede e segurança:** mantém as funções de rede e segurança travadas enquanto o celular está bloqueado, para que o ladrão não consiga simplesmente cortar a conexão ou desligá-lo pela tela de bloqueio. Saiba mais em [como impedir que ladrões desliguem seu celular](/pt/blog/block-power-menu).
+- **Restauração automática de fábrica:** apaga o celular depois de muitas tentativas de desbloqueio erradas (a página de suporte da Samsung fala em 15). Pense bem antes de ativar se crianças usam seu celular. Ela também apaga as fotos de intrusos guardadas no celular, mais um motivo para recebê-las por e-mail.
+
+## O que a Samsung não consegue dizer
+
+- **Quem tentou.** Nenhuma foto da pessoa.
+- **Quando aconteceu**, nem quantas vezes.
+- **Onde o celular estava** naquele momento.
+- **Um alerta na hora.**
+
+## Como conseguir uma foto de quem tenta desbloquear seu Samsung
+
+O CrookCatcher preenche exatamente essa lacuna. Quando alguém erra o PIN, o padrão ou a senha, ele tira uma foto com a câmera frontal, registra a localização e um endereço aproximado e envia os dois para o seu e-mail. Cada tentativa também fica salva no app com o horário.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/email_preview.png" alt="E-mail de alerta do CrookCatcher com a foto do intruso, o horário da tentativa e um mapa com a localização" />
+  <figcaption>O e-mail que o CrookCatcher envia depois de uma tentativa de desbloqueio com falha.</figcaption>
+</figure>
+
+**Configure no seu Galaxy:**
+
+1. **Instale o CrookCatcher** pelo <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-pt" target="_blank" rel="noopener noreferrer">Google Play</a>. Não é preciso criar conta.
+2. **Permita o Administrador do dispositivo.** É por essa permissão do Android que o app fica sabendo que um desbloqueio falhou. O CrookCatcher a usa só para isso.
+3. **Permita o acesso à câmera e à localização.**
+4. **Conecte uma conta do Gmail** para os e-mails de alerta. O CrookCatcher só consegue *enviar* e-mails por ela, não lê-los.
+5. **Mantenha o app ativo.** A Samsung pode suspender apps para economizar bateria, o que pode impedir os alertas. Adicione o CrookCatcher aos **Aplicativos nunca suspensos**: `Configurações > Bateria > Limites de uso em segundo plano > Aplicativos nunca suspensos` (em modelos mais antigos, o caminho começa em `Configurações > Assistência do aparelho e bateria > Bateria`).
+6. **Teste.** Bloqueie o celular, erre o PIN de propósito e depois desbloqueie. Sua própria foto deve aparecer no app e no seu e-mail.
+
+Você escolhe depois de quantos erros o CrookCatcher entra em ação. Desde 2014, o CrookCatcher já foi baixado mais de 12 milhões de vezes e tira cerca de 1,2 milhão de fotos de intrusos por dia.
+
+## Perguntas frequentes
+
+### P: A Samsung tem uma função nativa de selfie do intruso?
+R: Não para a tela de bloqueio. As configurações de tela de bloqueio e de proteção contra roubo da Samsung bloqueiam o celular depois de tentativas erradas, mas nenhuma tira foto da pessoa nem guarda uma lista das tentativas. Para isso, você precisa de um app como o CrookCatcher.
+
+### P: Quantas tentativas de PIN erradas um Samsung permite?
+R: Nos celulares que já vêm com o One UI 9, a espera começa depois de 5 erros e o celular é bloqueado permanentemente no 13º. Depois disso, só uma restauração de fábrica faz ele voltar a funcionar. Celulares mais antigos e os atualizados para o One UI 9 seguem os limites anteriores.
+
+### P: Meu Samsung se apaga sozinho depois de muitas tentativas erradas?
+R: Só se a restauração automática de fábrica estiver ativada nas Configurações de bloqueio seguro. Nos celulares com One UI 9, esgotar as tentativas não apaga o celular sozinho, mas você vai precisar restaurá-lo para voltar a usá-lo.
+
+### P: O CrookCatcher funciona com a impressão digital e o reconhecimento facial da Samsung?
+R: Sim, você pode continuar usando. O CrookCatcher reage a um PIN, padrão ou senha errados. Tentativas com falha de impressão digital ou rosto não o ativam.
+
+### P: A pessoa vai perceber que foi fotografada?
+R: O CrookCatcher funciona em segundo plano, sem mostrar a imagem da câmera. As versões recentes do Android mostram um pequeno indicador enquanto a câmera está em uso; é um recurso do sistema que os apps não conseguem esconder.
+
+### P: Por que o CrookCatcher parou de enviar alertas no meu Samsung?
+R: Geralmente porque a Samsung suspendeu o app para economizar bateria. Adicione-o aos **Aplicativos nunca suspensos** (veja o passo 5 acima) e teste de novo.
+
+## Fontes
+
+- Samsung: [One UI 9.0 lockscreen security policy changes](https://www.samsung.com/hk_en/support/mobile-devices/one-ui-9-lockscreen-security-policy/) (em inglês)
+- Samsung: [What are the Secure Lock settings?](https://www.samsung.com/nz/support/mobile-devices/what-are-the-secure-lock-settings/) (em inglês)
+- Samsung Newsroom Brasil: [Samsung incentiva usuários a ativar os recursos antirroubo mais recentes](https://news.samsung.com/br/samsung-incentiva-usuarios-a-ativar-os-recursos-antirroubo-mais-recentes-para-ajudar-a-combater-o-furto-de-smartphones)
+- Samsung: [How to use security settings on your phone](https://www.samsung.com/uk/support/mobile-devices/how-to-use-security-settings/) (em inglês)
+- Samsung: [Sleeping apps on your Galaxy device](https://www.samsung.com/us/support/answer/ANS00088422/) (em inglês)
+- Google, Ajuda do Android: [Proteger seus dados pessoais contra roubo](https://support.google.com/android/answer/15146908?hl=pt-BR)
+
+## Guias relacionados
+
+- [Como descobrir quem tentou desbloquear seu celular (e ver a foto da pessoa)](/pt/blog/see-who-tried-to-unlock-your-phone)
+- [Como impedir que ladrões desliguem seu celular](/pt/blog/block-power-menu)
+- [As 5 principais configurações do Android para proteger seu celular contra roubo](/pt/blog/top_five_settings)
+
+<PlayStoreButton />
