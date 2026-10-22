@@ -30,6 +30,8 @@ Algumas fabricantes incluem uma opção parecida de "foto do intruso" no própri
 
 Para ver quem tentou desbloquear seu celular, você precisa de um app que monitore a tela de bloqueio e reaja às tentativas com falha.
 
+Tem um Samsung Galaxy? Veja [como descobrir quem tentou desbloquear seu Samsung](/pt/blog/samsung-who-tried-to-unlock) para as configurações e os limites de tentativas da própria Samsung.
+
 ## Como tirar uma foto de quem errar a senha
 
 Veja como configurar com o CrookCatcher. Leva poucos minutos, e você não precisa criar conta.

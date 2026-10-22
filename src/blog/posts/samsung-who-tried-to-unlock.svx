@@ -1,12 +1,12 @@
 ---
 title: How to See Who Tried to Unlock Your Samsung Phone (2026)
 subtitle: What Galaxy phones record after a wrong PIN, and how to get a photo of the person
-dateUpdated: '2026-10-21'
-datePublished: '2026-10-21'
+dateUpdated: '2026-10-22'
+datePublished: '2026-10-22'
 description: "Samsung Galaxy phones don't show who tried to unlock them or keep a list of wrong PIN attempts. Here's what One UI does with failed attempts, the Samsung settings worth turning on, and how to get a photo of the person by email."
 image: '/images/blog/samsung-who-tried-to-unlock-header.png'
 imageAlt: 'How to see who tried to unlock your Samsung phone: Galaxy phones count wrong guesses but never show who made them. CrookCatcher takes their photo.'
-published: false
+published: true
 ---
 
 <script>

@@ -1,12 +1,12 @@
 ---
 title: Como descobrir quem tentou desbloquear seu Samsung (2026)
 subtitle: O que os celulares Galaxy registram depois de um PIN errado, e como conseguir uma foto da pessoa
-dateUpdated: '2026-10-21'
-datePublished: '2026-10-21'
+dateUpdated: '2026-10-22'
+datePublished: '2026-10-22'
 description: "Os celulares Samsung Galaxy não mostram quem tentou desbloqueá-los nem guardam uma lista das tentativas com PIN errado. Veja o que o One UI faz com as tentativas com falha, as configurações da Samsung que valem a pena ativar e como receber uma foto da pessoa por e-mail."
 image: '/images/blog/samsung-who-tried-to-unlock-header-pt.png'
 imageAlt: 'Como descobrir quem tentou desbloquear seu Samsung: os celulares Galaxy contam os erros, mas nunca mostram quem os cometeu. O CrookCatcher tira a foto da pessoa.'
-published: false
+published: true
 ---
 
 <script>

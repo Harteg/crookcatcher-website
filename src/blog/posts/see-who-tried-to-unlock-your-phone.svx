@@ -30,6 +30,8 @@ Some phone manufacturers include a similar "intruder photo" option in their own 
 
 To see who tried to unlock your phone, you need an app that watches the lock screen and reacts to failed attempts.
 
+Have a Samsung Galaxy? See [how to see who tried to unlock your Samsung phone](/blog/samsung-who-tried-to-unlock) for Samsung's own settings and lockout rules.
+
 ## How to take a photo of anyone who enters the wrong password
 
 This is how to set it up with CrookCatcher. It takes a few minutes, and you don't need to create an account.

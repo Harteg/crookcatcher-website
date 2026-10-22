@@ -1,12 +1,12 @@
 ---
 title: Comment savoir qui a essayé de déverrouiller votre Samsung (2026)
 subtitle: Ce qu'enregistrent les téléphones Galaxy après un mauvais code PIN, et comment obtenir une photo de la personne
-dateUpdated: '2026-10-21'
-datePublished: '2026-10-21'
+dateUpdated: '2026-10-22'
+datePublished: '2026-10-22'
 description: "Les téléphones Samsung Galaxy ne montrent pas qui a essayé de les déverrouiller et ne gardent aucune liste des codes PIN erronés. Voici ce que fait One UI des tentatives ratées, les réglages Samsung à activer et comment recevoir une photo de la personne par e-mail."
 image: '/images/blog/samsung-who-tried-to-unlock-header-fr.png'
 imageAlt: "Comment savoir qui a essayé de déverrouiller votre Samsung : les téléphones Galaxy comptent les erreurs mais ne montrent jamais qui les a faites. CrookCatcher prend la personne en photo."
-published: false
+published: true
 ---
 
 <script>

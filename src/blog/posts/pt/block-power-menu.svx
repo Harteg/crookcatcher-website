@@ -38,6 +38,8 @@ Ative. A partir de agora, quem tentar desligar seu celular pela tela de bloqueio
 
 > Observação: isso protege a tela de bloqueio. Se um ladrão pegar seu celular enquanto ele estiver *desbloqueado*, ainda vai conseguir desligá-lo, e é por isso que o passo 2 também é importante. A Samsung está testando uma atualização que exige o PIN para desligar em qualquer situação, e vamos atualizar este post quando ela for lançada.
 
+Em um Samsung, você também pode receber uma foto de quem errar o PIN: veja [como descobrir quem tentou desbloquear seu Samsung](/pt/blog/samsung-who-tried-to-unlock).
+
 ---
 
 ## 2. Todos os celulares Android: ative o Bloqueio por detecção de roubo e o Bloqueio do dispositivo off-line

@@ -38,6 +38,8 @@ Turn it on. From now on, anyone trying to power off your phone from the lock scr
 
 > Note: this protects the lock screen. If a thief grabs your phone while it's *unlocked*, they can still turn it off, which is why step 2 matters too. Samsung is testing an update that requires your PIN to power off in every situation, and we'll update this post once it's released.
 
+On a Samsung, you can also get a photo of anyone who enters the wrong PIN: see [how to see who tried to unlock your Samsung phone](/blog/samsung-who-tried-to-unlock).
+
 ---
 
 ## 2. All Android phones: Turn on Theft Detection Lock and Offline Device Lock

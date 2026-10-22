@@ -38,6 +38,8 @@ Activez-le. Désormais, toute personne qui essaie d'éteindre votre téléphone 
 
 > Remarque : cela protège l'écran de verrouillage. Si un voleur s'empare de votre téléphone pendant qu'il est *déverrouillé*, il peut encore l'éteindre ; c'est pourquoi l'étape 2 compte aussi. Samsung teste une mise à jour qui exigera votre code PIN pour éteindre le téléphone dans tous les cas, et nous mettrons cet article à jour dès sa sortie.
 
+Sur un Samsung, vous pouvez aussi obtenir une photo de quiconque saisit un mauvais code PIN : consultez [comment savoir qui a essayé de déverrouiller votre Samsung](/fr/blog/samsung-who-tried-to-unlock).
+
 ---
 
 ## 2. Tous les téléphones Android : activez le Verrouillage en cas de détection de vol et le Verrouillage de l'appareil hors connexion

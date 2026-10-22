@@ -49,7 +49,7 @@ This is the cluster where CrookCatcher is the direct answer, because Android sho
 | # | Guide title | Main search | Slug | Status |
 | --- | --- | --- | --- | --- |
 | 1 | How to See Who Tried to Unlock Your Phone (and Get Their Photo) | who tried to unlock my phone | see-who-tried-to-unlock-your-phone | Published |
-| 2 | How to See Who Tried to Unlock Your Samsung Phone | samsung wrong password photo | samsung-who-tried-to-unlock | Draft (in review) |
+| 2 | How to See Who Tried to Unlock Your Samsung Phone | samsung wrong password photo | samsung-who-tried-to-unlock | Published |
 | 3 | How to See Who Tried to Unlock Your Pixel | pixel failed unlock attempts | pixel-who-tried-to-unlock | Draft (in review) |
 | 4 | How to See Who Tried to Unlock Your Xiaomi Phone | xiaomi intruder selfie | xiaomi-who-tried-to-unlock | Planned |
 | 5 | Can You See Failed Unlock Attempts on Android? | see failed unlock attempts android | failed-unlock-attempts-android | Draft (in review) |
@@ -107,9 +107,10 @@ Already published:
 - #1 `see-who-tried-to-unlock-your-phone` (Sep 28, 2026)
 - #14 `block-power-menu` (Jan 19, 2025, updated Sep 28, 2026)
 - #16 `top_five_settings` (Aug 24, 2025)
+- #2 `samsung-who-tried-to-unlock` (Oct 22, 2026)
 - `phone-stolen-uk` and `phone-stolen-australia` (Sep 28, 2026), not in the tables above
 
-#1, #14 and #16 are also translated into Portuguese (`/pt`) and French (`/fr`).
+#1, #2, #14 and #16 are also translated into Portuguese (`/pt`) and French (`/fr`).
 
 Later, once the English guides show results:
 
