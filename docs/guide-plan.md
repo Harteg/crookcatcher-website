@@ -50,13 +50,18 @@ This is the cluster where CrookCatcher is the direct answer, because Android sho
 | --- | --- | --- | --- | --- |
 | 1 | How to See Who Tried to Unlock Your Phone (and Get Their Photo) | who tried to unlock my phone | see-who-tried-to-unlock-your-phone | Published |
 | 2 | How to See Who Tried to Unlock Your Samsung Phone | samsung wrong password photo | samsung-who-tried-to-unlock | Published |
-| 3 | How to See Who Tried to Unlock Your Pixel | pixel failed unlock attempts | pixel-who-tried-to-unlock | Draft (in review) |
+| 3 | How to See Who Tried to Unlock Your Pixel | pixel failed unlock attempts | pixel-who-tried-to-unlock | Ready to publish (en, pt, fr) |
 | 4 | How to See Who Tried to Unlock Your Xiaomi Phone | xiaomi intruder selfie | xiaomi-who-tried-to-unlock | Planned |
-| 5 | Can You See Failed Unlock Attempts on Android? | see failed unlock attempts android | failed-unlock-attempts-android | Draft (in review) |
+| 5 | Can You See Failed Unlock Attempts on Android? | see failed unlock attempts android | failed-unlock-attempts-android | Ready to publish (en, pt, fr) |
 | 6 | How to Tell if Someone Went Through Your Android Phone | how to tell if someone went through my phone | signs-someone-went-through-your-phone | Planned |
-| 7 | How to Take a Picture of Someone Who Enters the Wrong Password | take picture wrong password android | photo-wrong-password | Planned |
-| 8 | What Is an Intruder Selfie and How Does It Work? | intruder selfie app | what-is-intruder-selfie | Planned |
-| 9 | How to Catch Someone Snooping on Your Phone | catch someone snooping on my phone | catch-someone-snooping-phone | Planned |
+| 7 | How to Take a Picture of Someone Who Enters the Wrong Password | take picture wrong password android | — | Merged into #1 |
+| 8 | What Is an Intruder Selfie and How Does It Work? | intruder selfie app | — | Merged into #1 |
+| 9 | How to Catch Someone Snooping on Your Phone | catch someone snooping on my phone | — | Merged into #6 |
+
+**Merged topics.** #7, #8 and #9 target almost the same searches as existing or planned guides. Separate pages would compete with each other in Google, so their searches are covered inside those guides instead:
+
+- **#7 and #8 → #1.** "Take a picture of someone who enters the wrong password" and "intruder selfie" are what #1 already answers. To do: make sure #1 uses both phrasings naturally and add a short "What is an intruder selfie?" section or FAQ.
+- **#9 → #6.** "Catch someone snooping" and "tell if someone went through my phone" are the same reader. #6 covers the signs, then how to catch the person next time.
 
 ## Priority 2: Android's built-in theft features
 
