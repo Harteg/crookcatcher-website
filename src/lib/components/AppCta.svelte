@@ -11,7 +11,7 @@
   $: t = $page.data.ui.appCta;
 </script>
 
-<aside class="app-cta" aria-label="CrookCatcher">
+<aside class="app-cta theme-dark" aria-label="CrookCatcher">
   <img class="app-icon" src="/images/ic_launcher_512.png" alt="" width="64" height="64" loading="lazy" />
   <div class="app-body">
     <p class="app-name">CrookCatcher</p>

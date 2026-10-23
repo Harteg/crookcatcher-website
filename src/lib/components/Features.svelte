@@ -71,15 +71,15 @@
     margin-top: 24px;
     padding: 16px 0;
     border-radius: 12px 0 0 0;
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: 1px solid var(--color-divider);
+    border-top: 1px solid var(--color-divider);
   }
 
   .pro-col {
     background: var(--color-cc-dark-bg);
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: 1px solid var(--color-divider);
+    border-top: 1px solid var(--color-divider);
+    border-right: 1px solid var(--color-divider);
     border-radius: 12px 12px 0 0;
     padding: 40px 0 0 0;
   }

@@ -44,8 +44,8 @@
   .feature-row {
     display: grid;
     grid-template-columns: 1fr 120px 140px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid var(--color-divider);
+    border-left: 1px solid var(--color-divider);
   }
 
   .feature-row.first {
@@ -54,7 +54,7 @@
 
   .feature-row.last {
     border-radius: 0 0 12px 12px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid var(--color-divider);
   }
   
   @media (max-width: 840px) {
@@ -92,8 +92,8 @@
 
   .pro-check {
     background: var(--color-cc-dark-bg);
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
-    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: 1px solid var(--color-divider);
+    border-right: 1px solid var(--color-divider);
     height: 100%;
   }
 
@@ -102,7 +102,7 @@
   }
 
   .free-check {
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: 1px solid var(--color-divider);
   }
 
   .check-circle {

@@ -2,7 +2,14 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-:root {
+/*
+ * Colour themes. The site is dark (the brand). Reading pages (guides, help, legal) get
+ * html[data-theme="reading"] from hooks.server.ts and switch to light colours unless the
+ * reader's system is set to dark mode. Elements marked .theme-dark (header, footer, download
+ * cards) always keep the dark colours.
+ */
+:root,
+.theme-dark {
   --color-primary: #5EE08F;
   --color-on-primary: #0E1310;
   --color-primary-container: #18201B;
@@ -13,10 +20,45 @@
   --color-card: #18201B;
   --color-card-border: #243029;
   --color-body: #F2F5F2;
+  --color-body-soft: rgba(255, 255, 255, 0.8);
   --color-secondary: #A3B2A8;
+  --color-divider: rgba(255, 255, 255, 0.1);
+  --color-surface-tint: rgba(255, 255, 255, 0.05);
+  --icon-invert: 0;
+  --color-strong: var(--color-primary);
+  --border-color: #243029;
+}
+
+.theme-dark {
+  color: var(--color-body);
+}
+
+@media (prefers-color-scheme: light) {
+  html[data-theme='reading'] {
+    --color-primary: #13804A;
+    --color-on-primary: #FFFFFF;
+    --color-primary-container: #DDF4E6;
+    --color-on-primary-container: #0C5A32;
+    --color-dark-bg: #F4F7F5;
+    --color-cc-dark-bg: #FFFFFF;
+    --color-dark-green: #FFFFFF;
+    --color-card: #FFFFFF;
+    --color-card-border: #DCE4DF;
+    --color-body: #16201A;
+    --color-body-soft: #2F3D35;
+    --color-secondary: #56655B;
+    --color-divider: rgba(22, 32, 26, 0.12);
+    --color-surface-tint: rgba(22, 32, 26, 0.04);
+    --icon-invert: 1;
+    /* Bold text stays dark on light pages so only links are green */
+    --color-strong: var(--color-body);
+    --border-color: #DCE4DF;
+  }
+}
+
+:root {
   --section-spacing: 56px;
   --content-width: 1120px;
-  --border-color: #243029;
   --border: 1px solid var(--border-color);
   --border-radius: 16px;
 }
@@ -71,7 +113,7 @@ h6 { font-size: 1rem; }
 strong {
   font-family: "NexaBold", "Source Sans Pro", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
   font-weight: 700;
-  color: var(--color-primary);
+  color: var(--color-strong);
 }
 
 .nexa-bold,

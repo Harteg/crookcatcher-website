@@ -57,7 +57,7 @@
     }
     
     .share-text {
-      color: rgba(255, 255, 255, 0.7);
+      color: var(--color-secondary);
       font-size: 0.9rem;
     }
     
@@ -75,14 +75,19 @@
       border-radius: 8px;
       background: var(--color-cc-dark-bg);
       transition: all 0.2s ease;
-      border: none;
+      border: 1px solid var(--color-divider);
       padding: 0;
       cursor: pointer;
+    }
+
+    /* The icons are white SVGs; turn them dark on light pages. */
+    .share-button img {
+      filter: invert(var(--icon-invert));
     }
     
     .share-button:hover {
       transform: translateY(-2px);
-      background: rgba(255, 255, 255, 0.1);
+      background: var(--color-surface-tint);
     }
     
     .share-button img {

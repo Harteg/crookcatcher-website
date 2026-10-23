@@ -47,7 +47,7 @@
 
 </script>
 
-<header class="header-fixed">
+<header class="header-fixed theme-dark">
   <div class="header-row">
     <a href={localizePath('/', locale)} class="brand" on:click={closeMenu}>
       <img src="/images/crookcatcher_icon.svg" alt="" width="20" height="27" class="brand-icon" />

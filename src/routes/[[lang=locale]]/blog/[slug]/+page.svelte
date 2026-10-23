@@ -151,7 +151,7 @@
       padding: 40px;
       border-radius: 40px;
       margin-bottom: 40px;
-      border: 1px solid #ffffff24;
+      border: 1px solid var(--color-card-border);
     }
   }
   .post-image {
@@ -180,7 +180,7 @@
 
   .post-meta{
     margin-top: 32px;
-    max-width: 800px;
+    max-width: 720px;
     margin: 0 auto;
   }
 
@@ -190,22 +190,24 @@
     margin-top: 32px;
     margin-bottom: 16px;
     line-height: 2.5rem;
-    color: #fff;
+    color: var(--color-body);
     text-align: center;
   }
 
   .subtitle {
     text-align: center;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--color-body-soft);
     font-size: 1.2rem;
     line-height: 1.6;
     margin-bottom: 32px;
   }
 
+  /* ~75 characters per line, a comfortable length for long reading */
   .post-content{
-    max-width: 800px;
+    max-width: 620px;
     margin: 0 auto;
     margin-bottom: 128px;
+    font-size: 1.05rem;
   }
 
   .post-content :global(p) {
@@ -246,7 +248,7 @@
   .post-content :global(h3),
   .post-content :global(h4),
   .post-content :global(h5) {
-    color: #fff;
+    color: var(--color-body);
     margin-bottom: 8px;
     margin-top: 3.5rem;
   }
@@ -266,13 +268,13 @@
     margin: 0 0 24px;
     padding-left: 24px;
     list-style: disc;
-    color: #fff;
+    color: var(--color-body);
   }
 
   .post-content :global(li) {
     margin-bottom: 8px;
     line-height: 1.6;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--color-body-soft);
   }
 
   .post-content :global(li:last-child) {
@@ -283,13 +285,13 @@
     margin: 0 0 24px;
     padding-left: 24px;
     list-style: decimal;
-    color: #fff;
+    color: var(--color-body);
   }
 
   .post-content :global(ol li) {
     margin-bottom: 8px;
     line-height: 1.6;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--color-body-soft);
     padding-left: 12px;
   }
 
@@ -322,7 +324,7 @@
   }
 
   .post-content :global(td) {
-    color: rgba(255, 255, 255, 0.85);
+    color: var(--color-body-soft);
   }
 
   .post-content :global(tr:last-child td) {
@@ -334,7 +336,7 @@
     border-radius: 12px;
     overflow: hidden;
     background: var(--color-cc-dark-bg);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--color-divider);
   }
 
   .post-content :global(.blog-figure img) {
@@ -346,9 +348,9 @@
   .post-content :global(.blog-figure figcaption) {
     padding: 16px;
     text-align: center;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--color-body-soft);
     font-size: 14px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid var(--color-divider);
   }
 
   
@@ -369,11 +371,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 800px;
+    max-width: 620px;
     margin: 48px auto 0;
     padding-top: 24px;
     padding-bottom: 24px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid var(--color-divider);
   }
 
   @media (max-width: 600px) {
@@ -381,54 +383,6 @@
       flex-direction: column;
       gap: 16px;
       align-items: flex-start;
-    }
-  }
-
-  .faq-section {
-    padding: 64px 0;
-    background: var(--color-cc-dark-bg);
-    margin: 64px 0;
-    border-radius: var(--border-radius);
-    border: 2px solid rgba(255, 255, 255, 0.15);
-  }
-
-  .faq-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 32px;
-    margin-top: 32px;
-  }
-
-  .faq-item {
-    background: rgba(255, 255, 255, 0.05);
-    padding: 24px;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-  }
-
-  .faq-item h3 {
-    color: #fff;
-    font-size: 1.1rem;
-    margin-bottom: 12px;
-    font-weight: 600;
-  }
-
-  .faq-item p {
-    color: rgba(255, 255, 255, 0.8);
-    line-height: 1.6;
-    margin: 0;
-  }
-
-  @media (max-width: 840px) {
-    .faq-section {
-      margin: 32px 0;
-      border-radius: 0;
-      padding: 32px 16px;
-    }
-
-    .faq-grid {
-      grid-template-columns: 1fr;
-      gap: 16px;
     }
   }
 </style> 

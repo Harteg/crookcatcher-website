@@ -63,7 +63,7 @@
     margin: 0 auto;
     padding: 28px 32px;
     border-radius: var(--border-radius);
-    color: #fff;
+    color: var(--color-body);
     background: var(--color-card);
     border: 1px solid var(--color-card-border);
 
@@ -77,7 +77,7 @@
     width: 100%;
     padding: 16px 0;
     opacity: 0.5;
-    color: #fff;
+    color: var(--color-body);
     font-size: 0.7rem;
   }
 
@@ -91,17 +91,17 @@
   }
 
   a {
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--color-body-soft);
     text-decoration: none;
     transition: color 0.2s ease;
   }
 
   a:hover {
-    color: #fff;
+    color: var(--color-body);
   }
 
   a.active {
-    color: #fff;
+    color: var(--color-body);
     font-weight: 500;
   }
 
