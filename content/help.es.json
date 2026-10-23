@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Ayuda y preguntas frecuentes de CrookCatcher • App antirrobo para Android",
+    "description": "Obtén ayuda con CrookCatcher, la app para Android que toma fotos cuando alguien ingresa una contraseña incorrecta. Preguntas frecuentes y soporte.",
+    "canonical": "https://www.crookcatcher.app/es/help",
+    "ogImage": "https://www.crookcatcher.app/images/og-share.png"
+  },
+  "hero": {
+    "eyebrow": "Soporte",
+    "title": "Ayuda y preguntas frecuentes",
+    "lead": "Respuestas a las preguntas más comunes sobre cómo configurar y usar CrookCatcher."
+  },
+  "items": [
+    {
+      "id": "help-pictures",
+      "question": "CrookCatcher no toma fotos",
+      "answer": "<ul><li>Si estás probando CrookCatcher, ten en cuenta que Android solo detecta una contraseña o un patrón como incorrecto si tiene al menos 4 dígitos, caracteres o puntos del patrón.</li><li>Es posible que el fabricante de tu teléfono haya impuesto restricciones adicionales de ahorro de batería a CrookCatcher que le impiden funcionar en segundo plano. Para solucionarlo, sigue las instrucciones para tu dispositivo en <a href=\"https://dontkillmyapp.com\">www.dontkillmyapp.com</a>.</li></ul>"
+    },
+    {
+      "id": "help-erase",
+      "question": "¿CrookCatcher borrará todos los datos de mi teléfono o tablet si se ingresan demasiadas contraseñas incorrectas?",
+      "answer": "<p>No. CrookCatcher nunca borrará los datos de tu dispositivo.</p>"
+    },
+    {
+      "id": "help-gmail",
+      "question": "¿Por qué CrookCatcher necesita acceso a mi cuenta de Gmail?",
+      "answer": "<p>A diferencia de otras aplicaciones de seguridad, CrookCatcher no depende de un servidor de terceros para enviar correos. La privacidad es importante, por eso CrookCatcher usa el sistema de autorización de Google, OAuth 2.0, para enviar correos de forma segura directamente desde tu dispositivo. Esto no le da a CrookCatcher acceso a tus direcciones de correo ni a tus contactos. CrookCatcher solo usará este permiso para enviar correos de alerta de seguridad desde tu cuenta de Gmail a la dirección que elijas dentro de la app.</p>"
+    },
+    {
+      "id": "help-forgot",
+      "question": "Olvidé mi contraseña, PIN o patrón de bloqueo.",
+      "answer": "<p>La pantalla de bloqueo, y la contraseña asociada a ella, no forman parte de CrookCatcher. Si olvidaste tu contraseña, PIN o patrón, consulta el manual de usuario de tu dispositivo.</p>"
+    },
+    {
+      "id": "help-pro",
+      "question": "¿Ya compraste Pro?",
+      "answer": "<p>Si ya compraste Pro pero no aparece en la app, asegúrate de haber iniciado sesión en tu dispositivo con la misma cuenta de Google que usaste para comprarlo y luego toca el botón de restaurar en la página de configuración de CrookCatcher.</p>"
+    },
+    {
+      "id": "help-revoke",
+      "question": "¿Cómo revoco el acceso de CrookCatcher a Gmail o Drive?",
+      "answer": "<p>Abre la <a href=\"https://myaccount.google.com/permissions?hl=es-419\">configuración de tu Cuenta de Google</a> y selecciona CrookCatcher en la lista. Luego desplázate hasta abajo y elige eliminar las conexiones.</p>"
+    },
+    {
+      "id": "help-reboot",
+      "question": "¿No funciona después de reiniciar?",
+      "answer": "<p>Por las medidas de seguridad de Android, tienes que desbloquear el teléfono una vez después de reiniciarlo para que CrookCatcher pueda usar la cámara. Ojalá pudiera solucionarlo, pero lamentablemente no hay nada que yo pueda hacer.</p>"
+    },
+    {
+      "id": "help-payment",
+      "question": "Problemas con el pago",
+      "answer": "<p>¿Tienes problemas con un pago? Muchos se resuelven en el <a href=\"https://support.google.com/googleplay/answer/1267137?hl=es-419\">Centro de ayuda de pagos de Google Play</a>.</p>"
+    },
+    {
+      "id": "help-internet",
+      "question": "¿CrookCatcher necesita internet?",
+      "answer": "<p>CrookCatcher funciona sin conexión para detectar intentos de desbloqueo no autorizados y capturar los datos. Sin embargo, se necesita conexión a internet para enviar los correos de alerta. Por las restricciones de Android, lamentablemente CrookCatcher no puede activar ni desactivar los datos móviles o el Wi-Fi automáticamente cuando hace falta.</p>"
+    }
+  ],
+  "contact": {
+    "title": "¿Todavía necesitas ayuda?",
+    "text": "Envíame un correo y te responderé lo antes posible.",
+    "showEmail": "Mostrar la dirección de correo"
+  }
+}

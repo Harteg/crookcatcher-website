@@ -1,0 +1,125 @@
+---
+title: ¿Se pueden ver los intentos fallidos de desbloqueo en Android? (2026)
+subtitle: Qué registra Android cuando alguien ingresa un PIN incorrecto y cómo saber quién fue
+dateUpdated: '2026-10-23'
+datePublished: '2026-10-23'
+description: "Android no guarda una lista de los intentos fallidos de desbloqueo ni muestra quién los hizo. Solo cuenta los intentos para bloquear el teléfono cada vez más tiempo. Esto es exactamente lo que hace Android, y cómo obtener una foto de la persona."
+image: '/images/blog/failed-unlock-attempts-android-header-es.png'
+imageAlt: '¿Se pueden ver los intentos fallidos de desbloqueo en Android? Android solo cuenta los errores. CrookCatcher te muestra quién los cometió.'
+published: true
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**No. Android no guarda una lista de los intentos fallidos de desbloqueo y nunca muestra quién los hizo.** Cuenta los intentos con PIN, patrón o contraseña incorrectos solo para hacer esperar más a la persona antes de volver a intentarlo. Una vez que desbloqueas el teléfono, no hay nada que revisar: ni lista, ni hora, ni foto. Para ver los intentos fallidos necesitas una app que reciba un aviso cada vez que falla un desbloqueo, como [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-es), que toma una foto de la persona y te la envía por correo con la ubicación.
+
+## Qué hace Android con un PIN incorrecto
+
+Cada intento fallido se cuenta y, después de unos cuantos, la pantalla de bloqueo hace esperar a la persona. En las versiones recientes de Android (Android 16 QPR2 y posteriores), el calendario que publica Google es:
+
+| Intentos fallidos | Espera antes del siguiente intento |
+| --- | --- |
+| 1 a 4 | Ninguna |
+| 5 | 1 minuto |
+| 6 | 5 minutos |
+| 7 | 15 minutos |
+| 8 | 30 minutos |
+| 10 | 4 horas |
+| 12 | 36 horas |
+| 15 | 41 días |
+| 20 | No se permiten más intentos |
+
+Google dice que Android 17 usa límites aún más estrictos de forma predeterminada, y los fabricantes pueden fijar los suyos. One UI 9 de Samsung bloquea el teléfono de forma permanente en el 13.º intento fallido; después de eso, solo un restablecimiento de fábrica permite volver a usarlo.
+
+Hay dos cambios recientes más:
+
+- **Repetir el mismo PIN incorrecto no cuenta de nuevo** en muchos teléfonos nuevos. Tanto Android como Samsung ignoran los intentos idénticos, así que un niño que presiona 1111 una y otra vez no te dejará fuera.
+- **El Bloqueo por autenticación fallida** (Android 15 y posteriores, activado de forma predeterminada) bloquea la pantalla cuando los intentos de autenticación fallan de forma reiterada.
+
+Nada de esto se te muestra después. El contador solo existe para calcular los tiempos de espera.
+
+## Las únicas pistas que te da Android
+
+Si alguien lo intentó mientras no estabas, puede que notes:
+
+- **Un mensaje de "Vuelve a intentarlo en…"** en la pantalla de bloqueo cuando tomas el teléfono.
+- **Un aviso de los intentos que quedan.** Los teléfonos Samsung con One UI 9 lo muestran cuando alguien se acerca al límite.
+
+Estas pistas te dicen que *algo* pasó. No te dicen cuándo, cuántas veces ni quién.
+
+## Lo que Android no te puede decir
+
+- **Quién fue.** Ni foto, ni nombre.
+- **Cuándo ocurrió**, ni cuántos intentos hubo.
+- **Dónde estaba el teléfono.**
+- **Una alerta mientras ocurre.** Solo te enteras si notas las pistas anteriores.
+
+## Cómo saber quién intentó desbloquear tu teléfono
+
+Android sí permite que las apps sepan de los intentos fallidos. Una app a la que le das el permiso de **Administrador de dispositivos** recibe un aviso del sistema cada vez que alguien ingresa un PIN, patrón o contraseña incorrectos. CrookCatcher usa exactamente eso.
+
+Cuando falla un desbloqueo, CrookCatcher:
+
+- toma una foto con la cámara frontal,
+- registra la ubicación GPS y una dirección aproximada,
+- lo guarda en la app con la hora, y
+- te lo envía todo por correo, para que lo tengas aunque el teléfono desaparezca.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-es.webp" width="990" height="1024" loading="lazy" alt="Correo de alerta de CrookCatcher con la foto del intruso, la hora del intento y un mapa con la ubicación" />
+  <figcaption>El correo que envía CrookCatcher después de un intento fallido de desbloqueo.</figcaption>
+</figure>
+
+Tú eliges cuántos intentos fallidos deben ocurrir antes de que CrookCatcher actúe. Se ha descargado más de 12 millones de veces desde 2014 y toma alrededor de 1,2 millones de fotos de intrusos al día. La configuración toma unos minutos y no hay que crear ninguna cuenta: mira [cómo saber quién intentó desbloquear tu teléfono](/es/blog/see-who-tried-to-unlock-your-phone) para ver el paso a paso.
+
+<AppCta position="guide_mid" />
+
+## Activa también la protección de Android
+
+CrookCatcher te dice quién lo intentó. La protección antirrobo de Android hace que le resulte más difícil lograrlo. Activa las dos.
+
+**Ve a:**
+`Configuración > Google > Todos los servicios > Protección ante robo`
+
+En España, la ruta es `Ajustes > Google > Todos los servicios > Protección antirrobo`.
+
+Comprueba que estén activados el **Bloqueo por autenticación fallida**, el **Bloqueo por detección de robo** (en España, *Bloqueo antirrobo*) y el **Bloqueo de dispositivo sin conexión**. Si una opción aparece desactivada en gris, tu teléfono no es compatible. Para ver la lista completa, lee [5 ajustes antirrobo de Android para activar hoy](/es/blog/top_five_settings).
+
+## Preguntas frecuentes
+
+### P: ¿Hay un registro de los intentos fallidos de desbloqueo en Android?
+R: No. Android solo guarda un contador para el tiempo de espera, y no se muestra en ningún lado. Para tener un registro necesitas una app como CrookCatcher que guarde cada intento con una foto, la hora y la ubicación.
+
+### P: ¿Cuántas veces se puede ingresar un PIN incorrecto en Android?
+R: En las versiones recientes de Android, los primeros 4 intentos fallidos no tienen espera. Después, las esperas van de 1 minuto a varios días, y tras 20 intentos fallidos no se permiten más. Los teléfonos Samsung con One UI 9 se bloquean permanentemente en el 13.º intento fallido.
+
+### P: ¿Mi teléfono se borrará solo después de demasiados intentos fallidos?
+R: En la mayoría de los teléfonos, no de forma predeterminada. Algunos Samsung tienen la opción **Autorestablecer ajustes**, que borra el teléfono después de cierto número de intentos fallidos. Si un teléfono se queda sin intentos, las páginas de ayuda de Google indican que la única forma de volver a entrar es borrarlo.
+
+### P: ¿Cuenta dos veces si ingreso el mismo PIN incorrecto?
+R: En muchos teléfonos nuevos, no. Android 16 QPR2 y posteriores, y One UI 9 de Samsung, ignoran los intentos incorrectos idénticos repetidos para que no te quedes fuera por accidente.
+
+### P: ¿Una app puede ver los intentos fallidos de desbloqueo?
+R: Sí, si le das permiso. Android avisa a las apps que tienen el permiso de Administrador de dispositivos cada vez que falla un intento de desbloqueo. Así sabe CrookCatcher cuándo tomar una foto. Solo usa el permiso para eso.
+
+### P: ¿Cuentan los intentos fallidos con huella o reconocimiento facial?
+R: CrookCatcher reacciona a un PIN, patrón o contraseña incorrectos, no a los intentos fallidos con huella o reconocimiento facial.
+
+## Fuentes
+
+- Google, Ayuda de Android: [Cómo proteger tus datos personales ante robo](https://support.google.com/android/answer/15146908?hl=es-419)
+- Android Open Source Project: [Lockscreen rate limiting](https://source.android.com/docs/security/features/authentication/rate-limiting) (en inglés)
+- Google, The Keyword: [New Android theft protection feature updates](https://blog.google/security/android-theft-protection-feature-updates/) (enero de 2026, en inglés)
+- Samsung España: [Cambios en la política de seguridad de la pantalla de bloqueo de One UI 9.0](https://www.samsung.com/es/support/mobile-devices/one-ui-9-lockscreen-security-policy/)
+- Google, Ayuda de Teléfono Pixel: [No se puede desbloquear el teléfono Pixel](https://support.google.com/pixelphone/answer/3388218?hl=es-419)
+- Android Developers: [DeviceAdminReceiver](https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver) (cómo se avisa a las apps de los intentos fallidos, en inglés)
+
+## Guías relacionadas
+
+- [Cómo saber quién intentó desbloquear tu teléfono (y obtener su foto)](/es/blog/see-who-tried-to-unlock-your-phone)
+- [Cómo saber quién intentó desbloquear tu Samsung](/es/blog/samsung-who-tried-to-unlock)
+- [5 ajustes antirrobo de Android para activar hoy](/es/blog/top_five_settings)
+
+<AppCta position="guide_end" />

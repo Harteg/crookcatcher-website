@@ -25,7 +25,8 @@ type PostModule = { metadata: PostMeta; default: Component };
 const MODULES: Record<Locale, Record<string, () => Promise<unknown>>> = {
 	en: import.meta.glob('/src/blog/posts/*.svx'),
 	pt: import.meta.glob('/src/blog/posts/pt/*.svx'),
-	fr: import.meta.glob('/src/blog/posts/fr/*.svx')
+	fr: import.meta.glob('/src/blog/posts/fr/*.svx'),
+	es: import.meta.glob('/src/blog/posts/es/*.svx')
 };
 
 const slugOf = (path: string) => path.split('/').pop()!.slice(0, -4);

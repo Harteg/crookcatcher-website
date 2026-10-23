@@ -4,6 +4,8 @@ import reviewsEn from '$content/reviews.json';
 import reviewsPt from '$content/reviews.pt.json';
 import homeFr from '$content/home.fr.json';
 import reviewsFr from '$content/reviews.fr.json';
+import homeEs from '$content/home.es.json';
+import reviewsEs from '$content/reviews.es.json';
 import { listPosts } from '$lib/blog';
 import { localeEntries } from '$lib/i18n';
 
@@ -12,7 +14,8 @@ export const prerender = true;
 const CONTENT = {
 	en: { home: homeEn, reviews: reviewsEn },
 	pt: { home: homePt, reviews: reviewsPt },
-	fr: { home: homeFr, reviews: reviewsFr }
+	fr: { home: homeFr, reviews: reviewsFr },
+	es: { home: homeEs, reviews: reviewsEs }
 };
 
 export const entries = localeEntries;

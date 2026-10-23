@@ -28,7 +28,7 @@ const QUALITY = '82';
 const EXTRA_IMAGES = ['/images/hero-alert.png'];
 
 function publishedPostImages() {
-	const dirs = ['src/blog/posts', 'src/blog/posts/pt', 'src/blog/posts/fr'].map((d) => join(ROOT, d));
+	const dirs = ['src/blog/posts', 'src/blog/posts/pt', 'src/blog/posts/fr', 'src/blog/posts/es'].map((d) => join(ROOT, d));
 	const images = new Set();
 	for (const dir of dirs.filter(existsSync)) {
 		for (const file of readdirSync(dir).filter((f) => f.endsWith('.svx'))) {

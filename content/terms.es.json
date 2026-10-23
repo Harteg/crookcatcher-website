@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "Términos de uso • App CrookCatcher para Android",
+    "description": "Términos de uso de CrookCatcher, la app para Android que toma fotos cuando alguien ingresa una contraseña incorrecta.",
+    "canonical": "https://www.crookcatcher.app/es/terms"
+  },
+  "hero": {
+    "eyebrow": "Legal",
+    "title": "Términos de uso",
+    "lead": "Al descargar y usar CrookCatcher, aceptas los siguientes términos y condiciones. Léelos con atención."
+  },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Uso de la app",
+      "body": "<p>CrookCatcher está destinado únicamente a un uso personal y no comercial. Te comprometes a usar CrookCatcher conforme a todas las leyes y normas aplicables. No puedes modificar ni copiar los materiales de esta app ni usarlos con fines comerciales. Está prohibido intentar descompilar o aplicar ingeniería inversa a cualquier software incluido en la app.</p>"
+    },
+    {
+      "number": "2",
+      "title": "Propiedad y propiedad intelectual",
+      "body": "<p>Todos los materiales de CrookCatcher, incluidos los derechos de propiedad intelectual, son propiedad de Jakob Harteg o se le han concedido bajo licencia. No puedes usar ningún contenido de esta app sin el permiso expreso y por escrito de Jakob Harteg.</p>"
+    },
+    {
+      "number": "3",
+      "title": "Recopilación de datos",
+      "body": "<p>CrookCatcher recopila datos anónimos de los usuarios, salvo que lo desactives en la configuración de la app. Esto incluye métricas de seguimiento estándar con Google Analytics y Firebase, como cuándo se envía un correo y cómo navegas por la app. No se recopila, guarda ni comparte información privada o sensible. Consulta nuestra <a href=\"/es/privacy\">Política de privacidad</a> para más detalles.</p>"
+    },
+    {
+      "number": "4",
+      "title": "Exención de garantías",
+      "body": "<p>CrookCatcher se ofrece \"tal cual\", sin garantías de ningún tipo, expresas o implícitas. Esto incluye, entre otras, las garantías implícitas de comerciabilidad, idoneidad para un fin determinado y no infracción. Jakob Harteg no garantiza la exactitud ni la fiabilidad del contenido o del funcionamiento de la app.</p>"
+    },
+    {
+      "number": "5",
+      "title": "Limitación de responsabilidad",
+      "body": "<p>En ningún caso Jakob Harteg será responsable de los daños derivados del uso o de la imposibilidad de usar CrookCatcher, incluidos, entre otros, los daños directos, indirectos, incidentales, especiales o consecuentes, ni de la pérdida de datos, dispositivos o beneficios.</p>"
+    },
+    {
+      "number": "6",
+      "title": "Legislación aplicable",
+      "body": "<p>Cualquier reclamación o disputa relacionada con CrookCatcher se regirá por las leyes de Alemania, sin tener en cuenta sus normas sobre conflictos de leyes.</p>"
+    },
+    {
+      "number": "7",
+      "title": "Cambios en los términos de uso",
+      "body": "<p>Jakob Harteg se reserva el derecho de actualizar o cambiar estos términos en cualquier momento y sin previo aviso. Si sigues usando CrookCatcher después de los cambios, aceptas quedar sujeto a los términos actualizados.</p>"
+    },
+    {
+      "number": "8",
+      "title": "Acuerdo completo",
+      "body": "<p>Estos términos constituyen el acuerdo completo entre tú y Jakob Harteg en relación con CrookCatcher y sustituyen cualquier acuerdo anterior.</p>"
+    },
+    {
+      "number": "9",
+      "title": "Divisibilidad",
+      "body": "<p>Si alguna disposición de estos términos se considera inaplicable, las demás disposiciones seguirán vigentes.</p>"
+    },
+    {
+      "number": "10",
+      "title": "Planes de pago y reembolsos",
+      "body": "<p>Algunas funciones de CrookCatcher pueden ser de pago, ya sea una suscripción o un desbloqueo único. La empresa que realmente te cobra es aquella con la que hiciste la compra: normalmente Google Play para las compras dentro de la app de Android, o Paddle (u otro socio similar) si pagas en la web. Sus términos también se aplican a ese pago.</p><p>Si quieres un reembolso, cómo funciona y cuánto tiempo tienes dependen de esa misma empresa. Usa primero su centro de ayuda o su proceso de reembolso: suele ser el camino más rápido. También puedes contactar al soporte de CrookCatcher con tu recibo o los datos del pedido; te ayudaremos en lo que podamos, pero solo el proveedor de pago puede aprobar o rechazar el reembolso.</p><p>Una vez que ya tienes acceso a lo que compraste, no ofrecemos reembolsos por nuestra cuenta, salvo cuando Google Play, Paddle o la ley indiquen lo contrario.</p>"
+    }
+  ]
+}

@@ -30,7 +30,7 @@ type PageLike ={ route: { id: string | null }; params: Record<string, string>; d
 
 /**
  * Tracking for a Play link on the current page. On a guide every link is attributed to the
- * guide (medium=guide, campaign=slug, plus -pt/-fr for translations) so Play Console shows
+ * guide (medium=guide, campaign=slug, plus -pt/-fr/-es for translations) so Play Console shows
  * installs per guide; elsewhere medium=button and campaign is the button's position.
  */
 export function playTracking(page: PageLike, position = 'unknown') {

@@ -1,0 +1,128 @@
+{
+  "header": {
+    "mainNav": "Principal",
+    "guides": "Guías y tutoriales",
+    "help": "Ayuda",
+    "getApp": "Descargar la app",
+    "toggleMenu": "Abrir o cerrar el menú",
+    "language": "Idioma"
+  },
+  "footer": {
+    "help": "Ayuda",
+    "terms": "Términos de uso",
+    "privacy": "Política de privacidad"
+  },
+  "playBadgeAlt": "Disponible en Google Play",
+  "stars": "estrellas",
+  "starsLabel": "5 de 5 estrellas",
+  "recentPosts": {
+    "title": "Publicaciones recientes",
+    "viewAll": "Ver todas las publicaciones"
+  },
+  "breadcrumbHome": "Inicio",
+  "schema": {
+    "description": "CrookCatcher toma una foto del intruso cuando alguien ingresa un PIN, patrón o contraseña incorrectos, y te envía por correo su foto y la ubicación GPS. Gratis para Android.",
+    "featureList": [
+      "Toma fotos del intruso al ingresar un PIN, patrón o contraseña incorrectos",
+      "Envía las fotos y la ubicación GPS por correo electrónico",
+      "Funciona sin conexión",
+      "Configuración sencilla e interfaz intuitiva",
+      "Graba video de los intrusos",
+      "Muestra una pantalla de inicio falsa para engañar a los ladrones",
+      "Sube todas las fotos y videos a Google Drive"
+    ]
+  },
+  "blog": {
+    "metaTitle": "Guías y tutoriales • CrookCatcher, la app antirrobo",
+    "metaDescription": "Guías prácticas para proteger tu teléfono Android de los ladrones y saber qué hacer si te lo roban.",
+    "eyebrow": "Guías",
+    "title": "Guías y tutoriales",
+    "lead": "Guías prácticas para proteger tu teléfono Android de los ladrones y saber qué hacer si te lo roban.",
+    "latest": "Lo más reciente",
+    "readGuide": "Leer la guía",
+    "moreGuides": "Más guías",
+    "ctaTitle": "Prepárate antes de que pase",
+    "ctaText": "CrookCatcher toma una foto de quien ingrese un PIN, patrón o contraseña incorrectos y te la envía por correo con su ubicación. Gratis en Android.",
+    "breadcrumb": "Blog",
+    "share": "Compartir:",
+    "shareOn": "Compartir en {name}",
+    "shareEmail": "Compartir por correo"
+  },
+  "featureTable": {
+    "free": "Gratis",
+    "pro": "PRO",
+    "included": "Incluido",
+    "notIncluded": "No incluido",
+    "items": {
+      "takePicture": {
+        "title": "Tomar fotos",
+        "description": "Toma una foto cuando alguien ingresa una contraseña, PIN o patrón incorrectos."
+      },
+      "location": {
+        "title": "Obtener ubicación",
+        "description": "Localiza el teléfono por GPS cuando se toma la foto."
+      },
+      "email": {
+        "title": "Enviar correo de alerta",
+        "description": "Recibe las fotos y la ubicación por correo electrónico."
+      },
+      "video": {
+        "title": "Grabación de video",
+        "description": "Con la grabación de video tienes más probabilidades de ver bien al intruso, e incluso de reconocer su voz y el lugar donde está."
+      },
+      "drive": {
+        "title": "Subida a Google Drive",
+        "description": "Sube fotos y videos directamente a tu Google Drive para verlos fácilmente desde cualquier dispositivo."
+      },
+      "backCamera": {
+        "title": "Cámara trasera",
+        "description": "Identifica el entorno del intruso con fotos de la cámara trasera."
+      },
+      "alertMessage": {
+        "title": "Mensaje de alerta",
+        "description": "Muestra un mensaje personalizado en la pantalla de bloqueo cuando se toma una foto. Puedes pedirle al ladrón que devuelva tu teléfono o avisarle que mostrarás su foto a la policía."
+      },
+      "soundAlarm": {
+        "title": "Sonido de alarma",
+        "description": "Reproduce una alarma personalizada a todo volumen cuando alguien ingresa una contraseña incorrecta."
+      },
+      "fakeHomeScreen": {
+        "title": "Pantalla de inicio falsa",
+        "description": "Muestra una pantalla de inicio falsa cuando alguien ingresa una contraseña incorrecta. El ladrón creerá que desbloqueó tu teléfono y, cuando empiece a tocar la pantalla, se tomarán más fotos."
+      },
+      "appLock": {
+        "title": "Bloqueo de la app",
+        "description": "Protege el acceso a CrookCatcher con un patrón."
+      },
+      "disguiseApp": {
+        "title": "Disfrazar la app",
+        "description": "Cambia el ícono y el nombre de la app para que parezca un explorador de archivos, así los intrusos no sabrán que tienes CrookCatcher instalado."
+      },
+      "breakIn": {
+        "title": "Detección de intrusión",
+        "description": "Toma una foto y envía un correo de alerta si el ladrón adivina la contraseña correcta después de haber fallado."
+      },
+      "emailSubject": {
+        "title": "Asunto de correo personalizado",
+        "description": "Cambia el asunto del correo de alerta para que los ladrones no vean notificaciones que te delaten."
+      },
+      "hideNotifications": {
+        "title": "Ocultar notificaciones",
+        "description": "Muestra las notificaciones de alerta solo después de un desbloqueo correcto. Así el ladrón no sabrá que lo descubriste."
+      },
+      "noAds": {
+        "title": "Sin anuncios",
+        "description": "Disfruta de la app sin anuncios y apoya el desarrollo de CrookCatcher."
+      }
+    }
+  },
+  "appCta": {
+    "title": "Obtén una foto de quien intente desbloquear tu teléfono",
+    "text": "CrookCatcher toma una foto del intruso tras un PIN, patrón o contraseña incorrectos y te la envía por correo con la ubicación.",
+    "facts": [
+      "Gratis",
+      "4,6★ · más de 90 mil calificaciones",
+      "Más de 12 millones de descargas"
+    ]
+  }
+}

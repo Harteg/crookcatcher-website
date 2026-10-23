@@ -1,0 +1,151 @@
+---
+title: 5 ajustes antirrobo de Android para activar hoy (2026)
+subtitle: Los ajustes integrados que hacen que un Android robado no le sirva al ladrón, y lo que aún no pueden hacer
+dateUpdated: '2026-10-23'
+datePublished: '2025-08-24'
+description: "Los cinco ajustes de Android que más te protegen si te roban el teléfono: un bloqueo de pantalla seguro, la protección ante robo, el Bloqueo remoto, el Localizador y la Verificación de identidad. Dónde encontrar cada uno y lo que todavía no pueden decirte."
+image: '/images/blog/theft_settings_header.jpeg'
+imageAlt: 'Ajustes de protección antirrobo de Android y consejos de CrookCatcher'
+published: true
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Los cinco ajustes de Android que más te protegen contra robos son: un PIN de 6 dígitos o una contraseña, la protección ante robo (Bloqueo por detección de robo, Bloqueo de dispositivo sin conexión y Bloqueo por autenticación fallida), el Bloqueo remoto, el Localizador (Find Hub) y la Verificación de identidad.** Juntos bloquean un teléfono arrebatado, te permiten bloquearlo o ubicarlo desde otro dispositivo e impiden que el ladrón desactive tu protección. Todos son gratis y vienen integrados en Android. Actívalos ahora; la mayoría toma menos de un minuto. Lo que ninguno hace es mostrarte quién intentó entrar en tu teléfono, y ahí es donde entra una app como CrookCatcher.
+
+En los teléfonos con Android en español de Latinoamérica, la app de configuración se llama **Configuración**; en España, **Ajustes**. Abajo usamos los nombres de Latinoamérica y, cuando cambian, indicamos los de España.
+
+## 1. Usa un bloqueo de pantalla seguro
+
+Todo lo demás depende de tu bloqueo de pantalla. Si un ladrón puede adivinarlo, puede desactivar cualquier otro ajuste.
+
+- **Usa un PIN de 6 dígitos o una contraseña**, no un PIN de 4 dígitos. Un PIN de 4 dígitos tiene 10 000 combinaciones posibles; uno de 6 dígitos tiene 1 000 000.
+- **Evita códigos fáciles** como 1234, 0000, 1111 o tu fecha de nacimiento.
+- **El patrón es la opción más débil.** La gente suele dibujar formas simples, y un patrón es fácil de ver por encima del hombro.
+
+**En un Pixel, ve a:**
+`Configuración > Seguridad y privacidad > Bloqueo del dispositivo > Bloqueo de pantalla`
+
+En otros teléfonos, abre la configuración y busca "Bloqueo de pantalla".
+
+La huella y el reconocimiento facial son cómodos, pero detrás sigue haciendo falta un PIN o una contraseña seguros. Es lo que Android te pide después de reiniciar y cuando el teléfono se bloquea por seguridad.
+
+Las versiones recientes de Android también hacen que adivinar sea lento: después de unos cuantos intentos fallidos, el teléfono hace esperar a la persona, y las esperas llegan a durar días. Lee [qué hace Android con los intentos fallidos de desbloqueo](/es/blog/failed-unlock-attempts-android) para ver los detalles.
+
+## 2. Activa la protección ante robo
+
+La protección ante robo de Android bloquea tu teléfono automáticamente en las situaciones que aprovechan los ladrones.
+
+**Ve a:**
+`Configuración > Google > Todos los servicios > Protección ante robo`
+
+En España: `Ajustes > Google > Todos los servicios > Protección antirrobo`.
+
+Activa:
+
+- **Bloqueo por detección de robo** (en España, *Bloqueo antirrobo*): bloquea la pantalla si el teléfono detecta que alguien te lo arrebató y salió corriendo.
+- **Bloqueo de dispositivo sin conexión:** bloquea la pantalla poco después de que el teléfono pierda la conexión, por ejemplo cuando un ladrón activa el modo avión.
+- **Bloqueo por autenticación fallida:** bloquea la pantalla cuando los intentos de desbloqueo fallan de forma reiterada. Viene activado de forma predeterminada.
+
+Si una opción aparece desactivada en gris, tu teléfono no es compatible. Estas funciones requieren Android 10 o posterior, y algunas, Android 15 o posterior. En los Samsung Galaxy, Samsung también tiene su propio menú de Protección contra robos; mira [cómo saber quién intentó desbloquear tu Samsung](/es/blog/samsung-who-tried-to-unlock) para saber dónde está.
+
+<figure class="blog-figure">
+  <img src="/images/blog/settings_theft.jpeg" alt="Ajustes de protección ante robo en Android" />
+  <figcaption>Ajustes de protección ante robo en Android</figcaption>
+</figure>
+
+## 3. Activa el Bloqueo remoto
+
+Si te roban el teléfono, el Bloqueo remoto te permite bloquearlo desde cualquier navegador en [android.com/lock](https://www.android.com/lock), solo con tu número de teléfono. No necesitas la contraseña de Google, lo que ayuda si tus contraseñas están guardadas en el teléfono robado.
+
+**Ve a:**
+`Configuración > Google > Todos los servicios > Protección ante robo > Bloqueo remoto`
+
+Actívalo y agrega la **Pregunta de seguridad (opcional)** para que nadie más pueda bloquear tu teléfono solo con tu número. El Bloqueo remoto necesita que el teléfono tenga una SIM, esté conectado a internet y tenga activado el Localizador.
+
+<figure class="blog-figure">
+  <img src="/images/blog/settings_remote_lock.jpeg" alt="Página android.com/lock que pide el número de teléfono" />
+  <figcaption>Bloqueo remoto en android.com/lock</figcaption>
+</figure>
+
+## 4. Comprueba que el Localizador esté activado
+
+El Localizador de Google (Find Hub, antes Encontrar mi dispositivo) muestra en un mapa dónde está tu teléfono y te permite hacerlo sonar, bloquearlo o borrarlo desde otro dispositivo en [google.com/android/find](https://www.google.com/android/find).
+
+Suele estar activado de forma predeterminada cuando inicias sesión con una cuenta de Google, pero compruébalo: abre la configuración y busca "Localizador". Asegúrate de que esté activado y de que la ubicación esté permitida.
+
+<figure class="blog-figure">
+  <img src="/images/blog/find_hub.png" alt="El Localizador de Google mostrando la ubicación de un teléfono en un mapa" />
+  <figcaption>El Localizador mostrando la ubicación del teléfono</figcaption>
+</figure>
+
+## 5. Activa la Verificación de identidad
+
+Si un ladrón conoce tu PIN, por ejemplo porque te vio escribirlo, la Verificación de identidad le impide desactivar tu protección. Fuera de los lugares de confianza, pide tu huella o tu rostro antes de acciones sensibles, como cambiar el bloqueo de pantalla, desactivar el Localizador o la protección ante robo, o restablecer el teléfono.
+
+La encontrarás en `Configuración > Google > Todos los servicios > Protección ante robo` en los teléfonos compatibles.
+
+## Lo que estos ajustes no pueden hacer
+
+Estos ajustes bloquean el teléfono y te ayudan a encontrarlo. No te dicen:
+
+- **Quién intentó entrar en tu teléfono.** Android no guarda ningún registro ni toma fotos.
+- **Cuándo ocurrió**, ni cuántas veces.
+- **Dónde estaba el teléfono** en ese momento.
+
+Además, solo ayudan cuando el teléfono ya no está. La mayoría de la gente quiere saberlo antes: quién tomó el teléfono mientras no estaba, o quién intentó adivinar su PIN.
+
+## Sabe quién intentó desbloquear tu teléfono
+
+CrookCatcher cubre ese vacío. Cuando alguien ingresa un PIN, patrón o contraseña incorrectos, toma una foto con la cámara frontal, registra la ubicación GPS y una dirección aproximada, y te envía ambas cosas por correo. La foto y la ubicación ya están en tu bandeja de entrada aunque el teléfono se apague un minuto después, y puedes compartirlas con la policía.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-es.webp" width="990" height="1024" loading="lazy" alt="Correo de alerta de CrookCatcher con la foto del intruso, la hora del intento y un mapa con la ubicación" />
+  <figcaption>El correo que envía CrookCatcher después de un intento fallido de desbloqueo.</figcaption>
+</figure>
+
+Se ha descargado más de 12 millones de veces desde 2014 y toma alrededor de 1,2 millones de fotos de intrusos al día. La configuración toma unos minutos: mira [cómo saber quién intentó desbloquear tu teléfono](/es/blog/see-who-tried-to-unlock-your-phone).
+
+<AppCta position="guide_mid" />
+
+## Más formas de hacer tu teléfono más difícil de robar
+
+- **Quita el modo avión de la configuración rápida**, para que un ladrón no pueda cortar la conexión deslizando el dedo. Mira [cómo impedir que los ladrones apaguen tu teléfono](/es/blog/block-power-menu).
+- **Bloquea tu tarjeta SIM con un PIN** (`Configuración > Seguridad y privacidad > Más parámetros de configuración de seguridad > Bloqueo de SIM`; en España, `Más ajustes de seguridad`), para que un ladrón no pueda usar tu número para recibir tus códigos.
+- **Oculta el contenido de las notificaciones en la pantalla de bloqueo** (`Configuración > Seguridad y privacidad > Más parámetros de configuración de seguridad > Notificaciones en la pantalla de bloqueo`), para que los códigos de seguridad no se vean con el teléfono bloqueado.
+- **Mantén tu teléfono actualizado**, porque las nuevas funciones antirrobo llegan con las actualizaciones de Android.
+
+## Preguntas frecuentes
+
+### P: ¿Cuál es el ajuste antirrobo más importante en Android?
+R: Un bloqueo de pantalla seguro. Un PIN de 6 dígitos o una contraseña protegen todo lo demás; si un ladrón puede adivinar tu bloqueo, puede desactivar el resto.
+
+### P: ¿Android tiene protección antirrobo integrada?
+R: Sí. La protección ante robo incluye el Bloqueo por detección de robo, el Bloqueo de dispositivo sin conexión y el Bloqueo por autenticación fallida, y puedes agregar el Bloqueo remoto y la Verificación de identidad. Están en Configuración > Google > Todos los servicios > Protección ante robo.
+
+### P: ¿Estos ajustes funcionan en los teléfonos Samsung?
+R: La protección ante robo de Google funciona en la mayoría de los teléfonos Android, incluidos los Samsung. Los Samsung Galaxy también tienen su propio menú de Protección contra robos en Ajustes > Seguridad y privacidad > Protección del dispositivo perdido.
+
+### P: ¿Un ladrón todavía puede apagar mi teléfono?
+R: A veces, desde la pantalla de bloqueo. Algunos teléfonos, incluidos muchos modelos de Samsung, pueden pedir tu PIN para apagarse. Lee [cómo impedir que los ladrones apaguen tu teléfono](/es/blog/block-power-menu).
+
+### P: ¿Necesito una app antirrobo si uso estos ajustes?
+R: Los ajustes protegen tus datos y te ayudan a ubicar el teléfono. No pueden mostrarte quién intentó desbloquearlo. Una app como CrookCatcher agrega una foto, la ubicación y una alerta por correo en el momento en que alguien lo intenta.
+
+## Fuentes
+
+- Google, Ayuda de Android: [Cómo proteger tus datos personales ante robo](https://support.google.com/android/answer/15146908?hl=es-419)
+- Google, Ayuda de Android: [Cómo borrar, encontrar o proteger un dispositivo Android perdido](https://support.google.com/android/answer/6160491?hl=es-419)
+- Google, Ayuda de Google Pixel Tablet: [Configuración de seguridad y privacidad en tu Pixel Tablet](https://support.google.com/googlepixeltablet/answer/13555549?hl=es-419) (la ruta de Bloqueo del dispositivo)
+- Google: [Localizador (Find Hub)](https://www.google.com/android/find)
+- Google: [Bloqueo remoto (android.com/lock)](https://www.android.com/lock)
+
+## Guías relacionadas
+
+- [¿Se pueden ver los intentos fallidos de desbloqueo en Android?](/es/blog/failed-unlock-attempts-android)
+- [Cómo saber quién intentó desbloquear tu Samsung](/es/blog/samsung-who-tried-to-unlock)
+- [Cómo saber quién intentó desbloquear tu teléfono (y obtener su foto)](/es/blog/see-who-tried-to-unlock-your-phone)
+
+<AppCta position="guide_end" />

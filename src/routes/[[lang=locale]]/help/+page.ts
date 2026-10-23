@@ -1,11 +1,12 @@
 import helpEn from '$content/help.en.json';
 import helpPt from '$content/help.pt.json';
 import helpFr from '$content/help.fr.json';
+import helpEs from '$content/help.es.json';
 import { localeEntries } from '$lib/i18n';
 
 export const prerender = true;
 
-const CONTENT = { en: helpEn, pt: helpPt, fr: helpFr };
+const CONTENT = { en: helpEn, pt: helpPt, fr: helpFr, es: helpEs };
 
 export const entries = localeEntries;
 

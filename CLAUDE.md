@@ -22,7 +22,7 @@ Grow app installs through SEO: publish genuinely useful guides on the blog that 
 2. Opening paragraph fully answers the question on its own (this is what search snippets and AI overviews quote).
 3. Honest section on Android's / Samsung's built-in options, with real steps.
 4. The gap: what built-in options can't do (typically no photo of the person, no email alert).
-5. How CrookCatcher fills the gap: short, with the real email alert screenshot (`/images/hero-alert-800.webp` with its srcset in English, `/images/blog/email-alert-pt.webp` / `email-alert-fr.webp` in translations; copy the `<figure>` from an existing guide). End this section with `<AppCta position="guide_mid" />`, the download card, where the reader has just understood the gap.
+5. How CrookCatcher fills the gap: short, with the real email alert screenshot (`/images/hero-alert-800.webp` with its srcset in English, `/images/blog/email-alert-pt.webp` / `email-alert-fr.webp` / `email-alert-es.webp` in translations; copy the `<figure>` from an existing guide). End this section with `<AppCta position="guide_mid" />`, the download card, where the reader has just understood the gap.
 6. FAQ with 4 to 6 real search questions, written as visible `### Q:` / `A:` markdown like the existing guides. Don't add FAQPage schema: since 2023 Google only shows FAQ rich results for government and health sites, so it gains nothing here. The visible Q&A is what helps (long-tail searches, AI overviews).
 7. Sources: links to the official Google / Samsung support pages used.
 8. Related guides: 2 to 3 internal links.
@@ -38,18 +38,19 @@ so Play Console shows installs per guide. The referrer value must stay URL-encod
 
 - `<AppCta />`, `<PlayStoreButton />` and the header button build this automatically from the page (`src/lib/play-store.ts`). Don't pass tracking props in guides beyond `AppCta`'s `position`.
 - Click tracking (Google Analytics event `play_store_button_click`, DataFast goal `play_store_click`) records which link was clicked: `header`, `guide_mid`, `guide_end`, or `guide_text` for Play links written in the guide's text. Compare these in DataFast to see what converts.
-- Hand-written links in a guide's text use the format above. Translated guides use the slug plus the language: `<slug>-pt`, `<slug>-fr`.
+- Hand-written links in a guide's text use the format above. Translated guides use the slug plus the language: `<slug>-pt`, `<slug>-fr`, `<slug>-es`.
 - Outside guides, buttons use `utm_medium=button` and their position as the campaign (`hero`, `header`, `testimonials`, `footer`, `blog_index`).
 
 ## Languages
 
-The site is in English (root URLs), Brazilian Portuguese (`/pt`) and French (`/fr`). Settings live in `src/lib/i18n.ts`.
+The site is in English (root URLs), Brazilian Portuguese (`/pt`), French (`/fr`) and Spanish (`/es`). Settings live in `src/lib/i18n.ts`.
 
 - Page text lives in `content/*.{en,pt,fr}.json`; interface text in `content/ui.*.json`. Keep the JSON structure identical across languages.
-- Guides: English in `src/blog/posts/<slug>.svx`; translations in `src/blog/posts/pt/<slug>.svx` and `src/blog/posts/fr/<slug>.svx` with the **same filename**. That shared slug is what links the versions (hreflang, sitemap, language picker).
-- A guide without a translation simply exists in English only. Never show English text under a `/pt` or `/fr` URL.
+- Guides: English in `src/blog/posts/<slug>.svx`; translations in `src/blog/posts/pt/<slug>.svx`, `src/blog/posts/fr/<slug>.svx` and `src/blog/posts/es/<slug>.svx` with the **same filename**. That shared slug is what links the versions (hreflang, sitemap, language picker).
+- A guide without a translation simply exists in English only. Never show English text under a `/pt`, `/fr` or `/es` URL.
 - Write new guides in English first. Translate only when asked. Inside translations, link to the translated versions of other pages (`/pt/help`, `/fr/blog/...`) when they exist.
 - French uses non-breaking spaces before `? ! : ;` and inside « ».
+- Spanish is neutral (Latin America and Spain alike), with *tú*. Android menu names follow Google's Latin American Spanish (`Configuración`); add Spain's name in parentheses where it differs (`Ajustes`, `Protección antirrobo`). Samsung calls its settings app `Ajustes` everywhere.
 
 ## Images
 

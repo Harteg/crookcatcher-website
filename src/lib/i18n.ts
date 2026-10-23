@@ -1,13 +1,14 @@
 import uiEn from '$content/ui.en.json';
 import uiPt from '$content/ui.pt.json';
 import uiFr from '$content/ui.fr.json';
+import uiEs from '$content/ui.es.json';
 
 export const SITE_URL = 'https://www.crookcatcher.app';
 
 export const DEFAULT_LOCALE = 'en';
 
 /** English lives at the root; every other locale gets a URL prefix (/pt/...). */
-export const LOCALES = ['en', 'pt', 'fr'] as const;
+export const LOCALES = ['en', 'pt', 'fr', 'es'] as const;
 export type Locale = (typeof LOCALES)[number];
 
 export const PREFIXED_LOCALES = LOCALES.filter((l) => l !== DEFAULT_LOCALE);
@@ -16,10 +17,12 @@ export const PREFIXED_LOCALES = LOCALES.filter((l) => l !== DEFAULT_LOCALE);
 export const LOCALE_META: Record<Locale, { htmlLang: string; ogLocale: string; name: string }> = {
 	en: { htmlLang: 'en', ogLocale: 'en_US', name: 'English' },
 	pt: { htmlLang: 'pt-BR', ogLocale: 'pt_BR', name: 'Português' },
-	fr: { htmlLang: 'fr', ogLocale: 'fr_FR', name: 'Français' }
+	fr: { htmlLang: 'fr', ogLocale: 'fr_FR', name: 'Français' },
+	// Neutral Spanish for Latin America and Spain alike.
+	es: { htmlLang: 'es', ogLocale: 'es_LA', name: 'Español' }
 };
 
-const UI: Record<Locale, typeof uiEn> = { en: uiEn, pt: uiPt, fr: uiFr };
+const UI: Record<Locale, typeof uiEn> = { en: uiEn, pt: uiPt, fr: uiFr, es: uiEs };
 
 export function isLocale(value: string | undefined): value is Locale {
 	return !!value && (LOCALES as readonly string[]).includes(value);

@@ -1,0 +1,113 @@
+---
+title: Cómo impedir que los ladrones apaguen tu teléfono (o activen el modo avión)
+subtitle: Los ajustes que mantienen tu teléfono localizable, y cómo captar al ladrón con la cámara
+dateUpdated: '2026-09-28'
+datePublished: '2025-01-19'
+description: "Los ladrones apagan los teléfonos robados para que no se puedan rastrear. Así puedes ponérselo más difícil en Samsung y otros teléfonos Android, y obtener la foto del ladrón antes de que lo consiga."
+image: /images/blog/Digital_Solitude_Urban_Shadows.jpeg
+imageAlt: Hombre en la sombra con un teléfono
+published: true
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+Cuando alguien roba un teléfono, una de las primeras cosas que hace es **apagarlo o activar el modo avión**. Un teléfono apagado o sin conexión no se puede ubicar, bloquear ni borrar a distancia, así que todas las funciones de rastreo que configuraste dejan de funcionar de golpe.
+
+La buena noticia: Android y los fabricantes ya tienen ajustes que lo hacen mucho más difícil. Esto es lo que debes activar, y cómo asegurarte de tener pruebas aunque el ladrón lo logre.
+
+## En resumen
+
+1. **Samsung:** activa *Bloquear red y seguridad*, para que el teléfono pida tu PIN antes de poder apagarse desde la pantalla de bloqueo.
+2. **Todos los teléfonos Android:** activa el *Bloqueo por detección de robo* y el *Bloqueo de dispositivo sin conexión*.
+3. **Quita el modo avión** de la configuración rápida.
+4. **Busca en tu teléfono** una opción para pedir el desbloqueo antes de apagarlo.
+5. **Instala <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-es" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** para obtener una foto y la ubicación de quien intente desbloquear tu teléfono.
+
+---
+
+## 1. Samsung: pide tu PIN para apagar el teléfono
+
+Muchos Samsung Galaxy tienen un ajuste que impide apagar el teléfono o desactivar la red desde la pantalla de bloqueo sin tu PIN, patrón o contraseña.
+
+**Ve a:**
+`Ajustes > Pantalla de bloqueo > Ajustes de bloqueo seguro > Bloquear red y seguridad` (en algunos modelos, `Pantalla de bloqueo y AOD`)
+
+Actívalo. A partir de ahora, quien intente apagar tu teléfono desde la pantalla de bloqueo tendrá que desbloquearlo primero.
+
+> Nota: esto protege la pantalla de bloqueo. Si un ladrón te quita el teléfono mientras está *desbloqueado*, todavía puede apagarlo; por eso el paso 2 también importa. Samsung está probando una actualización que pide tu PIN para apagar el teléfono en cualquier situación, y actualizaremos esta publicación cuando se lance.
+
+En un Samsung también puedes obtener una foto de quien ingrese un PIN incorrecto: mira [cómo saber quién intentó desbloquear tu Samsung](/es/blog/samsung-who-tried-to-unlock).
+
+---
+
+## 2. Todos los teléfonos Android: activa el Bloqueo por detección de robo y el Bloqueo de dispositivo sin conexión
+
+Estas funciones de Android bloquean tu teléfono automáticamente, lo que ayuda sobre todo cuando un ladrón te lo arrebata de la mano mientras está desbloqueado.
+
+- **El Bloqueo por detección de robo** (en España, *Bloqueo antirrobo*) bloquea la pantalla si el teléfono detecta el movimiento de alguien que lo arrebata y sale corriendo.
+- **El Bloqueo de dispositivo sin conexión** bloquea la pantalla poco después de que el teléfono pierda la conexión, por ejemplo cuando alguien activa el modo avión.
+
+**En la mayoría de los teléfonos Android, ve a:**
+`Configuración > Google > Todos los servicios > Protección ante robo` (en España, `Ajustes > Google > Todos los servicios > Protección antirrobo`)
+
+**En los teléfonos Samsung, ve a:**
+`Ajustes > Seguridad y privacidad > Protección del dispositivo perdido > Protección contra robos`
+
+Una vez bloqueado el teléfono, el ladrón vuelve a la pantalla de bloqueo, donde entran en acción el paso 1 y CrookCatcher.
+
+---
+
+## 3. Quita el modo avión de la configuración rápida
+
+Si el modo avión está a un deslizamiento de distancia, un ladrón puede cortar el rastreo en un segundo. Sacarlo de la configuración rápida lo retrasa:
+
+1. Desliza hacia abajo para abrir la configuración rápida (en Samsung, *Ajustes rápidos*).
+2. Toca el ícono de **editar (✏️)**.
+3. Arrastra el botón de **Modo avión** fuera del área visible.
+
+Puedes seguir activando el modo avión desde la configuración cuando lo necesites.
+
+---
+
+## 4. Busca en tu teléfono una opción de bloqueo para apagarlo
+
+Otros fabricantes también incluyen un ajuste que pide desbloquear el teléfono antes de poder apagarlo. El nombre y la ubicación cambian según la marca, así que lo más rápido es **abrir la configuración y buscar "apagar"**.
+
+---
+
+## 5. Capta al ladrón con la cámara antes de que lo logre
+
+Los ajustes hacen más difícil apagar tu teléfono, pero un ladrón decidido puede encontrar la forma. Ahí es donde ayuda CrookCatcher: un ladrón casi siempre intenta desbloquear el teléfono primero, y justo en ese momento actúa CrookCatcher.
+
+- Cuando alguien ingresa un **PIN, patrón o contraseña incorrectos**, CrookCatcher toma una foto con la cámara frontal.
+- Registra la **ubicación GPS** y una dirección aproximada.
+- Te **envía por correo** la foto y la ubicación al instante.
+
+Así, aunque el teléfono se apague un minuto después, la foto del ladrón y la ubicación ya están en tu bandeja de entrada. Luego puedes compartirlas con la policía.
+
+Con **CrookCatcher Pro** también puedes grabar video con sonido, captar el entorno con la cámara trasera, guardar una copia de todo en Google Drive y ocultar las notificaciones de CrookCatcher para que el ladrón no se dé cuenta de que lo descubriste.
+
+<AppCta position="guide_mid" />
+
+---
+
+## Más formas de proteger tu teléfono
+
+- **Activa el Localizador de Google** (Find Hub) para poder ubicar, bloquear o borrar tu teléfono.
+- **Usa un bloqueo de pantalla seguro.** Una contraseña o un PIN de 6 dígitos es mucho más difícil de adivinar que uno de 4.
+- **Mantén tu teléfono actualizado** para tener las funciones de seguridad más recientes.
+- **Ten cuidado en lugares públicos.** Muchos robos ocurren mientras tienes el teléfono en la mano, por ejemplo al mirar un mapa o tomar una foto.
+
+Para ver las instrucciones paso a paso, lee nuestra guía con [5 ajustes antirrobo de Android para activar hoy](/es/blog/top_five_settings).
+
+---
+
+## ¿Qué pasó con el bloqueo del menú de apagado de CrookCatcher?
+
+Una versión anterior de este artículo describía una función experimental de CrookCatcher que bloqueaba el menú de apagado y el panel de notificaciones en la pantalla de bloqueo. Como no podía funcionar de forma fiable en todos los teléfonos Android, y Android y los fabricantes ya ofrecen una mejor protección integrada, la función se retiró. Los ajustes de arriba son la forma recomendada de proteger tu teléfono hoy.
+
+¿Tienes más preguntas? Consulta las [preguntas frecuentes](/es/help).
+
+<AppCta position="guide_end" />
