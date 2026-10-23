@@ -1,9 +1,9 @@
 ---
-title: As 5 principais configurações do Android para proteger seu celular contra roubo
-subtitle: Reforce as defesas do seu Android com estes recursos essenciais
-dateUpdated: '2025-08-24'
+title: 5 configurações antirroubo do Android para ativar hoje (2026)
+subtitle: As configurações nativas que deixam um celular Android roubado inútil para o ladrão, e o que elas ainda não fazem
+dateUpdated: '2026-10-23'
 datePublished: '2025-08-24'
-description: "Da detecção de roubo ao bloqueio remoto: conheça as melhores configurações do Android para barrar ladrões, e como o CrookCatcher te protege quando mais importa."
+description: "As cinco configurações do Android que mais protegem você se o celular for roubado: um bloqueio de tela forte, a Proteção contra roubo, o Bloqueio Remoto, o Find Hub e a Confirmação de Identidade. Veja onde encontrar cada uma, e o que elas ainda não conseguem dizer."
 image: '/images/blog/theft_settings_header.jpeg'
 imageAlt: 'Configurações de proteção contra roubo do Android e dicas do CrookCatcher'
 published: true
@@ -13,133 +13,130 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-Seja roubado do bolso, esquecido em um táxi ou levado de uma mesa de café, seu celular está sempre em risco. Por isso é importante protegê-lo *antes* que algo aconteça.
+**As cinco configurações do Android que mais protegem você contra roubo são: um PIN de 6 dígitos ou uma senha, a Proteção contra roubo (Bloqueio por Detecção de Roubo, Bloqueio de Dispositivo Off-line e Bloqueio por Falha na Autenticação), o Bloqueio Remoto, o Find Hub e a Confirmação de Identidade.** Juntas, elas bloqueiam um celular arrancado da sua mão, permitem bloquear ou localizar o aparelho de outro dispositivo e impedem que o ladrão desative sua proteção. Todas são gratuitas e já vêm no Android. Ative agora; a maioria leva menos de um minuto. O que nenhuma delas faz é mostrar quem tentou entrar no seu celular, e é aí que um app como o CrookCatcher entra.
 
-Estas são **5 configurações de segurança essenciais do Android** que você deve ativar para proteger seu celular, seus dados e sua tranquilidade.
+## 1. Use um bloqueio de tela forte
 
----
+Todo o resto depende do bloqueio de tela. Se o ladrão conseguir adivinhá-lo, ele pode desativar todas as outras configurações.
 
-## Resumo: proteja seu celular Android em 5 passos
+- **Use um PIN de 6 dígitos ou uma senha**, não um PIN de 4 dígitos. Um PIN de 4 dígitos tem 10.000 combinações possíveis; um de 6 dígitos tem 1.000.000.
+- **Evite códigos fáceis** como 1234, 0000, 1111 ou sua data de nascimento.
+- **O padrão é a opção mais fraca.** As pessoas costumam desenhar formas simples, e é fácil ver um padrão por cima do seu ombro.
 
-1. Use um bloqueio de tela forte (PIN, senha ou padrão longo)
-2. Ative a Proteção contra roubo do Android
-3. Ative o Find Hub
-4. Configure o Bloqueio remoto em [android.com/lock](https://www.android.com/lock)
-5. Tire o Modo avião das Configurações rápidas
+Abra as Configurações e pesquise "Bloqueio de tela" para mudar o seu.
 
-> Quer proteção completa? [Instale o CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dtop_five_settings-pt) para pegar ladrões em flagrante.
+A impressão digital e o reconhecimento facial são práticos, mas você ainda precisa de um PIN ou senha fortes por trás deles. É isso que o Android pede depois de reiniciar e quando o celular se bloqueia por segurança.
 
----
+As versões recentes do Android também deixam os palpites lentos: depois de alguns erros, o celular faz a pessoa esperar, e a espera chega a dias. Veja [o que o Android faz com as tentativas de desbloqueio com falha](/pt/blog/failed-unlock-attempts-android) para os detalhes.
 
-## 1. Escolha um bloqueio de tela mais forte
+## 2. Ative a Proteção contra roubo
 
-Sua primeira e mais importante defesa é o **bloqueio de tela**. Uma **senha** oferece a maior segurança, mas todo tipo de bloqueio pode ser reforçado.
+A Proteção contra roubo do Android bloqueia seu celular automaticamente nas situações das quais os ladrões dependem.
 
-Veja como deixar cada tipo mais seguro:
+**Acesse:**
+`Configurações > Google > Todos os serviços > Proteção contra roubo`
 
-- **Senha** _A escolha mais segura!_<br>
-  Dica: uma senha com **seis caracteres** em vez de quatro é **3.844 vezes mais segura**.
+Ative:
 
-- **PIN** _Uma escolha muito segura!_ <br>
-  Dica: um **PIN de seis dígitos** é **100 vezes mais seguro** que um de quatro.
+- **Bloqueio por Detecção de Roubo:** bloqueia a tela se o celular perceber que alguém o arrancou da sua mão e saiu correndo.
+- **Bloqueio de Dispositivo Off-line:** bloqueia a tela logo depois que o celular fica off-line, por exemplo quando o ladrão ativa o modo avião.
+- **Bloqueio por Falha na Autenticação:** bloqueia a tela quando as tentativas de desbloqueio falham repetidas vezes. Vem ativado por padrão.
 
-- **Padrão** _Uma boa escolha!_<br>
-  Dica: um padrão que liga **seis pontos em vez de quatro** é **16 vezes mais seguro**.
-
-> Dica extra: evite códigos fáceis como 1234, 0000 ou a sua data de nascimento.
-
-A impressão digital e o reconhecimento facial são práticos, mas lembre-se de que podem ser usados sem o seu consentimento. Para ter o máximo de segurança, considere usar apenas uma senha forte.
-
----
-
-## 2. Ative os recursos de proteção contra roubo do Android
-
-O Android 15 e versões mais recentes agora incluem ferramentas poderosas de **detecção de roubo**, criadas para proteger seu aparelho se alguém pegá-lo e sair correndo.
-
-**Acesse**:
-`Configurações > Segurança e privacidade > Desbloqueio do dispositivo > Proteção contra roubo`
-
-Ative estes recursos:
-
-- **Bloqueio por detecção de roubo**: bloqueia a tela se o celular perceber que foi arrancado da sua mão.
-- **Bloqueio do dispositivo off-line**: bloqueia a tela pouco depois de o aparelho ficar offline.
+Se uma opção estiver esmaecida, seu celular não é compatível com ela. Esses recursos exigem o Android 10 ou posterior, e alguns exigem o Android 15 ou posterior. Nos celulares Samsung Galaxy, a Samsung também tem seu próprio menu de Proteção contra roubo; veja [como descobrir quem tentou desbloquear seu Samsung](/pt/blog/samsung-who-tried-to-unlock) para saber onde fica.
 
 <figure class="blog-figure">
   <img src="/images/blog/settings_theft.jpeg" alt="Configurações de proteção contra roubo no Android" />
   <figcaption>Configurações de proteção contra roubo no Android</figcaption>
 </figure>
 
-> Esses recursos estão disponíveis em muitos aparelhos com Android 15 ou mais recente. Confira suas configurações para ativá-los.
+## 3. Ative o Bloqueio Remoto
 
----
+Se o seu celular for roubado, o Bloqueio Remoto permite bloqueá-lo de qualquer navegador em [android.com/lock](https://www.android.com/lock), usando só o número do seu celular. Você não precisa da senha do Google, o que ajuda se suas senhas estiverem salvas no celular roubado.
 
-## 3. Ative o Find Hub do Google
+**Acesse:**
+`Configurações > Google > Todos os serviços > Proteção contra roubo > Bloqueio Remoto`
 
-O novo **Find Hub** (antigo Encontre Meu Dispositivo) permite:
-
-- 📍 Acompanhar a localização do seu celular em tempo real
-- 🔔 Fazer o aparelho tocar a distância
-- 🔒 Bloquear ou apagar o celular se ele for roubado
-
-**Ative em**:
-`Configurações > Segurança e privacidade > Localizadores de dispositivos > Find Hub`
-
-Saiba mais: [google.com/android/find](https://www.google.com/android/find)
+Ative e adicione a **Pergunta de segurança (opcional)**, para que ninguém consiga bloquear seu celular só com o seu número. O Bloqueio Remoto precisa que o celular tenha um chip, esteja on-line e tenha o Find Hub ativado.
 
 <figure class="blog-figure">
-  <img src="/images/blog/find_hub.png" alt="Interface do Find Hub para localizar seu celular" />
-  <figcaption>Find Hub do Google mostrando a localização do celular em um mapa</figcaption>
+  <img src="/images/blog/settings_remote_lock.jpeg" alt="Página android.com/lock pedindo o número de telefone" />
+  <figcaption>Bloqueio Remoto em android.com/lock</figcaption>
 </figure>
 
----
+## 4. Confirme que o Find Hub está ativado
 
-## 4. Ative o Bloqueio remoto em android.com/lock
+O Find Hub (chamado de Localizador nas páginas de ajuda do Google em português) mostra onde está seu celular no mapa e permite tocar um som, bloquear ou apagar o aparelho de outro dispositivo em [google.com/android/find](https://www.google.com/android/find).
 
-O Google agora permite **bloquear seu Android a distância** em [android.com/lock](https://www.android.com/lock), usando apenas o seu **número de telefone**.
-
-**Requisitos**:
-- O **Bloqueio remoto precisa estar ativado** nas configurações do celular
-- O celular precisa estar online para receber o comando de bloqueio
+Normalmente ele já vem ativado quando você entra com uma conta do Google, mas confira: abra as Configurações e pesquise "Find Hub" ou "Localizador". Verifique se está ativado e se a localização está permitida.
 
 <figure class="blog-figure">
-  <img src="/images/blog/settings_remote_lock.jpeg" alt="Página android.com/lock mostrando o campo para digitar o número de telefone" />
-  <figcaption>Tela do Bloqueio remoto com instruções para bloquear o celular usando o número de telefone</figcaption>
+  <img src="/images/blog/find_hub.png" alt="Find Hub mostrando a localização de um celular no mapa" />
+  <figcaption>O Find Hub mostrando a localização do celular</figcaption>
 </figure>
 
----
+## 5. Ative a Confirmação de Identidade
 
-## 5. Tire o Modo avião das Configurações rápidas
+Se o ladrão descobrir seu PIN, por exemplo vendo você digitar, a Confirmação de Identidade impede que ele desative sua proteção. Longe dos lugares em que você confia, ela pede sua impressão digital ou seu rosto antes de ações sensíveis, como mudar o bloqueio de tela, desativar o Find Hub ou a Proteção contra roubo, ou restaurar o celular.
 
-Se um ladrão consegue deslizar a tela para baixo e ativar o **Modo avião**, ele **corta o rastreamento** na hora.
+Ela fica em `Configurações > Google > Todos os serviços > Proteção contra roubo` nos celulares compatíveis.
 
-**Para evitar isso:**
-1. Abra o painel de Configurações rápidas.
-2. Toque no ícone de **editar (✏️)**.
-3. Arraste o **Modo avião** para fora da área de blocos visíveis.
+## O que essas configurações não fazem
 
-<figure class="blog-figure">
-  <img src="/images/blog/quick_settings_airplane.jpg" alt="Configurações rápidas sem o Modo avião" />
-  <figcaption>Tire o Modo avião para impedir que ladrões desativem o rastreamento</figcaption>
+Essas configurações bloqueiam o celular e ajudam a encontrá-lo. Elas não dizem:
+
+- **Quem tentou entrar no seu celular.** O Android não guarda registro e não tira foto.
+- **Quando aconteceu**, nem quantas vezes.
+- **Onde o celular estava** naquele momento.
+
+Além disso, elas só ajudam depois que o celular já sumiu. A maioria das pessoas quer saber antes: quem pegou o celular enquanto estavam longe, ou quem tentou adivinhar o PIN.
+
+## Saiba quem tentou desbloquear seu celular
+
+O CrookCatcher preenche essa lacuna. Quando alguém erra o PIN, o padrão ou a senha, ele tira uma foto com a câmera frontal, registra a localização GPS e um endereço aproximado e envia os dois para o seu e-mail. A foto e a localização já estão na sua caixa de entrada mesmo que o celular seja desligado um minuto depois, e você pode compartilhá-las com a polícia.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-pt.webp" width="990" height="1051" loading="lazy" alt="E-mail de alerta do CrookCatcher com a foto do intruso, o horário da tentativa e um mapa com a localização" />
+  <figcaption>O e-mail que o CrookCatcher envia depois de uma tentativa de desbloqueio com falha.</figcaption>
 </figure>
 
----
+Ele já foi baixado mais de 12 milhões de vezes desde 2014 e tira cerca de 1,2 milhão de fotos de intrusos por dia. A configuração leva poucos minutos: veja [como descobrir quem tentou desbloquear seu celular](/pt/blog/see-who-tried-to-unlock-your-phone).
 
-## Quer proteção de verdade? Conte com o CrookCatcher.
+<AppCta position="guide_mid" />
 
-As configurações ajudam a evitar o roubo, mas e se alguém já tentou desbloquear seu celular?
+## Mais formas de dificultar o roubo do seu celular
 
-É aí que o **CrookCatcher** se destaca:
-- 📸 Tira uma foto com a câmera frontal depois de desbloqueios com falha
-- 📍 Registra a localização GPS e um endereço aproximado
-- 📤 Envia tudo direto para a sua caixa de entrada
+- **Tire o modo avião das Configurações rápidas**, para que o ladrão não consiga cortar a conexão com um deslizar de dedo. Veja [como impedir que ladrões desliguem seu celular](/pt/blog/block-power-menu).
+- **Proteja o seu chip com um PIN** (procure "Bloqueio do SIM" nas configurações de segurança), para que o ladrão não use seu número para receber seus códigos.
+- **Oculte o conteúdo das notificações na tela de bloqueio**, para que os códigos de segurança não apareçam com o celular bloqueado.
+- **Mantenha o celular atualizado**, porque os novos recursos de proteção contra roubo chegam com as atualizações do Android.
 
-É como ter uma câmera de segurança silenciosa dentro do seu celular Android.
+## Perguntas frequentes
 
-<figure class="blog-figure">
-  <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dtop_five_settings-pt" target="_blank" rel="noopener noreferrer">
-    <img src="/images/play_screen_1.png" alt="Captura de tela do app CrookCatcher mostrando os recursos de segurança" />
-  </a>
-  <figcaption>O CrookCatcher ajuda a proteger seu celular tirando fotos de intrusos e rastreando o aparelho</figcaption>
-</figure>
+### P: Qual é a configuração antirroubo mais importante do Android?
+R: Um bloqueio de tela forte. Um PIN de 6 dígitos ou uma senha protegem todo o resto; se o ladrão conseguir adivinhar seu bloqueio, ele pode desativar as outras configurações.
+
+### P: O Android tem proteção contra roubo nativa?
+R: Sim. A Proteção contra roubo inclui o Bloqueio por Detecção de Roubo, o Bloqueio de Dispositivo Off-line e o Bloqueio por Falha na Autenticação, e você pode adicionar o Bloqueio Remoto e a Confirmação de Identidade. Elas ficam em Configurações > Google > Todos os serviços > Proteção contra roubo.
+
+### P: Essas configurações funcionam em celulares Samsung?
+R: A Proteção contra roubo do Google funciona na maioria dos celulares Android, incluindo os Samsung. Os celulares Samsung Galaxy também têm seu próprio menu de Proteção contra roubo, em Configurações > Segurança e privacidade > Proteção do aparelho perdido.
+
+### P: O ladrão ainda consegue desligar meu celular?
+R: Às vezes, pela tela de bloqueio. Alguns celulares, incluindo muitos modelos Samsung, podem exigir seu PIN para desligar. Leia [como impedir que ladrões desliguem seu celular](/pt/blog/block-power-menu).
+
+### P: Preciso de um app antirroubo se eu usar essas configurações?
+R: As configurações protegem seus dados e ajudam a localizar o celular. Elas não mostram quem tentou desbloqueá-lo. Um app como o CrookCatcher adiciona uma foto, a localização e um alerta por e-mail no momento em que alguém tenta.
+
+## Fontes
+
+- Google, Ajuda do Android: [Proteger seus dados pessoais contra roubo](https://support.google.com/android/answer/15146908?hl=pt-BR)
+- Google: [Find Hub](https://www.google.com/android/find)
+- Google: [Bloqueio Remoto (android.com/lock)](https://www.android.com/lock)
+
+## Guias relacionados
+
+- [Dá para ver as tentativas de desbloqueio com falha no Android?](/pt/blog/failed-unlock-attempts-android)
+- [Como impedir que ladrões desliguem seu celular](/pt/blog/block-power-menu)
+- [Como descobrir quem tentou desbloquear seu celular (e ver a foto da pessoa)](/pt/blog/see-who-tried-to-unlock-your-phone)
 
 <AppCta position="guide_end" />

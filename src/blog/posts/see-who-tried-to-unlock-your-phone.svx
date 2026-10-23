@@ -1,7 +1,7 @@
 ---
 title: How to See Who Tried to Unlock Your Phone (and Get Their Photo)
 subtitle: Take an intruder selfie when someone enters the wrong PIN, pattern or password
-dateUpdated: '2026-09-28'
+dateUpdated: '2026-10-23'
 datePublished: '2026-09-28'
 description: "Android doesn't show who tried to unlock your phone. Here's how to automatically take a photo of anyone who enters the wrong PIN, pattern or password, and get it by email with their location."
 image: '/images/blog/who-tried-to-unlock-header.png'
@@ -32,7 +32,7 @@ To see who tried to unlock your phone, you need an app that watches the lock scr
 
 Have a Samsung Galaxy? See [how to see who tried to unlock your Samsung phone](/blog/samsung-who-tried-to-unlock) for Samsung's own settings and lockout rules.
 
-## How to take a photo of anyone who enters the wrong password
+## How to take a picture of someone who enters the wrong password
 
 This is how to set it up with CrookCatcher. It takes a few minutes, and you don't need to create an account.
 
@@ -97,6 +97,12 @@ Yes, the most important features are free: the intruder photo, the location and 
 <AppCta position="guide_mid" />
 
 ## Frequently Asked Questions
+
+### Q: What is an intruder selfie?
+A: An intruder selfie is a photo taken automatically with the front camera when someone enters the wrong PIN, pattern or password on your phone. The person is usually looking straight at the screen, so the photo shows their face. Android can't take one by itself; an intruder selfie app like CrookCatcher does it and emails you the photo.
+
+### Q: Can my phone take a picture of someone who enters the wrong password?
+A: Not on its own. Android has no setting for it, and the "intruder photo" options in some manufacturers' app locks only cover individual apps, not the lock screen. With CrookCatcher installed, a wrong PIN, pattern or password (after the number of attempts you choose) triggers a photo, saved with the time and location.
 
 ### Q: Does it work with a pattern lock, PIN and password?
 A: Yes. CrookCatcher reacts to a wrong PIN, pattern or password. Failed fingerprint or face unlock attempts don't trigger it, and it doesn't work with pop-up cameras.

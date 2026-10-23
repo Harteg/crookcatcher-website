@@ -1,9 +1,9 @@
 ---
-title: Top 5 Android Settings to Secure Your Phone Against Theft
-subtitle: Strengthen your Android's defenses with these critical features
-dateUpdated: '2025-08-24'
+title: 5 Android Anti-Theft Settings to Turn On Today (2026)
+subtitle: The built-in settings that make a stolen Android phone useless to a thief, and what they still can't do
+dateUpdated: '2026-10-23'
 datePublished: '2025-08-24'
-description: "From theft detection to remote locking—learn the best Android settings to stop thieves in their tracks and how CrookCatcher backs you up when it matters most."
+description: "The five Android settings that protect you most if your phone is stolen: a strong screen lock, Theft protection, Remote Lock, Find Hub and Identity Check. Here's where to find each one, and what they still can't tell you."
 image: '/images/blog/theft_settings_header.jpeg'
 imageAlt: 'Android theft protection settings and CrookCatcher tips'
 published: true
@@ -13,133 +13,134 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-Whether it’s stolen from your pocket, forgotten in a cab, or grabbed off a café table, your phone is always at risk. That’s why it’s important to secure it *before* anything happens.
+**The five Android settings that protect you most against theft are: a 6-digit PIN or a password, Theft protection (Theft Detection Lock, Offline Device Lock and Failed Authentication Lock), Remote Lock, Find Hub and Identity Check.** Together they lock a snatched phone, let you lock or locate it from another device, and stop a thief from turning your protection off. They're all free and built into Android. Turn them on now; most take less than a minute. What none of them do is show you who tried to get into your phone, which is where an app like CrookCatcher comes in.
 
-Here are **5 essential Android security settings** you should turn on to protect your phone, your data, and your peace of mind.
+## 1. Use a strong screen lock
 
----
+Everything else depends on your screen lock. If a thief can guess it, every other setting can be switched off.
 
-## TL;DR: Secure Your Android Phone in 5 Steps
+- **Use a 6-digit PIN or a password**, not a 4-digit PIN. A 4-digit PIN has 10,000 possible combinations; a 6-digit PIN has 1,000,000.
+- **Avoid easy codes** like 1234, 0000, 1111 or your birthday.
+- **A pattern is the weakest choice.** People often draw simple shapes, and patterns are easy to watch over your shoulder.
 
-1. Use a strong screen lock (PIN, password, or long pattern)  
-2. Turn on Android Theft Protection  
-3. Enable Find My Device Hub  
-4. Set up Remote Lock at [android.com/lock](https://www.android.com/lock)  
-5. Remove Airplane Mode from Quick Settings
+**On a Pixel, go to:**
+`Settings > Security & privacy > Device unlock > Screen lock`
 
-> Want full protection? [Install CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dtop_five_settings) to catch thieves in action.
+On other phones, open Settings and search for "Screen lock".
 
----
+Fingerprint and face unlock are convenient, but you still need a strong PIN or password behind them. That's what Android asks for after a restart and when your phone has locked itself down.
 
-## 1. Choose a Stronger Screen Lock
+Recent Android versions also make guessing slow: after a few wrong guesses the phone makes the person wait, and the waits grow to days. Read [what Android does with failed unlock attempts](/blog/failed-unlock-attempts-android) for the details.
 
-Your first and most important defense is your **screen lock**. A **password** provides the strongest security, but every lock type can be strengthened.
+## 2. Turn on Theft protection
 
-Here's how to make each type more secure:
+Android's Theft protection locks your phone automatically in the situations thieves rely on.
 
-- **Password** _Most secure choice!_<br> 
-  Tip: A password with **six characters** instead of four is **3844X more secure**.
+**Go to:**
+`Settings > Google > All services > Theft protection`
 
-- **PIN code** _Very secure choice!_ <br>
-  Tip: A **six-digit PIN** is **100X more secure** than a four-digit one.
+Turn on:
 
-- **Pattern lock** _Good choice!_<br>
-  Tip: A pattern connecting **six dots instead of four** is **16X more secure**.
+- **Theft Detection Lock:** locks the screen if your phone detects that someone snatched it and ran.
+- **Offline Device Lock:** locks the screen soon after the phone goes offline, for example when a thief switches on airplane mode.
+- **Failed Authentication Lock:** locks the screen when unlock attempts fail repeatedly. It's on by default.
 
-> Bonus tip: Avoid easy codes like 1234, 0000, or your birthday.
-
-While biometric options like fingerprint and face unlock are convenient, keep in mind they can be used without your consent. For maximum security, consider relying only on a strong password.
-
----
-
-## 2. Enable Android’s Theft Protection Features
-
-Android 15+ now includes powerful **theft detection** tools designed to protect your device if someone grabs it and tries to run.
-
-**Go to**:  
-`Settings > Security & Privacy > Device Unlock > Theft Protection`
-
-Enable these:
-
-- **Theft Detection Lock**: Locks your screen if the phone detects it’s been snatched.
-- **Offline Device Lock**: Locks your screen shortly after the device goes offline.
+If a setting is grayed out, your phone doesn't support it. These features need Android 10 or later, and some need Android 15 or later. On Samsung Galaxy phones, Samsung also has its own Theft protection menu; see [how to see who tried to unlock your Samsung phone](/blog/samsung-who-tried-to-unlock) for where to find it.
 
 <figure class="blog-figure">
   <img src="/images/blog/settings_theft.jpeg" alt="Theft protection settings on Android" />
   <figcaption>Theft protection settings on Android</figcaption>
 </figure>
 
-> These features are available on many Android 15+ devices—check your settings to enable them.
+## 3. Turn on Remote Lock
 
----
+If your phone is stolen, Remote Lock lets you lock it from any browser at [android.com/lock](https://www.android.com/lock), using just your phone number. You don't need your Google password, which helps if your passwords are saved on the stolen phone.
 
-## 3. Turn On Google’s Find My Device Hub
+**Go to:**
+`Settings > Google > All services > Theft protection > Remote Lock`
 
-The updated **Find My Device Hub** lets you:
-
-- 📍 Track your phone’s real-time location  
-- 🔔 Ring your device remotely  
-- 🔒 Lock or wipe it if stolen
-
-**Enable it under**:  
-`Settings > Security & Privacy > Device Finders > Find Hub`
-
-Learn more: [google.com/android/find](https://www.google.com/android/find)
+Turn it on, and add the optional **Security question** so nobody else can lock your phone with only your number. Remote Lock needs the phone to have a SIM, be online and have Find Hub turned on.
 
 <figure class="blog-figure">
-  <img src="/images/blog/find_hub.png" alt="Find Hub interface for locating your phone" />
-  <figcaption>Google's Find My Device Hub showing phone location tracking on a map</figcaption>
+  <img src="/images/blog/settings_remote_lock.jpeg" alt="android.com/lock page asking for the phone number" />
+  <figcaption>Remote Lock at android.com/lock</figcaption>
 </figure>
 
----
+## 4. Make sure Find Hub is on
 
-## 4. Activate Remote Lock via android.com/lock
+Find Hub (formerly Find My Device) shows where your phone is on a map and lets you ring, lock or erase it from another device at [google.com/android/find](https://www.google.com/android/find).
 
-Google now lets you **lock your Android remotely** via [android.com/lock](https://www.android.com/lock)—using just your **phone number**.
-
-**Requirements**:
-- Your phone must have **Remote Lock enabled** in settings
-- The phone must be online to receive the lock command
+It's usually on by default when you sign in with a Google account, but check: open Settings and search for "Find Hub". Make sure it's on and that location is allowed.
 
 <figure class="blog-figure">
-  <img src="/images/blog/settings_remote_lock.jpeg" alt="android.com/lock interface showing phone number input" />
-  <figcaption>Remote Lock screen with instructions to lock your phone using a phone number</figcaption>
+  <img src="/images/blog/find_hub.png" alt="Find Hub showing a phone's location on a map" />
+  <figcaption>Find Hub showing the phone's location</figcaption>
 </figure>
 
----
+## 5. Turn on Identity Check
 
-## 5. Remove Airplane Mode from Quick Settings
+If a thief learns your PIN, for example by watching you type it, Identity Check stops them from turning off your protection. Away from places you trust, it asks for your fingerprint or face before sensitive actions like changing your screen lock, turning off Find Hub or Theft protection, or resetting the phone.
 
-If a thief can swipe down and toggle **Airplane Mode**, they can **cut off tracking** instantly.
+You'll find it under `Settings > Google > All services > Theft protection` on phones that support it.
 
-**Prevent this:**
-1. Pull down the Quick Settings panel.
-2. Tap the **edit (✏️)** icon.
-3. Drag **Airplane Mode** out of the visible tile area.
+## What these settings can't do
 
-<figure class="blog-figure">
-  <img src="/images/blog/quick_settings_airplane.jpg" alt="Quick Settings screen with Airplane Mode removed" />
-  <figcaption>Remove Airplane Mode to prevent thieves from disabling tracking</figcaption>
+These settings lock the phone and help you find it. They don't tell you:
+
+- **Who tried to get into your phone.** Android keeps no record and takes no photo.
+- **When it happened**, or how many times.
+- **Where the phone was** at that moment.
+
+They also only help once the phone is gone. Most people want to know sooner: who picked up the phone while they were away, or who tried to guess their PIN.
+
+## Know who tried to unlock your phone
+
+CrookCatcher fills that gap. When someone enters a wrong PIN, pattern or password, it takes a photo with the front camera, records the GPS location and an approximate address, and emails both to you. The photo and location are already in your inbox even if the phone is switched off a minute later, and you can share them with the police.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/hero-alert-800.webp" srcset="/images/hero-alert-480.webp 480w, /images/hero-alert-800.webp 800w, /images/hero-alert-990.webp 990w" sizes="(min-width: 600px) 540px, 100vw" width="990" height="1024" loading="lazy" alt="CrookCatcher email alert with the intruder's photo, the time of the attempt and a map of the location" />
+  <figcaption>The email CrookCatcher sends after a failed unlock attempt.</figcaption>
 </figure>
 
----
+It has been downloaded more than 12 million times since 2014 and takes around 1.2 million intruder photos a day. Setup takes a few minutes: see [how to see who tried to unlock your phone](/blog/see-who-tried-to-unlock-your-phone).
 
-## Want Real Protection? CrookCatcher Has Your Back.
+<AppCta position="guide_mid" />
 
-Settings help prevent theft—but what if someone already tried unlocking your phone?
+## More ways to make your phone harder to steal
 
-That’s where **CrookCatcher** shines:
-- 📸 Captures a photo with the front camera after failed unlocks
-- 📍 Records GPS location + estimated address
-- 📤 Sends all data straight to your email inbox
+- **Remove airplane mode from Quick Settings**, so a thief can't cut the connection with one swipe. See [how to stop thieves from turning off your phone](/blog/block-power-menu).
+- **Lock your SIM card with a PIN** (`Settings > Security & privacy > More security settings > SIM lock`), so a thief can't use your number to receive your codes.
+- **Hide notification content on the lock screen** (`Settings > Security & privacy > More security settings > Notifications on lock screen`), so security codes don't show while the phone is locked.
+- **Keep your phone updated**, since new theft protection features arrive with Android updates.
 
-It’s like having a silent security camera inside your Android phone.
+## Frequently Asked Questions
 
-<figure class="blog-figure">
-  <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dtop_five_settings" target="_blank" rel="noopener noreferrer">
-    <img src="/images/play_screen_1.png" alt="CrookCatcher app screenshot showing security features" />
-  </a>
-  <figcaption>CrookCatcher helps protect your phone by taking photos of intruders and tracking your device</figcaption>
-</figure>
+### Q: What is the most important anti-theft setting on Android?
+A: A strong screen lock. A 6-digit PIN or a password protects everything else; if a thief can guess your lock, they can turn off the rest.
+
+### Q: Does Android have built-in theft protection?
+A: Yes. Theft protection includes Theft Detection Lock, Offline Device Lock and Failed Authentication Lock, and you can add Remote Lock and Identity Check. Find them under Settings > Google > All services > Theft protection.
+
+### Q: Do these settings work on Samsung phones?
+A: Google's Theft protection works on most Android phones, including Samsung. Samsung Galaxy phones also have their own Theft protection menu under Settings > Security and privacy > Lost device protection.
+
+### Q: Can a thief still turn off my phone?
+A: Sometimes, from the lock screen. Some phones, including many Samsung models, can require your PIN to turn off. Read [how to stop thieves from turning off your phone](/blog/block-power-menu).
+
+### Q: Do I need an anti-theft app if I use these settings?
+A: The settings protect your data and help you locate the phone. They can't show you who tried to unlock it. An app like CrookCatcher adds a photo, the location and an email alert at the moment someone tries.
+
+## Sources
+
+- Google, Android Help: [Protect your personal data against theft](https://support.google.com/android/answer/15146908?hl=en)
+- Google, Pixel Tablet Help: [Security and privacy settings](https://support.google.com/googlepixeltablet/answer/13555549?hl=en) (the Device unlock path)
+- Google: [Find Hub](https://www.google.com/android/find)
+- Google: [Remote Lock (android.com/lock)](https://www.android.com/lock)
+
+## Related guides
+
+- [Can you see failed unlock attempts on Android?](/blog/failed-unlock-attempts-android)
+- [How to stop thieves from turning off your phone](/blog/block-power-menu)
+- [How to see who tried to unlock your phone (and get their photo)](/blog/see-who-tried-to-unlock-your-phone)
 
 <AppCta position="guide_end" />

@@ -1,7 +1,7 @@
 ---
 title: Comment savoir qui a essayé de déverrouiller votre téléphone (et obtenir sa photo)
 subtitle: Prenez un selfie de l'intrus quand quelqu'un saisit un mauvais code PIN, schéma ou mot de passe
-dateUpdated: '2026-09-28'
+dateUpdated: '2026-10-23'
 datePublished: '2026-09-28'
 description: "Android n'affiche pas qui a essayé de déverrouiller votre téléphone. Voici comment prendre automatiquement en photo toute personne qui saisit un mauvais code PIN, schéma ou mot de passe, et la recevoir par e-mail avec sa position."
 image: '/images/blog/who-tried-to-unlock-header.png'
@@ -97,6 +97,12 @@ Oui, les fonctionnalités les plus importantes sont gratuites : la photo de l'i
 <AppCta position="guide_mid" />
 
 ## Questions fréquentes
+
+### Q : Qu'est-ce qu'un selfie de l'intrus ?
+R : C'est une photo prise automatiquement avec la caméra frontale quand quelqu'un saisit un mauvais code PIN, schéma ou mot de passe sur votre téléphone. La personne regarde généralement l'écran, la photo montre donc son visage. Android ne peut pas la prendre seul ; une app de selfie de l'intrus comme CrookCatcher s'en charge et vous envoie la photo par e-mail.
+
+### Q : Mon téléphone peut-il prendre en photo quelqu'un qui saisit un mauvais mot de passe ?
+R : Pas tout seul. Android n'a aucun réglage pour cela, et les options de « photo de l'intrus » du verrouillage d'applications de certains fabricants ne protègent que certaines apps, pas l'écran de verrouillage. Avec CrookCatcher installé, un mauvais code PIN, schéma ou mot de passe (après le nombre d'essais que vous choisissez) déclenche une photo, enregistrée avec l'heure et la position.
 
 ### Q : Est-ce que ça fonctionne avec un schéma, un code PIN et un mot de passe ?
 R : Oui. CrookCatcher réagit à un mauvais code PIN, schéma ou mot de passe. Les tentatives ratées par empreinte digitale ou reconnaissance faciale ne le déclenchent pas, et il ne fonctionne pas avec les caméras escamotables.

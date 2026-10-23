@@ -75,7 +75,7 @@ People search for Google's and Samsung's own features. Explain them honestly, th
 | 13 | Android Phone Stolen in the US? What to Do in the First 10 Minutes | android phone stolen what to do | phone-stolen-us | Planned |
 | 14 | How to Stop Thieves From Turning Off Your Phone (or Switching On Airplane Mode) | stop thief turning off phone | block-power-menu | Published |
 | 15 | How to Stop Thieves from Turning On Airplane Mode | disable airplane mode lock screen | block-airplane-mode-lock-screen | Planned |
-| 16 | Top 5 Android Settings to Secure Your Phone Against Theft | android anti theft settings | top_five_settings | Published |
+| 16 | 5 Android Anti-Theft Settings to Turn On Today (2026) | android anti theft settings | top_five_settings | Published (rewritten Oct 23, 2026) |
 | 17 | How to Block a Stolen Phone's IMEI in the US | block stolen phone imei | block-stolen-phone-imei-us | Planned |
 
 ## Priority 3: Scenario pages

@@ -1,9 +1,9 @@
 ---
-title: Les 5 réglages Android essentiels pour protéger votre téléphone contre le vol
-subtitle: Renforcez les défenses de votre Android avec ces fonctions clés
-dateUpdated: '2025-08-24'
+title: 5 réglages antivol Android à activer dès aujourd'hui (2026)
+subtitle: Les réglages intégrés qui rendent un téléphone Android volé inutile pour un voleur, et ce qu'ils ne font toujours pas
+dateUpdated: '2026-10-23'
 datePublished: '2025-08-24'
-description: "De la détection de vol au verrouillage à distance : découvrez les meilleurs réglages Android pour arrêter les voleurs, et comment CrookCatcher vous protège quand ça compte le plus."
+description: "Les cinq réglages Android qui vous protègent le plus en cas de vol : un verrouillage d'écran solide, la Protection contre le vol, le Verrouillage à distance, Find Hub et la Vérification de l'identité. Voici où trouver chacun d'eux, et ce qu'ils ne peuvent toujours pas vous dire."
 image: '/images/blog/theft_settings_header.jpeg'
 imageAlt: 'Réglages Android de protection contre le vol et conseils CrookCatcher'
 published: true
@@ -13,133 +13,130 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-Volé dans votre poche, oublié dans un taxi ou subtilisé sur une table de café : votre téléphone est toujours exposé. C'est pourquoi il est important de le protéger *avant* que quoi que ce soit n'arrive.
+**Les cinq réglages Android qui vous protègent le plus contre le vol sont : un code PIN à 6 chiffres ou un mot de passe, la Protection contre le vol (Verrouillage en cas de détection de vol, Verrouillage de l'appareil hors connexion et Verrouillage en cas d'échec de l'authentification), le Verrouillage à distance, Find Hub et la Vérification de l'identité.** Ensemble, ils verrouillent un téléphone arraché, vous permettent de le verrouiller ou de le localiser depuis un autre appareil et empêchent un voleur de désactiver votre protection. Ils sont tous gratuits et intégrés à Android. Activez-les maintenant ; la plupart prennent moins d'une minute. Aucun d'eux ne vous montre en revanche qui a essayé d'entrer dans votre téléphone, et c'est là qu'une app comme CrookCatcher intervient.
 
-Voici **5 réglages de sécurité Android essentiels** à activer pour protéger votre téléphone, vos données et votre tranquillité d'esprit.
+## 1. Utilisez un verrouillage d'écran solide
 
----
+Tout le reste dépend de votre verrouillage d'écran. Si un voleur peut le deviner, il peut désactiver tous les autres réglages.
 
-## En bref : protégez votre téléphone Android en 5 étapes
+- **Utilisez un code PIN à 6 chiffres ou un mot de passe**, pas un code à 4 chiffres. Un code à 4 chiffres offre 10 000 combinaisons possibles ; un code à 6 chiffres en offre 1 000 000.
+- **Évitez les codes faciles** comme 1234, 0000, 1111 ou votre date de naissance.
+- **Le schéma est le choix le plus faible.** On dessine souvent des formes simples, et un schéma se repère facilement par-dessus votre épaule.
 
-1. Utilisez un verrouillage d'écran solide (code PIN, mot de passe ou long schéma)
-2. Activez la Protection contre le vol d'Android
-3. Activez Find Hub
-4. Configurez le verrouillage à distance sur [android.com/lock](https://www.android.com/lock)
-5. Retirez le mode avion des Réglages rapides
+Ouvrez les Paramètres et recherchez « Verrouillage de l'écran » pour modifier le vôtre.
 
-> Vous voulez une protection complète ? [Installez CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dtop_five_settings-fr) pour prendre les voleurs sur le fait.
+L'empreinte digitale et la reconnaissance faciale sont pratiques, mais il vous faut toujours un code PIN ou un mot de passe solide derrière. C'est ce qu'Android demande après un redémarrage et quand le téléphone s'est verrouillé par sécurité.
 
----
+Les versions récentes d'Android ralentissent aussi les tentatives : après quelques erreurs, le téléphone fait patienter la personne, et l'attente va jusqu'à plusieurs jours. Consultez [ce que fait Android des tentatives de déverrouillage ratées](/fr/blog/failed-unlock-attempts-android) pour les détails.
 
-## 1. Choisissez un verrouillage d'écran plus solide
+## 2. Activez la Protection contre le vol
 
-Votre première et plus importante défense est votre **verrouillage d'écran**. Un **mot de passe** offre la meilleure sécurité, mais chaque type de verrouillage peut être renforcé.
+La Protection contre le vol d'Android verrouille automatiquement votre téléphone dans les situations sur lesquelles comptent les voleurs.
 
-Voici comment rendre chaque type plus sûr :
-
-- **Mot de passe** _Le choix le plus sûr !_<br>
-  Astuce : un mot de passe de **six caractères** au lieu de quatre est **3 844 fois plus sûr**.
-
-- **Code PIN** _Un choix très sûr !_ <br>
-  Astuce : un **code PIN à six chiffres** est **100 fois plus sûr** qu'un code à quatre chiffres.
-
-- **Schéma** _Un bon choix !_<br>
-  Astuce : un schéma qui relie **six points au lieu de quatre** est **16 fois plus sûr**.
-
-> Astuce bonus : évitez les codes faciles comme 1234, 0000 ou votre date de naissance.
-
-L'empreinte digitale et la reconnaissance faciale sont pratiques, mais gardez à l'esprit qu'elles peuvent être utilisées sans votre consentement. Pour une sécurité maximale, envisagez de vous fier uniquement à un mot de passe solide.
-
----
-
-## 2. Activez les fonctions de protection contre le vol d'Android
-
-Android 15 et versions ultérieures incluent désormais de puissants outils de **détection de vol**, conçus pour protéger votre appareil si quelqu'un vous l'arrache et s'enfuit.
-
-**Allez dans** :
-`Paramètres > Sécurité et confidentialité > Déverrouillage de l'appareil > Protection contre le vol`
+**Allez dans :**
+`Paramètres > Google > Tous les services > Protection contre le vol`
 
 Activez :
 
-- **Verrouillage en cas de détection de vol** : verrouille l'écran si le téléphone détecte qu'il vous a été arraché.
-- **Verrouillage de l'appareil hors connexion** : verrouille l'écran peu après que l'appareil passe hors ligne.
+- **Verrouillage en cas de détection de vol :** verrouille l'écran si le téléphone détecte qu'on vous l'a arraché avant de s'enfuir.
+- **Verrouillage de l'appareil hors connexion :** verrouille l'écran peu après que le téléphone passe hors ligne, par exemple quand un voleur active le mode avion.
+- **Verrouillage en cas d'échec de l'authentification :** verrouille l'écran quand les tentatives de déverrouillage échouent à plusieurs reprises. Il est activé par défaut.
+
+Si une option est grisée, votre téléphone ne la prend pas en charge. Ces fonctions nécessitent Android 10 ou une version ultérieure, et certaines Android 15 ou une version ultérieure. Sur les téléphones Samsung Galaxy, Samsung a aussi son propre menu Protection contre le vol ; consultez [comment savoir qui a essayé de déverrouiller votre Samsung](/fr/blog/samsung-who-tried-to-unlock) pour savoir où le trouver.
 
 <figure class="blog-figure">
   <img src="/images/blog/settings_theft.jpeg" alt="Réglages de protection contre le vol sur Android" />
   <figcaption>Réglages de protection contre le vol sur Android</figcaption>
 </figure>
 
-> Ces fonctions sont disponibles sur de nombreux appareils sous Android 15 ou version ultérieure : vérifiez vos paramètres pour les activer.
+## 3. Activez le Verrouillage à distance
 
----
+Si votre téléphone est volé, le Verrouillage à distance vous permet de le verrouiller depuis n'importe quel navigateur sur [android.com/lock](https://www.android.com/lock), avec seulement votre numéro de téléphone. Vous n'avez pas besoin de votre mot de passe Google, ce qui aide si vos mots de passe sont enregistrés sur le téléphone volé.
 
-## 3. Activez Find Hub de Google
+**Allez dans :**
+`Paramètres > Google > Tous les services > Protection contre le vol > Verrouillage à distance`
 
-Le nouveau **Find Hub** (anciennement Localiser mon appareil) vous permet de :
-
-- 📍 Suivre la position de votre téléphone en temps réel
-- 🔔 Faire sonner votre appareil à distance
-- 🔒 Le verrouiller ou l'effacer en cas de vol
-
-**Activez-le dans** :
-`Paramètres > Sécurité et confidentialité > Localisateurs d'appareils > Find Hub`
-
-En savoir plus : [google.com/android/find](https://www.google.com/android/find)
+Activez-le et ajoutez la **Question secrète (facultatif)**, pour que personne ne puisse verrouiller votre téléphone avec seulement votre numéro. Le Verrouillage à distance nécessite que le téléphone ait une carte SIM, soit en ligne et ait Find Hub activé.
 
 <figure class="blog-figure">
-  <img src="/images/blog/find_hub.png" alt="Interface de Find Hub pour localiser votre téléphone" />
-  <figcaption>Find Hub de Google affichant la position du téléphone sur une carte</figcaption>
+  <img src="/images/blog/settings_remote_lock.jpeg" alt="Page android.com/lock demandant le numéro de téléphone" />
+  <figcaption>Le Verrouillage à distance sur android.com/lock</figcaption>
 </figure>
 
----
+## 4. Vérifiez que Find Hub est activé
 
-## 4. Activez le verrouillage à distance sur android.com/lock
+Find Hub (appelé Localiser dans les pages d'aide de Google en français) indique où se trouve votre téléphone sur une carte et permet de le faire sonner, de le verrouiller ou d'effacer ses données depuis un autre appareil sur [google.com/android/find](https://www.google.com/android/find).
 
-Google vous permet désormais de **verrouiller votre Android à distance** sur [android.com/lock](https://www.android.com/lock), avec simplement votre **numéro de téléphone**.
-
-**Conditions** :
-- Le **verrouillage à distance doit être activé** dans les paramètres de votre téléphone
-- Le téléphone doit être en ligne pour recevoir la commande de verrouillage
+Il est généralement activé par défaut quand vous vous connectez avec un compte Google, mais vérifiez : ouvrez les Paramètres et recherchez « Find Hub » ou « Localiser ». Assurez-vous qu'il est activé et que la localisation est autorisée.
 
 <figure class="blog-figure">
-  <img src="/images/blog/settings_remote_lock.jpeg" alt="Page android.com/lock avec le champ de saisie du numéro de téléphone" />
-  <figcaption>Écran de verrouillage à distance avec les instructions pour verrouiller votre téléphone à l'aide de votre numéro</figcaption>
+  <img src="/images/blog/find_hub.png" alt="Find Hub affichant la position d'un téléphone sur une carte" />
+  <figcaption>Find Hub affichant la position du téléphone</figcaption>
 </figure>
 
----
+## 5. Activez la Vérification de l'identité
 
-## 5. Retirez le mode avion des Réglages rapides
+Si un voleur découvre votre code PIN, par exemple en vous regardant le saisir, la Vérification de l'identité l'empêche de désactiver votre protection. Loin des lieux de confiance, elle demande votre empreinte ou votre visage avant les actions sensibles, comme modifier le verrouillage de l'écran, désactiver Find Hub ou la Protection contre le vol, ou réinitialiser le téléphone.
 
-Si un voleur peut faire glisser l'écran vers le bas et activer le **mode avion**, il **coupe le suivi** instantanément.
+Elle se trouve dans `Paramètres > Google > Tous les services > Protection contre le vol` sur les téléphones compatibles.
 
-**Pour l'en empêcher :**
-1. Ouvrez le panneau des Réglages rapides.
-2. Appuyez sur l'icône **modifier (✏️)**.
-3. Faites glisser le **mode avion** hors de la zone des vignettes visibles.
+## Ce que ces réglages ne font pas
 
-<figure class="blog-figure">
-  <img src="/images/blog/quick_settings_airplane.jpg" alt="Réglages rapides sans le mode avion" />
-  <figcaption>Retirez le mode avion pour empêcher les voleurs de désactiver le suivi</figcaption>
+Ces réglages verrouillent le téléphone et aident à le retrouver. Ils ne vous disent pas :
+
+- **Qui a essayé d'entrer dans votre téléphone.** Android ne garde aucune trace et ne prend aucune photo.
+- **Quand c'est arrivé**, ni combien de fois.
+- **Où se trouvait le téléphone** à ce moment-là.
+
+Ils n'aident d'ailleurs qu'une fois le téléphone disparu. La plupart des gens veulent le savoir plus tôt : qui a pris le téléphone pendant leur absence, ou qui a essayé de deviner leur code PIN.
+
+## Sachez qui a essayé de déverrouiller votre téléphone
+
+CrookCatcher comble ce manque. Quand quelqu'un saisit un mauvais code PIN, schéma ou mot de passe, il prend une photo avec la caméra frontale, enregistre la position GPS et une adresse approximative, et vous envoie le tout par e-mail. La photo et la position sont déjà dans votre boîte mail même si le téléphone est éteint une minute plus tard, et vous pouvez les transmettre à la police.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-fr.webp" width="990" height="1101" loading="lazy" alt="E-mail d'alerte CrookCatcher avec la photo de l'intrus, l'heure de la tentative et une carte avec la position" />
+  <figcaption>L'e-mail envoyé par CrookCatcher après une tentative de déverrouillage ratée.</figcaption>
 </figure>
 
----
+L'app a été téléchargée plus de 12 millions de fois depuis 2014 et prend environ 1,2 million de photos d'intrus par jour. La configuration prend quelques minutes : consultez [comment savoir qui a essayé de déverrouiller votre téléphone](/fr/blog/see-who-tried-to-unlock-your-phone).
 
-## Une vraie protection ? CrookCatcher assure vos arrières.
+<AppCta position="guide_mid" />
 
-Les réglages aident à prévenir le vol, mais que faire si quelqu'un a déjà essayé de déverrouiller votre téléphone ?
+## D'autres moyens de rendre votre téléphone plus difficile à voler
 
-C'est là que **CrookCatcher** fait la différence :
-- 📸 Prend une photo avec la caméra frontale après des déverrouillages ratés
-- 📍 Enregistre la position GPS et une adresse approximative
-- 📤 Envoie le tout directement dans votre boîte mail
+- **Retirez le mode avion des Réglages rapides**, pour qu'un voleur ne puisse pas couper la connexion d'un simple glissement. Consultez [comment empêcher les voleurs d'éteindre votre téléphone](/fr/blog/block-power-menu).
+- **Protégez votre carte SIM par un code PIN** (recherchez « Verrouillage SIM » dans les réglages de sécurité), pour qu'un voleur ne puisse pas utiliser votre numéro pour recevoir vos codes.
+- **Masquez le contenu des notifications sur l'écran de verrouillage**, pour que les codes de sécurité ne s'affichent pas quand le téléphone est verrouillé.
+- **Gardez votre téléphone à jour**, car les nouvelles fonctions de protection contre le vol arrivent avec les mises à jour d'Android.
 
-C'est comme avoir une caméra de sécurité silencieuse dans votre téléphone Android.
+## Questions fréquentes
 
-<figure class="blog-figure">
-  <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dtop_five_settings-fr" target="_blank" rel="noopener noreferrer">
-    <img src="/images/play_screen_1.png" alt="Capture d'écran de l'app CrookCatcher montrant ses fonctions de sécurité" />
-  </a>
-  <figcaption>CrookCatcher aide à protéger votre téléphone en prenant les intrus en photo et en localisant votre appareil</figcaption>
-</figure>
+### Q : Quel est le réglage antivol le plus important sur Android ?
+R : Un verrouillage d'écran solide. Un code PIN à 6 chiffres ou un mot de passe protège tout le reste ; si un voleur peut deviner votre verrouillage, il peut désactiver les autres réglages.
+
+### Q : Android a-t-il une protection contre le vol intégrée ?
+R : Oui. La Protection contre le vol comprend le Verrouillage en cas de détection de vol, le Verrouillage de l'appareil hors connexion et le Verrouillage en cas d'échec de l'authentification, et vous pouvez y ajouter le Verrouillage à distance et la Vérification de l'identité. Ils se trouvent dans Paramètres > Google > Tous les services > Protection contre le vol.
+
+### Q : Ces réglages fonctionnent-ils sur les téléphones Samsung ?
+R : La Protection contre le vol de Google fonctionne sur la plupart des téléphones Android, y compris Samsung. Les téléphones Samsung Galaxy ont aussi leur propre menu Protection contre le vol, dans Paramètres > Sécurité et confidentialité > Protection de l'appareil perdu.
+
+### Q : Un voleur peut-il encore éteindre mon téléphone ?
+R : Parfois, depuis l'écran de verrouillage. Certains téléphones, dont de nombreux modèles Samsung, peuvent exiger votre code PIN pour s'éteindre. Lisez [comment empêcher les voleurs d'éteindre votre téléphone](/fr/blog/block-power-menu).
+
+### Q : Ai-je besoin d'une app antivol si j'utilise ces réglages ?
+R : Les réglages protègent vos données et aident à localiser le téléphone. Ils ne montrent pas qui a essayé de le déverrouiller. Une app comme CrookCatcher ajoute une photo, la position et une alerte par e-mail au moment même où quelqu'un essaie.
+
+## Sources
+
+- Google, Aide Android : [Protéger vos données personnelles contre le vol](https://support.google.com/android/answer/15146908?hl=fr)
+- Google : [Find Hub](https://www.google.com/android/find)
+- Google : [Verrouillage à distance (android.com/lock)](https://www.android.com/lock)
+
+## Guides associés
+
+- [Peut-on voir les tentatives de déverrouillage ratées sur Android ?](/fr/blog/failed-unlock-attempts-android)
+- [Comment empêcher les voleurs d'éteindre votre téléphone](/fr/blog/block-power-menu)
+- [Comment savoir qui a essayé de déverrouiller votre téléphone (et obtenir sa photo)](/fr/blog/see-who-tried-to-unlock-your-phone)
 
 <AppCta position="guide_end" />

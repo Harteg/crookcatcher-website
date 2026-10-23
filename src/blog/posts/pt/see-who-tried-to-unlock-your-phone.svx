@@ -1,7 +1,7 @@
 ---
 title: Como descobrir quem tentou desbloquear seu celular (e ver a foto da pessoa)
 subtitle: Tire uma selfie do intruso quando alguém errar o PIN, o padrão ou a senha
-dateUpdated: '2026-09-28'
+dateUpdated: '2026-10-23'
 datePublished: '2026-09-28'
 description: "O Android não mostra quem tentou desbloquear seu celular. Veja como tirar automaticamente uma foto de quem errar o PIN, o padrão ou a senha, e receber por e-mail junto com a localização."
 image: '/images/blog/who-tried-to-unlock-header.png'
@@ -97,6 +97,12 @@ Sim, os recursos mais importantes são grátis: a foto do intruso, a localizaç�
 <AppCta position="guide_mid" />
 
 ## Perguntas frequentes
+
+### P: O que é uma selfie do intruso?
+R: É uma foto tirada automaticamente com a câmera frontal quando alguém erra o PIN, o padrão ou a senha do seu celular. Normalmente a pessoa está olhando direto para a tela, então a foto mostra o rosto dela. O Android não tira essa foto sozinho; um app de selfie do intruso como o CrookCatcher faz isso e envia a foto para o seu e-mail.
+
+### P: Meu celular consegue tirar uma foto de quem errar a senha?
+R: Não sozinho. O Android não tem uma opção para isso, e as opções de "foto do intruso" no bloqueio de apps de algumas fabricantes só protegem apps específicos, não a tela de bloqueio. Com o CrookCatcher instalado, um PIN, padrão ou senha errados (depois do número de tentativas que você escolher) disparam uma foto, salva com o horário e a localização.
 
 ### P: Funciona com padrão, PIN e senha?
 R: Sim. O CrookCatcher reage a um PIN, padrão ou senha errados. Tentativas com falha de impressão digital ou reconhecimento facial não o ativam, e ele não funciona com câmeras retráteis (pop-up).
