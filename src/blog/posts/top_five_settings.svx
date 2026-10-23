@@ -10,7 +10,7 @@ published: true
 ---
 
 <script>
-  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+  import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
 Whether it’s stolen from your pocket, forgotten in a cab, or grabbed off a café table, your phone is always at risk. That’s why it’s important to secure it *before* anything happens.
@@ -142,4 +142,4 @@ It’s like having a silent security camera inside your Android phone.
   <figcaption>CrookCatcher helps protect your phone by taking photos of intruders and tracking your device</figcaption>
 </figure>
 
-<PlayStoreButton />
+<AppCta position="guide_end" />

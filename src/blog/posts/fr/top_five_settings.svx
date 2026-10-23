@@ -10,7 +10,7 @@ published: true
 ---
 
 <script>
-  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+  import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
 Volé dans votre poche, oublié dans un taxi ou subtilisé sur une table de café : votre téléphone est toujours exposé. C'est pourquoi il est important de le protéger *avant* que quoi que ce soit n'arrive.
@@ -142,4 +142,4 @@ C'est comme avoir une caméra de sécurité silencieuse dans votre téléphone A
   <figcaption>CrookCatcher aide à protéger votre téléphone en prenant les intrus en photo et en localisant votre appareil</figcaption>
 </figure>
 
-<PlayStoreButton />
+<AppCta position="guide_end" />

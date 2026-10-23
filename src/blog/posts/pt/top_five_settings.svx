@@ -10,7 +10,7 @@ published: true
 ---
 
 <script>
-  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+  import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
 Seja roubado do bolso, esquecido em um táxi ou levado de uma mesa de café, seu celular está sempre em risco. Por isso é importante protegê-lo *antes* que algo aconteça.
@@ -142,4 +142,4 @@ As configurações ajudam a evitar o roubo, mas e se alguém já tentou desbloqu
   <figcaption>O CrookCatcher ajuda a proteger seu celular tirando fotos de intrusos e rastreando o aparelho</figcaption>
 </figure>
 
-<PlayStoreButton />
+<AppCta position="guide_end" />

@@ -10,7 +10,7 @@ published: true
 ---
 
 <script>
-  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+  import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
 When someone steals a phone, one of the first things they do is **turn it off or switch on airplane mode**. A phone that's off or offline can't be located, locked or erased remotely, so every tracking feature you set up suddenly stops working.
@@ -89,7 +89,7 @@ So even if the phone is switched off a minute later, the thief's photo and the l
 
 With **CrookCatcher Pro**, you can also record video with sound, capture the surroundings with the back camera, back everything up to Google Drive, and hide CrookCatcher's notifications so the thief doesn't realize they've been caught.
 
-<PlayStoreButton />
+<AppCta position="guide_mid" />
 
 ---
 
@@ -109,3 +109,5 @@ For step-by-step instructions, read our guide to the [top 5 Android settings to 
 An earlier version of this article described an experimental CrookCatcher feature that blocked the power menu and notification shade on the lock screen. Because it couldn't work reliably across all Android phones, and Android and phone makers now offer better built-in protection, the feature has been discontinued. The settings above are the recommended way to protect your phone today.
 
 Got more questions? Check out the [FAQ](/help).
+
+<AppCta position="guide_end" />

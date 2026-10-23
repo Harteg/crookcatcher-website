@@ -10,7 +10,7 @@ published: true
 ---
 
 <script>
-  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+  import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
 Having your phone stolen is stressful, and it happens a lot in the UK. In London alone, the Metropolitan Police recorded around **71,000 mobile phone thefts in 2025**, and nearly 11,000 phones were stolen on the London Underground in 2024. The numbers are falling, but thousands of people still go through this every month.
@@ -102,7 +102,7 @@ Most of the steps above work much better if you prepare in advance. It takes 10 
 
 For step-by-step instructions, read our guides to the [top 5 Android settings to secure your phone against theft](/blog/top_five_settings) and [how to stop thieves from turning off your phone](/blog/block-power-menu).
 
-<PlayStoreButton />
+<AppCta position="guide_mid" />
 
 ## Frequently Asked Questions
 
@@ -119,3 +119,5 @@ A: You can see its location with Find Hub, but don't go there yourself. Give the
 A: CrookCatcher gives you evidence: a photo of the person who tried to unlock your phone, the time, and the location, sent straight to your email. You can share this with the police to help identify the thief. It doesn't guarantee your phone will be recovered, but it gives you and the police much more to go on.
 
 Got more questions? Check out the [FAQ](/help).
+
+<AppCta position="guide_end" />

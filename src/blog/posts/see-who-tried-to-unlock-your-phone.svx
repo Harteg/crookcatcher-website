@@ -11,7 +11,7 @@ published: true
 
 <script>
   import Features from '$lib/components/Features.svelte';
-  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+  import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
 Maybe your phone was moved while you were away. Maybe you saw a "Try again in 30 seconds" message you didn't cause. Or maybe you just want to know if someone has been trying to get into your phone.
@@ -53,6 +53,11 @@ Each time an unlock attempt fails, you get:
 - **The time** of the attempt
 - **An email alert** with all of the above, so you have it even if the phone is gone
 
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/hero-alert-800.webp" srcset="/images/hero-alert-480.webp 480w, /images/hero-alert-800.webp 800w, /images/hero-alert-990.webp 990w" sizes="(min-width: 600px) 540px, 100vw" width="990" height="1024" loading="lazy" alt="CrookCatcher email alert with the intruder's photo, the time of the attempt and a map of the location" />
+  <figcaption>The email CrookCatcher sends after a failed unlock attempt.</figcaption>
+</figure>
+
 All photos are also saved in the app, where you can browse every attempt with its time and location.
 
 With **CrookCatcher Pro**, you can also record a video with sound, take a photo of the surroundings with the back camera, upload everything to Google Drive automatically, and catch people even when they *guess your PIN correctly* after a failed attempt (break-in detection).
@@ -89,7 +94,7 @@ Yes, the most important features are free: the intruder photo, the location and 
 
 <Features />
 
-<PlayStoreButton />
+<AppCta position="guide_mid" />
 
 ## Frequently Asked Questions
 
@@ -115,3 +120,5 @@ A: No. iPhones don't allow apps to detect failed unlock attempts, so CrookCatche
 A: Yes, after you unlock your phone once following a restart. Until then, Android doesn't allow apps to react to unlock attempts.
 
 Got more questions? Check out the [FAQ](/help).
+
+<AppCta position="guide_end" />

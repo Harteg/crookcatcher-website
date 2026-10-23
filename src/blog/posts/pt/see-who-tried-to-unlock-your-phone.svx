@@ -11,7 +11,7 @@ published: true
 
 <script>
   import Features from '$lib/components/Features.svelte';
-  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+  import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
 Talvez seu celular tenha mudado de lugar enquanto você estava fora. Talvez você tenha visto uma mensagem de "Tente novamente em 30 segundos" que não foi causada por você. Ou talvez você só queira saber se alguém anda tentando entrar no seu celular.
@@ -53,6 +53,11 @@ A cada tentativa de desbloqueio com falha, você recebe:
 - **O horário** da tentativa
 - **Um alerta por e-mail** com tudo isso, para você ter as informações mesmo se o celular sumir
 
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-pt.webp" width="990" height="1051" loading="lazy" alt="E-mail de alerta do CrookCatcher com a foto do intruso, o horário da tentativa e um mapa com a localização" />
+  <figcaption>O e-mail que o CrookCatcher envia depois de uma tentativa de desbloqueio com falha.</figcaption>
+</figure>
+
 Todas as fotos também ficam salvas no app, onde você pode ver cada tentativa com horário e localização.
 
 Com o **CrookCatcher Pro**, você também pode gravar vídeo com som, tirar uma foto do ambiente com a câmera traseira, enviar tudo automaticamente para o Google Drive e pegar a pessoa mesmo quando ela *acerta o seu PIN* depois de uma tentativa errada (detecção de invasão).
@@ -89,7 +94,7 @@ Sim, os recursos mais importantes são grátis: a foto do intruso, a localizaç�
 
 <Features />
 
-<PlayStoreButton />
+<AppCta position="guide_mid" />
 
 ## Perguntas frequentes
 
@@ -115,3 +120,5 @@ R: Não. O iPhone não permite que apps detectem tentativas de desbloqueio com f
 R: Sim, depois que você desbloquear o celular uma vez após reiniciar. Até lá, o Android não permite que apps reajam a tentativas de desbloqueio.
 
 Tem mais dúvidas? Confira as [perguntas frequentes](/pt/help).
+
+<AppCta position="guide_end" />

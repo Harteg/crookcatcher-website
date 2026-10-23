@@ -10,7 +10,7 @@ published: true
 ---
 
 <script>
-  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+  import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
 **Os celulares Samsung Galaxy não conseguem mostrar quem tentou desbloqueá-los.** O One UI conta os erros de PIN, padrão e senha só para bloquear o celular por cada vez mais tempo. Ele não guarda uma lista que você possa consultar e nunca tira foto. Para ver quem foi, instale um app que reage a desbloqueios com falha, como o [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-pt). Ele tira uma foto com a câmera frontal depois de um PIN errado e envia para o seu e-mail com a localização.
@@ -75,7 +75,7 @@ Elas não mostram quem tentou, mas deixam seu celular muito mais difícil de inv
 O CrookCatcher preenche exatamente essa lacuna. Quando alguém erra o PIN, o padrão ou a senha, ele tira uma foto com a câmera frontal, registra a localização e um endereço aproximado e envia os dois para o seu e-mail. Cada tentativa também fica salva no app com o horário.
 
 <figure class="blog-figure" style="max-width: 540px;">
-  <img src="/images/email_preview.png" alt="E-mail de alerta do CrookCatcher com a foto do intruso, o horário da tentativa e um mapa com a localização" />
+  <img src="/images/blog/email-alert-pt.webp" width="990" height="1051" loading="lazy" alt="E-mail de alerta do CrookCatcher com a foto do intruso, o horário da tentativa e um mapa com a localização" />
   <figcaption>O e-mail que o CrookCatcher envia depois de uma tentativa de desbloqueio com falha.</figcaption>
 </figure>
 
@@ -89,6 +89,8 @@ O CrookCatcher preenche exatamente essa lacuna. Quando alguém erra o PIN, o pad
 6. **Teste.** Bloqueie o celular, erre o PIN de propósito e depois desbloqueie. Sua própria foto deve aparecer no app e no seu e-mail.
 
 Você escolhe depois de quantos erros o CrookCatcher entra em ação. Desde 2014, o CrookCatcher já foi baixado mais de 12 milhões de vezes e tira cerca de 1,2 milhão de fotos de intrusos por dia.
+
+<AppCta position="guide_mid" />
 
 ## Perguntas frequentes
 
@@ -125,4 +127,4 @@ R: Geralmente porque a Samsung suspendeu o app para economizar bateria. Adicione
 - [Como impedir que ladrões desliguem seu celular](/pt/blog/block-power-menu)
 - [As 5 principais configurações do Android para proteger seu celular contra roubo](/pt/blog/top_five_settings)
 
-<PlayStoreButton />
+<AppCta position="guide_end" />

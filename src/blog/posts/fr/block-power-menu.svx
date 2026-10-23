@@ -10,7 +10,7 @@ published: true
 ---
 
 <script>
-  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+  import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
 Quand quelqu'un vole un téléphone, l'une des premières choses qu'il fait est de **l'éteindre ou d'activer le mode avion**. Un téléphone éteint ou hors ligne ne peut plus être localisé, verrouillé ni effacé à distance : toutes les fonctions de suivi que vous avez configurées cessent soudain de fonctionner.
@@ -89,7 +89,7 @@ Ainsi, même si le téléphone est éteint une minute plus tard, la photo du vol
 
 Avec **CrookCatcher Pro**, vous pouvez aussi enregistrer une vidéo avec le son, capturer l'environnement avec la caméra arrière, tout sauvegarder sur Google Drive et masquer les notifications de CrookCatcher pour que le voleur ne se rende pas compte qu'il a été pris.
 
-<PlayStoreButton />
+<AppCta position="guide_mid" />
 
 ---
 
@@ -109,3 +109,5 @@ Pour des instructions pas à pas, lisez notre guide des [5 réglages Android ess
 Une version précédente de cet article décrivait une fonction expérimentale de CrookCatcher qui bloquait le menu d'extinction et le volet des notifications sur l'écran de verrouillage. Comme elle ne fonctionnait pas de façon fiable sur tous les téléphones Android, et qu'Android et les fabricants proposent désormais une meilleure protection intégrée, cette fonction a été abandonnée. Les réglages ci-dessus sont aujourd'hui la façon recommandée de protéger votre téléphone.
 
 D'autres questions ? Consultez la [FAQ](/fr/help).
+
+<AppCta position="guide_end" />

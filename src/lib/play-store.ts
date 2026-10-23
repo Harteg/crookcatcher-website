@@ -11,7 +11,22 @@ export function playStoreUrl(medium: string, campaign: string) {
 	return `${PLAY_URL}&referrer=${encodeURIComponent(referrer)}`;
 }
 
-type PageLike = { route: { id: string | null }; params: Record<string, string>; data: Record<string, any> };
+/**
+ * Report a Play Store click to Google Analytics. `position` says which link was clicked
+ * (header, hero, guide_mid, guide_end, guide_text, ...); `campaign` matches the Play referrer.
+ */
+export function trackPlayClick(position: string, campaign: string) {
+	const gtag = (window as any).gtag;
+	gtag?.('event', 'play_store_button_click', {
+		event_category: 'Play Store Button',
+		event_label: campaign,
+		button_position: position,
+		value: 1,
+		transport_type: 'beacon'
+	});
+}
+
+type PageLike ={ route: { id: string | null }; params: Record<string, string>; data: Record<string, any> };
 
 /**
  * Tracking for a Play link on the current page. On a guide every link is attributed to the

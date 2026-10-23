@@ -10,7 +10,7 @@ published: false
 ---
 
 <script>
-  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+  import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
 **No. Android doesn't keep a list of failed unlock attempts, and it never shows who made them.** It counts wrong PIN, pattern and password guesses only to make the person wait longer before trying again. Once the phone is unlocked, there's nothing to look back at: no list, no time, no photo. To see failed attempts, you need an app that's notified each time an unlock fails, like [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android), which takes a photo of the person and emails it to you with the location.
@@ -68,11 +68,13 @@ When an unlock fails, CrookCatcher:
 - emails it all to you, so you have it even if the phone is gone.
 
 <figure class="blog-figure" style="max-width: 540px;">
-  <img src="/images/email_preview.png" alt="CrookCatcher email alert with the intruder's photo, the time of the attempt and a map of the location" />
+  <img src="/images/hero-alert-800.webp" srcset="/images/hero-alert-480.webp 480w, /images/hero-alert-800.webp 800w, /images/hero-alert-990.webp 990w" sizes="(min-width: 600px) 540px, 100vw" width="990" height="1024" loading="lazy" alt="CrookCatcher email alert with the intruder's photo, the time of the attempt and a map of the location" />
   <figcaption>The email CrookCatcher sends after a failed unlock attempt.</figcaption>
 </figure>
 
 You choose how many wrong attempts it takes before CrookCatcher acts. It has been downloaded more than 12 million times since 2014, and it takes around 1.2 million intruder photos a day. Setup takes a few minutes and there's no account to create: see [how to see who tried to unlock your phone](/blog/see-who-tried-to-unlock-your-phone) for the step-by-step.
+
+<AppCta position="guide_mid" />
 
 ## Turn on Android's own protection too
 
@@ -118,4 +120,4 @@ A: CrookCatcher reacts to a wrong PIN, pattern or password, not to failed finger
 - [Top 5 Android settings to secure your phone against theft](/blog/top_five_settings)
 - [How to stop thieves from turning off your phone](/blog/block-power-menu)
 
-<PlayStoreButton />
+<AppCta position="guide_end" />

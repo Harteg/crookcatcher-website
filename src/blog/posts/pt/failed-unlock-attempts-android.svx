@@ -10,7 +10,7 @@ published: false
 ---
 
 <script>
-  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+  import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
 **Não. O Android não guarda uma lista das tentativas de desbloqueio com falha e nunca mostra quem as fez.** Ele conta os erros de PIN, padrão e senha só para fazer a pessoa esperar cada vez mais antes de tentar de novo. Depois que o celular é desbloqueado, não há nada para consultar: nenhuma lista, nenhum horário, nenhuma foto. Para ver as tentativas com falha, você precisa de um app que seja avisado sempre que um desbloqueio falha, como o [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-pt), que tira uma foto da pessoa e envia para o seu e-mail com a localização.
@@ -68,11 +68,13 @@ Quando um desbloqueio falha, o CrookCatcher:
 - envia tudo para o seu e-mail, para você ter as informações mesmo se o celular sumir.
 
 <figure class="blog-figure" style="max-width: 540px;">
-  <img src="/images/email_preview.png" alt="E-mail de alerta do CrookCatcher com a foto do intruso, o horário da tentativa e um mapa com a localização" />
+  <img src="/images/blog/email-alert-pt.webp" width="990" height="1051" loading="lazy" alt="E-mail de alerta do CrookCatcher com a foto do intruso, o horário da tentativa e um mapa com a localização" />
   <figcaption>O e-mail que o CrookCatcher envia depois de uma tentativa de desbloqueio com falha.</figcaption>
 </figure>
 
 Você escolhe depois de quantos erros o CrookCatcher entra em ação. Ele já foi baixado mais de 12 milhões de vezes desde 2014 e tira cerca de 1,2 milhão de fotos de intrusos por dia. A configuração leva poucos minutos e não é preciso criar conta: veja [como descobrir quem tentou desbloquear seu celular](/pt/blog/see-who-tried-to-unlock-your-phone) para o passo a passo.
+
+<AppCta position="guide_mid" />
 
 ## Ative também a proteção do próprio Android
 
@@ -118,4 +120,4 @@ R: O CrookCatcher reage a um PIN, padrão ou senha errados, não a tentativas co
 - [As 5 principais configurações do Android para proteger seu celular contra roubo](/pt/blog/top_five_settings)
 - [Como impedir que ladrões desliguem seu celular](/pt/blog/block-power-menu)
 
-<PlayStoreButton />
+<AppCta position="guide_end" />

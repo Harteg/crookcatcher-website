@@ -10,7 +10,7 @@ published: true
 ---
 
 <script>
-  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+  import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
 Quando alguém rouba um celular, uma das primeiras coisas que faz é **desligar o aparelho ou ativar o modo avião**. Um celular desligado ou offline não pode ser localizado, bloqueado nem apagado a distância, então todos os recursos de rastreamento que você configurou param de funcionar de uma hora para outra.
@@ -89,7 +89,7 @@ Assim, mesmo que o celular seja desligado um minuto depois, a foto do ladrão e 
 
 Com o **CrookCatcher Pro**, você também pode gravar vídeo com som, registrar o ambiente com a câmera traseira, fazer backup de tudo no Google Drive e ocultar as notificações do CrookCatcher para que o ladrão não perceba que foi pego.
 
-<PlayStoreButton />
+<AppCta position="guide_mid" />
 
 ---
 
@@ -109,3 +109,5 @@ Para instruções passo a passo, leia nosso guia com as [5 principais configura�
 Uma versão anterior deste artigo descrevia um recurso experimental do CrookCatcher que bloqueava o menu de desligar e a barra de notificações na tela de bloqueio. Como ele não funcionava de forma confiável em todos os celulares Android, e como o Android e as fabricantes agora oferecem uma proteção nativa melhor, o recurso foi descontinuado. As configurações acima são a forma recomendada de proteger seu celular hoje.
 
 Tem mais dúvidas? Confira as [perguntas frequentes](/pt/help).
+
+<AppCta position="guide_end" />

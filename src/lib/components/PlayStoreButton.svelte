@@ -1,6 +1,6 @@
 <script lang="ts">
   import { page } from '$app/stores';
-  import { playStoreUrl, playTracking } from '$lib/play-store';
+  import { playStoreUrl, playTracking, trackPlayClick } from '$lib/play-store';
 
   // Official badges we have in static/images/play_badges; anything else falls back to English.
   const BADGES = ['en', 'fr'];
@@ -12,19 +12,6 @@
   $: tracking = playTracking($page, position);
   $: badge = BADGES.includes($page.data.locale) ? $page.data.locale : 'en';
 
-  function trackGtag() {
-    if (typeof window === 'undefined') return;
-    const gtag = (window as any).gtag;
-    if (gtag) {
-      gtag('event', 'play_store_button_click', {
-        event_category: 'Play Store Button',
-        event_label: tracking.campaign,
-        button_position: position || 'unknown',
-        value: 1,
-        transport_type: 'beacon'
-      });
-    }
-  }
 </script>
 
 <a
@@ -36,7 +23,7 @@
   data-fast-goal="play_store_click"
   data-fast-goal-position={position || 'unknown'}
   data-fast-goal-utm-source={tracking.campaign}
-  on:click={trackGtag}
+  on:click={() => trackPlayClick(position || 'unknown', tracking.campaign)}
 >
   <img
     alt={$page.data.ui.playBadgeAlt}

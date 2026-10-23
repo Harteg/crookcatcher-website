@@ -115,5 +115,14 @@
         "description": "Enjoy an ad-free app and support the development of CrookCatcher."
       }
     }
+  },
+  "appCta": {
+    "title": "Get a photo of anyone who tries to unlock your phone",
+    "text": "CrookCatcher takes an intruder selfie after a wrong PIN, pattern or password and emails it to you with the location.",
+    "facts": [
+      "Free",
+      "4.6★ · 90K+ ratings",
+      "12M+ downloads"
+    ]
   }
 }

@@ -3,7 +3,7 @@
   import { page } from '$app/stores';
   import { localizePath } from '$lib/i18n';
   import LanguagePicker from './LanguagePicker.svelte';
-  import { playStoreUrl, playTracking } from '$lib/play-store';
+  import { playStoreUrl, playTracking, trackPlayClick } from '$lib/play-store';
 
   let menuOpen = false;
   let heroBadgeVisible = false;
@@ -45,18 +45,6 @@
     menuOpen = false;
   }
 
-  function trackGtag() {
-    const gtag = (window as any).gtag;
-    if (gtag) {
-      gtag('event', 'play_store_button_click', {
-        event_category: 'Play Store Button',
-        event_label: 'website',
-        button_position: 'header',
-        value: 1,
-        transport_type: 'beacon'
-      });
-    }
-  }
 </script>
 
 <header class="header-fixed">
@@ -97,8 +85,8 @@
       rel="noopener noreferrer"
       data-fast-goal="play_store_click"
       data-fast-goal-position="header"
-      data-fast-goal-utm-source="website"
-      on:click={trackGtag}
+      data-fast-goal-utm-source={tracking.campaign}
+      on:click={() => trackPlayClick('header', tracking.campaign)}
     >
       {t.getApp}
     </a>

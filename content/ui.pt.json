@@ -115,5 +115,14 @@
         "description": "Aproveite o app sem anúncios e apoie o desenvolvimento do CrookCatcher."
       }
     }
+  },
+  "appCta": {
+    "title": "Receba a foto de quem tentar desbloquear seu celular",
+    "text": "O CrookCatcher tira uma selfie do intruso depois de um PIN, padrão ou senha errados e envia para o seu e-mail com a localização.",
+    "facts": [
+      "Grátis",
+      "4,6★ · mais de 90 mil avaliações",
+      "Mais de 12 milhões de downloads"
+    ]
   }
 }

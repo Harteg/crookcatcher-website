@@ -10,7 +10,7 @@ published: false
 ---
 
 <script>
-  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+  import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
 **Un Google Pixel ne peut pas vous montrer qui a essayé de le déverrouiller.** Android compte les erreurs de code PIN, de schéma et de mot de passe uniquement pour faire patienter la personne avant un nouvel essai. Il n'y a ni liste des tentatives, ni heure, ni photo. Pour savoir qui c'était, installez une app prévenue des déverrouillages ratés, comme [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-fr). Elle prend une photo avec la caméra frontale après un mauvais code PIN et vous l'envoie par e-mail avec la position.
@@ -73,7 +73,7 @@ Pour d'autres réglages, consultez [les 5 réglages Android essentiels pour prot
 CrookCatcher comble exactement ce manque. Android prévient les apps disposant de l'autorisation **Administrateur de l'appareil** à chaque échec de déverrouillage. CrookCatcher s'en sert pour prendre une photo avec la caméra frontale, enregistrer la position et une adresse approximative, et vous envoyer le tout par e-mail. Chaque tentative est aussi enregistrée dans l'app avec son heure.
 
 <figure class="blog-figure" style="max-width: 540px;">
-  <img src="/images/email_preview.png" alt="E-mail d'alerte CrookCatcher avec la photo de l'intrus, l'heure de la tentative et une carte avec la position" />
+  <img src="/images/blog/email-alert-fr.webp" width="990" height="1101" loading="lazy" alt="E-mail d'alerte CrookCatcher avec la photo de l'intrus, l'heure de la tentative et une carte avec la position" />
   <figcaption>L'e-mail envoyé par CrookCatcher après une tentative de déverrouillage ratée.</figcaption>
 </figure>
 
@@ -86,6 +86,8 @@ CrookCatcher comble exactement ce manque. Android prévient les apps disposant d
 5. **Testez.** Verrouillez votre Pixel, saisissez volontairement un mauvais code PIN, puis déverrouillez-le. Votre propre photo devrait apparaître dans l'app et dans votre boîte mail.
 
 C'est vous qui choisissez au bout de combien d'erreurs CrookCatcher se déclenche. Depuis 2014, CrookCatcher a été téléchargé plus de 12 millions de fois et prend environ 1,2 million de photos d'intrus par jour.
+
+<AppCta position="guide_mid" />
 
 ## Questions fréquentes
 
@@ -121,4 +123,4 @@ R : CrookCatcher fonctionne en arrière-plan sans afficher d'aperçu de la cam�
 - [Les 5 réglages Android essentiels pour protéger votre téléphone contre le vol](/fr/blog/top_five_settings)
 - [Comment empêcher les voleurs d'éteindre votre téléphone](/fr/blog/block-power-menu)
 
-<PlayStoreButton />
+<AppCta position="guide_end" />

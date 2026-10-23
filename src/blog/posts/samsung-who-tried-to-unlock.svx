@@ -10,7 +10,7 @@ published: true
 ---
 
 <script>
-  import PlayStoreButton from '$lib/components/PlayStoreButton.svelte';
+  import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
 **Samsung Galaxy phones can't show you who tried to unlock them.** One UI counts wrong PIN, pattern and password guesses only to lock the phone for longer and longer. It doesn't keep a list you can check, and it never takes a photo. To see who it was, install an app that reacts to failed unlocks, like [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock). It takes a photo with the front camera after a wrong PIN and emails it to you with the location.
@@ -75,7 +75,7 @@ These don't show you who tried, but they make your phone much harder to get into
 CrookCatcher fills exactly that gap. When someone enters a wrong PIN, pattern or password, it takes a photo with the front camera, records the location and an approximate address, and emails both to you. Every attempt is also saved in the app with its time.
 
 <figure class="blog-figure" style="max-width: 540px;">
-  <img src="/images/email_preview.png" alt="CrookCatcher email alert with the intruder's photo, the time of the attempt and a map of the location" />
+  <img src="/images/hero-alert-800.webp" srcset="/images/hero-alert-480.webp 480w, /images/hero-alert-800.webp 800w, /images/hero-alert-990.webp 990w" sizes="(min-width: 600px) 540px, 100vw" width="990" height="1024" loading="lazy" alt="CrookCatcher email alert with the intruder's photo, the time of the attempt and a map of the location" />
   <figcaption>The email CrookCatcher sends after a failed unlock attempt.</figcaption>
 </figure>
 
@@ -89,6 +89,8 @@ CrookCatcher fills exactly that gap. When someone enters a wrong PIN, pattern or
 6. **Test it.** Lock your phone, enter a wrong PIN on purpose, then unlock it. Your own photo should appear in the app and your inbox.
 
 You choose how many wrong attempts it takes before CrookCatcher acts. Since 2014, CrookCatcher has been downloaded more than 12 million times, and it takes around 1.2 million intruder photos a day.
+
+<AppCta position="guide_mid" />
 
 ## Frequently Asked Questions
 
@@ -125,4 +127,4 @@ A: Usually because Samsung put the app to sleep to save battery. Add it to **Nev
 - [How to stop thieves from turning off your phone](/blog/block-power-menu)
 - [Top 5 Android settings to secure your phone against theft](/blog/top_five_settings)
 
-<PlayStoreButton />
+<AppCta position="guide_end" />

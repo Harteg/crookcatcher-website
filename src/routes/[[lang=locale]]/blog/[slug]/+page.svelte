@@ -4,6 +4,8 @@
   import Hreflang from '$lib/components/Hreflang.svelte';
   import { responsiveImage } from '$lib/responsive-image';
   import { LOCALE_META, SITE_URL, absoluteUrl } from '$lib/i18n';
+  import { playTracking, trackPlayClick } from '$lib/play-store';
+  import { onMount } from 'svelte';
 
   import { page } from '$app/stores';
 
@@ -13,6 +15,22 @@
   import Footer from '$lib/components/Footer.svelte';
 
   const toIso = (dateString: string) => new Date(dateString).toISOString();
+
+  let content: HTMLDivElement;
+
+  // Play Store links written in a guide's text have no tracking attributes (badges and cards
+  // do), so report clicks on them here as position "guide_text".
+  onMount(() => {
+    const onClick = (event: MouseEvent) => {
+      const link = (event.target as HTMLElement).closest('a');
+      if (!link?.href.includes('play.google.com/store/apps') || link.hasAttribute('data-fast-goal')) return;
+      const { campaign } = playTracking($page, 'guide_text');
+      trackPlayClick('guide_text', campaign);
+      (window as any).datafast?.('play_store_click', { position: 'guide_text', utm_source: campaign });
+    };
+    content.addEventListener('click', onClick);
+    return () => content.removeEventListener('click', onClick);
+  });
 
   $: t = data.ui.blog;
   $: slug = $page.params.slug;
@@ -103,7 +121,7 @@
       </div>
     </header>
 
-    <div class="post-content">
+    <div class="post-content" bind:this={content}>
       <svelte:component this={data.post.content} />
     </div>
     <div class="post-footer">

@@ -115,5 +115,14 @@
         "description": "Profitez d'une app sans publicité et soutenez le développement de CrookCatcher."
       }
     }
+  },
+  "appCta": {
+    "title": "Recevez la photo de quiconque essaie de déverrouiller votre téléphone",
+    "text": "CrookCatcher prend un selfie de l'intrus après un mauvais code PIN, schéma ou mot de passe et vous l'envoie par e-mail avec la position.",
+    "facts": [
+      "Gratuit",
+      "4,6★ · plus de 90 000 notes",
+      "Plus de 12 millions de téléchargements"
+    ]
   }
 }
