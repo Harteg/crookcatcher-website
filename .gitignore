@@ -6,3 +6,6 @@
 !.env.example
 .DS_Store
  
+.claude/launch.json
+.DS_Store
+.DS_Store
