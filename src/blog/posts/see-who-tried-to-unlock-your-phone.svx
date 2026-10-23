@@ -24,7 +24,7 @@ Here's the short answer:
 
 ## Can Android show who tried to unlock your phone?
 
-Not by default. When someone enters the wrong PIN, pattern or password, Android simply rejects it. After several wrong attempts it makes the person wait before trying again, but it doesn't save a log you can check later, and it never uses the camera.
+Not by default. When someone enters the wrong PIN, pattern or password, Android simply rejects it. After several wrong attempts it makes the person wait before trying again, but it doesn't save a log you can check later, and it never uses the camera. Here's [exactly what Android does with failed unlock attempts](/blog/failed-unlock-attempts-android).
 
 Some phone manufacturers include a similar "intruder photo" option in their own app lock. These usually only protect individual apps, not the lock screen itself, so they won't catch someone trying to get into your phone in the first place.
 

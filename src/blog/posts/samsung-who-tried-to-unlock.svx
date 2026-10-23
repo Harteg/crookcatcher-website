@@ -39,7 +39,7 @@ A few details from Samsung:
 - **Repeating the same wrong entry doesn't count again.** Identical wrong attempts in a row are skipped, so a child tapping the same code won't lock you out.
 - **The lock screen warns you** how many attempts are left once someone gets close to the limit.
 
-That warning, or a "Try again in…" message, is the only sign you'll see that someone tried. It doesn't say who, when, or how many times.
+That warning, or a "Try again in…" message, is the only sign you'll see that someone tried. It doesn't say who, when, or how many times. For how other Android phones handle wrong guesses, see [can you see failed unlock attempts on Android?](/blog/failed-unlock-attempts-android)
 
 ## Samsung settings worth turning on
 

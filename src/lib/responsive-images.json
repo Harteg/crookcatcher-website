@@ -13,6 +13,60 @@
 			"src": "/images/blog/Digital_Solitude_Urban_Shadows-1199.webp"
 		}
 	],
+	"/images/blog/failed-unlock-attempts-android-header-fr.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/failed-unlock-attempts-android-header-fr-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/failed-unlock-attempts-android-header-fr-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/failed-unlock-attempts-android-header-fr-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/failed-unlock-attempts-android-header-fr-1600.webp"
+		}
+	],
+	"/images/blog/failed-unlock-attempts-android-header-pt.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/failed-unlock-attempts-android-header-pt-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/failed-unlock-attempts-android-header-pt-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/failed-unlock-attempts-android-header-pt-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/failed-unlock-attempts-android-header-pt-1600.webp"
+		}
+	],
+	"/images/blog/failed-unlock-attempts-android-header.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/failed-unlock-attempts-android-header-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/failed-unlock-attempts-android-header-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/failed-unlock-attempts-android-header-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/failed-unlock-attempts-android-header-1600.webp"
+		}
+	],
 	"/images/blog/phone-stolen-australia-header.png": [
 		{
 			"width": 480,

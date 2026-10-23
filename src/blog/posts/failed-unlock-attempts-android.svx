@@ -1,12 +1,12 @@
 ---
 title: Can You See Failed Unlock Attempts on Android? (2026)
 subtitle: What Android records when someone enters the wrong PIN, and how to find out who it was
-dateUpdated: '2026-10-21'
-datePublished: '2026-10-21'
+dateUpdated: '2026-10-23'
+datePublished: '2026-10-23'
 description: "Android doesn't keep a list of failed unlock attempts or show who made them. It only counts wrong guesses to lock the phone for longer and longer. Here's exactly what Android does, and how to get a photo of the person instead."
 image: '/images/blog/failed-unlock-attempts-android-header.png'
 imageAlt: 'Can you see failed unlock attempts on Android? Android only counts wrong guesses. CrookCatcher shows you who made them.'
-published: false
+published: true
 ---
 
 <script>

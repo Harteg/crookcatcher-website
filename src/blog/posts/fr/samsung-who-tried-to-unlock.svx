@@ -39,7 +39,7 @@ Quelques précisions de Samsung :
 - **Répéter la même saisie erronée ne compte plus.** Les erreurs identiques consécutives sont ignorées : un enfant qui tape le même code ne vous bloquera pas.
 - **L'écran de verrouillage vous avertit** du nombre d'essais restants quand quelqu'un approche de la limite.
 
-Cet avertissement, ou un message « Réessayez dans… », est le seul signe que quelqu'un a essayé. Il ne dit ni qui, ni quand, ni combien de fois.
+Cet avertissement, ou un message « Réessayez dans… », est le seul signe que quelqu'un a essayé. Il ne dit ni qui, ni quand, ni combien de fois. Pour savoir comment les autres téléphones Android gèrent les erreurs, consultez [peut-on voir les tentatives de déverrouillage ratées sur Android ?](/fr/blog/failed-unlock-attempts-android)
 
 ## Les réglages Samsung à activer
 

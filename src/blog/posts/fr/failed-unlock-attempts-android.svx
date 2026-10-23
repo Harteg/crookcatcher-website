@@ -1,12 +1,12 @@
 ---
 title: Peut-on voir les tentatives de déverrouillage ratées sur Android ? (2026)
 subtitle: Ce qu'Android enregistre quand quelqu'un se trompe de code PIN, et comment savoir qui c'était
-dateUpdated: '2026-10-21'
-datePublished: '2026-10-21'
+dateUpdated: '2026-10-23'
+datePublished: '2026-10-23'
 description: "Android ne garde aucune liste des tentatives de déverrouillage ratées et ne montre jamais qui les a faites. Il compte seulement les erreurs pour bloquer le téléphone de plus en plus longtemps. Voici exactement ce que fait Android, et comment obtenir une photo de la personne."
 image: '/images/blog/failed-unlock-attempts-android-header-fr.png'
 imageAlt: "Peut-on voir les tentatives de déverrouillage ratées sur Android ? Android ne fait que les compter. CrookCatcher vous montre qui les a faites."
-published: false
+published: true
 ---
 
 <script>

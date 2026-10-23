@@ -20,7 +20,7 @@ A boa notícia: o Android e as fabricantes agora têm configurações que dificu
 ## Resumo
 
 1. **Samsung:** ative *Bloquear rede e segurança*, para que o celular peça seu PIN antes de poder ser desligado pela tela de bloqueio.
-2. **Todos os celulares Android:** ative o *Bloqueio por detecção de roubo* e o *Bloqueio do dispositivo off-line*.
+2. **Todos os celulares Android:** ative o *Bloqueio por Detecção de Roubo* e o *Bloqueio de Dispositivo Off-line*.
 3. **Tire o modo avião** das Configurações rápidas.
 4. **Procure nas configurações do seu celular** uma opção de "exigir desbloqueio para desligar".
 5. **Instale o <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-pt" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** para receber a foto e a localização de quem tentar desbloquear seu celular.
@@ -42,18 +42,18 @@ Em um Samsung, você também pode receber uma foto de quem errar o PIN: veja [co
 
 ---
 
-## 2. Todos os celulares Android: ative o Bloqueio por detecção de roubo e o Bloqueio do dispositivo off-line
+## 2. Todos os celulares Android: ative o Bloqueio por Detecção de Roubo e o Bloqueio de Dispositivo Off-line
 
 Esses recursos do Android bloqueiam seu celular automaticamente, o que ajuda principalmente quando um ladrão arranca o aparelho da sua mão enquanto ele está desbloqueado.
 
-- O **Bloqueio por detecção de roubo** bloqueia a tela se o celular perceber um movimento de quem pega o aparelho e sai correndo.
-- O **Bloqueio do dispositivo off-line** bloqueia a tela pouco depois de o celular ficar offline, por exemplo quando alguém ativa o modo avião.
+- O **Bloqueio por Detecção de Roubo** bloqueia a tela se o celular perceber um movimento de quem pega o aparelho e sai correndo.
+- O **Bloqueio de Dispositivo Off-line** bloqueia a tela pouco depois de o celular ficar offline, por exemplo quando alguém ativa o modo avião.
 
 **Na maioria dos celulares Android, acesse:**
 `Configurações > Segurança e privacidade > Desbloqueio do dispositivo > Proteção contra roubo`
 
 **Nos celulares Samsung, acesse:**
-`Configurações > Segurança e privacidade > Proteção contra perda do dispositivo > Proteção contra roubo`
+`Configurações > Segurança e privacidade > Proteção do aparelho perdido > Proteção contra roubo`
 
 Com o celular bloqueado, o ladrão volta para a tela de bloqueio, onde o passo 1 e o CrookCatcher entram em ação.
 
@@ -95,7 +95,7 @@ Com o **CrookCatcher Pro**, você também pode gravar vídeo com som, registrar 
 
 ## Mais formas de manter seu celular seguro
 
-- **Ative o Find Hub** (o Encontre Meu Dispositivo do Google) para poder localizar, bloquear ou apagar seu celular.
+- **Ative o Find Hub** (chamado de Localizador nas páginas de ajuda do Google em português) para poder localizar, bloquear ou apagar seu celular.
 - **Use um bloqueio de tela forte.** Uma senha ou um PIN de 6 dígitos é muito mais difícil de adivinhar do que um de 4.
 - **Mantenha o celular atualizado** para ter os recursos de segurança mais recentes.
 - **Tenha cuidado em lugares públicos.** Muitos roubos acontecem enquanto o celular está na sua mão, por exemplo quando você olha um mapa ou tira uma foto.

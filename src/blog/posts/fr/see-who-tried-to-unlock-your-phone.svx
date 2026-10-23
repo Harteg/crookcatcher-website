@@ -24,7 +24,7 @@ La réponse courte :
 
 ## Android peut-il montrer qui a essayé de déverrouiller votre téléphone ?
 
-Pas par défaut. Quand quelqu'un saisit un mauvais code PIN, schéma ou mot de passe, Android le refuse simplement. Après plusieurs tentatives ratées, il fait patienter la personne avant qu'elle puisse réessayer, mais il n'enregistre aucun journal consultable plus tard, et il n'utilise jamais la caméra.
+Pas par défaut. Quand quelqu'un saisit un mauvais code PIN, schéma ou mot de passe, Android le refuse simplement. Après plusieurs tentatives ratées, il fait patienter la personne avant qu'elle puisse réessayer, mais il n'enregistre aucun journal consultable plus tard, et il n'utilise jamais la caméra. Voici [ce que fait exactement Android des tentatives de déverrouillage ratées](/fr/blog/failed-unlock-attempts-android).
 
 Certains fabricants proposent une option similaire de « photo de l'intrus » dans leur propre verrouillage d'applications. En général, elle ne protège que certaines apps, pas l'écran de verrouillage lui-même : elle ne repère donc pas quelqu'un qui essaie d'entrer dans votre téléphone.
 

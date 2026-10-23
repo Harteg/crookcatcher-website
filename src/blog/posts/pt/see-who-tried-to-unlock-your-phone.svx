@@ -24,7 +24,7 @@ A resposta curta:
 
 ## O Android mostra quem tentou desbloquear o celular?
 
-Não por padrão. Quando alguém erra o PIN, o padrão ou a senha, o Android simplesmente recusa. Depois de várias tentativas erradas, ele faz a pessoa esperar antes de tentar de novo, mas não salva um registro que você possa consultar depois, e nunca usa a câmera.
+Não por padrão. Quando alguém erra o PIN, o padrão ou a senha, o Android simplesmente recusa. Depois de várias tentativas erradas, ele faz a pessoa esperar antes de tentar de novo, mas não salva um registro que você possa consultar depois, e nunca usa a câmera. Veja [exatamente o que o Android faz com as tentativas de desbloqueio com falha](/pt/blog/failed-unlock-attempts-android).
 
 Algumas fabricantes incluem uma opção parecida de "foto do intruso" no próprio bloqueio de apps. Normalmente, isso só protege apps específicos, não a tela de bloqueio, então não pega quem tenta entrar no seu celular logo de cara.
 

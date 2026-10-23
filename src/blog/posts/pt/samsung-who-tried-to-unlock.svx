@@ -39,7 +39,7 @@ Alguns detalhes da Samsung:
 - **Repetir a mesma tentativa errada não conta de novo.** Tentativas erradas idênticas seguidas são ignoradas, então uma criança tocando o mesmo código não vai bloquear você.
 - **A tela de bloqueio avisa** quantas tentativas restam quando alguém se aproxima do limite.
 
-Esse aviso, ou uma mensagem de "Tente novamente em…", é o único sinal de que alguém tentou. Ele não diz quem, quando nem quantas vezes.
+Esse aviso, ou uma mensagem de "Tente novamente em…", é o único sinal de que alguém tentou. Ele não diz quem, quando nem quantas vezes. Para saber como outros celulares Android lidam com os erros, veja [dá para ver as tentativas de desbloqueio com falha no Android?](/pt/blog/failed-unlock-attempts-android)
 
 ## Configurações da Samsung que valem a pena ativar
 

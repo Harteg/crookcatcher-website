@@ -1,12 +1,12 @@
 ---
 title: Dá para ver as tentativas de desbloqueio com falha no Android? (2026)
 subtitle: O que o Android registra quando alguém erra o PIN, e como descobrir quem foi
-dateUpdated: '2026-10-21'
-datePublished: '2026-10-21'
+dateUpdated: '2026-10-23'
+datePublished: '2026-10-23'
 description: "O Android não guarda uma lista das tentativas de desbloqueio com falha nem mostra quem as fez. Ele só conta os erros para bloquear o celular por cada vez mais tempo. Veja exatamente o que o Android faz, e como conseguir uma foto da pessoa."
 image: '/images/blog/failed-unlock-attempts-android-header-pt.png'
 imageAlt: 'Dá para ver as tentativas de desbloqueio com falha no Android? O Android só conta os erros. O CrookCatcher mostra quem os cometeu.'
-published: false
+published: true
 ---
 
 <script>
