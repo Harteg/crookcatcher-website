@@ -1,20 +1,20 @@
 {
-  "trials_started_7d": 1340,
-  "trial_conversions_7d": 160,
+  "trials_started_7d": 1360,
+  "trial_conversions_7d": 150,
   "direct_subscriptions_7d": 80,
   "intro_offers_7d": 0,
   "lifetime_purchases_7d": 40,
   "raw": {
-    "trials_started_7d": 1346,
-    "trial_conversions_7d": 169,
-    "direct_subscriptions_7d": 83,
-    "intro_offers_7d": 9,
-    "lifetime_purchases_7d": 43
+    "trials_started_7d": 1369,
+    "trial_conversions_7d": 154,
+    "direct_subscriptions_7d": 89,
+    "intro_offers_7d": 7,
+    "lifetime_purchases_7d": 45
   },
   "window": {
-    "start_date": "2026-10-18",
-    "end_date": "2026-10-24"
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-25"
   },
   "app_id": "app0feb0ed5eb",
-  "updated_at": "2026-10-24T09:33:32.475Z"
+  "updated_at": "2026-10-25T09:49:40.957Z"
 }
