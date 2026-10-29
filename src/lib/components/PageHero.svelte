@@ -21,33 +21,26 @@
   }
 
   .page-eyebrow {
-    display: inline-block;
-    margin: 0 0 16px;
-    padding: 5px 12px;
-    border: 1px solid rgba(94, 224, 143, 0.35);
-    border-radius: 999px;
-    background: rgba(94, 224, 143, 0.12);
+    margin: 0 0 12px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
     color: var(--color-primary);
-    font-size: 0.8125rem;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    line-height: 1.3;
-    text-transform: uppercase;
   }
 
   .page-title {
     margin: 0;
-    font-size: clamp(2rem, 5vw, 2.75rem);
-    line-height: 1.1;
-    letter-spacing: -0.01em;
+    font-size: clamp(2.2rem, 5vw, 3.25rem);
+    line-height: 1.08;
+    letter-spacing: -0.02em;
     color: var(--color-body);
     text-wrap: balance;
   }
 
   .page-lead {
-    max-width: 36em;
-    margin: 14px 0 0;
-    font-size: 1.1rem;
+    max-width: 34em;
+    margin: 16px 0 0;
+    font-size: 1.15rem;
     line-height: 1.6;
     color: var(--color-secondary);
     text-wrap: pretty;
@@ -55,7 +48,7 @@
 
   @media (min-width: 900px) {
     .page-hero {
-      padding: 72px 0 40px;
+      padding: 80px 0 56px;
     }
   }
 </style>

@@ -83,20 +83,13 @@
   .recent-posts {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 16px;
+    gap: 40px 32px;
   }
 
-  .blog-preview {
-    overflow: hidden;
-    border: 1px solid var(--color-card-border);
-    border-radius: var(--border-radius);
-    background: var(--color-card);
-    transition: transform 0.2s ease, border-color 0.2s ease;
-  }
-
-  .blog-preview:hover {
-    transform: translateY(-3px);
-    border-color: rgba(94, 224, 143, 0.35);
+  .blog-preview-link:hover h3 {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
   }
 
   .blog-preview-link {
@@ -113,6 +106,8 @@
     width: 100%;
     aspect-ratio: 16 / 9;
     overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 0 0 1px var(--color-card-border);
   }
 
   .preview-image img {
@@ -122,7 +117,7 @@
   }
 
   .preview-content {
-    padding: 20px;
+    padding-top: 16px;
   }
 
   .preview-content h3 {

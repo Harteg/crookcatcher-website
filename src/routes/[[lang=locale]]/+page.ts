@@ -20,14 +20,14 @@ const CONTENT = {
 
 export const entries = localeEntries;
 
-export async function load({ parent }) {
+export async function load({ parent, data }) {
 	const { locale } = await parent();
 	const { home, reviews } = CONTENT[locale];
 
 	try {
-		return { home, reviews, posts: await listPosts(locale) };
+		return { ...data, home, reviews, posts: await listPosts(locale) };
 	} catch (e) {
 		console.error('Error loading blog posts:', e);
-		return { home, reviews, posts: [] };
+		return { ...data, home, reviews, posts: [] };
 	}
 }

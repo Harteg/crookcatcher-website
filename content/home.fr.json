@@ -7,203 +7,147 @@
     "ogImageAlt": "CrookCatcher : attrapez quiconque essaie de déverrouiller votre téléphone. Alerte par e-mail avec les photos de l'intrus et sa position sur une carte."
   },
   "hero": {
-    "pill": "SELFIE DE L'INTRUS ANTIVOL",
-    "headline": "Attrapez les voleurs de téléphone.",
-    "headlineSecond": "Obtenez les preuves pour récupérer votre téléphone.",
-    "headlineSecondHighlight": "les preuves",
-    "subline": "CrookCatcher pour Android prend automatiquement un selfie de l'intrus quand quelqu'un saisit un mauvais code PIN, schéma ou mot de passe, et vous envoie sa photo et sa position par e-mail.",
+    "headline": "Voyez qui a essayé de déverrouiller votre téléphone.",
+    "subline": "CrookCatcher prend en photo toute personne qui saisit un mauvais code PIN, schéma ou mot de passe, et vous l'envoie par e-mail avec sa position.",
     "playNote": "Gratuit sur Android · Sans inscription",
-    "heroImage": {
-      "src": "/images/hero-alert.png",
-      "alt": "Alerte CrookCatcher par e-mail avec deux photos de l'intrus, un message de tentative de déverrouillage, l'heure et une carte avec la position"
+    "ratingValue": "4,6",
+    "rating": "sur plus de 90 000 notes",
+    "downloads": "Plus de 12 millions de téléchargements",
+    "qrLabel": "Sur ordinateur ? Scannez pour l'installer sur votre téléphone.",
+    "notification": {
+      "app": "E-mail",
+      "when": "maintenant",
+      "title": "Quelqu'un a essayé de déverrouiller votre téléphone",
+      "text": "CrookCatcher · 2 photos et position jointes"
     },
-    "stats": [
-      { "value": "4,6★", "label": "sur plus de 90 000 notes" },
-      { "value": "12M+", "label": "téléchargements" },
-      { "value": "Depuis 2014", "label": "à protéger des téléphones" },
-      { "value": "1,2M", "label": "photos d'intrus par jour" }
-    ]
+    "imageAlt": "Une main qui prend discrètement le téléphone dans la poche arrière de quelqu'un, dans un café"
   },
-  "howItWorks": {
-    "title": "Comment fonctionne CrookCatcher",
-    "titleHighlight": "fonctionne",
-    "subtitle": "Trois étapes, du déverrouillage raté aux preuves exploitables",
-    "steps": [
+  "spotlight": {
+    "title": "Chaque mauvais code laisse une trace.",
+    "subtitle": "Une photo, le lieu et l'heure, envoyés dans votre boîte mail.",
+    "log": {
+      "heading": "Tentative de déverrouillage",
+      "meta": "Aujourd'hui"
+    },
+    "events": [
       {
-        "label": "ÉTAPE 1",
-        "title": "Selfie de l'intrus",
-        "description": "Quand quelqu'un saisit un mauvais code PIN, schéma ou mot de passe, CrookCatcher prend automatiquement un selfie de l'intrus et enregistre la position.",
-        "image": {
-          "src": "/images/screen_alert_event_shadow.png",
-          "alt": "CrookCatcher prenant un selfie de l'intrus après un mauvais code PIN, schéma ou mot de passe"
-        }
+        "time": "10:35:02",
+        "label": "Code PIN incorrect saisi",
+        "detail": "Sur l'écran de verrouillage"
       },
       {
-        "label": "ÉTAPE 2",
-        "title": "Alerte instantanée par e-mail",
-        "description": "Vous recevez la photo et la position de l'intrus instantanément dans votre boîte mail, avant même qu'il se rende compte de quoi que ce soit.",
-        "image": {
-          "src": "/images/email_preview.png",
-          "alt": "Alerte CrookCatcher par e-mail avec la photo de l'intrus et sa position GPS"
-        }
+        "time": "10:35:03",
+        "label": "Photo prise",
+        "detail": "Caméra frontale"
       },
       {
-        "label": "ÉTAPE 3",
-        "title": "Partagez les preuves",
-        "description": "Partagez les preuves avec la police ou les personnes à proximité pour vous aider à récupérer votre téléphone.",
-        "image": {
-          "alt": "Écran de partage avec la photo de l'intrus et les options pour l'envoyer à la police, par message, par e-mail ou aux personnes à proximité"
-        },
-        "share": {
-          "evidenceTitle": "Photo de l'intrus",
-          "evidenceTime": "Aujourd'hui, 10:35",
-          "evidenceLocation": "Position jointe",
-          "targets": [
-            { "icon": "local_police", "label": "Police", "primary": true },
-            { "icon": "sms", "label": "Messages" },
-            { "icon": "mail", "label": "E-mail" },
-            { "icon": "groups", "label": "À proximité" }
-          ]
-        }
+        "time": "10:35:03",
+        "label": "Vidéo avec le son",
+        "detail": "Enregistrement lancé"
+      },
+      {
+        "time": "10:35:04",
+        "label": "Position enregistrée",
+        "detail": "Position GPS et adresse estimée"
+      },
+      {
+        "time": "10:35:09",
+        "label": "E-mail envoyé",
+        "detail": "Photos et carte en pièce jointe"
+      }
+    ],
+    "pro": "Pro"
+  },
+  "timeline": {
+    "title": "Chaque tentative, enregistrée.",
+    "text": "Chaque tentative est conservée dans un seul historique sur votre téléphone.",
+    "alt": "Historique CrookCatcher des déverrouillages ratés et des intrusions, chacun avec photos, heure et lieu",
+    "points": [
+      {
+        "title": "Événements identifiés",
+        "text": "Voyez d'un coup d'œil s'il s'agit d'un déverrouillage raté ou d'une intrusion."
+      },
+      {
+        "title": "Heure + position",
+        "text": "Chaque événement indique quand et où il a eu lieu."
+      },
+      {
+        "title": "Photos + vidéo",
+        "text": "Un selfie de l'intrus à chaque tentative, et une vidéo avec le son avec Pro."
+      },
+      {
+        "title": "En sécurité hors de l'appareil",
+        "text": "Pro sauvegarde les preuves sur Google Drive, même si le téléphone a disparu."
       }
     ]
   },
-  "appGallery": {
-    "title": "Toutes les preuves au même endroit",
-    "titleHighlight": "au même endroit",
-    "image": {
-      "src": "/images/app-gallery.png",
-      "alt": "Galerie CrookCatcher montrant des événements d'intrusion et de déverrouillage raté avec photos et vidéo de l'intrus, heure et position"
-    },
-    "subtitle": "Chaque tentative est enregistrée dans une chronologie claire, pour que vous ayez toute l'histoire quand vous en avez besoin.",
-    "callouts": [
+  "privacy": {
+    "eyebrow": "Confidentialité",
+    "title": "Vos photos vont dans votre boîte mail, pas chez nous.",
+    "text": "Les alertes sont envoyées depuis votre propre compte Gmail à l'adresse de votre choix. Nous ne voyons jamais vos photos.",
+    "points": [
       {
-        "icon": "photo_library",
-        "label": "Photos + vidéo",
-        "description": "Un selfie de l'intrus à chaque tentative, et une vidéo avec le son avec Pro."
+        "title": "Aucun nouveau compte",
+        "text": "Vous vous connectez avec Google. Il n'y a pas de compte CrookCatcher à créer."
       },
       {
-        "icon": "place",
-        "label": "Heure + position",
-        "description": "Chaque événement indique quand et où il a eu lieu."
+        "title": "Gmail en envoi seulement",
+        "text": "L'autorisation Gmail sert uniquement à envoyer les alertes à votre adresse. Elle ne peut pas lire vos e-mails."
       },
       {
-        "icon": "label",
-        "label": "Événements identifiés",
-        "description": "Voyez d'un coup d'œil s'il s'agit d'un déverrouillage raté ou d'une intrusion."
-      },
-      {
-        "icon": "cloud_upload",
-        "label": "En sécurité hors de l'appareil",
-        "description": "Pro sauvegarde les preuves sur Google Drive, même si le téléphone a disparu."
+        "title": "Seulement après un mauvais déverrouillage",
+        "text": "La caméra ne sert que quand quelqu'un rate le déverrouillage, donc l'app consomme très peu de batterie."
       }
-    ]
-  },
-  "features": {
-    "title": "L'essentiel gratuit, Pro quand il vous en faut plus",
-    "titleHighlight": "Pro",
-    "subtitle": "Tout ce qu'il faut pour attraper un intrus est gratuit. Pro ajoute des preuves plus solides et plus de moyens de riposter.",
-    "free": {
-      "badge": "GRATUIT",
-      "title": "Protection essentielle",
-      "items": [
-        {
-          "icon": "photo_camera",
-          "title": "Selfie de l'intrus",
-          "description": "Photo avec la caméra frontale en cas de mauvais code PIN, schéma ou mot de passe"
-        },
-        {
-          "icon": "location_on",
-          "title": "Position GPS",
-          "description": "Position enregistrée à chaque alerte"
-        },
-        {
-          "icon": "email",
-          "title": "Alertes instantanées par e-mail",
-          "description": "Photo et position envoyées directement dans votre boîte mail"
-        }
-      ]
-    },
-    "pro": {
-      "badge": "PRO",
-      "title": "Débloquez plus avec Pro",
-      "groups": [
-        {
-          "title": "Des preuves plus solides",
-          "items": [
-            {
-              "icon": "videocam",
-              "title": "Vidéo avec le son",
-              "description": "Capturez la voix et les mouvements pour une preuve plus solide"
-            },
-            {
-              "icon": "security",
-              "title": "Détection d'intrusion",
-              "description": "Une alerte même s'ils trouvent le bon code après s'être trompés"
-            },
-            {
-              "icon": "camera_alt",
-              "title": "Caméra arrière",
-              "description": "Voyez l'environnement, pas seulement le visage de l'intrus"
-            },
-            {
-              "icon": "cloud_upload",
-              "title": "Sauvegarde Google Drive",
-              "description": "Preuves sauvegardées automatiquement hors de l'appareil"
-            }
-          ]
-        },
-        {
-          "title": "Ripostez",
-          "items": [
-            {
-              "icon": "notifications_active",
-              "title": "Alarme puissante",
-              "description": "Surprenez les voleurs et alertez les personnes à proximité"
-            },
-            {
-              "icon": "message",
-              "title": "Avertissement sur l'écran de verrouillage",
-              "description": "Affichez un message quand une alerte se déclenche"
-            },
-            {
-              "icon": "apps",
-              "title": "Faux écran d'accueil",
-              "description": "Faites croire au voleur qu'il a déverrouillé le téléphone"
-            }
-          ]
-        },
-        {
-          "title": "Restez discret",
-          "items": [
-            {
-              "icon": "lock",
-              "title": "Verrouillage de l'app",
-              "description": "Protégez CrookCatcher par un schéma pour qu'il ne puisse pas être désactivé"
-            },
-            {
-              "icon": "visibility_off",
-              "title": "Icône déguisée",
-              "description": "Ressemble à un gestionnaire de fichiers pour que le voleur ne le trouve pas"
-            },
-            {
-              "icon": "notifications_off",
-              "title": "Notifications masquées",
-              "description": "Les alertes n'apparaissent qu'après votre déverrouillage"
-            },
-            {
-              "icon": "subject",
-              "title": "Objet d'e-mail personnalisé",
-              "description": "Gardez les e-mails d'alerte discrets dans votre boîte mail"
-            }
-          ]
-        }
-      ]
+    ],
+    "link": {
+      "href": "/fr/privacy",
+      "label": "Lire la politique de confidentialité"
     }
   },
+  "plans": {
+    "eyebrow": "CrookCatcher Pro",
+    "title": "Des preuves plus solides. Plus difficile à arrêter.",
+    "subtitle": "La version gratuite prend la photo et envoie l'e-mail. Pro ajoute :",
+    "items": [
+      {
+        "title": "Vidéo avec le son",
+        "text": "Voyez et entendez ce qui s'est passé."
+      },
+      {
+        "title": "Détection d'intrusion",
+        "text": "Une alerte même s'il trouve le code."
+      },
+      {
+        "title": "Caméra arrière",
+        "text": "Voyez où est le téléphone, pas seulement qui l'a."
+      },
+      {
+        "title": "Sauvegarde Google Drive",
+        "text": "Les preuves restent en sécurité même si le téléphone a disparu."
+      },
+      {
+        "title": "Difficile à supprimer",
+        "text": "Verrouillage de l'app et icône déguisée."
+      },
+      {
+        "title": "Alarme et message sur l'écran de verrouillage",
+        "text": "Faites fuir le voleur ou demandez qu'on vous rende le téléphone."
+      }
+    ],
+    "trial": "Essayez Pro gratuitement pendant 7 jours.",
+    "trialThen": "Gratuit pendant 7 jours, puis",
+    "perYear": "/ an",
+    "monthly": "{price} par mois",
+    "lifetime": "{price} une seule fois",
+    "or": "ou",
+    "countryLabel": "Prix pour votre pays",
+    "priceNote": "Google Play affiche le prix final, qui peut inclure des taxes.",
+    "fallback": "Le prix dépend de votre pays. Vous le voyez dans l'app avant de payer.",
+    "upgrade": "Pro est sans publicités. Commencez l'essai gratuit dans l'app, quand vous voulez."
+  },
   "testimonials": {
-    "title": "Ça marche vraiment",
-    "subtitle": "Noté 4,6★ sur plus de 90 000 notes sur Google Play",
+    "title": "Ce qu'en disent les utilisateurs",
+    "subtitle": "Noté 4,6★ sur plus de 90 000 notes sur Google Play",
     "note": "Avis Google Play. Certains traduits ou raccourcis.",
     "showMore": "Afficher plus d'avis",
     "showLess": "Afficher moins d'avis",
@@ -211,30 +155,13 @@
     "readLess": "Afficher moins",
     "source": "Google Play"
   },
-  "trust": {
-    "items": [
-      {
-        "icon": "bolt",
-        "title": "Sans inscription",
-        "text": "Configuré en quelques minutes."
-      },
-      {
-        "icon": "mail",
-        "title": "Vos photos ne vont qu'à vous",
-        "text": "Les alertes sont envoyées depuis votre propre compte Gmail. Nous ne voyons jamais vos photos.",
-        "link": { "href": "/fr/privacy", "label": "Politique de confidentialité" }
-      },
-      {
-        "icon": "battery_charging_full",
-        "title": "Économe en batterie",
-        "text": "Ne s'active qu'en cas de mauvais code PIN, schéma ou mot de passe."
-      }
-    ]
-  },
   "faq": {
     "title": "Questions fréquentes",
     "subtitle": "Tout ce qu'il faut savoir sur la configuration, la confidentialité et Pro.",
-    "helpLink": { "href": "/fr/help", "label": "Consulter le centre d'aide" },
+    "helpLink": {
+      "href": "/fr/help",
+      "label": "Consulter le centre d'aide"
+    },
     "showAll": "Afficher les {count} questions",
     "showLess": "Afficher moins de questions",
     "initialCount": 8,
@@ -257,7 +184,7 @@
       },
       {
         "question": "Combien coûte CrookCatcher Pro ?",
-        "answer": "Le prix de CrookCatcher Pro varie selon votre pays de résidence. Vous pouvez voir le prix exact pour votre région directement dans l'app."
+        "answer": "Le prix de CrookCatcher Pro varie selon votre pays de résidence. Vous pouvez voir le prix exact pour votre région directement dans l'app. L'abonnement annuel inclut un essai gratuit de 7 jours."
       },
       {
         "question": "Comment accéder aux photos et vidéos enregistrées ?",
@@ -302,7 +229,9 @@
     ]
   },
   "finalCta": {
-    "title": "Protégez votre téléphone avant que quelqu'un essaie d'y entrer.",
-    "note": "Android uniquement"
+    "title": "12 millions de téléchargements. Plus le vôtre.",
+    "subtitle": "Gratuit sur Google Play. Prête en quelques minutes.",
+    "note": "Android uniquement",
+    "qrLabel": "Scannez pour l'installer sur votre téléphone"
   }
 }

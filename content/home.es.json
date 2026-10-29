@@ -7,202 +7,146 @@
     "ogImageAlt": "CrookCatcher: descubre quién intenta desbloquear tu teléfono. Alerta por correo con fotos del intruso y su ubicación en el mapa."
   },
   "hero": {
-    "pill": "FOTO DEL INTRUSO ANTIRROBO",
-    "headline": "Atrapa a los ladrones de teléfonos.",
-    "headlineSecond": "Consigue las pruebas para recuperar tu teléfono.",
-    "headlineSecondHighlight": "las pruebas",
-    "subline": "CrookCatcher para Android toma automáticamente una foto del intruso cuando alguien ingresa un PIN, patrón o contraseña incorrectos, y te envía por correo su foto y ubicación.",
+    "headline": "Mira quién intentó desbloquear tu teléfono.",
+    "subline": "CrookCatcher le toma una foto a quien ingrese un PIN, patrón o contraseña incorrectos, y te la envía por correo con su ubicación.",
     "playNote": "Gratis en Android · Sin registro",
-    "heroImage": {
-      "src": "/images/hero-alert.png",
-      "alt": "Alerta de CrookCatcher por correo con dos fotos del intruso, aviso de intento de desbloqueo, hora y un mapa con la ubicación"
+    "ratingValue": "4,6",
+    "rating": "en más de 90 000 calificaciones",
+    "downloads": "Más de 12 millones de descargas",
+    "qrLabel": "¿Estás en una computadora? Escanea para instalarla en tu teléfono.",
+    "notification": {
+      "app": "Correo",
+      "when": "ahora",
+      "title": "Alguien intentó desbloquear tu teléfono",
+      "text": "CrookCatcher · 2 fotos y ubicación adjuntas"
     },
-    "stats": [
-      { "value": "4,6★", "label": "en más de 90 mil calificaciones" },
-      { "value": "12M+", "label": "descargas" },
-      { "value": "Desde 2014", "label": "protegiendo teléfonos" },
-      { "value": "1,2M", "label": "fotos de intrusos al día" }
-    ]
+    "imageAlt": "Una mano que saca con sigilo el teléfono del bolsillo trasero de alguien en una cafetería"
   },
-  "howItWorks": {
-    "title": "Cómo funciona CrookCatcher",
-    "titleHighlight": "funciona",
-    "subtitle": "Tres pasos, del intento fallido a pruebas que puedes usar",
-    "steps": [
+  "spotlight": {
+    "title": "Cada intento fallido deja rastro.",
+    "subtitle": "Una foto, el lugar y la hora, enviados a tu correo.",
+    "log": {
+      "heading": "Intento de desbloqueo",
+      "meta": "Hoy"
+    },
+    "events": [
       {
-        "label": "PASO 1",
-        "title": "Foto del intruso",
-        "description": "Cuando alguien ingresa un PIN, patrón o contraseña incorrectos, CrookCatcher toma automáticamente una foto del intruso y registra la ubicación.",
-        "image": {
-          "src": "/images/screen_alert_event_shadow.png",
-          "alt": "CrookCatcher tomando una foto del intruso tras un PIN, patrón o contraseña incorrectos"
-        }
+        "time": "10:35:02",
+        "label": "PIN incorrecto ingresado",
+        "detail": "En la pantalla de bloqueo"
       },
       {
-        "label": "PASO 2",
-        "title": "Alerta inmediata por correo",
-        "description": "Recibirás al instante la foto y la ubicación del intruso en tu correo, antes de que se dé cuenta de lo que pasó.",
-        "image": {
-          "src": "/images/email_preview.png",
-          "alt": "Alerta de CrookCatcher por correo con la foto del intruso y la ubicación GPS"
-        }
+        "time": "10:35:03",
+        "label": "Foto tomada",
+        "detail": "Cámara frontal"
       },
       {
-        "label": "PASO 3",
-        "title": "Comparte las pruebas",
-        "description": "Comparte las pruebas con la policía o con personas cercanas para ayudar a recuperar tu teléfono.",
-        "image": {
-          "alt": "Menú para compartir con la foto del intruso y opciones para enviarla a la policía, por mensaje, por correo o a personas cercanas"
-        },
-        "share": {
-          "evidenceTitle": "Foto del intruso",
-          "evidenceTime": "Hoy, 10:35",
-          "evidenceLocation": "Ubicación adjunta",
-          "targets": [
-            { "icon": "local_police", "label": "Policía", "primary": true },
-            { "icon": "sms", "label": "Mensajes" },
-            { "icon": "mail", "label": "Correo" },
-            { "icon": "groups", "label": "Cerca" }
-          ]
-        }
+        "time": "10:35:03",
+        "label": "Video con sonido",
+        "detail": "Grabación iniciada"
+      },
+      {
+        "time": "10:35:04",
+        "label": "Ubicación registrada",
+        "detail": "Posición GPS y dirección aproximada"
+      },
+      {
+        "time": "10:35:09",
+        "label": "Correo enviado a ti",
+        "detail": "Fotos y mapa adjuntos"
+      }
+    ],
+    "pro": "Pro"
+  },
+  "timeline": {
+    "title": "Cada intento, guardado.",
+    "text": "Cada intento queda guardado en un solo historial en tu teléfono.",
+    "alt": "Historial de CrookCatcher con desbloqueos fallidos e intrusiones, cada uno con fotos, hora y lugar",
+    "points": [
+      {
+        "title": "Eventos etiquetados",
+        "text": "Ve de un vistazo si fue un desbloqueo fallido o una intrusión."
+      },
+      {
+        "title": "Hora + ubicación",
+        "text": "Cada evento queda registrado con cuándo y dónde ocurrió."
+      },
+      {
+        "title": "Fotos + video",
+        "text": "Fotos del intruso en cada intento, y video con sonido en Pro."
+      },
+      {
+        "title": "Seguro fuera del teléfono",
+        "text": "Pro guarda una copia de las pruebas en Google Drive, aunque el teléfono ya no esté."
       }
     ]
   },
-  "appGallery": {
-    "title": "Todas las pruebas en un solo lugar",
-    "titleHighlight": "un solo lugar",
-    "image": {
-      "src": "/images/app-gallery.png",
-      "alt": "Galería de CrookCatcher con eventos de intrusión y de desbloqueo fallido, con fotos del intruso, video, hora y ubicación"
-    },
-    "subtitle": "Cada intento queda guardado en una línea de tiempo clara, para que tengas toda la historia cuando la necesites.",
-    "callouts": [
+  "privacy": {
+    "eyebrow": "Privacidad",
+    "title": "Tus fotos van a tu correo, no a nosotros.",
+    "text": "Las alertas se envían desde tu propia cuenta de Gmail a la dirección que elijas. Nunca vemos tus fotos.",
+    "points": [
       {
-        "icon": "photo_library",
-        "label": "Fotos + video",
-        "description": "Fotos del intruso en cada intento, y video con sonido en Pro."
+        "title": "Sin cuentas nuevas",
+        "text": "Inicias sesión con Google. No hay que crear una cuenta de CrookCatcher."
       },
       {
-        "icon": "place",
-        "label": "Hora + ubicación",
-        "description": "Cada evento queda registrado con cuándo y dónde ocurrió."
+        "title": "Gmail solo para enviar",
+        "text": "El permiso de Gmail solo envía alertas a tu dirección. No puede leer tus correos."
       },
       {
-        "icon": "label",
-        "label": "Eventos etiquetados",
-        "description": "Ve de un vistazo si fue un desbloqueo fallido o una intrusión."
-      },
-      {
-        "icon": "cloud_upload",
-        "label": "Seguro fuera del teléfono",
-        "description": "Pro guarda una copia de las pruebas en Google Drive, aunque el teléfono ya no esté."
+        "title": "Solo tras un desbloqueo fallido",
+        "text": "La cámara solo se usa cuando alguien falla al desbloquear el teléfono, así que casi no gasta batería."
       }
-    ]
-  },
-  "features": {
-    "title": "Lo esencial gratis, Pro cuando necesitas más",
-    "titleHighlight": "Pro",
-    "subtitle": "Todo lo necesario para atrapar a un intruso es gratis. Pro agrega pruebas más sólidas y más formas de defenderte.",
-    "free": {
-      "badge": "GRATIS",
-      "title": "Protección esencial",
-      "items": [
-        {
-          "icon": "photo_camera",
-          "title": "Foto del intruso",
-          "description": "Foto con la cámara frontal tras un PIN, patrón o contraseña incorrectos"
-        },
-        {
-          "icon": "location_on",
-          "title": "Ubicación GPS",
-          "description": "La ubicación se registra con cada alerta"
-        },
-        {
-          "icon": "email",
-          "title": "Alertas inmediatas por correo",
-          "description": "La foto y la ubicación llegan directo a tu bandeja de entrada"
-        }
-      ]
-    },
-    "pro": {
-      "badge": "PRO",
-      "title": "Desbloquea más con Pro",
-      "groups": [
-        {
-          "title": "Reúne pruebas más sólidas",
-          "items": [
-            {
-              "icon": "videocam",
-              "title": "Video con sonido",
-              "description": "Captura la voz y el movimiento para tener pruebas más sólidas"
-            },
-            {
-              "icon": "security",
-              "title": "Detección de intrusión",
-              "description": "Te avisa aunque adivinen el desbloqueo correcto después de fallar"
-            },
-            {
-              "icon": "camera_alt",
-              "title": "Cámara trasera",
-              "description": "Ve el entorno, no solo la cara del intruso"
-            },
-            {
-              "icon": "cloud_upload",
-              "title": "Copia en Google Drive",
-              "description": "Las pruebas se guardan fuera del teléfono automáticamente"
-            }
-          ]
-        },
-        {
-          "title": "Defiéndete",
-          "items": [
-            {
-              "icon": "notifications_active",
-              "title": "Alarma fuerte",
-              "description": "Asusta a los ladrones y alerta a las personas cercanas"
-            },
-            {
-              "icon": "message",
-              "title": "Aviso en la pantalla de bloqueo",
-              "description": "Muestra un mensaje cuando se activa una alerta"
-            },
-            {
-              "icon": "apps",
-              "title": "Pantalla de inicio falsa",
-              "description": "Haz creer a los ladrones que desbloquearon el teléfono"
-            }
-          ]
-        },
-        {
-          "title": "Pasa desapercibido",
-          "items": [
-            {
-              "icon": "lock",
-              "title": "Bloqueo de la app",
-              "description": "Protege CrookCatcher con un patrón para que no lo puedan desactivar"
-            },
-            {
-              "icon": "visibility_off",
-              "title": "Ícono disfrazado",
-              "description": "Parece un explorador de archivos para que los ladrones no lo encuentren"
-            },
-            {
-              "icon": "notifications_off",
-              "title": "Notificaciones ocultas",
-              "description": "Las alertas solo aparecen después de que desbloqueas"
-            },
-            {
-              "icon": "subject",
-              "title": "Asunto de correo personalizado",
-              "description": "Mantén discretos los correos de alerta en tu bandeja de entrada"
-            }
-          ]
-        }
-      ]
+    ],
+    "link": {
+      "href": "/es/privacy",
+      "label": "Lee la política de privacidad"
     }
   },
+  "plans": {
+    "eyebrow": "CrookCatcher Pro",
+    "title": "Pruebas más sólidas. Más difícil de detener.",
+    "subtitle": "La versión gratis toma la foto y envía el correo. Pro agrega:",
+    "items": [
+      {
+        "title": "Video con sonido",
+        "text": "Mira y escucha lo que pasó."
+      },
+      {
+        "title": "Detección de intrusión",
+        "text": "Una alerta aunque adivinen el código."
+      },
+      {
+        "title": "Cámara trasera",
+        "text": "Mira dónde está el teléfono, no solo quién lo tiene."
+      },
+      {
+        "title": "Copia en Google Drive",
+        "text": "Las pruebas quedan a salvo aunque el teléfono ya no esté."
+      },
+      {
+        "title": "Difícil de quitar",
+        "text": "Bloqueo de la app e ícono disfrazado."
+      },
+      {
+        "title": "Alarma y mensaje en la pantalla de bloqueo",
+        "text": "Ahuyenta al ladrón o pide que te devuelvan el teléfono."
+      }
+    ],
+    "trial": "Prueba Pro gratis durante 7 días.",
+    "trialThen": "Gratis durante 7 días, luego",
+    "perYear": "/ año",
+    "monthly": "{price} al mes",
+    "lifetime": "{price} una sola vez",
+    "or": "o",
+    "countryLabel": "Precio para tu país",
+    "priceNote": "Google Play muestra el precio final, que puede incluir impuestos.",
+    "fallback": "El precio depende de tu país. Lo ves en la app antes de pagar.",
+    "upgrade": "Pro no tiene anuncios. Empieza la prueba gratis desde la app, cuando quieras."
+  },
   "testimonials": {
-    "title": "Funciona de verdad",
+    "title": "Lo que dicen quienes la usan",
     "subtitle": "Calificación de 4,6★ en más de 90 000 calificaciones en Google Play",
     "note": "Reseñas de Google Play. Algunas traducidas o resumidas.",
     "showMore": "Mostrar más reseñas",
@@ -211,30 +155,13 @@
     "readLess": "Mostrar menos",
     "source": "Google Play"
   },
-  "trust": {
-    "items": [
-      {
-        "icon": "bolt",
-        "title": "Sin registro",
-        "text": "Se configura en minutos."
-      },
-      {
-        "icon": "mail",
-        "title": "Tus fotos solo te llegan a ti",
-        "text": "Las alertas se envían desde tu propia cuenta de Gmail. Nunca vemos tus fotos.",
-        "link": { "href": "/es/privacy", "label": "Política de privacidad" }
-      },
-      {
-        "icon": "battery_charging_full",
-        "title": "Cuida tu batería",
-        "text": "Solo se activa con un PIN, patrón o contraseña incorrectos."
-      }
-    ]
-  },
   "faq": {
     "title": "Preguntas frecuentes",
     "subtitle": "Todo lo que necesitas saber sobre la configuración, la privacidad y Pro.",
-    "helpLink": { "href": "/es/help", "label": "Ir al centro de ayuda" },
+    "helpLink": {
+      "href": "/es/help",
+      "label": "Ir al centro de ayuda"
+    },
     "showAll": "Mostrar las {count} preguntas",
     "showLess": "Mostrar menos preguntas",
     "initialCount": 8,
@@ -257,7 +184,7 @@
       },
       {
         "question": "¿Cuánto cuesta CrookCatcher Pro?",
-        "answer": "El precio de CrookCatcher Pro varía según tu país de residencia. Puedes ver el precio exacto para tu región directamente en la app."
+        "answer": "El precio de CrookCatcher Pro varía según tu país de residencia. Puedes ver el precio exacto para tu región directamente en la app. El plan anual incluye una prueba gratis de 7 días."
       },
       {
         "question": "¿Cómo veo las fotos y los videos capturados?",
@@ -302,7 +229,9 @@
     ]
   },
   "finalCta": {
-    "title": "Protege tu teléfono antes de que alguien intente entrar.",
-    "note": "Solo para Android"
+    "title": "12 millones de descargas. Falta la tuya.",
+    "subtitle": "Gratis en Google Play. Lista en pocos minutos.",
+    "note": "Solo para Android",
+    "qrLabel": "Escanea para instalarla en tu teléfono"
   }
 }

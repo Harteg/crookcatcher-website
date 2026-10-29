@@ -91,11 +91,9 @@ let showEmail = false;
         gap: 12px;
         margin-top: 24px;
         padding: 24px;
-        border: 1px solid rgba(94, 224, 143, 0.25);
+        border: 1px solid var(--color-card-border);
         border-radius: var(--border-radius);
-        background:
-            radial-gradient(ellipse 60% 100% at 0% 0%, rgba(94, 224, 143, 0.12), transparent 70%),
-            var(--color-card);
+        background: var(--color-card);
     }
 
     .contact-body h2 {

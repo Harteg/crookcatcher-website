@@ -54,7 +54,7 @@
 <style>
   footer {
     display: block;
-    padding: 0 24px 24px;
+    padding: 24px;
   }
 
   .footer-content {
