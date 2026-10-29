@@ -12,7 +12,8 @@ Grow app installs through SEO: publish genuinely useful guides on the blog that 
 
 ## Audience
 
-- Android users, mainly in the US (the US produces most revenue).
+- Android users worldwide. Revenue is spread across many countries (RevenueCat, Jul–Oct 2026): the US is the largest single country at about 16%, with Kenya (~14%), Indonesia (~10%, in bursts), India (~7%), then Brazil, South Africa and Nigeria (3–4% each). Most buyers are in lower-price markets, often on budget phones and slow mobile data, so keep pages light.
+- The US is the most valuable market per install (roughly €10 per transaction vs. €1–2.50 in Kenya, India or Nigeria), so search targeting leans US. Keep copy global: say "the police", not "911".
 - Best-converting searches are pre-theft or curiosity searches ("who tried to unlock my phone"), not "my phone is already stolen" (they can no longer install the app on that phone).
 - Every guide targets Android, Samsung, Pixel or Xiaomi explicitly. Never target iPhone; the app is Android only.
 
@@ -39,7 +40,11 @@ so Play Console shows installs per guide. The referrer value must stay URL-encod
 - `<AppCta />`, `<PlayStoreButton />` and the header button build this automatically from the page (`src/lib/play-store.ts`). Don't pass tracking props in guides beyond `AppCta`'s `position`.
 - Click tracking (Google Analytics event `play_store_button_click`, DataFast goal `play_store_click`) records which link was clicked: `header`, `guide_mid`, `guide_end`, or `guide_text` for Play links written in the guide's text. Compare these in DataFast to see what converts.
 - Hand-written links in a guide's text use the format above. Translated guides use the slug plus the language: `<slug>-pt`, `<slug>-fr`, `<slug>-es`.
-- Outside guides, buttons use `utm_medium=button` and their position as the campaign (`hero`, `header`, `testimonials`, `footer`, `blog_index`).
+- Outside guides, buttons use `utm_medium=button` and their position as the campaign (`hero`, `header`, `pro`, `footer`, `blog_index`). The homepage QR codes for desktop visitors use `hero_qr` and `footer_qr`.
+
+## Pro prices
+
+The homepage shows Pro prices for the visitor's country: `/api/price` reads Cloudflare's country header and looks it up in `src/lib/server/play-prices.json`. After every price change (once `prices.json` is re-fetched in `crookcatcher-tools/cc-play-prices`), run `npm run update-prices` and commit the result. Countries without a price get a "price depends on your country" line instead. In dev, add `?country=KE` to the homepage URL to preview a country.
 
 ## Languages
 

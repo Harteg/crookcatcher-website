@@ -45,11 +45,7 @@
 
 <main>
   <div class="container blog-index">
-    <PageHero
-      eyebrow={t.eyebrow}
-      title={t.title}
-      lead={t.lead}
-    />
+    <PageHero title={t.title} lead={t.lead} />
 
     {#if featured}
       <article class="featured">
@@ -65,9 +61,7 @@
             </div>
           {/if}
           <div class="featured-body">
-            <p class="post-meta">
-              <span class="latest">{t.latest}</span>
-            </p>
+            <p class="latest">{t.latest}</p>
             <h2 class="featured-title">{featured.title}</h2>
             <p class="post-description">{featured.description}</p>
             <span class="read-link">
@@ -125,25 +119,7 @@
 
 <style>
   .blog-index {
-    padding-bottom: 72px;
-  }
-
-  .featured,
-  .post-card {
-    overflow: hidden;
-    border: 1px solid var(--color-card-border);
-    border-radius: var(--border-radius);
-    background: var(--color-card);
-    transition: border-color 0.2s ease, transform 0.2s ease;
-  }
-
-  .featured:hover,
-  .post-card:hover {
-    border-color: rgba(94, 224, 143, 0.35);
-  }
-
-  .post-card:hover {
-    transform: translateY(-3px);
+    padding-bottom: 80px;
   }
 
   .featured-link,
@@ -164,7 +140,9 @@
   .post-media {
     aspect-ratio: 1.91 / 1;
     overflow: hidden;
-    background: var(--color-dark-bg);
+    border-radius: 16px;
+    background: var(--color-surface-tint);
+    box-shadow: 0 0 0 1px var(--color-card-border);
   }
 
   .featured-media img,
@@ -172,54 +150,32 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.4s ease;
-  }
-
-  .featured:hover img,
-  .post-card:hover img {
-    transform: scale(1.02);
   }
 
   .featured-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 24px;
-  }
-
-  .post-meta {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 10px;
-    margin: 0 0 12px;
-    font-size: 0.875rem;
-    color: var(--color-secondary);
+    padding-top: 24px;
   }
 
   .latest {
-    padding: 3px 10px;
-    border: 1px solid rgba(94, 224, 143, 0.35);
-    border-radius: 999px;
-    background: rgba(94, 224, 143, 0.12);
+    margin: 0 0 10px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
     color: var(--color-primary);
-    font-size: 0.8125rem;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
   }
 
   .featured-title {
     margin: 0 0 12px;
-    font-size: clamp(1.5rem, 3vw, 2rem);
-    line-height: 1.2;
+    font-size: clamp(1.6rem, 3vw, 2.25rem);
+    line-height: 1.15;
+    letter-spacing: -0.015em;
     color: var(--color-body);
     text-wrap: balance;
   }
 
   .post-description {
-    margin: 0 0 20px;
-    font-size: 1rem;
+    margin: 0 0 16px;
+    font-size: 1.05rem;
     line-height: 1.6;
     color: var(--color-secondary);
     text-wrap: pretty;
@@ -247,72 +203,79 @@
     transition: transform 0.15s ease;
   }
 
-  .featured:hover .read-link .material-icons,
-  .post-card:hover .read-link .material-icons {
+  .featured-link:hover .read-link .material-icons,
+  .post-link:hover .read-link .material-icons {
     transform: translateX(3px);
   }
 
+  .featured-link:hover .featured-title,
+  .post-link:hover .post-title {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+  }
+
   .more {
-    margin-top: 56px;
+    margin-top: 80px;
+    padding-top: 40px;
+    border-top: 1px solid var(--color-card-border);
   }
 
   .more-title {
-    margin: 0 0 20px;
-    font-size: 1.5rem;
+    margin: 0 0 32px;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    letter-spacing: -0.015em;
     color: var(--color-body);
   }
 
   .post-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 16px;
+    gap: 48px 32px;
   }
 
   .post-body {
     display: flex;
     flex: 1;
     flex-direction: column;
-    padding: 20px;
+    padding-top: 18px;
   }
 
   .post-title {
-    margin: 0 0 10px;
-    font-size: 1.15rem;
-    line-height: 1.35;
+    margin: 0 0 8px;
+    font-size: 1.2rem;
+    line-height: 1.3;
     color: var(--color-body);
     text-wrap: balance;
   }
 
-  .post-card .post-description {
-    font-size: 0.9375rem;
+  .post-body .post-description {
+    font-size: 0.9875rem;
     line-height: 1.55;
   }
 
   .cta-panel {
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
-    margin-top: 64px;
-    padding: 28px 24px;
-    overflow: hidden;
-    border: 1px solid var(--color-card-border);
-    border-radius: var(--border-radius);
-    background:
-      radial-gradient(ellipse at 100% 0%, rgba(94, 224, 143, 0.14), transparent 60%),
-      var(--color-card);
+    margin-top: 80px;
+    padding: 32px 24px;
+    border-radius: 24px;
+    background: var(--color-surface-tint);
   }
 
   .cta-title {
     margin: 0 0 8px;
-    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    letter-spacing: -0.015em;
     color: var(--color-body);
   }
 
   .cta-text {
     max-width: 34em;
     margin: 0;
+    font-size: 1.05rem;
     line-height: 1.6;
     color: var(--color-secondary);
   }
@@ -326,45 +289,30 @@
   @media (min-width: 900px) {
     .featured-link {
       display: grid;
-      grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+      grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
       align-items: center;
-      gap: 8px;
-      padding: 16px;
-    }
-
-    .featured-media {
-      border-radius: 12px;
+      gap: 48px;
     }
 
     .featured-body {
-      padding: 16px 24px 16px 20px;
+      padding-top: 0;
     }
 
     .post-grid {
-      gap: 20px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
     .cta-panel {
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
-      padding: 36px 40px;
+      padding: 48px 56px;
     }
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .featured,
-    .post-card,
-    .featured-media img,
-    .post-media img,
     .read-link .material-icons {
       transition: none;
-    }
-
-    .post-card:hover,
-    .featured:hover img,
-    .post-card:hover img {
-      transform: none;
     }
   }
 </style>

@@ -21,7 +21,7 @@
   );
 </script>
 
-<section class="faq section" aria-labelledby="faq-title">
+<section class="faq home-section" aria-labelledby="faq-title">
   <div class="container faq-layout">
     <header class="faq-intro">
       <h2 id="faq-title" class="section-title">{content.title}</h2>
@@ -71,6 +71,9 @@
 
   .section-title {
     margin: 0;
+    font-size: clamp(2rem, 4.4vw, 3.25rem);
+    line-height: 1.05;
+    letter-spacing: -0.03em;
     text-wrap: balance;
   }
 
@@ -104,15 +107,30 @@
     transform: translateX(3px);
   }
 
+  /* Open list with dividers, no box */
   .faq-list {
-    border: 1px solid var(--color-card-border);
-    border-radius: var(--border-radius);
-    background: var(--color-card);
-    overflow: hidden;
+    border-top: 1px solid var(--color-card-border);
   }
 
-  .faq-slot + .faq-slot {
-    border-top: 1px solid var(--color-card-border);
+  .faq-slot {
+    border-bottom: 1px solid var(--color-card-border);
+  }
+
+  .faq-list :global(.faq-question) {
+    padding: 22px 0;
+  }
+
+  .faq-list :global(.faq-question-text) {
+    font-size: 1.15rem;
+  }
+
+  .faq-list :global(.faq-icon) {
+    background: none;
+    color: var(--color-body);
+  }
+
+  .faq-list :global(.faq-answer-content) {
+    padding: 0 48px 24px 0;
   }
 
   .faq-slot[hidden] {

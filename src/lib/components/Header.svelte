@@ -5,17 +5,26 @@
   import LanguagePicker from './LanguagePicker.svelte';
   import { playStoreUrl, playTracking, trackPlayClick } from '$lib/play-store';
 
+  /** Transparent over a full-bleed hero photo until the page is scrolled (homepage). */
+  export let overlay = false;
+
   let menuOpen = false;
   let heroBadgeVisible = false;
   let isMobile = false;
+  let scrolled = false;
 
   $: ctaDeferred = isMobile && heroBadgeVisible;
   $: t = $page.data.ui.header;
   $: locale = $page.data.locale;
 
   onMount(() => {
+    const onScroll = () => (scrolled = window.scrollY > 24);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    const stopScroll = () => window.removeEventListener('scroll', onScroll);
+
     const heroBadge = document.querySelector('.hero .play-store-link');
-    if (!heroBadge) return;
+    if (!heroBadge) return stopScroll;
 
     const mobileQuery = window.matchMedia('(max-width: 640px)');
     const updateMobile = () => (isMobile = mobileQuery.matches);
@@ -29,6 +38,7 @@
     observer.observe(heroBadge);
 
     return () => {
+      stopScroll();
       observer.disconnect();
       mobileQuery.removeEventListener('change', updateMobile);
     };
@@ -47,7 +57,7 @@
 
 </script>
 
-<header class="header-fixed theme-dark">
+<header class="header-fixed theme-dark" class:overlay={overlay && !scrolled && !menuOpen}>
   <div class="header-row">
     <a href={localizePath('/', locale)} class="brand" on:click={closeMenu}>
       <img src="/images/crookcatcher_icon.svg" alt="" width="20" height="27" class="brand-icon" />
@@ -111,10 +121,17 @@
     right: 0;
     height: 64px;
     z-index: 1000;
-    background: rgba(14, 19, 16, 0.82);
+    background: rgba(14, 19, 16, 0.94);
     backdrop-filter: saturate(140%) blur(12px);
     -webkit-backdrop-filter: saturate(140%) blur(12px);
     border-bottom: 1px solid var(--color-card-border);
+  }
+
+  .header-fixed.overlay {
+    background: transparent;
+    border-bottom-color: transparent;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
   }
 
   .header-row {

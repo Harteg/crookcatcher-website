@@ -14,7 +14,6 @@
   let open = false;
 
   $: truncatable = text.length > CLAMP_THRESHOLD;
-  $: initial = author.trim().charAt(0).toUpperCase();
 
   function formatDate(value: string) {
     if (!value) return '';
@@ -47,7 +46,6 @@
   {/if}
 
   <footer class="testimonial-footer">
-    <span class="avatar" aria-hidden="true">{initial}</span>
     <div class="author-meta">
       <p class="testimonial-author">{author}</p>
       <p class="testimonial-date">
@@ -61,20 +59,17 @@
   .testimonial-card {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    padding: 24px;
-    border: 1px solid var(--color-card-border);
-    border-radius: var(--border-radius);
-    background: var(--color-card);
+    padding-left: 20px;
+    border-left: 2px solid var(--color-card-border);
     color: var(--color-body);
   }
 
   .testimonial-stars {
-    margin-bottom: 14px;
-    font-size: 1rem;
+    margin-bottom: 12px;
+    font-size: 0.9375rem;
     letter-spacing: 2px;
     line-height: 1;
-    color: #e8c84a;
+    color: #e2b33c;
   }
 
   .testimonial-quote {
@@ -85,7 +80,7 @@
 
   .testimonial-text {
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.05rem;
     line-height: 1.6;
     color: var(--color-body);
   }
@@ -115,29 +110,7 @@
   }
 
   .testimonial-footer {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-top: auto;
-    padding-top: 20px;
-  }
-
-  .avatar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    background: rgba(94, 224, 143, 0.14);
-    color: var(--color-primary);
-    font-family: 'NexaBold', sans-serif;
-    font-size: 0.9375rem;
-  }
-
-  .author-meta {
-    min-width: 0;
+    margin-top: 16px;
   }
 
   .testimonial-author {

@@ -1,7 +1,7 @@
 ---
 title: "Android Phone Stolen in the UK? What to Do in the First 10 Minutes"
 subtitle: A step-by-step guide to locking your phone, blocking it, protecting your bank and reporting the theft
-dateUpdated: '2026-09-28'
+dateUpdated: '2026-10-29'
 datePublished: '2026-09-28'
 description: "Had your Android phone stolen in the UK? Lock it remotely, block your SIM and IMEI, protect your bank accounts and report it to the police. Here's exactly what to do, step by step."
 image: '/images/blog/phone-stolen-uk-header.png'
@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-Having your phone stolen is stressful, and it happens a lot in the UK. In London alone, the Metropolitan Police recorded around **71,000 mobile phone thefts in 2025**, and nearly 11,000 phones were stolen on the London Underground in 2024. The numbers are falling, but thousands of people still go through this every month.
+Having your phone stolen is stressful, and it happens a lot in the UK. In London alone, the Metropolitan Police recorded around **71,000 mobile phone thefts in 2025**, down from about 81,000 in 2024. That's still roughly one every seven to eight minutes, and nearly 11,000 phones were stolen on the London Underground in 2024. The numbers are falling, but thousands of people still go through this every month.
 
 This guide is for Android phones. The first few minutes matter most. Thieves often go straight for your bank accounts and payment apps, not just the phone itself. Here's what to do, in the right order.
 
@@ -58,6 +58,18 @@ This is the step people forget, and it's often where the real damage happens. Th
 - **Freeze your cards** and ask them to suspend mobile banking and payment apps like Google Wallet.
 - **Check for transactions** you don't recognise over the next few days.
 
+### If your phone was unlocked, or the thief may know your PIN
+
+This is the worst case. Some thieves watch you type your PIN before they snatch the phone, or grab it while it's unlocked in your hand. With your PIN, they can change your Google password, turn off Find Hub and open apps that ask for the PIN. Victims have lost thousands of pounds this way within hours.
+
+If there's any chance of this, don't wait. From another phone or a computer:
+
+1. **Change your Google account password** and remove the stolen phone under *Security > Your devices*. This signs it out of your Google account.
+2. **Call your bank** and ask them to block mobile banking, contactless payments and any new credit in your name.
+3. **Change the passwords** for your email, PayPal and any shopping or delivery apps with a saved card.
+
+CrookCatcher still helps here: every wrong attempt gets a photo of the person holding your phone, and with CrookCatcher Pro, break-in detection also alerts you when someone gets in after a wrong attempt.
+
 ## 6. Report it to the police
 
 Report the theft even if you think the phone won't be recovered. You'll need a **crime reference number** for insurance, and reports help the police find theft hotspots and the gangs behind them.
@@ -89,6 +101,17 @@ If your phone is insured (through a phone policy, home insurance or a bank accou
 
 ---
 
+## How to avoid phone snatchers on the street
+
+Most snatches in London happen in a few seconds, often by two people on an e-bike riding on the pavement, or by groups working together near busy stations. A few habits make you a much harder target:
+
+- **Look up and around before you take your phone out**, especially near the kerb, at crossings and outside stations.
+- **Stand with your back to a wall** when you use your phone in the street, not at the edge of the pavement.
+- **Hold your phone with both hands**, or step into a shop to use it.
+- **Use your fingerprint or face to unlock in public**, so nobody can watch you type your PIN.
+- **Keep it in a zipped inside pocket or bag** when you're not using it, not in a back pocket or on a café table.
+- **Watch out for two people on one e-bike or moped.** Police say riding "two up" is a common sign of snatchers.
+
 ## How to be ready before it happens
 
 Most of the steps above work much better if you prepare in advance. It takes 10 minutes:
@@ -96,6 +119,7 @@ Most of the steps above work much better if you prepare in advance. It takes 10 
 - **Save your IMEI.** Dial `*#06#` and save the number somewhere other than your phone, like your email.
 - **Turn on Remote Lock and Find Hub**, so you can lock and locate your phone from any device.
 - **Turn on Theft Detection Lock**, which locks your phone automatically if it's snatched from your hand.
+- **Turn on Identity Check.** Away from places you trust, it asks for your fingerprint or face before anyone can change your screen lock, turn off Find Hub or reset the phone. So even a thief who saw your PIN can't switch off your protection. You'll find it under *Settings > Google > All services > Theft protection* on phones that support it.
 - **Hide message previews on your lock screen**, so thieves can't read your security codes.
 - **Register your phone on Immobilise.**
 - **Install CrookCatcher**, so you get a photo and the location of anyone who tries to unlock your phone.
@@ -115,9 +139,30 @@ A: It stops the phone from working on UK networks. Stolen phones are sometimes s
 ### Q: Can I track my stolen phone myself?
 A: You can see its location with Find Hub, but don't go there yourself. Give the location to the police and let them handle it.
 
+### Q: Why can't Find Hub find my stolen phone?
+A: Thieves usually switch the phone off, put it in airplane mode or wrap it in foil to block the signal, and many stolen phones are quickly passed on and shipped abroad. Find Hub can only show the location when the phone is online, so check again later. Some Android phones can still be found while offline through the Find Hub network. CrookCatcher works differently: it records the location at the moment someone tries to unlock the phone, together with their photo, and emails both as soon as the phone is back online.
+
+### Q: Will the police get my stolen phone back?
+A: Honestly, it's rare. Fewer than 1 in 100 phone thefts in London end with a charge or other sanction. Report it anyway: you need a crime reference number for your insurance, and your report helps the police target the gangs behind these thefts. It's also why your own evidence matters: a photo of the person and the place it happened give the police something concrete to work with.
+
 ### Q: Can CrookCatcher help me get my phone back?
 A: CrookCatcher gives you evidence: a photo of the person who tried to unlock your phone, the time, and the location, sent straight to your email. You can share this with the police to help identify the thief. It doesn't guarantee your phone will be recovered, but it gives you and the police much more to go on.
 
 Got more questions? Check out the [FAQ](/help).
+
+## Sources
+
+- <a href="https://support.google.com/android/answer/15146908" target="_blank" rel="noopener noreferrer">Google: Protect your personal data against theft (Theft protection and Identity Check)</a>
+- <a href="https://www.android.com/lock" target="_blank" rel="noopener noreferrer">Google: Remote Lock</a>
+- <a href="https://www.immobilise.com" target="_blank" rel="noopener noreferrer">Immobilise: UK national property register</a>
+- <a href="https://www.youtube.com/watch?v=DuzAe_jHcQw" target="_blank" rel="noopener noreferrer">BBC London: Can London stop the phone snatchers?</a>
+- <a href="https://www.aol.com/articles/targeted-operations-cutting-phone-thefts-060024211.html" target="_blank" rel="noopener noreferrer">BBC: Met using e-bikes and drones to catch phone thieves (Met theft figures for 2024 and 2025)</a>
+- <a href="https://www.dailymaverick.co.za/article/2026-08-27-london-police-hail-their-expanded-e-bike-fleet-as-game-changer-against-phone-theft/" target="_blank" rel="noopener noreferrer">Reuters: London police hail e-bike fleet against phone theft (positive outcomes below 1%)</a>
+
+## Related guides
+
+- [Top 5 Android settings to secure your phone against theft](/blog/top_five_settings)
+- [How to stop thieves from turning off your phone](/blog/block-power-menu)
+- [How to see who tried to unlock your phone](/blog/see-who-tried-to-unlock-your-phone)
 
 <AppCta position="guide_end" />

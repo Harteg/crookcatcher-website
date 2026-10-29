@@ -3,10 +3,11 @@
 @import 'tailwindcss/utilities';
 
 /*
- * Colour themes. The site is dark (the brand). Reading pages (guides, help, legal) get
- * html[data-theme="reading"] from hooks.server.ts and switch to light colours unless the
- * reader's system is set to dark mode. Elements marked .theme-dark (header, footer, download
- * cards) always keep the dark colours.
+ * Colour themes. The brand colours are dark. Reading pages (guides, help, legal) get
+ * html[data-theme="reading"] from hooks.server.ts and switch to light colours unless the reader's
+ * system is set to dark mode. The homepage gets html[data-theme="light"]: always light, with its
+ * own dark and mint bands. Elements marked .theme-dark (header, footer, download cards, dark
+ * homepage bands) always keep the dark colours.
  */
 :root,
 .theme-dark {
@@ -54,6 +55,33 @@
     --color-strong: var(--color-body);
     --border-color: #DCE4DF;
   }
+}
+
+/* The homepage is white all the way down (reading pages keep the soft grey page colour). */
+html[data-theme='light'] {
+  background-color: #FFFFFF;
+}
+
+/* Same light tokens as above, regardless of the system setting (homepage). */
+html[data-theme='light'] {
+  --color-primary: #13804A;
+  --color-on-primary: #FFFFFF;
+  --color-primary-container: #DDF4E6;
+  --color-on-primary-container: #0C5A32;
+  --color-dark-bg: #F4F7F5;
+  --color-cc-dark-bg: #FFFFFF;
+  --color-dark-green: #FFFFFF;
+  --color-card: #FFFFFF;
+  --color-card-border: #DCE4DF;
+  --color-body: #16201A;
+  --color-body-soft: #2F3D35;
+  --color-secondary: #56655B;
+  --color-divider: rgba(22, 32, 26, 0.12);
+  --color-surface-tint: rgba(22, 32, 26, 0.04);
+  --icon-invert: 1;
+  /* Bold text stays dark on light pages so only links are green */
+  --color-strong: var(--color-body);
+  --border-color: #DCE4DF;
 }
 
 :root {

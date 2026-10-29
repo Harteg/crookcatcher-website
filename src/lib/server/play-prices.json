@@ -1,0 +1,2441 @@
+{
+	"fetchedAt": "2026-10-27T18:47:38.995407+00:00",
+	"regions": {
+		"AE": {
+			"yearly": {
+				"currency": "AED",
+				"amount": 19.99
+			},
+			"monthly": {
+				"currency": "AED",
+				"amount": 2.99
+			},
+			"lifetime": {
+				"currency": "AED",
+				"amount": 39.99
+			}
+		},
+		"AG": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"AL": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 7.99
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.99
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 15.99
+			}
+		},
+		"AM": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"AO": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"AR": {
+			"yearly": {
+				"currency": "ARS",
+				"amount": 8199
+			},
+			"monthly": {
+				"currency": "ARS",
+				"amount": 1049
+			},
+			"lifetime": {
+				"currency": "ARS",
+				"amount": 16499
+			}
+		},
+		"AT": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 29.99
+			}
+		},
+		"AU": {
+			"yearly": {
+				"currency": "AUD",
+				"amount": 29.99
+			},
+			"monthly": {
+				"currency": "AUD",
+				"amount": 4.49
+			},
+			"lifetime": {
+				"currency": "AUD",
+				"amount": 59.99
+			}
+		},
+		"AW": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"AZ": {
+			"yearly": {
+				"currency": "AZN",
+				"amount": 10.99
+			},
+			"monthly": {
+				"currency": "AZN",
+				"amount": 1.29
+			},
+			"lifetime": {
+				"currency": "AZN",
+				"amount": 19.99
+			}
+		},
+		"BA": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"BD": {
+			"yearly": {
+				"currency": "BDT",
+				"amount": 319.99
+			},
+			"monthly": {
+				"currency": "BDT",
+				"amount": 39.99
+			},
+			"lifetime": {
+				"currency": "BDT",
+				"amount": 639
+			}
+		},
+		"BE": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 29.99
+			}
+		},
+		"BF": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 7.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 0.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 15.99
+			}
+		},
+		"BG": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 4.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 9.99
+			}
+		},
+		"BH": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.99
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.99
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 13.99
+			}
+		},
+		"BJ": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 7.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 0.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 15.99
+			}
+		},
+		"BM": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 3.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.49
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 6.99
+			}
+		},
+		"BO": {
+			"yearly": {
+				"currency": "BOB",
+				"amount": 39.99
+			},
+			"monthly": {
+				"currency": "BOB",
+				"amount": 4.99
+			},
+			"lifetime": {
+				"currency": "BOB",
+				"amount": 79.99
+			}
+		},
+		"BR": {
+			"yearly": {
+				"currency": "BRL",
+				"amount": 24.99
+			},
+			"monthly": {
+				"currency": "BRL",
+				"amount": 2.99
+			},
+			"lifetime": {
+				"currency": "BRL",
+				"amount": 49.99
+			}
+		},
+		"BS": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.99
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"BW": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"BY": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.99
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"BZ": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"CA": {
+			"yearly": {
+				"currency": "CAD",
+				"amount": 27.99
+			},
+			"monthly": {
+				"currency": "CAD",
+				"amount": 3.99
+			},
+			"lifetime": {
+				"currency": "CAD",
+				"amount": 54.99
+			}
+		},
+		"CD": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.69
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"CF": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 7.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 0.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 15.99
+			}
+		},
+		"CG": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"CH": {
+			"yearly": {
+				"currency": "CHF",
+				"amount": 13.99
+			},
+			"monthly": {
+				"currency": "CHF",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "CHF",
+				"amount": 29.99
+			}
+		},
+		"CI": {
+			"yearly": {
+				"currency": "XOF",
+				"amount": 3999
+			},
+			"monthly": {
+				"currency": "XOF",
+				"amount": 485
+			},
+			"lifetime": {
+				"currency": "XOF",
+				"amount": 7999
+			}
+		},
+		"CL": {
+			"yearly": {
+				"currency": "CLP",
+				"amount": 7999
+			},
+			"monthly": {
+				"currency": "CLP",
+				"amount": 999
+			},
+			"lifetime": {
+				"currency": "CLP",
+				"amount": 15999
+			}
+		},
+		"CM": {
+			"yearly": {
+				"currency": "XAF",
+				"amount": 3999
+			},
+			"monthly": {
+				"currency": "XAF",
+				"amount": 499
+			},
+			"lifetime": {
+				"currency": "XAF",
+				"amount": 7999
+			}
+		},
+		"CO": {
+			"yearly": {
+				"currency": "COP",
+				"amount": 17499
+			},
+			"monthly": {
+				"currency": "COP",
+				"amount": 2500
+			},
+			"lifetime": {
+				"currency": "COP",
+				"amount": 34999
+			}
+		},
+		"CR": {
+			"yearly": {
+				"currency": "CRC",
+				"amount": 1999
+			},
+			"monthly": {
+				"currency": "CRC",
+				"amount": 249
+			},
+			"lifetime": {
+				"currency": "CRC",
+				"amount": 3999
+			}
+		},
+		"CV": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"CY": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 29.99
+			}
+		},
+		"CZ": {
+			"yearly": {
+				"currency": "CZK",
+				"amount": 159.99
+			},
+			"monthly": {
+				"currency": "CZK",
+				"amount": 19.99
+			},
+			"lifetime": {
+				"currency": "CZK",
+				"amount": 319.99
+			}
+		},
+		"DE": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 29.99
+			}
+		},
+		"DJ": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"DK": {
+			"yearly": {
+				"currency": "DKK",
+				"amount": 79.99
+			},
+			"monthly": {
+				"currency": "DKK",
+				"amount": 10
+			},
+			"lifetime": {
+				"currency": "DKK",
+				"amount": 159.99
+			}
+		},
+		"DM": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"DO": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"DZ": {
+			"yearly": {
+				"currency": "DZD",
+				"amount": 1200
+			},
+			"monthly": {
+				"currency": "DZD",
+				"amount": 149
+			},
+			"lifetime": {
+				"currency": "DZD",
+				"amount": 2400
+			}
+		},
+		"EC": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.99
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.99
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 13.99
+			}
+		},
+		"EE": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 29.99
+			}
+		},
+		"EG": {
+			"yearly": {
+				"currency": "EGP",
+				"amount": 200
+			},
+			"monthly": {
+				"currency": "EGP",
+				"amount": 30
+			},
+			"lifetime": {
+				"currency": "EGP",
+				"amount": 400
+			}
+		},
+		"ER": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.69
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"ES": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 29.99
+			}
+		},
+		"ET": {
+			"yearly": {
+				"currency": "ETB",
+				"amount": 799
+			},
+			"monthly": {
+				"currency": "ETB",
+				"amount": 109
+			},
+			"lifetime": {
+				"currency": "ETB",
+				"amount": 1599
+			}
+		},
+		"FI": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 29.99
+			}
+		},
+		"FJ": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"FM": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 5.99
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.75
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 11.99
+			}
+		},
+		"FR": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 29.99
+			}
+		},
+		"GA": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 7.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 0.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 15.99
+			}
+		},
+		"GB": {
+			"yearly": {
+				"currency": "GBP",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "GBP",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "GBP",
+				"amount": 29.99
+			}
+		},
+		"GD": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"GE": {
+			"yearly": {
+				"currency": "GEL",
+				"amount": 9.99
+			},
+			"monthly": {
+				"currency": "GEL",
+				"amount": 1.49
+			},
+			"lifetime": {
+				"currency": "GEL",
+				"amount": 19.99
+			}
+		},
+		"GH": {
+			"yearly": {
+				"currency": "GHS",
+				"amount": 120
+			},
+			"monthly": {
+				"currency": "GHS",
+				"amount": 15
+			},
+			"lifetime": {
+				"currency": "GHS",
+				"amount": 240
+			}
+		},
+		"GI": {
+			"yearly": {
+				"currency": "GBP",
+				"amount": 17.99
+			},
+			"monthly": {
+				"currency": "GBP",
+				"amount": 2.49
+			},
+			"lifetime": {
+				"currency": "GBP",
+				"amount": 34.99
+			}
+		},
+		"GM": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.69
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"GN": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"GR": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 29.99
+			}
+		},
+		"GT": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"GW": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 7.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 0.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 15.99
+			}
+		},
+		"HK": {
+			"yearly": {
+				"currency": "HKD",
+				"amount": 79.99
+			},
+			"monthly": {
+				"currency": "HKD",
+				"amount": 9.99
+			},
+			"lifetime": {
+				"currency": "HKD",
+				"amount": 159.99
+			}
+		},
+		"HN": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"HR": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 8.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.49
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 17.99
+			}
+		},
+		"HT": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"HU": {
+			"yearly": {
+				"currency": "HUF",
+				"amount": 3199
+			},
+			"monthly": {
+				"currency": "HUF",
+				"amount": 399
+			},
+			"lifetime": {
+				"currency": "HUF",
+				"amount": 6399
+			}
+		},
+		"ID": {
+			"yearly": {
+				"currency": "IDR",
+				"amount": 49999
+			},
+			"monthly": {
+				"currency": "IDR",
+				"amount": 6999
+			},
+			"lifetime": {
+				"currency": "IDR",
+				"amount": 100000
+			}
+		},
+		"IE": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 29.99
+			}
+		},
+		"IL": {
+			"yearly": {
+				"currency": "ILS",
+				"amount": 34.99
+			},
+			"monthly": {
+				"currency": "ILS",
+				"amount": 4.99
+			},
+			"lifetime": {
+				"currency": "ILS",
+				"amount": 69.99
+			}
+		},
+		"IN": {
+			"yearly": {
+				"currency": "INR",
+				"amount": 299
+			},
+			"monthly": {
+				"currency": "INR",
+				"amount": 39.99
+			},
+			"lifetime": {
+				"currency": "INR",
+				"amount": 599
+			}
+		},
+		"IQ": {
+			"yearly": {
+				"currency": "IQD",
+				"amount": 3199
+			},
+			"monthly": {
+				"currency": "IQD",
+				"amount": 399
+			},
+			"lifetime": {
+				"currency": "IQD",
+				"amount": 6399
+			}
+		},
+		"IS": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 9.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.19
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 19.99
+			}
+		},
+		"IT": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 29.99
+			}
+		},
+		"JM": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"JO": {
+			"yearly": {
+				"currency": "JOD",
+				"amount": 2.59
+			},
+			"monthly": {
+				"currency": "JOD",
+				"amount": 0.39
+			},
+			"lifetime": {
+				"currency": "JOD",
+				"amount": 4.99
+			}
+		},
+		"JP": {
+			"yearly": {
+				"currency": "JPY",
+				"amount": 1599
+			},
+			"monthly": {
+				"currency": "JPY",
+				"amount": 199
+			},
+			"lifetime": {
+				"currency": "JPY",
+				"amount": 3199
+			}
+		},
+		"KE": {
+			"yearly": {
+				"currency": "KES",
+				"amount": 400
+			},
+			"monthly": {
+				"currency": "KES",
+				"amount": 50
+			},
+			"lifetime": {
+				"currency": "KES",
+				"amount": 800
+			}
+		},
+		"KG": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"KH": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 3.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.49
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 6.99
+			}
+		},
+		"KM": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"KN": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"KR": {
+			"yearly": {
+				"currency": "KRW",
+				"amount": 12799
+			},
+			"monthly": {
+				"currency": "KRW",
+				"amount": 1599
+			},
+			"lifetime": {
+				"currency": "KRW",
+				"amount": 25499
+			}
+		},
+		"KW": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 3.99
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.59
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 7.99
+			}
+		},
+		"KY": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 7.99
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 1.19
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 15.99
+			}
+		},
+		"KZ": {
+			"yearly": {
+				"currency": "KZT",
+				"amount": 1500
+			},
+			"monthly": {
+				"currency": "KZT",
+				"amount": 250
+			},
+			"lifetime": {
+				"currency": "KZT",
+				"amount": 3000
+			}
+		},
+		"LA": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"LB": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"LC": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"LI": {
+			"yearly": {
+				"currency": "CHF",
+				"amount": 13.99
+			},
+			"monthly": {
+				"currency": "CHF",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "CHF",
+				"amount": 29.99
+			}
+		},
+		"LK": {
+			"yearly": {
+				"currency": "LKR",
+				"amount": 799
+			},
+			"monthly": {
+				"currency": "LKR",
+				"amount": 99
+			},
+			"lifetime": {
+				"currency": "LKR",
+				"amount": 1599
+			}
+		},
+		"LR": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"LT": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 29.99
+			}
+		},
+		"LU": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 29.99
+			}
+		},
+		"LV": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 29.99
+			}
+		},
+		"LY": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"MA": {
+			"yearly": {
+				"currency": "MAD",
+				"amount": 79.99
+			},
+			"monthly": {
+				"currency": "MAD",
+				"amount": 10
+			},
+			"lifetime": {
+				"currency": "MAD",
+				"amount": 159.99
+			}
+		},
+		"MC": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 17.5
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 34.99
+			}
+		},
+		"MD": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"MK": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"ML": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 7.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 0.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 15.99
+			}
+		},
+		"MM": {
+			"yearly": {
+				"currency": "MMK",
+				"amount": 8999
+			},
+			"monthly": {
+				"currency": "MMK",
+				"amount": 1299
+			},
+			"lifetime": {
+				"currency": "MMK",
+				"amount": 17999
+			}
+		},
+		"MN": {
+			"yearly": {
+				"currency": "MNT",
+				"amount": 28499
+			},
+			"monthly": {
+				"currency": "MNT",
+				"amount": 3499
+			},
+			"lifetime": {
+				"currency": "MNT",
+				"amount": 56999
+			}
+		},
+		"MO": {
+			"yearly": {
+				"currency": "MOP",
+				"amount": 74.99
+			},
+			"monthly": {
+				"currency": "MOP",
+				"amount": 10.99
+			},
+			"lifetime": {
+				"currency": "MOP",
+				"amount": 149.99
+			}
+		},
+		"MT": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 29.99
+			}
+		},
+		"MU": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"MV": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"MX": {
+			"yearly": {
+				"currency": "MXN",
+				"amount": 69.99
+			},
+			"monthly": {
+				"currency": "MXN",
+				"amount": 10
+			},
+			"lifetime": {
+				"currency": "MXN",
+				"amount": 139.99
+			}
+		},
+		"MY": {
+			"yearly": {
+				"currency": "MYR",
+				"amount": 8.99
+			},
+			"monthly": {
+				"currency": "MYR",
+				"amount": 1.25
+			},
+			"lifetime": {
+				"currency": "MYR",
+				"amount": 17.99
+			}
+		},
+		"MZ": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"NA": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"NE": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 7.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 0.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 15.99
+			}
+		},
+		"NG": {
+			"yearly": {
+				"currency": "NGN",
+				"amount": 3499
+			},
+			"monthly": {
+				"currency": "NGN",
+				"amount": 499
+			},
+			"lifetime": {
+				"currency": "NGN",
+				"amount": 6999
+			}
+		},
+		"NI": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"NL": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 29.99
+			}
+		},
+		"NO": {
+			"yearly": {
+				"currency": "NOK",
+				"amount": 99
+			},
+			"monthly": {
+				"currency": "NOK",
+				"amount": 15
+			},
+			"lifetime": {
+				"currency": "NOK",
+				"amount": 199
+			}
+		},
+		"NP": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"NZ": {
+			"yearly": {
+				"currency": "NZD",
+				"amount": 32.99
+			},
+			"monthly": {
+				"currency": "NZD",
+				"amount": 4.99
+			},
+			"lifetime": {
+				"currency": "NZD",
+				"amount": 64.99
+			}
+		},
+		"OM": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 5.99
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.75
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 11.99
+			}
+		},
+		"PA": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 5.99
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.75
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 11.99
+			}
+		},
+		"PE": {
+			"yearly": {
+				"currency": "PEN",
+				"amount": 19.99
+			},
+			"monthly": {
+				"currency": "PEN",
+				"amount": 2.49
+			},
+			"lifetime": {
+				"currency": "PEN",
+				"amount": 39.99
+			}
+		},
+		"PG": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"PH": {
+			"yearly": {
+				"currency": "PHP",
+				"amount": 199
+			},
+			"monthly": {
+				"currency": "PHP",
+				"amount": 29.99
+			},
+			"lifetime": {
+				"currency": "PHP",
+				"amount": 399
+			}
+		},
+		"PK": {
+			"yearly": {
+				"currency": "PKR",
+				"amount": 679
+			},
+			"monthly": {
+				"currency": "PKR",
+				"amount": 85
+			},
+			"lifetime": {
+				"currency": "PKR",
+				"amount": 1349
+			}
+		},
+		"PL": {
+			"yearly": {
+				"currency": "PLN",
+				"amount": 39.99
+			},
+			"monthly": {
+				"currency": "PLN",
+				"amount": 4.99
+			},
+			"lifetime": {
+				"currency": "PLN",
+				"amount": 79.99
+			}
+		},
+		"PT": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 29.99
+			}
+		},
+		"PY": {
+			"yearly": {
+				"currency": "PYG",
+				"amount": 8000
+			},
+			"monthly": {
+				"currency": "PYG",
+				"amount": 1500
+			},
+			"lifetime": {
+				"currency": "PYG",
+				"amount": 16000
+			}
+		},
+		"QA": {
+			"yearly": {
+				"currency": "QAR",
+				"amount": 15.99
+			},
+			"monthly": {
+				"currency": "QAR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "QAR",
+				"amount": 29.99
+			}
+		},
+		"RO": {
+			"yearly": {
+				"currency": "RON",
+				"amount": 34.99
+			},
+			"monthly": {
+				"currency": "RON",
+				"amount": 4.99
+			},
+			"lifetime": {
+				"currency": "RON",
+				"amount": 69.99
+			}
+		},
+		"RS": {
+			"yearly": {
+				"currency": "RSD",
+				"amount": 349
+			},
+			"monthly": {
+				"currency": "RSD",
+				"amount": 49.99
+			},
+			"lifetime": {
+				"currency": "RSD",
+				"amount": 699
+			}
+		},
+		"RU": {
+			"yearly": {
+				"currency": "RUB",
+				"amount": 899
+			},
+			"monthly": {
+				"currency": "RUB",
+				"amount": 125
+			},
+			"lifetime": {
+				"currency": "RUB",
+				"amount": 1799
+			}
+		},
+		"RW": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"SA": {
+			"yearly": {
+				"currency": "SAR",
+				"amount": 19.99
+			},
+			"monthly": {
+				"currency": "SAR",
+				"amount": 2.99
+			},
+			"lifetime": {
+				"currency": "SAR",
+				"amount": 39.99
+			}
+		},
+		"SB": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"SC": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"SE": {
+			"yearly": {
+				"currency": "SEK",
+				"amount": 99
+			},
+			"monthly": {
+				"currency": "SEK",
+				"amount": 15
+			},
+			"lifetime": {
+				"currency": "SEK",
+				"amount": 199
+			}
+		},
+		"SG": {
+			"yearly": {
+				"currency": "SGD",
+				"amount": 19.99
+			},
+			"monthly": {
+				"currency": "SGD",
+				"amount": 2.99
+			},
+			"lifetime": {
+				"currency": "SGD",
+				"amount": 39.99
+			}
+		},
+		"SI": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 29.99
+			}
+		},
+		"SK": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 29.99
+			}
+		},
+		"SL": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"SM": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 29.99
+			}
+		},
+		"SN": {
+			"yearly": {
+				"currency": "XOF",
+				"amount": 3999
+			},
+			"monthly": {
+				"currency": "XOF",
+				"amount": 485
+			},
+			"lifetime": {
+				"currency": "XOF",
+				"amount": 7999
+			}
+		},
+		"SO": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 1.99
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.25
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 3.99
+			}
+		},
+		"SR": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"SV": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.99
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.99
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 13.99
+			}
+		},
+		"TC": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 3.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.49
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 6.99
+			}
+		},
+		"TD": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"TG": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 7.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 0.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 15.99
+			}
+		},
+		"TH": {
+			"yearly": {
+				"currency": "THB",
+				"amount": 149.99
+			},
+			"monthly": {
+				"currency": "THB",
+				"amount": 16.99
+			},
+			"lifetime": {
+				"currency": "THB",
+				"amount": 299.99
+			}
+		},
+		"TJ": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"TM": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"TN": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"TO": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"TR": {
+			"yearly": {
+				"currency": "TRY",
+				"amount": 119.99
+			},
+			"monthly": {
+				"currency": "TRY",
+				"amount": 14.99
+			},
+			"lifetime": {
+				"currency": "TRY",
+				"amount": 239.99
+			}
+		},
+		"TT": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"TW": {
+			"yearly": {
+				"currency": "TWD",
+				"amount": 299.99
+			},
+			"monthly": {
+				"currency": "TWD",
+				"amount": 45
+			},
+			"lifetime": {
+				"currency": "TWD",
+				"amount": 599
+			}
+		},
+		"TZ": {
+			"yearly": {
+				"currency": "TZS",
+				"amount": 7999
+			},
+			"monthly": {
+				"currency": "TZS",
+				"amount": 1000
+			},
+			"lifetime": {
+				"currency": "TZS",
+				"amount": 15999
+			}
+		},
+		"UA": {
+			"yearly": {
+				"currency": "UAH",
+				"amount": 39.99
+			},
+			"monthly": {
+				"currency": "UAH",
+				"amount": 5.99
+			},
+			"lifetime": {
+				"currency": "UAH",
+				"amount": 79.99
+			}
+		},
+		"UG": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"US": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 19.99
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 2.99
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 49.99
+			}
+		},
+		"UY": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"UZ": {
+			"yearly": {
+				"currency": "UZS",
+				"amount": 77999
+			},
+			"monthly": {
+				"currency": "UZS",
+				"amount": 9499
+			},
+			"lifetime": {
+				"currency": "UZS",
+				"amount": 154999
+			}
+		},
+		"VA": {
+			"yearly": {
+				"currency": "EUR",
+				"amount": 14.99
+			},
+			"monthly": {
+				"currency": "EUR",
+				"amount": 1.99
+			},
+			"lifetime": {
+				"currency": "EUR",
+				"amount": 29.99
+			}
+		},
+		"VE": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"VG": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 4.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.59
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 8.99
+			}
+		},
+		"VN": {
+			"yearly": {
+				"currency": "VND",
+				"amount": 89000
+			},
+			"monthly": {
+				"currency": "VND",
+				"amount": 9999
+			},
+			"lifetime": {
+				"currency": "VND",
+				"amount": 178000
+			}
+		},
+		"VU": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"WS": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"YE": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"ZA": {
+			"yearly": {
+				"currency": "ZAR",
+				"amount": 119.99
+			},
+			"monthly": {
+				"currency": "ZAR",
+				"amount": 14.99
+			},
+			"lifetime": {
+				"currency": "ZAR",
+				"amount": 239.99
+			}
+		},
+		"ZM": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		},
+		"ZW": {
+			"yearly": {
+				"currency": "USD",
+				"amount": 6.49
+			},
+			"monthly": {
+				"currency": "USD",
+				"amount": 0.79
+			},
+			"lifetime": {
+				"currency": "USD",
+				"amount": 12.99
+			}
+		}
+	}
+}

@@ -3,9 +3,10 @@
   import Footer from '$lib/components/Footer.svelte';
   import RecentPosts from '$lib/components/RecentPosts.svelte';
   import HeroSection from '$lib/components/home/HeroSection.svelte';
-  import HowItWorks from '$lib/components/home/HowItWorks.svelte';
-  import AppGallery from '$lib/components/home/AppGallery.svelte';
-  import FeaturesFreePro from '$lib/components/home/FeaturesFreePro.svelte';
+  import SpotlightSection from '$lib/components/home/SpotlightSection.svelte';
+  import TimelineBand from '$lib/components/home/TimelineBand.svelte';
+  import PrivacySection from '$lib/components/home/PrivacySection.svelte';
+  import PlansSection from '$lib/components/home/PlansSection.svelte';
   import TestimonialsSection from '$lib/components/home/TestimonialsSection.svelte';
   import FaqSection from '$lib/components/home/FaqSection.svelte';
   import FinalCta from '$lib/components/home/FinalCta.svelte';
@@ -28,22 +29,6 @@
         text: item.answer
       }
     }))
-  };
-
-  $: howToJsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'HowTo',
-    name: home.howItWorks.title,
-    description: home.howItWorks.subtitle,
-    step: home.howItWorks.steps.map(
-      (step: { title: string; description: string; image: { src?: string } }, i: number) => ({
-        '@type': 'HowToStep',
-        position: i + 1,
-        name: step.title,
-        text: step.description,
-        ...(step.image.src && { image: `https://www.crookcatcher.app${step.image.src}` })
-      })
-    )
   };
 </script>
 
@@ -82,36 +67,75 @@
     ]
   })}</script>`}
 
-  {@html `<script type="application/ld+json">${JSON.stringify(howToJsonLd)}</script>`}
   {@html `<script type="application/ld+json">${JSON.stringify(faqJsonLd)}</script>`}
 </svelte:head>
 
 <Hreflang />
 
 <header class="app-header">
-  <Header />
+  <Header overlay />
 </header>
 
-<main>
-  <HeroSection content={home.hero} />
-  <HowItWorks content={home.howItWorks} />
-  <AppGallery content={home.appGallery} />
-  <FeaturesFreePro content={home.features} />
-  <TestimonialsSection content={home.testimonials} reviews={reviews} />
+<main class="home">
+  <HeroSection content={home.hero} qr={data.qr.hero} />
+  <SpotlightSection content={home.spotlight} />
+  <TimelineBand content={home.timeline} />
+  <PrivacySection content={home.privacy} />
+  <PlansSection content={home.plans} />
+  <TestimonialsSection content={home.testimonials} {reviews} />
   <FaqSection content={home.faq} />
-  <FinalCta content={home.finalCta} trust={home.trust} />
   {#if data.posts.length}
     <div class="container recent-wrap">
       <RecentPosts posts={data.posts} />
     </div>
   {/if}
+  <FinalCta content={home.finalCta} qr={data.qr.final} />
 </main>
 
 <Footer />
 
 <style>
+  .home {
+    background: var(--color-cc-dark-bg);
+  }
+
+  /* Shared section rhythm and headings for the homepage sections. */
+  .home :global(.home-section) {
+    padding: 64px 0;
+  }
+
+  .home :global(.home-section-header) {
+    max-width: 36em;
+    margin-bottom: 40px;
+  }
+
+  .home :global(.home-section-header h2) {
+    margin: 0;
+    font-size: clamp(1.75rem, 3.6vw, 2.5rem);
+    line-height: 1.12;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+  }
+
+  .home :global(.home-section-header p) {
+    margin: 14px 0 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--color-secondary);
+    text-wrap: pretty;
+  }
+
   .recent-wrap {
-    padding-top: 8px;
-    padding-bottom: 56px;
+    padding-bottom: 64px;
+  }
+
+  @media (min-width: 900px) {
+    .home :global(.home-section) {
+      padding: 112px 0;
+    }
+
+    .home :global(.home-section-header) {
+      margin-bottom: 56px;
+    }
   }
 </style>
