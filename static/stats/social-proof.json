@@ -5,16 +5,16 @@
   "intro_offers_7d": 0,
   "lifetime_purchases_7d": 50,
   "raw": {
-    "trials_started_7d": 1213,
-    "trial_conversions_7d": 182,
+    "trials_started_7d": 1212,
+    "trial_conversions_7d": 180,
     "direct_subscriptions_7d": 76,
     "intro_offers_7d": 4,
-    "lifetime_purchases_7d": 52
+    "lifetime_purchases_7d": 53
   },
   "window": {
-    "start_date": "2026-10-23",
-    "end_date": "2026-10-29"
+    "start_date": "2026-10-24",
+    "end_date": "2026-10-30"
   },
   "app_id": "app0feb0ed5eb",
-  "updated_at": "2026-10-29T11:32:21.885Z"
+  "updated_at": "2026-10-30T11:24:23.903Z"
 }
