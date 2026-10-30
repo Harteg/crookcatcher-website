@@ -13,9 +13,9 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-Quand quelqu'un vole un téléphone, l'une des premières choses qu'il fait est de **l'éteindre ou d'activer le mode avion**. Un téléphone éteint ou hors ligne ne peut plus être localisé, verrouillé ni effacé à distance : toutes les fonctions de suivi que vous avez configurées cessent soudain de fonctionner.
+**Vous ne pouvez pas empêcher totalement un voleur d'éteindre un téléphone Android, mais vous pouvez rendre cela beaucoup plus difficile.** Sur de nombreux téléphones Samsung, activez *Verrouiller réseau et sécurité*, pour que l'écran de verrouillage demande d'abord votre code PIN. Activez aussi le *Verrouillage en cas de détection de vol* et le *Verrouillage de l'appareil hors connexion*, et retirez le mode avion des Réglages rapides.
 
-La bonne nouvelle : Android et les fabricants proposent désormais des réglages qui rendent cela beaucoup plus difficile. Voici quoi activer, et comment vous assurer d'avoir des preuves même si un voleur parvient à passer.
+C'est important, car éteindre le téléphone ou activer le mode avion est l'une des premières choses que fait un voleur. Un téléphone éteint ou hors ligne ne peut plus être localisé, verrouillé ni effacé à distance : toutes les fonctions de suivi que vous avez configurées cessent soudain de fonctionner. Voici quoi activer, et comment vous assurer d'avoir des preuves même si un voleur parvient à passer.
 
 ## En bref
 

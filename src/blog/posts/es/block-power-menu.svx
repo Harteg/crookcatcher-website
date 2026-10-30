@@ -13,9 +13,9 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-Cuando alguien roba un teléfono, una de las primeras cosas que hace es **apagarlo o activar el modo avión**. Un teléfono apagado o sin conexión no se puede ubicar, bloquear ni borrar a distancia, así que todas las funciones de rastreo que configuraste dejan de funcionar de golpe.
+**No puedes impedir por completo que un ladrón apague un teléfono Android, pero sí puedes hacerlo mucho más difícil.** En muchos teléfonos Samsung, activa *Bloquear red y seguridad*, para que la pantalla de bloqueo pida primero tu PIN. Activa también el *Bloqueo por detección de robo* y el *Bloqueo de dispositivo sin conexión*, y quita el modo avión de la configuración rápida.
 
-La buena noticia: Android y los fabricantes ya tienen ajustes que lo hacen mucho más difícil. Esto es lo que debes activar, y cómo asegurarte de tener pruebas aunque el ladrón lo logre.
+Esto importa porque apagar el teléfono o activar el modo avión es una de las primeras cosas que hace un ladrón. Un teléfono apagado o sin conexión no se puede ubicar, bloquear ni borrar a distancia, así que todas las funciones de rastreo que configuraste dejan de funcionar de golpe. Esto es lo que debes activar, y cómo asegurarte de tener pruebas aunque el ladrón lo logre.
 
 ## En resumen
 

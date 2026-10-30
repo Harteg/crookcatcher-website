@@ -13,9 +13,9 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-Quando alguém rouba um celular, uma das primeiras coisas que faz é **desligar o aparelho ou ativar o modo avião**. Um celular desligado ou offline não pode ser localizado, bloqueado nem apagado a distância, então todos os recursos de rastreamento que você configurou param de funcionar de uma hora para outra.
+**Não dá para impedir totalmente que um ladrão desligue um celular Android, mas dá para dificultar muito.** Em muitos celulares Samsung, ative *Bloquear rede e segurança*, para que a tela de bloqueio peça seu PIN primeiro. Ative também o *Bloqueio por Detecção de Roubo* e o *Bloqueio de Dispositivo Off-line*, e tire o modo avião das Configurações rápidas.
 
-A boa notícia: o Android e as fabricantes agora têm configurações que dificultam muito isso. Veja o que ativar, e como garantir que você ainda tenha provas mesmo se o ladrão conseguir passar.
+Isso importa porque desligar o aparelho ou ativar o modo avião é uma das primeiras coisas que um ladrão faz. Um celular desligado ou offline não pode ser localizado, bloqueado nem apagado a distância, então todos os recursos de rastreamento que você configurou param de funcionar de uma hora para outra. Veja o que ativar, e como garantir que você ainda tenha provas mesmo se o ladrão conseguir passar.
 
 ## Resumo
 

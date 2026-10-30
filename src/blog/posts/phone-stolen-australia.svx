@@ -13,6 +13,8 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
+**If your Android phone is stolen in Australia, get to safety, lock it remotely, ask your provider to block the SIM and phone on every Australian network, call your bank, then report it to the police on 131 444 (000 in an emergency).**
+
 Around **150,000 phones are blocked as lost or stolen in Australia every year**, and only about one in three is later unblocked because it made its way back to its owner. Many are snatched in busy places, often by thieves on e-bikes or e-scooters targeting people checking a map or taking a photo.
 
 This guide is for Android phones. The first few minutes matter most: thieves often go straight for your bank accounts and payment apps, not just the phone. Here's what to do, in the right order.

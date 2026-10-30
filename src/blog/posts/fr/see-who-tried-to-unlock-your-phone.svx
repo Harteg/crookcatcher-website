@@ -14,13 +14,9 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-Peut-être que votre téléphone a changé de place pendant votre absence. Peut-être avez-vous vu un message « Réessayez dans 30 secondes » dont vous n'êtes pas responsable. Ou vous voulez simplement savoir si quelqu'un essaie d'accéder à votre téléphone.
+**Android ne peut pas vous montrer qui a essayé de déverrouiller votre téléphone.** Il ne garde aucune trace des tentatives ratées et ne prend jamais de photo. Pour savoir qui c'était, il vous faut une app qui prend une photo quand quelqu'un saisit un mauvais code PIN, schéma ou mot de passe, ce qu'on appelle souvent un *selfie de l'intrus*. CrookCatcher le fait gratuitement et vous envoie la photo par e-mail avec la position.
 
-La réponse courte :
-
-- **Android ne garde aucune trace** des tentatives de déverrouillage ratées, et ne prend pas de photo de la personne qui les a faites.
-- **Vous pouvez ajouter cette fonction avec une app** qui prend une photo quand quelqu'un saisit un mauvais code PIN, schéma ou mot de passe. Cette photo est souvent appelée *selfie de l'intrus*.
-- **CrookCatcher** fait exactement cela, gratuitement, et vous envoie la photo par e-mail avec la position.
+Peut-être que votre téléphone a changé de place pendant votre absence. Peut-être avez-vous vu un message « Réessayez dans 30 secondes » dont vous n'êtes pas responsable. Ou vous voulez simplement savoir si quelqu'un essaie d'accéder à votre téléphone. Voici ce que vous pouvez vérifier, et comment le configurer.
 
 ## Android peut-il montrer qui a essayé de déverrouiller votre téléphone ?
 

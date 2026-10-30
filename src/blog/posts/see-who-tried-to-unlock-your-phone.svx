@@ -14,13 +14,9 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-Maybe your phone was moved while you were away. Maybe you saw a "Try again in 30 seconds" message you didn't cause. Or maybe you just want to know if someone has been trying to get into your phone.
+**Android can't show you who tried to unlock your phone.** It keeps no record of failed attempts and never takes a photo. To find out who it was, you need an app that takes a picture when someone enters the wrong PIN, pattern or password, often called an *intruder selfie*. CrookCatcher does this for free and emails you the photo with the location.
 
-Here's the short answer:
-
-- **Android doesn't keep a record** of failed unlock attempts, and it doesn't take a photo of the person who made them.
-- **You can add this with an app** that takes a picture when someone enters the wrong PIN, pattern or password. That photo is often called an *intruder selfie*.
-- **CrookCatcher** does exactly this, for free, and emails you the photo together with the location.
+Maybe your phone was moved while you were away. Maybe you saw a "Try again in 30 seconds" message you didn't cause. Or maybe you just want to know if someone has been trying to get into your phone. Here's what you can check, and how to set it up.
 
 ## Can Android show who tried to unlock your phone?
 
