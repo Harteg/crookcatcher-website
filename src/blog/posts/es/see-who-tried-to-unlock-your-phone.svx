@@ -14,13 +14,9 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-Tal vez alguien movió tu celular mientras no estabas. Tal vez viste un mensaje de "Vuelve a intentarlo en 30 segundos" que no provocaste tú. O tal vez solo quieres saber si alguien ha intentado entrar en tu teléfono.
+**Android no puede mostrarte quién intentó desbloquear tu teléfono.** No guarda ningún registro de los intentos fallidos y nunca toma una foto. Para saber quién fue, necesitas una app que tome una foto cuando alguien ingrese un PIN, patrón o contraseña incorrectos, lo que se suele llamar *foto del intruso* o *selfie del intruso*. CrookCatcher lo hace gratis y te envía la foto por correo junto con la ubicación.
 
-La respuesta corta:
-
-- **Android no guarda un registro** de los intentos fallidos de desbloqueo, ni toma una foto de quien los hizo.
-- **Puedes agregarlo con una app** que tome una foto cuando alguien ingrese un PIN, patrón o contraseña incorrectos. A esa foto se le suele llamar *foto del intruso* o *selfie del intruso*.
-- **CrookCatcher** hace exactamente eso, gratis, y te envía la foto por correo junto con la ubicación.
+Tal vez alguien movió tu celular mientras no estabas. Tal vez viste un mensaje de "Vuelve a intentarlo en 30 segundos" que no provocaste tú. O tal vez solo quieres saber si alguien ha intentado entrar en tu teléfono. Esto es lo que puedes revisar y cómo configurarlo.
 
 ## ¿Android puede mostrar quién intentó desbloquear tu teléfono?
 

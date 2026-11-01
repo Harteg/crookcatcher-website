@@ -13,6 +13,8 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
+**If your Android phone is stolen in the UK, get to safety, lock it remotely, call your network to block the SIM and phone, call your bank, then report it to the police.**
+
 Having your phone stolen is stressful, and it happens a lot in the UK. In London alone, the Metropolitan Police recorded around **71,000 mobile phone thefts in 2025**, down from about 81,000 in 2024. That's still roughly one every seven to eight minutes, and nearly 11,000 phones were stolen on the London Underground in 2024. The numbers are falling, but thousands of people still go through this every month.
 
 This guide is for Android phones. The first few minutes matter most. Thieves often go straight for your bank accounts and payment apps, not just the phone itself. Here's what to do, in the right order.

@@ -13,9 +13,9 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-When someone steals a phone, one of the first things they do is **turn it off or switch on airplane mode**. A phone that's off or offline can't be located, locked or erased remotely, so every tracking feature you set up suddenly stops working.
+**You can't completely stop a thief from turning off an Android phone, but you can make it much harder.** On many Samsung phones, turn on *Lock network and security*, so the lock screen asks for your PIN first. Also turn on *Theft Detection Lock* and *Offline Device Lock*, and move airplane mode out of Quick Settings.
 
-The good news: Android and phone makers now have settings that make this much harder. Here's what to turn on, and how to make sure you still have evidence even if a thief gets through.
+This matters because turning off the phone or switching on airplane mode is one of the first things thieves do. A phone that's off or offline can't be located, locked or erased remotely, so every tracking feature you set up suddenly stops working. Here's what to turn on, and how to make sure you still have evidence even if a thief gets through.
 
 ## TL;DR
 
