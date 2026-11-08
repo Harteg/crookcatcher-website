@@ -35,7 +35,6 @@ const config = {
 					'/fonts/*',
 					'/email_res/*',
 					'/scripts/*',
-					'/stats/*',
 					'/robots.txt',
 					'/app-ads.txt',
 					// Cloudflare ignores static/_redirects for requests that reach the worker, so
