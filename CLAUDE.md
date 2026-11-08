@@ -1,10 +1,10 @@
 # CrookCatcher website (crookcatcher.app)
 
-This repo is the marketing site for CrookCatcher, an Android anti-theft app (since 2014, 12M+ downloads, 4.6★ from 90K+ ratings, ~1.2M intruder photos captured per day). The app takes an intruder selfie when someone enters a wrong PIN, pattern or password, records GPS location, and emails both to the owner. Pro adds video with sound, break-in detection, back camera, Google Drive backup, alarm, fake home screen, lock screen message, app lock, disguised icon, hidden notifications and custom email subject.
+This repo is the marketing site for CrookCatcher. What the app is, the growth plan and how to read the data (Analytics, Search Console, RevenueCat) are shared with the app repo and imported here. Only its "Shared" section applies to this repo:
 
-Power-menu and notification shade / quick-settings blocking were removed from the app. Never present them as features; recommend Android's and Samsung's built-in settings instead (see the `block-power-menu` guide).
+@../crookcatcher-android/CLAUDE.md
 
-Play Store: https://play.google.com/store/apps/details?id=com.harteg.crookcatcher
+For removed features like power-menu blocking, point readers to the `block-power-menu` guide.
 
 ## Current goal
 
