@@ -13,6 +13,42 @@
 			"src": "/images/blog/Digital_Solitude_Urban_Shadows-1199.webp"
 		}
 	],
+	"/images/blog/failed-unlock-attempts-android-header-ar.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/failed-unlock-attempts-android-header-ar-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/failed-unlock-attempts-android-header-ar-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/failed-unlock-attempts-android-header-ar-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/failed-unlock-attempts-android-header-ar-1600.webp"
+		}
+	],
+	"/images/blog/failed-unlock-attempts-android-header-de.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/failed-unlock-attempts-android-header-de-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/failed-unlock-attempts-android-header-de-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/failed-unlock-attempts-android-header-de-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/failed-unlock-attempts-android-header-de-1600.webp"
+		}
+	],
 	"/images/blog/failed-unlock-attempts-android-header-es.png": [
 		{
 			"width": 480,
@@ -47,6 +83,24 @@
 		{
 			"width": 1600,
 			"src": "/images/blog/failed-unlock-attempts-android-header-fr-1600.webp"
+		}
+	],
+	"/images/blog/failed-unlock-attempts-android-header-id.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/failed-unlock-attempts-android-header-id-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/failed-unlock-attempts-android-header-id-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/failed-unlock-attempts-android-header-id-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/failed-unlock-attempts-android-header-id-1600.webp"
 		}
 	],
 	"/images/blog/failed-unlock-attempts-android-header-pt.png": [
@@ -121,6 +175,42 @@
 			"src": "/images/blog/phone-stolen-uk-header-1600.webp"
 		}
 	],
+	"/images/blog/samsung-who-tried-to-unlock-header-ar.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/samsung-who-tried-to-unlock-header-ar-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/samsung-who-tried-to-unlock-header-ar-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/samsung-who-tried-to-unlock-header-ar-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/samsung-who-tried-to-unlock-header-ar-1600.webp"
+		}
+	],
+	"/images/blog/samsung-who-tried-to-unlock-header-de.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/samsung-who-tried-to-unlock-header-de-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/samsung-who-tried-to-unlock-header-de-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/samsung-who-tried-to-unlock-header-de-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/samsung-who-tried-to-unlock-header-de-1600.webp"
+		}
+	],
 	"/images/blog/samsung-who-tried-to-unlock-header-es.png": [
 		{
 			"width": 480,
@@ -155,6 +245,24 @@
 		{
 			"width": 1600,
 			"src": "/images/blog/samsung-who-tried-to-unlock-header-fr-1600.webp"
+		}
+	],
+	"/images/blog/samsung-who-tried-to-unlock-header-id.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/samsung-who-tried-to-unlock-header-id-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/samsung-who-tried-to-unlock-header-id-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/samsung-who-tried-to-unlock-header-id-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/samsung-who-tried-to-unlock-header-id-1600.webp"
 		}
 	],
 	"/images/blog/samsung-who-tried-to-unlock-header-pt.png": [

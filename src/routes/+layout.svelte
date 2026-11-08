@@ -10,6 +10,7 @@
 	$: schema = data.ui.schema;
 	// hooks.server.ts sets <html lang> for prerendered pages; keep it right on client-side navigation.
 	$: if (browser) document.documentElement.lang = LOCALE_META[data.locale].htmlLang;
+	$: if (browser) document.documentElement.dir = LOCALE_META[data.locale].dir;
 	$: if (browser) document.documentElement.dataset.theme = themeForPath($page.url.pathname);
 </script>
 

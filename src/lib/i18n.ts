@@ -2,27 +2,37 @@ import uiEn from '$content/ui.en.json';
 import uiPt from '$content/ui.pt.json';
 import uiFr from '$content/ui.fr.json';
 import uiEs from '$content/ui.es.json';
+import uiDe from '$content/ui.de.json';
+import uiAr from '$content/ui.ar.json';
+import uiId from '$content/ui.id.json';
 
 export const SITE_URL = 'https://www.crookcatcher.app';
 
 export const DEFAULT_LOCALE = 'en';
 
 /** English lives at the root; every other locale gets a URL prefix (/pt/...). */
-export const LOCALES = ['en', 'pt', 'fr', 'es'] as const;
+export const LOCALES = ['en', 'pt', 'fr', 'es', 'de', 'ar', 'id'] as const;
 export type Locale = (typeof LOCALES)[number];
 
 export const PREFIXED_LOCALES = LOCALES.filter((l) => l !== DEFAULT_LOCALE);
 
 /** Values for <html lang>, date formatting and og:locale. */
-export const LOCALE_META: Record<Locale, { htmlLang: string; ogLocale: string; name: string }> = {
-	en: { htmlLang: 'en', ogLocale: 'en_US', name: 'English' },
-	pt: { htmlLang: 'pt-BR', ogLocale: 'pt_BR', name: 'Português' },
-	fr: { htmlLang: 'fr', ogLocale: 'fr_FR', name: 'Français' },
+export const LOCALE_META: Record<
+	Locale,
+	{ htmlLang: string; ogLocale: string; name: string; dir: 'ltr' | 'rtl' }
+> = {
+	en: { htmlLang: 'en', ogLocale: 'en_US', name: 'English', dir: 'ltr' },
+	pt: { htmlLang: 'pt-BR', ogLocale: 'pt_BR', name: 'Português', dir: 'ltr' },
+	fr: { htmlLang: 'fr', ogLocale: 'fr_FR', name: 'Français', dir: 'ltr' },
 	// Neutral Spanish for Latin America and Spain alike.
-	es: { htmlLang: 'es', ogLocale: 'es_LA', name: 'Español' }
+	es: { htmlLang: 'es', ogLocale: 'es_LA', name: 'Español', dir: 'ltr' },
+	de: { htmlLang: 'de', ogLocale: 'de_DE', name: 'Deutsch', dir: 'ltr' },
+	// Modern Standard Arabic, written right to left.
+	ar: { htmlLang: 'ar', ogLocale: 'ar_AR', name: 'العربية', dir: 'rtl' },
+	id: { htmlLang: 'id', ogLocale: 'id_ID', name: 'Bahasa Indonesia', dir: 'ltr' }
 };
 
-const UI: Record<Locale, typeof uiEn> = { en: uiEn, pt: uiPt, fr: uiFr, es: uiEs };
+const UI: Record<Locale, typeof uiEn> = { en: uiEn, pt: uiPt, fr: uiFr, es: uiEs, de: uiDe, ar: uiAr, id: uiId };
 
 export function isLocale(value: string | undefined): value is Locale {
 	return !!value && (LOCALES as readonly string[]).includes(value);

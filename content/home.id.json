@@ -1,0 +1,237 @@
+{
+  "meta": {
+    "title": "CrookCatcher: Aplikasi Anti-Pencurian Selfie Penyusup untuk Android",
+    "description": "CrookCatcher mengambil selfie penyusup saat seseorang memasukkan PIN, pola, atau sandi yang salah, lalu mengirim foto dan lokasi GPS-nya ke email kamu. Gratis untuk Android.",
+    "canonical": "https://www.crookcatcher.app/id",
+    "ogImage": "https://www.crookcatcher.app/images/og-share.png",
+    "ogImageAlt": "CrookCatcher: tangkap siapa pun yang mencoba membuka ponselmu. Email peringatan dengan foto penyusup dan lokasi di peta."
+  },
+  "hero": {
+    "headline": "Lihat siapa yang mencoba membuka ponselmu.",
+    "subline": "CrookCatcher memotret siapa pun yang memasukkan PIN, pola, atau sandi yang salah, lalu mengirimkannya ke emailmu beserta lokasinya.",
+    "playNote": "Gratis di Android · Tanpa pendaftaran",
+    "ratingValue": "4,6",
+    "rating": "dari 90.000+ rating",
+    "downloads": "12 juta+ unduhan",
+    "qrLabel": "Sedang di komputer? Pindai untuk memasangnya di ponselmu.",
+    "notification": {
+      "app": "Email",
+      "when": "baru saja",
+      "title": "Seseorang mencoba membuka ponselmu",
+      "text": "CrookCatcher · 2 foto dan lokasi terlampir"
+    },
+    "imageAlt": "Sebuah tangan diam-diam mengambil ponsel dari saku belakang seseorang di sebuah kafe"
+  },
+  "spotlight": {
+    "title": "Setiap tebakan yang salah meninggalkan jejak.",
+    "subtitle": "Foto, tempat, dan waktu, dikirim ke kotak masukmu.",
+    "log": {
+      "heading": "Percobaan membuka kunci",
+      "meta": "Hari ini"
+    },
+    "events": [
+      {
+        "time": "10:35:02",
+        "label": "PIN salah dimasukkan",
+        "detail": "Di layar kunci"
+      },
+      {
+        "time": "10:35:03",
+        "label": "Foto diambil",
+        "detail": "Kamera depan"
+      },
+      {
+        "time": "10:35:03",
+        "label": "Video dengan suara",
+        "detail": "Perekaman dimulai"
+      },
+      {
+        "time": "10:35:04",
+        "label": "Lokasi tercatat",
+        "detail": "Posisi GPS dan perkiraan alamat"
+      },
+      {
+        "time": "10:35:09",
+        "label": "Email terkirim ke kamu",
+        "detail": "Foto dan peta terlampir"
+      }
+    ],
+    "pro": "Pro"
+  },
+  "timeline": {
+    "title": "Setiap percobaan, tersimpan.",
+    "text": "Setiap percobaan disimpan dalam satu linimasa di ponselmu.",
+    "alt": "Linimasa aplikasi CrookCatcher berisi percobaan membuka kunci yang gagal dan pembobolan, masing-masing dengan foto, waktu, dan lokasi",
+    "points": [
+      {
+        "title": "Peristiwa berlabel",
+        "text": "Lihat sekilas apakah itu percobaan gagal atau pembobolan."
+      },
+      {
+        "title": "Waktu + lokasi",
+        "text": "Setiap peristiwa dicap dengan kapan dan di mana kejadiannya."
+      },
+      {
+        "title": "Foto + video",
+        "text": "Selfie penyusup pada setiap percobaan, plus video dengan suara di Pro."
+      },
+      {
+        "title": "Aman di luar perangkat",
+        "text": "Pro mencadangkan bukti ke Google Drive, bahkan jika ponselnya hilang."
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow": "Privasi",
+    "title": "Fotomu masuk ke kotak masukmu, bukan ke kami.",
+    "text": "Peringatan dikirim dari akun Gmail milikmu sendiri ke alamat yang kamu pilih. Kami tidak pernah melihat fotomu.",
+    "points": [
+      {
+        "title": "Tanpa akun baru",
+        "text": "Kamu masuk dengan Google. Tidak ada akun CrookCatcher yang perlu dibuat."
+      },
+      {
+        "title": "Akses email hanya untuk mengirim",
+        "text": "Izin Gmail hanya untuk mengirim peringatan ke alamatmu. Aplikasi tidak bisa membaca emailmu."
+      },
+      {
+        "title": "Hanya setelah gagal membuka kunci",
+        "text": "Kamera hanya dipakai saat seseorang gagal membuka kunci ponsel, jadi hampir tidak memakai baterai."
+      }
+    ],
+    "link": {
+      "href": "/id/privacy",
+      "label": "Baca kebijakan privasi"
+    }
+  },
+  "plans": {
+    "eyebrow": "CrookCatcher Pro",
+    "title": "Bukti lebih kuat. Lebih sulit dihentikan.",
+    "subtitle": "Versi gratis mengambil foto dan mengirim email. Pro menambahkan:",
+    "items": [
+      {
+        "title": "Video dengan suara",
+        "text": "Lihat dan dengar apa yang terjadi."
+      },
+      {
+        "title": "Deteksi pembobolan",
+        "text": "Tetap ada peringatan meski kodenya berhasil ditebak."
+      },
+      {
+        "title": "Kamera belakang",
+        "text": "Lihat di mana ponselnya berada, bukan hanya siapa yang membawanya."
+      },
+      {
+        "title": "Cadangan Google Drive",
+        "text": "Bukti tetap aman meski ponselnya hilang."
+      },
+      {
+        "title": "Sulit dihapus",
+        "text": "Kunci aplikasi dan ikon samaran."
+      },
+      {
+        "title": "Alarm dan pesan di layar kunci",
+        "text": "Menakuti pencuri, atau meminta ponselmu kembali."
+      }
+    ],
+    "trial": "Coba Pro gratis selama 7 hari.",
+    "trialThen": "Gratis 7 hari, lalu",
+    "perYear": "/ tahun",
+    "monthly": "{price} per bulan",
+    "lifetime": "{price} sekali bayar",
+    "or": "atau",
+    "countryLabel": "Harga untuk negaramu",
+    "priceNote": "Google Play menampilkan harga akhir, yang mungkin sudah termasuk pajak.",
+    "fallback": "Harganya tergantung negaramu. Kamu akan melihatnya di aplikasi sebelum membayar.",
+    "upgrade": "Pro tanpa iklan. Mulai uji coba gratis di dalam aplikasi, kapan saja."
+  },
+  "testimonials": {
+    "title": "Kata pengguna",
+    "subtitle": "Diberi rating 4,6★ dari lebih dari 90.000 rating di Google Play",
+    "note": "Ulasan dari Google Play. Sebagian diterjemahkan atau dipersingkat.",
+    "showMore": "Tampilkan ulasan lainnya",
+    "showLess": "Tampilkan lebih sedikit ulasan",
+    "readMore": "Baca selengkapnya",
+    "readLess": "Tampilkan lebih sedikit",
+    "source": "Google Play"
+  },
+  "faq": {
+    "title": "Pertanyaan yang sering diajukan",
+    "subtitle": "Semua yang perlu kamu tahu tentang pengaturan, privasi, dan Pro.",
+    "helpLink": {
+      "href": "/id/help",
+      "label": "Kunjungi pusat bantuan"
+    },
+    "showAll": "Tampilkan semua {count} pertanyaan",
+    "showLess": "Tampilkan lebih sedikit pertanyaan",
+    "initialCount": 8,
+    "items": [
+      {
+        "question": "Apa yang terjadi saat seseorang mencoba membuka ponselku?",
+        "answer": "CrookCatcher mengambil selfie penyusup dengan kamera depan, mencatat lokasi GPS jika tersedia, lalu mengirimkan keduanya ke emailmu. Dengan Pro, aplikasi juga bisa merekam video, memakai kamera belakang, membunyikan alarm, dan menampilkan layar beranda palsu."
+      },
+      {
+        "question": "Kapan CrookCatcher mulai bekerja?",
+        "answer": "Kamu bisa mengatur berapa kali percobaan membuka kunci yang gagal (PIN, pola, atau sandi salah) sebelum CrookCatcher aktif. Setelah batas itu tercapai, aplikasi mengambil foto, merekam video (Pro), dan mengirim peringatan sesuai pengaturanmu."
+      },
+      {
+        "question": "Fitur apa saja di versi gratis?",
+        "answer": "Versi gratis mencakup selfie penyusup saat PIN, pola, atau sandi salah, lokasi GPS, dan email peringatan instan dengan foto dan lokasi."
+      },
+      {
+        "question": "Fitur tambahan apa yang ditawarkan Pro?",
+        "answer": "Pro mencakup video dengan suara, cadangan Google Drive, foto kamera belakang, pesan peringatan di layar kunci, suara alarm, layar beranda palsu, kunci aplikasi, ikon samaran, deteksi pembobolan, subjek email khusus, notifikasi tersembunyi, dan menghapus iklan."
+      },
+      {
+        "question": "Berapa harga CrookCatcher Pro?",
+        "answer": "Harga CrookCatcher Pro berbeda-beda tergantung negara tempat tinggalmu. Kamu bisa melihat harga pastinya untuk wilayahmu langsung di dalam aplikasi. Paket tahunan hadir dengan uji coba gratis 7 hari."
+      },
+      {
+        "question": "Bagaimana cara melihat foto dan video yang diambil?",
+        "answer": "Semua foto dan video disimpan secara lokal di perangkatmu dan bisa dilihat di aplikasi. Semuanya juga otomatis dikirim ke emailmu. Pengguna Pro juga bisa mengunggah file ke Google Drive agar bisa diakses dari perangkat mana pun."
+      },
+      {
+        "question": "Apakah bisa bekerja tanpa internet?",
+        "answer": "Bisa. CrookCatcher akan mengambil selfie penyusup dan menyimpannya secara lokal, lalu mengirim peringatan begitu koneksi internet tersedia kembali."
+      },
+      {
+        "question": "Bagaimana CrookCatcher tetap tidak mencolok?",
+        "answer": "Fitur Pro membantu menyembunyikan aplikasi dengan menyamarkan ikon aplikasi, menyembunyikan notifikasi sampai ponsel dibuka, menyesuaikan subjek email, dan mengunci aplikasi itu sendiri dengan pola."
+      },
+      {
+        "question": "Bagaimana deteksi pembobolan bekerja? (Pro)",
+        "answer": "Jika seseorang gagal beberapa kali memasukkan PIN, pola, atau sandi tetapi akhirnya berhasil menebak dengan benar, deteksi pembobolan tetap mengambil foto dan mengirim peringatan, sehingga kamu bisa menangkap pencuri yang berhasil membuka ponsel."
+      },
+      {
+        "question": "Bisakah aku menyesuaikan notifikasi peringatan?",
+        "answer": "Pengguna Pro bisa menyesuaikan subjek email, menyembunyikan notifikasi sampai ponsel dibuka, dan menampilkan pesan khusus di layar kunci saat peringatan dipicu."
+      },
+      {
+        "question": "Apakah CrookCatcher menguras baterai?",
+        "answer": "Tidak. CrookCatcher hanya aktif saat PIN, pola, atau sandi yang salah terdeteksi, dan hampir tidak memakai baterai saat siaga."
+      },
+      {
+        "question": "Apakah privasiku terlindungi?",
+        "answer": "CrookCatcher hanya mengambil foto dan video saat percobaan membuka kunci gagal. Peringatan dikirim dari akun Gmail milikmu sendiri, jadi kami tidak pernah melihat fotomu. Data analitik membantu meningkatkan aplikasi; lihat kebijakan privasi untuk detailnya."
+      },
+      {
+        "question": "Bagaimana jika aku melakukan reset pabrik pada ponselku?",
+        "answer": "CrookCatcher akan terhapus saat reset pabrik. Kami menyarankan upgrade ke Pro dan mengaktifkan cadangan Google Drive agar buktimu tetap aman di cloud."
+      },
+      {
+        "question": "Bagaimana CrookCatcher menangani izin emailku?",
+        "answer": "CrookCatcher meminta kamu masuk ke Gmail agar bisa mengirim email atas namamu, tanpa melewati server pihak ketiga. Izin ini terbatas pada pengiriman email ke alamat yang kamu tentukan dan tidak memberi akses untuk membaca email atau mengelola kontak. Kamu bisa mencabut izin ini kapan saja lewat pengaturan Akun Google."
+      },
+      {
+        "question": "Apakah ada versi iPhone?",
+        "answer": "Tidak, CrookCatcher hanya tersedia untuk Android."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "12 juta unduhan, dan segera termasuk kamu.",
+    "subtitle": "Gratis di Google Play. Selesai diatur dalam beberapa menit.",
+    "note": "Hanya untuk Android",
+    "qrLabel": "Pindai untuk memasangnya di ponselmu"
+  }
+}

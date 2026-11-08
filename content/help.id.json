@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Bantuan & FAQ CrookCatcher • Aplikasi Anti-Pencurian Android",
+    "description": "Dapatkan bantuan untuk CrookCatcher, aplikasi Android yang mengambil foto saat sandi yang salah dimasukkan. Pertanyaan yang sering diajukan dan dukungan.",
+    "canonical": "https://www.crookcatcher.app/id/help",
+    "ogImage": "https://www.crookcatcher.app/images/og-share.png"
+  },
+  "hero": {
+    "eyebrow": "Dukungan",
+    "title": "Bantuan & FAQ",
+    "lead": "Jawaban atas pertanyaan yang paling sering diajukan tentang pengaturan dan penggunaan CrookCatcher."
+  },
+  "items": [
+    {
+      "id": "help-pictures",
+      "question": "CrookCatcher tidak mengambil foto",
+      "answer": "<ul><li>Jika kamu sedang menguji CrookCatcher, perlu diketahui bahwa Android hanya menganggap sandi atau pola salah jika terdiri dari minimal 4 digit/karakter atau titik pola.</li><li>Produsen ponselmu mungkin menerapkan pembatasan optimalisasi baterai tambahan pada CrookCatcher yang mencegahnya berjalan di latar belakang. Untuk mengatasinya, ikuti petunjuk untuk perangkatmu di <a href=\"https://dontkillmyapp.com\">www.dontkillmyapp.com</a>.</li></ul>"
+    },
+    {
+      "id": "help-erase",
+      "question": "Apakah CrookCatcher akan menghapus semua data ponsel atau tabletku jika terlalu banyak sandi salah dimasukkan?",
+      "answer": "<p>Tidak. CrookCatcher tidak akan pernah menghapus data perangkatmu.</p>"
+    },
+    {
+      "id": "help-gmail",
+      "question": "Mengapa CrookCatcher membutuhkan akses ke akun Gmail-ku?",
+      "answer": "<p>Berbeda dengan aplikasi keamanan lain, CrookCatcher tidak bergantung pada server pihak ketiga untuk mengirim email. Privasi itu penting, jadi CrookCatcher memakai sistem otorisasi Google, OAuth 2.0, untuk mengirim email dengan aman langsung dari perangkatmu. Ini tidak memberi CrookCatcher akses ke alamat email atau kontakmu. CrookCatcher hanya akan memakai izin ini untuk mengirim email peringatan keamanan dari akun Gmail-mu ke alamat email yang kamu tentukan di dalam aplikasi.</p>"
+    },
+    {
+      "id": "help-forgot",
+      "question": "Aku lupa sandi, kode PIN, atau pola kunciku.",
+      "answer": "<p>Layar kunci beserta sandi yang terkait dengannya bukan bagian dari CrookCatcher. Jika kamu lupa sandi, kode PIN, atau pola, lihat buku panduan perangkatmu.</p>"
+    },
+    {
+      "id": "help-pro",
+      "question": "Sudah membeli Pro?",
+      "answer": "<p>Jika kamu sudah membeli Pro tetapi tidak muncul di aplikasi, pastikan kamu masuk ke perangkat dengan akun Google yang sama dengan yang dipakai untuk membeli, lalu tekan tombol pulihkan di halaman konfigurasi CrookCatcher.</p>"
+    },
+    {
+      "id": "help-revoke",
+      "question": "Bagaimana cara mencabut akses CrookCatcher ke Gmail atau Drive?",
+      "answer": "<p>Buka <a href=\"https://myaccount.google.com/permissions\">Pengaturan Akun Google</a> dan pilih CrookCatcher dari daftar. Lalu gulir ke bawah dan pilih hapus koneksi.</p>"
+    },
+    {
+      "id": "help-reboot",
+      "question": "Tidak berfungsi setelah ponsel dimulai ulang?",
+      "answer": "<p>Karena tindakan pengamanan Android, ponselmu harus dibuka kuncinya sekali setelah dimulai ulang agar CrookCatcher bisa mengakses kamera. Saya ingin sekali memperbaikinya, tetapi sayangnya tidak ada yang bisa saya lakukan.</p>"
+    },
+    {
+      "id": "help-payment",
+      "question": "Masalah pembayaran",
+      "answer": "<p>Mengalami masalah pembayaran? Banyak masalah dibahas di <a href=\"https://support.google.com/googleplay/answer/1267137\">Pusat Bantuan Pembayaran Google Play</a>.</p>"
+    },
+    {
+      "id": "help-internet",
+      "question": "Apakah CrookCatcher membutuhkan internet?",
+      "answer": "<p>CrookCatcher bekerja tanpa internet untuk mendeteksi percobaan membuka kunci yang tidak sah dan menyimpan datanya. Namun koneksi internet diperlukan untuk mengirim email peringatan. Karena pembatasan Android, CrookCatcher sayangnya tidak bisa menyalakan dan mematikan data seluler atau Wi-Fi secara otomatis saat dibutuhkan.</p>"
+    }
+  ],
+  "contact": {
+    "title": "Masih butuh bantuan?",
+    "text": "Kirimi saya email dan saya akan membalas secepat mungkin.",
+    "showEmail": "Tampilkan alamat email"
+  }
+}

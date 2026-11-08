@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "Nutzungsbedingungen • CrookCatcher Android-App",
+    "description": "Nutzungsbedingungen für CrookCatcher, die Android-App, die bei falschen Passwörtern Fotos aufnimmt.",
+    "canonical": "https://www.crookcatcher.app/de/terms"
+  },
+  "hero": {
+    "eyebrow": "Rechtliches",
+    "title": "Nutzungsbedingungen",
+    "lead": "Mit dem Herunterladen und Nutzen von CrookCatcher stimmst du den folgenden Bedingungen zu. Bitte lies sie sorgfältig."
+  },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Nutzung der App",
+      "body": "<p>CrookCatcher ist ausschließlich für den persönlichen, nicht gewerblichen Gebrauch bestimmt. Du verpflichtest dich, CrookCatcher in Übereinstimmung mit allen geltenden Gesetzen und Vorschriften zu nutzen. Du darfst die Materialien in dieser App weder verändern oder kopieren noch für gewerbliche Zwecke verwenden. Der Versuch, in der App enthaltene Software zu dekompilieren oder zurückzuentwickeln (Reverse Engineering), ist untersagt.</p>"
+    },
+    {
+      "number": "2",
+      "title": "Eigentum und geistiges Eigentum",
+      "body": "<p>Alle Materialien in CrookCatcher, einschließlich der Rechte an geistigem Eigentum, gehören entweder Jakob Harteg oder sind an ihn lizenziert. Du darfst keine Inhalte dieser App ohne ausdrückliche schriftliche Genehmigung von Jakob Harteg verwenden.</p>"
+    },
+    {
+      "number": "3",
+      "title": "Datenerhebung",
+      "body": "<p>CrookCatcher erhebt anonyme Nutzungsdaten, sofern du dies nicht in den App-Einstellungen ablehnst. Dazu gehören übliche Messwerte mit Google Analytics und Firebase, etwa wann eine E-Mail gesendet wird und wie du dich durch die App bewegst. Es werden keine privaten oder sensiblen Informationen erhoben, gespeichert oder weitergegeben. Weitere Details findest du in unserer <a href=\"/de/privacy\">Datenschutzerklärung</a>.</p>"
+    },
+    {
+      "number": "4",
+      "title": "Haftungsausschluss",
+      "body": "<p>CrookCatcher wird „wie besehen“ ohne ausdrückliche oder stillschweigende Gewährleistung bereitgestellt. Dies umfasst unter anderem stillschweigende Gewährleistungen der Marktgängigkeit, der Eignung für einen bestimmten Zweck und der Nichtverletzung von Rechten. Jakob Harteg übernimmt keine Gewähr für die Richtigkeit oder Zuverlässigkeit der Inhalte oder Funktionen der App.</p>"
+    },
+    {
+      "number": "5",
+      "title": "Haftungsbeschränkung",
+      "body": "<p>Jakob Harteg haftet in keinem Fall für Schäden, die aus der Nutzung oder Nichtnutzbarkeit von CrookCatcher entstehen, einschließlich, aber nicht beschränkt auf direkte, indirekte, zufällige, besondere oder Folgeschäden oder den Verlust von Daten, Geräten oder Gewinnen.</p>"
+    },
+    {
+      "number": "6",
+      "title": "Anwendbares Recht",
+      "body": "<p>Alle Ansprüche oder Streitigkeiten im Zusammenhang mit CrookCatcher unterliegen dem Recht der Bundesrepublik Deutschland, unter Ausschluss der Regeln des internationalen Privatrechts.</p>"
+    },
+    {
+      "number": "7",
+      "title": "Änderungen der Nutzungsbedingungen",
+      "body": "<p>Jakob Harteg behält sich das Recht vor, diese Bedingungen jederzeit ohne vorherige Ankündigung zu aktualisieren oder zu ändern. Indem du CrookCatcher nach Änderungen weiter nutzt, erklärst du dich an die aktualisierten Bedingungen gebunden.</p>"
+    },
+    {
+      "number": "8",
+      "title": "Gesamte Vereinbarung",
+      "body": "<p>Diese Bedingungen stellen die gesamte Vereinbarung zwischen dir und Jakob Harteg in Bezug auf CrookCatcher dar und ersetzen alle früheren Vereinbarungen.</p>"
+    },
+    {
+      "number": "9",
+      "title": "Salvatorische Klausel",
+      "body": "<p>Sollte eine Bestimmung dieser Bedingungen als nicht durchsetzbar befunden werden, bleiben die übrigen Bestimmungen in Kraft.</p>"
+    },
+    {
+      "number": "10",
+      "title": "Kostenpflichtige Pläne und Rückerstattungen",
+      "body": "<p>Einige Funktionen von CrookCatcher können kostenpflichtig sein, als Abonnement oder als einmalige Freischaltung. Das Unternehmen, das dir tatsächlich den Betrag berechnet, ist dasjenige, bei dem du bezahlt hast: in der Regel Google Play bei Käufen in der Android-App oder Paddle (oder ein ähnlicher Partner), wenn du im Web bezahlst. Dessen Bedingungen gelten auch für diese Zahlung.</p><p>Wenn du eine Rückerstattung möchtest, richten sich Ablauf und Frist nach demselben Unternehmen. Nutze bitte zuerst dessen Hilfecenter oder Rückerstattungsverfahren, das ist meist der schnellste Weg. Du kannst auch den CrookCatcher-Support mit deinem Beleg oder deinen Bestelldaten kontaktieren. Wir helfen, so gut wir können, aber nur der Zahlungsanbieter kann die Rückerstattung genehmigen oder ablehnen.</p><p>Nachdem du bereits Zugriff auf das Gekaufte hast, bieten wir von uns aus keine Rückerstattungen an, es sei denn, Google Play, Paddle oder das Gesetz sehen etwas anderes vor.</p>"
+    }
+  ]
+}

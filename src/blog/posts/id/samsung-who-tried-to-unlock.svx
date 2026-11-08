@@ -1,0 +1,129 @@
+---
+title: Cara Melihat Siapa yang Mencoba Membuka Ponsel Samsung-mu (2026)
+subtitle: Apa yang dicatat ponsel Galaxy setelah PIN salah, dan cara mendapatkan foto orangnya
+dateUpdated: '2026-10-22'
+datePublished: '2026-10-22'
+description: "Ponsel Samsung Galaxy tidak menunjukkan siapa yang mencoba membukanya dan tidak menyimpan daftar percobaan PIN yang salah. Berikut yang dilakukan One UI terhadap percobaan gagal, pengaturan Samsung yang layak diaktifkan, dan cara mendapatkan foto orangnya lewat email."
+image: '/images/blog/samsung-who-tried-to-unlock-header-id.png'
+imageAlt: 'Cara melihat siapa yang mencoba membuka ponsel Samsung-mu: ponsel Galaxy menghitung tebakan salah tetapi tidak pernah menunjukkan pelakunya. CrookCatcher memotret orangnya.'
+published: true
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Ponsel Samsung Galaxy tidak bisa menunjukkan siapa yang mencoba membukanya.** One UI menghitung tebakan PIN, pola, dan sandi yang salah hanya untuk mengunci ponsel makin lama. Tidak ada daftar yang bisa kamu periksa, dan tidak pernah ada foto. Untuk melihat siapa pelakunya, pasang aplikasi yang bereaksi terhadap pembukaan kunci yang gagal, seperti [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-id). Aplikasi ini memotret dengan kamera depan setelah PIN salah dan mengirimnya ke emailmu beserta lokasinya.
+
+## Apa yang dilakukan Samsung-mu setelah PIN salah
+
+Kebijakan layar kunci terbaru Samsung (One UI 9) membuat orang menunggu lebih lama setelah setiap tebakan salah:
+
+| Tebakan salah | Waktu tunggu sebelum percobaan berikutnya |
+| --- | --- |
+| 5 | 1 menit |
+| 6 | 5 menit |
+| 7 | 15 menit |
+| 8 | 30 menit |
+| 9 | 90 menit |
+| 10 | 4 jam |
+| 11 | 12 jam |
+| 12 | 24 jam |
+| 13 | Ponsel terkunci permanen |
+
+Setelah tebakan salah ke-13, ponsel hanya bisa dipakai lagi setelah reset pabrik, yang menghapus semua isinya. Samsung tidak bisa memulihkan PIN-mu.
+
+Beberapa detail dari Samsung:
+
+- **Ini berlaku untuk ponsel yang dilengkapi One UI 9 sejak awal.** Ponsel yang diperbarui ke One UI 9 mempertahankan perilaku lamanya sampai di-reset pabrik.
+- **Mengulang entri salah yang sama tidak dihitung lagi.** Percobaan salah yang identik berturut-turut dilewati, jadi anak yang mengetuk kode yang sama tidak akan mengunci kamu.
+- **Layar kunci memperingatkan** berapa percobaan yang tersisa begitu seseorang mendekati batas.
+
+Peringatan itu, atau pesan "Coba lagi dalam…", adalah satu-satunya tanda bahwa seseorang mencoba. Tidak menyebutkan siapa, kapan, atau berapa kali. Untuk cara ponsel Android lain menangani tebakan salah, lihat [bisakah melihat percobaan buka kunci yang gagal di Android?](/id/blog/failed-unlock-attempts-android)
+
+## Pengaturan Samsung yang layak diaktifkan
+
+Pengaturan ini tidak menunjukkan siapa yang mencoba, tetapi membuat ponselmu jauh lebih sulit dimasuki atau dibawa pergi.
+
+### Perlindungan dari pencurian
+
+**Buka:**
+`Setelan > Keamanan dan privasi > Perlindungan perangkat hilang > Perlindungan dari pencurian`
+
+- **Cek Identitas (Identity check):** di luar tempat yang kamu tandai aman (seperti rumah), mengubah pengaturan keamanan yang sensitif memerlukan sidik jari atau wajahmu, bukan hanya PIN.
+- **Penundaan keamanan (Security delay):** bagian dari Cek Identitas. Jika seseorang mencoba mengubah data biometrikmu, perubahan baru berlaku setelah satu jam, sehingga kamu punya waktu mengunci ponsel dari jarak jauh.
+- **Kunci Deteksi Pencurian:** mengunci layar jika ponsel mendeteksi bahwa ponsel direbut.
+- **Kunci Perangkat Offline:** mengunci layar jika pencuri terus membuat ponsel tidak terhubung.
+
+### Pengaturan kunci aman
+
+**Buka:**
+`Setelan > Layar kunci > Pengaturan kunci aman (Secure lock settings)` (masukkan PIN-mu)
+
+- **Kunci jaringan dan keamanan (Lock network and security):** menjaga fungsi jaringan dan keamanan tetap terkunci selama ponsel terkunci, sehingga pencuri tidak bisa begitu saja memutus koneksi atau mematikan ponsel dari layar kunci. Selengkapnya di [cara mencegah pencuri mematikan ponselmu](/id/blog/block-power-menu).
+- **Reset pabrik otomatis (Auto factory reset):** menghapus ponsel setelah terlalu banyak percobaan buka kunci yang salah (halaman bantuan Samsung menyebut 15). Pikirkan baik-baik sebelum mengaktifkannya jika anak-anak memakai ponselmu. Ini juga menghapus foto penyusup yang tersimpan di ponsel, satu alasan lagi untuk mengirimkannya ke emailmu.
+
+## Yang tidak bisa diberitahukan Samsung
+
+- **Siapa yang mencoba.** Tidak ada foto orangnya.
+- **Kapan kejadiannya**, atau berapa kali.
+- **Di mana ponselnya berada** saat itu.
+- **Peringatan saat kejadian berlangsung.**
+
+## Cara mendapatkan foto siapa pun yang mencoba membuka Samsung-mu
+
+CrookCatcher mengisi persis celah itu. Saat seseorang memasukkan PIN, pola, atau sandi yang salah, aplikasi mengambil foto dengan kamera depan, mencatat lokasi dan perkiraan alamat, lalu mengirim keduanya ke emailmu. Setiap percobaan juga disimpan di aplikasi beserta waktunya.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-id.webp" width="990" height="1024" loading="lazy" alt="Email peringatan CrookCatcher dengan foto penyusup, waktu percobaan, dan peta lokasi" />
+  <figcaption>Email yang dikirim CrookCatcher setelah percobaan buka kunci yang gagal.</figcaption>
+</figure>
+
+**Cara mengaturnya di Galaxy-mu:**
+
+1. **Pasang CrookCatcher** dari <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-id" target="_blank" rel="noopener noreferrer">Google Play</a>. Tidak perlu membuat akun.
+2. **Izinkan Admin perangkat.** Izin Android ini adalah cara aplikasi diberi tahu bahwa percobaan buka kunci gagal. CrookCatcher hanya memakainya untuk itu.
+3. **Izinkan akses kamera dan lokasi.**
+4. **Hubungkan akun Gmail** untuk email peringatan. CrookCatcher hanya bisa *mengirim* email darinya, tidak membacanya.
+5. **Jaga agar tetap aktif.** Samsung bisa menidurkan aplikasi untuk menghemat baterai, yang dapat menghentikan peringatan. Tambahkan CrookCatcher ke daftar aplikasi yang tidak pernah ditidurkan (Samsung menyebutnya "Never sleeping apps"): `Setelan > Baterai > Batas penggunaan di latar belakang > Aplikasi yang tidak pernah tidur` (pada model lama: `Setelan > Perawatan baterai dan perangkat > Baterai > Batas penggunaan di latar belakang`).
+6. **Uji coba.** Kunci ponselmu, masukkan PIN yang salah dengan sengaja, lalu buka kuncinya. Fotomu sendiri akan muncul di aplikasi dan kotak masukmu.
+
+Kamu yang menentukan berapa kali percobaan salah sebelum CrookCatcher bertindak. Sejak 2014, CrookCatcher sudah diunduh lebih dari 12 juta kali dan mengambil sekitar 1,2 juta foto penyusup per hari.
+
+<AppCta position="guide_mid" />
+
+## Pertanyaan yang Sering Diajukan
+
+### Q: Apakah Samsung punya fitur selfie penyusup bawaan?
+A: Tidak untuk layar kunci. Pengaturan layar kunci dan perlindungan pencurian Samsung mengunci ponsel setelah percobaan salah, tetapi tidak ada yang memotret orangnya atau menyimpan daftar percobaan. Untuk itu kamu butuh aplikasi seperti CrookCatcher.
+
+### Q: Berapa kali PIN salah yang diizinkan ponsel Samsung?
+A: Pada ponsel yang dilengkapi One UI 9, waktu tunggu dimulai setelah 5 tebakan salah dan ponsel terkunci permanen pada tebakan ke-13. Setelah itu, hanya reset pabrik yang membuatnya bisa dipakai lagi. Ponsel lama dan ponsel yang diperbarui ke One UI 9 mengikuti batas sebelumnya.
+
+### Q: Apakah Samsung-ku akan terhapus sendiri setelah terlalu banyak percobaan gagal?
+A: Hanya jika reset pabrik otomatis diaktifkan di pengaturan kunci aman. Pada ponsel dengan One UI 9, kehabisan percobaan tidak menghapus ponsel dengan sendirinya, tetapi kamu harus mereset pabrik agar bisa memakainya lagi.
+
+### Q: Apakah CrookCatcher bekerja dengan sidik jari dan buka kunci wajah Samsung?
+A: Ya, kamu tetap bisa memakainya. CrookCatcher bereaksi terhadap PIN, pola, atau sandi yang salah. Percobaan sidik jari atau wajah yang gagal tidak memicunya.
+
+### Q: Apakah orangnya akan melihat bahwa dirinya difoto?
+A: CrookCatcher bekerja di latar belakang tanpa pratinjau kamera. Versi Android terbaru menampilkan indikator kecil saat kamera dipakai; itu fitur sistem yang tidak bisa disembunyikan aplikasi.
+
+### Q: Mengapa CrookCatcher berhenti mengirim peringatan di Samsung-ku?
+A: Biasanya karena Samsung menidurkan aplikasi untuk menghemat baterai. Tambahkan ke daftar aplikasi yang tidak pernah ditidurkan (lihat langkah 5 di atas) dan uji lagi.
+
+## Sumber
+
+- Samsung: [Perubahan kebijakan keamanan layar kunci One UI 9.0](https://www.samsung.com/id/support/mobile-devices/one-ui-9-lockscreen-security-policy/)
+- Samsung: [What are the Secure Lock settings?](https://www.samsung.com/nz/support/mobile-devices/what-are-the-secure-lock-settings/) (dalam bahasa Inggris)
+- Samsung: [What is Theft Protection in One UI 7?](https://www.samsung.com/ae/support/mobile-devices/what-is-theft-protection-in-one-ui-7/) (dalam bahasa Inggris)
+- Samsung: [Sleeping apps on your Galaxy device](https://www.samsung.com/us/support/answer/ANS00088422/) (dalam bahasa Inggris)
+- Google, Bantuan Android: [Melindungi data pribadi Anda dari pencurian](https://support.google.com/android/answer/15146908?hl=id)
+
+## Panduan terkait
+
+- [Cara melihat siapa yang mencoba membuka ponselmu (dan mendapatkan fotonya)](/id/blog/see-who-tried-to-unlock-your-phone)
+- [Cara mencegah pencuri mematikan ponselmu](/id/blog/block-power-menu)
+- [5 pengaturan Android untuk mengamankan ponselmu dari pencurian](/id/blog/top_five_settings)
+
+<AppCta position="guide_end" />

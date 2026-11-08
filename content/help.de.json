@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "CrookCatcher Hilfe & FAQ • Diebstahlschutz-App für Android",
+    "description": "Hilfe zu CrookCatcher, der Android-App, die bei falschen Passwörtern Fotos aufnimmt. Häufige Fragen und Support.",
+    "canonical": "https://www.crookcatcher.app/de/help",
+    "ogImage": "https://www.crookcatcher.app/images/og-share.png"
+  },
+  "hero": {
+    "eyebrow": "Support",
+    "title": "Hilfe & FAQ",
+    "lead": "Antworten auf die häufigsten Fragen zur Einrichtung und Nutzung von CrookCatcher."
+  },
+  "items": [
+    {
+      "id": "help-pictures",
+      "question": "CrookCatcher macht keine Fotos",
+      "answer": "<ul><li>Wenn du CrookCatcher testest, beachte, dass Android ein Passwort oder Muster nur dann als falsch erkennt, wenn es mindestens 4 Ziffern/Zeichen oder Mustertupfer hat.</li><li>Dein Handyhersteller hat CrookCatcher möglicherweise zusätzliche Akku-Optimierungen auferlegt, die verhindern, dass die App im Hintergrund läuft. Um das Problem zu lösen, folge den Anweisungen für dein Gerät auf <a href=\"https://dontkillmyapp.com\">www.dontkillmyapp.com</a>.</li></ul>"
+    },
+    {
+      "id": "help-erase",
+      "question": "Löscht CrookCatcher alle Daten auf meinem Handy oder Tablet, wenn zu oft ein falsches Passwort eingegeben wird?",
+      "answer": "<p>Nein. CrookCatcher löscht niemals die Daten deines Geräts.</p>"
+    },
+    {
+      "id": "help-gmail",
+      "question": "Warum braucht CrookCatcher Zugriff auf mein Gmail-Konto?",
+      "answer": "<p>Anders als andere Sicherheits-Apps verlässt sich CrookCatcher nicht auf einen Server von Drittanbietern, um E-Mails zu senden. Datenschutz ist wichtig, deshalb nutzt CrookCatcher das Autorisierungssystem OAuth 2.0 von Google, um E-Mails sicher direkt von deinem Gerät zu senden. Dadurch erhält CrookCatcher keinen Zugriff auf deine E-Mail-Adressen oder Kontakte. CrookCatcher verwendet diese Berechtigung nur, um Sicherheitswarnungen von deinem Gmail-Konto an die E-Mail-Adresse zu senden, die du in der App festlegst.</p>"
+    },
+    {
+      "id": "help-forgot",
+      "question": "Ich habe mein Passwort, meine PIN oder mein Muster vergessen.",
+      "answer": "<p>Der Sperrbildschirm und das dazugehörige Passwort sind kein Teil von CrookCatcher. Wenn du dein Passwort, deine PIN oder dein Muster vergessen hast, schau in die Bedienungsanleitung deines Geräts.</p>"
+    },
+    {
+      "id": "help-pro",
+      "question": "Pro bereits gekauft?",
+      "answer": "<p>Wenn du Pro bereits gekauft hast, es aber in der App nicht angezeigt wird, melde dich auf deinem Gerät mit demselben Google-Konto an, mit dem du gekauft hast, und tippe dann auf der Konfigurationsseite von CrookCatcher auf die Wiederherstellen-Schaltfläche.</p>"
+    },
+    {
+      "id": "help-revoke",
+      "question": "Wie widerrufe ich den Zugriff von CrookCatcher auf Gmail oder Drive?",
+      "answer": "<p>Öffne die <a href=\"https://myaccount.google.com/permissions\">Einstellungen deines Google-Kontos</a> und wähle CrookCatcher aus der Liste aus. Scrolle dann nach unten und wähle „Verbindungen löschen“.</p>"
+    },
+    {
+      "id": "help-reboot",
+      "question": "Funktioniert nach einem Neustart nicht?",
+      "answer": "<p>Aus Sicherheitsgründen von Android muss dein Handy nach einem Neustart einmal entsperrt werden, damit CrookCatcher auf die Kamera zugreifen kann. Ich wünschte, ich könnte das ändern, aber leider kann ich nichts dagegen tun.</p>"
+    },
+    {
+      "id": "help-payment",
+      "question": "Probleme bei der Zahlung",
+      "answer": "<p>Probleme bei der Zahlung? Viele davon werden im <a href=\"https://support.google.com/googleplay/answer/1267137\">Google Play Zahlungs-Hilfecenter</a> behandelt.</p>"
+    },
+    {
+      "id": "help-internet",
+      "question": "Braucht CrookCatcher Internet?",
+      "answer": "<p>CrookCatcher erkennt unbefugte Entsperrversuche und nimmt Daten auch offline auf. Zum Senden der Warn-E-Mails ist jedoch eine Internetverbindung nötig. Wegen Einschränkungen von Android kann CrookCatcher leider nicht automatisch mobile Daten oder WLAN ein- und ausschalten, wenn es nötig wäre.</p>"
+    }
+  ],
+  "contact": {
+    "title": "Immer noch Hilfe nötig?",
+    "text": "Schreib mir eine E-Mail, ich melde mich so schnell wie möglich.",
+    "showEmail": "E-Mail-Adresse anzeigen"
+  }
+}

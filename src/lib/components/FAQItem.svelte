@@ -54,7 +54,7 @@
     border: none;
     background: none;
     color: inherit;
-    text-align: left;
+    text-align: start;
     cursor: pointer;
   }
 
@@ -127,7 +127,7 @@
 
   .faq-answer-content :global(ul) {
     margin: 0;
-    padding-left: 20px;
+    padding-inline-start: 20px;
     list-style: disc;
   }
 

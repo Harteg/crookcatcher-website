@@ -1,0 +1,126 @@
+---
+title: So siehst du, wer dein Handy entsperren wollte (und bekommst sein Foto)
+subtitle: Mach ein Einbrecher-Selfie, wenn jemand die falsche PIN, das falsche Muster oder Passwort eingibt
+dateUpdated: '2026-10-23'
+datePublished: '2026-09-28'
+description: "Android zeigt nicht, wer dein Handy entsperren wollte. So machst du automatisch ein Foto von jedem, der die falsche PIN, das falsche Muster oder Passwort eingibt, und bekommst es per E-Mail mit dem Standort."
+image: '/images/blog/who-tried-to-unlock-header.png'
+imageAlt: 'Handy mit einem falschen Entsperrmuster neben einer CrookCatcher-Warn-E-Mail mit Fotos des Eindringlings und dem Standort'
+published: true
+---
+
+<script>
+  import Features from '$lib/components/Features.svelte';
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Android kann dir nicht zeigen, wer dein Handy entsperren wollte.** Es führt keine Liste fehlgeschlagener Versuche und macht nie ein Foto. Um herauszufinden, wer es war, brauchst du eine App, die ein Bild aufnimmt, wenn jemand die falsche PIN, das falsche Muster oder Passwort eingibt, oft *Einbrecher-Selfie* genannt. CrookCatcher macht das kostenlos und schickt dir das Foto mit dem Standort per E-Mail.
+
+Vielleicht wurde dein Handy bewegt, während du weg warst. Vielleicht hast du die Meldung „Erneut versuchen in 30 Sekunden“ gesehen, obwohl du es nicht warst. Oder du willst einfach wissen, ob jemand versucht, in dein Handy zu kommen. Hier steht, was du prüfen kannst und wie du es einrichtest.
+
+## Kann Android zeigen, wer dein Handy entsperren wollte?
+
+Standardmäßig nicht. Wenn jemand die falsche PIN, das falsche Muster oder Passwort eingibt, lehnt Android die Eingabe einfach ab. Nach mehreren Fehlversuchen muss die Person vor dem nächsten Versuch warten, aber Android speichert kein Protokoll, das du später ansehen kannst, und nutzt nie die Kamera. Hier steht, [was Android bei fehlgeschlagenen Entsperrversuchen genau tut](/de/blog/failed-unlock-attempts-android).
+
+Einige Handyhersteller bieten in ihrer eigenen App-Sperre eine ähnliche Option für „Eindringlingsfotos“. Sie schützen meist nur einzelne Apps, nicht den Sperrbildschirm selbst, und erwischen daher niemanden, der versucht, überhaupt erst in dein Handy zu kommen.
+
+Um zu sehen, wer dein Handy entsperren wollte, brauchst du eine App, die den Sperrbildschirm überwacht und auf Fehlversuche reagiert.
+
+Hast du ein Samsung Galaxy? Dann lies [so siehst du, wer dein Samsung-Handy entsperren wollte](/de/blog/samsung-who-tried-to-unlock) für Samsungs eigene Einstellungen und Sperrregeln.
+
+## So machst du ein Foto von jemandem, der das falsche Passwort eingibt
+
+So richtest du es mit CrookCatcher ein. Es dauert ein paar Minuten, und du musst kein Konto erstellen.
+
+1. **Installiere CrookCatcher** aus dem <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsee-who-tried-to-unlock-your-phone-de' target="_blank" rel="noopener noreferrer">Google Play Store</a>.
+2. **Erlaube den Geräteadministrator.** Das ist die Android-Berechtigung, mit der eine App bemerkt, wenn ein Entsperrversuch fehlschlägt. CrookCatcher nutzt sie nur dafür.
+3. **Erlaube den Zugriff auf Kamera und Standort**, damit die App das Foto machen und festhalten kann, wo es passiert ist.
+4. **Verbinde ein Gmail-Konto** für die Warn-E-Mails. CrookCatcher kann damit nur E-Mails *senden*. Es kann nichts in deinem Postfach lesen, löschen oder ändern. Du kannst ein eigenes Gmail-Konto nur dafür anlegen oder ganz auf E-Mails verzichten und die Fotos nur auf dem Handy behalten.
+5. **Teste es.** Sperre dein Handy, gib absichtlich eine falsche PIN ein und entsperre es dann. Du solltest dein eigenes (vermutlich verdutztes) Gesicht in der App und in deinem Postfach sehen. 😄
+
+Das war's. Ab jetzt erledigt CrookCatcher bei jeder falschen PIN, jedem falschen Muster oder Passwort still im Hintergrund seine Arbeit.
+
+## Was du bekommst, wenn jemand dein Handy entsperren will
+
+Bei jedem fehlgeschlagenen Entsperrversuch bekommst du:
+
+- **Ein Foto von der Frontkamera** der Person, die das Handy in der Hand hatte
+- **Den GPS-Standort** und eine geschätzte Adresse, wo es passiert ist
+- **Die Uhrzeit** des Versuchs
+- **Eine Warn-E-Mail** mit all dem, damit du es auch dann hast, wenn das Handy weg ist
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-de.webp" width="990" height="1024" loading="lazy" alt="CrookCatcher-Warn-E-Mail mit dem Foto des Eindringlings, der Uhrzeit des Versuchs und einer Karte mit dem Standort" />
+  <figcaption>Die E-Mail, die CrookCatcher nach einem fehlgeschlagenen Entsperrversuch sendet.</figcaption>
+</figure>
+
+Alle Fotos werden außerdem in der App gespeichert. Dort kannst du jeden Versuch mit Uhrzeit und Standort durchsehen.
+
+Mit **CrookCatcher Pro** kannst du zusätzlich ein Video mit Ton aufnehmen, mit der Rückkamera ein Foto der Umgebung machen, alles automatisch in Google Drive hochladen und auch Leute erwischen, die nach einem Fehlversuch deine *PIN richtig erraten* (Einbruchserkennung).
+
+## Weitere Anzeichen, dass jemand dein Handy benutzt hat
+
+Ein Foto ist der klarste Beweis, aber auch diese Dinge können zeigen, dass jemand an deinem Handy war:
+
+- **Zuletzt geöffnete Apps**, die du nicht benutzt hast (öffne die App-Übersicht)
+- **Nachrichten oder Benachrichtigungen, die als gelesen markiert sind**, obwohl du sie nicht gesehen hast
+- **Aktivitäten in deinem Google-Konto**, die du nicht erkennst, unter <a href="https://myactivity.google.com" target="_blank" rel="noopener noreferrer">myactivity.google.com</a>
+- **Das Handy liegt an einem anderen Ort** oder anders, als du es hingelegt hast
+
+Wenn dir etwas davon auffällt, ist eine App für Einbrecher-Selfies der einfachste Weg, beim nächsten Mal herauszufinden, wer es ist.
+
+## Was du tun solltest, wenn es ein Dieb war
+
+Wenn die Fotos einen Fremden zeigen oder dein Handy fehlt:
+
+1. **Stell die Person nicht selbst zur Rede.** Deine Sicherheit ist wichtiger als das Handy.
+2. **Erstatte Anzeige bei der Polizei** und gib die Fotos, die Uhrzeit und den Standort aus der Warn-E-Mail an.
+3. **Nutze Googles Find Hub**, um das Handy zu orten, zu sperren oder zu löschen.
+4. **Kontaktiere deinen Mobilfunkanbieter**, um die SIM-Karte und die IMEI des Handys sperren zu lassen.
+
+Damit dein Handy gar nicht erst so leicht gestohlen wird, lies unseren Ratgeber zu den [5 Android-Einstellungen, die dein Handy vor Diebstahl schützen](/de/blog/top_five_settings).
+
+## Nutze es nur auf deinem eigenen Handy
+
+CrookCatcher soll *dein* Handy schützen. Installiere es nur auf einem Gerät, das dir gehört. Das heimliche Überwachen des Handys einer anderen Person ist nicht der Zweck der App und in vielen Ländern illegal.
+
+## Ist CrookCatcher kostenlos?
+
+Ja, die wichtigsten Funktionen sind kostenlos: das Foto des Eindringlings, der Standort und die Warn-E-Mail. **CrookCatcher Pro** bietet zusätzlich Video, Rückkamera, Google-Drive-Sicherung, Einbruchserkennung, einen Alarm, einen falschen Startbildschirm und mehr. Der Preis hängt von deinem Land ab, du siehst ihn in der App. Hier der vollständige Vergleich:
+
+<Features />
+
+<AppCta position="guide_mid" />
+
+## Häufig gestellte Fragen
+
+### Q: Was ist ein Einbrecher-Selfie?
+A: Ein Einbrecher-Selfie ist ein Foto, das automatisch mit der Frontkamera aufgenommen wird, wenn jemand auf deinem Handy die falsche PIN, das falsche Muster oder Passwort eingibt. Die Person schaut meist direkt auf den Bildschirm, das Foto zeigt also ihr Gesicht. Android kann das nicht von allein. Eine App für Einbrecher-Selfies wie CrookCatcher macht es und schickt dir das Foto per E-Mail.
+
+### Q: Kann mein Handy ein Foto von jemandem machen, der das falsche Passwort eingibt?
+A: Nicht von allein. Android hat dafür keine Einstellung, und die „Eindringlingsfotos“ in den App-Sperren mancher Hersteller betreffen nur einzelne Apps, nicht den Sperrbildschirm. Mit installiertem CrookCatcher löst eine falsche PIN, ein falsches Muster oder Passwort (nach der von dir gewählten Zahl an Versuchen) ein Foto aus, das mit Uhrzeit und Standort gespeichert wird.
+
+### Q: Funktioniert es mit Muster, PIN und Passwort?
+A: Ja. CrookCatcher reagiert auf eine falsche PIN, ein falsches Muster oder Passwort. Fehlgeschlagene Versuche mit Fingerabdruck oder Gesichtserkennung lösen es nicht aus, und mit Pop-up-Kameras funktioniert es nicht.
+
+### Q: Merkt die Person, dass sie fotografiert wurde?
+A: CrookCatcher arbeitet im Hintergrund, ohne eine Kameravorschau zu zeigen. Unter Android 13 und neuer zeigt Android eine kleine Anzeige, solange die Kamera genutzt wird. Das ist eine Systemfunktion, die Apps nicht ausblenden können.
+
+### Q: Brauche ich ein Konto?
+A: Nein. Es gibt keine Registrierung. Ein Gmail-Konto verbindest du nur, wenn du Warn-E-Mails möchtest.
+
+### Q: Wer kann meine Fotos sehen?
+A: Nur du. Warnungen werden von deinem eigenen Gmail-Konto gesendet, und der Entwickler sieht deine Fotos nie. Mehr dazu in der [Datenschutzerklärung](/de/privacy).
+
+### Q: Verbraucht es Akku?
+A: Nein. CrookCatcher wird nur aktiv, wenn ein Entsperrversuch fehlschlägt, der Akkuverbrauch ist daher minimal.
+
+### Q: Gibt es eine iPhone-Version?
+A: Nein. iPhones erlauben Apps nicht, fehlgeschlagene Entsperrversuche zu erkennen, daher gibt es CrookCatcher nur für Android.
+
+### Q: Funktioniert es nach einem Neustart meines Handys?
+A: Ja, nachdem du dein Handy nach dem Neustart einmal entsperrt hast. Bis dahin erlaubt Android Apps nicht, auf Entsperrversuche zu reagieren.
+
+Noch Fragen? Schau in die [FAQ](/de/help).
+
+<AppCta position="guide_end" />

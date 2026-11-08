@@ -1,0 +1,146 @@
+---
+title: 5 Android-Einstellungen gegen Diebstahl, die du heute aktivieren solltest (2026)
+subtitle: Die eingebauten Einstellungen, die ein gestohlenes Android-Handy für Diebe nutzlos machen, und was sie trotzdem nicht können
+dateUpdated: '2026-10-23'
+datePublished: '2025-08-24'
+description: "Die fünf Android-Einstellungen, die dich bei einem Diebstahl am besten schützen: eine starke Displaysperre, Diebstahlschutz, Sperren per Fernzugriff, Find Hub und Identitätsüberprüfung. Hier steht, wo du sie findest und was sie trotzdem nicht verraten."
+image: '/images/blog/theft_settings_header.jpeg'
+imageAlt: 'Android-Einstellungen für den Diebstahlschutz und Tipps von CrookCatcher'
+published: true
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Die fünf Android-Einstellungen, die dich am besten vor Diebstahl schützen, sind: eine 6-stellige PIN oder ein Passwort, der Diebstahlschutz (Diebstahl-Displaysperre, Offline-Gerätesperre und Displaysperre bei fehlgeschlagener Authentifizierung), Sperren per Fernzugriff, Find Hub und die Identitätsüberprüfung.** Zusammen sperren sie ein entrissenes Handy, lassen dich es von einem anderen Gerät aus sperren oder orten und verhindern, dass ein Dieb deinen Schutz ausschaltet. Alle sind kostenlos und in Android eingebaut. Aktiviere sie jetzt, die meisten brauchen weniger als eine Minute. Was keine von ihnen tut: dir zeigen, wer versucht hat, in dein Handy zu kommen. Dafür gibt es eine App wie CrookCatcher.
+
+## 1. Nutze eine starke Displaysperre
+
+Alles andere hängt von deiner Displaysperre ab. Wenn ein Dieb sie erraten kann, lässt sich jede andere Einstellung ausschalten.
+
+- **Nutze eine 6-stellige PIN oder ein Passwort**, keine 4-stellige PIN. Eine 4-stellige PIN hat 10.000 mögliche Kombinationen, eine 6-stellige 1.000.000.
+- **Vermeide einfache Codes** wie 1234, 0000, 1111 oder dein Geburtsdatum.
+- **Ein Muster ist die schwächste Wahl.** Leute zeichnen oft einfache Formen, und Muster lassen sich leicht über die Schulter ablesen.
+
+**Auf einem Pixel gehe zu:**
+`Einstellungen > Sicherheit & Datenschutz > Geräteentsperrung > Displaysperre`
+
+Auf anderen Handys öffne die Einstellungen und suche nach „Displaysperre“.
+
+Fingerabdruck und Gesichtsentsperrung sind bequem, aber dahinter brauchst du trotzdem eine starke PIN oder ein Passwort. Das verlangt Android nach einem Neustart und wenn sich dein Handy selbst gesperrt hat.
+
+Neuere Android-Versionen machen das Raten außerdem langsam: Nach einigen falschen Eingaben muss die Person warten, und die Wartezeiten wachsen auf Tage. Die Details stehen in [Was Android bei fehlgeschlagenen Entsperrversuchen tut](/de/blog/failed-unlock-attempts-android).
+
+## 2. Aktiviere den Diebstahlschutz
+
+Der Diebstahlschutz von Android sperrt dein Handy automatisch in den Situationen, auf die Diebe setzen.
+
+**Gehe zu:**
+`Einstellungen > Google > Alle Dienste > Diebstahlschutz`
+
+Aktiviere:
+
+- **Diebstahl-Displaysperre:** Sperrt den Bildschirm, wenn dein Handy erkennt, dass jemand es dir entrissen hat und weggerannt ist.
+- **Offline-Gerätesperre:** Sperrt den Bildschirm kurz nachdem das Handy offline gegangen ist, zum Beispiel wenn ein Dieb den Flugmodus einschaltet.
+- **Displaysperre bei fehlgeschlagener Authentifizierung:** Sperrt den Bildschirm, wenn Entsperrversuche wiederholt fehlschlagen. Sie ist standardmäßig aktiviert.
+
+Wenn eine Einstellung ausgegraut ist, unterstützt dein Handy sie nicht. Diese Funktionen brauchen Android 10 oder neuer, einige Android 15 oder neuer. Auf Samsung-Galaxy-Handys hat Samsung zusätzlich ein eigenes Menü für den Diebstahlschutz. Wo du es findest, steht in [So siehst du, wer dein Samsung-Handy entsperren wollte](/de/blog/samsung-who-tried-to-unlock).
+
+<figure class="blog-figure">
+  <img src="/images/blog/settings_theft.jpeg" alt="Einstellungen für den Diebstahlschutz unter Android" />
+  <figcaption>Einstellungen für den Diebstahlschutz unter Android</figcaption>
+</figure>
+
+## 3. Aktiviere „Sperren per Fernzugriff“
+
+Wenn dein Handy gestohlen wird, kannst du es mit „Sperren per Fernzugriff“ von jedem Browser aus unter [android.com/lock](https://www.android.com/lock) sperren, nur mit deiner Telefonnummer. Dein Google-Passwort brauchst du nicht, was hilft, wenn deine Passwörter auf dem gestohlenen Handy gespeichert sind.
+
+**Gehe zu:**
+`Einstellungen > Google > Alle Dienste > Diebstahlschutz > Sperren per Fernzugriff`
+
+Aktiviere es und füge die optionale **Sicherheitsfrage** hinzu, damit niemand sonst dein Handy allein mit deiner Nummer sperren kann. Dafür muss das Handy eine SIM-Karte haben, online sein und Find Hub eingeschaltet haben.
+
+<figure class="blog-figure">
+  <img src="/images/blog/settings_remote_lock.jpeg" alt="Die Seite android.com/lock, die nach der Telefonnummer fragt" />
+  <figcaption>Sperren per Fernzugriff unter android.com/lock</figcaption>
+</figure>
+
+## 4. Stelle sicher, dass Find Hub eingeschaltet ist
+
+Find Hub (früher „Mein Gerät finden“) zeigt auf einer Karte, wo dein Handy ist, und lässt dich es von einem anderen Gerät aus unter [google.com/android/find](https://www.google.com/android/find) klingeln lassen, sperren oder löschen.
+
+Meist ist es eingeschaltet, sobald du dich mit einem Google-Konto anmeldest, aber prüfe es: Öffne die Einstellungen und suche nach „Find Hub“ oder „Mein Gerät finden“. Stelle sicher, dass es eingeschaltet und der Standort erlaubt ist.
+
+<figure class="blog-figure">
+  <img src="/images/blog/find_hub.png" alt="Find Hub zeigt den Standort eines Handys auf einer Karte" />
+  <figcaption>Find Hub zeigt den Standort des Handys</figcaption>
+</figure>
+
+## 5. Aktiviere die Identitätsüberprüfung
+
+Wenn ein Dieb deine PIN erfährt, etwa weil er dir beim Eintippen zugesehen hat, verhindert die Identitätsüberprüfung, dass er deinen Schutz ausschaltet. Außerhalb von Orten, denen du vertraust, verlangt sie deinen Fingerabdruck oder dein Gesicht für sensible Aktionen wie das Ändern deiner Displaysperre, das Ausschalten von Find Hub oder des Diebstahlschutzes oder das Zurücksetzen des Handys.
+
+Du findest sie auf Handys, die sie unterstützen, unter `Einstellungen > Google > Alle Dienste > Diebstahlschutz`.
+
+## Was diese Einstellungen nicht können
+
+Diese Einstellungen sperren das Handy und helfen dir, es zu finden. Sie sagen dir nicht:
+
+- **Wer versucht hat, in dein Handy zu kommen.** Android führt kein Protokoll und macht kein Foto.
+- **Wann es passiert ist** und wie oft.
+- **Wo das Handy war**, als es passiert ist.
+
+Außerdem helfen sie erst, wenn das Handy weg ist. Die meisten wollen es früher wissen: wer das Handy in die Hand genommen hat, während sie weg waren, oder wer versucht hat, ihre PIN zu erraten.
+
+## Wisse, wer dein Handy entsperren wollte
+
+CrookCatcher schließt diese Lücke. Wenn jemand eine falsche PIN, ein falsches Muster oder Passwort eingibt, macht die App mit der Frontkamera ein Foto, erfasst den GPS-Standort und eine ungefähre Adresse und schickt dir beides per E-Mail. Foto und Standort liegen schon in deinem Postfach, auch wenn das Handy eine Minute später ausgeschaltet wird, und du kannst sie der Polizei zeigen.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-de.webp" width="990" height="1024" loading="lazy" alt="CrookCatcher-Warn-E-Mail mit dem Foto des Eindringlings, der Uhrzeit des Versuchs und einer Karte mit dem Standort" />
+  <figcaption>Die E-Mail, die CrookCatcher nach einem fehlgeschlagenen Entsperrversuch sendet.</figcaption>
+</figure>
+
+Die App wurde seit 2014 mehr als 12 Millionen Mal heruntergeladen und macht rund 1,2 Millionen Fotos von Eindringlingen pro Tag. Die Einrichtung dauert ein paar Minuten: siehe [So siehst du, wer dein Handy entsperren wollte](/de/blog/see-who-tried-to-unlock-your-phone).
+
+<AppCta position="guide_mid" />
+
+## Weitere Möglichkeiten, dein Handy schwerer stehlbar zu machen
+
+- **Entferne den Flugmodus aus den Schnelleinstellungen**, damit ein Dieb die Verbindung nicht mit einem Wisch kappen kann. Siehe [So hinderst du Diebe daran, dein Handy auszuschalten](/de/blog/block-power-menu).
+- **Sperre deine SIM-Karte mit einer PIN** (`Einstellungen > Sicherheit & Datenschutz > Weitere Sicherheitseinstellungen > SIM-Lock`), damit ein Dieb deine Nummer nicht nutzen kann, um deine Codes zu empfangen.
+- **Verberge Benachrichtigungsinhalte auf dem Sperrbildschirm** (`Einstellungen > Sicherheit & Datenschutz > Weitere Sicherheitseinstellungen > Benachrichtigungen auf Sperrbildschirm`), damit Sicherheitscodes nicht angezeigt werden, solange das Handy gesperrt ist.
+- **Halte dein Handy aktuell**, denn neue Funktionen für den Diebstahlschutz kommen mit Android-Updates.
+
+## Häufig gestellte Fragen
+
+### Q: Was ist die wichtigste Diebstahlschutz-Einstellung unter Android?
+A: Eine starke Displaysperre. Eine 6-stellige PIN oder ein Passwort schützt alles andere. Wenn ein Dieb deine Sperre erraten kann, kann er den Rest ausschalten.
+
+### Q: Hat Android einen eingebauten Diebstahlschutz?
+A: Ja. Der Diebstahlschutz umfasst die Diebstahl-Displaysperre, die Offline-Gerätesperre und die Displaysperre bei fehlgeschlagener Authentifizierung. Dazu kannst du „Sperren per Fernzugriff“ und die Identitätsüberprüfung aktivieren. Du findest sie unter Einstellungen > Google > Alle Dienste > Diebstahlschutz.
+
+### Q: Funktionieren diese Einstellungen auf Samsung-Handys?
+A: Googles Diebstahlschutz funktioniert auf den meisten Android-Handys, auch auf Samsung. Samsung-Galaxy-Handys haben außerdem ein eigenes Menü für den Diebstahlschutz unter Einstellungen > Sicherheit und Datenschutz > Schutz für verlorene Geräte.
+
+### Q: Kann ein Dieb mein Handy trotzdem ausschalten?
+A: Manchmal, vom Sperrbildschirm aus. Einige Handys, darunter viele Samsung-Modelle, können verlangen, dass du die PIN eingibst, um sie auszuschalten. Lies [So hinderst du Diebe daran, dein Handy auszuschalten](/de/blog/block-power-menu).
+
+### Q: Brauche ich eine Diebstahlschutz-App, wenn ich diese Einstellungen nutze?
+A: Die Einstellungen schützen deine Daten und helfen dir, das Handy zu orten. Sie können dir nicht zeigen, wer versucht hat, es zu entsperren. Eine App wie CrookCatcher ergänzt in dem Moment, in dem jemand es versucht, ein Foto, den Standort und eine Warn-E-Mail.
+
+## Quellen
+
+- Google, Android-Hilfe: [Ihre privaten Daten vor Diebstahl schützen](https://support.google.com/android/answer/15146908?hl=de)
+- Google, Pixel-Tablet-Hilfe: [Sicherheits- und Datenschutzeinstellungen auf Ihrem Pixel Tablet](https://support.google.com/googlepixeltablet/answer/13555549?hl=de) (der Pfad zur Geräteentsperrung)
+- Google: [Find Hub](https://www.google.com/android/find)
+- Google: [Sperren per Fernzugriff (android.com/lock)](https://www.android.com/lock)
+
+## Weitere Ratgeber
+
+- [Kann man fehlgeschlagene Entsperrversuche unter Android sehen?](/de/blog/failed-unlock-attempts-android)
+- [So hinderst du Diebe daran, dein Handy auszuschalten](/de/blog/block-power-menu)
+- [So siehst du, wer dein Handy entsperren wollte (und bekommst sein Foto)](/de/blog/see-who-tried-to-unlock-your-phone)
+
+<AppCta position="guide_end" />

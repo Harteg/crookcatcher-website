@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "Ketentuan Penggunaan • Aplikasi Android CrookCatcher",
+    "description": "Ketentuan penggunaan CrookCatcher, aplikasi Android yang mengambil foto saat sandi yang salah dimasukkan.",
+    "canonical": "https://www.crookcatcher.app/id/terms"
+  },
+  "hero": {
+    "eyebrow": "Hukum",
+    "title": "Ketentuan Penggunaan",
+    "lead": "Dengan mengunduh dan menggunakan CrookCatcher, kamu menyetujui syarat dan ketentuan berikut. Harap baca dengan saksama."
+  },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Penggunaan Aplikasi",
+      "body": "<p>CrookCatcher hanya ditujukan untuk penggunaan pribadi dan non-komersial. Kamu setuju menggunakan CrookCatcher sesuai dengan semua hukum dan peraturan yang berlaku. Kamu tidak boleh mengubah atau menyalin materi di aplikasi ini atau menggunakannya untuk tujuan komersial apa pun. Mencoba mendekompilasi atau merekayasa balik perangkat lunak apa pun yang terdapat di aplikasi dilarang.</p>"
+    },
+    {
+      "number": "2",
+      "title": "Kepemilikan dan Kekayaan Intelektual",
+      "body": "<p>Semua materi di CrookCatcher, termasuk hak kekayaan intelektual, dimiliki oleh Jakob Harteg atau dilisensikan kepadanya. Kamu tidak boleh menggunakan konten apa pun dari aplikasi ini tanpa izin tertulis yang jelas dari Jakob Harteg.</p>"
+    },
+    {
+      "number": "3",
+      "title": "Pengumpulan Data",
+      "body": "<p>CrookCatcher mengumpulkan data pengguna anonim kecuali kamu menolaknya di pengaturan aplikasi. Ini mencakup metrik pelacakan standar dengan Google Analytics dan Firebase, seperti kapan email dikirim dan bagaimana kamu bernavigasi di aplikasi. Tidak ada informasi pribadi atau sensitif yang dikumpulkan, disimpan, atau dibagikan. Lihat <a href=\"/id/privacy\">Kebijakan Privasi</a> kami untuk detail lebih lanjut.</p>"
+    },
+    {
+      "number": "4",
+      "title": "Penafian",
+      "body": "<p>CrookCatcher disediakan \"apa adanya\" tanpa jaminan apa pun, baik tersurat maupun tersirat. Ini mencakup, tetapi tidak terbatas pada, jaminan tersirat tentang kelayakan untuk diperdagangkan, kesesuaian untuk tujuan tertentu, dan tidak adanya pelanggaran hak. Jakob Harteg tidak memberikan pernyataan apa pun mengenai keakuratan atau keandalan konten atau fungsi aplikasi.</p>"
+    },
+    {
+      "number": "5",
+      "title": "Batasan Tanggung Jawab",
+      "body": "<p>Dalam keadaan apa pun Jakob Harteg tidak bertanggung jawab atas kerugian apa pun yang timbul dari penggunaan atau ketidakmampuan menggunakan CrookCatcher, termasuk tetapi tidak terbatas pada kerugian langsung, tidak langsung, insidental, khusus, atau konsekuensial, atau kehilangan data, perangkat, atau keuntungan.</p>"
+    },
+    {
+      "number": "6",
+      "title": "Hukum yang Berlaku",
+      "body": "<p>Setiap klaim atau sengketa terkait CrookCatcher diatur oleh hukum Jerman, tanpa memperhatikan ketentuan pertentangan hukumnya.</p>"
+    },
+    {
+      "number": "7",
+      "title": "Perubahan Ketentuan Penggunaan",
+      "body": "<p>Jakob Harteg berhak memperbarui atau mengubah ketentuan ini kapan saja tanpa pemberitahuan sebelumnya. Dengan terus menggunakan CrookCatcher setelah perubahan dibuat, kamu setuju terikat pada ketentuan yang diperbarui.</p>"
+    },
+    {
+      "number": "8",
+      "title": "Keseluruhan Perjanjian",
+      "body": "<p>Ketentuan ini merupakan keseluruhan perjanjian antara kamu dan Jakob Harteg terkait CrookCatcher dan menggantikan semua perjanjian sebelumnya.</p>"
+    },
+    {
+      "number": "9",
+      "title": "Keterpisahan",
+      "body": "<p>Jika ada ketentuan di sini yang dinyatakan tidak dapat diberlakukan, ketentuan lainnya tetap berlaku.</p>"
+    },
+    {
+      "number": "10",
+      "title": "Paket berbayar dan pengembalian dana",
+      "body": "<p>Beberapa fitur CrookCatcher mungkin berbayar, berupa langganan atau pembukaan sekali bayar. Perusahaan yang sebenarnya menagihmu adalah pihak tempat kamu melakukan pembayaran: biasanya Google Play untuk pembelian di dalam aplikasi Android, atau Paddle (atau mitra serupa) jika kamu membayar lewat web. Ketentuan mereka juga berlaku untuk pembayaran tersebut.</p><p>Jika kamu ingin pengembalian dana, cara dan jangka waktunya bergantung pada perusahaan yang sama. Gunakan pusat bantuan atau alur pengembalian dana mereka terlebih dahulu, itu biasanya jalur tercepat. Kamu juga dapat menghubungi dukungan CrookCatcher dengan bukti pembayaran atau detail pesananmu; kami akan membantu sebisa mungkin, tetapi hanya penyedia pembayaran yang dapat menyetujui atau menolak pengembalian dana.</p><p>Setelah kamu sudah mendapatkan akses ke apa yang dibeli, kami tidak menawarkan pengembalian dana sendiri, kecuali jika Google Play, Paddle, atau hukum menentukan lain.</p>"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+---
+title: So siehst du, wer dein Pixel entsperren wollte (2026)
+subtitle: Was ein Google Pixel nach einer falschen PIN aufzeichnet und wie du ein Foto der Person bekommst
+dateUpdated: '2026-10-21'
+datePublished: '2026-10-21'
+description: "Google-Pixel-Handys zeigen nicht, wer sie entsperren wollte, und führen kein Protokoll falscher PIN-Eingaben. Hier steht, was dein Pixel nach Fehlversuchen tut, welche Einstellungen des Diebstahlschutzes du aktivieren solltest und wie du per E-Mail ein Foto der Person bekommst."
+image: '/images/blog/pixel-who-tried-to-unlock-header-de.png'
+imageAlt: 'So siehst du, wer dein Pixel entsperren wollte: Pixel-Handys zählen falsche Eingaben, zeigen aber nie, wer sie gemacht hat. CrookCatcher macht ein Foto der Person.'
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Ein Google Pixel kann dir nicht zeigen, wer es entsperren wollte.** Android zählt falsche Eingaben von PIN, Muster und Passwort nur, damit die Person vor dem nächsten Versuch warten muss. Es gibt keine Liste der Versuche, keine Uhrzeit und kein Foto. Um herauszufinden, wer es war, installierst du eine App, die über fehlgeschlagenes Entsperren benachrichtigt wird, zum Beispiel [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-de). Die App macht nach einer falschen PIN ein Foto mit der Frontkamera und schickt es dir mit dem Standort per E-Mail.
+
+## Was dein Pixel nach einer falschen PIN tut
+
+Pixel-Handys bekommen neue Android-Versionen zuerst. Ab Android 16 QPR2 sehen die von Google veröffentlichten Wartezeiten so aus:
+
+| Falsche Eingaben | Wartezeit bis zum nächsten Versuch |
+| --- | --- |
+| 1 bis 4 | Keine |
+| 5 | 1 Minute |
+| 6 | 5 Minuten |
+| 8 | 30 Minuten |
+| 10 | 4 Stunden |
+| 12 | 36 Stunden |
+| 15 | 41 Tage |
+| 20 | Keine weiteren Versuche möglich |
+
+Laut Google ist Android 17 noch strenger. Noch ein paar Dinge, die du wissen solltest:
+
+- **Wiederholte gleiche falsche PINs zählen nicht erneut.** Ein Kind, das immer denselben Code tippt, verbraucht also nicht deine Versuche.
+- **Unter Android 17 zeigt der Sperrbildschirm einen Link** (g.co/android/unlock) mit Wiederherstellungsoptionen, den du auf einem anderen Gerät öffnen kannst.
+- **Wenn du dein Pixel gar nicht mehr entsperren kannst, muss es gelöscht werden.** Danach kannst du deine Daten aus der Sicherung deines Google-Kontos wiederherstellen, wenn du die PIN oder das Muster kennst, die du bei der Sicherung hattest.
+
+Eine Meldung wie „Erneut versuchen in …“ ist der einzige Hinweis, den du darauf bekommst, dass jemand es versucht hat. Sie sagt nicht, wer, wann oder wie oft.
+
+## Pixel-Einstellungen, die sich lohnen
+
+Sie zeigen dir nicht, wer es versucht hat, machen es aber deutlich schwerer, in dein Pixel zu kommen oder es mitzunehmen.
+
+### Diebstahlschutz
+
+**Gehe zu:**
+`Einstellungen > Google > Alle Dienste > Diebstahlschutz`
+
+- **Diebstahl-Displaysperre:** Sperrt den Bildschirm, wenn dein Pixel erkennt, dass es dir entrissen wurde.
+- **Offline-Gerätesperre:** Sperrt den Bildschirm kurz nachdem das Handy offline gegangen ist, damit ein Dieb es nicht davor bewahren kann, gefunden zu werden.
+- **Displaysperre bei fehlgeschlagener Authentifizierung:** Sperrt den Bildschirm, wenn Entsperrversuche wiederholt fehlschlagen. Sie ist standardmäßig aktiviert, ab Android 16 hat sie einen eigenen Schalter.
+- **Identitätsüberprüfung:** Außerhalb vertrauenswürdiger Orte brauchst du für sensible Aktionen wie das Ändern deiner Displaysperre oder das Ausschalten von Find Hub deinen Fingerabdruck oder dein Gesicht.
+
+### Sperren per Fernzugriff und Find Hub
+
+- **Sperren per Fernzugriff** lässt dich dein Pixel von jedem Browser aus unter [android.com/lock](https://www.android.com/lock) sperren, nur mit deiner Telefonnummer. Aktiviere es unter **Diebstahlschutz > Sperren per Fernzugriff**. Du kannst eine Sicherheitsfrage hinzufügen, damit niemand sonst die Funktion nutzen kann.
+- **Find Hub** (in der deutschen Google-Hilfe noch „Mein Gerät finden“) zeigt, wo dein Pixel ist, und lässt dich es klingeln lassen, sperren oder löschen. Stelle sicher, dass es eingeschaltet ist, bevor du es brauchst.
+
+Weitere Einstellungen findest du in den [5 Android-Einstellungen, die dein Handy vor Diebstahl schützen](/de/blog/top_five_settings).
+
+## Was dein Pixel dir nicht verrät
+
+- **Wer es versucht hat.** Kein Foto der Person.
+- **Wann es passiert ist** und wie oft.
+- **Wo das Handy war**, als es passiert ist.
+- **Eine Warnung in dem Moment, in dem es passiert.**
+
+## So bekommst du ein Foto von jedem, der dein Pixel entsperren will
+
+CrookCatcher schließt genau diese Lücke. Android benachrichtigt Apps mit der Berechtigung **Geräteadministrator** bei jedem fehlgeschlagenen Entsperrversuch. CrookCatcher nutzt das, um mit der Frontkamera ein Foto zu machen, den Standort und eine ungefähre Adresse zu erfassen und dir beides per E-Mail zu schicken. Jeder Versuch wird außerdem mit der Uhrzeit in der App gespeichert.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-de.webp" width="990" height="1024" loading="lazy" alt="CrookCatcher-Warn-E-Mail mit dem Foto des Eindringlings, der Uhrzeit des Versuchs und einer Karte mit dem Standort" />
+  <figcaption>Die E-Mail, die CrookCatcher nach einem fehlgeschlagenen Entsperrversuch sendet.</figcaption>
+</figure>
+
+**So richtest du es auf deinem Pixel ein:**
+
+1. **Installiere CrookCatcher** aus dem <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-de" target="_blank" rel="noopener noreferrer">Google Play Store</a>. Ein Konto brauchst du nicht.
+2. **Erlaube den Geräteadministrator.** CrookCatcher nutzt diese Berechtigung nur, um zu erfahren, wann ein Entsperrversuch fehlschlägt.
+3. **Erlaube den Zugriff auf Kamera und Standort.**
+4. **Verbinde ein Gmail-Konto** für die Warn-E-Mails. CrookCatcher kann damit nur E-Mails *senden*, nicht lesen.
+5. **Teste es.** Sperre dein Pixel, gib absichtlich eine falsche PIN ein und entsperre es dann. Dein eigenes Foto sollte in der App und in deinem Postfach erscheinen.
+
+Du legst fest, wie viele falsche Eingaben nötig sind, bevor CrookCatcher aktiv wird. CrookCatcher wurde seit 2014 mehr als 12 Millionen Mal heruntergeladen und macht rund 1,2 Millionen Fotos von Eindringlingen pro Tag.
+
+<AppCta position="guide_mid" />
+
+## Häufig gestellte Fragen
+
+### Q: Kann ein Pixel fehlgeschlagene Entsperrversuche anzeigen?
+A: Nein. Dein Pixel zählt falsche Eingaben nur, um die Sperrzeiten zu berechnen, und zeigt sie nie an. Um ein Protokoll mit Foto, Uhrzeit und Standort zu haben, brauchst du eine App wie CrookCatcher.
+
+### Q: Wie viele falsche PIN-Eingaben erlaubt ein Pixel?
+A: In neueren Android-Versionen gibt es bei den ersten 4 falschen Eingaben keine Wartezeit, danach wachsen die Wartezeiten von 1 Minute auf mehrere Tage. Nach 20 falschen Eingaben sind keine weiteren möglich. Android 17 ist strenger.
+
+### Q: Was ist, wenn ich mich aus meinem eigenen Pixel ausgesperrt habe?
+A: Googles einzige Möglichkeit ist, es zu löschen, entweder aus der Ferne mit Find Hub oder mit den Tasten im Wiederherstellungsmodus. Danach kannst du aus der Sicherung deines Google-Kontos wiederherstellen, wenn du die PIN oder das Muster aus der Zeit der Sicherung kennst.
+
+### Q: Hat ein Pixel eine Funktion für Eindringlingsfotos?
+A: Nein. Der Diebstahlschutz des Pixels sperrt das Handy nach Fehlversuchen oder einem Diebstahl, fotografiert die Person aber nicht und führt keine Liste der Versuche.
+
+### Q: Funktioniert CrookCatcher mit dem Fingerabdruck und der Gesichtsentsperrung des Pixels?
+A: Ja, du kannst sie weiter nutzen. CrookCatcher reagiert auf eine falsche PIN, ein falsches Muster oder Passwort. Fehlgeschlagene Versuche mit Fingerabdruck oder Gesicht lösen es nicht aus.
+
+### Q: Sieht die Person, dass sie fotografiert wurde?
+A: CrookCatcher arbeitet im Hintergrund ohne Kameravorschau. Dein Pixel zeigt eine kleine Anzeige, solange die Kamera genutzt wird. Das ist eine Systemfunktion, die Apps nicht ausblenden können.
+
+## Quellen
+
+- Google, Android-Hilfe: [Ihre privaten Daten vor Diebstahl schützen](https://support.google.com/android/answer/15146908?hl=de)
+- Android Open Source Project: [Lockscreen rate limiting](https://source.android.com/docs/security/features/authentication/rate-limiting) (auf Englisch)
+- Google, The Keyword: [New Android theft protection feature updates](https://blog.google/security/android-theft-protection-feature-updates/) (Januar 2026, auf Englisch)
+- Google, Pixel-Hilfe: [Google Pixel kann nicht entsperrt werden](https://support.google.com/pixelphone/answer/3388218?hl=de)
+- Android Developers: [DeviceAdminReceiver](https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver) (wie Apps über fehlgeschlagene Versuche informiert werden, auf Englisch)
+
+## Weitere Ratgeber
+
+- [So siehst du, wer dein Handy entsperren wollte (und bekommst sein Foto)](/de/blog/see-who-tried-to-unlock-your-phone)
+- [5 Android-Einstellungen, die dein Handy vor Diebstahl schützen](/de/blog/top_five_settings)
+- [So hinderst du Diebe daran, dein Handy auszuschalten](/de/blog/block-power-menu)
+
+<AppCta position="guide_end" />

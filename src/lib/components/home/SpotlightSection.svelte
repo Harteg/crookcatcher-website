@@ -111,7 +111,7 @@
   }
 
   .log-meta {
-    margin-left: auto;
+    margin-inline-start: auto;
     color: var(--color-secondary);
   }
 
@@ -143,7 +143,7 @@
   .event:not(:last-child)::after {
     content: '';
     position: absolute;
-    left: calc(24px + 64px + 14px + 6px);
+    inset-inline-start: calc(24px + 64px + 14px + 6px);
     top: 50%;
     height: 100%;
     width: 2px;
@@ -282,7 +282,7 @@
     }
 
     .event:not(:last-child)::after {
-      left: calc(16px + 56px + 10px + 6px);
+      inset-inline-start: calc(16px + 56px + 10px + 6px);
     }
 
     .log-head {

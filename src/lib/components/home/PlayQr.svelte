@@ -15,9 +15,9 @@
     display: none;
     align-items: center;
     gap: 14px;
-    padding-left: 28px;
-    border-left: 1px solid var(--color-card-border);
-    text-align: left;
+    padding-inline-start: 28px;
+    border-inline-start: 1px solid var(--color-card-border);
+    text-align: start;
   }
 
   .qr-code {

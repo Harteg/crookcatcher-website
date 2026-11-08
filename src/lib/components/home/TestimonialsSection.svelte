@@ -171,8 +171,8 @@
   }
 
   .quote :global(.testimonial-card) {
-    padding-left: 0;
-    border-left: none;
+    padding-inline-start: 0;
+    border-inline-start: none;
   }
 
   .quotes-footer {

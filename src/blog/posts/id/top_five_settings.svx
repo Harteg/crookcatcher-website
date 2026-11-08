@@ -1,0 +1,143 @@
+---
+title: 5 Pengaturan Anti-Pencurian Android yang Perlu Diaktifkan Hari Ini (2026)
+subtitle: Pengaturan bawaan yang membuat ponsel Android curian tidak berguna bagi pencuri, dan apa yang tetap tidak bisa dilakukannya
+dateUpdated: '2026-10-23'
+datePublished: '2025-08-24'
+description: "Lima pengaturan Android yang paling melindungimu jika ponsel dicuri: kunci layar yang kuat, Perlindungan dari pencurian, Kunci Jarak Jauh, Hub Pencari, dan Cek Identitas. Berikut letak masing-masing, dan apa yang tetap tidak bisa diberitahukannya."
+image: '/images/blog/theft_settings_header.jpeg'
+imageAlt: 'Pengaturan perlindungan pencurian Android dan tips CrookCatcher'
+published: true
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Lima pengaturan Android yang paling melindungi dari pencurian adalah: PIN 6 digit atau sandi, Perlindungan dari pencurian (Kunci Deteksi Pencurian, Kunci Perangkat Offline, dan Kunci Autentikasi Gagal), Kunci Jarak Jauh, Hub Pencari, dan Cek Identitas.** Bersama-sama, semuanya mengunci ponsel yang direbut, memungkinkan kamu mengunci atau melacaknya dari perangkat lain, dan mencegah pencuri mematikan perlindunganmu. Semuanya gratis dan bawaan Android. Aktifkan sekarang; sebagian besar kurang dari satu menit. Yang tidak dilakukan satu pun dari semuanya: menunjukkan siapa yang mencoba masuk ke ponselmu, dan di situlah aplikasi seperti CrookCatcher berperan.
+
+## 1. Gunakan kunci layar yang kuat
+
+Semua hal lain bergantung pada kunci layarmu. Jika pencuri bisa menebaknya, semua pengaturan lain bisa dimatikan.
+
+- **Gunakan PIN 6 digit atau sandi**, bukan PIN 4 digit. PIN 4 digit punya 10.000 kombinasi; PIN 6 digit punya 1.000.000.
+- **Hindari kode yang mudah** seperti 1234, 0000, 1111, atau tanggal lahirmu.
+- **Pola adalah pilihan terlemah.** Orang sering menggambar bentuk sederhana, dan pola mudah diintip dari balik bahu.
+
+Buka Setelan dan cari "Kunci layar".
+
+Sidik jari dan buka kunci wajah memang praktis, tetapi kamu tetap butuh PIN atau sandi yang kuat di baliknya. Itulah yang diminta Android setelah ponsel dimulai ulang dan saat ponselmu mengunci dirinya sendiri.
+
+Versi Android terbaru juga membuat tebakan menjadi lambat: setelah beberapa tebakan salah, ponsel membuat orang itu menunggu, dan waktu tunggunya bertambah hingga berhari-hari. Baca [yang dilakukan Android terhadap percobaan buka kunci yang gagal](/id/blog/failed-unlock-attempts-android) untuk detailnya.
+
+## 2. Aktifkan Perlindungan dari pencurian
+
+Perlindungan dari pencurian Android mengunci ponselmu secara otomatis dalam situasi yang diandalkan pencuri.
+
+**Buka:**
+`Setelan > Google > Semua layanan > Perlindungan dari pencurian`
+
+Aktifkan:
+
+- **Kunci Deteksi Pencurian:** mengunci layar jika ponselmu mendeteksi seseorang merebutnya lalu kabur.
+- **Kunci Perangkat Offline:** mengunci layar tak lama setelah ponsel offline, misalnya saat pencuri mengaktifkan mode pesawat.
+- **Kunci Autentikasi Gagal:** mengunci layar saat percobaan buka kunci gagal berulang kali. Aktif secara default.
+
+Jika sebuah pengaturan berwarna abu-abu, ponselmu tidak mendukungnya. Fitur ini membutuhkan Android 10 atau lebih baru, dan sebagian membutuhkan Android 15 atau lebih baru. Di ponsel Samsung Galaxy, Samsung juga punya menu Perlindungan dari pencurian sendiri; lihat [cara melihat siapa yang mencoba membuka ponsel Samsung-mu](/id/blog/samsung-who-tried-to-unlock) untuk letaknya.
+
+<figure class="blog-figure">
+  <img src="/images/blog/settings_theft.jpeg" alt="Pengaturan Perlindungan dari pencurian di Android" />
+  <figcaption>Pengaturan Perlindungan dari pencurian di Android</figcaption>
+</figure>
+
+## 3. Aktifkan Kunci Jarak Jauh
+
+Jika ponselmu dicuri, Kunci Jarak Jauh memungkinkan kamu mengunci ponsel dari browser mana pun di [android.com/lock](https://www.android.com/lock), hanya dengan nomor teleponmu. Kamu tidak memerlukan sandi Google, yang membantu jika sandimu tersimpan di ponsel yang dicuri.
+
+**Buka:**
+`Setelan > Google > Semua layanan > Perlindungan dari pencurian > Kunci Jarak Jauh`
+
+Aktifkan, dan tambahkan **Pertanyaan keamanan** opsional agar tidak ada orang lain yang bisa mengunci ponselmu hanya dengan nomormu. Kunci Jarak Jauh membutuhkan ponsel yang memiliki SIM, online, dan Hub Pencari aktif.
+
+<figure class="blog-figure">
+  <img src="/images/blog/settings_remote_lock.jpeg" alt="Halaman android.com/lock yang meminta nomor telepon" />
+  <figcaption>Kunci Jarak Jauh di android.com/lock</figcaption>
+</figure>
+
+## 4. Pastikan Hub Pencari aktif
+
+Hub Pencari (Find Hub) menunjukkan lokasi ponselmu di peta dan memungkinkan kamu membunyikan, mengunci, atau menghapusnya dari perangkat lain di [google.com/android/find](https://www.google.com/android/find).
+
+Biasanya aktif secara default saat kamu masuk dengan akun Google, tetapi periksa: buka Setelan dan cari "Hub Pencari". Pastikan aktif dan lokasi diizinkan.
+
+<figure class="blog-figure">
+  <img src="/images/blog/find_hub.png" alt="Hub Pencari menampilkan lokasi ponsel di peta" />
+  <figcaption>Hub Pencari menampilkan lokasi ponsel</figcaption>
+</figure>
+
+## 5. Aktifkan Cek Identitas
+
+Jika pencuri mengetahui PIN-mu, misalnya karena melihatmu mengetiknya, Cek Identitas mencegah mereka mematikan perlindunganmu. Di luar tempat yang kamu percaya, fitur ini meminta sidik jari atau wajahmu sebelum tindakan sensitif seperti mengubah kunci layar, mematikan Hub Pencari atau Perlindungan dari pencurian, atau mereset ponsel.
+
+Kamu bisa menemukannya di `Setelan > Google > Semua layanan > Perlindungan dari pencurian` pada ponsel yang mendukungnya.
+
+## Yang tidak bisa dilakukan pengaturan ini
+
+Pengaturan ini mengunci ponsel dan membantu kamu menemukannya. Pengaturan ini tidak memberitahumu:
+
+- **Siapa yang mencoba masuk ke ponselmu.** Android tidak menyimpan catatan dan tidak mengambil foto.
+- **Kapan kejadiannya**, atau berapa kali.
+- **Di mana ponselnya berada** saat itu.
+
+Pengaturan ini juga baru membantu setelah ponsel hilang. Kebanyakan orang ingin tahu lebih awal: siapa yang mengambil ponsel saat mereka pergi, atau siapa yang mencoba menebak PIN mereka.
+
+## Ketahui siapa yang mencoba membuka ponselmu
+
+CrookCatcher mengisi celah itu. Saat seseorang memasukkan PIN, pola, atau sandi yang salah, aplikasi mengambil foto dengan kamera depan, mencatat lokasi GPS dan perkiraan alamat, lalu mengirim keduanya ke emailmu. Foto dan lokasi sudah ada di kotak masukmu meski ponsel dimatikan semenit kemudian, dan kamu bisa membagikannya ke polisi.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-id.webp" width="990" height="1024" loading="lazy" alt="Email peringatan CrookCatcher dengan foto penyusup, waktu percobaan, dan peta lokasi" />
+  <figcaption>Email yang dikirim CrookCatcher setelah percobaan buka kunci yang gagal.</figcaption>
+</figure>
+
+Aplikasi ini sudah diunduh lebih dari 12 juta kali sejak 2014 dan mengambil sekitar 1,2 juta foto penyusup per hari. Pengaturannya hanya butuh beberapa menit: lihat [cara melihat siapa yang mencoba membuka ponselmu](/id/blog/see-who-tried-to-unlock-your-phone).
+
+<AppCta position="guide_mid" />
+
+## Cara lain agar ponselmu lebih sulit dicuri
+
+- **Hapus mode pesawat dari Setelan Cepat**, agar pencuri tidak bisa memutus koneksi dengan sekali usap. Lihat [cara mencegah pencuri mematikan ponselmu](/id/blog/block-power-menu).
+- **Kunci kartu SIM dengan PIN** (`Setelan > Keamanan & Privasi > Setelan keamanan lainnya > Kunci SIM`), agar pencuri tidak bisa memakai nomormu untuk menerima kodemu.
+- **Sembunyikan isi notifikasi di layar kunci** (`Setelan > Keamanan & Privasi > Setelan keamanan lainnya > Notifikasi di layar kunci`), agar kode keamanan tidak terlihat saat ponsel terkunci.
+- **Selalu perbarui ponselmu**, karena fitur perlindungan pencurian baru hadir lewat pembaruan Android.
+
+## Pertanyaan yang Sering Diajukan
+
+### Q: Apa pengaturan anti-pencurian terpenting di Android?
+A: Kunci layar yang kuat. PIN 6 digit atau sandi melindungi semua hal lain; jika pencuri bisa menebak kunci layarmu, mereka bisa mematikan sisanya.
+
+### Q: Apakah Android punya perlindungan pencurian bawaan?
+A: Ya. Perlindungan dari pencurian mencakup Kunci Deteksi Pencurian, Kunci Perangkat Offline, dan Kunci Autentikasi Gagal, dan kamu bisa menambahkan Kunci Jarak Jauh dan Cek Identitas. Temukan di Setelan > Google > Semua layanan > Perlindungan dari pencurian.
+
+### Q: Apakah pengaturan ini bekerja di ponsel Samsung?
+A: Perlindungan dari pencurian milik Google bekerja di sebagian besar ponsel Android, termasuk Samsung. Ponsel Samsung Galaxy juga punya menu perlindungan pencurian sendiri di Setelan > Keamanan dan privasi > Perlindungan perangkat hilang.
+
+### Q: Bisakah pencuri tetap mematikan ponselku?
+A: Terkadang, dari layar kunci. Beberapa ponsel, termasuk banyak model Samsung, bisa mewajibkan PIN untuk mematikannya. Baca [cara mencegah pencuri mematikan ponselmu](/id/blog/block-power-menu).
+
+### Q: Apakah saya butuh aplikasi anti-pencurian jika sudah memakai pengaturan ini?
+A: Pengaturan melindungi datamu dan membantu menemukan ponsel. Pengaturan tidak bisa menunjukkan siapa yang mencoba membukanya. Aplikasi seperti CrookCatcher menambahkan foto, lokasi, dan email peringatan saat seseorang mencoba.
+
+## Sumber
+
+- Google, Bantuan Android: [Melindungi data pribadi Anda dari pencurian](https://support.google.com/android/answer/15146908?hl=id)
+- Google, Bantuan Pixel Tablet: [Security and privacy settings](https://support.google.com/googlepixeltablet/answer/13555549?hl=en) (dalam bahasa Inggris)
+- Google: [Hub Pencari (Find Hub)](https://www.google.com/android/find)
+- Google: [Kunci Jarak Jauh (android.com/lock)](https://www.android.com/lock)
+
+## Panduan terkait
+
+- [Bisakah melihat percobaan buka kunci yang gagal di Android?](/id/blog/failed-unlock-attempts-android)
+- [Cara mencegah pencuri mematikan ponselmu](/id/blog/block-power-menu)
+- [Cara melihat siapa yang mencoba membuka ponselmu (dan mendapatkan fotonya)](/id/blog/see-who-tried-to-unlock-your-phone)
+
+<AppCta position="guide_end" />

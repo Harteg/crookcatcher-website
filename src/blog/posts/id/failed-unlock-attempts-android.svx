@@ -1,0 +1,123 @@
+---
+title: Bisakah Melihat Percobaan Buka Kunci yang Gagal di Android? (2026)
+subtitle: Apa yang dicatat Android saat seseorang memasukkan PIN yang salah, dan cara mengetahui siapa pelakunya
+dateUpdated: '2026-10-23'
+datePublished: '2026-10-23'
+description: "Android tidak menyimpan daftar percobaan buka kunci yang gagal dan tidak menunjukkan siapa pelakunya. Android hanya menghitung tebakan yang salah untuk mengunci ponsel makin lama. Berikut yang persisnya dilakukan Android, dan cara mendapatkan foto orangnya."
+image: '/images/blog/failed-unlock-attempts-android-header-id.png'
+imageAlt: 'Bisakah melihat percobaan buka kunci yang gagal di Android? Android hanya menghitung kesalahan. CrookCatcher menunjukkan siapa pelakunya.'
+published: true
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Tidak. Android tidak menyimpan daftar percobaan buka kunci yang gagal dan tidak pernah menunjukkan siapa pelakunya.** Tebakan PIN, pola, dan sandi yang salah hanya dihitung agar orang tersebut harus menunggu lebih lama sebelum mencoba lagi. Setelah ponsel terbuka, tidak ada lagi yang bisa dilihat: tidak ada daftar, waktu, atau foto. Untuk melihat percobaan yang gagal, kamu butuh aplikasi yang diberi tahu setiap kali pembukaan kunci gagal, seperti [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-id), yang memotret orangnya dan mengirimkannya ke emailmu beserta lokasinya.
+
+## Apa yang dilakukan Android saat PIN salah
+
+Setiap tebakan yang salah dihitung, dan setelah beberapa kali, layar kunci membuat orang tersebut menunggu. Pada versi Android terbaru (Android 16 QPR2 ke atas), jadwal yang dipublikasikan Google adalah:
+
+| Tebakan salah | Waktu tunggu sebelum percobaan berikutnya |
+| --- | --- |
+| 1 sampai 4 | Tidak ada |
+| 5 | 1 menit |
+| 6 | 5 menit |
+| 7 | 15 menit |
+| 8 | 30 menit |
+| 10 | 4 jam |
+| 12 | 36 jam |
+| 15 | 41 hari |
+| 20 | Tidak boleh mencoba lagi |
+
+Menurut Google, Android 17 secara default memakai batas yang lebih ketat lagi, dan produsen ponsel bisa menetapkan batas sendiri. One UI 9 dari Samsung mengunci ponsel secara permanen pada tebakan salah ke-13; setelah itu, hanya reset pabrik yang membuat ponsel bisa dipakai lagi.
+
+Dua hal lain yang baru berubah:
+
+- **Memasukkan PIN salah yang sama berulang kali tidak dihitung lagi** di banyak ponsel yang lebih baru. Android dan Samsung sama-sama melewati entri salah yang identik, jadi anak yang menekan 1111 berulang kali tidak akan mengunci kamu.
+- **Kunci Autentikasi Gagal** (Android 15 ke atas, aktif secara default) mengunci layar saat autentikasi gagal berulang kali.
+
+Semua ini tidak ditampilkan kepadamu setelahnya. Hitungan itu hanya ada untuk mengatur waktu penguncian.
+
+## Satu-satunya petunjuk dari Android
+
+Jika seseorang mencoba saat kamu tidak ada, kamu mungkin melihat:
+
+- **Pesan "Coba lagi dalam…"** di layar kunci saat kamu mengambil ponsel.
+- **Peringatan sisa percobaan.** Ponsel Samsung dengan One UI 9 menampilkannya begitu seseorang mendekati batas.
+
+Petunjuk ini memberitahu bahwa *sesuatu* terjadi. Tidak menunjukkan kapan, berapa kali, atau siapa.
+
+## Yang tidak bisa diberitahukan Android
+
+- **Siapa pelakunya.** Tidak ada foto, tidak ada nama.
+- **Kapan kejadiannya**, atau berapa kali mencoba.
+- **Di mana ponselnya berada.**
+- **Peringatan saat kejadian berlangsung.** Kamu hanya tahu jika menyadari petunjuk di atas.
+
+## Cara melihat siapa yang mencoba membuka ponselmu
+
+Android memang memberi tahu aplikasi tentang percobaan yang gagal. Aplikasi yang kamu beri izin **Admin perangkat** akan diberi tahu sistem setiap kali seseorang memasukkan PIN, pola, atau sandi yang salah. CrookCatcher memakai persis itu.
+
+Saat pembukaan kunci gagal, CrookCatcher:
+
+- mengambil foto dengan kamera depan,
+- mencatat lokasi GPS dan perkiraan alamat,
+- menyimpannya di aplikasi beserta waktunya, dan
+- mengirim semuanya ke emailmu, sehingga kamu tetap memilikinya meski ponselnya hilang.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-id.webp" width="990" height="1024" loading="lazy" alt="Email peringatan CrookCatcher dengan foto penyusup, waktu percobaan, dan peta lokasi" />
+  <figcaption>Email yang dikirim CrookCatcher setelah percobaan buka kunci yang gagal.</figcaption>
+</figure>
+
+Kamu yang menentukan berapa kali percobaan salah sebelum CrookCatcher bertindak. Aplikasi ini sudah diunduh lebih dari 12 juta kali sejak 2014, dan mengambil sekitar 1,2 juta foto penyusup per hari. Pengaturannya hanya butuh beberapa menit dan tidak perlu membuat akun: lihat [cara melihat siapa yang mencoba membuka ponselmu](/id/blog/see-who-tried-to-unlock-your-phone) untuk panduan langkah demi langkah.
+
+<AppCta position="guide_mid" />
+
+## Aktifkan juga perlindungan bawaan Android
+
+CrookCatcher memberitahu siapa yang mencoba. Perlindungan pencurian Android membuat mereka lebih sulit berhasil. Aktifkan keduanya.
+
+**Buka:**
+`Setelan > Google > Semua layanan > Perlindungan dari pencurian`
+
+Pastikan **Kunci Autentikasi Gagal**, **Kunci Deteksi Pencurian**, dan **Kunci Perangkat Offline** aktif. Jika sebuah pengaturan berwarna abu-abu, ponselmu tidak mendukungnya. Untuk daftar lengkapnya, lihat [5 pengaturan Android untuk mengamankan ponselmu dari pencurian](/id/blog/top_five_settings).
+
+## Pertanyaan yang Sering Diajukan
+
+### Q: Apakah ada log percobaan buka kunci yang gagal di Android?
+A: Tidak. Android hanya menyimpan penghitung untuk timer penguncian, dan itu tidak ditampilkan di mana pun. Untuk memiliki catatan, kamu butuh aplikasi seperti CrookCatcher yang menyimpan setiap percobaan beserta foto, waktu, dan lokasi.
+
+### Q: Berapa kali bisa memasukkan PIN yang salah di Android?
+A: Pada versi Android terbaru, 4 tebakan salah pertama tidak ada waktu tunggu. Setelah itu waktu tunggu bertambah dari 1 menit hingga berhari-hari, dan setelah 20 tebakan salah tidak boleh mencoba lagi. Ponsel Samsung dengan One UI 9 terkunci permanen pada tebakan salah ke-13.
+
+### Q: Apakah ponselku akan terhapus sendiri setelah terlalu banyak percobaan gagal?
+A: Tidak secara default di sebagian besar ponsel. Beberapa ponsel Samsung punya pengaturan opsional untuk reset pabrik otomatis yang menghapus ponsel setelah sejumlah percobaan salah. Jika ponsel kehabisan percobaan, halaman bantuan Google menyebutkan satu-satunya cara untuk masuk kembali adalah menghapusnya.
+
+### Q: Apakah memasukkan PIN salah yang sama dua kali dihitung?
+A: Di banyak ponsel yang lebih baru, tidak. Android 16 QPR2 ke atas, dan One UI 9 dari Samsung, mengabaikan entri salah identik yang berulang agar kamu tidak terkunci secara tidak sengaja.
+
+### Q: Bisakah aplikasi melihat percobaan buka kunci yang gagal?
+A: Bisa, jika kamu memberinya izin. Android memberi tahu aplikasi yang memiliki izin Admin perangkat setiap kali percobaan buka kunci gagal. Begitulah CrookCatcher tahu kapan harus mengambil foto. Aplikasi hanya memakai izin itu untuk keperluan tersebut.
+
+### Q: Apakah percobaan gagal dengan sidik jari atau buka kunci wajah dihitung?
+A: CrookCatcher bereaksi terhadap PIN, pola, atau sandi yang salah, bukan terhadap percobaan sidik jari atau buka kunci wajah yang gagal.
+
+## Sumber
+
+- Google, Bantuan Android: [Melindungi data pribadi Anda dari pencurian](https://support.google.com/android/answer/15146908?hl=id)
+- Android Open Source Project: [Lockscreen rate limiting](https://source.android.com/docs/security/features/authentication/rate-limiting) (dalam bahasa Inggris)
+- Google, The Keyword: [New Android theft protection feature updates](https://blog.google/security/android-theft-protection-feature-updates/) (Januari 2026, dalam bahasa Inggris)
+- Samsung: [Perubahan kebijakan keamanan layar kunci One UI 9.0](https://www.samsung.com/id/support/mobile-devices/one-ui-9-lockscreen-security-policy/)
+- Google, Bantuan Pixel: [Tidak dapat membuka kunci ponsel Pixel](https://support.google.com/pixelphone/answer/3388218?hl=id)
+- Android Developers: [DeviceAdminReceiver](https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver) (cara aplikasi diberi tahu tentang percobaan yang gagal, dalam bahasa Inggris)
+
+## Panduan terkait
+
+- [Cara melihat siapa yang mencoba membuka ponselmu (dan mendapatkan fotonya)](/id/blog/see-who-tried-to-unlock-your-phone)
+- [Cara melihat siapa yang mencoba membuka ponsel Samsung-mu](/id/blog/samsung-who-tried-to-unlock)
+- [5 pengaturan Android untuk mengamankan ponselmu dari pencurian](/id/blog/top_five_settings)
+
+<AppCta position="guide_end" />

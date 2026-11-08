@@ -205,7 +205,7 @@
   }
 
   .per {
-    margin-left: 8px;
+    margin-inline-start: 8px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.15rem;
     letter-spacing: 0;

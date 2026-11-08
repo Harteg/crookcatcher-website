@@ -1,0 +1,113 @@
+---
+title: Cara Mencegah Pencuri Mematikan Ponselmu (atau Mengaktifkan Mode Pesawat)
+subtitle: Pengaturan agar ponselmu tetap bisa dilacak, dan cara memotret pencurinya
+dateUpdated: '2026-09-28'
+datePublished: '2025-01-19'
+description: "Pencuri mematikan ponsel curian agar tidak bisa dilacak. Berikut cara mempersulitnya di Samsung dan ponsel Android lain, dan cara mendapatkan foto pencuri sebelum mereka berhasil."
+image: /images/blog/Digital_Solitude_Urban_Shadows.jpeg
+imageAlt: Pria berbayang dengan ponsel
+published: true
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Kamu tidak bisa sepenuhnya mencegah pencuri mematikan ponsel Android, tetapi kamu bisa mempersulitnya.** Di banyak ponsel Samsung, aktifkan *Kunci jaringan dan keamanan*, agar layar kunci meminta PIN-mu terlebih dahulu. Aktifkan juga *Kunci Deteksi Pencurian* dan *Kunci Perangkat Offline*, dan pindahkan mode pesawat dari Setelan Cepat.
+
+Ini penting karena mematikan ponsel atau mengaktifkan mode pesawat adalah salah satu hal pertama yang dilakukan pencuri. Ponsel yang mati atau offline tidak bisa dilacak, dikunci, atau dihapus dari jarak jauh, sehingga semua fitur pelacakan yang sudah kamu atur mendadak berhenti bekerja. Berikut yang perlu diaktifkan, dan cara memastikan kamu tetap punya bukti meski pencuri berhasil lolos.
+
+## Ringkasan
+
+1. **Samsung:** aktifkan *Kunci jaringan dan keamanan*, agar ponsel meminta PIN-mu sebelum bisa dimatikan dari layar kunci.
+2. **Semua ponsel Android:** aktifkan *Kunci Deteksi Pencurian* dan *Kunci Perangkat Offline*.
+3. **Hapus mode pesawat** dari Setelan Cepat.
+4. **Periksa pengaturan ponselmu** untuk opsi seperti "wajib buka kunci untuk mematikan".
+5. **Pasang <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-id" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** untuk mendapatkan foto dan lokasi siapa pun yang mencoba membuka ponselmu.
+
+---
+
+## 1. Samsung: Wajibkan PIN untuk mematikan ponsel
+
+Banyak ponsel Samsung Galaxy punya pengaturan yang mencegah orang mematikan ponsel atau menonaktifkan jaringan dari layar kunci tanpa PIN, pola, atau sandimu.
+
+**Buka:**
+`Setelan > Layar kunci > Pengaturan kunci aman (Secure lock settings) > Kunci jaringan dan keamanan (Lock network and security)`
+
+Aktifkan. Mulai sekarang, siapa pun yang mencoba mematikan ponselmu dari layar kunci harus membukanya terlebih dahulu.
+
+> Catatan: ini melindungi layar kunci. Jika pencuri merebut ponselmu saat *tidak terkunci*, mereka tetap bisa mematikannya, itulah sebabnya langkah 2 juga penting. Samsung sedang menguji pembaruan yang mewajibkan PIN untuk mematikan ponsel dalam semua situasi, dan kami akan memperbarui artikel ini setelah dirilis.
+
+Di Samsung, kamu juga bisa mendapatkan foto siapa pun yang memasukkan PIN yang salah: lihat [cara melihat siapa yang mencoba membuka ponsel Samsung-mu](/id/blog/samsung-who-tried-to-unlock).
+
+---
+
+## 2. Semua ponsel Android: Aktifkan Kunci Deteksi Pencurian dan Kunci Perangkat Offline
+
+Fitur Android ini mengunci ponselmu secara otomatis, yang paling membantu saat pencuri merebutnya dari tanganmu dalam keadaan terbuka.
+
+- **Kunci Deteksi Pencurian** mengunci layar jika ponsel merasakan gerakan rebut-dan-lari.
+- **Kunci Perangkat Offline** mengunci layar tak lama setelah ponsel offline, misalnya saat seseorang mengaktifkan mode pesawat.
+
+**Di sebagian besar ponsel Android, buka:**
+`Setelan > Google > Semua layanan > Perlindungan dari pencurian`
+
+**Di ponsel Samsung, buka:**
+`Setelan > Keamanan dan privasi > Perlindungan perangkat hilang > Perlindungan dari pencurian`
+
+Setelah ponsel terkunci, pencuri kembali ke layar kunci, tempat langkah 1 dan CrookCatcher mengambil alih.
+
+---
+
+## 3. Hapus mode pesawat dari Setelan Cepat
+
+Jika mode pesawat hanya sekali usap jauhnya, pencuri bisa memutus pelacakan dalam sedetik. Memindahkannya dari Setelan Cepat akan memperlambat mereka:
+
+1. Usap ke bawah untuk membuka Setelan Cepat.
+2. Ketuk ikon **edit (✏️)**.
+3. Seret ubin **Mode pesawat** keluar dari area yang terlihat.
+
+Kamu tetap bisa mengaktifkan mode pesawat dari setelan saat membutuhkannya.
+
+---
+
+## 4. Periksa ponselmu untuk opsi kunci "matikan daya"
+
+Beberapa produsen lain juga menyertakan pengaturan yang mewajibkan ponsel dibuka kuncinya sebelum bisa dimatikan. Nama dan letaknya berbeda antarmerek, jadi cara tercepat memeriksanya adalah **membuka Setelan dan mencari "matikan"**.
+
+---
+
+## 5. Foto pencuri sebelum mereka berhasil
+
+Pengaturan membuat ponselmu lebih sulit dimatikan, tetapi pencuri yang gigih mungkin tetap menemukan caranya. Di sinilah CrookCatcher membantu: pencuri hampir selalu mencoba membuka ponsel terlebih dahulu, dan saat itulah CrookCatcher bertindak.
+
+- Saat seseorang memasukkan **PIN, pola, atau sandi yang salah**, CrookCatcher mengambil foto dengan kamera depan.
+- Aplikasi mencatat **lokasi GPS** dan perkiraan alamat.
+- Aplikasi **mengirim email** berisi foto dan lokasi kepadamu segera.
+
+Jadi meski ponsel dimatikan semenit kemudian, foto pencuri dan lokasinya sudah ada di kotak masukmu. Kamu bisa membagikannya ke polisi.
+
+Dengan **CrookCatcher Pro**, kamu juga bisa merekam video dengan suara, menangkap sekitar dengan kamera belakang, mencadangkan semuanya ke Google Drive, dan menyembunyikan notifikasi CrookCatcher agar pencuri tidak sadar sudah tertangkap.
+
+<AppCta position="guide_mid" />
+
+---
+
+## Cara lain menjaga ponselmu tetap aman
+
+- **Aktifkan Hub Pencari (Find Hub)**, agar kamu bisa melacak, mengunci, atau menghapus ponselmu.
+- **Gunakan kunci layar yang kuat.** Sandi atau PIN 6 digit jauh lebih sulit ditebak daripada PIN 4 digit.
+- **Selalu perbarui ponselmu** untuk mendapatkan fitur keamanan terbaru.
+- **Waspada di tempat umum.** Banyak pencurian terjadi saat ponsel ada di tanganmu, misalnya saat melihat peta atau memotret.
+
+Untuk petunjuk langkah demi langkah, baca panduan kami tentang [5 pengaturan Android untuk mengamankan ponselmu dari pencurian](/id/blog/top_five_settings).
+
+---
+
+## Apa yang terjadi dengan pemblokiran menu daya CrookCatcher?
+
+Versi awal artikel ini menjelaskan fitur eksperimental CrookCatcher yang memblokir menu daya dan panel notifikasi di layar kunci. Karena tidak bisa bekerja andal di semua ponsel Android, dan Android serta produsen ponsel kini menawarkan perlindungan bawaan yang lebih baik, fitur tersebut dihentikan. Pengaturan di atas adalah cara yang direkomendasikan untuk melindungi ponselmu saat ini.
+
+Punya pertanyaan lain? Lihat [FAQ](/id/help).
+
+<AppCta position="guide_end" />

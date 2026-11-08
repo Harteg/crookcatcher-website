@@ -148,7 +148,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-right: auto;
+    margin-inline-end: auto;
     color: var(--color-body);
   }
 
@@ -196,7 +196,7 @@
   }
 
   .header-cta {
-    margin-left: 8px;
+    margin-inline-start: 8px;
     padding: 8px 16px;
     border-radius: 999px;
     background: var(--color-primary);
@@ -219,8 +219,8 @@
     justify-content: center;
     width: 40px;
     height: 40px;
-    margin-left: 4px;
-    margin-right: -8px;
+    margin-inline-start: 4px;
+    margin-inline-end: -8px;
     padding: 0;
     border: none;
     border-radius: 8px;
@@ -240,7 +240,7 @@
     }
 
     .header-cta {
-      margin-left: 4px;
+      margin-inline-start: 4px;
       padding: 8px 12px;
     }
 

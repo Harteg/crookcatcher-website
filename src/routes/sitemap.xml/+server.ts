@@ -32,16 +32,20 @@ export const GET: RequestHandler = async () => {
 	const localesForSlug = (slug: string) =>
 		postsByLocale.filter(({ posts }) => posts.some((p) => p.slug === slug)).map((x) => x.locale);
 
-	const translatedUrls = TRANSLATED_PAGES.flatMap(({ path, priority, changefreq }) =>
-		LOCALES.map(
+	// A locale's blog index only exists for search once it has a published guide.
+	const localesWithPosts = postsByLocale.filter((x) => x.posts.length).map((x) => x.locale);
+
+	const translatedUrls = TRANSLATED_PAGES.flatMap(({ path, priority, changefreq }) => {
+		const locales = path === '/blog' ? localesWithPosts : LOCALES;
+		return locales.map(
 			(locale) => `
 	<url>
-		<loc>${absoluteUrl(path, locale)}</loc>${alternates(path, LOCALES)}
+		<loc>${absoluteUrl(path, locale)}</loc>${alternates(path, locales)}
 		<changefreq>${changefreq}</changefreq>
 		<priority>${priority}</priority>
 	</url>`
-		)
-	).join('');
+		);
+	}).join('');
 
 	const postUrls = postsByLocale
 		.flatMap(({ locale, posts }) =>

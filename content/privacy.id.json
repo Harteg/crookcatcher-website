@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Kebijakan Privasi • Aplikasi Android CrookCatcher",
+    "description": "Kebijakan privasi CrookCatcher, aplikasi Android yang mengambil foto saat sandi yang salah dimasukkan.",
+    "canonical": "https://www.crookcatcher.app/id/privacy"
+  },
+  "hero": {
+    "eyebrow": "Hukum",
+    "title": "Kebijakan Privasi",
+    "lead": "CrookCatcher dirancang dengan mengutamakan privasimu. Begini cara kami menjaga datamu tetap aman dan pribadi."
+  },
+  "sections": [
+    {
+      "icon": "photo_camera",
+      "title": "Kamera",
+      "body": "<ul><li>CrookCatcher memakai izin kamera untuk mengambil foto dan merekam video saat sandi, kode PIN, atau pola kunci yang salah dimasukkan, berdasarkan jumlah percobaan yang kamu tentukan di pengaturan aplikasi pada preferensi 'Failed Unlock'.</li><li>CrookCatcher tidak akan mengambil foto atau merekam video di waktu lain, kecuali kamu mengaktifkan fitur tertentu lainnya di aplikasi.</li><li>Foto dan video dikirim ke emailmu jika fungsi email diaktifkan di pengaturan CrookCatcher. Lihat bagian Email di bawah untuk detailnya. Foto dan video juga dapat diunggah ke Google Drive jika kamu mengaktifkannya.</li><li>Selain itu, foto dan video hanya disimpan di perangkatmu dan tidak dibagikan kepada pengembang atau pihak ketiga mana pun.</li></ul>"
+    },
+    {
+      "icon": "location_on",
+      "title": "Lokasi",
+      "body": "<ul><li>Jika diaktifkan di pengaturan, CrookCatcher menemukan lokasi perangkatmu di latar belakang saat mengambil foto.</li><li>CrookCatcher tidak akan mengakses lokasimu di waktu lain.</li><li>Lokasi disimpan bersama foto dan dikirim ke emailmu jika fungsi email diaktifkan.</li><li>Data lokasimu tidak dibagikan kepada pengembang atau pihak ketiga mana pun.</li></ul>"
+    },
+    {
+      "icon": "mic",
+      "title": "Mikrofon",
+      "body": "<ul><li>Saat perekaman video diaktifkan, CrookCatcher akan mengakses mikrofon untuk merekam video.</li><li>Akses mikrofon hanya diberikan saat kamu mengaktifkan fitur ini dan hanya dipakai untuk merekam video.</li></ul>"
+    },
+    {
+      "icon": "mail",
+      "title": "Email",
+      "body": "<ul><li>CrookCatcher meminta kamu masuk dengan akun Gmail dan memberikan izin untuk 'mengirim email atas namamu'. Ini menghindari pengiriman data sensitif lewat server pihak ketiga. Untuk mencabut izin ini, kunjungi <a href=\"https://myaccount.google.com/permissions\">https://myaccount.google.com/permissions</a>.</li><li>Ini tidak memberi CrookCatcher akses untuk membaca emailmu, mengelola kontak, atau melakukan tindakan lain.</li><li>Email hanya dikirim ke alamat yang ditentukan di pengaturan 'Send email to' dan hanya saat kondisi tertentu terpenuhi, yang kamu tentukan di aplikasi.</li><li>Kamu selalu bisa melihat di akun Gmail-mu email apa saja yang telah dikirim CrookCatcher.</li><li>Alamat emailmu tidak dibagikan kepada pengembang atau pihak ketiga mana pun.</li></ul>"
+    },
+    {
+      "icon": "insights",
+      "title": "Statistik Penggunaan dan Laporan Error",
+      "body": "<p>CrookCatcher melacak data penggunaan anonim dan laporan error memakai Firebase Analytics untuk meningkatkan kinerja dan memperbaiki bug. Kamu bisa menolaknya dengan menghapus centang sebuah opsi di bagian bawah menu pengaturan CrookCatcher.</p>"
+    },
+    {
+      "icon": "lock",
+      "title": "Keamanan Data",
+      "body": "<p>Kami menghargai kepercayaanmu dan berkomitmen melindungi datamu. Semua data yang dikumpulkan disimpan dengan aman di perangkatmu atau dikirim langsung kepadamu lewat email jika diaktifkan. Tidak ada data pribadi yang dikirim ke pihak ketiga untuk iklan atau tujuan lainnya.</p>"
+    },
+    {
+      "icon": "update",
+      "title": "Perubahan pada Kebijakan Privasi Ini",
+      "body": "<p>Kebijakan privasi ini berlaku untuk versi CrookCatcher terbaru. Kami dapat memperbarui Kebijakan Privasi dari waktu ke waktu. Kamu disarankan meninjau halaman ini secara berkala untuk melihat perubahan. Perubahan berlaku segera setelah dipublikasikan di halaman ini.</p>"
+    }
+  ],
+  "note": "<p>Data hanya dipakai agar CrookCatcher dapat berfungsi dan berkembang. Tidak ada data pribadi yang dikirim ke pihak ketiga mana pun untuk iklan atau tujuan lainnya.</p><p>CrookCatcher mematuhi <a href=\"https://developers.google.com/terms/api-services-user-data-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Kebijakan Data Pengguna Resmi untuk Layanan Google API</a>.</p>"
+}

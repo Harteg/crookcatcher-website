@@ -3,7 +3,7 @@
   import { playStoreUrl, playTracking, trackPlayClick } from '$lib/play-store';
 
   // Official badges we have in static/images/play_badges; anything else falls back to English.
-  const BADGES = ['en', 'fr'];
+  const BADGES = ['en', 'fr', 'de', 'es', 'pt', 'ar', 'id'];
 
   /** Where the button sits (hero, testimonials, ...); the Play campaign outside guides. */
   export let position: string | undefined = undefined;

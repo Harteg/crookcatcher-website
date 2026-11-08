@@ -59,8 +59,8 @@
   .testimonial-card {
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
-    border-left: 2px solid var(--color-card-border);
+    padding-inline-start: 20px;
+    border-inline-start: 2px solid var(--color-card-border);
     color: var(--color-body);
   }
 
