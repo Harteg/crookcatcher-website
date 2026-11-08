@@ -1,0 +1,126 @@
+---
+title: Cara Melihat Siapa yang Mencoba Membuka Ponselmu (dan Mendapatkan Fotonya)
+subtitle: Ambil selfie penyusup saat seseorang memasukkan PIN, pola, atau sandi yang salah
+dateUpdated: '2026-10-23'
+datePublished: '2026-09-28'
+description: "Android tidak menunjukkan siapa yang mencoba membuka ponselmu. Berikut cara otomatis memotret siapa pun yang memasukkan PIN, pola, atau sandi yang salah, dan menerimanya lewat email beserta lokasinya."
+image: '/images/blog/who-tried-to-unlock-header.png'
+imageAlt: 'Ponsel yang menampilkan percobaan pola kunci yang salah di samping email peringatan CrookCatcher dengan foto penyusup dan lokasi'
+published: true
+---
+
+<script>
+  import Features from '$lib/components/Features.svelte';
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Android tidak bisa menunjukkan siapa yang mencoba membuka ponselmu.** Android tidak menyimpan catatan percobaan yang gagal dan tidak pernah mengambil foto. Untuk mengetahui siapa pelakunya, kamu butuh aplikasi yang mengambil gambar saat seseorang memasukkan PIN, pola, atau sandi yang salah, sering disebut *selfie penyusup*. CrookCatcher melakukannya secara gratis dan mengirimkan fotonya ke emailmu beserta lokasinya.
+
+Mungkin ponselmu berpindah tempat saat kamu pergi. Mungkin kamu melihat pesan "Coba lagi dalam 30 detik" yang bukan ulahmu. Atau kamu hanya ingin tahu apakah ada yang mencoba masuk ke ponselmu. Berikut yang bisa kamu periksa dan cara mengaturnya.
+
+## Bisakah Android menunjukkan siapa yang mencoba membuka ponselmu?
+
+Tidak secara default. Saat seseorang memasukkan PIN, pola, atau sandi yang salah, Android hanya menolaknya. Setelah beberapa kali salah, Android membuat orang itu menunggu sebelum mencoba lagi, tetapi tidak menyimpan log yang bisa kamu periksa nanti, dan tidak pernah memakai kamera. Berikut [yang persisnya dilakukan Android terhadap percobaan buka kunci yang gagal](/id/blog/failed-unlock-attempts-android).
+
+Sebagian produsen ponsel menyertakan opsi serupa "foto penyusup" di kunci aplikasi bawaan mereka. Biasanya ini hanya melindungi aplikasi tertentu, bukan layar kunci itu sendiri, sehingga tidak akan menangkap orang yang mencoba masuk ke ponselmu sejak awal.
+
+Untuk melihat siapa yang mencoba membuka ponselmu, kamu butuh aplikasi yang mengawasi layar kunci dan bereaksi terhadap percobaan yang gagal.
+
+Punya Samsung Galaxy? Lihat [cara melihat siapa yang mencoba membuka ponsel Samsung-mu](/id/blog/samsung-who-tried-to-unlock) untuk pengaturan Samsung sendiri dan aturan penguncian.
+
+## Cara memotret orang yang memasukkan sandi salah
+
+Berikut cara mengaturnya dengan CrookCatcher. Hanya butuh beberapa menit, dan kamu tidak perlu membuat akun.
+
+1. **Pasang CrookCatcher** dari <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsee-who-tried-to-unlock-your-phone-id' target="_blank" rel="noopener noreferrer">Google Play</a>.
+2. **Izinkan Admin Perangkat.** Ini adalah izin Android yang memungkinkan aplikasi mengetahui saat pembukaan kunci gagal. CrookCatcher hanya memakainya untuk itu.
+3. **Izinkan akses kamera dan lokasi**, agar aplikasi bisa mengambil foto dan mencatat di mana kejadiannya.
+4. **Hubungkan akun Gmail** untuk email peringatan. CrookCatcher hanya bisa *mengirim* email darinya; tidak bisa membaca, menghapus, atau mengubah apa pun di kotak masukmu. Kamu bisa membuat akun Gmail terpisah khusus untuk ini, atau melewatkan email sama sekali dan hanya menyimpan foto di ponsel.
+5. **Uji coba.** Kunci ponselmu, masukkan PIN yang salah dengan sengaja, lalu buka kuncinya. Kamu akan melihat wajahmu sendiri (yang mungkin kebingungan) di aplikasi dan di kotak masukmu. 😄
+
+Selesai. Mulai sekarang, setiap kali seseorang memasukkan PIN, pola, atau sandi yang salah, CrookCatcher diam-diam menjalankan tugasnya di latar belakang.
+
+## Yang kamu dapatkan saat seseorang mencoba membuka ponselmu
+
+Setiap kali percobaan buka kunci gagal, kamu mendapatkan:
+
+- **Foto dari kamera depan** orang yang memegang ponsel
+- **Lokasi GPS** dan perkiraan alamat tempat kejadian
+- **Waktu** percobaan
+- **Email peringatan** berisi semua hal di atas, sehingga kamu tetap memilikinya meski ponselnya hilang
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-id.webp" width="990" height="1024" loading="lazy" alt="Email peringatan CrookCatcher dengan foto penyusup, waktu percobaan, dan peta lokasi" />
+  <figcaption>Email yang dikirim CrookCatcher setelah percobaan buka kunci yang gagal.</figcaption>
+</figure>
+
+Semua foto juga disimpan di aplikasi, tempat kamu bisa melihat setiap percobaan beserta waktu dan lokasinya.
+
+Dengan **CrookCatcher Pro**, kamu juga bisa merekam video dengan suara, memotret sekitar dengan kamera belakang, mengunggah semuanya ke Google Drive secara otomatis, dan menangkap orang yang *berhasil menebak PIN-mu* setelah percobaan gagal (deteksi pembobolan).
+
+## Tanda-tanda lain seseorang memakai ponselmu
+
+Foto adalah bukti paling jelas, tetapi hal-hal ini juga bisa menunjukkan seseorang pernah memakai ponselmu:
+
+- **Aplikasi yang baru dibuka** padahal kamu tidak memakainya (buka pengalih aplikasi)
+- **Pesan atau notifikasi yang ditandai sudah dibaca** padahal belum kamu lihat
+- **Aktivitas akun Google** yang tidak kamu kenali, di <a href="https://myactivity.google.com" target="_blank" rel="noopener noreferrer">myactivity.google.com</a>
+- **Ponsel berada di tempat atau posisi berbeda** dari saat kamu meninggalkannya
+
+Jika kamu menemukan salah satunya, memasang aplikasi selfie penyusup adalah cara termudah untuk mengetahui siapa pelakunya lain kali.
+
+## Apa yang harus dilakukan jika itu pencuri
+
+Jika foto menunjukkan orang asing, atau ponselmu hilang:
+
+1. **Jangan menghadapi orangnya sendiri.** Keselamatanmu lebih penting daripada ponsel.
+2. **Laporkan ke polisi** dan sertakan foto, waktu, dan lokasi dari email peringatan.
+3. **Gunakan Hub Pencari milik Google (Find Hub)** untuk melacak, mengunci, atau menghapus ponsel.
+4. **Hubungi operator selulermu** untuk memblokir kartu SIM dan IMEI ponsel.
+
+Agar ponselmu lebih sulit dicuri sejak awal, baca panduan kami tentang [5 pengaturan Android untuk mengamankan ponselmu dari pencurian](/id/blog/top_five_settings).
+
+## Pakai hanya di ponselmu sendiri
+
+CrookCatcher dibuat untuk melindungi ponsel *kamu*. Pasang hanya di perangkat milikmu. Memantau ponsel orang lain secara diam-diam bukan tujuan aplikasi ini, dan di banyak negara itu ilegal.
+
+## Apakah CrookCatcher gratis?
+
+Ya, fitur terpenting gratis: foto penyusup, lokasi, dan email peringatan. **CrookCatcher Pro** menambahkan video, kamera belakang, cadangan Google Drive, deteksi pembobolan, alarm, layar beranda palsu, dan lainnya. Harganya tergantung negaramu, jadi lihat di aplikasi. Berikut perbandingan lengkapnya:
+
+<Features />
+
+<AppCta position="guide_mid" />
+
+## Pertanyaan yang Sering Diajukan
+
+### Q: Apa itu selfie penyusup?
+A: Selfie penyusup adalah foto yang diambil otomatis dengan kamera depan saat seseorang memasukkan PIN, pola, atau sandi yang salah di ponselmu. Orang itu biasanya menatap langsung ke layar, jadi foto menampilkan wajahnya. Android tidak bisa melakukannya sendiri; aplikasi selfie penyusup seperti CrookCatcher yang melakukannya dan mengirim fotonya ke emailmu.
+
+### Q: Bisakah ponselku memotret orang yang memasukkan sandi salah?
+A: Tidak dengan sendirinya. Android tidak punya pengaturan untuk itu, dan opsi "foto penyusup" di kunci aplikasi sebagian produsen hanya mencakup aplikasi tertentu, bukan layar kunci. Dengan CrookCatcher terpasang, PIN, pola, atau sandi yang salah (setelah jumlah percobaan yang kamu pilih) memicu foto yang disimpan beserta waktu dan lokasi.
+
+### Q: Apakah bisa dengan kunci pola, PIN, dan sandi?
+A: Ya. CrookCatcher bereaksi terhadap PIN, pola, atau sandi yang salah. Percobaan sidik jari atau buka kunci wajah yang gagal tidak memicunya, dan aplikasi tidak bekerja dengan kamera pop-up.
+
+### Q: Apakah orangnya tahu dirinya difoto?
+A: CrookCatcher bekerja di latar belakang tanpa menampilkan pratinjau kamera. Di Android 13 dan yang lebih baru, Android menampilkan indikator kecil saat kamera dipakai, yang merupakan fitur sistem yang tidak bisa disembunyikan aplikasi.
+
+### Q: Apakah saya perlu akun?
+A: Tidak. Tidak ada pendaftaran. Kamu hanya menghubungkan akun Gmail jika ingin menerima email peringatan.
+
+### Q: Siapa yang bisa melihat fotoku?
+A: Hanya kamu. Peringatan dikirim dari akun Gmail milikmu sendiri, dan pengembang tidak pernah melihat fotomu. Baca selengkapnya di [kebijakan privasi](/id/privacy).
+
+### Q: Apakah menguras baterai?
+A: Tidak. CrookCatcher hanya aktif saat percobaan buka kunci gagal, jadi pemakaian baterainya minimal.
+
+### Q: Apakah ada versi iPhone?
+A: Tidak. iPhone tidak mengizinkan aplikasi mendeteksi percobaan buka kunci yang gagal, jadi CrookCatcher hanya tersedia untuk Android.
+
+### Q: Apakah tetap bekerja setelah ponsel dimulai ulang?
+A: Ya, setelah kamu membuka kunci ponsel sekali setelah dimulai ulang. Sebelum itu, Android tidak mengizinkan aplikasi bereaksi terhadap percobaan buka kunci.
+
+Punya pertanyaan lain? Lihat [FAQ](/id/help).
+
+<AppCta position="guide_end" />

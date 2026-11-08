@@ -1,0 +1,123 @@
+---
+title: Kann man fehlgeschlagene Entsperrversuche unter Android sehen? (2026)
+subtitle: Was Android bei einer falschen PIN aufzeichnet und wie du herausfindest, wer es war
+dateUpdated: '2026-10-23'
+datePublished: '2026-10-23'
+description: "Android führt keine Liste der fehlgeschlagenen Entsperrversuche und zeigt nicht, wer sie gemacht hat. Es zählt falsche Eingaben nur, um das Handy immer länger zu sperren. Hier steht genau, was Android tut und wie du stattdessen ein Foto der Person bekommst."
+image: '/images/blog/failed-unlock-attempts-android-header-de.png'
+imageAlt: 'Kann man fehlgeschlagene Entsperrversuche unter Android sehen? Android zählt nur die Fehlversuche. CrookCatcher zeigt dir, wer sie gemacht hat.'
+published: true
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Nein. Android führt keine Liste der fehlgeschlagenen Entsperrversuche und zeigt nie, wer sie gemacht hat.** Falsche Eingaben von PIN, Muster und Passwort werden nur gezählt, damit die Person vor dem nächsten Versuch länger warten muss. Sobald das Handy entsperrt ist, gibt es nichts zum Nachschauen: keine Liste, keine Uhrzeit, kein Foto. Um fehlgeschlagene Versuche zu sehen, brauchst du eine App, die bei jedem misslungenen Entsperren benachrichtigt wird, zum Beispiel [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-de). Die App macht ein Foto der Person und schickt es dir mit dem Standort per E-Mail.
+
+## Was Android bei einer falschen PIN tut
+
+Jede falsche Eingabe wird gezählt, und nach einigen Versuchen muss die Person auf dem Sperrbildschirm warten. In neueren Android-Versionen (ab Android 16 QPR2) sieht der von Google veröffentlichte Ablauf so aus:
+
+| Falsche Eingaben | Wartezeit bis zum nächsten Versuch |
+| --- | --- |
+| 1 bis 4 | Keine |
+| 5 | 1 Minute |
+| 6 | 5 Minuten |
+| 7 | 15 Minuten |
+| 8 | 30 Minuten |
+| 10 | 4 Stunden |
+| 12 | 36 Stunden |
+| 15 | 41 Tage |
+| 20 | Keine weiteren Versuche möglich |
+
+Laut Google gelten unter Android 17 standardmäßig noch strengere Grenzen, und Handyhersteller können eigene festlegen. One UI 9 von Samsung sperrt ein Handy bei der 13. falschen Eingabe dauerhaft. Danach lässt es sich nur noch nach einem Zurücksetzen auf Werkseinstellungen nutzen.
+
+Zwei weitere Dinge haben sich zuletzt geändert:
+
+- **Wiederholte gleiche falsche PINs zählen auf vielen neueren Handys nicht erneut.** Android und Samsung überspringen identische falsche Eingaben, ein Kind, das immer wieder 1111 tippt, sperrt dich also nicht aus.
+- **Die Displaysperre bei fehlgeschlagener Authentifizierung** (ab Android 15, standardmäßig aktiviert) sperrt den Bildschirm, wenn die Authentifizierung wiederholt fehlschlägt.
+
+Nichts davon wird dir später angezeigt. Der Zähler dient nur dazu, die Sperrzeiten zu berechnen.
+
+## Die einzigen Hinweise, die Android dir gibt
+
+Wenn jemand in deiner Abwesenheit versucht hat, dein Handy zu entsperren, fällt dir vielleicht Folgendes auf:
+
+- **Eine Meldung wie „Erneut versuchen in …“** auf dem Sperrbildschirm, wenn du das Handy in die Hand nimmst.
+- **Eine Warnung zu den verbleibenden Versuchen.** Samsung-Handys mit One UI 9 zeigen sie an, sobald jemand sich dem Limit nähert.
+
+Diese Hinweise sagen dir, dass *etwas* passiert ist. Sie sagen nicht, wann, wie oft oder wer.
+
+## Was Android dir nicht verrät
+
+- **Wer es war.** Kein Foto, kein Name.
+- **Wann es passiert ist** und wie viele Versuche es gab.
+- **Wo das Handy war.**
+- **Eine Warnung in dem Moment, in dem es passiert.** Du erfährst es nur, wenn dir die Hinweise oben auffallen.
+
+## So siehst du, wer dein Handy entsperren wollte
+
+Android lässt Apps durchaus von fehlgeschlagenen Versuchen erfahren. Eine App, der du die Berechtigung **Geräteadministrator** gibst, wird vom System bei jeder falschen Eingabe von PIN, Muster oder Passwort benachrichtigt. Genau das nutzt CrookCatcher.
+
+Wenn ein Entsperrversuch fehlschlägt, macht CrookCatcher Folgendes:
+
+- Es macht ein Foto mit der Frontkamera.
+- Es erfasst den GPS-Standort und eine ungefähre Adresse.
+- Es speichert alles mit der Uhrzeit in der App.
+- Es schickt dir alles per E-Mail, damit du es auch dann hast, wenn das Handy weg ist.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-de.webp" width="990" height="1024" loading="lazy" alt="CrookCatcher-Warn-E-Mail mit dem Foto des Eindringlings, der Uhrzeit des Versuchs und einer Karte mit dem Standort" />
+  <figcaption>Die E-Mail, die CrookCatcher nach einem fehlgeschlagenen Entsperrversuch sendet.</figcaption>
+</figure>
+
+Du legst fest, wie viele falsche Eingaben nötig sind, bevor CrookCatcher aktiv wird. Die App wurde seit 2014 mehr als 12 Millionen Mal heruntergeladen und macht rund 1,2 Millionen Fotos von Eindringlingen pro Tag. Die Einrichtung dauert ein paar Minuten, ein Konto brauchst du nicht. Die Schritt-für-Schritt-Anleitung findest du unter [so siehst du, wer dein Handy entsperren wollte](/de/blog/see-who-tried-to-unlock-your-phone).
+
+<AppCta position="guide_mid" />
+
+## Aktiviere auch den Schutz von Android
+
+CrookCatcher zeigt dir, wer es versucht hat. Der Diebstahlschutz von Android macht es ihm schwerer, Erfolg zu haben. Aktiviere beides.
+
+**Gehe zu:**
+`Einstellungen > Google > Alle Dienste > Diebstahlschutz`
+
+Prüfe, ob **Displaysperre bei fehlgeschlagener Authentifizierung**, **Diebstahl-Displaysperre** und **Offline-Gerätesperre** aktiviert sind. Wenn eine Einstellung ausgegraut ist, unterstützt dein Handy sie nicht. Die vollständige Liste findest du in den [5 Android-Einstellungen, die dein Handy vor Diebstahl schützen](/de/blog/top_five_settings).
+
+## Häufig gestellte Fragen
+
+### Q: Gibt es unter Android ein Protokoll der fehlgeschlagenen Entsperrversuche?
+A: Nein. Android führt nur einen Zähler für die Sperrzeit, und der wird nirgends angezeigt. Für ein Protokoll brauchst du eine App wie CrookCatcher, die jeden Versuch mit Foto, Uhrzeit und Standort speichert.
+
+### Q: Wie oft kann man unter Android eine falsche PIN eingeben?
+A: In neueren Android-Versionen gibt es bei den ersten 4 falschen Eingaben keine Wartezeit. Danach wachsen die Wartezeiten von 1 Minute auf mehrere Tage, und nach 20 falschen Eingaben sind keine weiteren möglich. Samsung-Handys mit One UI 9 sperren bei der 13. falschen Eingabe dauerhaft.
+
+### Q: Löscht sich mein Handy nach zu vielen Fehlversuchen von selbst?
+A: Auf den meisten Handys standardmäßig nicht. Einige Samsung-Handys haben eine optionale Einstellung zum automatischen Zurücksetzen auf Werkseinstellungen, die das Handy nach einer bestimmten Zahl falscher Eingaben löscht. Wenn einem Handy die Versuche ausgehen, ist laut den Hilfeseiten von Google der einzige Weg zurück, es zu löschen.
+
+### Q: Zählt es doppelt, wenn ich dieselbe falsche PIN zweimal eingebe?
+A: Auf vielen neueren Handys nicht. Android 16 QPR2 und neuer sowie One UI 9 von Samsung ignorieren wiederholte identische falsche Eingaben, damit du dich nicht versehentlich aussperrst.
+
+### Q: Kann eine App fehlgeschlagene Entsperrversuche sehen?
+A: Ja, wenn du ihr die Erlaubnis gibst. Android benachrichtigt Apps mit der Berechtigung „Geräteadministrator“ bei jedem fehlgeschlagenen Entsperrversuch. So weiß CrookCatcher, wann es ein Foto machen soll. Die App nutzt die Berechtigung nur dafür.
+
+### Q: Zählen auch fehlgeschlagene Versuche mit Fingerabdruck oder Gesichtserkennung?
+A: CrookCatcher reagiert auf eine falsche PIN, ein falsches Muster oder Passwort, nicht auf fehlgeschlagene Versuche mit Fingerabdruck oder Gesichtserkennung.
+
+## Quellen
+
+- Google, Android-Hilfe: [Ihre privaten Daten vor Diebstahl schützen](https://support.google.com/android/answer/15146908?hl=de)
+- Android Open Source Project: [Lockscreen rate limiting](https://source.android.com/docs/security/features/authentication/rate-limiting) (auf Englisch)
+- Google, The Keyword: [New Android theft protection feature updates](https://blog.google/security/android-theft-protection-feature-updates/) (Januar 2026, auf Englisch)
+- Samsung: [Änderungen der Sicherheitsrichtlinien für den Sperrbildschirm von One UI 9.0](https://www.samsung.com/at/support/mobile-devices/one-ui-9-sperrbilschirm-sicherheitsrichtlinie/)
+- Google, Pixel-Hilfe: [Google Pixel kann nicht entsperrt werden](https://support.google.com/pixelphone/answer/3388218?hl=de)
+- Android Developers: [DeviceAdminReceiver](https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver) (wie Apps über fehlgeschlagene Versuche informiert werden, auf Englisch)
+
+## Weitere Ratgeber
+
+- [So siehst du, wer dein Handy entsperren wollte (und bekommst sein Foto)](/de/blog/see-who-tried-to-unlock-your-phone)
+- [So siehst du, wer dein Samsung-Handy entsperren wollte](/de/blog/samsung-who-tried-to-unlock)
+- [5 Android-Einstellungen, die dein Handy vor Diebstahl schützen](/de/blog/top_five_settings)
+
+<AppCta position="guide_end" />

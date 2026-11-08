@@ -28,7 +28,14 @@ const QUALITY = '82';
 const EXTRA_IMAGES = ['/images/hero-alert.png'];
 
 function publishedPostImages() {
-	const dirs = ['src/blog/posts', 'src/blog/posts/pt', 'src/blog/posts/fr', 'src/blog/posts/es'].map((d) => join(ROOT, d));
+	// English posts plus every language folder (pt, fr, es, de, ar, id, ...).
+	const postsDir = join(ROOT, 'src/blog/posts');
+	const dirs = [
+		postsDir,
+		...readdirSync(postsDir, { withFileTypes: true })
+			.filter((entry) => entry.isDirectory())
+			.map((entry) => join(postsDir, entry.name))
+	];
 	const images = new Set();
 	for (const dir of dirs.filter(existsSync)) {
 		for (const file of readdirSync(dir).filter((f) => f.endsWith('.svx'))) {

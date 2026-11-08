@@ -1,0 +1,124 @@
+---
+title: Cara Melihat Siapa yang Mencoba Membuka Pixel-mu (2026)
+subtitle: Apa yang dicatat Google Pixel setelah PIN salah, dan cara mendapatkan foto orangnya
+dateUpdated: '2026-10-21'
+datePublished: '2026-10-21'
+description: "Ponsel Google Pixel tidak menunjukkan siapa yang mencoba membukanya dan tidak menyimpan catatan percobaan PIN yang salah. Berikut yang dilakukan Pixel-mu setelah percobaan gagal, pengaturan perlindungan pencurian yang perlu diaktifkan, dan cara mendapatkan foto orangnya lewat email."
+image: '/images/blog/pixel-who-tried-to-unlock-header-id.png'
+imageAlt: 'Cara melihat siapa yang mencoba membuka Pixel-mu: ponsel Pixel menghitung tebakan salah tetapi tidak pernah menunjukkan pelakunya. CrookCatcher memotret orangnya.'
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Google Pixel tidak bisa menunjukkan siapa yang mencoba membukanya.** Android menghitung tebakan PIN, pola, dan sandi yang salah hanya agar orang itu menunggu sebelum mencoba lagi. Tidak ada daftar percobaan, tidak ada waktu, dan tidak ada foto. Untuk mengetahui siapa pelakunya, pasang aplikasi yang diberi tahu saat pembukaan kunci gagal, seperti [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-id). Aplikasi ini memotret dengan kamera depan setelah PIN salah dan mengirimnya ke emailmu beserta lokasinya.
+
+## Apa yang dilakukan Pixel-mu setelah PIN salah
+
+Pixel mendapat versi Android baru lebih dulu. Pada Android 16 QPR2 ke atas, waktu tunggu yang dipublikasikan Google seperti ini:
+
+| Tebakan salah | Waktu tunggu sebelum percobaan berikutnya |
+| --- | --- |
+| 1 sampai 4 | Tidak ada |
+| 5 | 1 menit |
+| 6 | 5 menit |
+| 8 | 30 menit |
+| 10 | 4 jam |
+| 12 | 36 jam |
+| 15 | 41 hari |
+| 20 | Tidak boleh mencoba lagi |
+
+Menurut Google, Android 17 lebih ketat lagi. Beberapa hal lain yang perlu diketahui:
+
+- **Memasukkan PIN salah yang sama berulang kali tidak dihitung lagi**, jadi anak yang mengetuk kode yang sama tidak akan menghabiskan percobaanmu.
+- **Di Android 17, layar kunci menampilkan tautan** (g.co/android/unlock) berisi opsi pemulihan yang bisa dibuka di perangkat lain.
+- **Jika kamu sama sekali tidak bisa membuka Pixel-mu, ponsel harus dihapus.** Setelah itu kamu bisa memulihkan data dari cadangan Akun Google, jika kamu tahu PIN atau pola yang dipakai saat cadangan dibuat.
+
+Pesan "Coba lagi dalam…" adalah satu-satunya tanda bahwa seseorang mencoba. Pesan itu tidak menyebutkan siapa, kapan, atau berapa kali.
+
+## Pengaturan Pixel yang layak diaktifkan
+
+Pengaturan ini tidak menunjukkan siapa yang mencoba, tetapi membuat Pixel-mu jauh lebih sulit dimasuki atau dibawa pergi.
+
+### Perlindungan dari pencurian
+
+**Buka:**
+`Setelan > Google > Semua layanan > Perlindungan dari pencurian`
+
+- **Kunci Deteksi Pencurian:** mengunci layar jika Pixel-mu mendeteksi bahwa ponsel direbut.
+- **Kunci Perangkat Offline:** mengunci layar tak lama setelah ponsel offline, agar pencuri tidak bisa mencegahnya ditemukan.
+- **Kunci Autentikasi Gagal:** mengunci layar saat percobaan buka kunci gagal berulang kali. Aktif secara default; di Android 16 ke atas, ia punya tombol sendiri.
+- **Cek Identitas:** di luar tempat tepercaya, tindakan sensitif seperti mengubah kunci layar atau mematikan Hub Pencari (Find Hub) memerlukan sidik jari atau wajahmu.
+
+### Kunci Jarak Jauh dan Hub Pencari
+
+- **Kunci Jarak Jauh** memungkinkan kamu mengunci Pixel-mu dari browser mana pun di [android.com/lock](https://www.android.com/lock) hanya dengan nomor teleponmu. Aktifkan di **Perlindungan dari pencurian > Kunci Jarak Jauh**. Kamu bisa menambahkan pertanyaan keamanan agar tidak ada orang lain yang bisa memakainya.
+- **Hub Pencari** (Find Hub) menunjukkan di mana Pixel-mu berada dan memungkinkan kamu membunyikan, mengunci, atau menghapusnya. Pastikan fitur ini aktif sebelum kamu membutuhkannya.
+
+Untuk pengaturan lainnya, lihat [5 pengaturan Android untuk mengamankan ponselmu dari pencurian](/id/blog/top_five_settings).
+
+## Yang tidak bisa diberitahukan Pixel-mu
+
+- **Siapa yang mencoba.** Tidak ada foto orangnya.
+- **Kapan kejadiannya**, atau berapa kali.
+- **Di mana ponselnya berada** saat itu.
+- **Peringatan saat kejadian berlangsung.**
+
+## Cara mendapatkan foto siapa pun yang mencoba membuka Pixel-mu
+
+CrookCatcher mengisi persis celah itu. Android memberi tahu aplikasi yang memiliki izin **Admin perangkat** setiap kali pembukaan kunci gagal. CrookCatcher memakainya untuk mengambil foto dengan kamera depan, mencatat lokasi dan perkiraan alamat, lalu mengirim keduanya ke emailmu. Setiap percobaan juga disimpan di aplikasi beserta waktunya.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-id.webp" width="990" height="1024" loading="lazy" alt="Email peringatan CrookCatcher dengan foto penyusup, waktu percobaan, dan peta lokasi" />
+  <figcaption>Email yang dikirim CrookCatcher setelah percobaan buka kunci yang gagal.</figcaption>
+</figure>
+
+**Cara mengaturnya di Pixel-mu:**
+
+1. **Pasang CrookCatcher** dari <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-id" target="_blank" rel="noopener noreferrer">Google Play</a>. Tidak perlu membuat akun.
+2. **Izinkan Admin perangkat.** CrookCatcher memakai izin ini hanya untuk mengetahui kapan pembukaan kunci gagal.
+3. **Izinkan akses kamera dan lokasi.**
+4. **Hubungkan akun Gmail** untuk email peringatan. CrookCatcher hanya bisa *mengirim* email darinya, tidak membacanya.
+5. **Uji coba.** Kunci Pixel-mu, masukkan PIN yang salah dengan sengaja, lalu buka kuncinya. Fotomu sendiri akan muncul di aplikasi dan kotak masukmu.
+
+Kamu yang menentukan berapa kali percobaan salah sebelum CrookCatcher bertindak. Sejak 2014, CrookCatcher sudah diunduh lebih dari 12 juta kali dan mengambil sekitar 1,2 juta foto penyusup per hari.
+
+<AppCta position="guide_mid" />
+
+## Pertanyaan yang Sering Diajukan
+
+### Q: Bisakah Pixel menampilkan percobaan buka kunci yang gagal?
+A: Tidak. Pixel-mu menghitung tebakan salah hanya untuk mengatur waktu penguncian, dan tidak pernah menampilkannya. Untuk menyimpan catatan beserta foto, waktu, dan lokasi, kamu butuh aplikasi seperti CrookCatcher.
+
+### Q: Berapa kali PIN salah yang diizinkan Pixel?
+A: Pada versi Android terbaru, 4 tebakan salah pertama tidak ada waktu tunggu, lalu waktu tunggu bertambah dari 1 menit hingga berhari-hari. Setelah 20 tebakan salah tidak boleh mencoba lagi. Android 17 lebih ketat.
+
+### Q: Bagaimana jika aku terkunci dari Pixel-ku sendiri?
+A: Satu-satunya opsi dari Google adalah menghapusnya, baik dari jarak jauh dengan Hub Pencari maupun dengan tombol di Mode Pemulihan. Setelah itu kamu bisa memulihkan dari cadangan Akun Google jika kamu tahu PIN atau pola dari saat cadangan dibuat.
+
+### Q: Apakah Pixel punya fitur foto penyusup?
+A: Tidak. Perlindungan pencurian Pixel mengunci ponsel setelah percobaan gagal atau perampasan, tetapi tidak memotret orangnya atau menyimpan daftar percobaan.
+
+### Q: Apakah CrookCatcher bekerja dengan sidik jari dan Face Unlock di Pixel?
+A: Ya, kamu tetap bisa memakainya. CrookCatcher bereaksi terhadap PIN, pola, atau sandi yang salah. Percobaan sidik jari atau wajah yang gagal tidak memicunya.
+
+### Q: Apakah orangnya akan melihat bahwa dirinya difoto?
+A: CrookCatcher bekerja di latar belakang tanpa pratinjau kamera. Pixel-mu menampilkan indikator kecil saat kamera dipakai; itu fitur sistem yang tidak bisa disembunyikan aplikasi.
+
+## Sumber
+
+- Google, Bantuan Android: [Melindungi data pribadi Anda dari pencurian](https://support.google.com/android/answer/15146908?hl=id)
+- Android Open Source Project: [Lockscreen rate limiting](https://source.android.com/docs/security/features/authentication/rate-limiting) (dalam bahasa Inggris)
+- Google, The Keyword: [New Android theft protection feature updates](https://blog.google/security/android-theft-protection-feature-updates/) (Januari 2026, dalam bahasa Inggris)
+- Google, Bantuan Pixel: [Tidak dapat membuka kunci ponsel Pixel](https://support.google.com/pixelphone/answer/3388218?hl=id)
+- Android Developers: [DeviceAdminReceiver](https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver) (cara aplikasi diberi tahu tentang percobaan yang gagal, dalam bahasa Inggris)
+
+## Panduan terkait
+
+- [Cara melihat siapa yang mencoba membuka ponselmu (dan mendapatkan fotonya)](/id/blog/see-who-tried-to-unlock-your-phone)
+- [5 pengaturan Android untuk mengamankan ponselmu dari pencurian](/id/blog/top_five_settings)
+- [Cara mencegah pencuri mematikan ponselmu](/id/blog/block-power-menu)
+
+<AppCta position="guide_end" />

@@ -1,0 +1,129 @@
+---
+title: So siehst du, wer dein Samsung-Handy entsperren wollte (2026)
+subtitle: Was Galaxy-Handys nach einer falschen PIN aufzeichnen und wie du ein Foto der Person bekommst
+dateUpdated: '2026-10-22'
+datePublished: '2026-10-22'
+description: "Samsung-Galaxy-Handys zeigen nicht, wer sie entsperren wollte, und führen keine Liste falscher PIN-Eingaben. Hier steht, was One UI bei Fehlversuchen tut, welche Samsung-Einstellungen sich lohnen und wie du per E-Mail ein Foto der Person bekommst."
+image: '/images/blog/samsung-who-tried-to-unlock-header-de.png'
+imageAlt: 'So siehst du, wer dein Samsung-Handy entsperren wollte: Galaxy-Handys zählen falsche Eingaben, zeigen aber nie, wer sie gemacht hat. CrookCatcher macht ein Foto der Person.'
+published: true
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Samsung-Galaxy-Handys können dir nicht zeigen, wer sie entsperren wollte.** One UI zählt falsche Eingaben von PIN, Muster und Passwort nur, um das Handy immer länger zu sperren. Es führt keine Liste, die du ansehen kannst, und macht nie ein Foto. Um zu sehen, wer es war, installierst du eine App, die auf fehlgeschlagenes Entsperren reagiert, zum Beispiel [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-de). Die App macht nach einer falschen PIN ein Foto mit der Frontkamera und schickt es dir mit dem Standort per E-Mail.
+
+## Was dein Samsung nach einer falschen PIN tut
+
+Samsungs neueste Richtlinie für den Sperrbildschirm (One UI 9) lässt die Person nach jeder falschen Eingabe länger warten:
+
+| Falsche Eingaben | Wartezeit bis zum nächsten Versuch |
+| --- | --- |
+| 5 | 1 Minute |
+| 6 | 5 Minuten |
+| 7 | 15 Minuten |
+| 8 | 30 Minuten |
+| 9 | 90 Minuten |
+| 10 | 4 Stunden |
+| 11 | 12 Stunden |
+| 12 | 24 Stunden |
+| 13 | Handy ist dauerhaft gesperrt |
+
+Nach der 13. falschen Eingabe lässt sich das Handy nur noch nach einem Zurücksetzen auf Werkseinstellungen nutzen, das alles darauf löscht. Samsung kann deine PIN nicht für dich wiederherstellen.
+
+Einige Details von Samsung:
+
+- **Das gilt für Handys, die mit One UI 9 ausgeliefert werden.** Handys, die auf One UI 9 aktualisiert wurden, behalten ihr altes Verhalten, bis sie auf Werkseinstellungen zurückgesetzt werden.
+- **Dieselbe falsche Eingabe zählt nicht erneut.** Identische Fehlversuche hintereinander werden übersprungen, ein Kind, das immer denselben Code tippt, sperrt dich also nicht aus.
+- **Der Sperrbildschirm warnt dich**, wie viele Versuche noch übrig sind, sobald jemand sich dem Limit nähert.
+
+Diese Warnung oder eine Meldung wie „Erneut versuchen in …“ ist der einzige Hinweis, den du darauf bekommst, dass jemand es versucht hat. Sie sagt nicht, wer, wann oder wie oft. Wie andere Android-Handys mit falschen Eingaben umgehen, steht in [Kann man fehlgeschlagene Entsperrversuche unter Android sehen?](/de/blog/failed-unlock-attempts-android)
+
+## Samsung-Einstellungen, die sich lohnen
+
+Sie zeigen dir nicht, wer es versucht hat, machen es aber deutlich schwerer, in dein Handy zu kommen oder es mitzunehmen.
+
+### Diebstahlschutz
+
+**Gehe zu:**
+`Einstellungen > Sicherheit und Datenschutz > Schutz für verlorene Geräte > Diebstahlschutz`
+
+- **Identitätsüberprüfung:** Außerhalb von Orten, die du als sicher festgelegt hast (zum Beispiel zu Hause), brauchst du für das Ändern sensibler Sicherheitseinstellungen deinen Fingerabdruck oder dein Gesicht, nicht nur die PIN.
+- **Sicherheitsverzögerung:** Teil der Identitätsüberprüfung. Wenn jemand versucht, deine biometrischen Daten zu ändern, wird die Änderung erst nach einer Stunde wirksam. So hast du Zeit, das Handy aus der Ferne zu sperren.
+- **Diebstahlerkennungssperre:** Sperrt den Bildschirm, wenn das Handy erkennt, dass es dir entrissen wurde.
+- **Offline-Gerätesperre:** Sperrt den Bildschirm, wenn ein Dieb das Handy dauerhaft offline hält.
+
+### Einstellungen für sichere Sperre
+
+**Gehe zu:**
+`Einstellungen > Sperrbildschirm > Einstellungen für sichere Sperre` (gib deine PIN ein)
+
+- **Netzwerk und Sicherheit sperren:** Hält Netzwerk- und Sicherheitsfunktionen gesperrt, solange das Handy gesperrt ist. So kann ein Dieb nicht einfach die Verbindung trennen oder das Handy vom Sperrbildschirm aus ausschalten. Mehr dazu in [So hinderst du Diebe daran, dein Handy auszuschalten](/de/blog/block-power-menu).
+- **Automatisches Zurücksetzen auf Werkseinstellungen:** Löscht das Handy nach zu vielen falschen Eingaben (laut Samsungs Hilfeseite nach 15). Überlege es dir gut, bevor du es aktivierst, wenn Kinder dein Handy benutzen. Es löscht auch alle auf dem Handy gespeicherten Fotos von Eindringlingen, ein Grund mehr, sie dir per E-Mail schicken zu lassen.
+
+## Was Samsung dir nicht verrät
+
+- **Wer es versucht hat.** Kein Foto der Person.
+- **Wann es passiert ist** und wie oft.
+- **Wo das Handy war**, als es passiert ist.
+- **Eine Warnung in dem Moment, in dem es passiert.**
+
+## So bekommst du ein Foto von jedem, der dein Samsung entsperren will
+
+CrookCatcher schließt genau diese Lücke. Wenn jemand eine falsche PIN, ein falsches Muster oder Passwort eingibt, macht die App mit der Frontkamera ein Foto, erfasst den Standort und eine ungefähre Adresse und schickt dir beides per E-Mail. Jeder Versuch wird außerdem mit der Uhrzeit in der App gespeichert.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-de.webp" width="990" height="1024" loading="lazy" alt="CrookCatcher-Warn-E-Mail mit dem Foto des Eindringlings, der Uhrzeit des Versuchs und einer Karte mit dem Standort" />
+  <figcaption>Die E-Mail, die CrookCatcher nach einem fehlgeschlagenen Entsperrversuch sendet.</figcaption>
+</figure>
+
+**So richtest du es auf deinem Galaxy ein:**
+
+1. **Installiere CrookCatcher** aus dem <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-de" target="_blank" rel="noopener noreferrer">Google Play Store</a>. Ein Konto brauchst du nicht.
+2. **Erlaube den Geräteadministrator.** Mit dieser Android-Berechtigung erfährt die App, dass ein Entsperrversuch fehlgeschlagen ist. CrookCatcher nutzt sie nur dafür.
+3. **Erlaube den Zugriff auf Kamera und Standort.**
+4. **Verbinde ein Gmail-Konto** für die Warn-E-Mails. CrookCatcher kann damit nur E-Mails *senden*, nicht lesen.
+5. **Halte die App wach.** Samsung kann Apps in den Ruhezustand versetzen, um Akku zu sparen, was die Warnungen verhindern kann. Füge CrookCatcher zu den Apps hinzu, die nie in den Ruhezustand versetzt werden (Samsung: „Never sleeping apps“): `Einstellungen > Akku > Grenzen der Hintergrundnutzung > Nie in den Ruhezustand` (bei älteren Modellen: `Einstellungen > Akku und Gerätewartung > Akku > Grenzen der Hintergrundnutzung`).
+6. **Teste es.** Sperre dein Handy, gib absichtlich eine falsche PIN ein und entsperre es dann. Dein eigenes Foto sollte in der App und in deinem Postfach erscheinen.
+
+Du legst fest, wie viele falsche Eingaben nötig sind, bevor CrookCatcher aktiv wird. CrookCatcher wurde seit 2014 mehr als 12 Millionen Mal heruntergeladen und macht rund 1,2 Millionen Fotos von Eindringlingen pro Tag.
+
+<AppCta position="guide_mid" />
+
+## Häufig gestellte Fragen
+
+### Q: Hat Samsung eine eingebaute Funktion für Einbrecher-Selfies?
+A: Nicht für den Sperrbildschirm. Die Einstellungen für Sperrbildschirm und Diebstahlschutz sperren das Handy nach Fehlversuchen, aber keine macht ein Foto der Person oder führt eine Liste der Versuche. Dafür brauchst du eine App wie CrookCatcher.
+
+### Q: Wie viele falsche PIN-Eingaben erlaubt ein Samsung-Handy?
+A: Bei Handys, die mit One UI 9 ausgeliefert werden, beginnen die Wartezeiten nach 5 falschen Eingaben, und das Handy sperrt bei der 13. dauerhaft. Danach lässt es sich nur noch nach einem Zurücksetzen auf Werkseinstellungen nutzen. Ältere Handys und auf One UI 9 aktualisierte Handys folgen ihren bisherigen Grenzen.
+
+### Q: Löscht sich mein Samsung nach zu vielen Fehlversuchen von selbst?
+A: Nur wenn das automatische Zurücksetzen auf Werkseinstellungen in den Einstellungen für sichere Sperre aktiviert ist. Bei Handys mit One UI 9 löscht sich das Handy nicht von selbst, wenn die Versuche aufgebraucht sind, aber du musst es auf Werkseinstellungen zurücksetzen, um es wieder zu nutzen.
+
+### Q: Funktioniert CrookCatcher mit Samsungs Fingerabdruck- und Gesichtsentsperrung?
+A: Ja, du kannst sie weiter nutzen. CrookCatcher reagiert auf eine falsche PIN, ein falsches Muster oder Passwort. Fehlgeschlagene Versuche mit Fingerabdruck oder Gesicht lösen es nicht aus.
+
+### Q: Sieht die Person, dass sie fotografiert wurde?
+A: CrookCatcher arbeitet im Hintergrund ohne Kameravorschau. Neuere Android-Versionen zeigen eine kleine Anzeige, solange die Kamera genutzt wird. Das ist eine Systemfunktion, die Apps nicht ausblenden können.
+
+### Q: Warum sendet CrookCatcher auf meinem Samsung keine Warnungen mehr?
+A: Meist, weil Samsung die App in den Ruhezustand versetzt hat, um Akku zu sparen. Füge sie zu den Apps hinzu, die nie in den Ruhezustand versetzt werden (siehe Schritt 5 oben), und teste erneut.
+
+## Quellen
+
+- Samsung: [Änderungen der Sicherheitsrichtlinien für den Sperrbildschirm von One UI 9.0](https://www.samsung.com/at/support/mobile-devices/one-ui-9-sperrbilschirm-sicherheitsrichtlinie/)
+- Samsung: [Wie richte ich Sicherheitseinstellungen ein?](https://www.samsung.com/de/support/mobile-devices/sicherheitseinstellungen-einrichten/)
+- Samsung: [What are the Secure Lock settings?](https://www.samsung.com/nz/support/mobile-devices/what-are-the-secure-lock-settings/) (auf Englisch)
+- Samsung: [Sleeping apps on your Galaxy device](https://www.samsung.com/us/support/answer/ANS00088422/) (auf Englisch)
+- Google, Android-Hilfe: [Ihre privaten Daten vor Diebstahl schützen](https://support.google.com/android/answer/15146908?hl=de)
+
+## Weitere Ratgeber
+
+- [So siehst du, wer dein Handy entsperren wollte (und bekommst sein Foto)](/de/blog/see-who-tried-to-unlock-your-phone)
+- [So hinderst du Diebe daran, dein Handy auszuschalten](/de/blog/block-power-menu)
+- [5 Android-Einstellungen, die dein Handy vor Diebstahl schützen](/de/blog/top_five_settings)
+
+<AppCta position="guide_end" />

@@ -1,0 +1,113 @@
+---
+title: So hinderst du Diebe daran, dein Handy auszuschalten (oder den Flugmodus einzuschalten)
+subtitle: Die Einstellungen, mit denen dein Handy ortbar bleibt, und wie du den Dieb vor die Kamera bekommst
+dateUpdated: '2026-09-28'
+datePublished: '2025-01-19'
+description: "Diebe schalten gestohlene Handys aus, damit sie nicht geortet werden können. So machst du das auf Samsung und anderen Android-Handys schwerer und bekommst das Foto des Diebes, bevor es ihm gelingt."
+image: /images/blog/Digital_Solitude_Urban_Shadows.jpeg
+imageAlt: Mann im Schatten mit einem Handy
+published: true
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Du kannst einen Dieb nicht vollständig daran hindern, ein Android-Handy auszuschalten, aber du kannst es deutlich schwerer machen.** Aktiviere auf vielen Samsung-Handys *Netzwerk und Sicherheit sperren*, damit der Sperrbildschirm zuerst nach deiner PIN fragt. Aktiviere außerdem die *Diebstahl-Displaysperre* und die *Offline-Gerätesperre* und nimm den Flugmodus aus den Schnelleinstellungen.
+
+Das ist wichtig, weil das Ausschalten des Handys oder das Einschalten des Flugmodus eines der Ersten ist, was Diebe tun. Ein ausgeschaltetes oder offline gegangenes Handy lässt sich nicht aus der Ferne orten, sperren oder löschen, und alle Ortungsfunktionen, die du eingerichtet hast, fallen plötzlich aus. Hier steht, was du aktivieren solltest und wie du trotzdem Beweise bekommst, falls ein Dieb es schafft.
+
+## Kurzfassung
+
+1. **Samsung:** Aktiviere *Netzwerk und Sicherheit sperren*, damit das Handy vor dem Ausschalten vom Sperrbildschirm aus nach deiner PIN fragt.
+2. **Alle Android-Handys:** Aktiviere die *Diebstahl-Displaysperre* und die *Offline-Gerätesperre*.
+3. **Entferne den Flugmodus** aus deinen Schnelleinstellungen.
+4. **Prüfe die Einstellungen deines Handys** auf eine Option wie „Zum Ausschalten entsperren“.
+5. **Installiere <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-de" target="_blank" rel="noopener noreferrer">CrookCatcher</a>**, um ein Foto und den Standort von jedem zu bekommen, der versucht, dein Handy zu entsperren.
+
+---
+
+## 1. Samsung: Verlange deine PIN zum Ausschalten des Handys
+
+Viele Samsung-Galaxy-Handys haben eine Einstellung, die verhindert, dass jemand das Handy ausschaltet oder das Netzwerk vom Sperrbildschirm aus deaktiviert, ohne deine PIN, dein Muster oder Passwort.
+
+**Gehe zu:**
+`Einstellungen > Sperrbildschirm > Einstellungen für sichere Sperre > Netzwerk und Sicherheit sperren`
+
+Aktiviere sie. Ab jetzt muss jeder, der dein Handy vom Sperrbildschirm aus ausschalten will, es zuerst entsperren.
+
+> Hinweis: Das schützt den Sperrbildschirm. Wenn ein Dieb dein Handy greift, während es *entsperrt* ist, kann er es trotzdem ausschalten, deshalb ist auch Schritt 2 wichtig. Samsung testet ein Update, das in jeder Situation deine PIN zum Ausschalten verlangt, und wir aktualisieren diesen Beitrag, sobald es erscheint.
+
+Auf einem Samsung kannst du auch ein Foto von jedem bekommen, der die falsche PIN eingibt: siehe [So siehst du, wer dein Samsung-Handy entsperren wollte](/de/blog/samsung-who-tried-to-unlock).
+
+---
+
+## 2. Alle Android-Handys: Aktiviere die Diebstahl-Displaysperre und die Offline-Gerätesperre
+
+Diese Android-Funktionen sperren dein Handy automatisch. Das hilft am meisten, wenn ein Dieb es dir im entsperrten Zustand aus der Hand reißt.
+
+- **Die Diebstahl-Displaysperre** sperrt den Bildschirm, wenn das Handy eine Reiß-und-renn-Bewegung bemerkt.
+- **Die Offline-Gerätesperre** sperrt den Bildschirm kurz nachdem das Handy offline gegangen ist, zum Beispiel wenn jemand den Flugmodus einschaltet.
+
+**Auf den meisten Android-Handys gehe zu:**
+`Einstellungen > Google > Alle Dienste > Diebstahlschutz`
+
+**Auf Samsung-Handys gehe zu:**
+`Einstellungen > Sicherheit und Datenschutz > Schutz für verlorene Geräte > Diebstahlschutz`
+
+Sobald das Handy gesperrt ist, steht der Dieb wieder am Sperrbildschirm, wo Schritt 1 und CrookCatcher übernehmen.
+
+---
+
+## 3. Entferne den Flugmodus aus den Schnelleinstellungen
+
+Wenn der Flugmodus nur einen Wisch entfernt ist, kann ein Dieb die Ortung in einer Sekunde kappen. Das Verschieben aus den Schnelleinstellungen bremst ihn aus:
+
+1. Wische nach unten, um die Schnelleinstellungen zu öffnen.
+2. Tippe auf das **Bearbeiten-Symbol (✏️)**.
+3. Ziehe die Kachel **Flugmodus** aus dem sichtbaren Bereich.
+
+Den Flugmodus kannst du weiterhin in den Einstellungen einschalten, wenn du ihn brauchst.
+
+---
+
+## 4. Prüfe dein Handy auf eine Sperre zum Ausschalten
+
+Einige andere Hersteller bieten ebenfalls eine Einstellung, die verlangt, das Handy zu entsperren, bevor es sich ausschalten lässt. Name und Ort unterscheiden sich je nach Marke. Am schnellsten prüfst du es, indem du **die Einstellungen öffnest und nach „Ausschalten“ suchst**.
+
+---
+
+## 5. Bekomme den Dieb vor die Kamera, bevor er Erfolg hat
+
+Einstellungen machen es schwerer, dein Handy auszuschalten, aber ein entschlossener Dieb findet vielleicht trotzdem einen Weg. Hier hilft CrookCatcher: Ein Dieb versucht fast immer zuerst, das Handy zu entsperren, und genau dann wird CrookCatcher aktiv.
+
+- Wenn jemand eine **falsche PIN, ein falsches Muster oder Passwort** eingibt, macht CrookCatcher ein Foto mit der Frontkamera.
+- Es erfasst den **GPS-Standort** und eine geschätzte Adresse.
+- Es **schickt dir** Foto und Standort sofort per E-Mail.
+
+Selbst wenn das Handy eine Minute später ausgeschaltet wird, liegen das Foto des Diebes und der Standort schon in deinem Postfach. Du kannst sie dann der Polizei zeigen.
+
+Mit **CrookCatcher Pro** kannst du außerdem Video mit Ton aufnehmen, die Umgebung mit der Rückkamera festhalten, alles in Google Drive sichern und die Benachrichtigungen von CrookCatcher verbergen, damit der Dieb nicht merkt, dass er erwischt wurde.
+
+<AppCta position="guide_mid" />
+
+---
+
+## Weitere Möglichkeiten, dein Handy zu schützen
+
+- **Aktiviere Find Hub** (Googles „Mein Gerät finden“), damit du dein Handy orten, sperren oder löschen kannst.
+- **Nutze eine starke Displaysperre.** Ein Passwort oder eine 6-stellige PIN ist viel schwerer zu erraten als eine 4-stellige.
+- **Halte dein Handy aktuell**, um die neuesten Sicherheitsfunktionen zu bekommen.
+- **Sei an öffentlichen Orten vorsichtig.** Viele Diebstähle passieren, während das Handy in deiner Hand ist, zum Beispiel beim Blick auf die Karte oder beim Fotografieren.
+
+Eine Schritt-für-Schritt-Anleitung findest du in unserem Ratgeber zu den [5 Android-Einstellungen, die dein Handy vor Diebstahl schützen](/de/blog/top_five_settings).
+
+---
+
+## Was ist mit dem Blockieren des Power-Menüs in CrookCatcher passiert?
+
+Eine frühere Version dieses Artikels beschrieb eine experimentelle CrookCatcher-Funktion, die das Power-Menü und die Benachrichtigungsleiste auf dem Sperrbildschirm blockierte. Weil sie nicht auf allen Android-Handys zuverlässig funktionieren konnte und Android und die Handyhersteller inzwischen besseren eingebauten Schutz bieten, wurde die Funktion eingestellt. Die Einstellungen oben sind heute der empfohlene Weg, dein Handy zu schützen.
+
+Noch Fragen? Schau in die [FAQ](/de/help).
+
+<AppCta position="guide_end" />
