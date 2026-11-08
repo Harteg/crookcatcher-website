@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "الإشعار القانوني (Impressum) • CrookCatcher",
+    "description": "الإشعار القانوني (Impressum) لتطبيق CrookCatcher، تطبيق Android الذي يلتقط صورًا عند إدخال كلمات مرور خاطئة.",
+    "canonical": "https://www.crookcatcher.app/ar/impressum"
+  },
+  "hero": {
+    "eyebrow": "قانوني",
+    "title": "الإشعار القانوني (Impressum)",
+    "lead": "معلومات وفق المادة 5 من قانون الخدمات الرقمية الألماني (DDG)."
+  },
+  "sections": [
+    {
+      "icon": "person",
+      "title": "مزوّد الخدمة",
+      "body": "<p>Jakob Harteg<br>Clara-Zetkin-Str. 5<br>14471 Potsdam<br>Germany</p>"
+    },
+    {
+      "icon": "mail",
+      "title": "التواصل",
+      "body": "<p>البريد الإلكتروني: <a href=\"mailto:contact@crookcatcher.app\">contact@crookcatcher.app</a></p>"
+    },
+    {
+      "icon": "edit_note",
+      "title": "المسؤول عن المحتوى",
+      "body": "<p>المسؤول عن المحتوى وفق المادة 18 (2) من MStV: Jakob Harteg، العنوان أعلاه.</p>"
+    },
+    {
+      "icon": "gavel",
+      "title": "تسوية منازعات المستهلكين",
+      "body": "<p>لستُ راغبًا ولا ملزمًا بالمشاركة في إجراءات تسوية المنازعات أمام هيئة تحكيم للمستهلكين.</p>"
+    }
+  ]
+}

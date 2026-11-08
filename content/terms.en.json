@@ -22,28 +22,28 @@
     },
     {
       "number": "3",
-      "title": "Data Collection",
-      "body": "<p>CrookCatcher collects anonymous user data unless you opt out in the app settings. This includes standard tracking metrics with Google Analytics and Firebase, such as when an email is sent and how you navigate through the app. No private or sensitive information is collected, stored, or shared. Please refer to our <a href=\"/privacy\">Privacy Policy</a> for more details.</p>"
+      "title": "Data and Ads",
+      "body": "<p>CrookCatcher collects anonymous usage data and crash reports with Google Analytics and Firebase, such as when an email is sent and how you navigate through the app. You can opt out in the app settings. The free version of the app shows ads provided by Google AdMob. Your photos, videos and location are not shared with the developer. Please refer to our <a href=\"/privacy\">Privacy Policy</a> for details.</p>"
     },
     {
       "number": "4",
       "title": "Disclaimers",
-      "body": "<p>CrookCatcher is provided \"as is\" without any warranties, expressed or implied. This includes, but is not limited to, implied warranties of merchantability, fitness for a particular purpose, and non-infringement. Jakob Harteg makes no representations regarding the accuracy or reliability of the app's content or functionality.</p>"
+      "body": "<p>To the extent permitted by law, CrookCatcher is provided \"as is\" without any warranties, expressed or implied, including implied warranties of merchantability, fitness for a particular purpose, and non-infringement. CrookCatcher cannot guarantee that every unlock attempt is photographed, that every email is delivered, or that a lost or stolen phone is recovered. This section does not affect any rights you have as a consumer under mandatory law, such as statutory warranty rights.</p>"
     },
     {
       "number": "5",
       "title": "Limitation of Liability",
-      "body": "<p>In no event shall Jakob Harteg be liable for any damages arising from the use or inability to use CrookCatcher, including but not limited to direct, indirect, incidental, special, or consequential damages, or loss of data, devices, or profits.</p>"
+      "body": "<p>To the extent permitted by law, Jakob Harteg is not liable for damages arising from the use or inability to use CrookCatcher, including indirect, incidental, special, or consequential damages, or loss of data, devices, or profits. This does not apply to liability for intent or gross negligence, for injury to life, body, or health, or to any other liability that cannot be excluded or limited by law.</p>"
     },
     {
       "number": "6",
       "title": "Governing Law",
-      "body": "<p>Any claim or dispute relating to CrookCatcher will be governed by the laws of Germany, without regard to its conflict of law provisions.</p>"
+      "body": "<p>These terms are governed by the laws of Germany, without regard to its conflict of law provisions. If you are a consumer, you keep the protection of the mandatory consumer laws of the country where you live.</p>"
     },
     {
       "number": "7",
       "title": "Changes to the Terms of Use",
-      "body": "<p>Jakob Harteg reserves the right to update or change these terms at any time without prior notice. By continuing to use CrookCatcher after changes are made, you agree to be bound by the updated terms.</p>"
+      "body": "<p>Jakob Harteg may update these terms, for example when the app or the law changes. Updated terms are posted on this page before they take effect. If you continue to use CrookCatcher after that, you agree to the updated terms. If you don’t agree, you can stop using the app and uninstall it.</p>"
     },
     {
       "number": "8",
@@ -58,7 +58,12 @@
     {
       "number": "10",
       "title": "Paid plans and refunds",
-      "body": "<p>Some CrookCatcher features may be paid—a subscription or a one-time unlock. The company that actually charges you is whoever you checked out with: usually Google Play for purchases inside the Android app, or Paddle (or a similar partner) if you pay on the web. Their terms apply to that payment as well.</p><p>If you’d like a refund, how that works and how long you have depend on that same company. Please use their help center or refund flow first—that’s usually the quickest path. You can also contact CrookCatcher support with your receipt or order details; we’ll help however we can, but only the payment provider can approve or deny the refund.</p><p>After you already have access to what you bought, we don’t offer refunds on our own, except where Google Play, Paddle, or the law says otherwise.</p>"
+      "body": "<p>Some CrookCatcher features may be paid—a subscription or a one-time unlock. The company that actually charges you is whoever you checked out with: usually Google Play for purchases inside the Android app, or Paddle (or a similar partner) if you pay on the web. Their terms apply to that payment as well.</p><p>Subscriptions renew automatically until you cancel. If a free trial is offered, it turns into a paid subscription at the end unless you cancel before then. You can cancel at any time in Google Play (Payments & subscriptions, then Subscriptions) or with the company you paid, and you keep access until the end of the period you already paid for. A one-time unlock is a single payment with no further charges.</p><p>If you’d like a refund, how that works and how long you have depend on that same company. Please use their help center or refund flow first—that’s usually the quickest path. You can also contact CrookCatcher support with your receipt or order details; we’ll help however we can, but only the payment provider can approve or deny the refund.</p><p>After you already have access to what you bought, we don’t offer refunds on our own, except where Google Play, Paddle, or the law says otherwise, including any statutory rights you have as a consumer.</p>"
+    },
+    {
+      "number": "11",
+      "title": "Provider",
+      "body": "<p>CrookCatcher is operated by Jakob Harteg. Contact details are in the <a href=\"/impressum\">legal notice (Impressum)</a>.</p>"
     }
   ]
 }

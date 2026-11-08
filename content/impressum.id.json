@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Pemberitahuan Hukum (Impressum) • CrookCatcher",
+    "description": "Pemberitahuan hukum (Impressum) untuk CrookCatcher, aplikasi Android yang mengambil foto saat kata sandi salah dimasukkan.",
+    "canonical": "https://www.crookcatcher.app/id/impressum"
+  },
+  "hero": {
+    "eyebrow": "Hukum",
+    "title": "Pemberitahuan Hukum (Impressum)",
+    "lead": "Informasi sesuai § 5 DDG (undang-undang layanan digital Jerman)."
+  },
+  "sections": [
+    {
+      "icon": "person",
+      "title": "Penyedia",
+      "body": "<p>Jakob Harteg<br>Clara-Zetkin-Str. 5<br>14471 Potsdam<br>Germany</p>"
+    },
+    {
+      "icon": "mail",
+      "title": "Kontak",
+      "body": "<p>Email: <a href=\"mailto:contact@crookcatcher.app\">contact@crookcatcher.app</a></p>"
+    },
+    {
+      "icon": "edit_note",
+      "title": "Penanggung jawab konten",
+      "body": "<p>Penanggung jawab konten menurut § 18 (2) MStV: Jakob Harteg, alamat seperti di atas.</p>"
+    },
+    {
+      "icon": "gavel",
+      "title": "Penyelesaian sengketa konsumen",
+      "body": "<p>Saya tidak bersedia dan tidak wajib mengikuti prosedur penyelesaian sengketa di hadapan badan arbitrase konsumen.</p>"
+    }
+  ]
+}

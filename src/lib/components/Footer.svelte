@@ -42,6 +42,15 @@
             {t.privacy}
           </a>
         </li>
+        <li>
+          <a 
+            href={localizePath('/impressum', locale)}
+            title={t.impressum}
+            class:active={$page.url.pathname === localizePath('/impressum', locale)}
+          >
+            {t.impressum}
+          </a>
+        </li>
       </ul>
     </div>
   </div>

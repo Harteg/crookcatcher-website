@@ -33,12 +33,27 @@
     {
       "icon": "insights",
       "title": "Nutzungsstatistiken und Absturzberichte",
-      "body": "<p>CrookCatcher erfasst mit Firebase Analytics anonyme Nutzungsdaten und Absturzberichte, um die Leistung zu verbessern und Fehler zu beheben. Du kannst dies ablehnen, indem du unten im Einstellungsmenü von CrookCatcher eine Option abwählst.</p>"
+      "body": "<p>Sofern du dies nicht ablehnst, sendet CrookCatcher Nutzungsstatistiken und Absturzberichte an Google (Firebase Analytics und Crashlytics), um die Leistung zu verbessern und Fehler zu beheben. Dazu gehören Ereignisse wie das Senden einer E-Mail oder welchen Bildschirm du öffnest, dein Gerätemodell, die Android-Version, die App-Version, die ungefähre Region und eine zufällige Installations-ID. Deine Fotos, Videos, dein Standort und deine E-Mail-Adresse sind nicht enthalten. Du kannst das ablehnen, indem du unten im Einstellungsmenü von CrookCatcher eine Option deaktivierst.</p>"
+    },
+    {
+      "icon": "ads_click",
+      "title": "Werbung",
+      "body": "<p>Die kostenlose Version von CrookCatcher zeigt Werbung von Google AdMob. Um Werbung anzuzeigen, erhält Google die Werbe-ID und die IP-Adresse deines Geräts sowie Informationen zu deinem Gerät und dazu, wie du mit Anzeigen interagierst. Wo es erforderlich ist, etwa im Europäischen Wirtschaftsraum und im Vereinigten Königreich, fragt CrookCatcher zuvor über das Einwilligungsformular von Google nach deiner Einwilligung. CrookCatcher gibt deine Fotos, Videos, deinen Standort und deine E-Mail-Adresse nicht an AdMob weiter. Pro-Nutzer sehen keine Werbung. Lies, <a href=\"https://policies.google.com/technologies/ads\">wie Google Daten für Werbung verwendet</a>.</p>"
+    },
+    {
+      "icon": "payments",
+      "title": "Käufe",
+      "body": "<p>Käufe und Abonnements werden über Google Play abgewickelt. CrookCatcher nutzt RevenueCat, um Abonnements zu verwalten und Pro freizuschalten. RevenueCat erhält eine zufällige anonyme Nutzer-ID, deinen Kauf- und Abostatus, dein Land und grundlegende Geräteinformationen. Name, E-Mail-Adresse, Fotos, Videos und Standort erhält RevenueCat nicht. Siehe die <a href=\"https://www.revenuecat.com/privacy\">Datenschutzerklärung von RevenueCat</a>.</p>"
     },
     {
       "icon": "lock",
       "title": "Datensicherheit",
-      "body": "<p>Dein Vertrauen ist uns wichtig, und wir setzen uns für den Schutz deiner Daten ein. Alle erfassten Daten werden sicher auf deinem Gerät gespeichert oder, falls aktiviert, direkt per E-Mail an dich gesendet. Es werden keine personenbezogenen Daten für Werbung oder andere Zwecke an Dritte übermittelt.</p>"
+      "body": "<p>Wir schätzen dein Vertrauen und setzen uns für den Schutz deiner Daten ein. Deine Fotos, Videos und dein Standort werden auf deinem Gerät gespeichert oder, falls aktiviert, direkt per E-Mail an dich gesendet. Sie werden nicht an den Entwickler weitergegeben. Die einzigen Daten, die Dienste Dritter erreichen, sind die oben beschriebenen Nutzungs-, Absturz-, Werbe- und Kaufdaten.</p>"
+    },
+    {
+      "icon": "verified_user",
+      "title": "Verantwortlicher und deine Rechte",
+      "body": "<p>Verantwortlich für diese App ist Jakob Harteg (siehe <a href=\"/de/impressum\">Impressum</a>), erreichbar unter <a href=\"mailto:contact@crookcatcher.app\">contact@crookcatcher.app</a>. Nach Datenschutzgesetzen wie der DSGVO kannst du Auskunft über, Berichtigung oder Löschung von Daten über dich verlangen, der Verarbeitung widersprechen und deine Einwilligung jederzeit widerrufen. Außerdem kannst du dich bei deiner zuständigen Datenschutzaufsichtsbehörde beschweren.</p>"
     },
     {
       "icon": "update",
@@ -46,5 +61,5 @@
       "body": "<p>Diese Datenschutzerklärung gilt für die jeweils aktuelle Version von CrookCatcher. Wir können unsere Datenschutzerklärung von Zeit zu Zeit aktualisieren. Wir empfehlen dir, diese Seite regelmäßig auf Änderungen zu prüfen. Änderungen werden unmittelbar nach ihrer Veröffentlichung auf dieser Seite wirksam.</p>"
     }
   ],
-  "note": "<p>Daten werden ausschließlich verwendet, damit CrookCatcher funktioniert und verbessert werden kann. Es werden keine personenbezogenen Daten für Werbung oder andere Zwecke an Dritte übermittelt.</p><p>CrookCatcher erfüllt die <a href=\"https://developers.google.com/terms/api-services-user-data-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Nutzerdatenrichtlinie für Google API-Dienste</a>.</p>"
+  "note": "<p>Die Daten werden ausschließlich verwendet, damit CrookCatcher funktioniert und besser wird, um in der kostenlosen Version Werbung anzuzeigen und um Käufe abzuwickeln. Wir verkaufen deine Daten nicht.</p><p>CrookCatcher erfüllt die <a href=\"https://developers.google.com/terms/api-services-user-data-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Nutzerdatenrichtlinie für Google API-Dienste</a>.</p>"
 }

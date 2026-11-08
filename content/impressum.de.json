@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Impressum • CrookCatcher",
+    "description": "Impressum von CrookCatcher, der Android-App, die bei falschen Passwörtern Fotos aufnimmt.",
+    "canonical": "https://www.crookcatcher.app/de/impressum"
+  },
+  "hero": {
+    "eyebrow": "Rechtliches",
+    "title": "Impressum",
+    "lead": "Angaben gemäß § 5 DDG."
+  },
+  "sections": [
+    {
+      "icon": "person",
+      "title": "Anbieter",
+      "body": "<p>Jakob Harteg<br>Clara-Zetkin-Str. 5<br>14471 Potsdam<br>Germany</p>"
+    },
+    {
+      "icon": "mail",
+      "title": "Kontakt",
+      "body": "<p>E-Mail: <a href=\"mailto:contact@crookcatcher.app\">contact@crookcatcher.app</a></p>"
+    },
+    {
+      "icon": "edit_note",
+      "title": "Verantwortlich für den Inhalt",
+      "body": "<p>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV: Jakob Harteg, Anschrift wie oben.</p>"
+    },
+    {
+      "icon": "gavel",
+      "title": "Verbraucherstreitbeilegung",
+      "body": "<p>Ich bin weder bereit noch verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>"
+    }
+  ]
+}

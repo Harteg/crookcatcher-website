@@ -8,7 +8,8 @@ const TRANSLATED_PAGES = [
 	{ path: '/blog', priority: '0.8', changefreq: 'weekly' },
 	{ path: '/help', priority: '0.6', changefreq: 'monthly' },
 	{ path: '/privacy', priority: '0.4', changefreq: 'yearly' },
-	{ path: '/terms', priority: '0.4', changefreq: 'yearly' }
+	{ path: '/terms', priority: '0.4', changefreq: 'yearly' },
+	{ path: '/impressum', priority: '0.2', changefreq: 'yearly' }
 ];
 
 export const prerender = true;

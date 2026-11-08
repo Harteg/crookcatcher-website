@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Aviso legal (Impressum) • CrookCatcher",
+    "description": "Aviso legal (Impressum) de CrookCatcher, la app de Android que toma fotos cuando se introducen contraseñas incorrectas.",
+    "canonical": "https://www.crookcatcher.app/es/impressum"
+  },
+  "hero": {
+    "eyebrow": "Legal",
+    "title": "Aviso legal (Impressum)",
+    "lead": "Información conforme al § 5 DDG (ley alemana de servicios digitales)."
+  },
+  "sections": [
+    {
+      "icon": "person",
+      "title": "Proveedor",
+      "body": "<p>Jakob Harteg<br>Clara-Zetkin-Str. 5<br>14471 Potsdam<br>Germany</p>"
+    },
+    {
+      "icon": "mail",
+      "title": "Contacto",
+      "body": "<p>Correo: <a href=\"mailto:contact@crookcatcher.app\">contact@crookcatcher.app</a></p>"
+    },
+    {
+      "icon": "edit_note",
+      "title": "Responsable del contenido",
+      "body": "<p>Responsable del contenido según el § 18 (2) MStV: Jakob Harteg, dirección indicada arriba.</p>"
+    },
+    {
+      "icon": "gavel",
+      "title": "Resolución de conflictos de consumo",
+      "body": "<p>No estoy dispuesto ni obligado a participar en procedimientos de resolución de conflictos ante una junta arbitral de consumo.</p>"
+    }
+  ]
+}

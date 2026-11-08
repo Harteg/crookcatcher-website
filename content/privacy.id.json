@@ -33,12 +33,27 @@
     {
       "icon": "insights",
       "title": "Statistik Penggunaan dan Laporan Error",
-      "body": "<p>CrookCatcher melacak data penggunaan anonim dan laporan error memakai Firebase Analytics untuk meningkatkan kinerja dan memperbaiki bug. Kamu bisa menolaknya dengan menghapus centang sebuah opsi di bagian bawah menu pengaturan CrookCatcher.</p>"
+      "body": "<p>Kecuali kamu menolaknya, CrookCatcher mengirim statistik penggunaan dan laporan error ke Google (Firebase Analytics dan Crashlytics) untuk meningkatkan kinerja dan memperbaiki bug. Ini mencakup peristiwa seperti kapan email dikirim atau layar mana yang kamu buka, model perangkat, versi Android, versi aplikasi, perkiraan wilayah, dan ID instalasi acak. Foto, video, lokasi, dan alamat emailmu tidak termasuk. Kamu bisa menolaknya dengan menghapus centang sebuah opsi di bagian bawah menu pengaturan CrookCatcher.</p>"
+    },
+    {
+      "icon": "ads_click",
+      "title": "Iklan",
+      "body": "<p>Versi gratis CrookCatcher menampilkan iklan dari Google AdMob. Untuk menampilkan iklan, Google menerima ID iklan dan alamat IP perangkatmu, serta informasi tentang perangkat dan cara kamu berinteraksi dengan iklan. Jika diwajibkan, seperti di Wilayah Ekonomi Eropa dan Inggris, CrookCatcher meminta persetujuanmu terlebih dahulu melalui formulir persetujuan Google. CrookCatcher tidak memberikan foto, video, lokasi, atau emailmu kepada AdMob. Pengguna Pro tidak melihat iklan. Baca <a href=\"https://policies.google.com/technologies/ads\">bagaimana Google menggunakan data untuk periklanan</a>.</p>"
+    },
+    {
+      "icon": "payments",
+      "title": "Pembelian",
+      "body": "<p>Pembelian dan langganan diproses oleh Google Play. CrookCatcher menggunakan RevenueCat untuk mengelola langganan dan membuka Pro. RevenueCat menerima ID pengguna anonim acak, status pembelian dan langgananmu, negaramu, dan informasi dasar perangkat. RevenueCat tidak menerima namamu, email, foto, video, atau lokasi. Lihat <a href=\"https://www.revenuecat.com/privacy\">kebijakan privasi RevenueCat</a>.</p>"
     },
     {
       "icon": "lock",
       "title": "Keamanan Data",
-      "body": "<p>Kami menghargai kepercayaanmu dan berkomitmen melindungi datamu. Semua data yang dikumpulkan disimpan dengan aman di perangkatmu atau dikirim langsung kepadamu lewat email jika diaktifkan. Tidak ada data pribadi yang dikirim ke pihak ketiga untuk iklan atau tujuan lainnya.</p>"
+      "body": "<p>Kami menghargai kepercayaanmu dan berkomitmen melindungi datamu. Foto, video, dan lokasimu disimpan di perangkatmu, atau dikirim langsung kepadamu lewat email jika diaktifkan. Semua itu tidak dibagikan kepada pengembang. Satu-satunya data yang sampai ke layanan pihak ketiga adalah data penggunaan, error, iklan, dan pembelian yang dijelaskan di atas.</p>"
+    },
+    {
+      "icon": "verified_user",
+      "title": "Pengendali data dan hakmu",
+      "body": "<p>Pengendali data untuk aplikasi ini adalah Jakob Harteg (lihat <a href=\"/id/impressum\">Impressum</a>), yang dapat dihubungi di <a href=\"mailto:contact@crookcatcher.app\">contact@crookcatcher.app</a>. Berdasarkan undang-undang perlindungan data seperti GDPR, kamu dapat meminta akses ke, koreksi, atau penghapusan data tentang dirimu, menolak pemrosesan, dan menarik persetujuanmu kapan saja. Kamu juga dapat mengajukan keluhan ke otoritas perlindungan data di negaramu.</p>"
     },
     {
       "icon": "update",
@@ -46,5 +61,5 @@
       "body": "<p>Kebijakan privasi ini berlaku untuk versi CrookCatcher terbaru. Kami dapat memperbarui Kebijakan Privasi dari waktu ke waktu. Kamu disarankan meninjau halaman ini secara berkala untuk melihat perubahan. Perubahan berlaku segera setelah dipublikasikan di halaman ini.</p>"
     }
   ],
-  "note": "<p>Data hanya dipakai agar CrookCatcher dapat berfungsi dan berkembang. Tidak ada data pribadi yang dikirim ke pihak ketiga mana pun untuk iklan atau tujuan lainnya.</p><p>CrookCatcher mematuhi <a href=\"https://developers.google.com/terms/api-services-user-data-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Kebijakan Data Pengguna Resmi untuk Layanan Google API</a>.</p>"
+  "note": "<p>Data digunakan semata-mata agar CrookCatcher dapat berfungsi dan berkembang, untuk menampilkan iklan di versi gratis, dan untuk memproses pembelian. Kami tidak menjual datamu.</p><p>CrookCatcher mematuhi <a href=\"https://developers.google.com/terms/api-services-user-data-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Kebijakan Data Pengguna Resmi untuk Layanan Google API</a>.</p>"
 }

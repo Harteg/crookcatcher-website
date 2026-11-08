@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Mentions légales (Impressum) • CrookCatcher",
+    "description": "Mentions légales (Impressum) de CrookCatcher, l'app Android qui prend des photos quand un mauvais mot de passe est saisi.",
+    "canonical": "https://www.crookcatcher.app/fr/impressum"
+  },
+  "hero": {
+    "eyebrow": "Mentions légales",
+    "title": "Mentions légales (Impressum)",
+    "lead": "Informations conformément au § 5 DDG (loi allemande sur les services numériques)."
+  },
+  "sections": [
+    {
+      "icon": "person",
+      "title": "Éditeur",
+      "body": "<p>Jakob Harteg<br>Clara-Zetkin-Str. 5<br>14471 Potsdam<br>Germany</p>"
+    },
+    {
+      "icon": "mail",
+      "title": "Contact",
+      "body": "<p>E-mail : <a href=\"mailto:contact@crookcatcher.app\">contact@crookcatcher.app</a></p>"
+    },
+    {
+      "icon": "edit_note",
+      "title": "Responsable du contenu",
+      "body": "<p>Responsable du contenu selon le § 18 (2) MStV : Jakob Harteg, adresse ci-dessus.</p>"
+    },
+    {
+      "icon": "gavel",
+      "title": "Règlement des litiges de consommation",
+      "body": "<p>Je ne suis ni disposé ni tenu de participer à une procédure de règlement des litiges devant un organisme de médiation de la consommation.</p>"
+    }
+  ]
+}
