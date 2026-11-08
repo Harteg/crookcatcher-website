@@ -108,7 +108,7 @@
   .picker-menu {
     position: absolute;
     top: calc(100% + 8px);
-    right: 0;
+    inset-inline-end: 0;
     min-width: 160px;
     margin: 0;
     padding: 6px;

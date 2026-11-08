@@ -1,0 +1,237 @@
+{
+  "meta": {
+    "title": "CrookCatcher: Diebstahlschutz mit Einbrecher-Selfie für Android",
+    "description": "CrookCatcher macht ein Einbrecher-Selfie, wenn jemand eine falsche PIN, ein falsches Muster oder Passwort eingibt, und schickt dir das Foto samt GPS-Standort per E-Mail. Kostenlos für Android.",
+    "canonical": "https://www.crookcatcher.app/de",
+    "ogImage": "https://www.crookcatcher.app/images/og-share.png",
+    "ogImageAlt": "CrookCatcher: Erwische jeden, der dein Handy entsperren will. Warn-E-Mail mit Fotos des Eindringlings und Standort auf der Karte."
+  },
+  "hero": {
+    "headline": "Sieh, wer dein Handy entsperren wollte.",
+    "subline": "CrookCatcher fotografiert jeden, der eine falsche PIN, ein falsches Muster oder Passwort eingibt, und schickt dir das Foto mit dem Standort per E-Mail.",
+    "playNote": "Kostenlos für Android · Ohne Registrierung",
+    "ratingValue": "4,6",
+    "rating": "aus über 90.000 Bewertungen",
+    "downloads": "12 Mio.+ Downloads",
+    "qrLabel": "Am Computer? Scanne den Code, um die App auf deinem Handy zu installieren.",
+    "notification": {
+      "app": "E-Mail",
+      "when": "jetzt",
+      "title": "Jemand hat versucht, dein Handy zu entsperren",
+      "text": "CrookCatcher · 2 Fotos und Standort angehängt"
+    },
+    "imageAlt": "Eine Hand zieht unauffällig ein Handy aus der Gesäßtasche eines Mannes in einem Café"
+  },
+  "spotlight": {
+    "title": "Jeder falsche Versuch hinterlässt eine Spur.",
+    "subtitle": "Ein Foto, der Ort und die Uhrzeit, direkt in dein Postfach.",
+    "log": {
+      "heading": "Entsperrversuch",
+      "meta": "Heute"
+    },
+    "events": [
+      {
+        "time": "10:35:02",
+        "label": "Falsche PIN eingegeben",
+        "detail": "Auf dem Sperrbildschirm"
+      },
+      {
+        "time": "10:35:03",
+        "label": "Foto aufgenommen",
+        "detail": "Frontkamera"
+      },
+      {
+        "time": "10:35:03",
+        "label": "Video mit Ton",
+        "detail": "Aufnahme gestartet"
+      },
+      {
+        "time": "10:35:04",
+        "label": "Standort erfasst",
+        "detail": "GPS-Position und geschätzte Adresse"
+      },
+      {
+        "time": "10:35:09",
+        "label": "E-Mail an dich gesendet",
+        "detail": "Fotos und Karte angehängt"
+      }
+    ],
+    "pro": "Pro"
+  },
+  "timeline": {
+    "title": "Jeder Versuch gespeichert.",
+    "text": "Alle Versuche landen in einer Zeitleiste auf deinem Handy.",
+    "alt": "Zeitleiste der CrookCatcher-App mit fehlgeschlagenen Entsperrversuchen und Einbrüchen, jeweils mit Fotos, Uhrzeit und Standort",
+    "points": [
+      {
+        "title": "Beschriftete Ereignisse",
+        "text": "Auf einen Blick sehen, ob es ein fehlgeschlagener Entsperrversuch oder ein Einbruch war."
+      },
+      {
+        "title": "Zeit + Standort",
+        "text": "Jedes Ereignis zeigt, wann und wo es passiert ist."
+      },
+      {
+        "title": "Fotos + Video",
+        "text": "Einbrecher-Selfies bei jedem Versuch, mit Pro zusätzlich Video mit Ton."
+      },
+      {
+        "title": "Sicher außerhalb des Geräts",
+        "text": "Pro sichert die Beweise in Google Drive, auch wenn das Handy weg ist."
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow": "Datenschutz",
+    "title": "Deine Fotos gehen in dein Postfach, nicht zu uns.",
+    "text": "Warnungen werden von deinem eigenen Gmail-Konto an die Adresse gesendet, die du wählst. Wir sehen deine Fotos nie.",
+    "points": [
+      {
+        "title": "Kein neues Konto",
+        "text": "Du meldest dich mit Google an. Es gibt kein CrookCatcher-Konto, das du erstellen müsstest."
+      },
+      {
+        "title": "Nur Senderecht für E-Mails",
+        "text": "Die Gmail-Berechtigung dient nur dazu, Warnungen an deine Adresse zu senden. Deine E-Mails kann die App nicht lesen."
+      },
+      {
+        "title": "Nur nach falschem Entsperren",
+        "text": "Die Kamera wird nur benutzt, wenn jemand das Handy nicht entsperren kann, daher verbraucht die App kaum Akku."
+      }
+    ],
+    "link": {
+      "href": "/de/privacy",
+      "label": "Datenschutzerklärung lesen"
+    }
+  },
+  "plans": {
+    "eyebrow": "CrookCatcher Pro",
+    "title": "Stärkere Beweise. Schwerer zu stoppen.",
+    "subtitle": "Die kostenlose Version macht das Foto und sendet die E-Mail. Pro bietet zusätzlich:",
+    "items": [
+      {
+        "title": "Video mit Ton",
+        "text": "Sieh und höre, was passiert ist."
+      },
+      {
+        "title": "Einbruchserkennung",
+        "text": "Eine Warnung, auch wenn der Code erraten wurde."
+      },
+      {
+        "title": "Rückkamera",
+        "text": "Sieh, wo das Handy ist, nicht nur, wer es hat."
+      },
+      {
+        "title": "Google-Drive-Sicherung",
+        "text": "Die Beweise bleiben sicher, auch wenn das Handy weg ist."
+      },
+      {
+        "title": "Schwer zu entfernen",
+        "text": "App-Sperre und getarntes Symbol."
+      },
+      {
+        "title": "Alarm und Sperrbildschirm-Nachricht",
+        "text": "Schrecke einen Dieb ab oder bitte um dein Handy zurück."
+      }
+    ],
+    "trial": "Teste Pro 7 Tage kostenlos.",
+    "trialThen": "7 Tage kostenlos, danach",
+    "perYear": "/ Jahr",
+    "monthly": "{price} pro Monat",
+    "lifetime": "{price} einmalig",
+    "or": "oder",
+    "countryLabel": "Preis für dein Land",
+    "priceNote": "Google Play zeigt den Endpreis an, der Steuern enthalten kann.",
+    "fallback": "Der Preis hängt von deinem Land ab. Du siehst ihn in der App, bevor du bezahlst.",
+    "upgrade": "Pro hat keine Werbung. Starte die kostenlose Testphase jederzeit in der App."
+  },
+  "testimonials": {
+    "title": "Das sagen Nutzer",
+    "subtitle": "Mit 4,6★ bewertet, aus mehr als 90.000 Bewertungen bei Google Play",
+    "note": "Bewertungen von Google Play. Einige übersetzt oder gekürzt.",
+    "showMore": "Mehr Bewertungen anzeigen",
+    "showLess": "Weniger Bewertungen anzeigen",
+    "readMore": "Weiterlesen",
+    "readLess": "Weniger anzeigen",
+    "source": "Google Play"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Alles Wichtige zu Einrichtung, Datenschutz und Pro.",
+    "helpLink": {
+      "href": "/de/help",
+      "label": "Zum Hilfecenter"
+    },
+    "showAll": "Alle {count} Fragen anzeigen",
+    "showLess": "Weniger Fragen anzeigen",
+    "initialCount": 8,
+    "items": [
+      {
+        "question": "Was passiert, wenn jemand versucht, mein Handy zu entsperren?",
+        "answer": "CrookCatcher macht mit der Frontkamera ein Einbrecher-Selfie, erfasst wenn möglich den GPS-Standort und schickt dir beides per E-Mail. Mit Pro kann die App außerdem Videos aufnehmen, die Rückkamera nutzen, Alarme abspielen und einen falschen Startbildschirm zeigen."
+      },
+      {
+        "question": "Wann wird CrookCatcher aktiv?",
+        "answer": "Du kannst einstellen, wie viele fehlgeschlagene Entsperrversuche (falsche PIN, falsches Muster oder Passwort) nötig sind, bevor CrookCatcher aktiv wird. Ist diese Schwelle erreicht, nimmt die App Fotos auf, zeichnet Videos auf (Pro) und sendet Warnungen entsprechend deinen Einstellungen."
+      },
+      {
+        "question": "Welche Funktionen sind in der kostenlosen Version enthalten?",
+        "answer": "Die kostenlose Version enthält ein Einbrecher-Selfie bei falscher PIN, falschem Muster oder Passwort, den GPS-Standort und sofortige Warn-E-Mails mit Foto und Standort."
+      },
+      {
+        "question": "Welche zusätzlichen Funktionen bietet Pro?",
+        "answer": "Pro enthält Video mit Ton, Google-Drive-Sicherung, Fotos mit der Rückkamera, Warnmeldungen auf dem Sperrbildschirm, Alarmtöne, falschen Startbildschirm, App-Sperre, getarntes Symbol, Einbruchserkennung, eigene E-Mail-Betreffs und verborgene Benachrichtigungen. Außerdem entfällt die Werbung."
+      },
+      {
+        "question": "Was kostet CrookCatcher Pro?",
+        "answer": "Der Preis von CrookCatcher Pro hängt von deinem Wohnland ab. Den genauen Preis für deine Region siehst du direkt in der App. Das Jahresabo beginnt mit einer 7-tägigen kostenlosen Testphase."
+      },
+      {
+        "question": "Wie greife ich auf die aufgenommenen Fotos und Videos zu?",
+        "answer": "Alle Fotos und Videos werden lokal auf deinem Gerät gespeichert und können in der App angesehen werden. Außerdem werden sie automatisch an deine E-Mail-Adresse gesendet. Pro-Nutzer können die Dateien zusätzlich in Google Drive hochladen, um von jedem Gerät darauf zuzugreifen."
+      },
+      {
+        "question": "Funktioniert die App ohne Internet?",
+        "answer": "Ja. CrookCatcher macht Einbrecher-Selfies und speichert sie lokal. Sobald wieder eine Internetverbindung besteht, werden die Warnungen gesendet."
+      },
+      {
+        "question": "Wie bleibt CrookCatcher unauffällig?",
+        "answer": "Mit Pro-Funktionen bleibt die App verborgen: Das App-Symbol wird getarnt, Benachrichtigungen erscheinen erst nach dem Entsperren, E-Mail-Betreffs lassen sich anpassen, und die App selbst ist mit einem Muster gesperrt."
+      },
+      {
+        "question": "Wie funktioniert die Einbruchserkennung? (Pro)",
+        "answer": "Wenn jemand mehrere falsche PINs, Muster oder Passwörter eingibt und am Ende doch richtig rät, macht die Einbruchserkennung trotzdem Fotos und sendet Warnungen. So erwischst du auch Diebe, denen es gelingt, das Handy zu entsperren."
+      },
+      {
+        "question": "Kann ich die Warnbenachrichtigungen anpassen?",
+        "answer": "Pro-Nutzer können E-Mail-Betreffs anpassen, Benachrichtigungen bis zum Entsperren des Handys verbergen und bei einer Warnung eine eigene Nachricht auf dem Sperrbildschirm anzeigen."
+      },
+      {
+        "question": "Verbraucht CrookCatcher meinen Akku?",
+        "answer": "Nein. CrookCatcher wird nur aktiv, wenn eine falsche PIN, ein falsches Muster oder Passwort erkannt wird, und verbraucht im Standby kaum Akku."
+      },
+      {
+        "question": "Ist meine Privatsphäre geschützt?",
+        "answer": "CrookCatcher nimmt Fotos und Videos nur bei fehlgeschlagenen Entsperrversuchen auf. Warnungen werden von deinem eigenen Gmail-Konto gesendet, wir sehen deine Fotos nie. Analysedaten helfen, die App zu verbessern. Details findest du in der Datenschutzerklärung."
+      },
+      {
+        "question": "Was passiert, wenn ich mein Handy auf Werkseinstellungen zurücksetze?",
+        "answer": "Bei einem Zurücksetzen auf Werkseinstellungen wird CrookCatcher deinstalliert. Wir empfehlen, auf Pro umzusteigen und die Google-Drive-Sicherung zu aktivieren, damit deine Beweise sicher in der Cloud bleiben."
+      },
+      {
+        "question": "Wie geht CrookCatcher mit meinen E-Mail-Berechtigungen um?",
+        "answer": "CrookCatcher bittet um eine Gmail-Anmeldung, um E-Mails in deinem Namen zu senden, ohne dass sie über Server von Drittanbietern laufen. Diese Berechtigung beschränkt sich darauf, E-Mails an die von dir angegebene Adresse zu senden. Sie gibt keinen Zugriff darauf, E-Mails zu lesen oder Kontakte zu verwalten. Du kannst sie jederzeit in den Einstellungen deines Google-Kontos widerrufen."
+      },
+      {
+        "question": "Gibt es eine iPhone-Version?",
+        "answer": "Nein, CrookCatcher ist nur für Android erhältlich."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "12 Millionen Downloads, und bald auch deiner.",
+    "subtitle": "Kostenlos bei Google Play. In wenigen Minuten eingerichtet.",
+    "note": "Nur für Android",
+    "qrLabel": "Scannen, um die App auf deinem Handy zu installieren"
+  }
+}

@@ -23,6 +23,9 @@
   <title>{pageTitle}</title>
   <meta name="description" content={pageDescription} />
   <link rel="canonical" href={canonical} />
+  {#if !data.posts.length}
+    <meta name="robots" content="noindex" />
+  {/if}
 
   <meta property="og:title" content={pageTitle} />
   <meta property="og:description" content={pageDescription} />

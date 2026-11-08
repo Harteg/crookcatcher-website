@@ -45,7 +45,7 @@
     display: grid;
     grid-template-columns: 1fr 120px 140px;
     border-top: 1px solid var(--color-divider);
-    border-left: 1px solid var(--color-divider);
+    border-inline-start: 1px solid var(--color-divider);
   }
 
   .feature-row.first {
@@ -69,7 +69,7 @@
   }
 
   .feature-info {
-    text-align: left;
+    text-align: start;
     padding: 16px 24px;
   }
 
@@ -92,8 +92,8 @@
 
   .pro-check {
     background: var(--color-cc-dark-bg);
-    border-left: 1px solid var(--color-divider);
-    border-right: 1px solid var(--color-divider);
+    border-inline-start: 1px solid var(--color-divider);
+    border-inline-end: 1px solid var(--color-divider);
     height: 100%;
   }
 
@@ -102,7 +102,7 @@
   }
 
   .free-check {
-    border-left: 1px solid var(--color-divider);
+    border-inline-start: 1px solid var(--color-divider);
   }
 
   .check-circle {
@@ -130,7 +130,7 @@
     font-size: 12px;
     padding: 2px 8px;
     border-radius: 12px;
-    margin-left: 8px;
+    margin-inline-start: 8px;
     font-weight: 500;
     vertical-align: middle;
   }

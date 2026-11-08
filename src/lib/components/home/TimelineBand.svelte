@@ -193,11 +193,11 @@
 
     .points.left {
       align-items: flex-end;
-      text-align: right;
+      text-align: end;
     }
 
     .points.left .chip {
-      margin-left: auto;
+      margin-inline-start: auto;
     }
 
     .points li {

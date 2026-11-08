@@ -266,7 +266,7 @@
   }
   .post-content :global(ul) {
     margin: 0 0 24px;
-    padding-left: 24px;
+    padding-inline-start: 24px;
     list-style: disc;
     color: var(--color-body);
   }
@@ -283,7 +283,7 @@
 
   .post-content :global(ol) {
     margin: 0 0 24px;
-    padding-left: 24px;
+    padding-inline-start: 24px;
     list-style: decimal;
     color: var(--color-body);
   }
@@ -292,7 +292,7 @@
     margin-bottom: 8px;
     line-height: 1.6;
     color: var(--color-body-soft);
-    padding-left: 12px;
+    padding-inline-start: 12px;
   }
 
   .post-content :global(ol li:last-child) {
@@ -314,7 +314,7 @@
   .post-content :global(th),
   .post-content :global(td) {
     padding: 12px 16px;
-    text-align: left;
+    text-align: start;
     border-bottom: 1px solid var(--color-card-border);
   }
 

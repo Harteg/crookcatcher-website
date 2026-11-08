@@ -1,0 +1,128 @@
+{
+  "header": {
+    "mainNav": "Hauptmenü",
+    "guides": "Ratgeber und Anleitungen",
+    "help": "Hilfe",
+    "getApp": "App holen",
+    "toggleMenu": "Menü umschalten",
+    "language": "Sprache"
+  },
+  "footer": {
+    "help": "Hilfe",
+    "terms": "Nutzungsbedingungen",
+    "privacy": "Datenschutzerklärung"
+  },
+  "playBadgeAlt": "Jetzt bei Google Play",
+  "stars": "Sterne",
+  "starsLabel": "5 von 5 Sternen",
+  "recentPosts": {
+    "title": "Neueste Beiträge",
+    "viewAll": "Alle Beiträge ansehen"
+  },
+  "breadcrumbHome": "Startseite",
+  "schema": {
+    "description": "CrookCatcher macht ein Einbrecher-Selfie, wenn jemand eine falsche PIN, ein falsches Muster oder Passwort eingibt, und schickt dir das Foto samt GPS-Standort per E-Mail. Kostenlos für Android.",
+    "featureList": [
+      "Macht Einbrecher-Selfies bei falscher PIN, falschem Muster oder Passwort",
+      "Sendet Fotos und GPS-Standort per E-Mail",
+      "Funktioniert offline",
+      "Einfache Einrichtung und übersichtliche Bedienung",
+      "Nimmt Videos von Eindringlingen auf",
+      "Zeigt einen falschen Startbildschirm, um Diebe zu täuschen",
+      "Lädt alle Fotos und Videos in Google Drive hoch"
+    ]
+  },
+  "blog": {
+    "metaTitle": "Ratgeber und Anleitungen • CrookCatcher Diebstahlschutz-App",
+    "metaDescription": "Praktische Ratgeber, wie du dein Android-Handy vor Dieben schützt und was du tun kannst, wenn es gestohlen wird.",
+    "eyebrow": "Ratgeber",
+    "title": "Ratgeber und Anleitungen",
+    "lead": "Praktische Ratgeber, wie du dein Android-Handy vor Dieben schützt und was du tun kannst, wenn es gestohlen wird.",
+    "latest": "Neueste",
+    "readGuide": "Ratgeber lesen",
+    "moreGuides": "Weitere Ratgeber",
+    "ctaTitle": "Sei vorbereitet, bevor es passiert",
+    "ctaText": "CrookCatcher fotografiert jeden, der die falsche PIN, das falsche Muster oder Passwort eingibt, und schickt dir das Foto mit dem Standort per E-Mail. Kostenlos für Android.",
+    "breadcrumb": "Blog",
+    "share": "Teilen:",
+    "shareOn": "Auf {name} teilen",
+    "shareEmail": "Per E-Mail teilen"
+  },
+  "featureTable": {
+    "free": "Kostenlos",
+    "pro": "PRO",
+    "included": "Enthalten",
+    "notIncluded": "Nicht enthalten",
+    "items": {
+      "takePicture": {
+        "title": "Fotos aufnehmen",
+        "description": "Macht ein Foto, wenn ein falsches Passwort, eine falsche PIN oder ein falsches Muster eingegeben wird."
+      },
+      "location": {
+        "title": "Standort ermitteln",
+        "description": "Ortet das Handy per GPS, sobald das Foto aufgenommen wird."
+      },
+      "email": {
+        "title": "Warn-E-Mail senden",
+        "description": "Erhalte Fotos und Standort per E-Mail."
+      },
+      "video": {
+        "title": "Videoaufnahme",
+        "description": "Mit Video siehst du den Eindringling wahrscheinlicher gut und kannst eventuell seine Stimme und Umgebung erkennen."
+      },
+      "drive": {
+        "title": "Google-Drive-Upload",
+        "description": "Lade Fotos und Videos direkt in dein Google Drive hoch, um von jedem Gerät leicht darauf zuzugreifen."
+      },
+      "backCamera": {
+        "title": "Rückkamera",
+        "description": "Erkenne die Umgebung des Eindringlings mit Fotos der Rückkamera."
+      },
+      "alertMessage": {
+        "title": "Warnmeldung",
+        "description": "Zeigt eine eigene Nachricht auf dem Sperrbildschirm, wenn ein Foto aufgenommen wird. Du kannst den Dieb auffordern, dein Handy zurückzugeben, sonst zeigst du sein Foto der Polizei."
+      },
+      "soundAlarm": {
+        "title": "Alarmton",
+        "description": "Spielt bei Eingabe eines falschen Passworts einen eigenen Alarmton in voller Lautstärke ab."
+      },
+      "fakeHomeScreen": {
+        "title": "Falscher Startbildschirm",
+        "description": "Zeigt bei Eingabe eines falschen Passworts einen falschen Startbildschirm. Diebe glauben, sie hätten dein Handy entsperrt. Sobald sie auf den Bildschirm tippen, werden weitere Fotos aufgenommen."
+      },
+      "appLock": {
+        "title": "App-Sperre",
+        "description": "Sperrt den Zugriff auf CrookCatcher mit einem Muster."
+      },
+      "disguiseApp": {
+        "title": "App tarnen",
+        "description": "Ändert Symbol und Namen der App, sodass sie wie ein Dateimanager aussieht. So merken Eindringlinge nicht, dass CrookCatcher installiert ist."
+      },
+      "breakIn": {
+        "title": "Einbruchserkennung",
+        "description": "Macht ein Foto und sendet eine Warn-E-Mail, wenn der Dieb nach vergeblichen Versuchen das richtige Passwort errät."
+      },
+      "emailSubject": {
+        "title": "Eigener E-Mail-Betreff",
+        "description": "Ändert den Betreff der Warn-E-Mail, damit Diebe keine verräterischen Benachrichtigungen sehen."
+      },
+      "hideNotifications": {
+        "title": "Benachrichtigungen verbergen",
+        "description": "Zeigt Warnbenachrichtigungen auf dem Gerät erst nach erfolgreichem Entsperren. So merken Diebe nicht, dass sie erwischt wurden."
+      },
+      "noAds": {
+        "title": "Keine Werbung",
+        "description": "Nutze die App ohne Werbung und unterstütze die Weiterentwicklung von CrookCatcher."
+      }
+    }
+  },
+  "appCta": {
+    "title": "Bekomme ein Foto von jedem, der dein Handy entsperren will",
+    "text": "CrookCatcher macht nach einer falschen PIN, einem falschen Muster oder Passwort ein Einbrecher-Selfie und schickt es dir mit dem Standort per E-Mail.",
+    "facts": [
+      "Kostenlos",
+      "4,6★ · 90.000+ Bewertungen",
+      "12 Mio.+ Downloads"
+    ]
+  }
+}

@@ -48,12 +48,13 @@ The homepage shows Pro prices for the visitor's country: `/api/price` reads Clou
 
 ## Languages
 
-The site is in English (root URLs), Brazilian Portuguese (`/pt`), French (`/fr`) and Spanish (`/es`). Settings live in `src/lib/i18n.ts`.
+The site is in English (root URLs), Brazilian Portuguese (`/pt`), French (`/fr`), Spanish (`/es`), German (`/de`), Arabic (`/ar`, right to left) and Indonesian (`/id`). Settings live in `src/lib/i18n.ts`. A language's blog index (`/<lang>/blog`) is `noindex` and left out of the sitemap until it has a published guide.
 
 - Page text lives in `content/*.{en,pt,fr}.json`; interface text in `content/ui.*.json`. Keep the JSON structure identical across languages.
-- Guides: English in `src/blog/posts/<slug>.svx`; translations in `src/blog/posts/pt/<slug>.svx`, `src/blog/posts/fr/<slug>.svx` and `src/blog/posts/es/<slug>.svx` with the **same filename**. That shared slug is what links the versions (hreflang, sitemap, language picker).
+- Guides: English in `src/blog/posts/<slug>.svx`; translations in `src/blog/posts/pt/<slug>.svx`, `src/blog/posts/fr/<slug>.svx`, `src/blog/posts/es/<slug>.svx`, `src/blog/posts/de/<slug>.svx`, `src/blog/posts/ar/<slug>.svx` and `src/blog/posts/id/<slug>.svx` with the **same filename**. That shared slug is what links the versions (hreflang, sitemap, language picker).
 - A guide without a translation simply exists in English only. Never show English text under a `/pt`, `/fr` or `/es` URL.
 - Write new guides in English first. Translate only when asked. Inside translations, link to the translated versions of other pages (`/pt/help`, `/fr/blog/...`) when they exist.
+- Arabic is right to left: `LOCALE_META` has a `dir` per language, set on `<html>` by `hooks.server.ts` and `+layout.svelte`. Write new CSS with logical properties (`margin-inline-start`, `text-align: start`, `inset-inline-end`), never `left`/`right`.
 - French uses non-breaking spaces before `? ! : ;` and inside « ».
 - Spanish is neutral (Latin America and Spain alike), with *tú*. Android menu names follow Google's Latin American Spanish (`Configuración`); add Spain's name in parentheses where it differs (`Ajustes`, `Protección antirrobo`). Samsung calls its settings app `Ajustes` everywhere.
 
@@ -63,6 +64,7 @@ The site is in English (root URLs), Brazilian Portuguese (`/pt`), French (`/fr`)
 - Headers are 1600×840 (`static/images/blog/<slug>-header.png`); in-article checklists 1080×1350.
 - When the guide is published, run `npm run optimize-images` (needs `cwebp`, installed with `brew install webp`). It only processes published guides. It creates the WebP versions the site serves and updates `src/lib/responsive-images.json`; without it the image still works, but loads slower.
 - No real intruder faces in images; use the owner's own photo or pixelate/blur faces.
+- Google Play badges: `static/images/play_badges/<lang>_badge_web_generic.png`, one per language (the official badge from `https://play.google.com/intl/en_us/badges/static/images/badges/<code>_badge_web_generic.png`, e.g. `es-419`, `pt-br`). Trim the padding and resize to 565 px wide, reduce to a small PNG8 (`magick in.png -trim +repage -resize 565x -colors 48 -dither None -strip PNG8:out.png`), and add the language to `BADGES` in `PlayStoreButton.svelte`. Languages without a badge fall back to English.
 
 ## Workflow
 

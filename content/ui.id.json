@@ -1,0 +1,128 @@
+{
+  "header": {
+    "mainNav": "Utama",
+    "guides": "Panduan dan Tutorial",
+    "help": "Bantuan",
+    "getApp": "Dapatkan aplikasi",
+    "toggleMenu": "Buka/tutup menu",
+    "language": "Bahasa"
+  },
+  "footer": {
+    "help": "Bantuan",
+    "terms": "Ketentuan penggunaan",
+    "privacy": "Kebijakan Privasi"
+  },
+  "playBadgeAlt": "Dapatkan di Google Play",
+  "stars": "bintang",
+  "starsLabel": "5 dari 5 bintang",
+  "recentPosts": {
+    "title": "Artikel terbaru",
+    "viewAll": "Lihat semua artikel"
+  },
+  "breadcrumbHome": "Beranda",
+  "schema": {
+    "description": "CrookCatcher mengambil selfie penyusup saat seseorang memasukkan PIN, pola, atau sandi yang salah, lalu mengirim foto dan lokasi GPS-nya ke email kamu. Gratis untuk Android.",
+    "featureList": [
+      "Mengambil selfie penyusup saat PIN, pola, atau sandi salah",
+      "Mengirim foto dan lokasi GPS ke email",
+      "Bekerja tanpa internet",
+      "Pengaturan mudah dan tampilan yang intuitif",
+      "Merekam video penyusup",
+      "Menampilkan layar beranda palsu untuk mengelabui pencuri",
+      "Mengunggah semua foto dan video ke Google Drive"
+    ]
+  },
+  "blog": {
+    "metaTitle": "Panduan dan Tutorial • Aplikasi Anti-Pencurian CrookCatcher",
+    "metaDescription": "Panduan praktis untuk melindungi ponsel Android kamu dari pencuri, dan apa yang harus dilakukan jika ponselmu dicuri.",
+    "eyebrow": "Panduan",
+    "title": "Panduan dan tutorial",
+    "lead": "Panduan praktis untuk melindungi ponsel Android kamu dari pencuri, dan apa yang harus dilakukan jika ponselmu dicuri.",
+    "latest": "Terbaru",
+    "readGuide": "Baca panduan",
+    "moreGuides": "Panduan lainnya",
+    "ctaTitle": "Bersiaplah sebelum terjadi",
+    "ctaText": "CrookCatcher memotret siapa pun yang memasukkan PIN, pola, atau sandi yang salah, lalu mengirimkannya ke emailmu beserta lokasinya. Gratis di Android.",
+    "breadcrumb": "Blog",
+    "share": "Bagikan:",
+    "shareOn": "Bagikan di {name}",
+    "shareEmail": "Bagikan lewat email"
+  },
+  "featureTable": {
+    "free": "Gratis",
+    "pro": "PRO",
+    "included": "Termasuk",
+    "notIncluded": "Tidak termasuk",
+    "items": {
+      "takePicture": {
+        "title": "Ambil foto",
+        "description": "Mengambil foto saat sandi, PIN, atau pola yang salah dimasukkan."
+      },
+      "location": {
+        "title": "Dapatkan lokasi",
+        "description": "Melacak lokasi ponsel dengan GPS saat foto diambil."
+      },
+      "email": {
+        "title": "Kirim email peringatan",
+        "description": "Terima foto dan lokasi lewat email."
+      },
+      "video": {
+        "title": "Rekam video",
+        "description": "Dengan video, kamu lebih mungkin melihat penyusup dengan jelas dan bahkan mengenali suara serta lingkungan sekitarnya."
+      },
+      "drive": {
+        "title": "Unggah ke Google Drive",
+        "description": "Unggah foto dan video langsung ke Google Drive agar mudah diakses dari perangkat mana pun."
+      },
+      "backCamera": {
+        "title": "Kamera belakang",
+        "description": "Kenali lingkungan sekitar penyusup dengan foto dari kamera belakang."
+      },
+      "alertMessage": {
+        "title": "Pesan peringatan",
+        "description": "Tampilkan pesan khusus di layar kunci saat foto diambil. Kamu bisa meminta pencuri mengembalikan ponselmu, atau fotonya akan kamu tunjukkan ke polisi."
+      },
+      "soundAlarm": {
+        "title": "Suara alarm",
+        "description": "Putar suara alarm khusus dengan volume penuh saat sandi yang salah dimasukkan."
+      },
+      "fakeHomeScreen": {
+        "title": "Layar beranda palsu",
+        "description": "Tampilkan layar beranda palsu saat sandi yang salah dimasukkan. Pencuri akan mengira mereka berhasil membuka ponselmu. Saat mereka mulai mengetuk layar, lebih banyak foto akan diambil."
+      },
+      "appLock": {
+        "title": "Kunci aplikasi",
+        "description": "Kunci akses ke CrookCatcher dengan pola."
+      },
+      "disguiseApp": {
+        "title": "Samarkan aplikasi",
+        "description": "Ubah ikon dan nama aplikasi agar terlihat seperti aplikasi pengelola file, sehingga penyusup tidak tahu CrookCatcher terpasang."
+      },
+      "breakIn": {
+        "title": "Deteksi pembobolan",
+        "description": "Ambil foto dan kirim email peringatan jika pencuri berhasil menebak sandi yang benar setelah beberapa kali gagal."
+      },
+      "emailSubject": {
+        "title": "Subjek email khusus",
+        "description": "Ubah subjek email peringatan agar pencuri tidak melihat notifikasi yang mencurigakan."
+      },
+      "hideNotifications": {
+        "title": "Sembunyikan notifikasi",
+        "description": "Tampilkan notifikasi peringatan di perangkat hanya setelah berhasil dibuka. Dengan begitu pencuri tidak tahu bahwa mereka tertangkap."
+      },
+      "noAds": {
+        "title": "Tanpa iklan",
+        "description": "Nikmati aplikasi tanpa iklan dan dukung pengembangan CrookCatcher."
+      }
+    }
+  },
+  "appCta": {
+    "title": "Dapatkan foto siapa pun yang mencoba membuka ponselmu",
+    "text": "CrookCatcher mengambil selfie penyusup setelah PIN, pola, atau sandi yang salah, lalu mengirimkannya ke emailmu beserta lokasinya.",
+    "facts": [
+      "Gratis",
+      "4,6★ · 90 ribu+ rating",
+      "12 juta+ unduhan"
+    ]
+  }
+}
