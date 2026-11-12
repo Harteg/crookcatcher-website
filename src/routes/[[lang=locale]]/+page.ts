@@ -12,6 +12,10 @@ import homeAr from '$content/home.ar.json';
 import reviewsAr from '$content/reviews.ar.json';
 import homeId from '$content/home.id.json';
 import reviewsId from '$content/reviews.id.json';
+import homeIt from '$content/home.it.json';
+import reviewsIt from '$content/reviews.it.json';
+import homeJa from '$content/home.ja.json';
+import reviewsJa from '$content/reviews.ja.json';
 import { listPosts } from '$lib/blog';
 import { localeEntries } from '$lib/i18n';
 
@@ -24,7 +28,9 @@ const CONTENT = {
 	es: { home: homeEs, reviews: reviewsEs },
 	de: { home: homeDe, reviews: reviewsDe },
 	ar: { home: homeAr, reviews: reviewsAr },
-	id: { home: homeId, reviews: reviewsId }
+	id: { home: homeId, reviews: reviewsId },
+	it: { home: homeIt, reviews: reviewsIt },
+	ja: { home: homeJa, reviews: reviewsJa }
 };
 
 export const entries = localeEntries;

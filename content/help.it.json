@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Assistenza e domande frequenti su CrookCatcher • App antifurto per Android",
+    "description": "Assistenza per CrookCatcher, l'app per Android che scatta foto quando viene inserita una password sbagliata. Domande frequenti e supporto.",
+    "canonical": "https://www.crookcatcher.app/it/help",
+    "ogImage": "https://www.crookcatcher.app/images/og-share.png"
+  },
+  "hero": {
+    "eyebrow": "Supporto",
+    "title": "Assistenza e domande frequenti",
+    "lead": "Risposte alle domande più comuni sulla configurazione e l'uso di CrookCatcher."
+  },
+  "items": [
+    {
+      "id": "help-pictures",
+      "question": "CrookCatcher non scatta foto",
+      "answer": "<ul><li>Se stai provando CrookCatcher, tieni presente che Android considera sbagliati una password o una sequenza solo se hanno almeno 4 cifre/caratteri o 4 punti.</li><li>Il produttore del tuo telefono potrebbe aver imposto a CrookCatcher altre restrizioni di risparmio energetico che le impediscono di funzionare in background. Per risolvere, segui le istruzioni per il tuo dispositivo su <a href=\"https://dontkillmyapp.com\">www.dontkillmyapp.com</a>.</li></ul>"
+    },
+    {
+      "id": "help-erase",
+      "question": "CrookCatcher cancella tutti i dati del telefono o del tablet se vengono inserite troppe password sbagliate?",
+      "answer": "<p>No. CrookCatcher non cancella mai i dati del tuo dispositivo.</p>"
+    },
+    {
+      "id": "help-gmail",
+      "question": "Perché CrookCatcher ha bisogno di accedere al mio account Gmail?",
+      "answer": "<p>A differenza di altre app di sicurezza, CrookCatcher non usa un server di terzi per inviare le email. La privacy è importante, quindi CrookCatcher usa il sistema di autorizzazione di Google, OAuth 2.0, per inviare le email in modo sicuro direttamente dal tuo dispositivo. Questo non dà a CrookCatcher accesso ai tuoi indirizzi email o ai tuoi contatti. CrookCatcher usa questa autorizzazione solo per inviare email di avviso dal tuo account Gmail all'indirizzo che hai indicato nell'app.</p>"
+    },
+    {
+      "id": "help-forgot",
+      "question": "Ho dimenticato la password, il PIN o la sequenza di sblocco.",
+      "answer": "<p>La schermata di blocco, e la password collegata, non fanno parte di CrookCatcher. Se hai dimenticato la password, il PIN o la sequenza, consulta il manuale del tuo dispositivo.</p>"
+    },
+    {
+      "id": "help-pro",
+      "question": "Hai già acquistato Pro?",
+      "answer": "<p>Se hai già acquistato Pro ma l'app non lo mostra, assicurati di aver effettuato l'accesso sul dispositivo con lo stesso account Google usato per l'acquisto, poi tocca il pulsante di ripristino nella pagina di configurazione di CrookCatcher.</p>"
+    },
+    {
+      "id": "help-revoke",
+      "question": "Come revoco l'accesso di CrookCatcher a Gmail o Drive?",
+      "answer": "<p>Apri le <a href=\"https://myaccount.google.com/permissions\">impostazioni dell'Account Google</a> e seleziona CrookCatcher dall'elenco. Poi scorri fino in fondo e scegli di eliminare i collegamenti.</p>"
+    },
+    {
+      "id": "help-reboot",
+      "question": "Non funziona dopo il riavvio?",
+      "answer": "<p>Per le misure di sicurezza di Android, dopo un riavvio il telefono deve essere sbloccato una volta prima che CrookCatcher possa usare la fotocamera. Vorrei poterlo risolvere, ma purtroppo non posso farci niente.</p>"
+    },
+    {
+      "id": "help-payment",
+      "question": "Problemi di pagamento",
+      "answer": "<p>Hai problemi con il pagamento? Molti sono trattati nel <a href=\"https://support.google.com/googleplay/answer/1267137?hl=it\">Centro assistenza pagamenti di Google Play</a>.</p>"
+    },
+    {
+      "id": "help-internet",
+      "question": "CrookCatcher ha bisogno di internet?",
+      "answer": "<p>CrookCatcher funziona offline per rilevare i tentativi di sblocco non autorizzati e registrare i dati. Per inviare le email di avviso serve però una connessione a internet. Per le restrizioni di Android, purtroppo CrookCatcher non può attivare e disattivare da sola i dati mobili o il Wi-Fi quando serve.</p>"
+    }
+  ],
+  "contact": {
+    "title": "Ti serve ancora aiuto?",
+    "text": "Scrivimi un'email e ti risponderò appena possibile.",
+    "showEmail": "Mostra indirizzo email"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "プライバシーポリシー • CrookCatcher Android アプリ",
+    "description": "間違ったパスワードが入力されると写真を撮影する Android アプリ、CrookCatcher のプライバシーポリシー。",
+    "canonical": "https://www.crookcatcher.app/ja/privacy"
+  },
+  "hero": {
+    "eyebrow": "法的情報",
+    "title": "プライバシーポリシー",
+    "lead": "CrookCatcher はプライバシーを第一に考えて作られています。データを安全に、非公開に保つ方法を説明します。"
+  },
+  "sections": [
+    {
+      "icon": "photo_camera",
+      "title": "カメラ",
+      "body": "<ul><li>CrookCatcher はカメラの権限を使い、間違ったパスワード、PIN、ロックパターンが入力されたときに写真の撮影と動画の録画を行います。撮影するかどうかは、アプリの設定の「ロック解除の失敗」で指定した試行回数に基づきます。</li><li>アプリでほかの特定の機能を有効にしていない限り、それ以外のタイミングで写真の撮影や動画の録画をすることはありません。</li><li>CrookCatcher の設定でメール機能が有効な場合、写真と動画はメールであなたに送られます。詳しくは下の「メール」をご覧ください。有効にした場合は、写真と動画を Google ドライブにアップロードすることもあります。</li><li>それ以外の場合、写真と動画はあなたの端末にのみ保存され、開発者や第三者と共有されることはありません。</li></ul>"
+    },
+    {
+      "icon": "location_on",
+      "title": "位置情報",
+      "body": "<ul><li>設定で有効にした場合、CrookCatcher は写真を撮影するときにバックグラウンドで端末の位置を取得します。</li><li>それ以外のタイミングで位置情報にアクセスすることはありません。</li><li>位置情報は写真と一緒に保存され、メール機能が有効な場合はメールで送られます。</li><li>位置情報が開発者や第三者と共有されることはありません。</li></ul>"
+    },
+    {
+      "icon": "mic",
+      "title": "マイク",
+      "body": "<ul><li>動画の録画が有効な場合、CrookCatcher は動画を録画するためにマイクを使います。</li><li>マイクへのアクセスは、この機能を有効にしたときだけ許可され、動画の録画にのみ使われます。</li></ul>"
+    },
+    {
+      "icon": "mail",
+      "title": "メール",
+      "body": "<ul><li>CrookCatcher は Gmail アカウントでのログインと、「あなたの代わりにメールを送信する」権限の許可を求めます。これにより、機密性の高いデータを第三者のサーバーに通さずに済みます。この権限を取り消すには、<a href=\"https://myaccount.google.com/permissions\">https://myaccount.google.com/permissions</a> にアクセスしてください。</li><li>この権限で CrookCatcher がメールを読んだり、連絡先を管理したり、その他の操作をしたりすることはできません。</li><li>メールは「メールの送信先」に設定したアドレスにだけ、アプリで指定した条件を満たしたときにだけ送られます。</li><li>CrookCatcher が送ったメールは、Gmail アカウントでいつでも確認できます。</li><li>あなたのメールアドレスが開発者や第三者と共有されることはありません。</li></ul>"
+    },
+    {
+      "icon": "insights",
+      "title": "利用統計とクラッシュレポート",
+      "body": "<p>オプトアウトしない限り、CrookCatcher はパフォーマンスの改善とバグ修正のために、利用統計とクラッシュレポートを Google（Firebase Analytics と Crashlytics）に送信します。これには、メールの送信や開いた画面などのイベント、端末のモデル、Android のバージョン、アプリのバージョン、おおよその地域、ランダムなインストール ID が含まれます。写真、動画、位置情報、メールアドレスは含まれません。CrookCatcher の設定メニューのいちばん下にあるオプションのチェックを外すと、オプトアウトできます。</p>"
+    },
+    {
+      "icon": "ads_click",
+      "title": "広告",
+      "body": "<p>CrookCatcher の無料版には Google AdMob の広告が表示されます。広告を表示するため、Google は端末の広告 ID と IP アドレス、端末の情報、広告の操作に関する情報を受け取ります。欧州経済領域や英国など、法律で求められる地域では、CrookCatcher は Google の同意フォームで事前に同意を求めます。CrookCatcher が写真、動画、位置情報、メールアドレスを AdMob に渡すことはありません。Pro ユーザーには広告は表示されません。<a href=\"https://policies.google.com/technologies/ads?hl=ja\">Google による広告でのデータ利用について</a>もご覧ください。</p>"
+    },
+    {
+      "icon": "payments",
+      "title": "購入",
+      "body": "<p>購入と定期購入は Google Play が処理します。CrookCatcher は定期購入の管理と Pro の有効化に RevenueCat を使っています。RevenueCat が受け取るのは、ランダムな匿名ユーザー ID、購入と定期購入の状態、国、基本的な端末情報です。名前、メールアドレス、写真、動画、位置情報は受け取りません。<a href=\"https://www.revenuecat.com/privacy\">RevenueCat のプライバシーポリシー</a>（英語）をご覧ください。</p>"
+    },
+    {
+      "icon": "lock",
+      "title": "データの安全性",
+      "body": "<p>私たちはあなたの信頼を大切にし、データの保護に努めています。写真、動画、位置情報はあなたの端末に保存されるか、有効にした場合はメールで直接あなたに送られます。開発者と共有されることはありません。第三者のサービスに届くのは、上で説明した利用統計、クラッシュ、広告、購入に関するデータだけです。</p>"
+    },
+    {
+      "icon": "verified_user",
+      "title": "管理者とあなたの権利",
+      "body": "<p>このアプリのデータ管理者は Jakob Harteg です（<a href=\"/ja/impressum\">法的表示</a>を参照）。連絡先は <a href=\"mailto:contact@crookcatcher.app\">contact@crookcatcher.app</a> です。GDPR などのデータ保護法に基づき、あなたは自分に関するデータの開示、訂正、削除を求め、処理に異議を唱え、同意をいつでも撤回できます。お住まいの地域のデータ保護機関に苦情を申し立てることもできます。</p>"
+    },
+    {
+      "icon": "update",
+      "title": "このプライバシーポリシーの変更",
+      "body": "<p>このプライバシーポリシーは CrookCatcher の最新版に適用されます。プライバシーポリシーは随時更新することがあります。変更がないか、定期的にこのページをご確認ください。変更はこのページに掲載された時点で有効になります。</p>"
+    }
+  ],
+  "note": "<p>データは、CrookCatcher の動作と改善、無料版での広告表示、購入の処理のためだけに使われます。私たちがあなたのデータを販売することはありません。</p><p>CrookCatcher は <a href=\"https://developers.google.com/terms/api-services-user-data-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Google API サービスのユーザーデータに関するポリシー</a>（英語）に準拠しています。</p>"
+}

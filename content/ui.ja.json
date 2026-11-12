@@ -1,0 +1,129 @@
+{
+  "header": {
+    "mainNav": "メイン",
+    "guides": "ガイドとチュートリアル",
+    "help": "ヘルプ",
+    "getApp": "アプリを入手",
+    "toggleMenu": "メニューを開閉",
+    "language": "言語"
+  },
+  "footer": {
+    "help": "ヘルプ",
+    "terms": "利用規約",
+    "privacy": "プライバシーポリシー",
+    "impressum": "法的表示"
+  },
+  "playBadgeAlt": "Google Play で手に入れよう",
+  "stars": "つ星",
+  "starsLabel": "5つ星中5つ星",
+  "recentPosts": {
+    "title": "最近の記事",
+    "viewAll": "すべての記事を見る"
+  },
+  "breadcrumbHome": "ホーム",
+  "schema": {
+    "description": "CrookCatcher は、誰かが間違った PIN、パターン、パスワードを入力すると侵入者の顔写真を撮影し、その写真と GPS の位置情報をメールで送ります。Android 向け、無料。",
+    "featureList": [
+      "PIN・パターン・パスワードの入力ミスで侵入者の顔写真を撮影",
+      "写真と GPS の位置情報をメールで送信",
+      "オフラインでも動作",
+      "簡単な設定とわかりやすい画面",
+      "侵入者の動画を録画",
+      "偽のホーム画面で泥棒をだます",
+      "すべての写真と動画を Google ドライブにアップロード"
+    ]
+  },
+  "blog": {
+    "metaTitle": "ガイドとチュートリアル • CrookCatcher 盗難防止アプリ",
+    "metaDescription": "Android スマホを泥棒から守るための実用的なガイドと、盗まれたときにすべきこと。",
+    "eyebrow": "ガイド",
+    "title": "ガイドとチュートリアル",
+    "lead": "Android スマホを泥棒から守るための実用的なガイドと、盗まれたときにすべきこと。",
+    "latest": "最新",
+    "readGuide": "ガイドを読む",
+    "moreGuides": "その他のガイド",
+    "ctaTitle": "起きる前に備えましょう",
+    "ctaText": "CrookCatcher は、間違った PIN、パターン、パスワードを入力した人の写真を撮影し、位置情報と一緒にメールで送ります。Android で無料。",
+    "breadcrumb": "ブログ",
+    "share": "共有:",
+    "shareOn": "{name} で共有",
+    "shareEmail": "メールで共有"
+  },
+  "featureTable": {
+    "free": "無料",
+    "pro": "PRO",
+    "included": "あり",
+    "notIncluded": "なし",
+    "items": {
+      "takePicture": {
+        "title": "写真を撮影",
+        "description": "間違ったパスワード、PIN、パターンが入力されたときに写真を撮影します。"
+      },
+      "location": {
+        "title": "位置情報を取得",
+        "description": "写真の撮影時に GPS でスマホの位置を特定します。"
+      },
+      "email": {
+        "title": "通知メールを送信",
+        "description": "写真と位置情報をメールで受け取れます。"
+      },
+      "video": {
+        "title": "動画の録画",
+        "description": "動画なら侵入者の姿をはっきり捉えやすく、声や周囲の様子から相手を特定できる可能性もあります。"
+      },
+      "drive": {
+        "title": "Google ドライブへのアップロード",
+        "description": "写真と動画を Google ドライブに直接アップロードし、どの端末からでも簡単に見られます。"
+      },
+      "backCamera": {
+        "title": "背面カメラ",
+        "description": "背面カメラの写真で、侵入者がいる場所の様子を確認できます。"
+      },
+      "alertMessage": {
+        "title": "警告メッセージ",
+        "description": "写真が撮影されたときに、ロック画面に好きなメッセージを表示します。「スマホを返さなければ写真を警察に見せる」と伝えることもできます。"
+      },
+      "soundAlarm": {
+        "title": "アラーム音",
+        "description": "間違ったパスワードが入力されたときに、好きなアラーム音を最大音量で鳴らします。"
+      },
+      "fakeHomeScreen": {
+        "title": "偽のホーム画面",
+        "description": "間違ったパスワードが入力されたときに偽のホーム画面を表示します。泥棒はロックを解除できたと思い込み、画面をタップし始めると、さらに写真が撮影されます。"
+      },
+      "appLock": {
+        "title": "アプリロック",
+        "description": "CrookCatcher をパターンでロックします。"
+      },
+      "disguiseApp": {
+        "title": "アプリの偽装",
+        "description": "アプリのアイコンと名前をファイル管理アプリのように変えて、CrookCatcher が入っていることを侵入者に気づかせません。"
+      },
+      "breakIn": {
+        "title": "不正解除の検出",
+        "description": "入力に失敗した人が正しいパスワードを当てた場合も、写真を撮影して通知メールを送ります。"
+      },
+      "emailSubject": {
+        "title": "メールの件名を変更",
+        "description": "通知メールの件名を変えて、泥棒に気づかれるような通知を避けます。"
+      },
+      "hideNotifications": {
+        "title": "通知を隠す",
+        "description": "通知は正しくロック解除されたあとにだけ端末に表示します。これで泥棒は撮影されたことに気づきません。"
+      },
+      "noAds": {
+        "title": "広告なし",
+        "description": "広告なしでアプリを使えて、CrookCatcher の開発を支援できます。"
+      }
+    }
+  },
+  "appCta": {
+    "title": "スマホのロックを解除しようとした人の写真を手に入れる",
+    "text": "CrookCatcher は、PIN、パターン、パスワードの入力ミスがあると侵入者の顔写真を撮影し、位置情報と一緒にメールで送ります。",
+    "facts": [
+      "無料",
+      "4.6★ · 9万件以上の評価",
+      "1,200万ダウンロード以上"
+    ]
+  }
+}

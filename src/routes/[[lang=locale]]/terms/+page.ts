@@ -5,11 +5,13 @@ import termsEs from '$content/terms.es.json';
 import termsDe from '$content/terms.de.json';
 import termsAr from '$content/terms.ar.json';
 import termsId from '$content/terms.id.json';
+import termsIt from '$content/terms.it.json';
+import termsJa from '$content/terms.ja.json';
 import { localeEntries } from '$lib/i18n';
 
 export const prerender = true;
 
-const CONTENT = { en: termsEn, pt: termsPt, fr: termsFr, es: termsEs, de: termsDe, ar: termsAr, id: termsId };
+const CONTENT = { en: termsEn, pt: termsPt, fr: termsFr, es: termsEs, de: termsDe, ar: termsAr, id: termsId, it: termsIt, ja: termsJa };
 
 export const entries = localeEntries;
 

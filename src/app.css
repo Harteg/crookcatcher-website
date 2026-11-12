@@ -112,6 +112,18 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Japanese: system Japanese fonts (no web font download), with phrase-aware line breaks in headings. */
+html:lang(ja) {
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, system-ui, sans-serif;
+  line-break: strict;
+}
+
+html:lang(ja) :is(h1, h2, h3) {
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, system-ui, sans-serif;
+  word-break: auto-phrase;
+}
+
+
 @media (min-width: 768px) {
   html {
     font-size: 17px;

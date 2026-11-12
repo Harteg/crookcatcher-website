@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "法的表示（Impressum）• CrookCatcher",
+    "description": "間違ったパスワードが入力されると写真を撮影する Android アプリ、CrookCatcher の法的表示（Impressum）。",
+    "canonical": "https://www.crookcatcher.app/ja/impressum"
+  },
+  "hero": {
+    "eyebrow": "法的情報",
+    "title": "法的表示（Impressum）",
+    "lead": "ドイツ デジタルサービス法（DDG）第5条に基づく表示。"
+  },
+  "sections": [
+    {
+      "icon": "person",
+      "title": "提供者",
+      "body": "<p>Jakob Harteg<br>Clara-Zetkin-Str. 5<br>14471 Potsdam<br>ドイツ</p>"
+    },
+    {
+      "icon": "mail",
+      "title": "連絡先",
+      "body": "<p>メール: <a href=\"mailto:contact@crookcatcher.app\">contact@crookcatcher.app</a></p>"
+    },
+    {
+      "icon": "edit_note",
+      "title": "内容に関する責任者",
+      "body": "<p>ドイツ メディア国家協定（MStV）第18条第2項に基づく内容責任者: Jakob Harteg（住所は上記のとおり）。</p>"
+    },
+    {
+      "icon": "gavel",
+      "title": "消費者紛争の解決",
+      "body": "<p>消費者調停機関における紛争解決手続きに参加する意思も義務もありません。</p>"
+    }
+  ]
+}
