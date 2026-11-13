@@ -1,9 +1,9 @@
 ---
-title: Cómo impedir que los ladrones apaguen tu teléfono (o activen el modo avión)
+title: "Cómo evitar que apaguen tu celular si te lo roban (Android y Samsung)"
 subtitle: Los ajustes que mantienen tu teléfono localizable, y cómo captar al ladrón con la cámara
 dateUpdated: '2026-09-28'
 datePublished: '2025-01-19'
-description: "Los ladrones apagan los teléfonos robados para que no se puedan rastrear. Así puedes ponérselo más difícil en Samsung y otros teléfonos Android, y obtener la foto del ladrón antes de que lo consiga."
+description: "Un celular robado y apagado no se puede rastrear. Así puedes ponérselo más difícil en Samsung y otros teléfonos Android, y obtener la foto del ladrón antes de que lo consiga."
 image: /images/blog/Digital_Solitude_Urban_Shadows.jpeg
 imageAlt: Hombre en la sombra con un teléfono
 published: true

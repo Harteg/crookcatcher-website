@@ -90,7 +90,7 @@ Vérifiez que **Verrouillage en cas d'échec de l'authentification**, **Verrouil
 ### Q : Existe-t-il un historique des tentatives de déverrouillage ratées sur Android ?
 R : Non. Android ne garde qu'un compteur pour les délais d'attente, et il n'est affiché nulle part. Pour avoir un historique, il vous faut une app comme CrookCatcher, qui enregistre chaque tentative avec une photo, l'heure et la position.
 
-### Q : Combien de fois peut-on se tromper de code PIN sur Android ?
+### Q : Combien de tentatives de déverrouillage Android autorise-t-il ?
 R : Sur les versions récentes d'Android, les 4 premières erreurs n'entraînent aucune attente. Ensuite, l'attente passe d'une minute à plusieurs jours, et après 20 erreurs plus aucun essai n'est autorisé. Sur les téléphones Samsung sous One UI 9, le blocage définitif intervient à la 13e erreur.
 
 ### Q : Mon téléphone va-t-il s'effacer après trop d'erreurs ?

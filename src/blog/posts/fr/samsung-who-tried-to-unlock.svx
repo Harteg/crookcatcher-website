@@ -1,6 +1,6 @@
 ---
-title: Comment savoir qui a essayé de déverrouiller votre Samsung (2026)
-subtitle: Ce qu'enregistrent les téléphones Galaxy après un mauvais code PIN, et comment obtenir une photo de la personne
+title: "Trop de tentatives de déverrouillage sur Samsung : qui a essayé ? (2026)"
+subtitle: "Combien de tentatives un Galaxy autorise, ce qu'il enregistre après un mauvais code PIN, et comment obtenir une photo de la personne"
 dateUpdated: '2026-10-22'
 datePublished: '2026-10-22'
 description: "Les téléphones Samsung Galaxy ne montrent pas qui a essayé de les déverrouiller et ne gardent aucune liste des codes PIN erronés. Voici ce que fait One UI des tentatives ratées, les réglages Samsung à activer et comment recevoir une photo de la personne par e-mail."
@@ -15,7 +15,7 @@ published: true
 
 **Les téléphones Samsung Galaxy ne peuvent pas vous montrer qui a essayé de les déverrouiller.** One UI compte les erreurs de code PIN, de schéma et de mot de passe uniquement pour bloquer le téléphone de plus en plus longtemps. Il ne garde aucune liste consultable et ne prend jamais de photo. Pour savoir qui c'était, installez une app qui réagit aux déverrouillages ratés, comme [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-fr). Elle prend une photo avec la caméra frontale après un mauvais code PIN et vous l'envoie par e-mail avec la position.
 
-## Ce que fait votre Samsung après un mauvais code PIN
+## Combien de tentatives de déverrouillage un Samsung autorise
 
 La dernière politique d'écran de verrouillage de Samsung (One UI 9) fait patienter la personne plus longtemps à chaque erreur :
 
@@ -97,8 +97,11 @@ C'est vous qui choisissez au bout de combien d'erreurs CrookCatcher se déclench
 ### Q : Samsung propose-t-il une fonction de selfie de l'intrus intégrée ?
 R : Pas pour l'écran de verrouillage. Les réglages d'écran de verrouillage et de protection contre le vol de Samsung bloquent le téléphone après des erreurs, mais aucun ne prend la personne en photo ni ne garde la liste des tentatives. Pour cela, il vous faut une app comme CrookCatcher.
 
-### Q : Combien de codes PIN erronés un Samsung autorise-t-il ?
+### Q : Combien de tentatives de déverrouillage un Samsung autorise-t-il ?
 R : Sur les téléphones livrés avec One UI 9, l'attente commence après 5 erreurs et le téléphone est bloqué définitivement à la 13e. Seule une réinitialisation d'usine le rend alors de nouveau utilisable. Les téléphones plus anciens et ceux mis à jour vers One UI 9 suivent leurs limites précédentes.
+
+### Q : Que signifie « Le nombre de tentatives de déverrouillage incorrectes est trop élevé » ?
+R : Que quelqu'un a saisi plusieurs fois de suite un mauvais code PIN, schéma ou mot de passe, et qu'il faut maintenant attendre avant de réessayer. Si ce n'était pas vous, quelqu'un a essayé de déverrouiller votre téléphone, mais le message ne dit ni qui ni quand. Pour le savoir la prochaine fois, il vous faut une application comme CrookCatcher, qui prend une photo à chaque tentative ratée.
 
 ### Q : Mon Samsung va-t-il s'effacer après trop d'erreurs ?
 R : Seulement si la réinitialisation automatique est activée dans les Paramètres de verrouillage sécurisé. Sur les téléphones sous One UI 9, épuiser les essais n'efface pas le téléphone de lui-même, mais vous devrez le réinitialiser pour l'utiliser à nouveau.

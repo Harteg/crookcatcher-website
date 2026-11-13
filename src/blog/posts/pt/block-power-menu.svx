@@ -1,9 +1,9 @@
 ---
-title: Como impedir que ladrões desliguem seu celular (ou ativem o modo avião)
+title: "Como impedir que desliguem seu celular se ele for roubado (Android e Samsung)"
 subtitle: As configurações que mantêm seu celular rastreável, e como pegar o ladrão na câmera
 dateUpdated: '2026-09-28'
 datePublished: '2025-01-19'
-description: "Ladrões desligam celulares roubados para que não possam ser rastreados. Veja como dificultar isso no Samsung e em outros celulares Android, e como conseguir a foto do ladrão antes que ele consiga."
+description: "Um celular roubado e desligado não pode ser rastreado. Veja como dificultar isso no Samsung e em outros celulares Android, e como conseguir a foto do ladrão antes que ele consiga."
 image: /images/blog/Digital_Solitude_Urban_Shadows.jpeg
 imageAlt: Homem nas sombras segurando um celular
 published: true

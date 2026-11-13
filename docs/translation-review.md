@@ -66,3 +66,14 @@ Titles, descriptions, some H2s and FAQ questions were retuned to real search phr
 - Japanese: "Galaxy" instead of "Samsung" in titles (Galaxy phones in Japan carry no Samsung logo); targets スマホ 勝手に見られた, ロック解除 履歴, 何回まで, スマホ 盗難 対策 設定, 盗まれた 電源切られた.
 - Italian: targets foto a chi sblocca il telefono, come sapere se qualcuno ha usato il mio cellulare, troppi tentativi di sblocco (samsung), antifurto android, impedire spegnimento dalla schermata di blocco.
 - The on-screen messages "Troppi tentativi di sblocco non validi" (Samsung, it) and 「ロック解除に何度も失敗しました」 (Galaxy, ja) come from autocomplete, not an official Samsung page. Worth confirming on a real device.
+
+### Images and SEO pass for pt/fr/es/de/ar/id (2026-11-13)
+
+- **Images:** the five shared English images are replaced in every language: the who-tried header, the top-5 header, and the Theft protection, Remote Lock and Find Hub graphics. The graphics use the menu names already in each guide. Their short descriptions, and the Find Hub action labels (ring, lock, erase), are our own wording, not Google's on-screen text. The Arabic versions are mirrored for right-to-left reading.
+- **SEO:** titles and some H2s and FAQ questions now follow Google autocomplete phrasing in each country (google.com.br, .fr, .com.mx, .de, .com.eg, .co.id). The Samsung guide in each language now leads with the "too many unlock attempts" message people search for, and has a new FAQ explaining it.
+- **To confirm on a real device:** these lockout messages come from autocomplete, not an official page.
+  - pt: "Muitas tentativas incorretas de desbloqueio"
+  - es: "Demasiados intentos de desbloqueo incorrectos"
+  - fr: « Le nombre de tentatives de déverrouillage incorrectes est trop élevé »
+  - de: „Zu viele falsche Entsperrungsversuche“
+  - id: "Terlalu banyak percobaan buka kunci yang salah"

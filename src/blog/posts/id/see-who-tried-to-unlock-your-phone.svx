@@ -1,10 +1,10 @@
 ---
-title: Cara Melihat Siapa yang Mencoba Membuka Ponselmu (dan Mendapatkan Fotonya)
+title: "Cara Mengetahui Orang yang Membuka HP Kita (dengan Foto Penyusup)"
 subtitle: Ambil selfie penyusup saat seseorang memasukkan PIN, pola, atau sandi yang salah
 dateUpdated: '2026-10-23'
 datePublished: '2026-09-28'
 description: "Android tidak menunjukkan siapa yang mencoba membuka ponselmu. Berikut cara otomatis memotret siapa pun yang memasukkan PIN, pola, atau sandi yang salah, dan menerimanya lewat email beserta lokasinya."
-image: '/images/blog/who-tried-to-unlock-header.png'
+image: '/images/blog/who-tried-to-unlock-header-id.png'
 imageAlt: 'Ponsel yang menampilkan percobaan pola kunci yang salah di samping email peringatan CrookCatcher dengan foto penyusup dan lokasi'
 published: true
 ---
@@ -58,7 +58,7 @@ Semua foto juga disimpan di aplikasi, tempat kamu bisa melihat setiap percobaan 
 
 Dengan **CrookCatcher Pro**, kamu juga bisa merekam video dengan suara, memotret sekitar dengan kamera belakang, mengunggah semuanya ke Google Drive secara otomatis, dan menangkap orang yang *berhasil menebak PIN-mu* setelah percobaan gagal (deteksi pembobolan).
 
-## Tanda-tanda lain seseorang memakai ponselmu
+## Cara mengetahui HP dibuka orang lain
 
 Foto adalah bukti paling jelas, tetapi hal-hal ini juga bisa menunjukkan seseorang pernah memakai ponselmu:
 

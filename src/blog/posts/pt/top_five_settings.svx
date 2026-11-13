@@ -1,11 +1,11 @@
 ---
-title: 5 configurações antirroubo do Android para ativar hoje (2026)
+title: "Proteção contra roubo do Android: 5 configurações para ativar hoje (2026)"
 subtitle: As configurações nativas que deixam um celular Android roubado inútil para o ladrão, e o que elas ainda não fazem
 dateUpdated: '2026-10-23'
 datePublished: '2025-08-24'
 description: "As cinco configurações do Android que mais protegem você se o celular for roubado: um bloqueio de tela forte, a Proteção contra roubo, o Bloqueio Remoto, o Find Hub e a Confirmação de Identidade. Veja onde encontrar cada uma, e o que elas ainda não conseguem dizer."
-image: '/images/blog/theft_settings_header.jpeg'
-imageAlt: 'Configurações de proteção contra roubo do Android e dicas do CrookCatcher'
+image: '/images/blog/theft_settings_header-pt.png'
+imageAlt: "5 configurações antirroubo para ativar hoje: PIN de 6 dígitos ou senha, Proteção contra roubo, Bloqueio Remoto, Find Hub e Confirmação de Identidade."
 published: true
 ---
 
@@ -45,8 +45,8 @@ Ative:
 Se uma opção estiver esmaecida, seu celular não é compatível com ela. Esses recursos exigem o Android 10 ou posterior, e alguns exigem o Android 15 ou posterior. Nos celulares Samsung Galaxy, a Samsung também tem seu próprio menu de Proteção contra roubo; veja [como descobrir quem tentou desbloquear seu Samsung](/pt/blog/samsung-who-tried-to-unlock) para saber onde fica.
 
 <figure class="blog-figure">
-  <img src="/images/blog/settings_theft.jpeg" alt="Configurações de proteção contra roubo no Android" />
-  <figcaption>Configurações de proteção contra roubo no Android</figcaption>
+  <img src="/images/blog/settings-theft-pt.webp" width="1080" height="700" loading="lazy" alt="Proteção contra roubo com Bloqueio por Detecção de Roubo, Bloqueio de Dispositivo Off-line e Bloqueio por Falha na Autenticação ativados" />
+  <figcaption>As três configurações para ativar na Proteção contra roubo</figcaption>
 </figure>
 
 ## 3. Ative o Bloqueio Remoto
@@ -59,8 +59,8 @@ Se o seu celular for roubado, o Bloqueio Remoto permite bloqueá-lo de qualquer 
 Ative e adicione a **Pergunta de segurança (opcional)**, para que ninguém consiga bloquear seu celular só com o seu número. O Bloqueio Remoto precisa que o celular tenha um chip, esteja on-line e tenha o Find Hub ativado.
 
 <figure class="blog-figure">
-  <img src="/images/blog/settings_remote_lock.jpeg" alt="Página android.com/lock pedindo o número de telefone" />
-  <figcaption>Bloqueio Remoto em android.com/lock</figcaption>
+  <img src="/images/blog/settings-remote-lock-pt.webp" width="1080" height="700" loading="lazy" alt="Bloqueio Remoto ativado. Como funciona: em qualquer dispositivo, acesse android.com/lock e digite o número do celular para bloquear a tela" />
+  <figcaption>Como funciona o Bloqueio Remoto</figcaption>
 </figure>
 
 ## 4. Confirme que o Find Hub está ativado
@@ -70,7 +70,7 @@ O Find Hub (chamado de Localizador nas páginas de ajuda do Google em português
 Normalmente ele já vem ativado quando você entra com uma conta do Google, mas confira: abra as Configurações e pesquise "Find Hub" ou "Localizador". Verifique se está ativado e se a localização está permitida.
 
 <figure class="blog-figure">
-  <img src="/images/blog/find_hub.png" alt="Find Hub mostrando a localização de um celular no mapa" />
+  <img src="/images/blog/find-hub-pt.webp" width="1080" height="520" loading="lazy" alt="Find Hub mostrando a localização do celular no mapa, com as opções de tocar um som, bloquear e apagar dados" />
   <figcaption>O Find Hub mostrando a localização do celular</figcaption>
 </figure>
 

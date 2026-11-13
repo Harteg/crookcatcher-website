@@ -1,9 +1,9 @@
 ---
-title: Comment empêcher les voleurs d'éteindre votre téléphone (ou d'activer le mode avion)
+title: "Comment empêcher d'éteindre votre téléphone verrouillé (Android et Samsung)"
 subtitle: Les réglages qui gardent votre téléphone localisable, et comment prendre le voleur en photo
 dateUpdated: '2026-09-28'
 datePublished: '2025-01-19'
-description: "Les voleurs éteignent les téléphones volés pour qu'on ne puisse plus les localiser. Voici comment rendre cela plus difficile sur Samsung et les autres téléphones Android, et comment obtenir la photo du voleur avant qu'il n'y parvienne."
+description: "Un téléphone volé et éteint ne peut plus être localisé. Voici comment rendre cela plus difficile sur Samsung et les autres téléphones Android, et comment obtenir la photo du voleur avant qu'il n'y parvienne."
 image: /images/blog/Digital_Solitude_Urban_Shadows.jpeg
 imageAlt: Homme dans l'ombre tenant un téléphone
 published: true

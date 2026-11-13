@@ -90,7 +90,7 @@ Pastikan **Kunci Autentikasi Gagal**, **Kunci Deteksi Pencurian**, dan **Kunci P
 ### Q: Apakah ada log percobaan buka kunci yang gagal di Android?
 A: Tidak. Android hanya menyimpan penghitung untuk timer penguncian, dan itu tidak ditampilkan di mana pun. Untuk memiliki catatan, kamu butuh aplikasi seperti CrookCatcher yang menyimpan setiap percobaan beserta foto, waktu, dan lokasi.
 
-### Q: Berapa kali bisa memasukkan PIN yang salah di Android?
+### Q: Berapa kali percobaan buka kunci yang diizinkan Android?
 A: Pada versi Android terbaru, 4 tebakan salah pertama tidak ada waktu tunggu. Setelah itu waktu tunggu bertambah dari 1 menit hingga berhari-hari, dan setelah 20 tebakan salah tidak boleh mencoba lagi. Ponsel Samsung dengan One UI 9 terkunci permanen pada tebakan salah ke-13.
 
 ### Q: Apakah ponselku akan terhapus sendiri setelah terlalu banyak percobaan gagal?

@@ -1,11 +1,11 @@
 ---
-title: 5 ajustes antirrobo de Android para activar hoy (2026)
+title: "Antirrobo Android: 5 ajustes para activar hoy (2026)"
 subtitle: Los ajustes integrados que hacen que un Android robado no le sirva al ladrón, y lo que aún no pueden hacer
 dateUpdated: '2026-10-23'
 datePublished: '2025-08-24'
 description: "Los cinco ajustes de Android que más te protegen si te roban el teléfono: un bloqueo de pantalla seguro, la protección ante robo, el Bloqueo remoto, el Localizador y la Verificación de identidad. Dónde encontrar cada uno y lo que todavía no pueden decirte."
-image: '/images/blog/theft_settings_header.jpeg'
-imageAlt: 'Ajustes de protección antirrobo de Android y consejos de CrookCatcher'
+image: '/images/blog/theft_settings_header-es.png'
+imageAlt: "5 ajustes antirrobo para activar hoy: PIN de 6 dígitos o contraseña, protección ante robo, Bloqueo remoto, Localizador y Verificación de identidad."
 published: true
 ---
 
@@ -52,8 +52,8 @@ Activa:
 Si una opción aparece desactivada en gris, tu teléfono no es compatible. Estas funciones requieren Android 10 o posterior, y algunas, Android 15 o posterior. En los Samsung Galaxy, Samsung también tiene su propio menú de Protección contra robos; mira [cómo saber quién intentó desbloquear tu Samsung](/es/blog/samsung-who-tried-to-unlock) para saber dónde está.
 
 <figure class="blog-figure">
-  <img src="/images/blog/settings_theft.jpeg" alt="Ajustes de protección ante robo en Android" />
-  <figcaption>Ajustes de protección ante robo en Android</figcaption>
+  <img src="/images/blog/settings-theft-es.webp" width="1080" height="700" loading="lazy" alt="Protección ante robo con el Bloqueo por detección de robo, el Bloqueo de dispositivo sin conexión y el Bloqueo por autenticación fallida activados" />
+  <figcaption>Los tres ajustes que hay que activar en la protección ante robo</figcaption>
 </figure>
 
 ## 3. Activa el Bloqueo remoto
@@ -66,8 +66,8 @@ Si te roban el teléfono, el Bloqueo remoto te permite bloquearlo desde cualquie
 Actívalo y agrega la **Pregunta de seguridad (opcional)** para que nadie más pueda bloquear tu teléfono solo con tu número. El Bloqueo remoto necesita que el teléfono tenga una SIM, esté conectado a internet y tenga activado el Localizador.
 
 <figure class="blog-figure">
-  <img src="/images/blog/settings_remote_lock.jpeg" alt="Página android.com/lock que pide el número de teléfono" />
-  <figcaption>Bloqueo remoto en android.com/lock</figcaption>
+  <img src="/images/blog/settings-remote-lock-es.webp" width="1080" height="700" loading="lazy" alt="Bloqueo remoto activado. Cómo funciona: desde cualquier dispositivo, entra en android.com/lock y escribe el número del teléfono para bloquear la pantalla" />
+  <figcaption>Cómo funciona el Bloqueo remoto</figcaption>
 </figure>
 
 ## 4. Comprueba que el Localizador esté activado
@@ -77,7 +77,7 @@ El Localizador de Google (Find Hub, antes Encontrar mi dispositivo) muestra en u
 Suele estar activado de forma predeterminada cuando inicias sesión con una cuenta de Google, pero compruébalo: abre la configuración y busca "Localizador". Asegúrate de que esté activado y de que la ubicación esté permitida.
 
 <figure class="blog-figure">
-  <img src="/images/blog/find_hub.png" alt="El Localizador de Google mostrando la ubicación de un teléfono en un mapa" />
+  <img src="/images/blog/find-hub-es.webp" width="1080" height="520" loading="lazy" alt="El Localizador mostrando la ubicación del teléfono en un mapa, con las opciones hacer sonar, bloquear y borrar datos" />
   <figcaption>El Localizador mostrando la ubicación del teléfono</figcaption>
 </figure>
 

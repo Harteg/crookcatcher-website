@@ -1,11 +1,11 @@
 ---
-title: 5 réglages antivol Android à activer dès aujourd'hui (2026)
+title: "Antivol Android : 5 réglages à activer dès aujourd'hui (2026)"
 subtitle: Les réglages intégrés qui rendent un téléphone Android volé inutile pour un voleur, et ce qu'ils ne font toujours pas
 dateUpdated: '2026-10-23'
 datePublished: '2025-08-24'
 description: "Les cinq réglages Android qui vous protègent le plus en cas de vol : un verrouillage d'écran solide, la Protection contre le vol, le Verrouillage à distance, Find Hub et la Vérification de l'identité. Voici où trouver chacun d'eux, et ce qu'ils ne peuvent toujours pas vous dire."
-image: '/images/blog/theft_settings_header.jpeg'
-imageAlt: 'Réglages Android de protection contre le vol et conseils CrookCatcher'
+image: '/images/blog/theft_settings_header-fr.png'
+imageAlt: "5 réglages antivol à activer aujourd'hui : code à 6 chiffres ou mot de passe, Protection contre le vol, Verrouillage à distance, Find Hub et Vérification de l'identité."
 published: true
 ---
 
@@ -45,8 +45,8 @@ Activez :
 Si une option est grisée, votre téléphone ne la prend pas en charge. Ces fonctions nécessitent Android 10 ou une version ultérieure, et certaines Android 15 ou une version ultérieure. Sur les téléphones Samsung Galaxy, Samsung a aussi son propre menu Protection contre le vol ; consultez [comment savoir qui a essayé de déverrouiller votre Samsung](/fr/blog/samsung-who-tried-to-unlock) pour savoir où le trouver.
 
 <figure class="blog-figure">
-  <img src="/images/blog/settings_theft.jpeg" alt="Réglages de protection contre le vol sur Android" />
-  <figcaption>Réglages de protection contre le vol sur Android</figcaption>
+  <img src="/images/blog/settings-theft-fr.webp" width="1080" height="700" loading="lazy" alt="Protection contre le vol avec le Verrouillage en cas de détection de vol, le Verrouillage de l'appareil hors connexion et le Verrouillage en cas d'échec de l'authentification activés" />
+  <figcaption>Les trois réglages à activer dans la Protection contre le vol</figcaption>
 </figure>
 
 ## 3. Activez le Verrouillage à distance
@@ -59,8 +59,8 @@ Si votre téléphone est volé, le Verrouillage à distance vous permet de le ve
 Activez-le et ajoutez la **Question secrète (facultatif)**, pour que personne ne puisse verrouiller votre téléphone avec seulement votre numéro. Le Verrouillage à distance nécessite que le téléphone ait une carte SIM, soit en ligne et ait Find Hub activé.
 
 <figure class="blog-figure">
-  <img src="/images/blog/settings_remote_lock.jpeg" alt="Page android.com/lock demandant le numéro de téléphone" />
-  <figcaption>Le Verrouillage à distance sur android.com/lock</figcaption>
+  <img src="/images/blog/settings-remote-lock-fr.webp" width="1080" height="700" loading="lazy" alt="Verrouillage à distance activé. Fonctionnement : depuis n'importe quel appareil, ouvrez android.com/lock et saisissez le numéro du téléphone pour verrouiller son écran" />
+  <figcaption>Comment fonctionne le Verrouillage à distance</figcaption>
 </figure>
 
 ## 4. Vérifiez que Find Hub est activé
@@ -70,7 +70,7 @@ Find Hub (appelé Localiser dans les pages d'aide de Google en français) indiqu
 Il est généralement activé par défaut quand vous vous connectez avec un compte Google, mais vérifiez : ouvrez les Paramètres et recherchez « Find Hub » ou « Localiser ». Assurez-vous qu'il est activé et que la localisation est autorisée.
 
 <figure class="blog-figure">
-  <img src="/images/blog/find_hub.png" alt="Find Hub affichant la position d'un téléphone sur une carte" />
+  <img src="/images/blog/find-hub-fr.webp" width="1080" height="520" loading="lazy" alt="Find Hub affichant la position du téléphone sur une carte, avec les options faire sonner, verrouiller et effacer les données" />
   <figcaption>Find Hub affichant la position du téléphone</figcaption>
 </figure>
 

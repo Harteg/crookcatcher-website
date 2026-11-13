@@ -1,11 +1,11 @@
 ---
-title: 5 Android-Einstellungen gegen Diebstahl, die du heute aktivieren solltest (2026)
+title: "Android-Diebstahlschutz: 5 Einstellungen, die du heute aktivieren solltest (2026)"
 subtitle: Die eingebauten Einstellungen, die ein gestohlenes Android-Handy für Diebe nutzlos machen, und was sie trotzdem nicht können
 dateUpdated: '2026-10-23'
 datePublished: '2025-08-24'
 description: "Die fünf Android-Einstellungen, die dich bei einem Diebstahl am besten schützen: eine starke Displaysperre, Diebstahlschutz, Sperren per Fernzugriff, Find Hub und Identitätsüberprüfung. Hier steht, wo du sie findest und was sie trotzdem nicht verraten."
-image: '/images/blog/theft_settings_header.jpeg'
-imageAlt: 'Android-Einstellungen für den Diebstahlschutz und Tipps von CrookCatcher'
+image: '/images/blog/theft_settings_header-de.png'
+imageAlt: "5 Einstellungen gegen Diebstahl: 6-stellige PIN oder Passwort, Diebstahlschutz, Sperren per Fernzugriff, Find Hub und Identitätsüberprüfung."
 published: true
 ---
 
@@ -48,8 +48,8 @@ Aktiviere:
 Wenn eine Einstellung ausgegraut ist, unterstützt dein Handy sie nicht. Diese Funktionen brauchen Android 10 oder neuer, einige Android 15 oder neuer. Auf Samsung-Galaxy-Handys hat Samsung zusätzlich ein eigenes Menü für den Diebstahlschutz. Wo du es findest, steht in [So siehst du, wer dein Samsung-Handy entsperren wollte](/de/blog/samsung-who-tried-to-unlock).
 
 <figure class="blog-figure">
-  <img src="/images/blog/settings_theft.jpeg" alt="Einstellungen für den Diebstahlschutz unter Android" />
-  <figcaption>Einstellungen für den Diebstahlschutz unter Android</figcaption>
+  <img src="/images/blog/settings-theft-de.webp" width="1080" height="700" loading="lazy" alt="Diebstahlschutz mit aktivierter Diebstahl-Displaysperre, Offline-Gerätesperre und Displaysperre bei fehlgeschlagener Authentifizierung" />
+  <figcaption>Die drei Einstellungen, die du im Diebstahlschutz aktivieren solltest</figcaption>
 </figure>
 
 ## 3. Aktiviere „Sperren per Fernzugriff“
@@ -62,8 +62,8 @@ Wenn dein Handy gestohlen wird, kannst du es mit „Sperren per Fernzugriff“ v
 Aktiviere es und füge die optionale **Sicherheitsfrage** hinzu, damit niemand sonst dein Handy allein mit deiner Nummer sperren kann. Dafür muss das Handy eine SIM-Karte haben, online sein und Find Hub eingeschaltet haben.
 
 <figure class="blog-figure">
-  <img src="/images/blog/settings_remote_lock.jpeg" alt="Die Seite android.com/lock, die nach der Telefonnummer fragt" />
-  <figcaption>Sperren per Fernzugriff unter android.com/lock</figcaption>
+  <img src="/images/blog/settings-remote-lock-de.webp" width="1080" height="700" loading="lazy" alt="Sperren per Fernzugriff aktiviert. So funktioniert es: auf einem beliebigen Gerät android.com/lock öffnen und die Telefonnummer eingeben, um den Bildschirm zu sperren" />
+  <figcaption>So funktioniert „Sperren per Fernzugriff“</figcaption>
 </figure>
 
 ## 4. Stelle sicher, dass Find Hub eingeschaltet ist
@@ -73,7 +73,7 @@ Find Hub (früher „Mein Gerät finden“) zeigt auf einer Karte, wo dein Handy
 Meist ist es eingeschaltet, sobald du dich mit einem Google-Konto anmeldest, aber prüfe es: Öffne die Einstellungen und suche nach „Find Hub“ oder „Mein Gerät finden“. Stelle sicher, dass es eingeschaltet und der Standort erlaubt ist.
 
 <figure class="blog-figure">
-  <img src="/images/blog/find_hub.png" alt="Find Hub zeigt den Standort eines Handys auf einer Karte" />
+  <img src="/images/blog/find-hub-de.webp" width="1080" height="520" loading="lazy" alt="Find Hub zeigt den Standort des Handys auf einer Karte, mit den Optionen Klingeln lassen, Sperren und Daten löschen" />
   <figcaption>Find Hub zeigt den Standort des Handys</figcaption>
 </figure>
 

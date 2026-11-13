@@ -15,7 +15,7 @@ published: true
 
 **No. Android no guarda una lista de los intentos fallidos de desbloqueo y nunca muestra quién los hizo.** Cuenta los intentos con PIN, patrón o contraseña incorrectos solo para hacer esperar más a la persona antes de volver a intentarlo. Una vez que desbloqueas el teléfono, no hay nada que revisar: ni lista, ni hora, ni foto. Para ver los intentos fallidos necesitas una app que reciba un aviso cada vez que falla un desbloqueo, como [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-es), que toma una foto de la persona y te la envía por correo con la ubicación.
 
-## Qué hace Android con un PIN incorrecto
+## Cuántos intentos de desbloqueo permite Android
 
 Cada intento fallido se cuenta y, después de unos cuantos, la pantalla de bloqueo hace esperar a la persona. En las versiones recientes de Android (Android 16 QPR2 y posteriores), el calendario que publica Google es:
 
@@ -92,7 +92,7 @@ Comprueba que estén activados el **Bloqueo por autenticación fallida**, el **B
 ### P: ¿Hay un registro de los intentos fallidos de desbloqueo en Android?
 R: No. Android solo guarda un contador para el tiempo de espera, y no se muestra en ningún lado. Para tener un registro necesitas una app como CrookCatcher que guarde cada intento con una foto, la hora y la ubicación.
 
-### P: ¿Cuántas veces se puede ingresar un PIN incorrecto en Android?
+### P: ¿Cuántos intentos de desbloqueo permite Android?
 R: En las versiones recientes de Android, los primeros 4 intentos fallidos no tienen espera. Después, las esperas van de 1 minuto a varios días, y tras 20 intentos fallidos no se permiten más. Los teléfonos Samsung con One UI 9 se bloquean permanentemente en el 13.º intento fallido.
 
 ### P: ¿Mi teléfono se borrará solo después de demasiados intentos fallidos?

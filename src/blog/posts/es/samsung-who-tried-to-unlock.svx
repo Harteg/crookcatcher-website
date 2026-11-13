@@ -1,6 +1,6 @@
 ---
-title: Cómo saber quién intentó desbloquear tu Samsung (2026)
-subtitle: Qué registra un Galaxy tras un PIN incorrecto y cómo obtener una foto de la persona
+title: "Demasiados intentos de desbloqueo en Samsung: cómo saber quién fue (2026)"
+subtitle: "Cuántos intentos permite un Galaxy, qué registra tras un PIN incorrecto y cómo obtener una foto de quien lo intentó"
 dateUpdated: '2026-10-22'
 datePublished: '2026-10-22'
 description: "Los teléfonos Samsung Galaxy no muestran quién intentó desbloquearlos ni guardan una lista de intentos con PIN incorrecto. Esto es lo que hace One UI con los intentos fallidos, los ajustes de Samsung que vale la pena activar y cómo recibir por correo una foto de la persona."
@@ -15,7 +15,7 @@ published: true
 
 **Los teléfonos Samsung Galaxy no pueden mostrarte quién intentó desbloquearlos.** One UI cuenta los intentos con PIN, patrón o contraseña incorrectos solo para bloquear el teléfono durante cada vez más tiempo. No guarda una lista que puedas revisar y nunca toma una foto. Para saber quién fue, instala una app que reaccione a los desbloqueos fallidos, como [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-es). Toma una foto con la cámara frontal después de un PIN incorrecto y te la envía por correo con la ubicación.
 
-## Qué hace tu Samsung después de un PIN incorrecto
+## Cuántos intentos de desbloqueo permite un Samsung
 
 La política más reciente de la pantalla de bloqueo de Samsung (One UI 9) hace esperar a la persona cada vez más después de cada intento fallido:
 
@@ -100,8 +100,11 @@ Tú eliges cuántos intentos fallidos deben ocurrir antes de que CrookCatcher ac
 ### P: ¿Samsung tiene una función integrada para tomar una foto del intruso?
 R: No para la pantalla de bloqueo. Los ajustes de pantalla de bloqueo y de protección contra robos de Samsung bloquean el teléfono tras varios intentos fallidos, pero ninguno toma una foto de la persona ni guarda una lista de intentos. Para eso necesitas una app como CrookCatcher.
 
-### P: ¿Cuántos intentos con PIN incorrecto permite un Samsung?
+### P: ¿Cuántos intentos de desbloqueo permite un Samsung?
 R: En los teléfonos que vienen con One UI 9, las esperas empiezan después de 5 intentos fallidos y el teléfono se bloquea permanentemente en el 13.º. Después de eso, solo un restablecimiento de fábrica permite volver a usarlo. Los modelos más antiguos y los que se actualizaron a One UI 9 siguen sus límites anteriores.
+
+### P: ¿Qué significa "Demasiados intentos de desbloqueo incorrectos"?
+R: Que alguien ingresó varias veces seguidas un PIN, patrón o contraseña incorrectos, y ahora hay que esperar para volver a intentarlo. Si no fuiste tú, alguien intentó desbloquear tu teléfono, pero el mensaje no dice quién ni cuándo. Para saberlo la próxima vez necesitas una app como CrookCatcher, que toma una foto en cada intento fallido.
 
 ### P: ¿Mi Samsung se borrará solo después de demasiados intentos fallidos?
 R: Solo si **Autorestablecer ajustes** está activado en Ajustes de bloqueo seguro. En los teléfonos con One UI 9, quedarse sin intentos no borra el teléfono por sí solo, pero tendrás que restablecerlo de fábrica para volver a usarlo.

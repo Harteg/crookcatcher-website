@@ -1,11 +1,11 @@
 ---
-title: 5 Pengaturan Anti-Pencurian Android yang Perlu Diaktifkan Hari Ini (2026)
+title: "Perlindungan dari Pencurian Android: 5 Pengaturan yang Perlu Diaktifkan (2026)"
 subtitle: Pengaturan bawaan yang membuat ponsel Android curian tidak berguna bagi pencuri, dan apa yang tetap tidak bisa dilakukannya
 dateUpdated: '2026-10-23'
 datePublished: '2025-08-24'
 description: "Lima pengaturan Android yang paling melindungimu jika ponsel dicuri: kunci layar yang kuat, Perlindungan dari pencurian, Kunci Jarak Jauh, Hub Pencari, dan Cek Identitas. Berikut letak masing-masing, dan apa yang tetap tidak bisa diberitahukannya."
-image: '/images/blog/theft_settings_header.jpeg'
-imageAlt: 'Pengaturan perlindungan pencurian Android dan tips CrookCatcher'
+image: '/images/blog/theft_settings_header-id.png'
+imageAlt: "5 pengaturan anti-pencurian yang perlu diaktifkan: PIN 6 digit atau sandi, Perlindungan dari pencurian, Kunci Jarak Jauh, Hub Pencari, dan Cek Identitas."
 published: true
 ---
 
@@ -45,8 +45,8 @@ Aktifkan:
 Jika sebuah pengaturan berwarna abu-abu, ponselmu tidak mendukungnya. Fitur ini membutuhkan Android 10 atau lebih baru, dan sebagian membutuhkan Android 15 atau lebih baru. Di ponsel Samsung Galaxy, Samsung juga punya menu Perlindungan dari pencurian sendiri; lihat [cara melihat siapa yang mencoba membuka ponsel Samsung-mu](/id/blog/samsung-who-tried-to-unlock) untuk letaknya.
 
 <figure class="blog-figure">
-  <img src="/images/blog/settings_theft.jpeg" alt="Pengaturan Perlindungan dari pencurian di Android" />
-  <figcaption>Pengaturan Perlindungan dari pencurian di Android</figcaption>
+  <img src="/images/blog/settings-theft-id.webp" width="1080" height="700" loading="lazy" alt="Perlindungan dari pencurian dengan Kunci Deteksi Pencurian, Kunci Perangkat Offline, dan Kunci Autentikasi Gagal yang aktif" />
+  <figcaption>Tiga pengaturan yang perlu diaktifkan di Perlindungan dari pencurian</figcaption>
 </figure>
 
 ## 3. Aktifkan Kunci Jarak Jauh
@@ -59,8 +59,8 @@ Jika ponselmu dicuri, Kunci Jarak Jauh memungkinkan kamu mengunci ponsel dari br
 Aktifkan, dan tambahkan **Pertanyaan keamanan** opsional agar tidak ada orang lain yang bisa mengunci ponselmu hanya dengan nomormu. Kunci Jarak Jauh membutuhkan ponsel yang memiliki SIM, online, dan Hub Pencari aktif.
 
 <figure class="blog-figure">
-  <img src="/images/blog/settings_remote_lock.jpeg" alt="Halaman android.com/lock yang meminta nomor telepon" />
-  <figcaption>Kunci Jarak Jauh di android.com/lock</figcaption>
+  <img src="/images/blog/settings-remote-lock-id.webp" width="1080" height="700" loading="lazy" alt="Kunci Jarak Jauh aktif. Cara kerjanya: dari perangkat apa pun, buka android.com/lock dan masukkan nomor ponsel untuk mengunci layarnya" />
+  <figcaption>Cara kerja Kunci Jarak Jauh</figcaption>
 </figure>
 
 ## 4. Pastikan Hub Pencari aktif
@@ -70,7 +70,7 @@ Hub Pencari (Find Hub) menunjukkan lokasi ponselmu di peta dan memungkinkan kamu
 Biasanya aktif secara default saat kamu masuk dengan akun Google, tetapi periksa: buka Setelan dan cari "Hub Pencari". Pastikan aktif dan lokasi diizinkan.
 
 <figure class="blog-figure">
-  <img src="/images/blog/find_hub.png" alt="Hub Pencari menampilkan lokasi ponsel di peta" />
+  <img src="/images/blog/find-hub-id.webp" width="1080" height="520" loading="lazy" alt="Hub Pencari menampilkan lokasi ponsel di peta, dengan opsi bunyikan, kunci, dan hapus data" />
   <figcaption>Hub Pencari menampilkan lokasi ponsel</figcaption>
 </figure>
 

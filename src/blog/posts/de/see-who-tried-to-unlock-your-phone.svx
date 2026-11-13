@@ -1,10 +1,10 @@
 ---
-title: So siehst du, wer dein Handy entsperren wollte (und bekommst sein Foto)
+title: "Wer hat versucht, mein Handy zu entsperren? So findest du es heraus (mit Foto)"
 subtitle: Mach ein Einbrecher-Selfie, wenn jemand die falsche PIN, das falsche Muster oder Passwort eingibt
 dateUpdated: '2026-10-23'
 datePublished: '2026-09-28'
 description: "Android zeigt nicht, wer dein Handy entsperren wollte. So machst du automatisch ein Foto von jedem, der die falsche PIN, das falsche Muster oder Passwort eingibt, und bekommst es per E-Mail mit dem Standort."
-image: '/images/blog/who-tried-to-unlock-header.png'
+image: '/images/blog/who-tried-to-unlock-header-de.png'
 imageAlt: 'Handy mit einem falschen Entsperrmuster neben einer CrookCatcher-Warn-E-Mail mit Fotos des Eindringlings und dem Standort'
 published: true
 ---
@@ -58,7 +58,7 @@ Alle Fotos werden außerdem in der App gespeichert. Dort kannst du jeden Versuch
 
 Mit **CrookCatcher Pro** kannst du zusätzlich ein Video mit Ton aufnehmen, mit der Rückkamera ein Foto der Umgebung machen, alles automatisch in Google Drive hochladen und auch Leute erwischen, die nach einem Fehlversuch deine *PIN richtig erraten* (Einbruchserkennung).
 
-## Weitere Anzeichen, dass jemand dein Handy benutzt hat
+## So findest du heraus, ob jemand an deinem Handy war
 
 Ein Foto ist der klarste Beweis, aber auch diese Dinge können zeigen, dass jemand an deinem Handy war:
 

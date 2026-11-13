@@ -517,6 +517,96 @@
 			"src": "/images/blog/samsung-who-tried-to-unlock-header-1600.webp"
 		}
 	],
+	"/images/blog/theft_settings_header-ar.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/theft_settings_header-ar-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/theft_settings_header-ar-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/theft_settings_header-ar-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/theft_settings_header-ar-1600.webp"
+		}
+	],
+	"/images/blog/theft_settings_header-de.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/theft_settings_header-de-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/theft_settings_header-de-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/theft_settings_header-de-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/theft_settings_header-de-1600.webp"
+		}
+	],
+	"/images/blog/theft_settings_header-es.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/theft_settings_header-es-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/theft_settings_header-es-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/theft_settings_header-es-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/theft_settings_header-es-1600.webp"
+		}
+	],
+	"/images/blog/theft_settings_header-fr.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/theft_settings_header-fr-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/theft_settings_header-fr-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/theft_settings_header-fr-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/theft_settings_header-fr-1600.webp"
+		}
+	],
+	"/images/blog/theft_settings_header-id.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/theft_settings_header-id-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/theft_settings_header-id-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/theft_settings_header-id-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/theft_settings_header-id-1600.webp"
+		}
+	],
 	"/images/blog/theft_settings_header-it.png": [
 		{
 			"width": 480,
@@ -553,6 +643,24 @@
 			"src": "/images/blog/theft_settings_header-ja-1600.webp"
 		}
 	],
+	"/images/blog/theft_settings_header-pt.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/theft_settings_header-pt-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/theft_settings_header-pt-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/theft_settings_header-pt-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/theft_settings_header-pt-1600.webp"
+		}
+	],
 	"/images/blog/theft_settings_header.jpeg": [
 		{
 			"width": 480,
@@ -565,6 +673,96 @@
 		{
 			"width": 1199,
 			"src": "/images/blog/theft_settings_header-1199.webp"
+		}
+	],
+	"/images/blog/who-tried-to-unlock-header-ar.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/who-tried-to-unlock-header-ar-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/who-tried-to-unlock-header-ar-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/who-tried-to-unlock-header-ar-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/who-tried-to-unlock-header-ar-1600.webp"
+		}
+	],
+	"/images/blog/who-tried-to-unlock-header-de.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/who-tried-to-unlock-header-de-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/who-tried-to-unlock-header-de-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/who-tried-to-unlock-header-de-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/who-tried-to-unlock-header-de-1600.webp"
+		}
+	],
+	"/images/blog/who-tried-to-unlock-header-es.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/who-tried-to-unlock-header-es-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/who-tried-to-unlock-header-es-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/who-tried-to-unlock-header-es-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/who-tried-to-unlock-header-es-1600.webp"
+		}
+	],
+	"/images/blog/who-tried-to-unlock-header-fr.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/who-tried-to-unlock-header-fr-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/who-tried-to-unlock-header-fr-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/who-tried-to-unlock-header-fr-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/who-tried-to-unlock-header-fr-1600.webp"
+		}
+	],
+	"/images/blog/who-tried-to-unlock-header-id.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/who-tried-to-unlock-header-id-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/who-tried-to-unlock-header-id-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/who-tried-to-unlock-header-id-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/who-tried-to-unlock-header-id-1600.webp"
 		}
 	],
 	"/images/blog/who-tried-to-unlock-header-it.png": [
@@ -601,6 +799,24 @@
 		{
 			"width": 1600,
 			"src": "/images/blog/who-tried-to-unlock-header-ja-1600.webp"
+		}
+	],
+	"/images/blog/who-tried-to-unlock-header-pt.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/who-tried-to-unlock-header-pt-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/who-tried-to-unlock-header-pt-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/who-tried-to-unlock-header-pt-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/who-tried-to-unlock-header-pt-1600.webp"
 		}
 	],
 	"/images/blog/who-tried-to-unlock-header.png": [

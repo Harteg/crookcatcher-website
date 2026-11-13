@@ -1,10 +1,10 @@
 ---
-title: Cómo saber quién intentó desbloquear tu teléfono (y obtener su foto)
-subtitle: Toma una foto del intruso cuando alguien ingrese un PIN, patrón o contraseña incorrectos
+title: "App que toma foto a quien intenta desbloquear tu celular (Android)"
+subtitle: "Sabe si alguien usó tu celular: una foto del intruso cada vez que alguien ingrese un PIN, patrón o contraseña incorrectos"
 dateUpdated: '2026-10-23'
 datePublished: '2026-09-28'
 description: "Android no muestra quién intentó desbloquear tu teléfono. Así puedes tomar automáticamente una foto de quien ingrese un PIN, patrón o contraseña incorrectos, y recibirla por correo con su ubicación."
-image: '/images/blog/who-tried-to-unlock-header.png'
+image: '/images/blog/who-tried-to-unlock-header-es.png'
 imageAlt: 'Teléfono con un intento de desbloqueo con patrón incorrecto junto a una alerta de CrookCatcher por correo con fotos del intruso y la ubicación'
 published: true
 ---
@@ -58,7 +58,7 @@ Todas las fotos también quedan guardadas en la app, donde puedes ver cada inten
 
 Con **CrookCatcher Pro** también puedes grabar un video con sonido, tomar una foto del entorno con la cámara trasera, subir todo automáticamente a Google Drive y atrapar a la persona incluso cuando *adivina tu PIN* después de un intento fallido (detección de intrusión).
 
-## Otras señales de que alguien usó tu teléfono
+## Cómo saber si alguien usó tu celular
 
 Una foto es la prueba más clara, pero estas señales también pueden indicar que alguien estuvo en tu teléfono:
 
@@ -97,8 +97,8 @@ Sí, las funciones más importantes son gratis: la foto del intruso, la ubicaci�
 ### P: ¿Qué es una foto o selfie del intruso?
 R: Es una foto que se toma automáticamente con la cámara frontal cuando alguien ingresa un PIN, patrón o contraseña incorrectos en tu teléfono. La persona suele estar mirando directo a la pantalla, así que la foto muestra su cara. Android no puede tomarla por sí solo; una app como CrookCatcher la toma y te la envía por correo.
 
-### P: ¿Mi celular puede tomar una foto de quien ingrese mal la contraseña?
-R: No por sí solo. Android no tiene una opción para eso, y las opciones de "foto del intruso" del bloqueo de apps de algunos fabricantes solo cubren apps concretas, no la pantalla de bloqueo. Con CrookCatcher instalado, un PIN, patrón o contraseña incorrectos (después del número de intentos que elijas) activan una foto, que se guarda con la hora y la ubicación.
+### P: ¿Hay una app que tome una foto cuando la contraseña es incorrecta?
+R: Sí, pero el celular no lo hace por sí solo. Android no tiene una opción para eso, y las opciones de "foto del intruso" del bloqueo de apps de algunos fabricantes solo cubren apps concretas, no la pantalla de bloqueo. Con CrookCatcher instalado, un PIN, patrón o contraseña incorrectos (después del número de intentos que elijas) activan una foto, que se guarda con la hora y la ubicación.
 
 ### P: ¿Funciona con patrón, PIN y contraseña?
 R: Sí. CrookCatcher reacciona a un PIN, patrón o contraseña incorrectos. Los intentos fallidos con huella digital o reconocimiento facial no lo activan, y no funciona con cámaras emergentes (pop-up).

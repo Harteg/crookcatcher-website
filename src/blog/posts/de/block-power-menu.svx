@@ -1,9 +1,9 @@
 ---
-title: So hinderst du Diebe daran, dein Handy auszuschalten (oder den Flugmodus einzuschalten)
+title: "Ausschalten verhindern: So bleibt dein gestohlenes Handy ortbar (Android und Samsung)"
 subtitle: Die Einstellungen, mit denen dein Handy ortbar bleibt, und wie du den Dieb vor die Kamera bekommst
 dateUpdated: '2026-09-28'
 datePublished: '2025-01-19'
-description: "Diebe schalten gestohlene Handys aus, damit sie nicht geortet werden können. So machst du das auf Samsung und anderen Android-Handys schwerer und bekommst das Foto des Diebes, bevor es ihm gelingt."
+description: "Ein gestohlenes und ausgeschaltetes Handy lässt sich nicht mehr orten. So machst du das auf Samsung und anderen Android-Handys schwerer und bekommst das Foto des Diebes, bevor es ihm gelingt."
 image: /images/blog/Digital_Solitude_Urban_Shadows.jpeg
 imageAlt: Mann im Schatten mit einem Handy
 published: true

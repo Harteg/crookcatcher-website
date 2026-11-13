@@ -15,7 +15,7 @@ published: true
 
 **Não. O Android não guarda uma lista das tentativas de desbloqueio com falha e nunca mostra quem as fez.** Ele conta os erros de PIN, padrão e senha só para fazer a pessoa esperar cada vez mais antes de tentar de novo. Depois que o celular é desbloqueado, não há nada para consultar: nenhuma lista, nenhum horário, nenhuma foto. Para ver as tentativas com falha, você precisa de um app que seja avisado sempre que um desbloqueio falha, como o [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-pt), que tira uma foto da pessoa e envia para o seu e-mail com a localização.
 
-## O que o Android faz quando alguém erra o PIN
+## Quantas tentativas de desbloqueio o Android permite
 
 Cada erro é contado e, depois de alguns, a tela de bloqueio faz a pessoa esperar. Nas versões recentes do Android (Android 16 QPR2 e posteriores), a tabela publicada pelo Google é:
 
@@ -90,7 +90,7 @@ Confira se o **Bloqueio por Falha na Autenticação**, o **Bloqueio por Detecç�
 ### P: Existe um registro das tentativas de desbloqueio com falha no Android?
 R: Não. O Android só mantém um contador para o tempo de espera, e ele não aparece em lugar nenhum. Para ter um registro, você precisa de um app como o CrookCatcher, que salva cada tentativa com foto, horário e localização.
 
-### P: Quantas vezes dá para errar o PIN no Android?
+### P: Quantas tentativas de desbloqueio o Android permite?
 R: Nas versões recentes do Android, os 4 primeiros erros não têm espera. Depois, a espera vai de 1 minuto a dias, e após 20 erros nenhuma tentativa é permitida. Nos celulares Samsung com One UI 9, o bloqueio permanente acontece no 13º erro.
 
 ### P: Meu celular se apaga sozinho depois de muitas tentativas erradas?

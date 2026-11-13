@@ -90,7 +90,7 @@ Prüfe, ob **Displaysperre bei fehlgeschlagener Authentifizierung**, **Diebstahl
 ### Q: Gibt es unter Android ein Protokoll der fehlgeschlagenen Entsperrversuche?
 A: Nein. Android führt nur einen Zähler für die Sperrzeit, und der wird nirgends angezeigt. Für ein Protokoll brauchst du eine App wie CrookCatcher, die jeden Versuch mit Foto, Uhrzeit und Standort speichert.
 
-### Q: Wie oft kann man unter Android eine falsche PIN eingeben?
+### Q: Wie viele Entsperrversuche erlaubt Android?
 A: In neueren Android-Versionen gibt es bei den ersten 4 falschen Eingaben keine Wartezeit. Danach wachsen die Wartezeiten von 1 Minute auf mehrere Tage, und nach 20 falschen Eingaben sind keine weiteren möglich. Samsung-Handys mit One UI 9 sperren bei der 13. falschen Eingabe dauerhaft.
 
 ### Q: Löscht sich mein Handy nach zu vielen Fehlversuchen von selbst?

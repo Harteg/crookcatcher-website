@@ -1,9 +1,9 @@
 ---
-title: Cara Mencegah Pencuri Mematikan Ponselmu (atau Mengaktifkan Mode Pesawat)
+title: "Cara Agar HP Tidak Bisa Dimatikan Saat Terkunci (Android dan Samsung)"
 subtitle: Pengaturan agar ponselmu tetap bisa dilacak, dan cara memotret pencurinya
 dateUpdated: '2026-09-28'
 datePublished: '2025-01-19'
-description: "Pencuri mematikan ponsel curian agar tidak bisa dilacak. Berikut cara mempersulitnya di Samsung dan ponsel Android lain, dan cara mendapatkan foto pencuri sebelum mereka berhasil."
+description: "HP curian yang dimatikan tidak bisa dilacak. Berikut cara mempersulitnya di Samsung dan ponsel Android lain, dan cara mendapatkan foto pencuri sebelum mereka berhasil."
 image: /images/blog/Digital_Solitude_Urban_Shadows.jpeg
 imageAlt: Pria berbayang dengan ponsel
 published: true

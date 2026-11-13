@@ -1,11 +1,11 @@
 ---
-title: 5 إعدادات لمكافحة السرقة في Android يجب تفعيلها اليوم (2026)
+title: "الحماية من السرقة في Android: 5 إعدادات يجب تفعيلها اليوم (2026)"
 subtitle: الإعدادات المدمجة التي تجعل هاتف Android المسروق بلا فائدة للص، وما لا تزال عاجزة عنه
 dateUpdated: '2026-10-23'
 datePublished: '2025-08-24'
 description: "خمسة إعدادات في Android تحميك أكثر عند سرقة هاتفك: قفل شاشة قوي، والحماية من السرقة، والقفل عن بُعد، ومركز العثور، والتحقّق من الهوية. إليك مكان كل منها، وما لا تزال عاجزة عن إخبارك به."
-image: '/images/blog/theft_settings_header.jpeg'
-imageAlt: 'إعدادات الحماية من السرقة في Android ونصائح CrookCatcher'
+image: '/images/blog/theft_settings_header-ar.png'
+imageAlt: "5 إعدادات لمكافحة السرقة فعّلها اليوم: PIN من 6 أرقام أو كلمة مرور، والحماية من السرقة، والقفل عن بُعد، ومركز العثور، والتحقّق من الهوية."
 published: true
 ---
 
@@ -45,8 +45,8 @@ published: true
 إذا ظهر إعداد باللون الرمادي فهذا يعني أن هاتفك لا يدعمه. تتطلب هذه الميزات Android 10 أو أحدث، وبعضها يتطلب Android 15 أو أحدث. وفي هواتف Samsung Galaxy لدى Samsung قائمة خاصة بها للحماية من السرقة؛ راجع [كيف تعرف من حاول فتح هاتف Samsung الخاص بك](/ar/blog/samsung-who-tried-to-unlock) لمعرفة مكانها.
 
 <figure class="blog-figure">
-  <img src="/images/blog/settings_theft.jpeg" alt="إعدادات الحماية من السرقة في Android" />
-  <figcaption>إعدادات الحماية من السرقة في Android</figcaption>
+  <img src="/images/blog/settings-theft-ar.webp" width="1080" height="700" loading="lazy" alt="الحماية من السرقة مع تفعيل القفل عند رصد سرقة والقفل عند انقطاع الإنترنت والقفل عند تعذّر المصادقة" />
+  <figcaption>الإعدادات الثلاثة التي تفعّلها في الحماية من السرقة</figcaption>
 </figure>
 
 ## 3. فعّل القفل عن بُعد
@@ -59,8 +59,8 @@ published: true
 فعّله، وأضف **سؤال الأمان** الاختياري حتى لا يستطيع أحد غيرك قفل هاتفك برقمك وحده. يتطلب القفل عن بُعد أن يحتوي الهاتف على شريحة SIM وأن يكون متصلًا بالإنترنت وأن يكون «مركز العثور» مفعّلًا.
 
 <figure class="blog-figure">
-  <img src="/images/blog/settings_remote_lock.jpeg" alt="صفحة android.com/lock تطلب رقم الهاتف" />
-  <figcaption>القفل عن بُعد على android.com/lock</figcaption>
+  <img src="/images/blog/settings-remote-lock-ar.webp" width="1080" height="700" loading="lazy" alt="القفل عن بُعد مفعّل. طريقة عمله: من أي جهاز افتح android.com/lock وأدخل رقم الهاتف لقفل شاشته" />
+  <figcaption>كيف يعمل القفل عن بُعد</figcaption>
 </figure>
 
 ## 4. تأكد من تفعيل «مركز العثور»
@@ -70,7 +70,7 @@ published: true
 وهو مفعّل عادةً افتراضيًا عند تسجيل الدخول بحساب Google، لكن تحقق: افتح الإعدادات وابحث عن «مركز العثور». تأكد من أنه مفعّل ومن السماح بالوصول إلى الموقع.
 
 <figure class="blog-figure">
-  <img src="/images/blog/find_hub.png" alt="مركز العثور يعرض موقع هاتف على الخريطة" />
+  <img src="/images/blog/find-hub-ar.webp" width="1080" height="520" loading="lazy" alt="مركز العثور يعرض موقع الهاتف على الخريطة مع خيارات تشغيل رنين والقفل ومحو البيانات" />
   <figcaption>مركز العثور يعرض موقع الهاتف</figcaption>
 </figure>
 

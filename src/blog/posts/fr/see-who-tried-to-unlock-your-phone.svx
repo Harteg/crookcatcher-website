@@ -4,7 +4,7 @@ subtitle: Prenez un selfie de l'intrus quand quelqu'un saisit un mauvais code PI
 dateUpdated: '2026-10-23'
 datePublished: '2026-09-28'
 description: "Android n'affiche pas qui a essayé de déverrouiller votre téléphone. Voici comment prendre automatiquement en photo toute personne qui saisit un mauvais code PIN, schéma ou mot de passe, et la recevoir par e-mail avec sa position."
-image: '/images/blog/who-tried-to-unlock-header.png'
+image: '/images/blog/who-tried-to-unlock-header-fr.png'
 imageAlt: "Téléphone affichant une tentative de déverrouillage avec un mauvais schéma, à côté d'une alerte CrookCatcher par e-mail avec les photos de l'intrus et sa position"
 published: true
 ---
@@ -58,7 +58,7 @@ Toutes les photos sont aussi enregistrées dans l'app, où vous pouvez parcourir
 
 Avec **CrookCatcher Pro**, vous pouvez aussi enregistrer une vidéo avec le son, prendre en photo l'environnement avec la caméra arrière, tout envoyer automatiquement sur Google Drive, et attraper quelqu'un même s'il *trouve votre code PIN* après une tentative ratée (détection d'intrusion).
 
-## Autres signes que quelqu'un a utilisé votre téléphone
+## Comment savoir si quelqu'un a utilisé votre téléphone
 
 Une photo est la preuve la plus claire, mais ces signes peuvent aussi indiquer que quelqu'un a utilisé votre téléphone :
 
