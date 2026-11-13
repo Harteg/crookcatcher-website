@@ -26,7 +26,7 @@ published: true
 
 ロックを解除しようとした人を知るには、ロック画面を見張り、ロック解除の失敗に反応するアプリが必要です。
 
-Samsung Galaxy をお使いなら、Samsung 独自の設定とロックのルールについて[Galaxy のロックを解除しようとした人を確認する方法](/ja/blog/samsung-who-tried-to-unlock)をご覧ください。
+Samsung Galaxy をお使いなら、Samsung 独自の設定とロックのルールについて[Galaxy のロックを解除しようとした人を確認する方法](/ja/blog/samsung-who-tried-to-unlock)をご覧ください。Google Pixel をお使いなら、[Pixel のロックを解除しようとした人を確認する方法](/ja/blog/pixel-who-tried-to-unlock)をご覧ください。
 
 ## 間違ったパスワードを入力した人の写真を撮る方法
 

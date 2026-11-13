@@ -1,12 +1,12 @@
 ---
 title: Comment savoir qui a essayé de déverrouiller votre Pixel (2026)
 subtitle: Ce qu'enregistre un Google Pixel après un mauvais code PIN, et comment obtenir une photo de la personne
-dateUpdated: '2026-10-21'
-datePublished: '2026-10-21'
+dateUpdated: '2026-11-13'
+datePublished: '2026-11-13'
 description: "Les téléphones Google Pixel ne montrent pas qui a essayé de les déverrouiller et ne gardent aucun historique des codes PIN erronés. Voici ce que fait votre Pixel après des déverrouillages ratés, les réglages de protection contre le vol à activer et comment recevoir une photo de la personne par e-mail."
 image: '/images/blog/pixel-who-tried-to-unlock-header-fr.png'
 imageAlt: "Comment savoir qui a essayé de déverrouiller votre Pixel : les téléphones Pixel comptent les erreurs mais ne montrent jamais qui les a faites. CrookCatcher prend la personne en photo."
-published: false
+published: true
 ---
 
 <script>

@@ -1,12 +1,12 @@
 ---
 title: كيف تعرف من حاول فتح هاتف Pixel الخاص بك (2026)
 subtitle: ما الذي يسجّله هاتف Google Pixel بعد إدخال PIN خاطئ، وكيف تحصل على صورة الشخص
-dateUpdated: '2026-10-21'
-datePublished: '2026-10-21'
+dateUpdated: '2026-11-13'
+datePublished: '2026-11-13'
 description: "لا تُظهر هواتف Google Pixel من حاول فتحها ولا تحتفظ بسجل لمحاولات PIN الخاطئة. إليك ما يفعله هاتف Pixel بعد المحاولات الفاشلة، وإعدادات الحماية من السرقة التي ينبغي تفعيلها، وكيف تحصل على صورة الشخص بالبريد الإلكتروني."
 image: '/images/blog/pixel-who-tried-to-unlock-header-ar.png'
 imageAlt: 'كيف تعرف من حاول فتح هاتف Pixel الخاص بك: تعدّ هواتف Pixel التخمينات الخاطئة لكنها لا تُظهر من قام بها أبدًا. يلتقط CrookCatcher صورته.'
-published: false
+published: true
 ---
 
 <script>

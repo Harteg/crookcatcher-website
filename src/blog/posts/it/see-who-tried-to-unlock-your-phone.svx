@@ -26,7 +26,7 @@ Alcuni produttori includono un'opzione simile, una "foto dell'intruso", nel loro
 
 Per vedere chi ha provato a sbloccare il telefono ti serve un'app che controlli la schermata di blocco e reagisca ai tentativi falliti.
 
-Hai un Samsung Galaxy? Leggi [troppi tentativi di sblocco su Samsung: come scoprire chi è stato](/it/blog/samsung-who-tried-to-unlock) per le impostazioni e i limiti di Samsung.
+Hai un Samsung Galaxy? Leggi [troppi tentativi di sblocco su Samsung: come scoprire chi è stato](/it/blog/samsung-who-tried-to-unlock) per le impostazioni e i limiti di Samsung. Usi un Google Pixel? Leggi [come scoprire chi ha provato a sbloccare il tuo Pixel](/it/blog/pixel-who-tried-to-unlock).
 
 ## Come fotografare chi inserisce la password sbagliata
 

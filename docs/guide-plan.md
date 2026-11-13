@@ -50,7 +50,7 @@ This is the cluster where CrookCatcher is the direct answer, because Android sho
 | --- | --- | --- | --- | --- |
 | 1 | How to See Who Tried to Unlock Your Phone (and Get Their Photo) | who tried to unlock my phone | see-who-tried-to-unlock-your-phone | Published |
 | 2 | How to See Who Tried to Unlock Your Samsung Phone | samsung wrong password photo | samsung-who-tried-to-unlock | Published |
-| 3 | How to See Who Tried to Unlock Your Pixel | pixel failed unlock attempts | pixel-who-tried-to-unlock | Ready to publish (en, pt, fr, de, ar, id, it, ja) |
+| 3 | How to See Who Tried to Unlock Your Pixel | pixel failed unlock attempts | pixel-who-tried-to-unlock | Published 2026-11-13 (en, pt, fr, de, ar, id, it, ja) |
 | 4 | How to See Who Tried to Unlock Your Xiaomi Phone | xiaomi intruder selfie | xiaomi-who-tried-to-unlock | Planned |
 | 5 | Can You See Failed Unlock Attempts on Android? | see failed unlock attempts android | failed-unlock-attempts-android | Published |
 | 6 | How to Tell if Someone Went Through Your Android Phone | how to tell if someone went through my phone | signs-someone-went-through-your-phone | Planned |

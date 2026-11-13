@@ -1,12 +1,12 @@
 ---
-title: Pixel のロックを解除しようとした人を確認する方法（2026 年版）
+title: Pixel のロックを解除しようとした人を確認する方法｜何回まで失敗できる？（2026 年版）
 subtitle: 間違った PIN のあと Google Pixel が記録すること、そして相手の写真を手に入れる方法
-dateUpdated: '2026-10-21'
-datePublished: '2026-10-21'
+dateUpdated: '2026-11-13'
+datePublished: '2026-11-13'
 description: "Google Pixel では、誰がロックを解除しようとしたかはわからず、間違った PIN の記録も残りません。ロック解除の失敗後に Pixel がすること、オンにしたい盗難保護の設定、相手の写真をメールで受け取る方法を説明します。"
 image: '/images/blog/pixel-who-tried-to-unlock-header-ja.png'
 imageAlt: "Pixel のロック解除を試みた人がわかる: Pixel は間違えた回数を数えるだけで、誰が試したかは表示しません。横に間違った PIN の画面と CrookCatcher の通知。"
-published: false
+published: true
 ---
 
 <script>

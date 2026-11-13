@@ -26,7 +26,7 @@ Einige Handyhersteller bieten in ihrer eigenen App-Sperre eine ähnliche Option 
 
 Um zu sehen, wer dein Handy entsperren wollte, brauchst du eine App, die den Sperrbildschirm überwacht und auf Fehlversuche reagiert.
 
-Hast du ein Samsung Galaxy? Dann lies [so siehst du, wer dein Samsung-Handy entsperren wollte](/de/blog/samsung-who-tried-to-unlock) für Samsungs eigene Einstellungen und Sperrregeln.
+Hast du ein Samsung Galaxy? Dann lies [so siehst du, wer dein Samsung-Handy entsperren wollte](/de/blog/samsung-who-tried-to-unlock) für Samsungs eigene Einstellungen und Sperrregeln. Du nutzt ein Google Pixel? Dann lies [so siehst du, wer dein Pixel entsperren wollte](/de/blog/pixel-who-tried-to-unlock).
 
 ## So machst du ein Foto von jemandem, der das falsche Passwort eingibt
 

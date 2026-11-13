@@ -26,7 +26,7 @@ Certains fabricants proposent une option similaire de « photo de l'intrus » 
 
 Pour savoir qui a essayé de déverrouiller votre téléphone, il vous faut une app qui surveille l'écran de verrouillage et réagit aux tentatives ratées.
 
-Vous avez un Samsung Galaxy ? Consultez [comment savoir qui a essayé de déverrouiller votre Samsung](/fr/blog/samsung-who-tried-to-unlock) pour les réglages et les limites d'essais propres à Samsung.
+Vous avez un Samsung Galaxy ? Consultez [comment savoir qui a essayé de déverrouiller votre Samsung](/fr/blog/samsung-who-tried-to-unlock) pour les réglages et les limites d'essais propres à Samsung. Vous utilisez un Google Pixel ? Consultez [comment savoir qui a essayé de déverrouiller votre Pixel](/fr/blog/pixel-who-tried-to-unlock).
 
 ## Comment prendre en photo toute personne qui saisit un mauvais mot de passe
 

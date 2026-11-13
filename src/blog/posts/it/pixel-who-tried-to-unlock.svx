@@ -1,12 +1,12 @@
 ---
 title: Come scoprire chi ha provato a sbloccare il tuo Pixel (2026)
 subtitle: Cosa registra un Google Pixel dopo un PIN sbagliato, e come ottenere una foto della persona
-dateUpdated: '2026-10-21'
-datePublished: '2026-10-21'
+dateUpdated: '2026-11-13'
+datePublished: '2026-11-13'
 description: "I Google Pixel non mostrano chi ha provato a sbloccarli e non registrano i PIN sbagliati. Ecco cosa fa il tuo Pixel dopo gli sblocchi falliti, le impostazioni di protezione dai furti da attivare e come ricevere via email una foto della persona."
 image: '/images/blog/pixel-who-tried-to-unlock-header-it.png'
 imageAlt: "Scopri chi ha provato a sbloccare il tuo Pixel: il tuo Pixel conta i tentativi sbagliati, ma non mostra mai chi li ha fatti. Accanto, un PIN errato e un avviso di CrookCatcher."
-published: false
+published: true
 ---
 
 <script>

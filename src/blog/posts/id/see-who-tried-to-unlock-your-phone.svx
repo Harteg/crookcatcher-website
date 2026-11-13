@@ -26,7 +26,7 @@ Sebagian produsen ponsel menyertakan opsi serupa "foto penyusup" di kunci aplika
 
 Untuk melihat siapa yang mencoba membuka ponselmu, kamu butuh aplikasi yang mengawasi layar kunci dan bereaksi terhadap percobaan yang gagal.
 
-Punya Samsung Galaxy? Lihat [cara melihat siapa yang mencoba membuka ponsel Samsung-mu](/id/blog/samsung-who-tried-to-unlock) untuk pengaturan Samsung sendiri dan aturan penguncian.
+Punya Samsung Galaxy? Lihat [cara melihat siapa yang mencoba membuka ponsel Samsung-mu](/id/blog/samsung-who-tried-to-unlock) untuk pengaturan Samsung sendiri dan aturan penguncian. Pakai Google Pixel? Lihat [cara melihat siapa yang mencoba membuka Pixel-mu](/id/blog/pixel-who-tried-to-unlock).
 
 ## Cara memotret orang yang memasukkan sandi salah
 

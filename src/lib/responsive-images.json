@@ -211,6 +211,150 @@
 			"src": "/images/blog/phone-stolen-uk-header-1600.webp"
 		}
 	],
+	"/images/blog/pixel-who-tried-to-unlock-header-ar.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-ar-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-ar-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-ar-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-ar-1600.webp"
+		}
+	],
+	"/images/blog/pixel-who-tried-to-unlock-header-de.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-de-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-de-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-de-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-de-1600.webp"
+		}
+	],
+	"/images/blog/pixel-who-tried-to-unlock-header-fr.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-fr-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-fr-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-fr-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-fr-1600.webp"
+		}
+	],
+	"/images/blog/pixel-who-tried-to-unlock-header-id.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-id-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-id-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-id-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-id-1600.webp"
+		}
+	],
+	"/images/blog/pixel-who-tried-to-unlock-header-it.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-it-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-it-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-it-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-it-1600.webp"
+		}
+	],
+	"/images/blog/pixel-who-tried-to-unlock-header-ja.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-ja-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-ja-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-ja-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-ja-1600.webp"
+		}
+	],
+	"/images/blog/pixel-who-tried-to-unlock-header-pt.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-pt-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-pt-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-pt-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-pt-1600.webp"
+		}
+	],
+	"/images/blog/pixel-who-tried-to-unlock-header.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/pixel-who-tried-to-unlock-header-1600.webp"
+		}
+	],
 	"/images/blog/samsung-who-tried-to-unlock-header-ar.png": [
 		{
 			"width": 480,
