@@ -20,9 +20,7 @@
   class:compact
   target="_blank"
   rel="noopener noreferrer"
-  data-fast-goal="play_store_click"
-  data-fast-goal-position={position || 'unknown'}
-  data-fast-goal-utm-source={tracking.campaign}
+  data-play-position={position || 'unknown'}
   on:click={() => trackPlayClick(position || 'unknown', tracking.campaign)}
 >
   <img

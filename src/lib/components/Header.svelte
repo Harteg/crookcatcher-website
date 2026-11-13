@@ -93,9 +93,7 @@
       href={playUrl}
       target="_blank"
       rel="noopener noreferrer"
-      data-fast-goal="play_store_click"
-      data-fast-goal-position="header"
-      data-fast-goal-utm-source={tracking.campaign}
+      data-play-position="header"
       on:click={() => trackPlayClick('header', tracking.campaign)}
     >
       {t.getApp}

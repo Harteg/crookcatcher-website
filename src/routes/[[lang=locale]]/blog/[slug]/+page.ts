@@ -1,6 +1,6 @@
 import { error, redirect } from '@sveltejs/kit';
 import { listPosts, loadPost, postLocales } from '$lib/blog';
-import { DEFAULT_LOCALE, LOCALES, localizePath } from '$lib/i18n';
+import { DEFAULT_LOCALE, LOCALES } from '$lib/i18n';
 
 export const prerender = true;
 
@@ -29,14 +29,6 @@ export async function load({ params, parent }) {
 	const destination = SLUG_REDIRECTS[slug];
 	if (destination) {
 		throw redirect(301, destination);
-	}
-
-	// Track page view
-	if (typeof window !== 'undefined' && window.gtag) {
-		window.gtag('config', 'G-JH65GSTF8W', {
-			page_path: localizePath(`/blog/${slug}`, locale),
-			page_title: `${slug} - Blog`
-		});
 	}
 
 	// No fallback to English: a /pt/ or /fr/ URL only exists when the post is translated.

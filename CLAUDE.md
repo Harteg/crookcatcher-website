@@ -38,7 +38,7 @@ Every Play Store link in a guide uses:
 so Play Console shows installs per guide. The referrer value must stay URL-encoded; an unencoded `&` cuts it short.
 
 - `<AppCta />`, `<PlayStoreButton />` and the header button build this automatically from the page (`src/lib/play-store.ts`). Don't pass tracking props in guides beyond `AppCta`'s `position`.
-- Click tracking (Google Analytics event `play_store_button_click`, DataFast goal `play_store_click`) records which link was clicked: `header`, `guide_mid`, `guide_end`, or `guide_text` for Play links written in the guide's text. Compare these in DataFast to see what converts.
+- Click tracking (Google Analytics event `play_store_button_click`, with `button_position` and the campaign as `event_label`) records which link was clicked: `header`, `guide_mid`, `guide_end`, or `guide_text` for Play links written in the guide's text. The website's Analytics property is `364646021` (measurement ID `G-JH65GSTF8W`), read with the same service account as the app's. Clicks were not recorded before Nov 14, 2026.
 - Hand-written links in a guide's text use the format above. Translated guides use the slug plus the language: `<slug>-pt`, `<slug>-fr`, `<slug>-es`.
 - Outside guides, buttons use `utm_medium=button` and their position as the campaign (`hero`, `header`, `pro`, `footer`, `blog_index`). The homepage QR codes for desktop visitors use `hero_qr` and `footer_qr`.
 

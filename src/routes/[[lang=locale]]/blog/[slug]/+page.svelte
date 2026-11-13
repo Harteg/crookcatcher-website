@@ -23,10 +23,9 @@
   onMount(() => {
     const onClick = (event: MouseEvent) => {
       const link = (event.target as HTMLElement).closest('a');
-      if (!link?.href.includes('play.google.com/store/apps') || link.hasAttribute('data-fast-goal')) return;
+      if (!link?.href.includes('play.google.com/store/apps') || link.hasAttribute('data-play-position')) return;
       const { campaign } = playTracking($page, 'guide_text');
       trackPlayClick('guide_text', campaign);
-      (window as any).datafast?.('play_store_click', { position: 'guide_text', utm_source: campaign });
     };
     content.addEventListener('click', onClick);
     return () => content.removeEventListener('click', onClick);
