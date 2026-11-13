@@ -70,7 +70,7 @@ People search for Google's and Samsung's own features. Explain them honestly, th
 
 | # | Guide title | Main search | Slug | Status |
 | --- | --- | --- | --- | --- |
-| 10 | Android Theft Detection Lock: What It Does and What It Misses | theft detection lock android | theft-detection-lock | Drafted Nov 13, 2026 (awaiting review) |
+| 10 | Android Theft Detection Lock: What It Does and What It Misses | theft detection lock android | theft-detection-lock | Published 2026-11-14 |
 | 11 | How to Find Your Lost or Stolen Android Phone with Find Hub | find my stolen android phone | find-stolen-android-phone | Planned |
 | 12 | Samsung Find: How to Locate and Lock a Stolen Galaxy | samsung find stolen phone | samsung-find-stolen-phone | Planned |
 | 13 | Android Phone Stolen in the US? What to Do in the First 10 Minutes | android phone stolen what to do | phone-stolen-us | Planned |

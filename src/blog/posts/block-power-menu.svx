@@ -55,7 +55,7 @@ These Android features lock your phone automatically, which helps most in the si
 **On Samsung phones, go to:**
 `Settings > Security and privacy > Lost device protection > Theft protection`
 
-Once the phone is locked, the thief is back at the lock screen, where step 1 and CrookCatcher take over.
+Once the phone is locked, the thief is back at the lock screen, where step 1 and CrookCatcher take over. Google lists situations where it may not trigger: see [what Theft Detection Lock does and what it misses](/blog/theft-detection-lock).
 
 ---
 

@@ -45,6 +45,8 @@ Turn on:
 - **Offline Device Lock:** locks the screen soon after the phone goes offline, for example when a thief switches on airplane mode.
 - **Failed Authentication Lock:** locks the screen when unlock attempts fail repeatedly. It's on by default.
 
+Theft Detection Lock doesn't trigger in every situation. See [what Theft Detection Lock does and what it misses](/blog/theft-detection-lock).
+
 If a setting is grayed out, your phone doesn't support it. These features need Android 10 or later, and some need Android 15 or later. On Samsung Galaxy phones, Samsung also has its own Theft protection menu; see [how to see who tried to unlock your Samsung phone](/blog/samsung-who-tried-to-unlock) for where to find it.
 
 <figure class="blog-figure">

@@ -49,7 +49,7 @@ These don't show you who tried, but they make your Pixel much harder to get into
 
 It's also under `Settings > Google > All services > Theft protection`.
 
-- **Theft Detection Lock:** locks the screen if your Pixel detects it's been snatched.
+- **Theft Detection Lock:** locks the screen if your Pixel detects it's been snatched. Here's [what it does and what it misses](/blog/theft-detection-lock).
 - **Offline Device Lock:** locks the screen soon after the phone goes offline, so a thief can't stop it being found.
 - **Failed Authentication Lock:** locks the screen when unlock attempts fail repeatedly. It's on by default; on Android 16 and later it has its own switch.
 - **Identity Check:** away from trusted places, sensitive actions like changing your screen lock or turning off Find Hub need your fingerprint or face.

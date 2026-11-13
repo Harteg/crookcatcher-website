@@ -1,12 +1,12 @@
 ---
 title: "Android Theft Detection Lock: What It Does and What It Misses (2026)"
 subtitle: How Android locks a snatched phone, when it won't trigger, and what it can't tell you afterwards
-dateUpdated: '2026-11-13'
-datePublished: '2026-11-13'
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
 description: "Theft Detection Lock locks your Android phone's screen when it senses someone grabbed it and ran. Here's how to turn it on, the situations where Google says it may not trigger, and what it can't do: show you who took the phone."
 image: '/images/blog/theft-detection-lock-header.png'
 imageAlt: 'Android Theft Detection Lock: it locks a snatched phone. It does not show you who took it. CrookCatcher takes their photo.'
-published: false
+published: true
 ---
 
 <script>
