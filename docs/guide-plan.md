@@ -48,12 +48,12 @@ This is the cluster where CrookCatcher is the direct answer, because Android sho
 
 | # | Guide title | Main search | Slug | Status |
 | --- | --- | --- | --- | --- |
-| 1 | How to See Who Tried to Unlock Your Phone (and Get Their Photo) | who tried to unlock my phone | see-who-tried-to-unlock-your-phone | Published |
+| 1 | How to See Who Tried to Unlock Your Android Phone (and Get Their Photo) | who tried to unlock my phone | see-who-tried-to-unlock-your-phone | Published |
 | 2 | How to See Who Tried to Unlock Your Samsung Phone | samsung wrong password photo | samsung-who-tried-to-unlock | Published |
 | 3 | How to See Who Tried to Unlock Your Pixel | pixel failed unlock attempts | pixel-who-tried-to-unlock | Published 2026-11-13 (en, pt, fr, de, ar, id, it, ja) |
-| 4 | How to See Who Tried to Unlock Your Xiaomi Phone | xiaomi intruder selfie | xiaomi-who-tried-to-unlock | Planned |
+| 4 | How to See Who Tried to Unlock Your Xiaomi Phone | xiaomi intruder selfie | xiaomi-who-tried-to-unlock | Drafted Nov 13, 2026 (awaiting review) |
 | 5 | Can You See Failed Unlock Attempts on Android? | see failed unlock attempts android | failed-unlock-attempts-android | Published |
-| 6 | How to Tell if Someone Went Through Your Android Phone | how to tell if someone went through my phone | signs-someone-went-through-your-phone | Planned |
+| 6 | How to Tell if Someone Went Through Your Android Phone | how to tell if someone went through my phone | signs-someone-went-through-your-phone | Drafted Nov 13, 2026 (awaiting review) |
 | 7 | How to Take a Picture of Someone Who Enters the Wrong Password | take picture wrong password android | — | Merged into #1 |
 | 8 | What Is an Intruder Selfie and How Does It Work? | intruder selfie app | — | Merged into #1 |
 | 9 | How to Catch Someone Snooping on Your Phone | catch someone snooping on my phone | — | Merged into #6 |
@@ -61,6 +61,7 @@ This is the cluster where CrookCatcher is the direct answer, because Android sho
 **Merged topics.** #7, #8 and #9 target almost the same searches as existing or planned guides. Separate pages would compete with each other in Google, so their searches are covered inside those guides instead:
 
 - **#7 and #8 → #1.** "Take a picture of someone who enters the wrong password" and "intruder selfie" are what #1 already answers. To do: make sure #1 uses both phrasings naturally and add a short "What is an intruder selfie?" section or FAQ.
+- **#15 → #14.** Search Console (Oct 14 – Nov 10, 2026) shows `block-power-menu` already gets its impressions from airplane-mode searches ("disable airplane mode from lock screen", "how to disable airplane mode when phone is locked"): 10,750 impressions but only 82 clicks. A second page would compete with it, so #14 was retitled to match those searches instead.
 - **#9 → #6.** "Catch someone snooping" and "tell if someone went through my phone" are the same reader. #6 covers the signs, then how to catch the person next time.
 
 ## Priority 2: Android's built-in theft features
@@ -69,12 +70,12 @@ People search for Google's and Samsung's own features. Explain them honestly, th
 
 | # | Guide title | Main search | Slug | Status |
 | --- | --- | --- | --- | --- |
-| 10 | Android Theft Detection Lock: What It Does and What It Misses | theft detection lock android | theft-detection-lock | Planned |
+| 10 | Android Theft Detection Lock: What It Does and What It Misses | theft detection lock android | theft-detection-lock | Drafted Nov 13, 2026 (awaiting review) |
 | 11 | How to Find Your Lost or Stolen Android Phone with Find Hub | find my stolen android phone | find-stolen-android-phone | Planned |
 | 12 | Samsung Find: How to Locate and Lock a Stolen Galaxy | samsung find stolen phone | samsung-find-stolen-phone | Planned |
 | 13 | Android Phone Stolen in the US? What to Do in the First 10 Minutes | android phone stolen what to do | phone-stolen-us | Planned |
-| 14 | How to Stop Thieves From Turning Off Your Phone (or Switching On Airplane Mode) | stop thief turning off phone | block-power-menu | Published |
-| 15 | How to Stop Thieves from Turning On Airplane Mode | disable airplane mode lock screen | block-airplane-mode-lock-screen | Planned |
+| 14 | How to Stop Power Off and Airplane Mode From the Lock Screen on Android (2026) | disable airplane mode from lock screen | block-power-menu | Published (retitled Nov 13, 2026) |
+| 15 | How to Stop Thieves from Turning On Airplane Mode | disable airplane mode lock screen | — | Merged into #14 |
 | 16 | 5 Android Anti-Theft Settings to Turn On Today (2026) | android anti theft settings | top_five_settings | Published (rewritten Oct 23, 2026) |
 | 17 | How to Block a Stolen Phone's IMEI in the US | block stolen phone imei | block-stolen-phone-imei-us | Planned |
 
@@ -99,11 +100,20 @@ Comparison searches have the highest purchase intent. Keep them fair and factual
 
 | # | Guide title | Main search | Slug | Status |
 | --- | --- | --- | --- | --- |
-| 26 | Best Intruder Selfie Apps for Android (2026) | best intruder selfie app | best-intruder-selfie-apps-android | Planned |
+| 26 | Best Intruder Selfie Apps for Android (2026) | best intruder selfie app | best-intruder-selfie-apps-android | Drafted Nov 13, 2026 (awaiting review) |
 | 27 | CrookCatcher vs Find Hub | find my device alternative | crookcatcher-vs-find-hub | Planned |
 | 28 | CrookCatcher vs Samsung Find | samsung find alternative | crookcatcher-vs-samsung-find | Planned |
 | 29 | CrookCatcher vs Lockwatch | lockwatch alternative | crookcatcher-vs-lockwatch | Planned |
 | 30 | CrookCatcher vs Third Eye | third eye app alternative | crookcatcher-vs-third-eye | Planned |
+
+## Priority 5: Pro feature guides
+
+One guide per Pro feature that has a real search behind it. Open with Android's built-in options, then show what the feature adds. Added Nov 14, 2026.
+
+| # | Guide title | Main search | Slug | Status |
+| --- | --- | --- | --- | --- |
+| 31 | How to Show a Message on Your Android Lock Screen if Your Phone Is Lost or Stolen | lock screen message lost phone android | lock-screen-message-android | Drafted Nov 14, 2026 (awaiting review) |
+| 32 | How to Set Up a Fake Home Screen on Android | fake home screen android | fake-home-screen-android | Drafted Nov 14, 2026 (awaiting review) |
 
 ## Existing guides and later ideas
 

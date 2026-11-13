@@ -1,0 +1,131 @@
+---
+title: How to See Who Tried to Unlock Your Xiaomi Phone (2026)
+subtitle: What Xiaomi, Redmi and POCO phones record after a wrong PIN, and how to get a photo of the person
+dateUpdated: '2026-11-13'
+datePublished: '2026-11-13'
+description: "Xiaomi, Redmi and POCO phones don't show who tried to unlock them or keep a list of wrong PIN attempts. Here's what HyperOS does after failed unlocks, the Xiaomi settings worth turning on, and how to get a photo of the person by email."
+image: '/images/blog/xiaomi-who-tried-to-unlock-header.png'
+imageAlt: 'How to see who tried to unlock your Xiaomi phone: Xiaomi phones count wrong guesses but never show who made them. CrookCatcher takes their photo.'
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Xiaomi, Redmi and POCO phones can't show you who tried to unlock them.** HyperOS limits how many wrong PINs, patterns or passwords someone can enter, but it keeps no list of attempts you can check, and it never takes a photo. To find out who it was, install an app that's notified of failed unlocks, like [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dxiaomi-who-tried-to-unlock). It takes a photo with the front camera after a wrong PIN and emails it to you with the location. On a Xiaomi phone it needs two extra settings to keep working in the background, covered below.
+
+## What your Xiaomi does after a wrong PIN
+
+Xiaomi's security documentation says the system limits the number of times an incorrect password can be entered, and locks the phone after repeated wrong entries so nobody can guess their way in. In practice the lock screen shows a countdown, and the person has to wait until it ends before trying again.
+
+Xiaomi doesn't publish how many guesses are allowed or how long each wait is, and it can differ between HyperOS versions. Here's [what Android itself does with failed unlock attempts](/blog/failed-unlock-attempts-android).
+
+A countdown is the only sign you'll see that someone tried. It doesn't say who, when, or how many times.
+
+## Xiaomi settings worth turning on
+
+These don't show you who tried, but they make your phone harder to get into and easier to find.
+
+### Find device (Xiaomi Cloud)
+
+Xiaomi's own tracking service is called Find device.
+
+**Go to:**
+`Settings > Xiaomi Account > Xiaomi Cloud > Find device`
+
+Turn it on, grant the permissions it asks for and confirm with your Xiaomi Account password. Location has to be on. If the phone goes missing, sign in at [i.mi.com](https://i.mi.com) with the same account and choose **Find device**. You can see the phone on a map, play a sound at full volume even in silent mode, lock it with **Lost mode** or erase it.
+
+Xiaomi says none of this works if the phone isn't connected to the internet or the SIM card has been replaced.
+
+### Google's Theft protection
+
+Xiaomi phones with Google services also have Android's Theft protection.
+
+**Go to:**
+`Settings > Google > All services > Theft protection`
+
+- **Theft Detection Lock:** locks the screen if the phone detects that someone snatched it and ran.
+- **Offline Device Lock:** locks the screen soon after the phone goes offline.
+
+You need a screen lock first. If a switch is grayed out, your model doesn't support that feature. Read more in [Android Theft Detection Lock: what it does and what it misses](/blog/theft-detection-lock).
+
+Also make sure Google's **Find Hub** is on. It works alongside Xiaomi's Find device, and it's worth having both.
+
+## What your Xiaomi can't tell you
+
+- **Who tried.** No photo of the person.
+- **When it happened**, or how many times.
+- **Where the phone was** at the time.
+- **An alert while it happens.**
+
+Xiaomi's **App lock** (`Settings > Apps > App lock`) doesn't fill this gap either. It puts a password on individual apps, and Xiaomi's help page describes no option to photograph someone who gets it wrong.
+
+## How to get a photo of whoever tries to unlock your Xiaomi
+
+CrookCatcher fills exactly that gap. Android notifies apps with the **Device admin** permission each time an unlock fails. CrookCatcher uses that to take a photo with the front camera, record the location and an approximate address, and email both to you. Every attempt is also saved in the app with its time.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/hero-alert-800.webp" srcset="/images/hero-alert-480.webp 480w, /images/hero-alert-800.webp 800w, /images/hero-alert-990.webp 990w" sizes="(min-width: 600px) 540px, 100vw" width="990" height="1024" loading="lazy" alt="CrookCatcher email alert with the intruder's photo, the time of the attempt and a map of the location" />
+  <figcaption>The email CrookCatcher sends after a failed unlock attempt.</figcaption>
+</figure>
+
+**Set it up on your Xiaomi, Redmi or POCO:**
+
+1. **Install CrookCatcher** from <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dxiaomi-who-tried-to-unlock" target="_blank" rel="noopener noreferrer">Google Play</a>. There's no account to create.
+2. **Allow Device admin.** CrookCatcher uses this permission only to know when an unlock attempt fails.
+3. **Allow camera and location access.**
+4. **Connect a Gmail account** for the alert emails. CrookCatcher can only *send* emails from it, not read them.
+5. **Test it.** Lock your phone, enter a wrong PIN on purpose, then unlock it. Your own photo should appear in the app and your inbox.
+
+### Two extra settings on Xiaomi phones
+
+HyperOS is strict about apps that run in the background. Without these two settings it may stop CrookCatcher after a while, and you'd get no photo when it matters.
+
+1. **Allow autostart.** Go to `Settings > Apps > Permissions > Background autostart` and turn it on for CrookCatcher.
+2. **Remove battery restrictions.** During setup, CrookCatcher asks you to tap **Manage battery settings**. Choose **No restrictions** on the screen that opens.
+
+Menu names can differ slightly between HyperOS versions. If you can't find Background autostart, search for "autostart" in Settings. Then repeat the wrong-PIN test a day later to check that it still works.
+
+Since 2014, CrookCatcher has been downloaded more than 12 million times, and it takes around 1.2 million intruder photos a day.
+
+<AppCta position="guide_mid" />
+
+## Frequently Asked Questions
+
+### Q: Does Xiaomi have a built-in intruder selfie feature?
+A: No. Xiaomi's documentation describes no feature that photographs someone who enters a wrong lock screen or App lock password. To get a photo, you need an app like CrookCatcher.
+
+### Q: How many wrong PIN attempts does a Xiaomi phone allow?
+A: Xiaomi doesn't publish the numbers. After several wrong guesses the lock screen shows a countdown, and the person has to wait for it to end before trying again.
+
+### Q: Can I see failed unlock attempts on a Redmi or POCO phone?
+A: No. Redmi and POCO phones run the same HyperOS as Xiaomi phones. They count wrong guesses only to time the lockouts, and never show them to you.
+
+### Q: Why did CrookCatcher stop taking photos on my Xiaomi?
+A: Most often HyperOS has stopped it in the background. Turn on **Background autostart** for CrookCatcher and set its battery setting to **No restrictions**, as described above. Also note that after a restart, the phone has to be unlocked once before any app can use the camera.
+
+### Q: Can a thief turn off my Xiaomi from the lock screen?
+A: On most Xiaomi phones, yes. Xiaomi's help page for the Redmi Note 13 says a password to shut down isn't a standard feature. That's why it helps to get a photo and location the moment someone enters a wrong PIN, before the phone is switched off. See [how to stop power off and airplane mode from the lock screen](/blog/block-power-menu) for what you can do.
+
+### Q: Will the person see that they were photographed?
+A: CrookCatcher works in the background without a camera preview. Recent Android versions show a small indicator while the camera is in use; that's a system feature apps can't hide.
+
+## Sources
+
+- Xiaomi Trust Center: [MIUI Security White Paper](https://trust.mi.com/docs/miui-security-white-paper-global/3/3) (limits on wrong password entries)
+- Xiaomi Support: [How to use the Find device feature of Xiaomi Cloud](https://www.mi.com/global/support/faq/details/KA-559172/)
+- Xiaomi Support: [How to set the phone to lock when it detects theft](https://www.mi.com/global/support/faq/details/KA-537851/)
+- Xiaomi Support: [How to switch Background autostart on or off for apps](https://www.mi.com/global/support/faq/details/KA-507608/)
+- Xiaomi Support: [How to enable App lock](https://www.mi.com/global/support/faq/details/KA-508070/)
+- Xiaomi Support: [Does the Redmi Note 13 require a password to shut down?](https://www.mi.com/global/support/faq/details/KA-483287/)
+- Google, Android Help: [Protect your personal data against theft](https://support.google.com/android/answer/15146908?hl=en)
+- Android Developers: [DeviceAdminReceiver](https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver) (how apps are notified of failed attempts)
+
+## Related guides
+
+- [How to see who tried to unlock your Android phone (and get their photo)](/blog/see-who-tried-to-unlock-your-phone)
+- [Can you see failed unlock attempts on Android?](/blog/failed-unlock-attempts-android)
+- [5 Android anti-theft settings to turn on today](/blog/top_five_settings)
+
+<AppCta position="guide_end" />

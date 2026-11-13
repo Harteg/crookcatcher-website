@@ -1,9 +1,9 @@
 ---
-title: How to Stop Thieves From Turning Off Your Phone (or Switching On Airplane Mode)
-subtitle: The settings that keep your phone trackable, and how to catch the thief on camera
-dateUpdated: '2026-09-28'
+title: How to Stop Power Off and Airplane Mode From the Lock Screen on Android (2026)
+subtitle: The settings that stop a thief turning off your locked phone, and how to catch them on camera
+dateUpdated: '2026-11-13'
 datePublished: '2025-01-19'
-description: "Thieves turn off stolen phones so they can't be tracked. Here's how to make that harder on Samsung and other Android phones, and how to get the thief's photo before they succeed."
+description: "Thieves turn off stolen phones or switch on airplane mode so they can't be tracked. Here's how to make the lock screen ask for your PIN first on Samsung, what other Android phones offer, and how to get the thief's photo."
 image: /images/blog/Digital_Solitude_Urban_Shadows.jpeg
 imageAlt: Shadowy man with a phone
 published: true
@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**You can't completely stop a thief from turning off an Android phone, but you can make it much harder.** On many Samsung phones, turn on *Lock network and security*, so the lock screen asks for your PIN first. Also turn on *Theft Detection Lock* and *Offline Device Lock*, and move airplane mode out of Quick Settings.
+**You can't completely stop a thief from turning off a locked Android phone or switching on airplane mode, but you can make it much harder.** On many Samsung phones, turn on *Lock network and security*, so the lock screen asks for your PIN first. Also turn on *Theft Detection Lock* and *Offline Device Lock*, and move airplane mode out of Quick Settings.
 
 This matters because turning off the phone or switching on airplane mode is one of the first things thieves do. A phone that's off or offline can't be located, locked or erased remotely, so every tracking feature you set up suddenly stops working. Here's what to turn on, and how to make sure you still have evidence even if a thief gets through.
 

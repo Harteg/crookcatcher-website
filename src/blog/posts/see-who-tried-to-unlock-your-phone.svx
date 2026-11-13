@@ -1,7 +1,7 @@
 ---
-title: How to See Who Tried to Unlock Your Phone (and Get Their Photo)
+title: How to See Who Tried to Unlock Your Android Phone (and Get Their Photo)
 subtitle: Take an intruder selfie when someone enters the wrong PIN, pattern or password
-dateUpdated: '2026-10-23'
+dateUpdated: '2026-11-13'
 datePublished: '2026-09-28'
 description: "Android doesn't show who tried to unlock your phone. Here's how to automatically take a photo of anyone who enters the wrong PIN, pattern or password, and get it by email with their location."
 image: '/images/blog/who-tried-to-unlock-header.png'

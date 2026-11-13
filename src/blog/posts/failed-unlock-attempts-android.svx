@@ -40,6 +40,8 @@ Two more things changed recently:
 
 None of this is shown to you afterwards. The count only exists to time the lockouts.
 
+The details differ a little by brand: see what a [Samsung Galaxy](/blog/samsung-who-tried-to-unlock) or a [Google Pixel](/blog/pixel-who-tried-to-unlock) does after wrong guesses.
+
 ## The only clues Android gives you
 
 If someone tried while you were away, you might notice:

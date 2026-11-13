@@ -1,0 +1,133 @@
+---
+title: How to Set Up a Fake Home Screen on Android (2026)
+subtitle: What Android offers for hiding your apps, and a decoy home screen that appears after a wrong PIN
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
+description: "Android has no fake home screen, but Private space, Samsung's Secure Folder, guest mode and app pinning can hide what's on your phone. Here's how each works, and how to show a decoy home screen after a wrong PIN that photographs whoever taps it."
+image: '/images/blog/fake-home-screen-android-header.png'
+imageAlt: 'A fake home screen for thieves: after a wrong PIN they think they are in. They are not. Every tap takes another photo.'
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Android doesn't have a built-in fake home screen.** What it has are ways to hide part of your phone: Private space on Android 15 and later, Secure Folder on Samsung Galaxy phones, guest mode and app pinning. They work well, but each has to be set up or switched on beforehand, and none of them appear when someone enters a wrong PIN. CrookCatcher's Fake home screen does that: after a wrong PIN, pattern or password it shows a home screen that looks real but opens nothing, and it takes a photo when the person taps an app.
+
+## What Android offers for hiding your apps
+
+### Private space (Android 15 and later)
+
+Private space is a separate, locked area for apps you want to keep out of sight.
+
+**Go to:**
+`Settings > Security & privacy > Private space`
+
+It has its own lock. While it's locked, its apps don't appear in the app list, in recent apps, in sharing or in Settings, and you can hide the space itself. Google notes that it can't be hidden from someone who connects the phone to a computer.
+
+### Secure Folder (Samsung Galaxy)
+
+Samsung's version hides apps and files behind a separate passcode.
+
+**Go to:**
+`Settings > Security and privacy > More security settings > Secure Folder`
+
+To hide the folder's icon, turn off **Add Secure Folder to Apps screen**.
+
+### Guest mode
+
+A guest gets an empty space of their own. Your files, messages and apps aren't shared with it.
+
+**Go to:**
+`Settings > System > Multiple users`
+
+If you don't see the option, your phone doesn't support extra users.
+
+### App pinning
+
+Pinning keeps the phone on one app until your PIN is entered. It's meant for handing your phone to someone for a moment.
+
+**Go to:**
+`Settings > Security > Advanced > App pinning`
+
+Then open the recent apps view, tap the app's icon and choose **Pin**.
+
+## Where the built-in options fall short
+
+- **You have to act first.** Guest mode and app pinning only help if you switch them on before the phone leaves your hand.
+- **Your real home screen still shows.** Private space and Secure Folder hide what you put in them. Everything else, like email, photos and messages, is in plain view once the phone is unlocked.
+- **Nothing reacts to a wrong PIN.** Someone guessing your code just sees "Wrong PIN" and knows to keep trying.
+- **No evidence.** None of these tell you that someone tried, or who it was.
+
+## A fake home screen after a wrong PIN
+
+CrookCatcher's **Fake home screen** is a decoy. When someone enters a wrong PIN, pattern or password, the lock screen is replaced by what looks like your home screen. It's built from the icons of apps that are really installed on your phone, so it looks right.
+
+It's a picture of a home screen and nothing more. Tapping an icon opens no app. Instead, CrookCatcher can take another photo each time the person taps, so the more they poke around, the more photos you get. Your real phone stays locked behind it.
+
+There are two situations where this helps:
+
+- **A thief or a snoop guessing your PIN.** They think they got in and stop guessing. Meanwhile CrookCatcher has photographed them and emailed you the photo with the location.
+- **Someone pressuring you to unlock your phone.** Enter a wrong code on purpose. The fake home screen appears, and it looks as if you did what they asked, while your apps and data stay locked.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/hero-alert-800.webp" srcset="/images/hero-alert-480.webp 480w, /images/hero-alert-800.webp 800w, /images/hero-alert-990.webp 990w" sizes="(min-width: 600px) 540px, 100vw" width="990" height="1024" loading="lazy" alt="CrookCatcher email alert with the intruder's photo, the time of the attempt and a map of the location" />
+  <figcaption>While they tap around the fake home screen, you get this email.</figcaption>
+</figure>
+
+**How to set it up:**
+
+1. **Install CrookCatcher** from <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfake-home-screen-android" target="_blank" rel="noopener noreferrer">Google Play</a> and finish the setup. Taking the photo and emailing it are free.
+2. **Turn on Show fake home screen** in the app's settings for failed unlocks. It's part of CrookCatcher Pro.
+3. **Check the preview**, and choose whether a tap on the fake home screen should take another photo.
+4. **Test it.** Lock your phone and enter a wrong PIN.
+
+On Xiaomi phones the app asks for a few extra permissions before the fake home screen can appear. Fake home screen and [Show message](/blog/lock-screen-message-android) can't be on at the same time, so pick the one that fits you: a decoy that keeps the person busy, or a message that tells them they've been caught.
+
+<AppCta position="guide_mid" />
+
+## Use both
+
+The built-in options and the decoy solve different problems, so use them together:
+
+- Put your most private apps in **Private space** or **Secure Folder**.
+- Use **app pinning** when you hand your phone to someone.
+- Let the **fake home screen** handle whoever tries your PIN when you're not there.
+
+For the settings that protect a stolen phone, see [5 Android anti-theft settings to turn on today](/blog/top_five_settings).
+
+## Frequently Asked Questions
+
+### Q: Does Android have a fake or decoy home screen?
+A: No. Android can hide apps with Private space, and Samsung with Secure Folder, but neither shows a decoy after a wrong PIN.
+
+### Q: Can I set a second PIN that opens a different home screen?
+A: Not on standard Android. Guest mode and Private space give you separate spaces, but they aren't opened by a second lock screen PIN. With CrookCatcher's Fake home screen, any wrong PIN shows the decoy.
+
+### Q: Can someone open my apps from the fake home screen?
+A: No. The icons don't open anything. The phone stays locked, and the person still needs your real PIN, pattern or password.
+
+### Q: Will the fake home screen fool everyone?
+A: It's convincing at a glance because it uses your phone's real app icons. Someone who taps around for a while will notice that nothing opens. By then they've been photographed.
+
+### Q: Is the fake home screen free?
+A: It's a CrookCatcher Pro feature. The free version takes a photo after a wrong PIN and emails it to you with the location.
+
+### Q: How do I get back to my real phone?
+A: Turn the screen off and on, then unlock with your real PIN, pattern, password or fingerprint as usual.
+
+## Sources
+
+- Google, Android Help: [Hide sensitive apps with private space](https://support.google.com/android/answer/15341885)
+- Samsung: [Use Secure Folder on your Galaxy phone](https://www.samsung.com/us/support/answer/ANS10001401/)
+- Google, Android Help: [Delete, switch, or add users](https://support.google.com/android/answer/2865483)
+- Google, Android Help: [Pin and unpin screens](https://support.google.com/android/answer/9455138)
+
+## Related guides
+
+- [How to show a message on your Android lock screen if your phone is lost or stolen](/blog/lock-screen-message-android)
+- [How to see who tried to unlock your Android phone (and get their photo)](/blog/see-who-tried-to-unlock-your-phone)
+- [How to tell if someone went through your Android phone](/blog/signs-someone-went-through-your-phone)
+
+<AppCta position="guide_end" />
