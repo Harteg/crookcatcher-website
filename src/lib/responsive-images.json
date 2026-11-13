@@ -373,6 +373,42 @@
 			"src": "/images/blog/samsung-who-tried-to-unlock-header-1600.webp"
 		}
 	],
+	"/images/blog/theft_settings_header-it.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/theft_settings_header-it-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/theft_settings_header-it-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/theft_settings_header-it-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/theft_settings_header-it-1600.webp"
+		}
+	],
+	"/images/blog/theft_settings_header-ja.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/theft_settings_header-ja-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/theft_settings_header-ja-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/theft_settings_header-ja-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/theft_settings_header-ja-1600.webp"
+		}
+	],
 	"/images/blog/theft_settings_header.jpeg": [
 		{
 			"width": 480,
@@ -385,6 +421,42 @@
 		{
 			"width": 1199,
 			"src": "/images/blog/theft_settings_header-1199.webp"
+		}
+	],
+	"/images/blog/who-tried-to-unlock-header-it.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/who-tried-to-unlock-header-it-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/who-tried-to-unlock-header-it-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/who-tried-to-unlock-header-it-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/who-tried-to-unlock-header-it-1600.webp"
+		}
+	],
+	"/images/blog/who-tried-to-unlock-header-ja.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/who-tried-to-unlock-header-ja-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/who-tried-to-unlock-header-ja-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/who-tried-to-unlock-header-ja-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/who-tried-to-unlock-header-ja-1600.webp"
 		}
 	],
 	"/images/blog/who-tried-to-unlock-header.png": [

@@ -4,8 +4,8 @@ subtitle: 盗まれた Android スマホを泥棒にとって役に立たなく�
 dateUpdated: '2026-10-23'
 datePublished: '2025-08-24'
 description: "スマホを盗まれたときにいちばん役立つ Android の設定 5 つ: 強力な画面ロック、盗難保護、リモートロック、Find Hub、ID チェック。それぞれの場所と、それでもわからないことを説明します。"
-image: '/images/blog/theft_settings_header.jpeg'
-imageAlt: 'Android の盗難保護の設定と CrookCatcher のヒント'
+image: '/images/blog/theft_settings_header-ja.png'
+imageAlt: '今すぐオンにしたい盗難防止設定 5 選: 6 桁の PIN かパスワード、盗難保護、リモートロック、Find Hub、ID チェック。'
 published: true
 ---
 
@@ -48,8 +48,8 @@ Android の盗難保護は、泥棒がよく狙う状況でスマホを自動的
 グレー表示の設定は、お使いのスマホが対応していません。これらの機能には Android 10 以降が必要で、一部は Android 15 以降が必要です。Samsung Galaxy には Samsung 独自の盗難防止メニューもあります。場所は[Samsung のスマホのロックを解除しようとした人を確認する方法](/ja/blog/samsung-who-tried-to-unlock)をご覧ください。
 
 <figure class="blog-figure">
-  <img src="/images/blog/settings_theft.jpeg" alt="Android の盗難保護の設定" />
-  <figcaption>Android の盗難保護の設定（英語表示の画面）</figcaption>
+  <img src="/images/blog/settings-theft-ja.webp" width="1080" height="700" loading="lazy" alt="盗難検出ロック、オフライン デバイスロック、認証失敗時のロックがオンになった盗難保護の設定" />
+  <figcaption>盗難保護でオンにする 3 つの設定</figcaption>
 </figure>
 
 ## 3. リモートロックをオンにする
@@ -62,8 +62,8 @@ Android の盗難保護は、泥棒がよく狙う状況でスマホを自動的
 オンにして、任意の**セキュリティ保護用の質問**も追加しておきましょう。電話番号を知っているだけの他人にスマホをロックされるのを防げます。リモートロックを使うには、スマホに SIM が入っていて、オンラインで、Find Hub がオンになっている必要があります。
 
 <figure class="blog-figure">
-  <img src="/images/blog/settings_remote_lock.jpeg" alt="電話番号の入力を求める android.com/lock のページ" />
-  <figcaption>android.com/lock のリモートロック（英語表示の画面）</figcaption>
+  <img src="/images/blog/settings-remote-lock-ja.webp" width="1080" height="700" loading="lazy" alt="リモートロックがオン。仕組み: どの端末からでも android.com/lock を開き、スマホの電話番号を入力すると画面がロックされる" />
+  <figcaption>リモートロックの仕組み</figcaption>
 </figure>
 
 ## 4. Find Hub がオンになっているか確認する
@@ -73,7 +73,7 @@ Find Hub（旧「デバイスを探す」）は、スマホの位置を地図に
 Google アカウントでログインすると通常は標準でオンですが、念のため確認しましょう。設定を開いて「Find Hub」で検索し、オンになっていて、位置情報が許可されていることを確かめます。
 
 <figure class="blog-figure">
-  <img src="/images/blog/find_hub.png" alt="地図上にスマホの位置を表示する Find Hub" />
+  <img src="/images/blog/find-hub-ja.webp" width="1080" height="520" loading="lazy" alt="地図上にスマホの位置を表示し、音を鳴らす、紛失としてマーク、初期状態へのリセットを選べる Find Hub" />
   <figcaption>スマホの位置を表示する Find Hub</figcaption>
 </figure>
 

@@ -56,5 +56,5 @@ Site pages, interface text, reviews and six guides (the same set as German) were
 
 ### Images
 
-- `email-alert-it.webp` / `email-alert-ja.webp` and the three headers per language (`failed-unlock-attempts-android`, `samsung-who-tried-to-unlock`, `pixel-who-tried-to-unlock`) were rebuilt as HTML from the German versions' layout, using the existing pixelated photos. The other three guides reuse the shared headers, as the other translations do (`who-tried-to-unlock-header.png` has English text).
-- Screenshots inside `top_five_settings` are in English; the captions say so.
+- `email-alert-it.webp` / `email-alert-ja.webp` and the headers for `failed-unlock-attempts-android`, `samsung-who-tried-to-unlock`, `pixel-who-tried-to-unlock`, `see-who-tried-to-unlock-your-phone` and `top_five_settings` (`theft_settings_header-<lang>.png`) are HTML graphics built from the existing layouts and pixelated photos. `block-power-menu` uses the shared photo header, which has no text.
+- In `top_five_settings`, the three English phone screenshots are replaced by brand-style graphics (`settings-theft-`, `settings-remote-lock-`, `find-hub-<lang>.webp`). They use only the menu names confirmed on Google's pages; the one-line descriptions under each setting are ours, not Google's on-screen text, so the captions don't call them screenshots.

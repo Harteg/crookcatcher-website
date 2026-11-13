@@ -4,8 +4,8 @@ subtitle: Le impostazioni integrate che rendono inutile a un ladro un telefono A
 dateUpdated: '2026-10-23'
 datePublished: '2025-08-24'
 description: "Le cinque impostazioni Android che ti proteggono di più se ti rubano il telefono: un blocco schermo sicuro, la Protezione dai furti, il Blocco remoto, Find Hub e la Verifica dell'identità. Ecco dove trovarle, e cosa non possono ancora dirti."
-image: '/images/blog/theft_settings_header.jpeg'
-imageAlt: 'Impostazioni di protezione dai furti di Android e consigli di CrookCatcher'
+image: '/images/blog/theft_settings_header-it.png'
+imageAlt: "5 impostazioni antifurto da attivare oggi: PIN di 6 cifre o password, Protezione dai furti, Blocco remoto, Find Hub e Verifica dell'identità."
 published: true
 ---
 
@@ -48,8 +48,8 @@ Attiva:
 Se un'impostazione è disattivata in grigio, il tuo telefono non la supporta. Queste funzioni richiedono Android 10 o versioni successive, e alcune Android 15 o successive. Sui Samsung Galaxy c'è anche un menu Protezione dai furti di Samsung; vedi [come scoprire chi ha provato a sbloccare il tuo telefono Samsung](/it/blog/samsung-who-tried-to-unlock) per sapere dove trovarlo.
 
 <figure class="blog-figure">
-  <img src="/images/blog/settings_theft.jpeg" alt="Impostazioni della Protezione dai furti su Android" />
-  <figcaption>Impostazioni della Protezione dai furti su Android (schermata in inglese)</figcaption>
+  <img src="/images/blog/settings-theft-it.webp" width="1080" height="700" loading="lazy" alt="Protezione dai furti con Blocco per furto, Blocco dispositivo offline e Blocco per autenticazione fallita attivi" />
+  <figcaption>Le tre opzioni da attivare in Protezione dai furti</figcaption>
 </figure>
 
 ## 3. Attiva il Blocco remoto
@@ -62,8 +62,8 @@ Se ti rubano il telefono, il Blocco remoto ti permette di bloccarlo da qualsiasi
 Attivalo e aggiungi la **Domanda di sicurezza** facoltativa, così nessun altro può bloccare il telefono conoscendo solo il tuo numero. Il Blocco remoto richiede che il telefono abbia una SIM, sia online e abbia Find Hub attivo.
 
 <figure class="blog-figure">
-  <img src="/images/blog/settings_remote_lock.jpeg" alt="Pagina android.com/lock che chiede il numero di telefono" />
-  <figcaption>Il Blocco remoto su android.com/lock (schermata in inglese)</figcaption>
+  <img src="/images/blog/settings-remote-lock-it.webp" width="1080" height="700" loading="lazy" alt="Blocco remoto attivo. Come funziona: da qualsiasi dispositivo vai su android.com/lock e inserisci il numero del telefono per bloccarne lo schermo" />
+  <figcaption>Come funziona il Blocco remoto</figcaption>
 </figure>
 
 ## 4. Assicurati che Find Hub sia attivo
@@ -73,7 +73,7 @@ Find Hub (prima Trova il mio dispositivo) mostra dove si trova il telefono su un
 Di solito è attivo di serie quando accedi con un account Google, ma controlla: apri Impostazioni e cerca "Find Hub". Assicurati che sia attivo e che la posizione sia consentita.
 
 <figure class="blog-figure">
-  <img src="/images/blog/find_hub.png" alt="Find Hub che mostra la posizione di un telefono su una mappa" />
+  <img src="/images/blog/find-hub-it.webp" width="1080" height="520" loading="lazy" alt="Find Hub con la posizione del telefono su una mappa e le opzioni Riproduci audio, Contrassegna come smarrito e Ripristina i dati di fabbrica" />
   <figcaption>Find Hub mostra la posizione del telefono</figcaption>
 </figure>
 
