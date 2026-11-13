@@ -1,0 +1,115 @@
+---
+title: Come impedire ai ladri di spegnere il tuo telefono (o di attivare la modalità aereo)
+subtitle: Le impostazioni che mantengono il telefono rintracciabile, e come fotografare il ladro
+dateUpdated: '2026-09-28'
+datePublished: '2025-01-19'
+description: "I ladri spengono i telefoni rubati perché non possano essere rintracciati. Ecco come renderlo più difficile su Samsung e sugli altri telefoni Android, e come ottenere la foto del ladro prima che ci riesca."
+image: /images/blog/Digital_Solitude_Urban_Shadows.jpeg
+imageAlt: Uomo nell'ombra con un telefono
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Non puoi impedire del tutto a un ladro di spegnere un telefono Android, ma puoi renderlo molto più difficile.** Su molti telefoni Samsung, attiva *Blocca rete e sicurezza*, così la schermata di blocco chiede prima il PIN. Attiva anche il *Blocco per furto* e il *Blocco dispositivo offline*, e togli la modalità aereo dalle Impostazioni rapide.
+
+È importante perché spegnere il telefono o attivare la modalità aereo è una delle prime cose che fanno i ladri. Un telefono spento o offline non può essere localizzato, bloccato o resettato da remoto, quindi tutte le funzioni di localizzazione che hai configurato smettono di funzionare all'improvviso. Ecco cosa attivare, e come assicurarti di avere comunque delle prove anche se un ladro riesce a passare.
+
+## In breve
+
+1. **Samsung:** attiva *Blocca rete e sicurezza*, così il telefono chiede il PIN prima di poter essere spento dalla schermata di blocco.
+2. **Tutti i telefoni Android:** attiva il *Blocco per furto* e il *Blocco dispositivo offline*.
+3. **Togli la modalità aereo** dalle Impostazioni rapide.
+4. **Cerca nelle impostazioni del telefono** un'opzione che richieda lo sblocco per spegnere.
+5. **Installa <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-it" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** per ricevere la foto e la posizione di chiunque provi a sbloccare il telefono.
+
+---
+
+## 1. Samsung: chiedi il PIN per spegnere il telefono
+
+Molti Samsung Galaxy hanno un'impostazione che impedisce di spegnere il telefono o disattivare la rete dalla schermata di blocco senza il PIN, la sequenza o la password.
+
+**Vai a:**
+`Impostazioni > Schermata di blocco > Impostazioni blocco sicuro > Blocca rete e sicurezza`
+
+(in inglese *Lock screen > Secure lock settings > Lock network and security*)
+
+Attivala. Da ora in poi, chi prova a spegnere il telefono dalla schermata di blocco deve prima sbloccarlo.
+
+> Nota: questo protegge la schermata di blocco. Se un ladro ti strappa il telefono mentre è *sbloccato*, può comunque spegnerlo, ed è per questo che conta anche il passaggio 2. Samsung sta testando un aggiornamento che chiede il PIN per spegnere in ogni situazione; aggiorneremo questo articolo quando sarà disponibile.
+
+Su un Samsung puoi anche ottenere la foto di chi inserisce il PIN sbagliato: vedi [come scoprire chi ha provato a sbloccare il tuo telefono Samsung](/it/blog/samsung-who-tried-to-unlock).
+
+---
+
+## 2. Tutti i telefoni Android: attiva il Blocco per furto e il Blocco dispositivo offline
+
+Queste funzioni di Android bloccano il telefono in automatico, e aiutano soprattutto quando un ladro te lo strappa di mano mentre è sbloccato.
+
+- **Blocco per furto** blocca lo schermo se il telefono rileva il movimento di uno scippo.
+- **Blocco dispositivo offline** blocca lo schermo poco dopo che il telefono va offline, per esempio quando qualcuno attiva la modalità aereo.
+
+**Sulla maggior parte dei telefoni Android, vai a:**
+`Impostazioni > Google > Tutti i servizi > Protezione dai furti`
+
+**Sui telefoni Samsung, vai a:**
+`Impostazioni > Sicurezza e privacy > Protezione dispositivo smarrito > Protezione dai furti`
+
+Una volta bloccato il telefono, il ladro torna alla schermata di blocco, dove entrano in gioco il passaggio 1 e CrookCatcher.
+
+---
+
+## 3. Togli la modalità aereo dalle Impostazioni rapide
+
+Se la modalità aereo è a uno scorrimento di distanza, un ladro può interrompere la localizzazione in un secondo. Toglierla dalle Impostazioni rapide lo rallenta:
+
+1. Scorri verso il basso per aprire le Impostazioni rapide.
+2. Tocca l'icona **modifica (✏️)**.
+3. Trascina il riquadro **Modalità aereo** fuori dall'area visibile.
+
+Puoi comunque attivare la modalità aereo dalle impostazioni quando ti serve.
+
+---
+
+## 4. Cerca un'opzione di blocco dello spegnimento
+
+Anche altri produttori includono un'impostazione che richiede di sbloccare il telefono prima di poterlo spegnere. Il nome e la posizione cambiano da marca a marca, quindi il modo più rapido per controllare è **aprire Impostazioni e cercare "spegni"**.
+
+---
+
+## 5. Fotografa il ladro prima che ci riesca
+
+Le impostazioni rendono più difficile spegnere il telefono, ma un ladro determinato può comunque trovare un modo. Qui entra in gioco CrookCatcher: un ladro prova quasi sempre prima a sbloccare il telefono, ed è proprio in quel momento che CrookCatcher entra in azione.
+
+- Quando qualcuno inserisce un **PIN, una sequenza o una password sbagliati**, CrookCatcher scatta una foto con la fotocamera anteriore.
+- Registra la **posizione GPS** e un indirizzo stimato.
+- Ti **invia subito via email** la foto e la posizione.
+
+Così, anche se il telefono viene spento un minuto dopo, la foto del ladro e la posizione sono già nella tua casella di posta. Puoi poi consegnarle alla polizia.
+
+Con **CrookCatcher Pro** puoi anche registrare video con audio, fotografare l'ambiente con la fotocamera posteriore, fare il backup di tutto su Google Drive e nascondere le notifiche di CrookCatcher, così il ladro non si accorge di essere stato scoperto.
+
+<AppCta position="guide_mid" />
+
+---
+
+## Altri modi per tenere al sicuro il telefono
+
+- **Attiva Find Hub** (prima Trova il mio dispositivo di Google), così puoi localizzare, bloccare o resettare il telefono.
+- **Usa un blocco schermo sicuro.** Una password o un PIN di 6 cifre sono molto più difficili da indovinare di un PIN di 4 cifre.
+- **Tieni aggiornato il telefono** per avere le funzioni di sicurezza più recenti.
+- **Fai attenzione nei luoghi pubblici.** Molti furti avvengono mentre hai il telefono in mano, per esempio mentre guardi una mappa o scatti una foto.
+
+Per le istruzioni passo passo, leggi la nostra guida alle [5 impostazioni Android per proteggere il telefono dai furti](/it/blog/top_five_settings).
+
+---
+
+## Che fine ha fatto il blocco del menu di spegnimento di CrookCatcher?
+
+Una versione precedente di questo articolo descriveva una funzione sperimentale di CrookCatcher che bloccava il menu di spegnimento e la tendina delle notifiche sulla schermata di blocco. Poiché non poteva funzionare in modo affidabile su tutti i telefoni Android, e Android e i produttori ora offrono protezioni integrate migliori, la funzione è stata eliminata. Le impostazioni qui sopra sono oggi il modo consigliato per proteggere il telefono.
+
+Hai altre domande? Consulta le [domande frequenti](/it/help).
+
+<AppCta position="guide_end" />

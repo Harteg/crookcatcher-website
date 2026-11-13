@@ -36,3 +36,25 @@ Samsung (samsung.com/de, One UI 7 page): Einstellungen > Sicherheit und Datensch
 - Confirmed on Google's Indonesian pages (`hl=id`): Setelan > Google > Semua layanan > Perlindungan dari pencurian; Kunci Deteksi Pencurian; Kunci Perangkat Offline; Kunci Autentikasi Gagal; Cek Identitas; Kunci Jarak Jauh; Pertanyaan keamanan; Hub Pencari (Find Hub); Keamanan & Privasi; Kunci SIM; Notifikasi di layar kunci; Mode Pemulihan; Hapus ponsel.
 - Not confirmed: all Samsung menu names except the lock-screen policy page (Keamanan dan privasi > Perlindungan perangkat hilang, Pengaturan kunci aman, Kunci jaringan dan keamanan, Reset pabrik otomatis, Batas penggunaan di latar belakang > Aplikasi yang tidak pernah tidur, Penundaan keamanan), plus Admin perangkat, Mode pesawat and Setelan Cepat. The guides add the English label in brackets at the first mention of the Samsung ones.
 - The Pixel Tablet help page has no Indonesian version, so the top-five guide links to its English page.
+
+## Italian (`it`) and Japanese (`ja`), added 2026-11-13
+
+Site pages, interface text, reviews and six guides (the same set as German) were translated into Italian and Japanese. **All 12 guides are drafts (`published: false`)**, so `/it/blog` and `/ja/blog` stay `noindex` and out of the sitemap until they're published. Have a native speaker read them, then set `published: true` (keep the Pixel guide a draft like its English original) and run `npm run optimize-images`.
+
+### Italian
+
+- Confirmed on Google's Italian pages (`hl=it`, which Google marks as machine-translated): Impostazioni > Google > Tutti i servizi > Protezione dai furti; Blocco per furto; Blocco dispositivo offline; Blocco per autenticazione fallita; Verifica dell'identità; Blocco remoto; Domanda di sicurezza; Find Hub (not translated); Sicurezza e privacy; Blocco schermo; Altre impostazioni di sicurezza > Blocco SIM / Notifiche su schermata di blocco; Modalità Recovery.
+- Not confirmed: the Pixel path segment **Sblocco del dispositivo** (Device unlock); **amministratore del dispositivo**, **Modalità aereo**, **Impostazioni rapide**; every Samsung name: Protezione dispositivo smarrito, Impostazioni blocco sicuro, Blocca rete e sicurezza, Ripristino automatico, Ritardo di sicurezza, Batteria > Limiti utilizzo in background > App mai in sospensione, Assistenza dispositivo e batteria. Samsung's Italian support pages returned 404, so the guides add the English label in brackets at the first mention.
+- FAQ entries use `D:` / `R:` (domanda / risposta) instead of `Q:` / `A:`.
+
+### Japanese
+
+- Confirmed on Google's Japanese pages (`hl=ja`): 設定 > Google > すべてのサービス > 盗難保護; 盗難検出ロック; オフライン デバイスロック; 認証失敗時のロック; ID チェック; リモートロック; セキュリティ保護用の質問; Find Hub (kept in Latin script); セキュリティとプライバシー; 画面ロック; セキュリティの詳細設定 > SIM ロック / ロック画面上の通知; リカバリモード.
+- Confirmed on Samsung Japan (factory reset page): 設定 > ロック画面とAOD > 安全ロック設定; 自動初期化. 機内モード from Samsung Japan's glossary.
+- Not confirmed: the Pixel path segment **デバイスのロック解除**; **デバイス管理アプリ**, **クイック設定**; Samsung's 紛失したデバイスの保護 > 盗難防止 (Google's own page uses 紛失したデバイスの保護 → 盗難保護), ネットワークとセキュリティをロック, セキュリティの遅延, バッテリー > バックグラウンドでの使用制限 > スリープしないアプリ, バッテリーとデバイスケア. The guides add the English label in brackets for the unconfirmed Samsung ones.
+- The headline headers use 「ロック解除を試みた人がわかる」, close to the Japanese Play listing's former title.
+
+### Images
+
+- `email-alert-it.webp` / `email-alert-ja.webp` and the three headers per language (`failed-unlock-attempts-android`, `samsung-who-tried-to-unlock`, `pixel-who-tried-to-unlock`) were rebuilt as HTML from the German versions' layout, using the existing pixelated photos. The other three guides reuse the shared headers, as the other translations do (`who-tried-to-unlock-header.png` has English text).
+- Screenshots inside `top_five_settings` are in English; the captions say so.

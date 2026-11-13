@@ -1,0 +1,126 @@
+---
+title: Pixel のロックを解除しようとした人を確認する方法（2026 年版）
+subtitle: 間違った PIN のあと Google Pixel が記録すること、そして相手の写真を手に入れる方法
+dateUpdated: '2026-10-21'
+datePublished: '2026-10-21'
+description: "Google Pixel では、誰がロックを解除しようとしたかはわからず、間違った PIN の記録も残りません。ロック解除の失敗後に Pixel がすること、オンにしたい盗難保護の設定、相手の写真をメールで受け取る方法を説明します。"
+image: '/images/blog/pixel-who-tried-to-unlock-header-ja.png'
+imageAlt: "Pixel のロック解除を試みた人がわかる: Pixel は間違えた回数を数えるだけで、誰が試したかは表示しません。横に間違った PIN の画面と CrookCatcher の通知。"
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Google Pixel では、誰がロックを解除しようとしたかを確認できません。** Android が間違った PIN、パターン、パスワードの回数を数えるのは、次に試すまで待たせるためだけです。試行の一覧も、時刻も、写真もありません。誰だったかを知るには、ロック解除の失敗の通知を受け取るアプリを入れましょう。たとえば [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-ja) は、間違った PIN のあとに前面カメラで写真を撮り、位置情報と一緒にメールで送ります。
+
+## 間違った PIN のあと Pixel がすること
+
+Pixel には新しい Android がいち早く届きます。Android 16 QPR2 以降について、Google が公開している待ち時間は次のとおりです。
+
+| 間違えた回数 | 次の入力までの待ち時間 |
+| --- | --- |
+| 1〜4 回 | なし |
+| 5 回 | 1 分 |
+| 6 回 | 5 分 |
+| 8 回 | 30 分 |
+| 10 回 | 4 時間 |
+| 12 回 | 36 時間 |
+| 15 回 | 41 日 |
+| 20 回 | これ以上入力できない |
+
+Google によると、Android 17 はさらに厳しくなります。ほかにも知っておきたい点があります。
+
+- **同じ間違った PIN を繰り返しても、回数は増えません。** 子どもが同じコードを押し続けても、試行回数を使い切ることはありません。
+- **Android 17 では、ロック画面に復旧方法へのリンク**（g.co/android/unlock）が表示され、別の端末で開けます。
+- **Pixel のロックをどうしても解除できない場合は、データを消去するしかありません。** バックアップを作成したときの PIN かパターンがわかれば、あとで Google アカウントのバックアップからデータを復元できます。
+
+「〜後にもう一度お試しください」というメッセージが、誰かが試したことを示す唯一のサインです。誰が、いつ、何回、まではわかりません。
+
+## オンにしておきたい Pixel の設定
+
+誰が試したかはわかりませんが、Pixel を開かれにくく、持ち去られにくくなります。
+
+### 盗難保護
+
+**開く場所:**
+`設定 > セキュリティとプライバシー > デバイスのロック解除 > 盗難保護`
+
+`設定 > Google > すべてのサービス > 盗難保護` からも開けます。
+
+- **盗難検出ロック:** ひったくられたことを Pixel が検出すると、画面をロックします。
+- **オフライン デバイスロック:** スマホがオフラインになるとすぐに画面をロックし、泥棒に見つけられないようにされるのを防ぎます。
+- **認証失敗時のロック:** ロック解除に何度も失敗すると画面をロックします。標準でオンで、Android 16 以降では専用のスイッチがあります。
+- **ID チェック:** 信頼できる場所以外では、画面ロックの変更や Find Hub のオフといった重要な操作に指紋か顔での認証が必要になります。
+
+### リモートロックと Find Hub
+
+- **リモートロック**を使えば、どのブラウザからでも [android.com/lock](https://www.android.com/lock) で、電話番号だけで Pixel をロックできます。**盗難保護 > リモートロック**でオンにします。セキュリティ保護用の質問を追加すれば、他人に使われるのを防げます。
+- **Find Hub** は Pixel の位置を表示し、音を鳴らしたり、ロックやデータ消去をしたりできます。必要になる前にオンにしておきましょう。
+
+そのほかの設定は、[盗難からスマホを守る Android の設定 5 選](/ja/blog/top_five_settings)をご覧ください。
+
+## Pixel ではわからないこと
+
+- **誰が試したか。** 相手の写真はありません。
+- **いつ起きたか**、何回か。
+- **そのときスマホがどこにあったか。**
+- **その場での通知。**
+
+## Pixel のロックを解除しようとした人の写真を手に入れる方法
+
+この穴を埋めるのが CrookCatcher です。Android は、**デバイス管理アプリ**として許可されたアプリに、ロック解除に失敗するたびに通知します。CrookCatcher はこれを使って前面カメラで写真を撮り、位置情報とおおよその住所を記録して、両方をメールで送ります。試行はすべて時刻と一緒にアプリにも保存されます。
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-ja.webp" width="990" height="1024" loading="lazy" alt="侵入者の写真、試行時刻、位置の地図が載った CrookCatcher の通知メール" />
+  <figcaption>ロック解除の失敗後に CrookCatcher が送るメール。</figcaption>
+</figure>
+
+**Pixel での設定方法:**
+
+1. **CrookCatcher をインストール**します。<a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-ja" target="_blank" rel="noopener noreferrer">Google Play</a> から入手でき、アカウントを作る必要はありません。
+2. **デバイス管理アプリとして許可**します。CrookCatcher はこの権限を、ロック解除の失敗を知るためだけに使います。
+3. **カメラと位置情報へのアクセスを許可**します。
+4. **通知メール用に Gmail アカウントを連携**します。CrookCatcher ができるのはメールの*送信*だけで、読むことはできません。
+5. **試してみます。** Pixel をロックし、わざと間違った PIN を入力してから、ロックを解除します。アプリと受信トレイに自分の写真が届くはずです。
+
+何回失敗したら CrookCatcher が作動するかは自分で決められます。CrookCatcher は 2014 年から 1,200 万回以上ダウンロードされ、1 日に約 120 万枚の侵入者の写真を撮影しています。
+
+<AppCta position="guide_mid" />
+
+## よくある質問
+
+### Q: Pixel でロック解除の失敗を確認できる？
+A: できません。Pixel が間違えた回数を数えるのはロックの時間を決めるためだけで、表示されることはありません。写真、時刻、位置情報付きの記録を残すには、CrookCatcher のようなアプリが必要です。
+
+### Q: Pixel では PIN を何回まで間違えられる？
+A: 最近の Android では、最初の 4 回までは待ち時間がなく、その後は 1 分から数日まで延びます。20 回間違えると、それ以上は入力できません。Android 17 はさらに厳しくなります。
+
+### Q: 自分の Pixel のロックを解除できなくなったら？
+A: Google が案内している方法は、Find Hub でリモートから消去するか、リカバリモードでボタン操作をしてデータを消去することだけです。バックアップを作成したときの PIN かパターンがわかれば、そのあと Google アカウントのバックアップから復元できます。
+
+### Q: Pixel に侵入者の写真を撮る機能はある？
+A: ありません。Pixel の盗難保護は、ロック解除の失敗やひったくりのあとにスマホをロックしますが、相手の写真を撮ったり、試行の一覧を残したりはしません。
+
+### Q: CrookCatcher は Pixel の指紋認証や顔認証と一緒に使える？
+A: はい、そのまま使えます。CrookCatcher は間違った PIN、パターン、パスワードに反応します。指紋認証や顔認証の失敗では作動しません。
+
+### Q: 撮影されたことは相手にわかる？
+A: CrookCatcher はカメラのプレビューを表示せずにバックグラウンドで動きます。Pixel ではカメラの使用中に小さなインジケーターが表示されます。これはシステムの機能で、アプリからは隠せません。
+
+## 出典
+
+- Google、Android ヘルプ: [個人データを盗難から保護する](https://support.google.com/android/answer/15146908?hl=ja)
+- Android オープンソース プロジェクト: [Lockscreen rate limiting](https://source.android.com/docs/security/features/authentication/rate-limiting)（英語）
+- Google、The Keyword: [New Android theft protection feature updates](https://blog.google/security/android-theft-protection-feature-updates/)（英語、2026 年 1 月）
+- Google、Pixel ヘルプ: [Google Pixel のロックを解除できない](https://support.google.com/pixelphone/answer/3388218?hl=ja)
+- Android Developers: [DeviceAdminReceiver](https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver)（英語。アプリにロック解除の失敗が通知される仕組み）
+
+## 関連ガイド
+
+- [スマホのロックを解除しようとした人を確認する方法（写真付き）](/ja/blog/see-who-tried-to-unlock-your-phone)
+- [盗難からスマホを守る Android の設定 5 選](/ja/blog/top_five_settings)
+- [泥棒にスマホの電源を切られないようにする方法](/ja/blog/block-power-menu)
+
+<AppCta position="guide_end" />

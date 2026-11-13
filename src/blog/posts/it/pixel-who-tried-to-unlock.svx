@@ -1,0 +1,126 @@
+---
+title: Come scoprire chi ha provato a sbloccare il tuo Pixel (2026)
+subtitle: Cosa registra un Google Pixel dopo un PIN sbagliato, e come ottenere una foto della persona
+dateUpdated: '2026-10-21'
+datePublished: '2026-10-21'
+description: "I Google Pixel non mostrano chi ha provato a sbloccarli e non registrano i PIN sbagliati. Ecco cosa fa il tuo Pixel dopo gli sblocchi falliti, le impostazioni di protezione dai furti da attivare e come ricevere via email una foto della persona."
+image: '/images/blog/pixel-who-tried-to-unlock-header-it.png'
+imageAlt: "Scopri chi ha provato a sbloccare il tuo Pixel: il tuo Pixel conta i tentativi sbagliati, ma non mostra mai chi li ha fatti. Accanto, un PIN errato e un avviso di CrookCatcher."
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Un Google Pixel non può mostrarti chi ha provato a sbloccarlo.** Android conta i PIN, le sequenze e le password sbagliati solo per far aspettare la persona prima di riprovare. Non c'è un elenco dei tentativi, né un orario, né una foto. Per scoprire chi è stato, installa un'app che riceva l'avviso degli sblocchi falliti, come [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-it). Scatta una foto con la fotocamera anteriore dopo un PIN sbagliato e te la invia via email con la posizione.
+
+## Cosa fa il tuo Pixel dopo un PIN sbagliato
+
+I Pixel ricevono per primi le nuove versioni di Android. Su Android 16 QPR2 e successive, le attese pubblicate da Google sono queste:
+
+| Tentativi sbagliati | Attesa prima del tentativo successivo |
+| --- | --- |
+| Da 1 a 4 | Nessuna |
+| 5 | 1 minuto |
+| 6 | 5 minuti |
+| 8 | 30 minuti |
+| 10 | 4 ore |
+| 12 | 36 ore |
+| 15 | 41 giorni |
+| 20 | Nessun altro tentativo consentito |
+
+Secondo Google, Android 17 è ancora più severo. Altre cose da sapere:
+
+- **Ripetere lo stesso PIN sbagliato non conta di nuovo**, così un bambino che preme sempre lo stesso codice non consuma i tuoi tentativi.
+- **Su Android 17 la schermata di blocco mostra un link** (g.co/android/unlock) con le opzioni di recupero, che puoi aprire da un altro dispositivo.
+- **Se non riesci proprio a sbloccare il tuo Pixel, va resettato.** Dopo puoi ripristinare i dati dal backup dell'Account Google, se conosci il PIN o la sequenza che usavi quando è stato fatto il backup.
+
+Un messaggio "Riprova tra…" è l'unico segno che qualcuno ci ha provato. Non dice chi, quando né quante volte.
+
+## Impostazioni del Pixel da attivare
+
+Non ti mostrano chi ci ha provato, ma rendono il Pixel molto più difficile da sbloccare o da portare via.
+
+### Protezione dai furti
+
+**Vai a:**
+`Impostazioni > Sicurezza e privacy > Sblocco del dispositivo > Protezione dai furti`
+
+La trovi anche in `Impostazioni > Google > Tutti i servizi > Protezione dai furti`.
+
+- **Blocco per furto:** blocca lo schermo se il Pixel rileva di essere stato strappato di mano.
+- **Blocco dispositivo offline:** blocca lo schermo poco dopo che il telefono va offline, così un ladro non può impedire che venga ritrovato.
+- **Blocco per autenticazione fallita:** blocca lo schermo quando i tentativi di sblocco falliscono più volte. È attivo di serie; da Android 16 ha un proprio interruttore.
+- **Verifica dell'identità:** lontano dai luoghi attendibili, per le azioni più delicate come cambiare il blocco schermo o disattivare Find Hub servono l'impronta o il volto.
+
+### Blocco remoto e Find Hub
+
+- Il **Blocco remoto** ti permette di bloccare il Pixel da qualsiasi browser su [android.com/lock](https://www.android.com/lock) con il solo numero di telefono. Attivalo in **Protezione dai furti > Blocco remoto**. Puoi aggiungere una domanda di sicurezza, così nessun altro può usarlo.
+- **Find Hub** mostra dove si trova il Pixel e ti permette di farlo squillare, bloccarlo o resettarlo. Assicurati che sia attivo prima di averne bisogno.
+
+Per altre impostazioni, vedi le [5 impostazioni Android per proteggere il telefono dai furti](/it/blog/top_five_settings).
+
+## Cosa il tuo Pixel non può dirti
+
+- **Chi ci ha provato.** Nessuna foto della persona.
+- **Quando è successo**, né quante volte.
+- **Dove si trovava il telefono** in quel momento.
+- **Un avviso nel momento in cui succede.**
+
+## Come ottenere una foto di chi prova a sbloccare il tuo Pixel
+
+CrookCatcher colma proprio questa lacuna. Android avvisa le app con l'autorizzazione di **amministratore del dispositivo** ogni volta che uno sblocco fallisce. CrookCatcher la usa per scattare una foto con la fotocamera anteriore, registrare la posizione e un indirizzo approssimativo, e inviarti tutto via email. Ogni tentativo viene salvato anche nell'app con l'orario.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-it.webp" width="990" height="1024" loading="lazy" alt="Email di avviso di CrookCatcher con la foto dell'intruso, l'ora del tentativo e una mappa della posizione" />
+  <figcaption>L'email che CrookCatcher invia dopo un tentativo di sblocco fallito.</figcaption>
+</figure>
+
+**Configurala sul tuo Pixel:**
+
+1. **Installa CrookCatcher** da <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-it" target="_blank" rel="noopener noreferrer">Google Play</a>. Non c'è nessun account da creare.
+2. **Consenti l'amministrazione del dispositivo.** CrookCatcher usa questa autorizzazione solo per sapere quando un tentativo di sblocco fallisce.
+3. **Consenti l'accesso a fotocamera e posizione.**
+4. **Collega un account Gmail** per le email di avviso. CrookCatcher può solo *inviare* email da questo account, non leggerle.
+5. **Provala.** Blocca il Pixel, inserisci apposta un PIN sbagliato, poi sbloccalo. La tua foto dovrebbe comparire nell'app e nella tua casella di posta.
+
+Scegli tu dopo quanti tentativi sbagliati CrookCatcher entra in azione. Dal 2014 CrookCatcher è stata scaricata più di 12 milioni di volte e scatta circa 1,2 milioni di foto di intrusi al giorno.
+
+<AppCta position="guide_mid" />
+
+## Domande frequenti
+
+### D: Un Pixel può mostrare i tentativi di sblocco falliti?
+R: No. Il Pixel conta i tentativi sbagliati solo per calcolare i tempi di blocco, e non li mostra mai. Per avere un registro con foto, ora e posizione ti serve un'app come CrookCatcher.
+
+### D: Quanti tentativi di PIN sbagliati consente un Pixel?
+R: Sulle versioni recenti di Android, i primi 4 tentativi sbagliati non hanno attesa, poi le attese crescono da 1 minuto fino a giorni. Dopo 20 tentativi sbagliati non ne sono consentiti altri. Android 17 è più severo.
+
+### D: E se non riesco a sbloccare il mio Pixel?
+R: L'unica opzione di Google è resettarlo, da remoto con Find Hub oppure con i tasti in modalità Recovery. Dopo puoi ripristinare il backup dell'Account Google se conosci il PIN o la sequenza del momento del backup.
+
+### D: Il Pixel ha una funzione per fotografare gli intrusi?
+R: No. La protezione dai furti del Pixel blocca il telefono dopo i tentativi falliti o uno scippo, ma non fotografa la persona e non tiene un elenco dei tentativi.
+
+### D: CrookCatcher funziona con l'impronta e lo Sblocco con il Volto del Pixel?
+R: Sì, puoi continuare a usarli. CrookCatcher reagisce a un PIN, una sequenza o una password sbagliati. I tentativi falliti con impronta o volto non la attivano.
+
+### D: La persona vedrà di essere stata fotografata?
+R: CrookCatcher lavora in background senza anteprima della fotocamera. Il Pixel mostra un piccolo indicatore mentre la fotocamera è in uso: è una funzione di sistema che le app non possono nascondere.
+
+## Fonti
+
+- Google, Guida di Android: [Proteggi i dati personali dai furti](https://support.google.com/android/answer/15146908?hl=it)
+- Android Open Source Project: [Lockscreen rate limiting](https://source.android.com/docs/security/features/authentication/rate-limiting) (in inglese)
+- Google, The Keyword: [New Android theft protection feature updates](https://blog.google/security/android-theft-protection-feature-updates/) (in inglese, gennaio 2026)
+- Google, Guida di Pixel: [Impossibile sbloccare il telefono Pixel](https://support.google.com/pixelphone/answer/3388218?hl=it)
+- Android Developers: [DeviceAdminReceiver](https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver) (in inglese; come le app ricevono l'avviso dei tentativi falliti)
+
+## Guide correlate
+
+- [Come scoprire chi ha provato a sbloccare il tuo telefono (e ottenere la sua foto)](/it/blog/see-who-tried-to-unlock-your-phone)
+- [5 impostazioni antifurto Android da attivare oggi](/it/blog/top_five_settings)
+- [Come impedire ai ladri di spegnere il tuo telefono](/it/blog/block-power-menu)
+
+<AppCta position="guide_end" />

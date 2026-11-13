@@ -1,0 +1,123 @@
+---
+title: Si possono vedere i tentativi di sblocco falliti su Android? (2026)
+subtitle: Cosa registra Android quando qualcuno inserisce il PIN sbagliato, e come scoprire chi è stato
+dateUpdated: '2026-10-23'
+datePublished: '2026-10-23'
+description: "Android non tiene un elenco dei tentativi di sblocco falliti e non mostra chi li ha fatti. Conta i tentativi sbagliati solo per bloccare il telefono sempre più a lungo. Ecco cosa fa esattamente Android, e come ottenere invece una foto della persona."
+image: '/images/blog/failed-unlock-attempts-android-header-it.png'
+imageAlt: "Si possono vedere i tentativi falliti su Android? Android conta solo i tentativi sbagliati. Ecco come scoprire chi è stato."
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**No. Android non tiene un elenco dei tentativi di sblocco falliti e non mostra mai chi li ha fatti.** Conta i PIN, le sequenze e le password sbagliati solo per far aspettare sempre di più chi riprova. Una volta sbloccato il telefono, non resta niente da consultare: nessun elenco, nessun orario, nessuna foto. Per vedere i tentativi falliti ti serve un'app che riceva un avviso ogni volta che uno sblocco fallisce, come [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-it), che scatta una foto alla persona e te la invia via email con la posizione.
+
+## Cosa fa Android con un PIN sbagliato
+
+Ogni tentativo sbagliato viene contato, e dopo alcuni la schermata di blocco fa aspettare la persona. Sulle versioni recenti di Android (Android 16 QPR2 e successive), lo schema pubblicato da Google è questo:
+
+| Tentativi sbagliati | Attesa prima del tentativo successivo |
+| --- | --- |
+| Da 1 a 4 | Nessuna |
+| 5 | 1 minuto |
+| 6 | 5 minuti |
+| 7 | 15 minuti |
+| 8 | 30 minuti |
+| 10 | 4 ore |
+| 12 | 36 ore |
+| 15 | 41 giorni |
+| 20 | Nessun altro tentativo consentito |
+
+Secondo Google, Android 17 usa di serie limiti ancora più severi, e i produttori possono impostare i propri. One UI 9 di Samsung blocca il telefono in modo permanente al 13° tentativo sbagliato; da lì in poi, solo un ripristino dei dati di fabbrica lo rende di nuovo utilizzabile.
+
+Di recente sono cambiate altre due cose:
+
+- **Ripetere lo stesso PIN sbagliato non conta di nuovo** su molti telefoni recenti. Sia Android sia Samsung ignorano gli inserimenti sbagliati identici, quindi un bambino che preme 1111 più volte non ti blocca il telefono.
+- **Blocco per autenticazione fallita** (Android 15 e successive, attivo di serie) blocca lo schermo quando l'autenticazione fallisce più volte.
+
+Niente di tutto questo ti viene mostrato dopo. Il conteggio serve solo a calcolare i tempi di blocco.
+
+## Gli unici indizi che ti dà Android
+
+Se qualcuno ci ha provato mentre eri via, potresti notare:
+
+- **Un messaggio "Riprova tra…"** sulla schermata di blocco quando riprendi il telefono.
+- **Un avviso sui tentativi rimasti.** I telefoni Samsung con One UI 9 lo mostrano quando qualcuno si avvicina al limite.
+
+Ti dicono che *qualcosa* è successo. Non ti dicono quando, quante volte né chi.
+
+## Cosa Android non può dirti
+
+- **Chi è stato.** Nessuna foto, nessun nome.
+- **Quando è successo**, né quanti tentativi sono stati fatti.
+- **Dove si trovava il telefono.**
+- **Un avviso nel momento in cui succede.** Lo scopri solo se noti gli indizi qui sopra.
+
+## Come scoprire chi ha provato a sbloccare il telefono
+
+Android permette alle app di sapere dei tentativi falliti. Un'app a cui dai l'autorizzazione di **amministratore del dispositivo** riceve un avviso dal sistema ogni volta che qualcuno inserisce un PIN, una sequenza o una password sbagliati. CrookCatcher usa proprio questo.
+
+Quando uno sblocco fallisce, CrookCatcher:
+
+- scatta una foto con la fotocamera anteriore,
+- registra la posizione GPS e un indirizzo approssimativo,
+- salva tutto nell'app con l'orario, e
+- ti invia tutto via email, così ce l'hai anche se il telefono sparisce.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-it.webp" width="990" height="1024" loading="lazy" alt="Email di avviso di CrookCatcher con la foto dell'intruso, l'ora del tentativo e una mappa della posizione" />
+  <figcaption>L'email che CrookCatcher invia dopo un tentativo di sblocco fallito.</figcaption>
+</figure>
+
+Scegli tu dopo quanti tentativi sbagliati CrookCatcher entra in azione. È stata scaricata più di 12 milioni di volte dal 2014 e scatta circa 1,2 milioni di foto di intrusi al giorno. La configurazione richiede pochi minuti e non c'è nessun account da creare: vedi [come scoprire chi ha provato a sbloccare il tuo telefono](/it/blog/see-who-tried-to-unlock-your-phone) per i passaggi.
+
+<AppCta position="guide_mid" />
+
+## Attiva anche la protezione di Android
+
+CrookCatcher ti dice chi ci ha provato. La protezione dai furti di Android rende più difficile riuscirci. Attivale entrambe.
+
+**Vai a:**
+`Impostazioni > Google > Tutti i servizi > Protezione dai furti`
+
+Controlla che **Blocco per autenticazione fallita**, **Blocco per furto** e **Blocco dispositivo offline** siano attivi. Se un'impostazione è disattivata in grigio, il tuo telefono non la supporta. Per l'elenco completo, vedi le [5 impostazioni Android per proteggere il telefono dai furti](/it/blog/top_five_settings).
+
+## Domande frequenti
+
+### D: Esiste un registro dei tentativi di sblocco falliti su Android?
+R: No. Android tiene solo un contatore per il tempo di blocco, e non lo mostra da nessuna parte. Per avere un registro ti serve un'app come CrookCatcher, che salva ogni tentativo con foto, ora e posizione.
+
+### D: Quante volte si può inserire un PIN sbagliato su Android?
+R: Sulle versioni recenti di Android, i primi 4 tentativi sbagliati non hanno attesa. Poi le attese crescono da 1 minuto fino a giorni, e dopo 20 tentativi sbagliati non ne sono consentiti altri. I telefoni Samsung con One UI 9 si bloccano in modo permanente al 13° tentativo sbagliato.
+
+### D: Il telefono si cancella da solo dopo troppi tentativi sbagliati?
+R: Di serie no, sulla maggior parte dei telefoni. Alcuni telefoni Samsung hanno un'impostazione facoltativa di **ripristino automatico** che cancella il telefono dopo un certo numero di tentativi sbagliati. Se un telefono esaurisce i tentativi, secondo le pagine di assistenza di Google l'unico modo per rientrare è resettarlo.
+
+### D: Inserire due volte lo stesso PIN sbagliato conta?
+R: Su molti telefoni recenti no. Android 16 QPR2 e successive, e One UI 9 di Samsung, ignorano gli inserimenti sbagliati identici ripetuti, così non ti blocchi per sbaglio.
+
+### D: Un'app può vedere i tentativi di sblocco falliti?
+R: Sì, se le dai l'autorizzazione. Android avvisa le app che hanno l'autorizzazione di amministratore del dispositivo ogni volta che un tentativo di sblocco fallisce. È così che CrookCatcher sa quando scattare una foto. Usa l'autorizzazione solo per questo.
+
+### D: I tentativi falliti con impronta o volto contano?
+R: CrookCatcher reagisce a un PIN, una sequenza o una password sbagliati, non ai tentativi falliti con impronta o riconoscimento del volto.
+
+## Fonti
+
+- Google, Guida di Android: [Proteggi i dati personali dai furti](https://support.google.com/android/answer/15146908?hl=it)
+- Android Open Source Project: [Lockscreen rate limiting](https://source.android.com/docs/security/features/authentication/rate-limiting) (in inglese)
+- Google, The Keyword: [New Android theft protection feature updates](https://blog.google/security/android-theft-protection-feature-updates/) (in inglese, gennaio 2026)
+- Samsung: [One UI 9.0 lockscreen security policy changes](https://www.samsung.com/hk_en/support/mobile-devices/one-ui-9-lockscreen-security-policy/) (in inglese)
+- Google, Guida di Pixel: [Impossibile sbloccare il telefono Pixel](https://support.google.com/pixelphone/answer/3388218?hl=it)
+- Android Developers: [DeviceAdminReceiver](https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver) (in inglese; come le app ricevono l'avviso dei tentativi falliti)
+
+## Guide correlate
+
+- [Come scoprire chi ha provato a sbloccare il tuo telefono (e ottenere la sua foto)](/it/blog/see-who-tried-to-unlock-your-phone)
+- [5 impostazioni antifurto Android da attivare oggi](/it/blog/top_five_settings)
+- [Come impedire ai ladri di spegnere il tuo telefono](/it/blog/block-power-menu)
+
+<AppCta position="guide_end" />

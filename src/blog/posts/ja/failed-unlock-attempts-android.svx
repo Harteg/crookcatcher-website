@@ -1,0 +1,123 @@
+---
+title: Android でロック解除の失敗履歴は見られる？（2026 年版）
+subtitle: 間違った PIN が入力されたとき Android が記録すること、そして誰だったかを知る方法
+dateUpdated: '2026-10-23'
+datePublished: '2026-10-23'
+description: "Android はロック解除の失敗を一覧で残さず、誰が試したかも表示しません。間違えた回数を数えるのは、ロックの時間を延ばすためだけです。Android が実際にしていることと、代わりに相手の写真を手に入れる方法を説明します。"
+image: '/images/blog/failed-unlock-attempts-android-header-ja.png'
+imageAlt: "Android でロック解除の失敗は見られる？Android は間違えた回数を数えるだけ。誰だったかを知る方法を紹介します。"
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**見られません。Android はロック解除の失敗を一覧で残さず、誰が試したかも表示しません。** 間違った PIN、パターン、パスワードの回数を数えるのは、次に試すまでの待ち時間を延ばすためだけです。ロックを解除したあとに振り返れるものは何もありません。一覧も、時刻も、写真もありません。失敗を確認するには、ロック解除に失敗するたびに通知を受け取るアプリが必要です。たとえば [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-ja) は、相手の写真を撮り、位置情報と一緒にメールで送ります。
+
+## 間違った PIN が入力されたとき Android がすること
+
+間違えるたびに回数が数えられ、何回か続くとロック画面で待たされます。最近の Android（Android 16 QPR2 以降）について、Google が公開している待ち時間は次のとおりです。
+
+| 間違えた回数 | 次の入力までの待ち時間 |
+| --- | --- |
+| 1〜4 回 | なし |
+| 5 回 | 1 分 |
+| 6 回 | 5 分 |
+| 7 回 | 15 分 |
+| 8 回 | 30 分 |
+| 10 回 | 4 時間 |
+| 12 回 | 36 時間 |
+| 15 回 | 41 日 |
+| 20 回 | これ以上入力できない |
+
+Google によると、Android 17 は標準でさらに厳しい制限になり、メーカーが独自の制限を設定することもできます。Samsung の One UI 9 では、13 回目の失敗でスマホが完全にロックされ、それ以降は初期化しないと使えなくなります。
+
+最近は、ほかにも 2 つの変更がありました。
+
+- **同じ間違った PIN を繰り返しても、回数は増えません。** 多くの新しいスマホでは、Android も Samsung も同じ入力の繰り返しを数えません。子どもが 1111 を何度押しても、締め出されることはありません。
+- **認証失敗時のロック**（Android 15 以降、標準でオン）は、認証に何度も失敗すると画面をロックします。
+
+どれも、あとからあなたに表示されることはありません。回数はロックの時間を決めるためだけに使われます。
+
+## Android が残す手がかりは、これだけ
+
+席を外している間に誰かが試していた場合、次のことに気づくかもしれません。
+
+- スマホを手に取ったときにロック画面に出ている**「〜後にもう一度お試しください」というメッセージ**。
+- **残りの試行回数についての警告。** One UI 9 の Samsung のスマホでは、上限に近づくと表示されます。
+
+これで*何かがあった*ことはわかります。いつ、何回、誰が、まではわかりません。
+
+## Android ではわからないこと
+
+- **誰だったか。** 写真も名前もありません。
+- **いつ起きたか**、何回試されたか。
+- **スマホがどこにあったか。**
+- **その場での通知。** 上の手がかりに気づいた場合しかわかりません。
+
+## ロックを解除しようとした人を確認する方法
+
+Android には、ロック解除の失敗をアプリに知らせる仕組みがあります。**デバイス管理アプリ**として許可したアプリには、誰かが間違った PIN、パターン、パスワードを入力するたびにシステムから通知が届きます。CrookCatcher はまさにこれを使っています。
+
+ロック解除に失敗すると、CrookCatcher は次のことを行います。
+
+- 前面カメラで写真を撮影
+- GPS の位置情報とおおよその住所を記録
+- 時刻と一緒にアプリに保存
+- すべてをメールで送信（スマホがなくなっても手元に残ります）
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-ja.webp" width="990" height="1024" loading="lazy" alt="侵入者の写真、試行時刻、位置の地図が載った CrookCatcher の通知メール" />
+  <figcaption>ロック解除の失敗後に CrookCatcher が送るメール。</figcaption>
+</figure>
+
+何回失敗したら CrookCatcher が作動するかは自分で決められます。2014 年から 1,200 万回以上ダウンロードされ、1 日に約 120 万枚の侵入者の写真を撮影しています。設定は数分で、アカウントを作る必要もありません。手順は[スマホのロックを解除しようとした人を確認する方法](/ja/blog/see-who-tried-to-unlock-your-phone)をご覧ください。
+
+<AppCta position="guide_mid" />
+
+## Android 自体の保護もオンに
+
+CrookCatcher は誰が試したかを教えてくれます。Android の盗難保護は、相手が成功しにくくします。両方をオンにしましょう。
+
+**開く場所:**
+`設定 > Google > すべてのサービス > 盗難保護`
+
+**認証失敗時のロック**、**盗難検出ロック**、**オフライン デバイスロック**がオンになっているか確認します。グレー表示の設定は、お使いのスマホが対応していません。すべての設定は[盗難からスマホを守る Android の設定 5 選](/ja/blog/top_five_settings)をご覧ください。
+
+## よくある質問
+
+### Q: Android にロック解除の失敗の記録はある？
+A: ありません。Android が持っているのはロック時間のためのカウンターだけで、どこにも表示されません。記録を残すには、試行ごとに写真、時刻、位置情報を保存する CrookCatcher のようなアプリが必要です。
+
+### Q: Android で PIN は何回まで間違えられる？
+A: 最近の Android では、最初の 4 回までは待ち時間がありません。その後は 1 分から数日まで待ち時間が延び、20 回間違えるとそれ以上は入力できなくなります。One UI 9 の Samsung のスマホは、13 回目で完全にロックされます。
+
+### Q: 何度も間違えると、スマホのデータは自動で消える？
+A: ほとんどのスマホでは、標準では消えません。一部の Samsung のスマホには、一定回数間違えるとデータを消去する**自動初期化**という任意の設定があります。試行回数を使い切った場合、Google のヘルプページによると、元に戻す方法はデータの消去だけです。
+
+### Q: 同じ間違った PIN を 2 回入力すると、2 回と数えられる？
+A: 多くの新しいスマホでは数えられません。Android 16 QPR2 以降と Samsung の One UI 9 は、同じ入力の繰り返しを無視するので、うっかり締め出されることはありません。
+
+### Q: アプリはロック解除の失敗を知ることができる？
+A: 許可すればできます。Android は、デバイス管理アプリとして許可されたアプリに、ロック解除に失敗するたびに通知します。CrookCatcher はこれで写真を撮るタイミングを知ります。この権限はその目的にだけ使います。
+
+### Q: 指紋認証や顔認証の失敗も数えられる？
+A: CrookCatcher が反応するのは間違った PIN、パターン、パスワードで、指紋認証や顔認証の失敗には反応しません。
+
+## 出典
+
+- Google、Android ヘルプ: [個人データを盗難から保護する](https://support.google.com/android/answer/15146908?hl=ja)
+- Android オープンソース プロジェクト: [Lockscreen rate limiting](https://source.android.com/docs/security/features/authentication/rate-limiting)（英語）
+- Google、The Keyword: [New Android theft protection feature updates](https://blog.google/security/android-theft-protection-feature-updates/)（英語、2026 年 1 月）
+- Samsung: [One UI 9.0 lockscreen security policy changes](https://www.samsung.com/hk_en/support/mobile-devices/one-ui-9-lockscreen-security-policy/)（英語）
+- Google、Pixel ヘルプ: [Google Pixel のロックを解除できない](https://support.google.com/pixelphone/answer/3388218?hl=ja)
+- Android Developers: [DeviceAdminReceiver](https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver)（英語。アプリにロック解除の失敗が通知される仕組み）
+
+## 関連ガイド
+
+- [スマホのロックを解除しようとした人を確認する方法（写真付き）](/ja/blog/see-who-tried-to-unlock-your-phone)
+- [盗難からスマホを守る Android の設定 5 選](/ja/blog/top_five_settings)
+- [泥棒にスマホの電源を切られないようにする方法](/ja/blog/block-power-menu)
+
+<AppCta position="guide_end" />
