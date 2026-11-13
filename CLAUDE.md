@@ -72,6 +72,7 @@ The site is in English (root URLs), Brazilian Portuguese (`/pt`), French (`/fr`)
 - Draft guides in batches; the owner (Jakob) reviews every guide before it is published. Never publish unreviewed.
 - Drafts have `published: false`. They're left out of the build, index and sitemap, but open at their URL in `npm run dev` (e.g. `http://localhost:5173/blog/<slug>`) for review.
 - Publish about one guide per day, never a large batch at once.
+- `docs/publish-queue.md` lists the drafts in publishing order. Jakob approves a guide by setting its Approved cell to `yes`. A scheduled task ("Publish next approved guide", daily at 9:00 in the Claude desktop app) publishes the first approved row and pushes it. Add every new draft as a row there; drafts not listed are never published.
 - After adding a guide:
   - add internal links to it from 1 to 3 related existing guides;
   - make sure it appears in the sitemap and the blog index;
