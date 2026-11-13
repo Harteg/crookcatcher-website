@@ -119,8 +119,8 @@ A: CrookCatcher はカメラのプレビューを表示せずにバックグラ�
 
 ## 関連ガイド
 
-- [スマホのロックを解除しようとした人を確認する方法（写真付き）](/ja/blog/see-who-tried-to-unlock-your-phone)
-- [盗難からスマホを守る Android の設定 5 選](/ja/blog/top_five_settings)
-- [泥棒にスマホの電源を切られないようにする方法](/ja/blog/block-power-menu)
+- [スマホを勝手に見られた？ロックを解除しようとした人を写真で確認する方法](/ja/blog/see-who-tried-to-unlock-your-phone)
+- [Android のスマホ盗難対策：今すぐオンにしたい設定 5 選](/ja/blog/top_five_settings)
+- [スマホを盗まれても電源を切られないようにする方法](/ja/blog/block-power-menu)
 
 <AppCta position="guide_end" />

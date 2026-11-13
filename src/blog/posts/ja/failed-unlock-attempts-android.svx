@@ -1,9 +1,9 @@
 ---
-title: Android でロック解除の失敗履歴は見られる？（2026 年版）
+title: Android のロック解除の履歴は見られる？何回まで失敗できる？（2026 年版）
 subtitle: 間違った PIN が入力されたとき Android が記録すること、そして誰だったかを知る方法
 dateUpdated: '2026-10-23'
 datePublished: '2026-10-23'
-description: "Android はロック解除の失敗を一覧で残さず、誰が試したかも表示しません。間違えた回数を数えるのは、ロックの時間を延ばすためだけです。Android が実際にしていることと、代わりに相手の写真を手に入れる方法を説明します。"
+description: "Android にロック解除の履歴は残らず、誰が試したかも表示されません。何回まで失敗できるか、間違えた回数を Android がどう使っているか、代わりに相手の写真を手に入れる方法を説明します。"
 image: '/images/blog/failed-unlock-attempts-android-header-ja.png'
 imageAlt: "Android でロック解除の失敗は見られる？Android は間違えた回数を数えるだけ。誰だったかを知る方法を紹介します。"
 published: true
@@ -15,7 +15,7 @@ published: true
 
 **見られません。Android はロック解除の失敗を一覧で残さず、誰が試したかも表示しません。** 間違った PIN、パターン、パスワードの回数を数えるのは、次に試すまでの待ち時間を延ばすためだけです。ロックを解除したあとに振り返れるものは何もありません。一覧も、時刻も、写真もありません。失敗を確認するには、ロック解除に失敗するたびに通知を受け取るアプリが必要です。たとえば [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-ja) は、相手の写真を撮り、位置情報と一緒にメールで送ります。
 
-## 間違った PIN が入力されたとき Android がすること
+## Android のロック解除は何回まで失敗できる？
 
 間違えるたびに回数が数えられ、何回か続くとロック画面で待たされます。最近の Android（Android 16 QPR2 以降）について、Google が公開している待ち時間は次のとおりです。
 
@@ -87,10 +87,10 @@ CrookCatcher は誰が試したかを教えてくれます。Android の盗難�
 
 ## よくある質問
 
-### Q: Android にロック解除の失敗の記録はある？
+### Q: Android でロック解除の履歴は見られる？
 A: ありません。Android が持っているのはロック時間のためのカウンターだけで、どこにも表示されません。記録を残すには、試行ごとに写真、時刻、位置情報を保存する CrookCatcher のようなアプリが必要です。
 
-### Q: Android で PIN は何回まで間違えられる？
+### Q: Android のロック解除は何回まで失敗できる？
 A: 最近の Android では、最初の 4 回までは待ち時間がありません。その後は 1 分から数日まで待ち時間が延び、20 回間違えるとそれ以上は入力できなくなります。One UI 9 の Samsung のスマホは、13 回目で完全にロックされます。
 
 ### Q: 何度も間違えると、スマホのデータは自動で消える？
@@ -116,8 +116,8 @@ A: CrookCatcher が反応するのは間違った PIN、パターン、パスワ
 
 ## 関連ガイド
 
-- [スマホのロックを解除しようとした人を確認する方法（写真付き）](/ja/blog/see-who-tried-to-unlock-your-phone)
-- [盗難からスマホを守る Android の設定 5 選](/ja/blog/top_five_settings)
-- [泥棒にスマホの電源を切られないようにする方法](/ja/blog/block-power-menu)
+- [スマホを勝手に見られた？ロックを解除しようとした人を写真で確認する方法](/ja/blog/see-who-tried-to-unlock-your-phone)
+- [Android のスマホ盗難対策：今すぐオンにしたい設定 5 選](/ja/blog/top_five_settings)
+- [スマホを盗まれても電源を切られないようにする方法](/ja/blog/block-power-menu)
 
 <AppCta position="guide_end" />

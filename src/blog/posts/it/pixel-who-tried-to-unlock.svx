@@ -119,8 +119,8 @@ R: CrookCatcher lavora in background senza anteprima della fotocamera. Il Pixel 
 
 ## Guide correlate
 
-- [Come scoprire chi ha provato a sbloccare il tuo telefono (e ottenere la sua foto)](/it/blog/see-who-tried-to-unlock-your-phone)
-- [5 impostazioni antifurto Android da attivare oggi](/it/blog/top_five_settings)
-- [Come impedire ai ladri di spegnere il tuo telefono](/it/blog/block-power-menu)
+- [Come fare una foto a chi prova a sbloccare il tuo telefono Android](/it/blog/see-who-tried-to-unlock-your-phone)
+- [Antifurto Android: 5 impostazioni da attivare subito](/it/blog/top_five_settings)
+- [Come impedire lo spegnimento del telefono dalla schermata di blocco](/it/blog/block-power-menu)
 
 <AppCta position="guide_end" />

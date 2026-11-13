@@ -1,9 +1,9 @@
 ---
-title: Come impedire ai ladri di spegnere il tuo telefono (o di attivare la modalità aereo)
+title: Come impedire lo spegnimento del telefono dalla schermata di blocco (Android e Samsung)
 subtitle: Le impostazioni che mantengono il telefono rintracciabile, e come fotografare il ladro
 dateUpdated: '2026-09-28'
 datePublished: '2025-01-19'
-description: "I ladri spengono i telefoni rubati perché non possano essere rintracciati. Ecco come renderlo più difficile su Samsung e sugli altri telefoni Android, e come ottenere la foto del ladro prima che ci riesca."
+description: "Un telefono rubato e spento non si può rintracciare. Ecco come impedire lo spegnimento dalla schermata di blocco su Samsung e sugli altri telefoni Android, come bloccare la modalità aereo e come ottenere la foto del ladro prima che ci riesca."
 image: /images/blog/Digital_Solitude_Urban_Shadows.jpeg
 imageAlt: Uomo nell'ombra con un telefono
 published: true
@@ -40,7 +40,7 @@ Attivala. Da ora in poi, chi prova a spegnere il telefono dalla schermata di blo
 
 > Nota: questo protegge la schermata di blocco. Se un ladro ti strappa il telefono mentre è *sbloccato*, può comunque spegnerlo, ed è per questo che conta anche il passaggio 2. Samsung sta testando un aggiornamento che chiede il PIN per spegnere in ogni situazione; aggiorneremo questo articolo quando sarà disponibile.
 
-Su un Samsung puoi anche ottenere la foto di chi inserisce il PIN sbagliato: vedi [come scoprire chi ha provato a sbloccare il tuo telefono Samsung](/it/blog/samsung-who-tried-to-unlock).
+Su un Samsung puoi anche ottenere la foto di chi inserisce il PIN sbagliato: vedi [come scoprire chi ha provato a sbloccare il tuo Samsung dopo troppi tentativi](/it/blog/samsung-who-tried-to-unlock).
 
 ---
 

@@ -1,9 +1,9 @@
 ---
-title: 泥棒にスマホの電源を切られないようにする方法（機内モード対策も）
+title: スマホを盗まれても電源を切られないようにする方法（Android・Galaxy）
 subtitle: スマホを追跡できる状態に保つ設定と、泥棒の姿をカメラで捉える方法
 dateUpdated: '2026-09-28'
 datePublished: '2025-01-19'
-description: "泥棒は追跡されないように、盗んだスマホの電源を切ります。Samsung やほかの Android スマホでそれを難しくする方法と、泥棒が成功する前にその写真を手に入れる方法を紹介します。"
+description: "スマホを盗まれて電源を切られると、位置情報で探せなくなります。Galaxy やほかの Android スマホで電源を切れないようにする設定、機内モード対策、泥棒が成功する前にその写真を手に入れる方法を紹介します。"
 image: /images/blog/Digital_Solitude_Urban_Shadows.jpeg
 imageAlt: スマホを持つ影の中の男
 published: true
@@ -40,7 +40,7 @@ Samsung Galaxy の多くの機種には、PIN、パターン、パスワード�
 
 > 注: これはロック画面を守る設定です。ロックが*解除された*状態のスマホをひったくられた場合は、電源を切られてしまいます。だからこそ手順 2 も大切です。Samsung はどんな状況でも電源を切るのに PIN を求めるアップデートをテスト中で、公開されたらこの記事を更新します。
 
-Samsung では、間違った PIN を入力した人の写真を撮ることもできます。[Samsung のスマホのロックを解除しようとした人を確認する方法](/ja/blog/samsung-who-tried-to-unlock)をご覧ください。
+Samsung では、間違った PIN を入力した人の写真を撮ることもできます。[Galaxy のロックを解除しようとした人を確認する方法](/ja/blog/samsung-who-tried-to-unlock)をご覧ください。
 
 ---
 

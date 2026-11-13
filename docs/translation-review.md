@@ -58,3 +58,11 @@ Site pages, interface text, reviews and six guides (the same set as German) were
 
 - `email-alert-it.webp` / `email-alert-ja.webp` and the headers for `failed-unlock-attempts-android`, `samsung-who-tried-to-unlock`, `pixel-who-tried-to-unlock`, `see-who-tried-to-unlock-your-phone` and `top_five_settings` (`theft_settings_header-<lang>.png`) are HTML graphics built from the existing layouts and pixelated photos. `block-power-menu` uses the shared photo header, which has no text.
 - In `top_five_settings`, the three English phone screenshots are replaced by brand-style graphics (`settings-theft-`, `settings-remote-lock-`, `find-hub-<lang>.webp`). They use only the menu names confirmed on Google's pages; the one-line descriptions under each setting are ours, not Google's on-screen text, so the captions don't call them screenshots.
+
+### SEO pass for it/ja (2026-11-13)
+
+Titles, descriptions, some H2s and FAQ questions were retuned to real search phrasing from Google autocomplete (google.it, google.co.jp). Body text is unchanged apart from two new FAQs per language.
+
+- Japanese: "Galaxy" instead of "Samsung" in titles (Galaxy phones in Japan carry no Samsung logo); targets スマホ 勝手に見られた, ロック解除 履歴, 何回まで, スマホ 盗難 対策 設定, 盗まれた 電源切られた.
+- Italian: targets foto a chi sblocca il telefono, come sapere se qualcuno ha usato il mio cellulare, troppi tentativi di sblocco (samsung), antifurto android, impedire spegnimento dalla schermata di blocco.
+- The on-screen messages "Troppi tentativi di sblocco non validi" (Samsung, it) and 「ロック解除に何度も失敗しました」 (Galaxy, ja) come from autocomplete, not an official Samsung page. Worth confirming on a real device.

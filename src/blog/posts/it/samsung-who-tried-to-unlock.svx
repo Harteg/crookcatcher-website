@@ -1,6 +1,6 @@
 ---
-title: Come scoprire chi ha provato a sbloccare il tuo telefono Samsung (2026)
-subtitle: Cosa registrano i Galaxy dopo un PIN sbagliato, e come ottenere una foto della persona
+title: "Troppi tentativi di sblocco su Samsung: come scoprire chi è stato (2026)"
+subtitle: Quanti tentativi consente un Galaxy, cosa registra dopo un PIN sbagliato e come ottenere una foto di chi ci ha provato
 dateUpdated: '2026-10-22'
 datePublished: '2026-10-22'
 description: "I Samsung Galaxy non mostrano chi ha provato a sbloccarli e non tengono un elenco dei PIN sbagliati. Ecco cosa fa One UI con i tentativi falliti, le impostazioni Samsung da attivare e come ricevere via email una foto della persona."
@@ -15,7 +15,7 @@ published: true
 
 **I Samsung Galaxy non possono mostrarti chi ha provato a sbloccarli.** One UI conta i PIN, le sequenze e le password sbagliati solo per bloccare il telefono sempre più a lungo. Non tiene un elenco da consultare e non scatta mai una foto. Per vedere chi è stato, installa un'app che reagisca agli sblocchi falliti, come [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-it). Scatta una foto con la fotocamera anteriore dopo un PIN sbagliato e te la invia via email con la posizione.
 
-## Cosa fa il tuo Samsung dopo un PIN sbagliato
+## Quanti tentativi di sblocco consente un Samsung
 
 Le nuove regole della schermata di blocco di Samsung (One UI 9) fanno aspettare sempre di più dopo ogni tentativo sbagliato:
 
@@ -39,7 +39,7 @@ Alcuni dettagli da Samsung:
 - **Ripetere lo stesso inserimento sbagliato non conta di nuovo.** I tentativi sbagliati identici di fila vengono ignorati, così un bambino che preme sempre lo stesso codice non ti blocca il telefono.
 - **La schermata di blocco ti avvisa** di quanti tentativi restano quando qualcuno si avvicina al limite.
 
-Quell'avviso, o un messaggio "Riprova tra…", è l'unico segno che qualcuno ci ha provato. Non dice chi, quando né quante volte. Per sapere come si comportano gli altri telefoni Android, vedi [si possono vedere i tentativi di sblocco falliti su Android?](/it/blog/failed-unlock-attempts-android)
+Quell'avviso, o un messaggio come "Troppi tentativi di sblocco non validi" o "Riprova tra…", è l'unico segno che qualcuno ci ha provato. Non dice chi, quando né quante volte. Per sapere come si comportano gli altri telefoni Android, vedi [si possono vedere i tentativi di sblocco falliti su Android?](/it/blog/failed-unlock-attempts-android)
 
 ## Impostazioni Samsung da attivare
 
@@ -99,7 +99,7 @@ Scegli tu dopo quanti tentativi sbagliati CrookCatcher entra in azione. Dal 2014
 ### D: Samsung ha una funzione integrata per il selfie dell'intruso?
 R: Non per la schermata di blocco. Le impostazioni della schermata di blocco e della protezione dai furti di Samsung bloccano il telefono dopo i tentativi sbagliati, ma nessuna fotografa la persona o tiene un elenco dei tentativi. Per questo ti serve un'app come CrookCatcher.
 
-### D: Quanti tentativi di PIN sbagliati consente un telefono Samsung?
+### D: Quanti tentativi di sblocco consente un telefono Samsung?
 R: Sui telefoni venduti con One UI 9, le attese iniziano dopo 5 tentativi sbagliati e il telefono si blocca in modo permanente al 13°. Da lì in poi, solo un ripristino dei dati di fabbrica lo rende di nuovo utilizzabile. I telefoni meno recenti e quelli aggiornati a One UI 9 seguono i limiti precedenti.
 
 ### D: Il mio Samsung si cancella da solo dopo troppi tentativi sbagliati?
@@ -125,8 +125,8 @@ R: Di solito perché Samsung ha sospeso l'app per risparmiare batteria. Aggiungi
 
 ## Guide correlate
 
-- [Come scoprire chi ha provato a sbloccare il tuo telefono (e ottenere la sua foto)](/it/blog/see-who-tried-to-unlock-your-phone)
-- [Come impedire ai ladri di spegnere il tuo telefono](/it/blog/block-power-menu)
-- [5 impostazioni antifurto Android da attivare oggi](/it/blog/top_five_settings)
+- [Come fare una foto a chi prova a sbloccare il tuo telefono Android](/it/blog/see-who-tried-to-unlock-your-phone)
+- [Come impedire lo spegnimento del telefono dalla schermata di blocco](/it/blog/block-power-menu)
+- [Antifurto Android: 5 impostazioni da attivare subito](/it/blog/top_five_settings)
 
 <AppCta position="guide_end" />

@@ -1,9 +1,9 @@
 ---
-title: Come scoprire chi ha provato a sbloccare il tuo telefono (e ottenere la sua foto)
-subtitle: Scatta un selfie dell'intruso quando qualcuno inserisce il PIN, la sequenza o la password sbagliati
+title: Come fare una foto a chi prova a sbloccare il tuo telefono Android
+subtitle: "Scopri chi ha usato il tuo cellulare: un selfie dell'intruso ogni volta che qualcuno inserisce il PIN, la sequenza o la password sbagliati"
 dateUpdated: '2026-10-23'
 datePublished: '2026-09-28'
-description: "Android non mostra chi ha provato a sbloccare il tuo telefono. Ecco come scattare automaticamente una foto a chiunque inserisca il PIN, la sequenza o la password sbagliati, e riceverla via email con la posizione."
+description: "Android non mostra chi ha provato a sbloccare il tuo telefono. Ecco l'app che fotografa chi prova a sbloccare il telefono con il PIN, la sequenza o la password sbagliati, e ti invia la foto via email con la posizione."
 image: '/images/blog/who-tried-to-unlock-header-it.png'
 imageAlt: "Telefono con un tentativo di sblocco con sequenza sbagliata accanto a un'email di avviso di CrookCatcher con le foto dell'intruso e la posizione"
 published: true
@@ -26,7 +26,7 @@ Alcuni produttori includono un'opzione simile, una "foto dell'intruso", nel loro
 
 Per vedere chi ha provato a sbloccare il telefono ti serve un'app che controlli la schermata di blocco e reagisca ai tentativi falliti.
 
-Hai un Samsung Galaxy? Leggi [come scoprire chi ha provato a sbloccare il tuo telefono Samsung](/it/blog/samsung-who-tried-to-unlock) per le impostazioni e i limiti di Samsung.
+Hai un Samsung Galaxy? Leggi [troppi tentativi di sblocco su Samsung: come scoprire chi è stato](/it/blog/samsung-who-tried-to-unlock) per le impostazioni e i limiti di Samsung.
 
 ## Come fotografare chi inserisce la password sbagliata
 
@@ -58,7 +58,7 @@ Tutte le foto vengono salvate anche nell'app, dove puoi rivedere ogni tentativo 
 
 Con **CrookCatcher Pro** puoi anche registrare un video con audio, fotografare l'ambiente con la fotocamera posteriore, caricare tutto in automatico su Google Drive e scoprire chi *indovina il PIN giusto* dopo un tentativo fallito (rilevamento effrazione).
 
-## Altri segnali che qualcuno ha usato il tuo telefono
+## Come sapere se qualcuno ha usato il tuo cellulare
 
 Una foto è la prova più chiara, ma anche questi segnali possono dirti che qualcuno ha usato il telefono:
 
@@ -97,8 +97,8 @@ Sì, le funzioni più importanti sono gratuite: la foto dell'intruso, la posizio
 ### D: Cos'è un selfie dell'intruso?
 R: È una foto scattata automaticamente con la fotocamera anteriore quando qualcuno inserisce il PIN, la sequenza o la password sbagliati sul tuo telefono. Di solito la persona guarda dritto lo schermo, quindi la foto mostra il suo volto. Android non può scattarla da solo; un'app come CrookCatcher lo fa e ti invia la foto via email.
 
-### D: Il mio telefono può fotografare chi inserisce la password sbagliata?
-R: Non da solo. Android non ha un'impostazione per farlo, e le opzioni "foto dell'intruso" nei blocchi app di alcuni produttori coprono solo le singole app, non la schermata di blocco. Con CrookCatcher installata, un PIN, una sequenza o una password sbagliati (dopo il numero di tentativi che scegli tu) fanno scattare una foto, salvata con ora e posizione.
+### D: Esiste un'app che fotografa chi sblocca il telefono?
+R: Sì, ma il telefono da solo non lo fa. Android non ha un'impostazione per farlo, e le opzioni "foto dell'intruso" nei blocchi app di alcuni produttori coprono solo le singole app, non la schermata di blocco. Con CrookCatcher installata, un PIN, una sequenza o una password sbagliati (dopo il numero di tentativi che scegli tu) fanno scattare una foto, salvata con ora e posizione.
 
 ### D: Funziona con sequenza, PIN e password?
 R: Sì. CrookCatcher reagisce a un PIN, una sequenza o una password sbagliati. I tentativi falliti con impronta o riconoscimento del volto non la attivano, e non funziona con le fotocamere a scomparsa.

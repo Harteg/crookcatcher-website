@@ -1,9 +1,9 @@
 ---
-title: 5 impostazioni antifurto Android da attivare oggi (2026)
+title: "Antifurto Android: 5 impostazioni da attivare subito (2026)"
 subtitle: Le impostazioni integrate che rendono inutile a un ladro un telefono Android rubato, e cosa non possono ancora fare
 dateUpdated: '2026-10-23'
 datePublished: '2025-08-24'
-description: "Le cinque impostazioni Android che ti proteggono di più se ti rubano il telefono: un blocco schermo sicuro, la Protezione dai furti, il Blocco remoto, Find Hub e la Verifica dell'identità. Ecco dove trovarle, e cosa non possono ancora dirti."
+description: "Le cinque impostazioni antifurto Android che ti proteggono di più se ti rubano il telefono: un blocco schermo sicuro, la Protezione dai furti, il Blocco remoto, Find Hub e la Verifica dell'identità. Ecco dove trovarle, e cosa non possono ancora dirti."
 image: '/images/blog/theft_settings_header-it.png'
 imageAlt: "5 impostazioni antifurto da attivare oggi: PIN di 6 cifre o password, Protezione dai furti, Blocco remoto, Find Hub e Verifica dell'identità."
 published: true
@@ -45,7 +45,7 @@ Attiva:
 - **Blocco dispositivo offline:** blocca lo schermo poco dopo che il telefono va offline, per esempio quando un ladro attiva la modalità aereo.
 - **Blocco per autenticazione fallita:** blocca lo schermo quando i tentativi di sblocco falliscono più volte. È attivo di serie.
 
-Se un'impostazione è disattivata in grigio, il tuo telefono non la supporta. Queste funzioni richiedono Android 10 o versioni successive, e alcune Android 15 o successive. Sui Samsung Galaxy c'è anche un menu Protezione dai furti di Samsung; vedi [come scoprire chi ha provato a sbloccare il tuo telefono Samsung](/it/blog/samsung-who-tried-to-unlock) per sapere dove trovarlo.
+Se un'impostazione è disattivata in grigio, il tuo telefono non la supporta. Queste funzioni richiedono Android 10 o versioni successive, e alcune Android 15 o successive. Sui Samsung Galaxy c'è anche un menu Protezione dai furti di Samsung; vedi [troppi tentativi di sblocco su Samsung: come scoprire chi è stato](/it/blog/samsung-who-tried-to-unlock) per sapere dove trovarlo.
 
 <figure class="blog-figure">
   <img src="/images/blog/settings-theft-it.webp" width="1080" height="700" loading="lazy" alt="Protezione dai furti con Blocco per furto, Blocco dispositivo offline e Blocco per autenticazione fallita attivi" />
@@ -139,8 +139,8 @@ R: Le impostazioni proteggono i tuoi dati e ti aiutano a localizzare il telefono
 
 ## Guide correlate
 
-- [Si possono vedere i tentativi di sblocco falliti su Android?](/it/blog/failed-unlock-attempts-android)
-- [Come impedire ai ladri di spegnere il tuo telefono](/it/blog/block-power-menu)
-- [Come scoprire chi ha provato a sbloccare il tuo telefono (e ottenere la sua foto)](/it/blog/see-who-tried-to-unlock-your-phone)
+- [Tentativi di sblocco falliti su Android: si possono vedere?](/it/blog/failed-unlock-attempts-android)
+- [Come impedire lo spegnimento del telefono dalla schermata di blocco](/it/blog/block-power-menu)
+- [Come fare una foto a chi prova a sbloccare il tuo telefono Android](/it/blog/see-who-tried-to-unlock-your-phone)
 
 <AppCta position="guide_end" />

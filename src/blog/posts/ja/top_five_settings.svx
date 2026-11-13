@@ -1,9 +1,9 @@
 ---
-title: 今すぐオンにしたい Android の盗難防止設定 5 選（2026 年版）
+title: Android のスマホ盗難対策：今すぐオンにしたい設定 5 選（2026 年版）
 subtitle: 盗まれた Android スマホを泥棒にとって役に立たなくする内蔵の設定と、それでもできないこと
 dateUpdated: '2026-10-23'
 datePublished: '2025-08-24'
-description: "スマホを盗まれたときにいちばん役立つ Android の設定 5 つ: 強力な画面ロック、盗難保護、リモートロック、Find Hub、ID チェック。それぞれの場所と、それでもわからないことを説明します。"
+description: "Android のスマホ盗難対策でいちばん役立つ設定 5 つ: 強力な画面ロック、盗難保護、リモートロック、Find Hub、ID チェック。それぞれの場所と、それでもわからないことを説明します。"
 image: '/images/blog/theft_settings_header-ja.png'
 imageAlt: '今すぐオンにしたい盗難防止設定 5 選: 6 桁の PIN かパスワード、盗難保護、リモートロック、Find Hub、ID チェック。'
 published: true
@@ -45,7 +45,7 @@ Android の盗難保護は、泥棒がよく狙う状況でスマホを自動的
 - **オフライン デバイスロック:** 泥棒が機内モードをオンにしたときなど、スマホがオフラインになるとすぐに画面をロックします。
 - **認証失敗時のロック:** ロック解除に何度も失敗すると画面をロックします。標準でオンです。
 
-グレー表示の設定は、お使いのスマホが対応していません。これらの機能には Android 10 以降が必要で、一部は Android 15 以降が必要です。Samsung Galaxy には Samsung 独自の盗難防止メニューもあります。場所は[Samsung のスマホのロックを解除しようとした人を確認する方法](/ja/blog/samsung-who-tried-to-unlock)をご覧ください。
+グレー表示の設定は、お使いのスマホが対応していません。これらの機能には Android 10 以降が必要で、一部は Android 15 以降が必要です。Samsung Galaxy には Samsung 独自の盗難防止メニューもあります。場所は[Galaxy のロックを解除しようとした人を確認する方法](/ja/blog/samsung-who-tried-to-unlock)をご覧ください。
 
 <figure class="blog-figure">
   <img src="/images/blog/settings-theft-ja.webp" width="1080" height="700" loading="lazy" alt="盗難検出ロック、オフライン デバイスロック、認証失敗時のロックがオンになった盗難保護の設定" />
@@ -139,8 +139,8 @@ A: 設定はデータを守り、スマホの位置を探すのに役立ちま�
 
 ## 関連ガイド
 
-- [Android でロック解除の失敗履歴は見られる？](/ja/blog/failed-unlock-attempts-android)
-- [泥棒にスマホの電源を切られないようにする方法](/ja/blog/block-power-menu)
-- [スマホのロックを解除しようとした人を確認する方法（写真付き）](/ja/blog/see-who-tried-to-unlock-your-phone)
+- [Android のロック解除の履歴は見られる？何回まで失敗できる？](/ja/blog/failed-unlock-attempts-android)
+- [スマホを盗まれても電源を切られないようにする方法](/ja/blog/block-power-menu)
+- [スマホを勝手に見られた？ロックを解除しようとした人を写真で確認する方法](/ja/blog/see-who-tried-to-unlock-your-phone)
 
 <AppCta position="guide_end" />
