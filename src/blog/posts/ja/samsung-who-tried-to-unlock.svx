@@ -1,0 +1,136 @@
+---
+title: Galaxy のロックを解除しようとした人を確認する方法｜何回まで失敗できる？（2026 年版）
+subtitle: 間違った PIN のあと Galaxy が記録すること、そして相手の写真を手に入れる方法
+dateUpdated: '2026-10-22'
+datePublished: '2026-10-22'
+description: "Galaxy では、誰がロックを解除しようとしたかはわからず、間違った PIN の一覧も残りません。One UI がロック解除の失敗をどう扱うか、オンにしたい Samsung の設定、相手の写真をメールで受け取る方法を説明します。"
+image: '/images/blog/samsung-who-tried-to-unlock-header-ja.png'
+imageAlt: "Samsung のロック解除を試みた人がわかる: Galaxy は間違えた回数を数えるだけで、誰が試したかは表示しません。横に侵入者の写真付きの CrookCatcher の通知メール。"
+published: true
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Samsung Galaxy では、誰がロックを解除しようとしたかを確認できません。** One UI が間違った PIN、パターン、パスワードの回数を数えるのは、ロックの時間を延ばしていくためだけです。確認できる一覧は残らず、写真も撮られません。誰だったかを知るには、ロック解除の失敗に反応するアプリを入れましょう。たとえば [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-ja) は、間違った PIN のあとに前面カメラで写真を撮り、位置情報と一緒にメールで送ります。
+
+## Galaxy のロック解除は何回まで失敗できる？
+
+Samsung の最新のロック画面ポリシー（One UI 9）では、間違えるたびに待ち時間が長くなります。
+
+| 間違えた回数 | 次の入力までの待ち時間 |
+| --- | --- |
+| 5 回 | 1 分 |
+| 6 回 | 5 分 |
+| 7 回 | 15 分 |
+| 8 回 | 30 分 |
+| 9 回 | 90 分 |
+| 10 回 | 4 時間 |
+| 11 回 | 12 時間 |
+| 12 回 | 24 時間 |
+| 13 回 | スマホが完全にロックされる |
+
+13 回目の失敗のあとは、初期化しないとスマホを使えません。初期化すると中のデータはすべて消えます。Samsung が PIN を復元することはできません。
+
+Samsung によると、細かい点は次のとおりです。
+
+- **対象は One UI 9 搭載で発売されたスマホです。** One UI 9 にアップデートしたスマホは、初期化するまで以前の動作のままです。
+- **同じ間違った入力を繰り返しても、回数は増えません。** 続けて入力された同じ間違いは数えられないので、子どもが同じコードを押し続けても締め出されません。
+- **上限に近づくと、ロック画面に残りの試行回数が表示されます。**
+
+その警告か「〜後にもう一度お試しください」というメッセージが、誰かが試したことを示す唯一のサインです。誰が、いつ、何回、まではわかりません。ほかの Android スマホでの扱いは、[Android のロック解除の履歴は見られる？](/ja/blog/failed-unlock-attempts-android)をご覧ください。
+
+## オンにしておきたい Samsung の設定
+
+誰が試したかはわかりませんが、スマホを開かれにくく、持ち去られにくくなります。
+
+### 盗難防止
+
+**開く場所:**
+`設定 > セキュリティとプライバシー > 紛失したデバイスの保護 > 盗難防止`
+
+（英語表記は *Security and privacy > Lost device protection > Theft protection*。機種によって名前が少し異なる場合があります）
+
+- **ID チェック:** 自宅など安全な場所として登録した場所以外では、重要なセキュリティ設定を変えるのに PIN だけでなく指紋か顔が必要になります。
+- **セキュリティの遅延**（*Security delay*）: ID チェックの一部です。誰かが生体認証を変更しようとしても、変更が有効になるのは 1 時間後なので、その間にリモートでスマホをロックできます。
+- **盗難検出ロック:** ひったくられたことを検出すると画面をロックします。
+- **オフライン デバイスロック:** 泥棒がスマホをオフラインのままにすると画面をロックします。
+
+### 安全ロック設定
+
+**開く場所:**
+`設定 > ロック画面とAOD > 安全ロック設定`（PIN を入力。AOD 非対応の機種では「ロック画面」）
+
+- **ネットワークとセキュリティをロック**（*Lock network and security*）: スマホのロック中はネットワークとセキュリティの機能をロックしたままにします。泥棒がロック画面から接続を切ったり電源を切ったりするのを防げます。詳しくは[泥棒にスマホの電源を切られないようにする方法](/ja/blog/block-power-menu)をご覧ください。
+- **自動初期化:** ロック解除に何度も失敗するとスマホのデータを消去します（Samsung のサポートページでは 15 回）。子どもがスマホを使う場合は、オンにする前によく考えてください。スマホに保存された侵入者の写真も消えるので、メールで送っておく理由がもうひとつ増えます。
+
+## Samsung ではわからないこと
+
+- **誰が試したか。** 相手の写真はありません。
+- **いつ起きたか**、何回か。
+- **そのときスマホがどこにあったか。**
+- **その場での通知。**
+
+## Samsung のロックを解除しようとした人の写真を手に入れる方法
+
+この穴を埋めるのが CrookCatcher です。誰かが間違った PIN、パターン、パスワードを入力すると、前面カメラで写真を撮り、位置情報とおおよその住所を記録して、両方をメールで送ります。試行はすべて時刻と一緒にアプリにも保存されます。
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-ja.webp" width="990" height="1024" loading="lazy" alt="侵入者の写真、試行時刻、位置の地図が載った CrookCatcher の通知メール" />
+  <figcaption>ロック解除の失敗後に CrookCatcher が送るメール。</figcaption>
+</figure>
+
+**Galaxy での設定方法:**
+
+1. **CrookCatcher をインストール**します。<a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-ja" target="_blank" rel="noopener noreferrer">Google Play</a> から入手でき、アカウントを作る必要はありません。
+2. **デバイス管理アプリとして許可**します。ロック解除の失敗をアプリに知らせる Android の権限です。CrookCatcher はこの目的にだけ使います。
+3. **カメラと位置情報へのアクセスを許可**します。
+4. **通知メール用に Gmail アカウントを連携**します。CrookCatcher ができるのはメールの*送信*だけで、読むことはできません。
+5. **スリープさせないようにします。** Samsung は電池を節約するためにアプリをスリープさせることがあり、通知が止まる原因になります。CrookCatcher を**スリープしないアプリ**（*Never sleeping apps*）に追加してください: `設定 > バッテリー > バックグラウンドでの使用制限 > スリープしないアプリ`（古い機種では `設定 > バッテリーとデバイスケア > バッテリー > バックグラウンドでの使用制限`）。
+6. **試してみます。** スマホをロックし、わざと間違った PIN を入力してから、ロックを解除します。アプリと受信トレイに自分の写真が届くはずです。
+
+何回失敗したら CrookCatcher が作動するかは自分で決められます。CrookCatcher は 2014 年から 1,200 万回以上ダウンロードされ、1 日に約 120 万枚の侵入者の写真を撮影しています。
+
+<AppCta position="guide_mid" />
+
+## よくある質問
+
+### Q: Samsung に侵入者セルフィーの機能は内蔵されている？
+A: ロック画面向けにはありません。Samsung のロック画面と盗難防止の設定は、失敗が続くとスマホをロックしますが、相手の写真を撮ったり、試行の一覧を残したりはしません。そのためには CrookCatcher のようなアプリが必要です。
+
+### Q: Galaxy のロック解除は何回まで失敗できる？
+A: One UI 9 搭載で発売されたスマホでは、5 回間違えると待ち時間が始まり、13 回目で完全にロックされます。それ以降は初期化しないと使えません。古いスマホや One UI 9 にアップデートしたスマホは、以前の制限に従います。
+
+### Q: 「ロック解除に何度も失敗しました」と表示されたら？
+A: 間違った PIN、パターン、パスワードが続けて入力されたという意味で、表示された時間が過ぎるまで次の入力はできません。自分で間違えた覚えがなければ、誰かがロックを解除しようとしたということです。ただし、誰が、いつ試したかは表示されません。次に知るには、試した人の写真を撮る CrookCatcher のようなアプリが必要です。
+
+### Q: 何度も間違えると、Samsung のスマホのデータは自動で消える？
+A: 安全ロック設定で**自動初期化**をオンにしている場合だけです。One UI 9 のスマホでは、試行回数を使い切ってもそれだけでデータは消えませんが、また使うには初期化が必要です。
+
+### Q: CrookCatcher は Samsung の指紋認証や顔認証と一緒に使える？
+A: はい、そのまま使えます。CrookCatcher は間違った PIN、パターン、パスワードに反応します。指紋認証や顔認証の失敗では作動しません。
+
+### Q: 撮影されたことは相手にわかる？
+A: CrookCatcher はカメラのプレビューを表示せずにバックグラウンドで動きます。最近の Android では、カメラの使用中に小さなインジケーターが表示されます。これはシステムの機能で、アプリからは隠せません。
+
+### Q: Samsung で CrookCatcher の通知が届かなくなったのはなぜ？
+A: たいていは、Samsung が電池を節約するためにアプリをスリープさせたからです。**スリープしないアプリ**に追加して（上の手順 5）、もう一度試してください。
+
+## 出典
+
+- Samsung: [One UI 9.0 lockscreen security policy changes](https://www.samsung.com/hk_en/support/mobile-devices/one-ui-9-lockscreen-security-policy/)（英語）
+- Samsung: [(Galaxy) 端末を初期化する方法を教えてください。](https://www.samsung.com/jp/support/mobile-devices/how-to-perform-a-factory-reset-on-your-galaxy-phone/)（安全ロック設定と自動初期化）
+- Samsung: [What are the Secure Lock settings?](https://www.samsung.com/nz/support/mobile-devices/what-are-the-secure-lock-settings/)（英語）
+- Samsung: [What is Theft Protection in One UI 7?](https://www.samsung.com/ae/support/mobile-devices/what-is-theft-protection-in-one-ui-7/)（英語）
+- Samsung: [How to use security settings on your phone](https://www.samsung.com/uk/support/mobile-devices/how-to-use-security-settings/)（英語）
+- Samsung: [Sleeping apps on your Galaxy device](https://www.samsung.com/us/support/answer/ANS00088422/)（英語）
+- Google、Android ヘルプ: [個人データを盗難から保護する](https://support.google.com/android/answer/15146908?hl=ja)
+
+## 関連ガイド
+
+- [スマホを勝手に見られた？ロックを解除しようとした人を写真で確認する方法](/ja/blog/see-who-tried-to-unlock-your-phone)
+- [スマホを盗まれても電源を切られないようにする方法](/ja/blog/block-power-menu)
+- [Android のスマホ盗難対策：今すぐオンにしたい設定 5 選](/ja/blog/top_five_settings)
+
+<AppCta position="guide_end" />

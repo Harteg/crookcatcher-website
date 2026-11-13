@@ -1,12 +1,12 @@
 ---
 title: How to See Who Tried to Unlock Your Pixel (2026)
 subtitle: What a Google Pixel records after a wrong PIN, and how to get a photo of the person
-dateUpdated: '2026-10-21'
-datePublished: '2026-10-21'
+dateUpdated: '2026-11-13'
+datePublished: '2026-11-13'
 description: "Google Pixel phones don't show who tried to unlock them or keep a record of wrong PIN attempts. Here's what your Pixel does after failed unlocks, the theft protection settings to turn on, and how to get a photo of the person by email."
 image: '/images/blog/pixel-who-tried-to-unlock-header.png'
 imageAlt: 'How to see who tried to unlock your Pixel: Pixel phones count wrong guesses but never show who made them. CrookCatcher takes their photo.'
-published: false
+published: true
 ---
 
 <script>

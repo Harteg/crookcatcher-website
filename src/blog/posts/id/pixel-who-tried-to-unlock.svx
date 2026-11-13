@@ -1,12 +1,12 @@
 ---
 title: Cara Melihat Siapa yang Mencoba Membuka Pixel-mu (2026)
 subtitle: Apa yang dicatat Google Pixel setelah PIN salah, dan cara mendapatkan foto orangnya
-dateUpdated: '2026-10-21'
-datePublished: '2026-10-21'
+dateUpdated: '2026-11-13'
+datePublished: '2026-11-13'
 description: "Ponsel Google Pixel tidak menunjukkan siapa yang mencoba membukanya dan tidak menyimpan catatan percobaan PIN yang salah. Berikut yang dilakukan Pixel-mu setelah percobaan gagal, pengaturan perlindungan pencurian yang perlu diaktifkan, dan cara mendapatkan foto orangnya lewat email."
 image: '/images/blog/pixel-who-tried-to-unlock-header-id.png'
 imageAlt: 'Cara melihat siapa yang mencoba membuka Pixel-mu: ponsel Pixel menghitung tebakan salah tetapi tidak pernah menunjukkan pelakunya. CrookCatcher memotret orangnya.'
-published: false
+published: true
 ---
 
 <script>

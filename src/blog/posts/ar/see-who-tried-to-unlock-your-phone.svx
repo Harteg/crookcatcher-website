@@ -26,7 +26,7 @@ published: true
 
 ولمعرفة من حاول فتح هاتفك، تحتاج إلى تطبيق يراقب شاشة القفل ويتفاعل مع المحاولات الفاشلة.
 
-هل لديك Samsung Galaxy؟ اطّلع على [كيف تعرف من حاول فتح هاتف Samsung الخاص بك](/ar/blog/samsung-who-tried-to-unlock) لمعرفة إعدادات Samsung نفسها وقواعد القفل.
+هل لديك Samsung Galaxy؟ اطّلع على [كيف تعرف من حاول فتح هاتف Samsung الخاص بك](/ar/blog/samsung-who-tried-to-unlock) لمعرفة إعدادات Samsung نفسها وقواعد القفل. هل تستخدم Google Pixel؟ اطّلع على [كيف تعرف من حاول فتح هاتف Pixel الخاص بك](/ar/blog/pixel-who-tried-to-unlock).
 
 ## كيف تلتقط صورة لمن يُدخل كلمة المرور الخاطئة
 

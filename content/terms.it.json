@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "Termini di utilizzo • CrookCatcher, app per Android",
+    "description": "Termini di utilizzo di CrookCatcher, l'app per Android che scatta foto quando viene inserita una password sbagliata.",
+    "canonical": "https://www.crookcatcher.app/it/terms"
+  },
+  "hero": {
+    "eyebrow": "Informazioni legali",
+    "title": "Termini di utilizzo",
+    "lead": "Scaricando e usando CrookCatcher accetti i seguenti termini e condizioni. Leggili con attenzione."
+  },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Uso dell'app",
+      "body": "<p>CrookCatcher è destinata esclusivamente a un uso personale e non commerciale. Ti impegni a usare CrookCatcher nel rispetto di tutte le leggi e i regolamenti applicabili. Non puoi modificare o copiare i materiali di questa app né usarli per scopi commerciali. È vietato tentare di decompilare o di decodificare il software contenuto nell'app.</p>"
+    },
+    {
+      "number": "2",
+      "title": "Proprietà e proprietà intellettuale",
+      "body": "<p>Tutti i materiali di CrookCatcher, compresi i diritti di proprietà intellettuale, sono di proprietà di Jakob Harteg o concessi a lui in licenza. Non puoi usare alcun contenuto di questa app senza l'autorizzazione scritta esplicita di Jakob Harteg.</p>"
+    },
+    {
+      "number": "3",
+      "title": "Dati e pubblicità",
+      "body": "<p>CrookCatcher raccoglie dati di utilizzo anonimi e segnalazioni di arresti anomali con Google Analytics e Firebase, ad esempio quando viene inviata un'email e come navighi nell'app. Puoi disattivarlo nelle impostazioni dell'app. La versione gratuita dell'app mostra annunci forniti da Google AdMob. Le tue foto, i tuoi video e la tua posizione non vengono condivisi con lo sviluppatore. Per i dettagli consulta la nostra <a href=\"/it/privacy\">informativa sulla privacy</a>.</p>"
+    },
+    {
+      "number": "4",
+      "title": "Esclusione di garanzie",
+      "body": "<p>Nella misura consentita dalla legge, CrookCatcher è fornita \"così com'è\", senza garanzie esplicite o implicite, comprese le garanzie implicite di commerciabilità, idoneità a uno scopo particolare e non violazione. CrookCatcher non può garantire che ogni tentativo di sblocco venga fotografato, che ogni email venga recapitata o che un telefono smarrito o rubato venga ritrovato. Questa sezione non pregiudica i diritti che hai come consumatore in base alle norme inderogabili, come la garanzia legale.</p>"
+    },
+    {
+      "number": "5",
+      "title": "Limitazione di responsabilità",
+      "body": "<p>Nella misura consentita dalla legge, Jakob Harteg non è responsabile dei danni derivanti dall'uso o dall'impossibilità di usare CrookCatcher, compresi danni indiretti, incidentali, speciali o consequenziali, o la perdita di dati, dispositivi o profitti. Ciò non si applica alla responsabilità per dolo o colpa grave, per danni alla vita, al corpo o alla salute, né a qualsiasi altra responsabilità che per legge non può essere esclusa o limitata.</p>"
+    },
+    {
+      "number": "6",
+      "title": "Legge applicabile",
+      "body": "<p>Questi termini sono regolati dalla legge tedesca, senza riguardo alle sue norme di diritto internazionale privato. Se sei un consumatore, mantieni la tutela delle norme inderogabili a protezione dei consumatori del paese in cui vivi.</p>"
+    },
+    {
+      "number": "7",
+      "title": "Modifiche ai termini di utilizzo",
+      "body": "<p>Jakob Harteg può aggiornare questi termini, ad esempio quando cambiano l'app o la legge. I termini aggiornati vengono pubblicati su questa pagina prima di entrare in vigore. Se continui a usare CrookCatcher dopo quella data, accetti i termini aggiornati. Se non li accetti, puoi smettere di usare l'app e disinstallarla.</p>"
+    },
+    {
+      "number": "8",
+      "title": "Intero accordo",
+      "body": "<p>Questi termini costituiscono l'intero accordo tra te e Jakob Harteg relativo a CrookCatcher e sostituiscono qualsiasi accordo precedente.</p>"
+    },
+    {
+      "number": "9",
+      "title": "Clausola di salvaguardia",
+      "body": "<p>Se una disposizione di questi termini risulta inapplicabile, le altre disposizioni restano valide.</p>"
+    },
+    {
+      "number": "10",
+      "title": "Piani a pagamento e rimborsi",
+      "body": "<p>Alcune funzioni di CrookCatcher possono essere a pagamento, con un abbonamento o uno sblocco una tantum. A addebitarti il pagamento è l'azienda presso cui hai completato l'acquisto: di solito Google Play per gli acquisti nell'app per Android, oppure Paddle (o un partner simile) se paghi sul web. Al pagamento si applicano anche i loro termini.</p><p>Gli abbonamenti si rinnovano automaticamente finché non li annulli. Se viene offerta una prova gratuita, alla fine diventa un abbonamento a pagamento, a meno che tu non la annulli prima. Puoi annullare in qualsiasi momento in Google Play (Pagamenti e abbonamenti, poi Abbonamenti) o presso l'azienda con cui hai pagato, e mantieni l'accesso fino alla fine del periodo già pagato. Uno sblocco una tantum è un unico pagamento senza ulteriori addebiti.</p><p>Se desideri un rimborso, come funziona e quanto tempo hai a disposizione dipendono dalla stessa azienda. Usa prima il loro centro assistenza o la loro procedura di rimborso: di solito è la strada più rapida. Puoi anche contattare l'assistenza di CrookCatcher con la ricevuta o i dettagli dell'ordine; ti aiuteremo come possiamo, ma solo il fornitore del pagamento può approvare o rifiutare il rimborso.</p><p>Una volta che hai accesso a ciò che hai acquistato, non offriamo rimborsi per conto nostro, salvo quanto previsto da Google Play, da Paddle o dalla legge, compresi i diritti che hai come consumatore.</p>"
+    },
+    {
+      "number": "11",
+      "title": "Fornitore",
+      "body": "<p>CrookCatcher è gestita da Jakob Harteg. I dati di contatto si trovano nelle <a href=\"/it/impressum\">note legali (Impressum)</a>.</p>"
+    }
+  ]
+}

@@ -5,13 +5,15 @@ import uiEs from '$content/ui.es.json';
 import uiDe from '$content/ui.de.json';
 import uiAr from '$content/ui.ar.json';
 import uiId from '$content/ui.id.json';
+import uiIt from '$content/ui.it.json';
+import uiJa from '$content/ui.ja.json';
 
 export const SITE_URL = 'https://www.crookcatcher.app';
 
 export const DEFAULT_LOCALE = 'en';
 
 /** English lives at the root; every other locale gets a URL prefix (/pt/...). */
-export const LOCALES = ['en', 'pt', 'fr', 'es', 'de', 'ar', 'id'] as const;
+export const LOCALES = ['en', 'pt', 'fr', 'es', 'de', 'ar', 'id', 'it', 'ja'] as const;
 export type Locale = (typeof LOCALES)[number];
 
 export const PREFIXED_LOCALES = LOCALES.filter((l) => l !== DEFAULT_LOCALE);
@@ -29,10 +31,12 @@ export const LOCALE_META: Record<
 	de: { htmlLang: 'de', ogLocale: 'de_DE', name: 'Deutsch', dir: 'ltr' },
 	// Modern Standard Arabic, written right to left.
 	ar: { htmlLang: 'ar', ogLocale: 'ar_AR', name: 'العربية', dir: 'rtl' },
-	id: { htmlLang: 'id', ogLocale: 'id_ID', name: 'Bahasa Indonesia', dir: 'ltr' }
+	id: { htmlLang: 'id', ogLocale: 'id_ID', name: 'Bahasa Indonesia', dir: 'ltr' },
+	it: { htmlLang: 'it', ogLocale: 'it_IT', name: 'Italiano', dir: 'ltr' },
+	ja: { htmlLang: 'ja', ogLocale: 'ja_JP', name: '日本語', dir: 'ltr' }
 };
 
-const UI: Record<Locale, typeof uiEn> = { en: uiEn, pt: uiPt, fr: uiFr, es: uiEs, de: uiDe, ar: uiAr, id: uiId };
+const UI: Record<Locale, typeof uiEn> = { en: uiEn, pt: uiPt, fr: uiFr, es: uiEs, de: uiDe, ar: uiAr, id: uiId, it: uiIt, ja: uiJa };
 
 export function isLocale(value: string | undefined): value is Locale {
 	return !!value && (LOCALES as readonly string[]).includes(value);

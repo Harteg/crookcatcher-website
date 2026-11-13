@@ -1,0 +1,237 @@
+{
+  "meta": {
+    "title": "CrookCatcher: app antifurto che fotografa gli intrusi su Android",
+    "description": "CrookCatcher scatta un selfie dell'intruso quando qualcuno inserisce un PIN, una sequenza o una password sbagliati, e ti invia via email la sua foto e la posizione GPS. Gratis per Android.",
+    "canonical": "https://www.crookcatcher.app/it",
+    "ogImage": "https://www.crookcatcher.app/images/og-share.png",
+    "ogImageAlt": "CrookCatcher: scopri chi prova a sbloccare il tuo telefono. Email di avviso con le foto dell'intruso e la posizione sulla mappa."
+  },
+  "hero": {
+    "headline": "Scopri chi ha provato a sbloccare il tuo telefono.",
+    "subline": "CrookCatcher scatta una foto a chiunque inserisca un PIN, una sequenza o una password sbagliati, e te la invia via email con la sua posizione.",
+    "playNote": "Gratis su Android · Nessuna registrazione",
+    "ratingValue": "4,6",
+    "rating": "da oltre 90.000 valutazioni",
+    "downloads": "Oltre 12 milioni di download",
+    "qrLabel": "Sei al computer? Scansiona il codice per installarla sul telefono.",
+    "notification": {
+      "app": "Email",
+      "when": "ora",
+      "title": "Qualcuno ha provato a sbloccare il tuo telefono",
+      "text": "CrookCatcher · 2 foto e posizione allegate"
+    },
+    "imageAlt": "Una mano che sfila di nascosto un telefono dalla tasca posteriore di qualcuno in un bar"
+  },
+  "spotlight": {
+    "title": "Ogni tentativo sbagliato lascia una traccia.",
+    "subtitle": "Una foto, il luogo e l'ora, direttamente nella tua casella di posta.",
+    "log": {
+      "heading": "Tentativo di sblocco",
+      "meta": "Oggi"
+    },
+    "events": [
+      {
+        "time": "10:35:02",
+        "label": "PIN sbagliato",
+        "detail": "Sulla schermata di blocco"
+      },
+      {
+        "time": "10:35:03",
+        "label": "Foto scattata",
+        "detail": "Fotocamera anteriore"
+      },
+      {
+        "time": "10:35:03",
+        "label": "Video con audio",
+        "detail": "Registrazione avviata"
+      },
+      {
+        "time": "10:35:04",
+        "label": "Posizione registrata",
+        "detail": "Posizione GPS e indirizzo stimato"
+      },
+      {
+        "time": "10:35:09",
+        "label": "Email inviata a te",
+        "detail": "Foto e mappa allegate"
+      }
+    ],
+    "pro": "Pro"
+  },
+  "timeline": {
+    "title": "Ogni tentativo, salvato.",
+    "text": "Tutti i tentativi restano in un'unica cronologia sul tuo telefono.",
+    "alt": "Cronologia dell'app CrookCatcher con sblocchi falliti ed effrazioni, ognuno con foto, ora e posizione",
+    "points": [
+      {
+        "title": "Eventi etichettati",
+        "text": "Vedi subito se si tratta di uno sblocco fallito o di un'effrazione."
+      },
+      {
+        "title": "Ora + posizione",
+        "text": "Ogni evento riporta quando e dove è successo."
+      },
+      {
+        "title": "Foto + video",
+        "text": "Un selfie dell'intruso a ogni tentativo, più il video con audio nella versione Pro."
+      },
+      {
+        "title": "Al sicuro fuori dal telefono",
+        "text": "Pro salva le prove su Google Drive, anche se il telefono non c'è più."
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow": "Privacy",
+    "title": "Le tue foto arrivano nella tua casella di posta, non a noi.",
+    "text": "Gli avvisi partono dal tuo account Gmail e arrivano all'indirizzo che scegli tu. Noi non vediamo mai le tue foto.",
+    "points": [
+      {
+        "title": "Nessun nuovo account",
+        "text": "Accedi con Google. Non c'è nessun account CrookCatcher da creare."
+      },
+      {
+        "title": "Accesso email solo per l'invio",
+        "text": "L'autorizzazione Gmail serve solo a inviare avvisi al tuo indirizzo. Non può leggere la tua posta."
+      },
+      {
+        "title": "Solo dopo uno sblocco sbagliato",
+        "text": "La fotocamera si attiva solo quando qualcuno non riesce a sbloccare il telefono, quindi la batteria quasi non ne risente."
+      }
+    ],
+    "link": {
+      "href": "/it/privacy",
+      "label": "Leggi l'informativa sulla privacy"
+    }
+  },
+  "plans": {
+    "eyebrow": "CrookCatcher Pro",
+    "title": "Prove più solide. Più difficile da fermare.",
+    "subtitle": "La versione gratuita scatta la foto e invia l'email. Pro aggiunge:",
+    "items": [
+      {
+        "title": "Video con audio",
+        "text": "Guarda e ascolta cosa è successo."
+      },
+      {
+        "title": "Rilevamento effrazione",
+        "text": "Un avviso anche se indovinano il codice."
+      },
+      {
+        "title": "Fotocamera posteriore",
+        "text": "Scopri dove si trova il telefono, non solo chi ce l'ha."
+      },
+      {
+        "title": "Backup su Google Drive",
+        "text": "Le prove restano al sicuro anche se il telefono non c'è più."
+      },
+      {
+        "title": "Difficile da rimuovere",
+        "text": "Blocco dell'app e icona camuffata."
+      },
+      {
+        "title": "Allarme e messaggio sulla schermata di blocco",
+        "text": "Spaventa il ladro o chiedi indietro il telefono."
+      }
+    ],
+    "trial": "Prova Pro gratis per 7 giorni.",
+    "trialThen": "Gratis per 7 giorni, poi",
+    "perYear": "/ anno",
+    "monthly": "{price} al mese",
+    "lifetime": "{price} una tantum",
+    "or": "oppure",
+    "countryLabel": "Prezzo per il tuo paese",
+    "priceNote": "Google Play mostra il prezzo finale, che può includere le tasse.",
+    "fallback": "Il prezzo dipende dal tuo paese. Lo vedi nell'app prima di pagare.",
+    "upgrade": "Pro non ha pubblicità. Avvia la prova gratuita nell'app quando vuoi."
+  },
+  "testimonials": {
+    "title": "Cosa dicono gli utenti",
+    "subtitle": "Valutata 4,6★ da oltre 90.000 valutazioni su Google Play",
+    "note": "Recensioni da Google Play. Alcune tradotte o accorciate.",
+    "showMore": "Mostra altre recensioni",
+    "showLess": "Mostra meno recensioni",
+    "readMore": "Leggi tutto",
+    "readLess": "Mostra meno",
+    "source": "Google Play"
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "subtitle": "Tutto quello che c'è da sapere su configurazione, privacy e Pro.",
+    "helpLink": {
+      "href": "/it/help",
+      "label": "Vai al centro assistenza"
+    },
+    "showAll": "Mostra tutte le {count} domande",
+    "showLess": "Mostra meno domande",
+    "initialCount": 8,
+    "items": [
+      {
+        "question": "Cosa succede quando qualcuno prova a sbloccare il mio telefono?",
+        "answer": "CrookCatcher scatta un selfie dell'intruso con la fotocamera anteriore, registra la posizione GPS se disponibile e ti invia tutto via email. Con Pro può anche registrare video, usare la fotocamera posteriore, far suonare un allarme e mostrare una falsa schermata Home."
+      },
+      {
+        "question": "Quando entra in azione CrookCatcher?",
+        "answer": "Puoi scegliere quanti tentativi di sblocco falliti (PIN, sequenza o password sbagliati) servono prima che CrookCatcher si attivi. Raggiunto quel numero, scatta foto, registra video (Pro) e invia avvisi in base alle tue impostazioni."
+      },
+      {
+        "question": "Quali funzioni sono incluse nella versione gratuita?",
+        "answer": "La versione gratuita include il selfie dell'intruso con PIN, sequenza o password sbagliati, la posizione GPS e gli avvisi email immediati con la foto e la posizione."
+      },
+      {
+        "question": "Quali funzioni in più offre Pro?",
+        "answer": "Pro include video con audio, backup su Google Drive, foto con la fotocamera posteriore, messaggi di avviso sulla schermata di blocco, allarmi sonori, falsa schermata Home, blocco dell'app, icona camuffata, rilevamento effrazione, oggetto email personalizzato, notifiche nascoste e niente pubblicità."
+      },
+      {
+        "question": "Quanto costa CrookCatcher Pro?",
+        "answer": "Il prezzo di CrookCatcher Pro varia in base al paese in cui vivi. Puoi vedere il prezzo esatto per la tua zona direttamente nell'app. Il piano annuale include 7 giorni di prova gratuita."
+      },
+      {
+        "question": "Come vedo le foto e i video registrati?",
+        "answer": "Foto e video vengono salvati sul dispositivo e puoi vederli nell'app. Ti vengono anche inviati automaticamente via email. Gli utenti Pro possono anche caricarli su Google Drive per aprirli da qualsiasi dispositivo."
+      },
+      {
+        "question": "Funziona senza internet?",
+        "answer": "Sì. CrookCatcher scatta i selfie dell'intruso e li salva sul telefono, poi invia gli avvisi quando torna la connessione a internet."
+      },
+      {
+        "question": "Come fa CrookCatcher a restare nascosta?",
+        "answer": "Le funzioni Pro aiutano a nascondere l'app: camuffano l'icona, nascondono le notifiche fino allo sblocco, personalizzano l'oggetto delle email e bloccano l'app stessa con una sequenza."
+      },
+      {
+        "question": "Come funziona il rilevamento effrazione? (Pro)",
+        "answer": "Se qualcuno sbaglia PIN, sequenza o password ma alla fine indovina, il rilevamento effrazione scatta comunque le foto e invia gli avvisi, così scopri anche i ladri che riescono a sbloccare il telefono."
+      },
+      {
+        "question": "Posso personalizzare le notifiche di avviso?",
+        "answer": "Gli utenti Pro possono personalizzare l'oggetto delle email, nascondere le notifiche finché il telefono non viene sbloccato e mostrare un messaggio personalizzato sulla schermata di blocco quando scatta un avviso."
+      },
+      {
+        "question": "CrookCatcher scarica la batteria?",
+        "answer": "No. CrookCatcher si attiva solo quando rileva un PIN, una sequenza o una password sbagliati, e in standby consuma pochissima batteria."
+      },
+      {
+        "question": "La mia privacy è protetta?",
+        "answer": "CrookCatcher registra foto e video solo durante i tentativi di sblocco falliti. Gli avvisi partono dal tuo account Gmail: noi non vediamo mai le tue foto. I dati di analisi ci aiutano a migliorare l'app; i dettagli sono nell'informativa sulla privacy."
+      },
+      {
+        "question": "Cosa succede se ripristino il telefono ai dati di fabbrica?",
+        "answer": "Con il ripristino dei dati di fabbrica CrookCatcher viene disinstallata. Ti consigliamo di passare a Pro e attivare il backup su Google Drive, così le prove restano al sicuro nel cloud."
+      },
+      {
+        "question": "Come gestisce CrookCatcher le autorizzazioni per l'email?",
+        "answer": "CrookCatcher chiede di accedere con Gmail per inviare email a tuo nome, senza passare da server di terzi. L'autorizzazione serve solo a inviare email all'indirizzo che hai indicato e non permette di leggere la posta né di gestire i contatti. Puoi revocarla in qualsiasi momento dalle impostazioni del tuo Account Google."
+      },
+      {
+        "question": "Esiste una versione per iPhone?",
+        "answer": "No, CrookCatcher è disponibile solo per Android."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "12 milioni di download, più il tuo.",
+    "subtitle": "Gratis su Google Play. Si configura in pochi minuti.",
+    "note": "Solo Android",
+    "qrLabel": "Scansiona per installarla sul telefono"
+  }
+}

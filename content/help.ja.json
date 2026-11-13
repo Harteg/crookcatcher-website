@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "CrookCatcher ヘルプとよくある質問 • Android 盗難防止アプリ",
+    "description": "間違ったパスワードが入力されると写真を撮影する Android アプリ、CrookCatcher のヘルプ。よくある質問とサポート。",
+    "canonical": "https://www.crookcatcher.app/ja/help",
+    "ogImage": "https://www.crookcatcher.app/images/og-share.png"
+  },
+  "hero": {
+    "eyebrow": "サポート",
+    "title": "ヘルプとよくある質問",
+    "lead": "CrookCatcher の設定と使い方について、よくある質問への回答です。"
+  },
+  "items": [
+    {
+      "id": "help-pictures",
+      "question": "CrookCatcher が写真を撮影しない",
+      "answer": "<ul><li>CrookCatcher を試している場合、Android がパスワードやパターンを「間違い」と判定するのは、4桁（4文字）以上、またはパターンの点が4つ以上の場合だけです。</li><li>スマホのメーカーが独自の電池最適化で CrookCatcher のバックグラウンド動作を制限している可能性があります。解決するには、<a href=\"https://dontkillmyapp.com\">www.dontkillmyapp.com</a> にあるお使いの端末向けの手順に従ってください（英語）。</li></ul>"
+    },
+    {
+      "id": "help-erase",
+      "question": "間違ったパスワードを何度も入力されると、CrookCatcher はスマホやタブレットのデータを消去しますか？",
+      "answer": "<p>いいえ。CrookCatcher が端末のデータを消去することはありません。</p>"
+    },
+    {
+      "id": "help-gmail",
+      "question": "CrookCatcher が Gmail アカウントへのアクセスを必要とするのはなぜですか？",
+      "answer": "<p>ほかのセキュリティアプリと違い、CrookCatcher はメールの送信に第三者のサーバーを使いません。プライバシーを守るため、Google の認可の仕組み OAuth 2.0 を使って、端末から直接安全にメールを送ります。これによって CrookCatcher があなたのメールアドレスや連絡先にアクセスできるようになることはありません。この権限は、あなたの Gmail アカウントから、アプリで指定したアドレスにセキュリティ通知メールを送るためだけに使います。</p>"
+    },
+    {
+      "id": "help-forgot",
+      "question": "パスワード、PIN、パターンを忘れてしまいました。",
+      "answer": "<p>ロック画面とそのパスワードは CrookCatcher の一部ではありません。パスワード、PIN、パターンを忘れた場合は、お使いの端末の取扱説明書をご覧ください。</p>"
+    },
+    {
+      "id": "help-pro",
+      "question": "Pro を購入済みですか？",
+      "answer": "<p>Pro を購入したのにアプリに反映されない場合は、購入時と同じ Google アカウントで端末にログインしていることを確認し、CrookCatcher の設定ページで復元ボタンをタップしてください。</p>"
+    },
+    {
+      "id": "help-revoke",
+      "question": "CrookCatcher の Gmail やドライブへのアクセスを取り消すには？",
+      "answer": "<p><a href=\"https://myaccount.google.com/permissions\">Google アカウントの設定</a>を開き、一覧から CrookCatcher を選びます。いちばん下までスクロールして、接続を削除してください。</p>"
+    },
+    {
+      "id": "help-reboot",
+      "question": "再起動後に動かない？",
+      "answer": "<p>Android のセキュリティ上の制限により、再起動したあとは一度スマホのロックを解除しないと、CrookCatcher がカメラを使えません。直せればよいのですが、残念ながらこちらではどうにもできません。</p>"
+    },
+    {
+      "id": "help-payment",
+      "question": "支払いの問題",
+      "answer": "<p>支払いでお困りですか？多くの問題は <a href=\"https://support.google.com/googleplay/answer/1267137?hl=ja\">Google Play のお支払いに関するヘルプセンター</a>で解説されています。</p>"
+    },
+    {
+      "id": "help-internet",
+      "question": "CrookCatcher にインターネットは必要ですか？",
+      "answer": "<p>不正なロック解除の検出とデータの記録は、オフラインでも動作します。ただし、通知メールの送信にはインターネット接続が必要です。Android の制限により、CrookCatcher が必要なときにモバイルデータや Wi-Fi を自動でオン・オフすることはできません。</p>"
+    }
+  ],
+  "contact": {
+    "title": "まだ解決しませんか？",
+    "text": "メールでご連絡ください。できるだけ早くお返事します。",
+    "showEmail": "メールアドレスを表示"
+  }
+}

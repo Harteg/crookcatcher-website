@@ -1,12 +1,12 @@
 ---
 title: So siehst du, wer dein Pixel entsperren wollte (2026)
 subtitle: Was ein Google Pixel nach einer falschen PIN aufzeichnet und wie du ein Foto der Person bekommst
-dateUpdated: '2026-10-21'
-datePublished: '2026-10-21'
+dateUpdated: '2026-11-13'
+datePublished: '2026-11-13'
 description: "Google-Pixel-Handys zeigen nicht, wer sie entsperren wollte, und führen kein Protokoll falscher PIN-Eingaben. Hier steht, was dein Pixel nach Fehlversuchen tut, welche Einstellungen des Diebstahlschutzes du aktivieren solltest und wie du per E-Mail ein Foto der Person bekommst."
 image: '/images/blog/pixel-who-tried-to-unlock-header-de.png'
 imageAlt: 'So siehst du, wer dein Pixel entsperren wollte: Pixel-Handys zählen falsche Eingaben, zeigen aber nie, wer sie gemacht hat. CrookCatcher macht ein Foto der Person.'
-published: false
+published: true
 ---
 
 <script>

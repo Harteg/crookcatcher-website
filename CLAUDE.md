@@ -1,10 +1,10 @@
 # CrookCatcher website (crookcatcher.app)
 
-This repo is the marketing site for CrookCatcher, an Android anti-theft app (since 2014, 12M+ downloads, 4.6★ from 90K+ ratings, ~1.2M intruder photos captured per day). The app takes an intruder selfie when someone enters a wrong PIN, pattern or password, records GPS location, and emails both to the owner. Pro adds video with sound, break-in detection, back camera, Google Drive backup, alarm, fake home screen, lock screen message, app lock, disguised icon, hidden notifications and custom email subject.
+This repo is the marketing site for CrookCatcher. What the app is, the growth plan and how to read the data (Analytics, Search Console, RevenueCat) are shared with the app repo and imported here. Only its "Shared" section applies to this repo:
 
-Power-menu and notification shade / quick-settings blocking were removed from the app. Never present them as features; recommend Android's and Samsung's built-in settings instead (see the `block-power-menu` guide).
+@../crookcatcher-android/CLAUDE.md
 
-Play Store: https://play.google.com/store/apps/details?id=com.harteg.crookcatcher
+For removed features like power-menu blocking, point readers to the `block-power-menu` guide.
 
 ## Current goal
 
@@ -48,14 +48,15 @@ The homepage shows Pro prices for the visitor's country: `/api/price` reads Clou
 
 ## Languages
 
-The site is in English (root URLs), Brazilian Portuguese (`/pt`), French (`/fr`), Spanish (`/es`), German (`/de`), Arabic (`/ar`, right to left) and Indonesian (`/id`). Settings live in `src/lib/i18n.ts`. A language's blog index (`/<lang>/blog`) is `noindex` and left out of the sitemap until it has a published guide.
+The site is in English (root URLs), Brazilian Portuguese (`/pt`), French (`/fr`), Spanish (`/es`), German (`/de`), Arabic (`/ar`, right to left), Indonesian (`/id`), Italian (`/it`) and Japanese (`/ja`). Settings live in `src/lib/i18n.ts`. A language's blog index (`/<lang>/blog`) is `noindex` and left out of the sitemap until it has a published guide.
 
 - Page text lives in `content/*.{en,pt,fr}.json`; interface text in `content/ui.*.json`. Keep the JSON structure identical across languages.
-- Guides: English in `src/blog/posts/<slug>.svx`; translations in `src/blog/posts/pt/<slug>.svx`, `src/blog/posts/fr/<slug>.svx`, `src/blog/posts/es/<slug>.svx`, `src/blog/posts/de/<slug>.svx`, `src/blog/posts/ar/<slug>.svx` and `src/blog/posts/id/<slug>.svx` with the **same filename**. That shared slug is what links the versions (hreflang, sitemap, language picker).
+- Guides: English in `src/blog/posts/<slug>.svx`; translations in `src/blog/posts/pt/<slug>.svx`, `src/blog/posts/fr/<slug>.svx`, `src/blog/posts/es/<slug>.svx`, `src/blog/posts/de/<slug>.svx`, `src/blog/posts/ar/<slug>.svx`, `src/blog/posts/id/<slug>.svx`, `src/blog/posts/it/<slug>.svx` and `src/blog/posts/ja/<slug>.svx` with the **same filename**. That shared slug is what links the versions (hreflang, sitemap, language picker).
 - A guide without a translation simply exists in English only. Never show English text under a `/pt`, `/fr` or `/es` URL.
 - Write new guides in English first. Translate only when asked. Inside translations, link to the translated versions of other pages (`/pt/help`, `/fr/blog/...`) when they exist.
 - Arabic is right to left: `LOCALE_META` has a `dir` per language, set on `<html>` by `hooks.server.ts` and `+layout.svelte`. Write new CSS with logical properties (`margin-inline-start`, `text-align: start`, `inset-inline-end`), never `left`/`right`.
 - French uses non-breaking spaces before `? ! : ;` and inside « ».
+- Japanese uses polite です・ます style and system Japanese fonts (`html:lang(ja)` in `app.css`); Google keeps "Find Hub" in Latin script in Japanese.
 - Spanish is neutral (Latin America and Spain alike), with *tú*. Android menu names follow Google's Latin American Spanish (`Configuración`); add Spain's name in parentheses where it differs (`Ajustes`, `Protección antirrobo`). Samsung calls its settings app `Ajustes` everywhere.
 
 ## Images

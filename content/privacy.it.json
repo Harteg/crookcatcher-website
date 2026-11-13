@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Informativa sulla privacy • CrookCatcher, app per Android",
+    "description": "Informativa sulla privacy di CrookCatcher, l'app per Android che scatta foto quando viene inserita una password sbagliata.",
+    "canonical": "https://www.crookcatcher.app/it/privacy"
+  },
+  "hero": {
+    "eyebrow": "Informazioni legali",
+    "title": "Informativa sulla privacy",
+    "lead": "CrookCatcher è pensata per rispettare la tua privacy. Ecco come manteniamo i tuoi dati al sicuro e riservati."
+  },
+  "sections": [
+    {
+      "icon": "photo_camera",
+      "title": "Fotocamera",
+      "body": "<ul><li>CrookCatcher usa l'autorizzazione per la fotocamera per scattare foto e registrare video quando viene inserita una password, un PIN o una sequenza di sblocco sbagliati, in base al numero di tentativi che imposti nelle impostazioni dell'app alla voce 'Sblocco fallito'.</li><li>CrookCatcher non scatta foto e non registra video in nessun altro momento, a meno che tu non abbia attivato altre funzioni specifiche nell'app.</li><li>Foto e video ti vengono inviati via email se la funzione email è attiva nelle impostazioni di CrookCatcher. Vedi la sezione Email più sotto per i dettagli. Se lo attivi, foto e video possono anche essere caricati su Google Drive.</li><li>Altrimenti, foto e video restano solo sul tuo dispositivo e non vengono condivisi con lo sviluppatore né con terzi.</li></ul>"
+    },
+    {
+      "icon": "location_on",
+      "title": "Posizione",
+      "body": "<ul><li>Se lo attivi nelle impostazioni, CrookCatcher rileva in background la posizione del dispositivo quando scatta una foto.</li><li>CrookCatcher non accede alla tua posizione in nessun altro momento.</li><li>La posizione viene salvata insieme alla foto e ti viene inviata via email se la funzione email è attiva.</li><li>I dati sulla tua posizione non vengono condivisi con lo sviluppatore né con terzi.</li></ul>"
+    },
+    {
+      "icon": "mic",
+      "title": "Microfono",
+      "body": "<ul><li>Quando la registrazione video è attiva, CrookCatcher usa il microfono per registrare i video.</li><li>L'accesso al microfono viene concesso solo quando attivi questa funzione e viene usato solo per registrare video.</li></ul>"
+    },
+    {
+      "icon": "mail",
+      "title": "Email",
+      "body": "<ul><li>CrookCatcher ti chiede di accedere con il tuo account Gmail e di concedere l'autorizzazione a 'inviare email per tuo conto'. In questo modo i dati sensibili non passano da server di terzi. Per revocare questa autorizzazione, visita <a href=\"https://myaccount.google.com/permissions\">https://myaccount.google.com/permissions</a>.</li><li>Questo non dà a CrookCatcher l'accesso per leggere le tue email, gestire i contatti o fare altre operazioni.</li><li>Le email vengono inviate solo all'indirizzo indicato nell'impostazione 'Invia email a' e solo quando si verificano le condizioni che imposti nell'app.</li><li>Puoi sempre vedere nel tuo account Gmail quali email ha inviato CrookCatcher.</li><li>Il tuo indirizzo email non viene condiviso con lo sviluppatore né con terzi.</li></ul>"
+    },
+    {
+      "icon": "insights",
+      "title": "Statistiche di utilizzo e segnalazioni di arresti anomali",
+      "body": "<p>Se non lo disattivi, CrookCatcher invia statistiche di utilizzo e segnalazioni di arresti anomali a Google (Firebase Analytics e Crashlytics) per migliorare le prestazioni e correggere i bug. Questo include eventi come l'invio di un'email o la schermata che apri, il modello del dispositivo, la versione di Android, la versione dell'app, la regione approssimativa e un ID di installazione casuale. Non include le tue foto, i tuoi video, la tua posizione né il tuo indirizzo email. Puoi disattivarlo togliendo la spunta a un'opzione in fondo al menu delle impostazioni di CrookCatcher.</p>"
+    },
+    {
+      "icon": "ads_click",
+      "title": "Pubblicità",
+      "body": "<p>La versione gratuita di CrookCatcher mostra annunci di Google AdMob. Per mostrare gli annunci, Google riceve l'ID pubblicità e l'indirizzo IP del tuo dispositivo, oltre a informazioni sul dispositivo e su come interagisci con gli annunci. Dove richiesto, come nello Spazio economico europeo e nel Regno Unito, CrookCatcher ti chiede prima il consenso tramite il modulo di consenso di Google. CrookCatcher non fornisce ad AdMob le tue foto, i tuoi video, la tua posizione né il tuo indirizzo email. Gli utenti Pro non vedono pubblicità. Leggi <a href=\"https://policies.google.com/technologies/ads?hl=it\">come Google utilizza i dati nella pubblicità</a>.</p>"
+    },
+    {
+      "icon": "payments",
+      "title": "Acquisti",
+      "body": "<p>Acquisti e abbonamenti sono gestiti da Google Play. CrookCatcher usa RevenueCat per gestire gli abbonamenti e sbloccare Pro. RevenueCat riceve un ID utente anonimo casuale, lo stato dei tuoi acquisti e abbonamenti, il tuo paese e informazioni di base sul dispositivo. Non riceve il tuo nome, il tuo indirizzo email, le foto, i video né la posizione. Vedi l'<a href=\"https://www.revenuecat.com/privacy\">informativa sulla privacy di RevenueCat</a> (in inglese).</p>"
+    },
+    {
+      "icon": "lock",
+      "title": "Sicurezza dei dati",
+      "body": "<p>Teniamo alla tua fiducia e ci impegniamo a proteggere i tuoi dati. Foto, video e posizione restano sul tuo dispositivo, oppure ti vengono inviati direttamente via email se la funzione è attiva. Non vengono condivisi con lo sviluppatore. Gli unici dati che arrivano a servizi di terzi sono i dati di utilizzo, sugli arresti anomali, sulla pubblicità e sugli acquisti descritti sopra.</p>"
+    },
+    {
+      "icon": "verified_user",
+      "title": "Titolare del trattamento e tuoi diritti",
+      "body": "<p>Il titolare del trattamento per questa app è Jakob Harteg (vedi le <a href=\"/it/impressum\">note legali</a>), contattabile all'indirizzo <a href=\"mailto:contact@crookcatcher.app\">contact@crookcatcher.app</a>. In base alle leggi sulla protezione dei dati come il GDPR, puoi chiedere l'accesso ai dati che ti riguardano, la loro rettifica o cancellazione, opporti al trattamento e revocare il consenso in qualsiasi momento. Puoi anche presentare reclamo all'autorità per la protezione dei dati del tuo paese (in Italia, il Garante per la protezione dei dati personali).</p>"
+    },
+    {
+      "icon": "update",
+      "title": "Modifiche a questa informativa",
+      "body": "<p>Questa informativa sulla privacy si applica alla versione più recente di CrookCatcher. Potremmo aggiornarla di tanto in tanto. Ti consigliamo di controllare periodicamente questa pagina. Le modifiche sono valide da quando vengono pubblicate su questa pagina.</p>"
+    }
+  ],
+  "note": "<p>I dati vengono usati solo per far funzionare e migliorare CrookCatcher, per mostrare la pubblicità nella versione gratuita e per gestire gli acquisti. Non vendiamo i tuoi dati.</p><p>CrookCatcher rispetta le <a href=\"https://developers.google.com/terms/api-services-user-data-policy\" target=\"_blank\" rel=\"noopener noreferrer\">norme ufficiali sui dati utente dei servizi API di Google</a> (in inglese).</p>"
+}
