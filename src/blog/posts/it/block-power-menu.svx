@@ -6,7 +6,7 @@ datePublished: '2025-01-19'
 description: "I ladri spengono i telefoni rubati perché non possano essere rintracciati. Ecco come renderlo più difficile su Samsung e sugli altri telefoni Android, e come ottenere la foto del ladro prima che ci riesca."
 image: /images/blog/Digital_Solitude_Urban_Shadows.jpeg
 imageAlt: Uomo nell'ombra con un telefono
-published: false
+published: true
 ---
 
 <script>

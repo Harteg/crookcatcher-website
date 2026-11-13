@@ -6,7 +6,7 @@ datePublished: '2025-08-24'
 description: "Le cinque impostazioni Android che ti proteggono di più se ti rubano il telefono: un blocco schermo sicuro, la Protezione dai furti, il Blocco remoto, Find Hub e la Verifica dell'identità. Ecco dove trovarle, e cosa non possono ancora dirti."
 image: '/images/blog/theft_settings_header.jpeg'
 imageAlt: 'Impostazioni di protezione dai furti di Android e consigli di CrookCatcher'
-published: false
+published: true
 ---
 
 <script>

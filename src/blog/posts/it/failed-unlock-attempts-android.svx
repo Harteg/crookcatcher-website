@@ -6,7 +6,7 @@ datePublished: '2026-10-23'
 description: "Android non tiene un elenco dei tentativi di sblocco falliti e non mostra chi li ha fatti. Conta i tentativi sbagliati solo per bloccare il telefono sempre più a lungo. Ecco cosa fa esattamente Android, e come ottenere invece una foto della persona."
 image: '/images/blog/failed-unlock-attempts-android-header-it.png'
 imageAlt: "Si possono vedere i tentativi falliti su Android? Android conta solo i tentativi sbagliati. Ecco come scoprire chi è stato."
-published: false
+published: true
 ---
 
 <script>

@@ -6,7 +6,7 @@ datePublished: '2026-10-23'
 description: "Android はロック解除の失敗を一覧で残さず、誰が試したかも表示しません。間違えた回数を数えるのは、ロックの時間を延ばすためだけです。Android が実際にしていることと、代わりに相手の写真を手に入れる方法を説明します。"
 image: '/images/blog/failed-unlock-attempts-android-header-ja.png'
 imageAlt: "Android でロック解除の失敗は見られる？Android は間違えた回数を数えるだけ。誰だったかを知る方法を紹介します。"
-published: false
+published: true
 ---
 
 <script>

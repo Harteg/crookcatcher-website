@@ -39,7 +39,7 @@ Samsung (samsung.com/de, One UI 7 page): Einstellungen > Sicherheit und Datensch
 
 ## Italian (`it`) and Japanese (`ja`), added 2026-11-13
 
-Site pages, interface text, reviews and six guides (the same set as German) were translated into Italian and Japanese. **All 12 guides are drafts (`published: false`)**, so `/it/blog` and `/ja/blog` stay `noindex` and out of the sitemap until they're published. Have a native speaker read them, then set `published: true` (keep the Pixel guide a draft like its English original) and run `npm run optimize-images`.
+Site pages, interface text, reviews and six guides (the same set as German) were translated into Italian and Japanese. Five guides per language were published on 2026-11-13 at the owner's request, before a native-speaker review (the Pixel guide stays a draft, like its English original). Have a native speaker read them and check the menu names below on a phone set to that language.
 
 ### Italian
 

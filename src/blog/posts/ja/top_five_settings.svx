@@ -6,7 +6,7 @@ datePublished: '2025-08-24'
 description: "スマホを盗まれたときにいちばん役立つ Android の設定 5 つ: 強力な画面ロック、盗難保護、リモートロック、Find Hub、ID チェック。それぞれの場所と、それでもわからないことを説明します。"
 image: '/images/blog/theft_settings_header.jpeg'
 imageAlt: 'Android の盗難保護の設定と CrookCatcher のヒント'
-published: false
+published: true
 ---
 
 <script>

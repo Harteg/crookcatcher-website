@@ -6,7 +6,7 @@ datePublished: '2026-10-22'
 description: "I Samsung Galaxy non mostrano chi ha provato a sbloccarli e non tengono un elenco dei PIN sbagliati. Ecco cosa fa One UI con i tentativi falliti, le impostazioni Samsung da attivare e come ricevere via email una foto della persona."
 image: '/images/blog/samsung-who-tried-to-unlock-header-it.png'
 imageAlt: "Scopri chi ha provato a sbloccare il tuo Samsung: i Galaxy contano i tentativi sbagliati, ma non mostrano mai chi li ha fatti. Accanto, un'email di avviso di CrookCatcher con le foto dell'intruso."
-published: false
+published: true
 ---
 
 <script>

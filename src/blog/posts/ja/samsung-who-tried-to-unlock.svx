@@ -6,7 +6,7 @@ datePublished: '2026-10-22'
 description: "Samsung Galaxy では、誰がロックを解除しようとしたかはわからず、間違った PIN の一覧も残りません。One UI がロック解除の失敗をどう扱うか、オンにしたい Samsung の設定、相手の写真をメールで受け取る方法を説明します。"
 image: '/images/blog/samsung-who-tried-to-unlock-header-ja.png'
 imageAlt: "Samsung のロック解除を試みた人がわかる: Galaxy は間違えた回数を数えるだけで、誰が試したかは表示しません。横に侵入者の写真付きの CrookCatcher の通知メール。"
-published: false
+published: true
 ---
 
 <script>

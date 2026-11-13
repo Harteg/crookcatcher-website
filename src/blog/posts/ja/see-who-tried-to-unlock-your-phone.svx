@@ -6,7 +6,7 @@ datePublished: '2026-09-28'
 description: "Android では、誰がスマホのロックを解除しようとしたかはわかりません。間違った PIN、パターン、パスワードを入力した人の写真を自動で撮影し、位置情報と一緒にメールで受け取る方法を紹介します。"
 image: '/images/blog/who-tried-to-unlock-header.png'
 imageAlt: '間違ったパターンでロック解除を試みたスマホと、侵入者の写真と位置情報が届いた CrookCatcher の通知メール'
-published: false
+published: true
 ---
 
 <script>
