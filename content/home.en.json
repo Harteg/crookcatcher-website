@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "CrookCatcher: Takes a Picture of Whoever Tries to Unlock Your Phone",
-    "description": "Free Android app that takes a picture when someone enters a wrong password, PIN or pattern, then emails you the photo and location. 12M+ downloads.",
+    "title": "CrookCatcher: Android App That Takes a Picture on a Wrong Password",
+    "description": "Free Android app that takes a picture when someone tries to unlock your phone with a wrong password, PIN or pattern, and emails you the photo and location.",
     "canonical": "https://www.crookcatcher.app/",
     "ogImage": "https://www.crookcatcher.app/images/og-share.png",
     "ogImageAlt": "CrookCatcher: catch anyone who tries to unlock your phone. Email alert with intruder photos and map location."
@@ -167,8 +167,8 @@
     "initialCount": 8,
     "items": [
       {
-        "question": "Is there an app that takes a picture when someone tries to unlock your phone?",
-        "answer": "Yes. CrookCatcher is a free Android app that takes a picture with the front camera when someone enters a wrong password, PIN or pattern, and emails it to you with the phone's location. Android has no built-in setting that does this."
+        "question": "Is there an app that takes a picture when someone enters the wrong password?",
+        "answer": "Yes. CrookCatcher is a free Android app that takes a picture with the front camera when someone tries to unlock your phone with a wrong password, PIN or pattern, and emails it to you with the phone's location. Android has no built-in setting that does this."
       },
       {
         "question": "What happens when someone tries to unlock my phone?",
