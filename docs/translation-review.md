@@ -82,7 +82,7 @@ Titles, descriptions, some H2s and FAQ questions were retuned to real search phr
 
 `samsung-find-stolen-phone`, `find-stolen-android-phone`, `who-touched-my-phone` and `lock-apps-android` were translated into pt, fr, es, de, ar, id, it and ja on the same day the English drafts were written, before Jakob had reviewed the English. All 32 files are `published: false`. If the English text changes in review, the translations need the same change.
 
-Translations link only to guides that already exist in that language, so they don't link to `theft-detection-lock`, `signs-someone-went-through-your-phone`, `best-intruder-selfie-apps-android` or `fake-home-screen-android`. The publishing task only publishes English guides; publish each translation by hand after its English guide is live, and `find-stolen-android-phone` before `samsung-find-stolen-phone` in every language.
+Translations link only to guides that already exist in that language, so they don't link to `theft-detection-lock`, `signs-someone-went-through-your-phone`, `best-intruder-selfie-apps-android` or `fake-home-screen-android`. The publishing task publishes a guide's translations on the same day as its English version, so approving a row in `docs/publish-queue.md` approves all nine languages. Review the translation notes below before approving.
 
 ### Local search phrasing (DataForSEO, Google Ads data, monthly searches per country)
 

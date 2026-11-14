@@ -1,6 +1,6 @@
 # Publish queue
 
-A scheduled task ("Publish next approved guide") runs every day at 9:00 and publishes **one** guide from this table: the first row, top to bottom, where **Approved** is `yes`, **Status** is `Draft`, and every guide under **Needs first** is already published. If no row qualifies, it publishes nothing and says so.
+A scheduled task ("Publish next approved guide") runs every day at 9:00 and publishes **one** guide from this table, in English and in every language it has a draft translation for: the first row, top to bottom, where **Approved** is `yes`, **Status** is `Draft`, and every guide under **Needs first** is already published. If no row qualifies, it publishes nothing and says so.
 
 How to use it:
 
@@ -31,7 +31,10 @@ A published guide can't link to a draft, so these links are added on the day the
 - `who-touched-my-phone`: link to it from `best-intruder-selfie-apps-android` (the WTMP section) and from `see-who-tried-to-unlock-your-phone`.
 - `lock-apps-android`: link to it from `fake-home-screen-android` (Private space and Secure Folder) and from `signs-someone-went-through-your-phone`.
 
-## Translations of the four newest guides
+## Translations
 
-`find-stolen-android-phone`, `samsung-find-stolen-phone`, `who-touched-my-phone` and `lock-apps-android` each have draft translations in pt, fr, es, de, ar, id, it and ja (`src/blog/posts/<lang>/<slug>.svx`, all `published: false`). The daily task publishes English guides only and never touches translations. Publish a translation by hand once its English guide is live: set `published: true` and today's dates, then run `npm run optimize-images`. In each language, publish `find-stolen-android-phone` before `samsung-find-stolen-phone`, because the Samsung guide links to it. What to check in each language is in `docs/translation-review.md`.
+A row covers the English guide and every draft translation of it (`src/blog/posts/<lang>/<slug>.svx`). When the task publishes a row, it publishes all of those languages on the same day, so setting Approved to `yes` approves every language. To keep a language back, delete its file or leave a note in the row and set Approved to `no` until it is sorted out.
 
+The task holds back a single translation (and says so in its report) if its header image is missing or it links to a guide that isn't published in that language. It never translates or rewrites; it only flips `published`, sets the dates, and adds a related-guides entry in the same language.
+
+`find-stolen-android-phone`, `samsung-find-stolen-phone`, `who-touched-my-phone` and `lock-apps-android` have draft translations in pt, fr, es, de, ar, id, it and ja. What to check in each language is in `docs/translation-review.md`. The earlier rows in the table have no translations and go out in English only.
