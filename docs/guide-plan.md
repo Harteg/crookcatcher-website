@@ -42,6 +42,21 @@ Every guide follows the same structure, adapted from Vaultaire's guides.
 
 Where possible, add something only CrookCatcher has: real numbers (12M downloads, 1.2M intruder photos a day) or a real user story (with permission).
 
+## What the data shows (Nov 14, 2026)
+
+From Search Console and Analytics, Oct 14 – Nov 10, 2026. Use this when choosing the next topics.
+
+- **What works:** the "who tried to unlock" cluster and the settings guides. `see-who-tried-to-unlock-your-phone` got 311 search clicks and `block-power-menu` 10,750 impressions. Guide clicks grew from about 20 a week in mid-September to 160–210 a week.
+- **What doesn't:** country stolen-phone guides. `phone-stolen-uk` got 3 clicks and `phone-stolen-australia` 7. Don't write more of these (#13, #17 and the "more countries" idea) without search-volume evidence.
+- **Low click rate:** guides sit around position 5 but only 1–2% of searchers click. Titles that match the search wording matter; `block-power-menu` and `see-who-tried-to-unlock-your-phone` were retitled on Nov 13 and should be re-checked after two weeks.
+- **Spanish does well:** about 117 clicks against roughly 460 for English from far fewer pages; German got 3. Spanish is the language worth translating into early.
+- **AI assistants:** 803 website sessions came from AI assistants, against 2,953 from search. Not yet known which pages they cite.
+- **Most visits aren't prospects:** about 15,500 of 25,500 sessions land on `/privacy` and `/terms`, opened from inside the app.
+- **Play Store clicks** were not recorded before Nov 14, 2026 (tracking bug, now fixed), so there is no click-through data per guide before that date.
+- **Scale:** the app had about 131,600 installs in October 2026, so the website is a small share of installs.
+
+**Candidates for the next batch** (not yet sized by search volume; size them with DataForSEO first and replace any with low volume): #18 Someone keeps trying to unlock my phone, #19 Someone used my phone while I was asleep, #11 Find Hub, #27 CrookCatcher vs Find Hub. Also translate the new English guides into Spanish.
+
 ## Priority 1: Who tried to unlock my phone
 
 This is the cluster where CrookCatcher is the direct answer, because Android shows no record of failed unlock attempts. Write these first.
