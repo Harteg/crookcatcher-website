@@ -1,0 +1,146 @@
+---
+title: "Como colocar senha nos aplicativos no Android e no Samsung (2026)"
+subtitle: "Pasta Segura, Espaço privado, bloqueio de apps e fixação de app, e o que nenhum deles avisa"
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
+description: "Como colocar senha nos aplicativos no Android: Pasta Segura no Samsung Galaxy, Espaço privado no Android 15 ou mais recente, bloqueio de apps na Xiaomi, fixação de app em qualquer celular e o bloqueio que já vem em apps como o WhatsApp. E o que um bloqueio de apps não faz: mostrar quem tentou entrar."
+image: '/images/blog/lock-apps-android-header-pt.png'
+imageAlt: 'Como colocar senha nos aplicativos no Android. Samsung: Pasta Segura. Android 15+: Espaço privado. Xiaomi: bloqueio de apps. Qualquer celular: fixação de app. Nenhum mostra quem tentou entrar.'
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**O jeito de colocar senha em um aplicativo no Android depende do celular.** Em um Samsung Galaxy, coloque o aplicativo na **Pasta Segura**. Em um Pixel ou outro celular com Android 15 ou mais recente, use o **Espaço privado**. Celulares Xiaomi, Redmi e POCO têm uma opção de **bloqueio de apps**. Em qualquer Android, você pode fixar um aplicativo na tela antes de emprestar o celular, e apps como o WhatsApp têm bloqueio próprio. Todos mantêm as pessoas fora de um aplicativo. Nenhum avisa quem tentou.
+
+## Samsung Galaxy: Pasta Segura
+
+Os celulares Samsung não têm um botão que bloqueia o aplicativo onde ele está. Em vez disso, você coloca uma cópia do aplicativo na Pasta Segura, uma área separada com PIN, senha ou padrão próprios.
+
+**Acesse:**
+`Configurações > Segurança e privacidade > Mais configurações de segurança > Pasta Segura`
+
+Os nomes dos menus podem variar um pouco; se não achar, pesquise "Pasta Segura" nas Configurações.
+
+1. Toque em **Continuar**, permita o que for pedido e entre na sua conta Samsung, se necessário.
+2. Escolha um PIN, senha ou padrão para a pasta. Use um diferente do da tela de bloqueio.
+3. Ative a opção de redefinir com a conta Samsung. Sem ela, a Samsung avisa que você não consegue voltar a entrar se esquecer o código.
+4. Na Pasta Segura, toque em **Adicionar aplicativos** (o sinal de mais), escolha o aplicativo e confirme.
+
+O aplicativo na Pasta Segura é uma segunda cópia, então você entra na sua conta de novo ali. Para deixar o original fora de alcance também, saia da conta nele ou desinstale-o fora da pasta.
+
+Para esconder a própria pasta, desative a opção que mostra a Pasta Segura na tela de aplicativos, no mesmo menu. Se a Pasta Segura não aparece no menu, o seu modelo de Galaxy não tem a função.
+
+## Pixel e outros celulares com Android 15 ou mais recente: Espaço privado
+
+O Espaço privado é a área trancada do próprio Android para aplicativos. Quando está bloqueado, os aplicativos dele somem da lista de apps, dos recentes e da busca, e ficam totalmente parados, sem mostrar notificações.
+
+**Acesse:**
+`Configurações > Segurança e privacidade > Espaço privado`
+
+1. Confirme o bloqueio de tela e siga a configuração.
+2. Entre com uma conta do Google no espaço, se quiser. O Google recomenda uma conta separada.
+3. Escolha usar o bloqueio de tela do dispositivo ou um bloqueio novo só para o espaço: PIN, padrão, senha ou impressão digital.
+4. Instale dentro do Espaço privado os aplicativos que você quer proteger.
+
+Como os aplicativos de um Espaço privado bloqueado ficam parados, não coloque ali nada que precise funcionar em segundo plano, como um alarme ou um mensageiro que você precisa ouvir.
+
+O Espaço privado exige Android 15 ou mais recente, e alguns fabricantes desativaram a função em seus modelos.
+
+### O bloqueio de apps do próprio Google está a caminho
+
+Um bloqueio de apps de verdade, em que o aplicativo fica no lugar mas pede PIN ou digital ao abrir, está em teste nos celulares Pixel. O site Android Authority encontrou a função nas versões de teste do Android em agosto de 2026, em `Settings > Security & privacy > App lock`. Em novembro de 2026 ela não está na versão normal do Android 17, e o Google não publicou nenhuma página de ajuda sobre ela. Se o seu Pixel ganhar esse menu depois de uma atualização, é a opção mais simples.
+
+## Xiaomi, Redmi e POCO: bloqueio de apps
+
+**Acesse:**
+`Configurações > Apps > Bloqueio de apps` (App lock)
+
+Ative, defina uma senha e escolha os aplicativos que quer bloquear. A Xiaomi avisa que a Conta Xiaomi é a única forma de recuperar o bloqueio de apps se você esquecer a senha, então adicione-a quando for pedido. Várias outras marcas de Android têm uma opção parecida: pesquise "bloqueio de apps" nas Configurações.
+
+## Qualquer celular Android: fixe um aplicativo antes de emprestar o celular
+
+A fixação de app mantém o celular em um único aplicativo até o seu PIN ser digitado. Foi feita para o momento em que você entrega o celular a um amigo ou a uma criança.
+
+**Acesse:**
+`Configurações > Segurança > Avançado > Fixação de app`
+
+Ative. Depois:
+
+1. Abra o aplicativo que você quer mostrar.
+2. Deslize para cima até o meio da tela e mantenha pressionado, para abrir a visão geral dos apps recentes.
+3. Toque no ícone do aplicativo, na parte de cima da imagem, e depois em **Fixar**.
+
+Para liberar, deslize para cima, mantenha pressionado e digite seu PIN, padrão ou senha. Na navegação com três botões, mantenha pressionados Voltar e Visão geral.
+
+## Bloqueios dentro dos próprios aplicativos
+
+Alguns aplicativos trazem bloqueio próprio, que funciona em qualquer celular:
+
+- **WhatsApp:** nas configurações do WhatsApp, em Privacidade, ative o bloqueio do app (App lock).
+- **Google Fotos:** mova as fotos privadas para a **Pasta trancada** (`Coleções > Trancada`). Ela abre com o bloqueio de tela do celular.
+- **Aplicativos de banco e pagamento** normalmente pedem PIN ou digital a cada vez. Confira as configurações de segurança do próprio aplicativo.
+
+Os bloqueadores de aplicativos do Google Play são outro caminho. Antes de instalar um, veja quando foi atualizado pela última vez e quais permissões pede.
+
+## O que colocar senha em um aplicativo não faz
+
+- **Não avisa que alguém tentou.** Uma pessoa pode pegar seu celular e testar o código da Pasta Segura ou do Espaço privado, e você nunca vai saber. Nada fica salvo e nenhum alerta é enviado.
+- **Não mostra quem foi.** Não há foto da pessoa.
+- **Só cobre o que você colocou ali.** Todo o resto do celular fica aberto para quem passar da tela de bloqueio.
+- **Bloqueios que usam o bloqueio de tela não barram quem sabe o seu PIN.** O Espaço privado com o bloqueio do dispositivo e a Pasta trancada do Fotos abrem para quem souber.
+
+O bloqueio de apps é uma segunda porta. A primeira continua sendo a tela de bloqueio, e é ali que ajuda saber quem está tentando.
+
+## Como ver quem tenta entrar no seu celular
+
+O CrookCatcher não bloqueia os seus outros aplicativos. Ele vigia a tela de bloqueio. Quando alguém digita um PIN, padrão ou senha errados, ele tira uma foto com a câmera frontal, registra a localização por GPS e envia as duas coisas para o seu e-mail.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-pt.webp" width="990" height="1051" loading="lazy" alt="E-mail de alerta do CrookCatcher com a foto do intruso, o horário da tentativa e um mapa com a localização" />
+  <figcaption>O e-mail que o CrookCatcher envia depois de uma tentativa de desbloqueio com falha.</figcaption>
+</figure>
+
+Os dois se completam: o bloqueio de apps mantém fechados os seus aplicativos privados, e o CrookCatcher mostra quem pegou o celular e tentou entrar, seja alguém de casa ou um ladrão. A foto, a localização e o e-mail são gratuitos. Desde 2014, o CrookCatcher já foi baixado mais de 12 milhões de vezes. A configuração leva poucos minutos: veja [como descobrir quem tentou desbloquear seu celular](/pt/blog/see-who-tried-to-unlock-your-phone).
+
+<AppCta position="guide_mid" />
+
+## Perguntas frequentes
+
+### P: Dá para colocar senha nos aplicativos sem instalar nada?
+R: Sim, na maioria dos celulares. Use a Pasta Segura no Samsung, o Espaço privado no Android 15 ou mais recente, ou o bloqueio de apps na Xiaomi. A fixação de app funciona em qualquer Android para o momento em que você empresta o celular.
+
+### P: Como colocar senha nos aplicativos Samsung?
+R: A Samsung não tem um bloqueio que tranca o aplicativo onde ele está. A solução dela é a Pasta Segura, que guarda uma cópia trancada do aplicativo. Ela fica em `Configurações > Segurança e privacidade > Mais configurações de segurança`.
+
+### P: Como colocar senha no WhatsApp?
+R: No WhatsApp, abra as configurações, entre em Privacidade e ative o bloqueio do app. No Samsung, você também pode colocar o WhatsApp na Pasta Segura e, no Android 15 ou mais recente, no Espaço privado.
+
+### P: Bloquear um aplicativo esconde as notificações dele?
+R: No Espaço privado, sim: os aplicativos de um Espaço privado bloqueado ficam parados e não mostram notificações. Nos outros métodos, depende do celular, então confira também as configurações de notificações na tela de bloqueio.
+
+### P: Quem sabe o meu PIN consegue abrir os aplicativos bloqueados?
+R: Se o bloqueio usa o seu bloqueio de tela, sim. Dê à Pasta Segura ou ao Espaço privado um código próprio, diferente do da tela de bloqueio.
+
+### P: Dá para ver quem tentou abrir meus aplicativos bloqueados?
+R: Os bloqueios de apps do Android e da Samsung não guardam registro nem tiram foto. Para ver quem tentou entrar no celular em si, um aplicativo como o CrookCatcher fotografa quem digita um PIN errado na tela de bloqueio.
+
+## Fontes
+
+- Samsung US Support: [Use the Secure Folder on your Galaxy phone or tablet](https://www.samsung.com/us/support/answer/ANS10001401/) (em inglês)
+- Google, Ajuda do Android: [Ocultar apps sensíveis com o espaço privado](https://support.google.com/android/answer/15341885?hl=pt-BR)
+- Google, Ajuda do Android: [Fixar e liberar telas](https://support.google.com/android/answer/9455138?hl=pt-BR)
+- Xiaomi Support: [How to enable App lock](https://www.mi.com/global/support/faq/details/KA-508070/) (em inglês)
+- Central de Ajuda do WhatsApp: [How to use app lock](https://faq.whatsapp.com/1726618467788240/)
+- Ajuda do Google Fotos: [Ocultar fotos e vídeos sensíveis na Pasta Trancada](https://support.google.com/photos/answer/10694388?hl=pt-BR)
+- Android Authority: [Google is bringing back native app lock for Android, but not for everyone yet](https://www.androidauthority.com/google-android-pixel-app-lock-3695632/) (agosto de 2026, em inglês)
+
+## Guias relacionados
+
+- [Como descobrir quem tentou desbloquear seu celular (e conseguir a foto)](/pt/blog/see-who-tried-to-unlock-your-phone)
+- [Dá para ver as tentativas de desbloqueio com falha no Android?](/pt/blog/failed-unlock-attempts-android)
+- [5 configurações antirroubo do Android para ativar hoje](/pt/blog/top_five_settings)
+
+<AppCta position="guide_end" />

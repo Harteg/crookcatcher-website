@@ -1,0 +1,123 @@
+---
+title: Galaxy を紛失・盗難されたら｜Samsung Find（端末リモート追跡）で探す・ロックする・消去する方法（2026 年版）
+subtitle: どのブラウザからでも使える Samsung Find の使い方、事前にオンにしておく設定、そして Samsung Find ではわからないこと
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
+description: "紛失した、または盗まれた Galaxy を探すには、Samsung アカウントで Samsung Find にログインします。地図で場所を確認し、音を鳴らす、ロックする、位置を追跡する、データを消去する、といった操作ができます。手順と、事前にオンにしておく設定、そして Samsung Find ではわからないこと（誰が持っているか）を説明します。"
+image: '/images/blog/samsung-find-stolen-phone-header-ja.png'
+imageAlt: 'Samsung Find で紛失・盗難にあった Galaxy を探す: 地図に表示、音を鳴らす、ロック、データ消去ができます。誰が持っているかはわからず、間違った PIN の通知もありません。'
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**紛失した、または盗まれた Samsung Galaxy を探すには、ブラウザで [samsungfind.samsung.com](https://samsungfind.samsung.com) を開き、Samsung アカウントでログインします。** スマホが地図に表示され、音を鳴らす、ロックする、位置を追跡する、バッテリーを長持ちさせる、データを消去する、といった操作ができます。使えるのは、スマホの電源が入っていて通信できるときです。電源が切れている場合、表示されるのは最後に確認された位置だけです。Samsung Find でわかるのはスマホの場所で、誰が持っているかはわかりません。
+
+## Samsung Find、SmartThings Find、端末リモート追跡の違い
+
+Samsung は 3 つの名前を使っていて、まぎらわしくなっています。
+
+- **Samsung Find** は、Galaxy デバイスを探すための現在のアプリとウェブサイトです。
+- **SmartThings Find** は、SmartThings アプリの中と専用サイトにある同じサービスです。Samsung のヘルプでは、どちらを使ってもよいとされています。
+- **端末リモート追跡**（Find My Mobile）は以前の名前です。スマホ本体の設定では今もこの名前が使われています。
+
+なくしたスマホを探すという点では、どれも同じ場所につながります。このガイドでは Samsung Find と呼びます。
+
+## Galaxy を探す方法
+
+パソコン、タブレット、ほかの人のスマホなど、ブラウザが使える別の端末が必要です。
+
+1. [samsungfind.samsung.com](https://samsungfind.samsung.com) を開き、スマホに登録してある Samsung アカウントでログインします。
+2. デバイスの一覧が表示されます。探したいスマホを選びます。
+3. 地図に位置が表示されます。
+
+別の Galaxy スマホやタブレットを持っている場合は、そちらの **Samsung Find アプリ**でも探せます。家族の Samsung Find アプリから探してもらうこともできますが、事前に位置情報を共有していた場合に限ります。
+
+**盗まれた場合は、自分でその場所に行かないでください。** Samsung も同じことを案内しています。位置を警察に伝え、取り戻すのは警察に任せましょう。
+
+## Samsung Find でできること
+
+- **音を鳴らす。** マナーモードやバイブに設定していても、1 分間着信音が鳴ります。近くにあるはずのときに使います。
+- **ロックする。** PIN を作成し、緊急連絡先とロック画面に表示するメッセージを追加できます。見つけた人が連絡先を確認できます。Samsung はこれを**紛失モード**とも呼んでいて、Samsung Wallet と Samsung Pass へのアクセスを制限し、電源を切れないようにすると説明しています。
+- **位置を追跡する。** 15 分ごとに最新の位置が届きます。バスや電車に置き忘れた場合や、盗まれたかもしれない場合に Samsung がすすめている機能です。
+- **バッテリーを長持ちさせる。** 遠隔で最大省電力モードをオンにし、探している間スマホの電源が長く持つようにします。
+- **見つかったときに通知を受け取る。** 今は位置がわからなくても、見つかった時点で Samsung からメールが届きます。
+- **データを消去する。** 遠隔で工場出荷時の状態に戻します。Samsung によると、SD カードのデータも消去され、Google のデバイス保護は有効なままなので、初期化後も Google アカウントの入力が求められます。スマホが戻らないと確信できたときの最後の手段です。
+
+データの消去など一部の操作は、アプリではなくウェブサイトでのみ行えます。消去できない場合、Samsung はスマホでログインしているアカウントのパスワードを変更するようすすめています。
+
+## 必要になる前にオンにしておく設定
+
+Samsung Find は、スマホ側で準備ができていないと使えません。今日のうちに確認しましょう。
+
+**開く場所:**
+`設定 > セキュリティとプライバシー > 紛失したデバイスの保護 > 端末リモート追跡`
+
+（機種やバージョンによっては「セキュリティおよびプライバシー」「紛失デバイスの保護」と表示されます）次の 3 つをオンにします。
+
+- **この端末の捜索を許可。** Samsung によると、Samsung アカウントを追加した時点で初期設定でオンになりますが、確認しておきましょう。
+- **最新の位置情報を送信。** 電源が切れる前に、最後の位置を Samsung のサーバーに保存します。
+- **オフライン検出。** モバイルデータや Wi-Fi がなくても、近くにあるほかの Galaxy デバイスがあなたのスマホを検出し、場所を知らせます。
+
+Galaxy には Google の Find Hub（旧「デバイスを探す」）も入っていて、Samsung Find とは別に動きます。両方オンにしておきましょう。くわしくは [Android のスマホを探す方法](/ja/blog/find-stolen-android-phone)をご覧ください。
+
+## Samsung Find でできないこと
+
+- **電源が切れたスマホを探すこと。** Samsung によると、電源が切れたスマホは最後に確認された位置しか表示されません。オフライン検出が役立つのは、電源は入っているが通信できないときで、電源が切れているときではありません。
+- **Samsung アカウントなしで使うこと。** スマホに一度も追加していなければ、ログインする先がありません。
+- **誰が持っているかを示すこと。** わかるのは地図上の点だけです。写真も名前もありません。
+- **誰かがロックを解除しようとしていると知らせること。** 知らない人がロック画面で間違った PIN を入力しても、通知は届きません。
+
+泥棒が最初にするのは、たいてい電源を切るか機内モードにすることです。[スマホを盗まれても電源を切られないようにする方法](/ja/blog/block-power-menu)もご覧ください。
+
+## スマホを持っている人の写真を手に入れる方法
+
+地図上の位置は役に立ちます。けれども、その場所でスマホを手にしている人の写真があれば、警察が動く材料になります。
+
+それを補うのが CrookCatcher です。ロックされたスマホを手にした人は、ほとんどの場合いくつか PIN を試します。ロック解除に失敗するたびに、CrookCatcher は前面カメラで写真を撮り、GPS の位置情報とおおよその住所を記録して、両方をメールで送ります。1 分後に電源を切られても、メールは受信トレイに残ります。
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-ja.webp" width="990" height="1024" loading="lazy" alt="侵入者の写真、試行時刻、位置の地図が載った CrookCatcher の通知メール" />
+  <figcaption>ロック解除の失敗後に CrookCatcher が送るメール。</figcaption>
+</figure>
+
+Samsung Find の代わりではなく、一緒に使うものです。Samsung Find がスマホの場所を特定してロックし、CrookCatcher がロックを破ろうとした人を写します。スマホがなくなる前にインストールしておく必要があります。CrookCatcher は 2014 年から 1,200 万回以上ダウンロードされ、1 日に約 120 万枚の侵入者の写真を撮影しています。Samsung 自体のロック画面の設定は、[Galaxy のロックを解除しようとした人を確認する方法](/ja/blog/samsung-who-tried-to-unlock)で説明しています。
+
+<AppCta position="guide_mid" />
+
+## よくある質問
+
+### Q: 電源が切れた Galaxy は探せる？
+A: リアルタイムでは探せません。Samsung によると、電源が切れている場合に確認できるのは最後の位置だけで、それも**最新の位置情報を送信**がオンだった場合に限ります。オフライン検出は、電源が入っていて通信できないときに働きます。
+
+### Q: Samsung Find と端末リモート追跡は同じもの？
+A: 端末リモート追跡（Find My Mobile）は以前の名前で、スマホの設定では今も使われています。Samsung Find は現在のアプリとウェブサイトです。なくしたスマホを探すという点では同じ働きをします。
+
+### Q: Samsung アカウントがなくても Galaxy を探せる？
+A: Samsung Find では探せません。Google の Find Hub（[google.com/android/find](https://www.google.com/android/find)）を試してください。こちらはスマホに登録した Google アカウントを使います。
+
+### Q: Samsung Find と Google の Find Hub、どちらを使えばいい？
+A: 両方です。別々のサービスで、アカウントも別々です。Galaxy では両方をオンにしておけます。片方で見つからなければ、もう片方を試しましょう。
+
+### Q: 盗まれた Galaxy をロックするには？
+A: samsungfind.samsung.com にログインしてスマホを選び、ロックを選択します。PIN を設定し、連絡先の電話番号とロック画面に表示するメッセージを追加できます。
+
+### Q: Samsung Find は泥棒の写真を撮る？
+A: いいえ。Samsung Find はスマホの位置を表示し、音を鳴らす、ロックする、消去するといった操作ができるだけです。ロックを解除しようとした人の写真を手に入れるには、CrookCatcher のようなアプリを事前に入れておく必要があります。
+
+## 出典
+
+- Samsung Japan: [Samsung Find](https://www.samsung.com/jp/apps/samsung-find/)（機能、紛失モード、オフライン検出）
+- Samsung US Support: [How to locate your lost Samsung Galaxy phone or tablet](https://www.samsung.com/us/support/answer/ANS10003600/)（英語）
+- Samsung: [Samsung Find のウェブサイト](https://samsungfind.samsung.com)
+- Google、Android ヘルプ: [紛失した Android デバイスの位置の特定、保護、データ消去を行う](https://support.google.com/android/answer/6160491?hl=ja)
+
+## 関連ガイド
+
+- [Android のスマホを探す方法｜紛失・盗難時に Find Hub で位置を確認](/ja/blog/find-stolen-android-phone)
+- [Galaxy のロックを解除しようとした人を確認する方法](/ja/blog/samsung-who-tried-to-unlock)
+- [スマホを盗まれても電源を切られないようにする方法](/ja/blog/block-power-menu)
+
+<AppCta position="guide_end" />

@@ -1,0 +1,123 @@
+---
+title: "Samsung-Handy orten: verlorenes oder gestohlenes Galaxy mit Samsung Find finden, sperren oder löschen (2026)"
+subtitle: "Wie du Samsung Find (früher Find My Mobile) in jedem Browser nutzt, was du vorher einschalten solltest und was es dir nicht verrät"
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
+description: "Um ein verlorenes oder gestohlenes Samsung-Handy zu orten, melde dich mit deinem Samsung Account bei Samsung Find an. Du siehst das Handy auf einer Karte und kannst es klingeln lassen, sperren, verfolgen und löschen. Hier stehen die Schritte, die Einstellungen, die vorher an sein müssen, und was Samsung Find nicht zeigt: wer das Handy hat."
+image: '/images/blog/samsung-find-stolen-phone-header-de.png'
+imageAlt: 'Samsung-Handy orten mit Samsung Find: Es zeigt das Galaxy auf einer Karte, lässt es klingeln, sperrt es und löscht deine Daten. Es zeigt nicht, wer es hat, und warnt nicht bei falschen PINs.'
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Um ein verlorenes oder gestohlenes Samsung-Handy zu orten, öffne [samsungfind.samsung.com](https://samsungfind.samsung.com) in einem beliebigen Browser und melde dich mit deinem Samsung Account an.** Du siehst das Handy auf einer Karte und kannst es klingeln lassen, sperren, seinen Standort verfolgen, die Akkulaufzeit verlängern oder die Daten löschen. Das funktioniert, wenn das Handy eingeschaltet und verbunden ist. Ist es ausgeschaltet, zeigt Samsung nur den letzten bekannten Standort. Samsung Find sagt dir, wo das Handy ist, aber nie, wer es hat.
+
+## Samsung Find, SmartThings Find und Find My Mobile
+
+Samsung verwendet drei Namen, und das verwirrt:
+
+- **Samsung Find** ist die aktuelle App und Website, um deine Galaxy-Geräte zu finden.
+- **SmartThings Find** ist derselbe Dienst in der SmartThings-App und auf einer eigenen Website. Samsungs Hilfe sagt, dass du beide nutzen kannst.
+- **Find My Mobile** ist der ältere Name. Samsung benutzt ihn noch in den Einstellungen auf dem Handy.
+
+Bei einem verlorenen Handy führen alle zum selben Ziel. Dieser Ratgeber spricht von Samsung Find.
+
+## So ortest du dein Samsung-Handy
+
+Du brauchst ein anderes Gerät mit Browser: einen Computer, ein Tablet oder das Handy einer anderen Person.
+
+1. Öffne [samsungfind.samsung.com](https://samsungfind.samsung.com) und melde dich mit dem Samsung Account an, der auf deinem Handy eingerichtet ist.
+2. Deine Geräte erscheinen in einer Liste. Wähle das Handy aus.
+3. Sein Standort erscheint auf der Karte.
+
+Wenn du ein weiteres Galaxy-Handy oder -Tablet hast, kannst du dort die **Samsung Find-App** verwenden. Auch ein Familienmitglied kann dein Handy in seiner Samsung Find-App finden, aber nur, wenn du den Standort vorher geteilt hast.
+
+**Wurde das Handy gestohlen, geh nicht selbst zu dem Ort.** Samsung sagt dasselbe: Gib den Standort der Polizei und lass sie das Gerät zurückholen.
+
+## Was du mit Samsung Find tun kannst
+
+- **Klingeln lassen.** Das Handy klingelt eine Minute lang, auch wenn es stumm oder auf Vibration gestellt ist. Hilfreich, wenn es irgendwo in der Nähe liegt.
+- **Sperren.** Du legst eine PIN fest und kannst einen Notfallkontakt und eine Nachricht für den Sperrbildschirm hinzufügen, damit ein Finder weiß, wen er anrufen soll. Samsung nennt das auch **Lost Mode** und schreibt, dass er den Zugriff auf Samsung Pay und Samsung Pass einschränkt und verhindert, dass das Handy ausgeschaltet wird.
+- **Standort verfolgen.** Du bekommst alle 15 Minuten einen aktualisierten Standort. Samsung empfiehlt das für ein Handy, das im Bus oder Zug liegen geblieben ist oder vielleicht gestohlen wurde.
+- **Akkulaufzeit verlängern.** Schaltet aus der Ferne den maximalen Energiesparmodus ein, damit das Handy länger an bleibt, während du es suchst.
+- **Benachrichtigen, wenn es gefunden wurde.** Kann das Handy gerade nicht geortet werden, schickt Samsung dir eine E-Mail, sobald es wieder geht.
+- **Daten löschen.** Ein Zurücksetzen auf die Werkseinstellungen aus der Ferne. Samsung weist darauf hin, dass auch die SD-Karte gelöscht wird und dass der Geräteschutz von Google aktiv bleibt: Das Handy fragt danach weiterhin nach deinem Google-Konto. Das ist der letzte Schritt, wenn du sicher bist, dass das Handy nicht zurückkommt.
+
+Einige dieser Aktionen, darunter das Löschen der Daten, gibt es nur auf der Website, nicht in der App. Wenn du das Handy nicht löschen kannst, empfiehlt Samsung, die Passwörter der Konten zu ändern, die darauf angemeldet sind.
+
+## Schalte das ein, bevor du es brauchst
+
+Samsung Find funktioniert nur, wenn das Handy dafür eingerichtet wurde. Prüfe das heute:
+
+**Gehe zu:**
+`Einstellungen > Sicherheit und Datenschutz > Schutz für verlorene Geräte`
+
+(Auf manchen Samsung-Seiten heißt das Menü *Schutz verlorener Geräte*.) Schalte alle drei Optionen ein:
+
+- **Auffinden dieses Telefons zulassen** (Allow this phone to be found). Samsung schreibt, dass das standardmäßig eingeschaltet wird, wenn du einen Samsung Account hinzufügst. Prüfe es trotzdem.
+- **Letzten Standort senden.** Das Handy speichert seinen letzten Standort auf Samsungs Server, bevor es ausgeht.
+- **Offline-Suche** (Offline finding). Andere Galaxy-Geräte in der Nähe können dein Handy erkennen und melden, wo es ist, auch ohne mobile Daten oder WLAN.
+
+Dein Galaxy hat außerdem Googles Find Hub („Mein Gerät finden“), das unabhängig von Samsung Find arbeitet. Lass beide eingeschaltet. Mehr dazu: [Handy orten mit „Mein Gerät finden“](/de/blog/find-stolen-android-phone).
+
+## Was Samsung Find nicht kann
+
+- **Ein ausgeschaltetes Handy orten.** Samsung schreibt, dass ein ausgeschaltetes Handy nur seinen letzten bekannten Standort zeigt. Die Offline-Suche hilft, wenn das Handy an, aber nicht verbunden ist, nicht wenn es aus ist.
+- **Ohne Samsung Account funktionieren.** Wenn du nie einen auf dem Handy eingerichtet hast, gibt es nichts, wo du dich anmelden kannst.
+- **Dir zeigen, wer das Handy hat.** Du bekommst einen Punkt auf einer Karte. Kein Foto, keinen Namen.
+- **Dich warnen, wenn jemand hineinwill.** Es gibt keine Warnung, wenn ein Fremder falsche PINs auf deinem Sperrbildschirm eingibt.
+
+Der erste Handgriff eines Diebs ist meist, das Handy auszuschalten oder den Flugmodus einzuschalten. Lies dazu [So verhinderst du, dass Diebe dein Handy ausschalten](/de/blog/block-power-menu).
+
+## So bekommst du ein Foto der Person, die dein Handy hat
+
+Ein Standort auf der Karte hilft. Ein Foto der Person, die dein Handy in der Hand hält, aufgenommen an diesem Ort, ist das, womit die Polizei arbeiten kann.
+
+Das ergänzt CrookCatcher. Fast jeder, der ein gesperrtes Handy in die Hand bekommt, probiert ein paar PINs. Bei jedem fehlgeschlagenen Entsperrversuch macht CrookCatcher ein Foto mit der Frontkamera, erfasst den GPS-Standort und eine ungefähre Adresse und schickt dir beides per E-Mail. Die E-Mail liegt in deinem Postfach, auch wenn das Handy eine Minute später ausgeschaltet wird.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-de.webp" width="990" height="1024" loading="lazy" alt="CrookCatcher-Warn-E-Mail mit dem Foto des Eindringlings, der Uhrzeit des Versuchs und einer Karte mit dem Standort" />
+  <figcaption>Die E-Mail, die CrookCatcher nach einem fehlgeschlagenen Entsperrversuch sendet.</figcaption>
+</figure>
+
+Es arbeitet neben Samsung Find, nicht statt Samsung Find: Samsung Find ortet und sperrt das Handy, und CrookCatcher zeigt dir, wer versucht hat, an der Sperre vorbeizukommen. Es muss installiert sein, bevor das Handy weg ist. CrookCatcher wurde seit 2014 mehr als 12 Millionen Mal heruntergeladen und macht rund 1,2 Millionen Fotos von Eindringlingen pro Tag. Samsungs eigene Sperrbildschirm-Einstellungen findest du in [So siehst du, wer dein Samsung-Handy entsperren wollte](/de/blog/samsung-who-tried-to-unlock).
+
+<AppCta position="guide_mid" />
+
+## Häufig gestellte Fragen
+
+### Q: Kann man ein ausgeschaltetes Samsung-Handy orten?
+A: Nicht live. Samsung schreibt, dass bei einem ausgeschalteten Handy nur der letzte bekannte Standort verfügbar ist, und nur, wenn **Letzten Standort senden** eingeschaltet war. Die Offline-Suche funktioniert, wenn das Handy an ist, aber keine Verbindung hat.
+
+### Q: Ist Samsung Find dasselbe wie Find My Mobile?
+A: Find My Mobile ist der ältere Name, den Samsung noch in den Einstellungen auf dem Handy verwendet. Samsung Find ist die aktuelle App und Website. Zum Orten eines verlorenen Handys leisten beide dasselbe.
+
+### Q: Kann ich mein Samsung-Handy ohne Samsung Account finden?
+A: Nicht mit Samsung Find. Versuche Googles „Mein Gerät finden“ unter [google.com/android/find](https://www.google.com/android/find). Das nutzt das Google-Konto auf dem Handy.
+
+### Q: Samsung Find oder Googles „Mein Gerät finden“: Was soll ich nutzen?
+A: Beide. Es sind getrennte Dienste mit getrennten Konten, und auf einem Galaxy können beide eingeschaltet sein. Wenn einer das Handy nicht findet, versuche den anderen.
+
+### Q: Wie sperre ich mein gestohlenes Samsung-Handy?
+A: Melde dich unter samsungfind.samsung.com an, wähle das Handy aus und wähle **Sperren**. Du legst eine PIN fest und kannst eine Telefonnummer und eine Nachricht für den Sperrbildschirm hinzufügen.
+
+### Q: Macht Samsung Find ein Foto vom Dieb?
+A: Nein. Samsung Find zeigt den Standort des Handys und lässt dich es klingeln lassen, sperren oder löschen. Für ein Foto von jemandem, der das Handy entsperren will, brauchst du eine App wie CrookCatcher, die vorher installiert wurde.
+
+## Quellen
+
+- Samsung Deutschland: [Samsung Find](https://www.samsung.com/de/apps/samsung-find/) (Funktionen, Lost Mode und Offline-Suche)
+- Samsung US Support: [How to locate your lost Samsung Galaxy phone or tablet](https://www.samsung.com/us/support/answer/ANS10003600/) (auf Englisch)
+- Samsung: [Samsung Find-Website](https://samsungfind.samsung.com)
+- Google, Android-Hilfe: [Verlorenes Android-Gerät orten, sperren oder Daten darauf löschen](https://support.google.com/android/answer/6160491?hl=de)
+
+## Weitere Ratgeber
+
+- [Handy orten mit „Mein Gerät finden“ (Find Hub)](/de/blog/find-stolen-android-phone)
+- [So siehst du, wer dein Samsung-Handy entsperren wollte](/de/blog/samsung-who-tried-to-unlock)
+- [So verhinderst du, dass Diebe dein Handy ausschalten](/de/blog/block-power-menu)
+
+<AppCta position="guide_end" />

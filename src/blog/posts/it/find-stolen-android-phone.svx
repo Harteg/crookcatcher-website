@@ -1,0 +1,126 @@
+---
+title: "Trova il mio dispositivo: come localizzare un telefono Android smarrito o rubato con Find Hub (2026)"
+subtitle: "Come localizzare, bloccare o resettare il telefono da un altro dispositivo, cosa succede quando è offline o spento e cosa Find Hub non mostra"
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
+description: "Per localizzare un telefono Android smarrito o rubato, accedi a Find Hub (prima Trova il mio dispositivo) su google.com/android/find con l'account Google del telefono. Ecco i passaggi, le impostazioni per trovarlo offline o spento e cosa Find Hub non mostra: chi ha il telefono."
+image: '/images/blog/find-stolen-android-phone-header-it.png'
+imageAlt: "Trova il mio dispositivo: come localizzare un telefono Android rubato. Find Hub lo mostra su una mappa, riproduce un suono, lo blocca e lo resetta. Non mostra chi ce l'ha e non avvisa dei PIN sbagliati."
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Per localizzare un telefono Android smarrito o rubato, vai su [google.com/android/find](https://www.google.com/android/find) da qualsiasi browser, oppure apri l'app Find Hub su un altro dispositivo Android, e accedi con l'account Google presente sul telefono.** Find Hub mostra il telefono su una mappa e ti permette di riprodurre un suono, contrassegnarlo come smarrito o resettarlo. Per bloccarlo o resettarlo, il telefono deve essere acceso e connesso ai dati mobili o al Wi-Fi. Se è stato rubato, dai la posizione alla polizia e non andare tu sul posto.
+
+Find Hub è il nuovo nome di Trova il mio dispositivo di Google. È lo stesso servizio.
+
+## Come trovare il tuo telefono con Find Hub
+
+Google dice che Find Hub si attiva in automatico quando aggiungi un account Google al telefono, quindi vale la pena provare anche se non hai mai configurato nulla.
+
+1. Da un computer o da un altro telefono, vai su [google.com/android/find](https://www.google.com/android/find). Su un altro dispositivo Android puoi usare l'**app Find Hub**.
+2. Accedi con l'account Google del telefono smarrito. Sul telefono di un amico, apri l'app Find Hub e scegli **Accedi come ospite**.
+3. Seleziona il telefono dall'elenco dei dispositivi. Potrebbe esserti chiesto il PIN della schermata di blocco del telefono smarrito, oppure la password di Google.
+4. La mappa mostra dov'è il telefono. Se la posizione attuale non si trova, potresti vedere l'ultima posizione nota.
+
+Il telefono smarrito riceve una notifica quando lo fai.
+
+Google stima la posizione dal GPS (preciso fino a circa 20 metri all'aperto), dalle reti Wi-Fi vicine e dai ripetitori, che possono sbagliare di qualche migliaio di metri. Il cerchio intorno al segnaposto indica quanto è affidabile la posizione.
+
+## Cosa puoi fare da Find Hub
+
+- **Riproduci audio.** Il telefono squilla a tutto volume per cinque minuti, anche se è in modalità silenziosa o vibrazione.
+- **Contrassegna come smarrito.** Blocca il telefono con il tuo PIN, la sequenza o la password e ti permette di mostrare i dati di contatto e un messaggio sulla schermata di blocco. Su Android 17 o versioni successive, con l'impronta o il volto configurati, il telefono richiede sia il PIN sia la biometria e nasconde notifiche e widget.
+- **Ripristino dei dati di fabbrica.** Elimina definitivamente tutto dal telefono, ma potrebbe non cancellare la scheda SD. Dopo il ripristino il telefono non è più disponibile in Find Hub, quindi lascialo per ultimo. Se lo recuperi, ti servirà la password del tuo account Google per usarlo di nuovo.
+- **Vedere l'IMEI.** Apri le impostazioni del dispositivo in Find Hub per vedere il numero IMEI. Il tuo operatore può usarlo per disattivare il telefono.
+
+Puoi anche bloccare il telefono con il solo numero di telefono su [android.com/lock](https://www.android.com/lock). È il Blocco remoto, che va attivato in anticipo: leggi [5 impostazioni antifurto Android da attivare oggi](/it/blog/top_five_settings).
+
+## Come localizzare un telefono spento o offline
+
+Qui finiscono quasi tutte le ricerche di un telefono rubato. Ciò che Find Hub può ancora fare dipende da un'impostazione:
+
+**Vai in:**
+`Impostazioni > Google > Tutti i servizi > Find Hub > Trova i tuoi dispositivi offline`
+
+- **Off:** nessuna posizione recente viene memorizzata e il telefono non fa parte della rete Find Hub.
+- **Senza rete:** Find Hub può mostrare dov'era il telefono l'ultima volta che era online.
+- **Con la rete soltanto in luoghi affollati:** anche gli altri dispositivi Android nelle vicinanze possono rilevare il tuo telefono via Bluetooth e segnalarne la posizione, in luoghi come aeroporti o strade affollate.
+- **Con la rete ovunque:** lo stesso, anche in zone tranquille e isolate.
+
+Le opzioni con la rete richiedono un PIN, una sequenza o una password sul telefono. Le posizioni sono protette con crittografia end-to-end.
+
+**Quando il telefono è spento o la batteria è scarica:** Google dice che i dispositivi supportati, come la serie Pixel 8, possono ancora essere localizzati dalla rete per diverse ore. Serve una delle due opzioni con la rete, e Bluetooth e Posizione devono essere attivi quando il telefono si spegne. Sulla maggior parte degli altri telefoni, spento significa che vedi solo l'ultima posizione nota.
+
+## Controlla queste impostazioni oggi
+
+Cinque minuti adesso te ne risparmiano molti dopo:
+
+- **Account Google:** controlla nelle Impostazioni che il tuo account sia sul telefono.
+- **Posizione:** `Impostazioni > Posizione`, attiva.
+- **Find Hub:** `Impostazioni > Sicurezza > Find Hub`, con **Consenti la localizzazione del dispositivo** attivo.
+- **Dispositivi offline:** scegli una delle opzioni con la rete descritte sopra.
+- **Codici di backup:** se il telefono è il tuo metodo di verifica in due passaggi, dopo un furto potresti restare fuori dal tuo account Google. Crea i codici di backup nel tuo Account Google, nella verifica in due passaggi, e conservali in un posto diverso dal telefono.
+- **Fai una prova:** apri google.com/android/find e controlla che il telefono compaia.
+
+I nomi dei menu cambiano un po' da una marca all'altra. Se non ne trovi uno, cerca "Find Hub" nelle Impostazioni. Su un Samsung Galaxy configura anche il servizio di Samsung, Samsung Find, in `Impostazioni > Sicurezza e privacy > Protezione dispositivo smarrito`.
+
+## Cosa Find Hub non può fare
+
+- **Bloccare o resettare un telefono spento o offline.** Servono batteria e connessione.
+- **Impedire a un ladro di spegnere il telefono.** Leggi [come impedire lo spegnimento dalla schermata di blocco](/it/blog/block-power-menu).
+- **Mostrarti chi ha il telefono.** Ottieni una posizione, non un volto.
+- **Avvisarti che qualcuno sta provando a sbloccarlo.** Nessun avviso quando un estraneo inserisce PIN sbagliati.
+
+## Come ottenere una foto di chi ha il tuo telefono
+
+Un punto su una mappa ti dice dov'è il telefono. Non ti dice quale delle persone lì presenti ce l'ha, e la sola posizione spesso non basta alla polizia per intervenire.
+
+È il vuoto che colma CrookCatcher. Quasi tutti quelli che prendono in mano un telefono bloccato provano qualche PIN. A ogni tentativo di sblocco fallito, CrookCatcher scatta una foto con la fotocamera frontale, registra la posizione GPS e un indirizzo approssimativo e ti invia tutto via email. L'email resta nella tua casella anche se il telefono viene spento un minuto dopo.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-it.webp" width="990" height="1024" loading="lazy" alt="Email di avviso di CrookCatcher con la foto dell'intruso, l'ora del tentativo e una mappa della posizione" />
+  <figcaption>L'email che CrookCatcher invia dopo un tentativo di sblocco fallito.</figcaption>
+</figure>
+
+Usali entrambi: Find Hub per localizzare e bloccare il telefono, CrookCatcher per vedere chi ha provato a superare il blocco. Come le impostazioni di Find Hub, deve essere pronta prima che il telefono sparisca. Dal 2014 CrookCatcher è stata scaricata più di 12 milioni di volte e scatta circa 1,2 milioni di foto di intrusi al giorno. La configurazione richiede pochi minuti: leggi [come scoprire chi ha provato a sbloccare il tuo telefono](/it/blog/see-who-tried-to-unlock-your-phone).
+
+<AppCta position="guide_mid" />
+
+## Domande frequenti
+
+### D: Si può localizzare un telefono spento?
+R: Sui dispositivi supportati, come la serie Pixel 8, la rete Find Hub può ancora trovare il telefono per diverse ore dopo lo spegnimento, se la ricerca offline con la rete era attiva. Sugli altri telefoni vedi l'ultima posizione nota.
+
+### D: Posso trovare il mio telefono Android senza connessione a Internet?
+R: Find Hub può mostrare dov'era il telefono l'ultima volta che era online. Se la ricerca offline con la rete è attiva, anche gli altri dispositivi Android vicini possono segnalarne la posizione via Bluetooth.
+
+### D: Find Hub è la stessa cosa di Trova il mio dispositivo?
+R: Sì. Google ha rinominato Trova il mio dispositivo in Find Hub. Il sito, google.com/android/find, è lo stesso.
+
+### D: Posso rintracciare un telefono rubato con l'IMEI?
+R: Tu no. Google descrive l'IMEI come qualcosa che il tuo operatore può usare per disattivare il telefono. Find Hub ti mostra l'IMEI perché tu possa darlo all'operatore e alla polizia.
+
+### D: Devo resettare il mio telefono rubato?
+R: Solo quando sei sicuro di non recuperarlo. Google dice che un telefono ripristinato ai dati di fabbrica non è più disponibile in Find Hub, quindi dopo non potrai più localizzarlo. Prima contrassegnalo come smarrito.
+
+### D: Find Hub mostra chi ha il mio telefono?
+R: No. Find Hub mostra una posizione e ti permette di far squillare, bloccare o resettare il telefono. Per avere una foto di chi prova a sbloccarlo ti serve un'app come CrookCatcher, installata prima.
+
+## Fonti
+
+- Google, Guida di Android: [Trova, proteggi o resetta un dispositivo Android smarrito](https://support.google.com/android/answer/6160491?hl=it)
+- Google, Guida di Android: [Trova un dispositivo Android smarrito](https://support.google.com/android/answer/3265955?hl=it)
+- Google: [Find Hub](https://www.google.com/android/find)
+- Google: [Blocco remoto (android.com/lock)](https://www.android.com/lock)
+
+## Guide correlate
+
+- [5 impostazioni antifurto Android da attivare oggi](/it/blog/top_five_settings)
+- [Come impedire lo spegnimento dalla schermata di blocco](/it/blog/block-power-menu)
+- [Come scoprire chi ha provato a sbloccare il tuo telefono (e ottenere la foto)](/it/blog/see-who-tried-to-unlock-your-phone)
+
+<AppCta position="guide_end" />

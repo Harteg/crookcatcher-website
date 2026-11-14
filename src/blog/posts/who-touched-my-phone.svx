@@ -1,0 +1,110 @@
+---
+title: "Who Touched My Phone? How to Find Out on Android (2026)"
+subtitle: What Android shows on its own, what the WTMP app records, and how to get the photo sent to your email
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
+description: "Android can't show you who touched your phone. To find out, you need an app that photographs the person at the lock screen. Here's what the WTMP (Who Touched My Phone) app records, how CrookCatcher differs, and which one fits your situation."
+image: '/images/blog/who-touched-my-phone-header.png'
+imageAlt: 'Who touched my phone? Android: no record, no photo. WTMP: a report in the app. CrookCatcher: photo by email.'
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Android can't tell you who touched your phone. It keeps no list of who unlocked it, and it never takes a photo.** To find out, you need an app that uses the front camera when someone unlocks the phone or gets the PIN wrong. The best-known one is WTMP, short for "Who Touched My Phone", which saves a report on the phone each time. CrookCatcher takes a photo when someone enters a wrong PIN and emails it to you with the location. Which one fits depends on whether you're thinking about someone at home or about theft.
+
+We make CrookCatcher, so read this with that in mind. What's said about WTMP comes from its own Google Play listing as it was on November 14, 2026. This guide is about protecting your own phone.
+
+## What Android shows on its own
+
+Not much. When someone enters a wrong PIN, Android rejects it and, after several tries, makes the person wait. It doesn't save the attempts anywhere you can look, and it doesn't use the camera. Here's [exactly what Android does with failed unlock attempts](/blog/failed-unlock-attempts-android).
+
+If someone got in, there are traces: Digital Wellbeing counts how often the phone was unlocked and which apps were opened, and your browser and Google activity show what was done. See [how to tell if someone went through your Android phone](/blog/signs-someone-went-through-your-phone). None of it shows who it was.
+
+## What the WTMP app does
+
+WTMP — Who touched my phone? is made by Mindfulness Devs. It has more than 10 million downloads, and its listing was last updated in October 2026. This is how the listing describes it:
+
+1. You open the app, press the button, and lock your phone.
+2. When someone unlocks the phone, or tries to, the app starts a report: a photo from the front camera and the list of apps that were opened.
+3. When the screen goes off, the report is saved.
+4. You read the reports in the app, and you can sync them with the cloud.
+
+The app uses Android's **Device administrator** permission to notice wrong unlock attempts. It's free to install, with in-app purchases.
+
+Two things in that description matter:
+
+- **It records correct unlocks too.** If someone knows your PIN, you still get their photo and see which apps they opened. That's WTMP's strength.
+- **The reports stay in the app.** The listing mentions no email alert and no location. You see what happened when you have the phone back in your hand.
+
+## What CrookCatcher does differently
+
+CrookCatcher reacts when someone enters a wrong PIN, pattern or password. It takes a photo with the front camera, records the GPS location and an approximate address, and emails all of it to you. You don't need the phone to see it.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/hero-alert-800.webp" srcset="/images/hero-alert-480.webp 480w, /images/hero-alert-800.webp 800w, /images/hero-alert-990.webp 990w" sizes="(min-width: 600px) 540px, 100vw" width="990" height="1024" loading="lazy" alt="CrookCatcher email alert with the intruder's photo, the time of the attempt and a map of the location" />
+  <figcaption>The email CrookCatcher sends after a failed unlock attempt.</figcaption>
+</figure>
+
+The photo, location and email are free. CrookCatcher Pro adds **break-in detection**, which also photographs someone who gets the PIN wrong and then guesses it right, plus video with sound and Google Drive backup. CrookCatcher has been on Google Play since 2014 and takes around 1.2 million intruder photos a day.
+
+What it doesn't do: it doesn't photograph someone who enters the correct PIN on the first try, and it doesn't list the apps they opened.
+
+<AppCta position="guide_mid" />
+
+## WTMP and CrookCatcher compared
+
+| | WTMP | CrookCatcher |
+| --- | --- | --- |
+| Photo after a wrong PIN | Yes | Yes |
+| Photo after a correct unlock | Yes | Only after a wrong attempt first (Pro) |
+| List of apps that were opened | Yes | No |
+| Email alert with the photo | Not mentioned | Yes |
+| GPS location | Not mentioned | Yes |
+| Where you see it | In the app, optional cloud sync | In the app and in your email |
+| Price | Free, in-app purchases | Free, in-app purchases |
+
+"Not mentioned" means the app's Play listing doesn't describe the feature.
+
+## Which one should you use?
+
+- **Someone at home or at work may know your PIN:** WTMP, because it records correct unlocks and the apps that were opened. Then change your PIN.
+- **You're thinking about theft, or about a phone left somewhere:** CrookCatcher, because the photo and location reach your email while the phone is gone.
+- **Someone keeps guessing your PIN:** both do the job. CrookCatcher tells you right away by email; WTMP shows you the next time you open the app.
+
+Whichever you choose, test it: lock your phone, enter a wrong PIN on purpose, unlock it and check that your own photo is there. Test again a week later, because some phones stop background apps after a few days.
+
+## Frequently Asked Questions
+
+### Q: Can Android show who touched my phone?
+A: No. Android has no log of who unlocked the phone and never takes a photo. Digital Wellbeing shows how many times the phone was unlocked, but not by whom.
+
+### Q: Is the Who Touched My Phone app free?
+A: WTMP is free to install, and its Google Play listing shows in-app purchases. CrookCatcher is also free to install; the photo, location and email alert are in the free version.
+
+### Q: Is the WTMP app safe?
+A: Its Google Play data safety section states that no data is collected and none is shared with third parties. Like every app of this kind, it needs the Device administrator permission, which has to be switched off again before you can uninstall it.
+
+### Q: How do I know if someone touched my phone while I was asleep?
+A: Check Digital Wellbeing in the morning for unlocks you didn't make. For proof of who it was, install one of these apps beforehand, so the next attempt is photographed.
+
+### Q: Do these apps work with fingerprint or face unlock?
+A: You can keep using both. CrookCatcher reacts to a wrong PIN, pattern or password; a failed fingerprint or face attempt doesn't trigger a photo. WTMP's listing says it records when the phone is unlocked or an unlock is attempted.
+
+### Q: Why didn't the app take a photo?
+A: Most often the phone's battery saver stopped the app in the background, or the phone was just restarted. After a restart, Android only lets apps use the camera once the phone has been unlocked one time.
+
+## Sources
+
+- Google Play listing of [WTMP — Who touched my phone?](https://play.google.com/store/apps/details?id=com.wtmp.svdsoftware), as shown in the US store on November 14, 2026
+- Android Developers: [DeviceAdminReceiver](https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver) (how apps are notified of failed unlock attempts)
+
+## Related guides
+
+- [How to see who tried to unlock your Android phone (and get their photo)](/blog/see-who-tried-to-unlock-your-phone)
+- [Best intruder selfie apps for Android](/blog/best-intruder-selfie-apps-android)
+- [How to tell if someone went through your Android phone](/blog/signs-someone-went-through-your-phone)
+
+<AppCta position="guide_end" />

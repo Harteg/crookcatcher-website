@@ -1,0 +1,146 @@
+---
+title: "Cara Mengunci Aplikasi di HP Android dan Samsung (2026)"
+subtitle: Folder Aman, Ruang privasi, kunci aplikasi, dan pasang pin aplikasi, serta apa yang tidak diberitahukan semuanya
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
+description: "Cara mengunci aplikasi di HP Android: Folder Aman di Samsung Galaxy, Ruang privasi di Android 15 dan yang lebih baru, kunci aplikasi di Xiaomi, pasang pin aplikasi di ponsel mana pun, dan kunci bawaan di aplikasi seperti WhatsApp. Plus yang tidak bisa dilakukan kunci aplikasi: menunjukkan siapa yang mencoba masuk."
+image: '/images/blog/lock-apps-android-header-id.png'
+imageAlt: 'Cara mengunci aplikasi di HP Android. Samsung: Folder Aman. Android 15+: Ruang privasi. Xiaomi: kunci aplikasi. Ponsel mana pun: pasang pin aplikasi. Tidak ada yang menunjukkan siapa yang mencoba masuk.'
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Cara mengunci aplikasi di Android bergantung pada ponselnya.** Di Samsung Galaxy, masukkan aplikasi ke **Folder Aman**. Di Pixel atau ponsel lain dengan Android 15 atau yang lebih baru, pakai **Ruang privasi**. Ponsel Xiaomi, Redmi, dan POCO punya setelan **kunci aplikasi**. Di ponsel Android mana pun, kamu bisa memasang pin satu aplikasi di layar sebelum meminjamkan ponsel, dan aplikasi seperti WhatsApp punya kuncinya sendiri. Semuanya menjaga orang lain tetap di luar aplikasi. Tidak satu pun memberi tahu siapa yang mencoba.
+
+## Samsung Galaxy: Folder Aman
+
+Ponsel Samsung tidak punya tombol yang mengunci aplikasi di tempatnya. Sebagai gantinya, kamu menambahkan salinan aplikasi ke Folder Aman (Secure Folder), area terpisah dengan PIN, sandi, atau pola sendiri.
+
+**Buka:**
+`Setelan > Keamanan dan privasi > Pengaturan keamanan lainnya > Folder Aman`
+
+Nama menu bisa sedikit berbeda; kalau tidak ketemu, cari "Folder Aman" di Setelan.
+
+1. Ketuk **Lanjutkan**, izinkan yang diminta, dan login ke akun Samsung kalau diminta.
+2. Pilih PIN, sandi, atau pola untuk folder itu. Pakai yang berbeda dari layar kuncimu.
+3. Aktifkan reset dengan akun Samsung. Tanpa itu, Samsung menyebut kamu tidak bisa masuk lagi kalau lupa kodenya.
+4. Di Folder Aman, ketuk **Tambah aplikasi** (tanda plus), pilih aplikasinya, lalu konfirmasi.
+
+Aplikasi di Folder Aman adalah salinan kedua, jadi kamu login lagi di sana. Supaya aplikasi aslinya juga tidak terjangkau, logout dari aplikasi itu atau hapus yang di luar folder.
+
+Untuk menyembunyikan foldernya, nonaktifkan opsi yang menampilkan Folder Aman di layar aplikasi, di menu yang sama. Kalau Folder Aman tidak ada di menu, model Galaxy-mu tidak mendukungnya.
+
+## Pixel dan ponsel lain dengan Android 15 atau yang lebih baru: Ruang privasi
+
+Ruang privasi adalah area terkunci bawaan Android untuk aplikasi. Saat terkunci, aplikasi di dalamnya tersembunyi dari daftar aplikasi, aplikasi terbaru, dan penelusuran, serta dihentikan sepenuhnya, jadi tidak menampilkan notifikasi.
+
+**Buka:**
+`Setelan > Keamanan & privasi > Ruang privasi`
+
+1. Konfirmasi kunci layarmu dan mulai penyiapan.
+2. Kalau mau, login dengan akun Google untuk ruang itu. Google menyarankan akun yang berbeda.
+3. Pilih memakai kunci layar perangkat, atau kunci baru khusus untuk ruang itu: PIN, pola, sandi, atau sidik jari.
+4. Pasang aplikasi yang ingin kamu lindungi di dalam Ruang privasi.
+
+Karena aplikasi di Ruang privasi yang terkunci dihentikan, jangan taruh aplikasi yang harus berjalan di latar belakang, seperti alarm atau aplikasi pesan yang perlu kamu dengar.
+
+Ruang privasi membutuhkan Android 15 atau yang lebih baru, dan beberapa produsen menonaktifkannya di model mereka.
+
+### Kunci aplikasi dari Google sedang dalam perjalanan
+
+Kunci aplikasi yang sebenarnya, yaitu aplikasi tetap di tempatnya tetapi meminta PIN atau sidik jari saat dibuka, sedang diuji di ponsel Pixel. Android Authority menemukannya di versi uji Android pada Agustus 2026, di `Settings > Security & privacy > App lock`. Per November 2026, fitur itu belum ada di versi Android 17 biasa, dan Google belum menerbitkan halaman bantuannya. Kalau Pixel-mu punya menu itu setelah pembaruan, itulah pilihan paling sederhana.
+
+## Xiaomi, Redmi, dan POCO: kunci aplikasi
+
+**Buka:**
+`Setelan > Aplikasi > Kunci aplikasi` (App lock)
+
+Aktifkan, buat sandi, lalu pilih aplikasi yang ingin dikunci. Xiaomi mencatat bahwa Akun Xiaomi adalah satu-satunya cara memulihkan kunci aplikasi kalau kamu lupa sandinya, jadi tambahkan saat diminta. Beberapa merek Android lain punya setelan serupa: cari "kunci aplikasi" di Setelan.
+
+## Ponsel Android mana pun: pasang pin satu aplikasi sebelum meminjamkan ponsel
+
+Pasang pin aplikasi menahan ponsel di satu aplikasi sampai PIN-mu dimasukkan. Fitur ini dibuat untuk saat kamu menyerahkan ponsel kepada teman atau anak.
+
+**Buka:**
+`Setelan > Keamanan > Lanjutan > Pasang pin aplikasi`
+
+Aktifkan. Lalu:
+
+1. Buka aplikasi yang ingin kamu tunjukkan.
+2. Geser ke atas hingga ke bagian tengah layar, lalu tahan, untuk membuka ringkasan aplikasi terbaru.
+3. Ketuk ikon aplikasi di bagian atas gambarnya, lalu ketuk opsi pasang pin.
+
+Untuk melepas pin, geser ke atas, tahan, lalu masukkan PIN, pola, atau sandimu. Dengan navigasi 3 tombol, tahan tombol Kembali dan Ringkasan.
+
+## Kunci di dalam aplikasinya sendiri
+
+Beberapa aplikasi punya kunci sendiri, yang berfungsi di ponsel apa pun:
+
+- **WhatsApp:** di setelan WhatsApp, bagian Privasi, aktifkan kunci aplikasi (App lock).
+- **Google Foto:** pindahkan foto pribadi ke **Folder Terkunci** (`Koleksi > Terkunci`). Folder ini terbuka dengan kunci layar ponselmu.
+- **Aplikasi bank dan pembayaran** biasanya meminta PIN atau sidik jari setiap kali dibuka. Periksa setelan keamanan aplikasinya.
+
+Aplikasi pengunci dari Google Play adalah jalan lain. Sebelum memasangnya, lihat kapan terakhir diperbarui dan izin apa yang dimintanya.
+
+## Yang tidak dilakukan kunci aplikasi
+
+- **Tidak memberi tahu bahwa seseorang mencoba.** Seseorang bisa mengambil ponselmu dan mencoba kode Folder Aman atau Ruang privasi, dan kamu tidak akan pernah tahu. Tidak ada yang disimpan dan tidak ada peringatan yang dikirim.
+- **Tidak menunjukkan siapa orangnya.** Tidak ada foto.
+- **Hanya melindungi yang kamu masukkan.** Semua yang lain di ponsel terbuka bagi siapa pun yang melewati layar kunci.
+- **Kunci yang memakai kunci layarmu tidak menghentikan orang yang tahu PIN-mu.** Ruang privasi dengan kunci perangkat dan Folder Terkunci di Foto terbuka bagi siapa pun yang mengetahuinya.
+
+Kunci aplikasi adalah pintu kedua. Pintu pertamanya tetap layar kunci, dan di sanalah berguna untuk tahu siapa yang mencoba.
+
+## Cara melihat siapa yang mencoba masuk ke ponselmu
+
+CrookCatcher tidak mengunci aplikasimu yang lain. CrookCatcher mengawasi layar kunci. Saat seseorang memasukkan PIN, pola, atau sandi yang salah, aplikasi ini mengambil foto dengan kamera depan, mencatat lokasi GPS, dan mengirim keduanya ke emailmu.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-id.webp" width="990" height="1024" loading="lazy" alt="Email peringatan CrookCatcher dengan foto penyusup, waktu percobaan, dan peta lokasi" />
+  <figcaption>Email yang dikirim CrookCatcher setelah percobaan buka kunci yang gagal.</figcaption>
+</figure>
+
+Keduanya saling melengkapi: kunci aplikasi menjaga aplikasi pribadimu tetap tertutup, dan CrookCatcher menunjukkan siapa yang mengambil ponsel dan mencoba masuk, entah orang di rumah atau pencuri. Foto, lokasi, dan emailnya gratis. Sejak 2014, CrookCatcher sudah diunduh lebih dari 12 juta kali. Penyiapannya hanya beberapa menit: baca [cara melihat siapa yang mencoba membuka ponselmu](/id/blog/see-who-tried-to-unlock-your-phone).
+
+<AppCta position="guide_mid" />
+
+## Pertanyaan yang Sering Diajukan
+
+### Q: Bisakah mengunci aplikasi tanpa aplikasi tambahan?
+A: Bisa, di kebanyakan ponsel. Pakai Folder Aman di Samsung, Ruang privasi di Android 15 atau yang lebih baru, atau kunci aplikasi di Xiaomi. Pasang pin aplikasi berfungsi di ponsel Android mana pun untuk saat kamu meminjamkannya.
+
+### Q: Bagaimana cara mengunci aplikasi di HP Samsung?
+A: Samsung tidak punya kunci yang menutup aplikasi di tempatnya. Jawaban Samsung adalah Folder Aman, yang menyimpan salinan aplikasi yang terkunci. Letaknya di `Setelan > Keamanan dan privasi > Pengaturan keamanan lainnya`.
+
+### Q: Bagaimana cara mengunci WhatsApp?
+A: Di WhatsApp, buka setelan, masuk ke Privasi, lalu aktifkan kunci aplikasi. Di Samsung, kamu juga bisa menambahkan WhatsApp ke Folder Aman, dan di Android 15 atau yang lebih baru ke Ruang privasi.
+
+### Q: Apakah mengunci aplikasi menyembunyikan notifikasinya?
+A: Dengan Ruang privasi, ya: aplikasi di Ruang privasi yang terkunci dihentikan dan tidak menampilkan notifikasi. Untuk cara lain, tergantung ponselnya, jadi periksa juga setelan notifikasi di layar kunci.
+
+### Q: Bisakah orang yang tahu PIN-ku membuka aplikasi yang terkunci?
+A: Kalau kuncinya memakai kunci layarmu, bisa. Beri Folder Aman atau Ruang privasi kode sendiri yang berbeda dari layar kuncimu.
+
+### Q: Bisakah aku melihat siapa yang mencoba membuka aplikasi yang terkunci?
+A: Kunci aplikasi Android dan Samsung tidak menyimpan catatan dan tidak mengambil foto. Untuk melihat siapa yang mencoba masuk ke ponselnya sendiri, aplikasi seperti CrookCatcher memotret siapa pun yang memasukkan PIN yang salah di layar kunci.
+
+## Sumber
+
+- Samsung US Support: [Use the Secure Folder on your Galaxy phone or tablet](https://www.samsung.com/us/support/answer/ANS10001401/) (bahasa Inggris)
+- Google, Bantuan Android: [Menyembunyikan aplikasi sensitif dengan ruang privasi](https://support.google.com/android/answer/15341885?hl=id)
+- Google, Bantuan Android: [Memasang dan melepas pin pada layar](https://support.google.com/android/answer/9455138?hl=id)
+- Xiaomi Support: [How to enable App lock](https://www.mi.com/global/support/faq/details/KA-508070/) (bahasa Inggris)
+- Pusat Bantuan WhatsApp: [How to use app lock](https://faq.whatsapp.com/1726618467788240/)
+- Bantuan Google Foto: [Menyembunyikan foto & video sensitif di Folder Terkunci](https://support.google.com/photos/answer/10694388?hl=id)
+- Android Authority: [Google is bringing back native app lock for Android, but not for everyone yet](https://www.androidauthority.com/google-android-pixel-app-lock-3695632/) (Agustus 2026, bahasa Inggris)
+
+## Panduan terkait
+
+- [Cara melihat siapa yang mencoba membuka ponselmu (dan mendapatkan fotonya)](/id/blog/see-who-tried-to-unlock-your-phone)
+- [Bisakah melihat percobaan buka kunci yang gagal di Android?](/id/blog/failed-unlock-attempts-android)
+- [5 setelan anti-maling Android untuk diaktifkan hari ini](/id/blog/top_five_settings)
+
+<AppCta position="guide_end" />

@@ -1,0 +1,124 @@
+---
+title: "Samsung Find: cómo localizar o rastrear un celular Samsung perdido o robado (2026)"
+subtitle: "Cómo usar Samsung Find desde cualquier navegador, qué activar antes de necesitarlo y qué no te puede decir"
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
+description: "Para localizar un celular o móvil Samsung perdido o robado, entra a Samsung Find (antes Find My Mobile) con tu cuenta Samsung. Puedes verlo en un mapa, hacerlo sonar, bloquearlo, rastrear su ubicación y borrar sus datos. Estos son los pasos, lo que debes activar antes y lo que Samsung Find no muestra: quién tiene el teléfono."
+image: '/images/blog/samsung-find-stolen-phone-header-es.png'
+imageAlt: 'Samsung Find: cómo localizar un Galaxy perdido o robado. Lo muestra en un mapa, lo hace sonar, lo bloquea y borra tus datos. No muestra quién lo tiene ni te avisa de los PIN incorrectos.'
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Para localizar un celular Samsung perdido o robado, abre [samsungfind.samsung.com](https://samsungfind.samsung.com) en cualquier navegador y entra con tu cuenta Samsung.** Verás el teléfono en un mapa y podrás hacerlo sonar, bloquearlo, rastrear su ubicación, alargar la batería o borrar sus datos. Funciona cuando el teléfono está encendido y tiene conexión. Si está apagado, Samsung solo muestra su última ubicación conocida. Samsung Find te dice dónde está el teléfono, pero nunca quién lo tiene.
+
+## Samsung Find, SmartThings Find y Find My Mobile
+
+Samsung usa tres nombres, y eso confunde:
+
+- **Samsung Find** es la app y el sitio web actuales para encontrar tus dispositivos Galaxy.
+- **SmartThings Find** es el mismo servicio dentro de la app SmartThings y en un sitio web propio. La ayuda de Samsung dice que puedes usar cualquiera de los dos.
+- **Find My Mobile** (en España, *Buscar mi móvil*) es el nombre anterior. Samsung lo sigue usando en los ajustes del propio teléfono.
+
+Para un teléfono perdido, todos llevan al mismo lugar. Esta guía usa Samsung Find.
+
+## Cómo localizar un celular Samsung
+
+Necesitas otro dispositivo con navegador: una computadora, una tablet o el teléfono de otra persona.
+
+1. Entra a [samsungfind.samsung.com](https://samsungfind.samsung.com) con la cuenta Samsung que está en tu teléfono.
+2. Tus dispositivos aparecen en una lista. Selecciona el teléfono.
+3. Su ubicación aparece en el mapa.
+
+Si tienes otro teléfono o tablet Galaxy, puedes usar ahí la **app Samsung Find**. Un familiar también puede encontrar tu teléfono desde su app Samsung Find, pero solo si antes compartiste su ubicación.
+
+**Si te robaron el teléfono, no vayas tú al lugar.** Samsung dice lo mismo: dale la ubicación a la policía y deja que ella lo recupere.
+
+## Qué puedes hacer desde Samsung Find
+
+- **Hacerlo sonar.** El teléfono suena durante un minuto, aunque esté en silencio o en vibración. Úsalo cuando esté por ahí cerca.
+- **Bloquearlo.** Creas un PIN y puedes agregar un contacto de emergencia y un mensaje para la pantalla de bloqueo, para que quien lo encuentre sepa a quién llamar. Samsung también lo llama **modo Perdido** y dice que restringe el acceso a Samsung Pay y Samsung Pass y evita que el teléfono se apague.
+- **Rastrear la ubicación.** Recibes una ubicación actualizada cada 15 minutos. Samsung lo sugiere para un teléfono olvidado en un autobús o un tren, o que tal vez fue robado.
+- **Extender la duración de la batería.** Activa a distancia el modo de máximo ahorro de energía, para que el teléfono siga encendido más tiempo mientras lo buscas.
+- **Notificarme cuando se encuentre.** Si el teléfono no se puede localizar ahora, Samsung te avisa por correo cuando sí se pueda.
+- **Borrar datos.** Un restablecimiento de fábrica a distancia. Samsung aclara que la tarjeta SD también se borra y que la protección del dispositivo de Google sigue activa, así que el teléfono seguirá pidiendo tu cuenta de Google después. Déjalo para el final, cuando estés seguro de que el teléfono no va a volver.
+
+Algunas de estas acciones, como Borrar datos, solo están en el sitio web y no en la app. Si no puedes borrar el teléfono, Samsung recomienda cambiar las contraseñas de las cuentas que tienen la sesión iniciada en él.
+
+## Activa esto antes de necesitarlo
+
+Samsung Find solo funciona si el teléfono se configuró para eso. Revísalo hoy:
+
+**Ve a:**
+`Ajustes > Seguridad y privacidad > Protección del dispositivo perdido`
+
+(En España el menú aparece como *Protección contra pérdida del dispositivo*.) Activa las tres opciones:
+
+- **Permitir que se encuentre este teléfono.** Samsung dice que se activa por defecto cuando agregas una cuenta Samsung, pero revísalo.
+- **Enviar última ubicación.** El teléfono guarda su última ubicación en el servidor de Samsung antes de apagarse.
+- **Búsqueda sin conexión.** Otros dispositivos Galaxy cercanos pueden detectar tu teléfono e informar dónde está, aunque no tenga datos móviles ni Wi-Fi.
+
+Tu Galaxy también tiene el Localizador de Google (Find Hub), que funciona por separado de Samsung Find. Deja los dos activados. Lee [cómo rastrear un celular robado con el Localizador de Google](/es/blog/find-stolen-android-phone).
+
+## Lo que Samsung Find no puede hacer
+
+- **Localizar un teléfono apagado.** Samsung dice que un teléfono apagado solo muestra su última ubicación conocida. La búsqueda sin conexión ayuda cuando el teléfono está encendido pero desconectado, no cuando está apagado.
+- **Funcionar sin cuenta Samsung.** Si nunca agregaste una al teléfono, no hay dónde iniciar sesión.
+- **Mostrarte quién tiene el teléfono.** Recibes un punto en un mapa. Sin foto, sin nombre.
+- **Avisarte que alguien intenta entrar.** No hay alerta cuando un desconocido ingresa PIN incorrectos en tu pantalla de bloqueo.
+
+Lo primero que suele hacer un ladrón es apagar el teléfono o activar el modo avión. Lee [cómo impedir que los ladrones apaguen tu teléfono](/es/blog/block-power-menu).
+
+## Cómo obtener una foto de quien tiene tu teléfono
+
+Una ubicación en un mapa sirve. Una foto de la persona que tiene tu teléfono en la mano, tomada en ese lugar, es lo que la policía puede usar.
+
+Eso es lo que agrega CrookCatcher. Casi todos los que agarran un teléfono bloqueado prueban algunos PIN. Cada vez que falla un intento de desbloqueo, CrookCatcher toma una foto con la cámara frontal, registra la ubicación GPS y una dirección aproximada, y te envía ambas cosas por correo. El correo queda en tu bandeja de entrada aunque apaguen el teléfono un minuto después.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-es.webp" width="990" height="1024" loading="lazy" alt="Correo de alerta de CrookCatcher con la foto del intruso, la hora del intento y un mapa con la ubicación" />
+  <figcaption>El correo que envía CrookCatcher después de un intento fallido de desbloqueo.</figcaption>
+</figure>
+
+Funciona junto con Samsung Find, no en su lugar: Samsung Find localiza y bloquea el teléfono, y CrookCatcher te muestra quién intentó pasar el bloqueo. Tiene que estar instalado antes de que el teléfono desaparezca. Desde 2014, CrookCatcher se ha descargado más de 12 millones de veces y toma alrededor de 1,2 millones de fotos de intrusos al día. Para los ajustes de bloqueo propios de Samsung, lee [cómo saber quién intentó desbloquear tu Samsung](/es/blog/samsung-who-tried-to-unlock).
+
+<AppCta position="guide_mid" />
+
+## Preguntas frecuentes
+
+### P: ¿Se puede localizar un celular Samsung apagado?
+R: No en vivo. Samsung dice que, con el teléfono apagado, solo está disponible la última ubicación conocida, y únicamente si **Enviar última ubicación** estaba activado. La búsqueda sin conexión funciona cuando el teléfono está encendido pero sin conexión.
+
+### P: ¿Samsung Find es lo mismo que Find My Mobile?
+R: Find My Mobile (Buscar mi móvil) es el nombre anterior, que Samsung sigue usando en los ajustes del teléfono. Samsung Find es la app y el sitio web actuales. Para localizar un teléfono perdido hacen lo mismo.
+
+### P: ¿Puedo encontrar mi dispositivo Samsung sin cuenta Samsung?
+R: No con Samsung Find. Prueba el Localizador de Google en [google.com/android/find](https://www.google.com/android/find), que usa la cuenta de Google que está en el teléfono.
+
+### P: ¿Uso Samsung Find o el Localizador de Google?
+R: Los dos. Son servicios separados, con cuentas separadas, y un Galaxy puede tener ambos activados. Si uno no localiza el teléfono, prueba el otro.
+
+### P: ¿Cómo bloqueo mi celular Samsung si me lo robaron?
+R: Entra a samsungfind.samsung.com, selecciona el teléfono y elige la opción de bloquear. Defines un PIN y puedes agregar un número de contacto y un mensaje para la pantalla de bloqueo.
+
+### P: ¿Samsung Find toma una foto del ladrón?
+R: No. Samsung Find muestra la ubicación del teléfono y permite hacerlo sonar, bloquearlo o borrarlo. Para tener una foto de quien intenta desbloquearlo necesitas una app como CrookCatcher, instalada de antemano.
+
+## Fuentes
+
+- Samsung México: [Samsung Find](https://www.samsung.com/mx/apps/samsung-find/) (funciones, modo Perdido y búsqueda sin conexión)
+- Samsung España: [Samsung Find](https://www.samsung.com/es/apps/samsung-find/)
+- Samsung US Support: [How to locate your lost Samsung Galaxy phone or tablet](https://www.samsung.com/us/support/answer/ANS10003600/) (en inglés)
+- Samsung: [sitio web de Samsung Find](https://samsungfind.samsung.com)
+- Google, Ayuda de Android: [Cómo borrar, encontrar o proteger un dispositivo Android perdido](https://support.google.com/android/answer/6160491?hl=es-419)
+
+## Guías relacionadas
+
+- [Cómo rastrear un celular robado con el Localizador de Google](/es/blog/find-stolen-android-phone)
+- [Cómo saber quién intentó desbloquear tu Samsung](/es/blog/samsung-who-tried-to-unlock)
+- [Cómo impedir que los ladrones apaguen tu teléfono](/es/blog/block-power-menu)
+
+<AppCta position="guide_end" />

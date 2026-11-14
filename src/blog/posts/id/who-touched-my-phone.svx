@@ -1,0 +1,110 @@
+---
+title: "Siapa yang Membuka HP Saya? Cara Mengetahuinya di Android (2026)"
+subtitle: Apa yang ditunjukkan Android sendiri, apa yang dicatat aplikasi WTMP (Who Touched My Phone), dan cara menerima fotonya lewat email
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
+description: "Android tidak bisa menunjukkan siapa yang membuka atau menyentuh ponselmu. Untuk mengetahuinya, kamu perlu aplikasi yang memotret orangnya di layar kunci. Berikut yang dicatat WTMP (Who Touched My Phone), bedanya dengan CrookCatcher, dan mana yang cocok untuk situasimu."
+image: '/images/blog/who-touched-my-phone-header-id.png'
+imageAlt: 'Siapa yang membuka HP saya? Android: tanpa catatan, tanpa foto. WTMP: laporan di aplikasi. CrookCatcher: foto lewat email.'
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Android tidak bisa memberi tahu siapa yang membuka ponselmu. Android tidak menyimpan daftar siapa yang membuka kuncinya dan tidak pernah mengambil foto.** Untuk mengetahuinya, kamu perlu aplikasi yang memakai kamera depan saat seseorang membuka kunci ponsel atau salah memasukkan PIN. Yang paling dikenal adalah WTMP, singkatan dari "Who Touched My Phone" (siapa yang menyentuh ponselku), yang menyimpan laporan di ponsel setiap kali itu terjadi. CrookCatcher mengambil foto saat seseorang memasukkan PIN yang salah dan mengirimkannya ke emailmu bersama lokasinya. Mana yang cocok bergantung pada apa yang kamu khawatirkan: orang di rumah, atau pencurian.
+
+Kami yang membuat CrookCatcher, jadi bacalah dengan mengingat hal itu. Keterangan tentang WTMP diambil dari halaman Google Play aplikasinya sendiri per 14 November 2026. Panduan ini tentang melindungi ponselmu sendiri.
+
+## Yang ditunjukkan Android sendiri
+
+Tidak banyak. Saat seseorang memasukkan PIN yang salah, Android menolaknya dan, setelah beberapa kali, membuat orang itu menunggu. Android tidak menyimpan percobaan itu di tempat yang bisa kamu lihat dan tidak memakai kamera. Baca [apa yang dilakukan Android terhadap percobaan buka kunci yang gagal](/id/blog/failed-unlock-attempts-android).
+
+Kalau seseorang berhasil masuk, ada jejaknya: Kesejahteraan Digital (Digital Wellbeing) menghitung berapa kali ponsel dibuka kuncinya dan aplikasi apa yang dibuka, dan histori browser serta aktivitas akun Google menunjukkan apa yang dilakukan. Tidak satu pun menunjukkan siapa orangnya.
+
+## Yang dilakukan aplikasi WTMP
+
+WTMP — Who touched my phone? dibuat oleh Mindfulness Devs. Aplikasi ini sudah diunduh lebih dari 10 juta kali, dan halamannya terakhir diperbarui pada Oktober 2026. Begini cara kerjanya menurut halaman itu:
+
+1. Kamu membuka aplikasi, mengetuk tombolnya, lalu mengunci ponsel.
+2. Saat seseorang membuka kunci ponsel, atau mencobanya, aplikasi mulai membuat laporan: foto dari kamera depan dan daftar aplikasi yang dibuka.
+3. Saat layar mati, laporan disimpan.
+4. Kamu membaca laporannya di aplikasi dan bisa menyinkronkannya ke cloud.
+
+Aplikasi ini memakai izin **Admin perangkat** Android untuk mengetahui percobaan buka kunci yang salah. Pemasangannya gratis, dengan pembelian dalam aplikasi.
+
+Dua hal dari keterangan itu penting:
+
+- **Aplikasi ini juga mencatat buka kunci yang benar.** Kalau seseorang tahu PIN-mu, kamu tetap mendapat fotonya dan melihat aplikasi apa yang ia buka. Itu kelebihan WTMP.
+- **Laporannya tetap di aplikasi.** Halamannya tidak menyebut peringatan email atau lokasi. Kamu melihat apa yang terjadi saat ponsel sudah kembali di tanganmu.
+
+## Yang dilakukan CrookCatcher secara berbeda
+
+CrookCatcher bereaksi saat seseorang memasukkan PIN, pola, atau sandi yang salah. Aplikasi ini mengambil foto dengan kamera depan, mencatat lokasi GPS dan perkiraan alamat, lalu mengirim semuanya ke emailmu. Kamu tidak perlu memegang ponsel untuk melihatnya.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-id.webp" width="990" height="1024" loading="lazy" alt="Email peringatan CrookCatcher dengan foto penyusup, waktu percobaan, dan peta lokasi" />
+  <figcaption>Email yang dikirim CrookCatcher setelah percobaan buka kunci yang gagal.</figcaption>
+</figure>
+
+Foto, lokasi, dan email itu gratis. CrookCatcher Pro menambahkan **deteksi pembobolan**, yang juga memotret orang yang salah memasukkan PIN lalu menebaknya dengan benar, ditambah video dengan suara dan pencadangan ke Google Drive. CrookCatcher ada di Google Play sejak 2014 dan mengambil sekitar 1,2 juta foto penyusup per hari.
+
+Yang tidak dilakukannya: tidak memotret orang yang memasukkan PIN yang benar pada percobaan pertama, dan tidak mencatat aplikasi yang dibuka.
+
+<AppCta position="guide_mid" />
+
+## Perbandingan WTMP dan CrookCatcher
+
+| | WTMP | CrookCatcher |
+| --- | --- | --- |
+| Foto setelah PIN salah | Ya | Ya |
+| Foto setelah buka kunci yang benar | Ya | Hanya setelah percobaan salah (Pro) |
+| Daftar aplikasi yang dibuka | Ya | Tidak |
+| Peringatan email dengan foto | Tidak disebutkan | Ya |
+| Lokasi GPS | Tidak disebutkan | Ya |
+| Tempat melihatnya | Di aplikasi, sinkronisasi cloud opsional | Di aplikasi dan di emailmu |
+| Harga | Gratis, pembelian dalam aplikasi | Gratis, pembelian dalam aplikasi |
+
+"Tidak disebutkan" berarti halaman Google Play aplikasi itu tidak menjelaskan fiturnya.
+
+## Mana yang sebaiknya dipakai?
+
+- **Seseorang di rumah atau di kantor mungkin tahu PIN-mu:** WTMP, karena mencatat buka kunci yang benar dan aplikasi yang dibuka. Setelah itu, ganti PIN-mu.
+- **Kamu memikirkan pencurian, atau ponsel yang tertinggal di suatu tempat:** CrookCatcher, karena foto dan lokasinya sampai ke emailmu saat ponsel tidak ada padamu.
+- **Seseorang terus menebak PIN-mu:** keduanya bisa. CrookCatcher langsung memberi tahu lewat email; WTMP menunjukkannya saat kamu membuka aplikasi berikutnya.
+
+Apa pun pilihanmu, uji dulu: kunci ponsel, masukkan PIN yang salah dengan sengaja, buka kuncinya, dan periksa apakah fotomu sendiri ada. Uji lagi seminggu kemudian, karena beberapa ponsel menghentikan aplikasi latar belakang setelah beberapa hari.
+
+## Pertanyaan yang Sering Diajukan
+
+### Q: Bisakah Android menunjukkan siapa yang membuka HP saya?
+A: Tidak. Android tidak punya catatan siapa yang membuka kunci ponsel dan tidak pernah mengambil foto. Kesejahteraan Digital menunjukkan berapa kali ponsel dibuka kuncinya, tetapi tidak oleh siapa.
+
+### Q: Bagaimana cara mengetahui HP kita dibuka orang lain?
+A: Periksa di Kesejahteraan Digital apakah ada buka kunci yang bukan darimu. Untuk tahu siapa orangnya, pasang salah satu aplikasi ini lebih dulu, supaya percobaan berikutnya terpotret.
+
+### Q: Apakah aplikasi Who Touched My Phone gratis?
+A: WTMP gratis dipasang, dan halaman Google Play-nya menyebut pembelian dalam aplikasi. CrookCatcher juga gratis dipasang; foto, lokasi, dan peringatan email sudah ada di versi gratis.
+
+### Q: Apakah aplikasi WTMP aman?
+A: Bagian keamanan data di Google Play menyebut tidak ada data yang dikumpulkan dan tidak ada yang dibagikan ke pihak ketiga. Seperti semua aplikasi sejenis, WTMP butuh izin Admin perangkat, yang harus dinonaktifkan dulu sebelum aplikasi bisa dihapus.
+
+### Q: Apakah aplikasi ini bekerja dengan sidik jari atau buka kunci wajah?
+A: Kamu tetap bisa memakai keduanya. CrookCatcher bereaksi terhadap PIN, pola, atau sandi yang salah; sidik jari atau wajah yang gagal tidak memicu foto. Halaman WTMP menyebut aplikasinya mencatat saat ponsel dibuka kuncinya atau saat ada percobaan.
+
+### Q: Mengapa aplikasinya tidak mengambil foto?
+A: Paling sering karena penghemat baterai ponsel menghentikan aplikasi di latar belakang, atau ponsel baru saja dimulai ulang. Setelah dimulai ulang, Android baru mengizinkan aplikasi memakai kamera setelah ponsel dibuka kuncinya satu kali.
+
+## Sumber
+
+- Halaman Google Play [WTMP — Who touched my phone?](https://play.google.com/store/apps/details?id=com.wtmp.svdsoftware), seperti yang ditampilkan di toko AS pada 14 November 2026
+- Android Developers: [DeviceAdminReceiver](https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver) (cara aplikasi diberi tahu tentang percobaan buka kunci yang gagal)
+
+## Panduan terkait
+
+- [Cara melihat siapa yang mencoba membuka ponselmu (dan mendapatkan fotonya)](/id/blog/see-who-tried-to-unlock-your-phone)
+- [Bisakah melihat percobaan buka kunci yang gagal di Android?](/id/blog/failed-unlock-attempts-android)
+- [Cara tahu siapa yang mencoba membuka HP Samsung-mu](/id/blog/samsung-who-tried-to-unlock)
+
+<AppCta position="guide_end" />

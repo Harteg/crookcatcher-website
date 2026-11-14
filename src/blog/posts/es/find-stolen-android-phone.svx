@@ -1,0 +1,126 @@
+---
+title: "Cómo rastrear un celular robado con Encontrar mi dispositivo (Localizador de Google) (2026)"
+subtitle: "Cómo localizar, bloquear o borrar tu celular Android desde otro dispositivo, qué pasa cuando está sin conexión o apagado y qué no te muestra el Localizador"
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
+description: "Para rastrear un celular o móvil Android perdido o robado, entra al Localizador de Google (Find Hub, antes Encontrar mi dispositivo) en google.com/android/find con la cuenta de Google del teléfono. Estos son los pasos, los ajustes para localizarlo sin conexión o apagado y lo que el Localizador no muestra: quién tiene el teléfono."
+image: '/images/blog/find-stolen-android-phone-header-es.png'
+imageAlt: 'Cómo rastrear un celular Android robado. El Localizador de Google lo muestra en un mapa, reproduce un sonido, lo bloquea y lo borra. No muestra quién lo tiene ni te avisa de los PIN incorrectos.'
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Para rastrear un celular Android perdido o robado, entra a [google.com/android/find](https://www.google.com/android/find) desde cualquier navegador, o abre la app Localizador en otro dispositivo Android, e inicia sesión con la cuenta de Google que está en el teléfono.** El Localizador muestra el teléfono en un mapa y te permite reproducir un sonido, marcarlo como perdido o borrarlo. Para bloquearlo o borrarlo, el teléfono necesita batería y conexión a datos móviles o Wi-Fi. Si te lo robaron, dale la ubicación a la policía y no vayas tú al lugar.
+
+Localizador es el nombre en español de Find Hub, el servicio que Google antes llamaba Encontrar mi dispositivo. Es el mismo servicio.
+
+## Cómo encontrar mi dispositivo con el Localizador
+
+Google dice que el Localizador se activa automáticamente cuando agregas una cuenta de Google a un teléfono, así que vale la pena intentarlo aunque nunca hayas configurado nada.
+
+1. En una computadora u otro teléfono, entra a [google.com/android/find](https://www.google.com/android/find). En otro dispositivo Android puedes usar la **app Localizador**.
+2. Inicia sesión con la cuenta de Google del teléfono perdido. En el teléfono de un amigo, abre la app Localizador y elige **Acceder como invitado**.
+3. Selecciona el teléfono en la lista de dispositivos. Es posible que te pida el PIN de la pantalla de bloqueo del teléfono perdido o tu contraseña de Google.
+4. El mapa muestra dónde está el teléfono. Si no se encuentra su ubicación actual, puede aparecer la última ubicación conocida.
+
+El teléfono perdido recibe una notificación cuando haces esto.
+
+Google calcula la ubicación con el GPS (con un margen de unos 20 metros al aire libre), las redes Wi-Fi cercanas y las torres de telefonía, que pueden fallar por unos pocos miles de metros. El círculo alrededor del pin indica qué tan confiable es la ubicación.
+
+## Qué puedes hacer desde el Localizador
+
+- **Reproducir sonido.** El teléfono suena al volumen máximo durante 5 minutos, aunque esté en silencio o en vibración.
+- **Marcar como perdido.** Bloquea el teléfono con tu PIN, patrón o contraseña y te deja poner información de contacto y un mensaje en la pantalla de bloqueo. En Android 17 o posterior, con huella o desbloqueo facial configurados, el teléfono pide entonces el PIN y también la huella o el rostro, y oculta las notificaciones y los widgets.
+- **Restablecer la configuración de fábrica.** Borra todo el contenido del teléfono de forma permanente, aunque puede que no borre la tarjeta SD. Después, el teléfono ya no aparece en el Localizador, así que déjalo para el final. Si recuperas el teléfono, necesitarás la contraseña de tu cuenta de Google para volver a usarlo.
+- **Ver el IMEI.** Abre la configuración del dispositivo en el Localizador para ver su número IMEI. Tu operador puede usarlo para inhabilitar el teléfono.
+
+También puedes bloquear el teléfono solo con tu número en [android.com/lock](https://www.android.com/lock). Eso es el Bloqueo remoto, y hay que activarlo antes: lee [5 ajustes antirrobo de Android para activar hoy](/es/blog/top_five_settings).
+
+## Cómo localizar un celular apagado o sin conexión
+
+Aquí es donde terminan la mayoría de las búsquedas de un teléfono robado. Lo que el Localizador todavía puede hacer depende de un ajuste:
+
+**Ve a:**
+`Configuración > Google > Todos los servicios > Localizador > Encontrar dispositivos sin conexión` (en España, `Ajustes`)
+
+- **Desactivado:** no se guardan ubicaciones recientes y el teléfono no participa en la red de Localizador.
+- **Sin red:** el Localizador puede mostrar dónde estaba el teléfono la última vez que estuvo en línea.
+- **Con red solo en lugares concurridos:** otros dispositivos Android cercanos también pueden detectar tu teléfono por Bluetooth e informar su ubicación, en lugares como aeropuertos o calles con mucha gente.
+- **Con red en todas partes:** lo mismo, también en zonas tranquilas y remotas.
+
+Las opciones con red necesitan un PIN, un patrón o una contraseña en tu teléfono. Las ubicaciones están encriptadas de extremo a extremo.
+
+**Cuando el teléfono está apagado o sin batería:** Google dice que los dispositivos compatibles, como la serie Pixel 8, todavía se pueden localizar con la red durante varias horas. Hace falta una de las dos opciones con red, y que el Bluetooth y la Ubicación estén activados cuando el teléfono se apague. En la mayoría de los demás teléfonos, apagado significa que solo ves la última ubicación conocida.
+
+## Revisa estos ajustes hoy
+
+Cinco minutos ahora te ahorran mucho después:
+
+- **Cuenta de Google:** revisa en Configuración que tu cuenta esté en el teléfono.
+- **Ubicación:** `Configuración > Ubicación`, activada.
+- **Localizador:** `Configuración > Seguridad > Localizador`, con **Permitir que se ubique el dispositivo** activado.
+- **Dispositivos sin conexión:** elige una de las opciones con red descritas arriba.
+- **Códigos de respaldo:** si tu teléfono es tu método de verificación en dos pasos, podrías quedarte sin acceso a tu cuenta de Google cuando te lo roben. Crea códigos de respaldo en tu Cuenta de Google, en la verificación en dos pasos, y guárdalos en otro lugar que no sea el teléfono.
+- **Pruébalo:** abre google.com/android/find y revisa que tu teléfono aparezca.
+
+Los nombres de los menús cambian un poco entre marcas. Si no encuentras alguno, busca "Localizador" en Configuración. En un Samsung Galaxy, configura también el servicio de Samsung, Samsung Find, en `Ajustes > Seguridad y privacidad > Protección del dispositivo perdido`.
+
+## Lo que el Localizador no puede hacer
+
+- **Bloquear o borrar un teléfono apagado o sin conexión.** Para eso necesita batería y conexión.
+- **Impedir que un ladrón apague el teléfono.** Lee [cómo impedir que los ladrones apaguen tu teléfono](/es/blog/block-power-menu).
+- **Mostrarte quién tiene el teléfono.** Recibes una ubicación, no una cara.
+- **Avisarte que alguien intenta desbloquearlo.** No hay alerta cuando un desconocido ingresa PIN incorrectos.
+
+## Cómo obtener una foto de quien tiene tu teléfono
+
+Un punto en un mapa te dice dónde está el teléfono. No te dice cuál de las personas que están ahí lo tiene, y muchas veces la ubicación sola no alcanza para que la policía actúe.
+
+Ese es el vacío que cubre CrookCatcher. Casi todos los que agarran un teléfono bloqueado prueban algunos PIN. Cada vez que falla un intento de desbloqueo, CrookCatcher toma una foto con la cámara frontal, registra la ubicación GPS y una dirección aproximada, y te envía ambas cosas por correo. El correo queda en tu bandeja de entrada aunque apaguen el teléfono un minuto después.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-es.webp" width="990" height="1024" loading="lazy" alt="Correo de alerta de CrookCatcher con la foto del intruso, la hora del intento y un mapa con la ubicación" />
+  <figcaption>El correo que envía CrookCatcher después de un intento fallido de desbloqueo.</figcaption>
+</figure>
+
+Usa los dos: el Localizador para ubicar y bloquear el teléfono, y CrookCatcher para ver quién intentó pasar el bloqueo. Igual que los ajustes del Localizador, tiene que estar listo antes de que el teléfono desaparezca. Desde 2014, CrookCatcher se ha descargado más de 12 millones de veces y toma alrededor de 1,2 millones de fotos de intrusos al día. Configurarlo toma unos minutos: lee [cómo saber quién intentó desbloquear tu teléfono](/es/blog/see-who-tried-to-unlock-your-phone).
+
+<AppCta position="guide_mid" />
+
+## Preguntas frecuentes
+
+### P: ¿Se puede rastrear un celular apagado?
+R: En dispositivos compatibles, como la serie Pixel 8, la red de Localizador todavía puede ubicar el teléfono durante varias horas después de apagarse, si la búsqueda sin conexión con red estaba activada. En otros teléfonos ves la última ubicación conocida.
+
+### P: ¿Puedo localizar mi celular sin conexión a Internet?
+R: El Localizador puede mostrar dónde estaba el teléfono la última vez que estuvo en línea. Si la búsqueda sin conexión con red está activada, otros dispositivos Android cercanos también pueden informar su ubicación por Bluetooth.
+
+### P: ¿El Localizador, Find Hub y Encontrar mi dispositivo son lo mismo?
+R: Sí. Google le cambió el nombre a Encontrar mi dispositivo por Find Hub, que en español aparece como Localizador. El sitio web, google.com/android/find, es el mismo.
+
+### P: ¿Puedo rastrear mi celular robado por IMEI?
+R: Tú mismo, no. Google describe el IMEI como algo que tu operador puede usar para inhabilitar el teléfono. El Localizador te muestra el IMEI para que se lo des al operador y a la policía.
+
+### P: ¿Debo borrar mi celular robado?
+R: Solo cuando estés seguro de que no lo vas a recuperar. Google dice que un teléfono al que se le restableció la configuración de fábrica ya no está disponible en el Localizador, así que después no podrás ubicarlo. Primero márcalo como perdido.
+
+### P: ¿El Localizador muestra quién tiene mi teléfono?
+R: No. Muestra una ubicación y te permite hacer sonar, bloquear o borrar el teléfono. Para tener una foto de quien intenta desbloquearlo necesitas una app como CrookCatcher, instalada de antemano.
+
+## Fuentes
+
+- Google, Ayuda de Android: [Cómo borrar, encontrar o proteger un dispositivo Android perdido](https://support.google.com/android/answer/6160491?hl=es-419)
+- Google, Ayuda de Android: [Prepárate para encontrar un dispositivo Android perdido](https://support.google.com/android/answer/3265955?hl=es-419)
+- Google: [Localizador (Find Hub)](https://www.google.com/android/find)
+- Google: [Bloqueo remoto (android.com/lock)](https://www.android.com/lock)
+
+## Guías relacionadas
+
+- [5 ajustes antirrobo de Android para activar hoy](/es/blog/top_five_settings)
+- [Cómo impedir que los ladrones apaguen tu teléfono](/es/blog/block-power-menu)
+- [Cómo saber quién intentó desbloquear tu teléfono (y obtener su foto)](/es/blog/see-who-tried-to-unlock-your-phone)
+
+<AppCta position="guide_end" />

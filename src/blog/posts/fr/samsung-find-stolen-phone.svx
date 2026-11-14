@@ -1,0 +1,123 @@
+---
+title: "Samsung Find : comment localiser un téléphone Samsung perdu ou volé (2026)"
+subtitle: "Comment utiliser Samsung Find depuis n'importe quel navigateur, quoi activer avant d'en avoir besoin, et ce qu'il ne peut pas vous dire"
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
+description: "Pour localiser un téléphone Samsung perdu ou volé, connectez-vous à Samsung Find avec votre compte Samsung. Vous pouvez voir le téléphone sur une carte, le faire sonner, le verrouiller, suivre sa position et effacer ses données. Voici les étapes, les réglages à activer avant, et ce que Samsung Find ne montre pas : qui a le téléphone."
+image: '/images/blog/samsung-find-stolen-phone-header-fr.png'
+imageAlt: "Samsung Find : localiser un Galaxy perdu ou volé. Il montre le téléphone sur une carte, le fait sonner, le verrouille et efface vos données. Il ne montre pas qui l'a et n'alerte pas en cas de mauvais code."
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Pour localiser un téléphone Samsung perdu ou volé, ouvrez [samsungfind.samsung.com](https://samsungfind.samsung.com) dans n'importe quel navigateur et connectez-vous avec votre compte Samsung.** Vous voyez le téléphone sur une carte et vous pouvez le faire sonner, le verrouiller, suivre sa position, prolonger son autonomie ou effacer ses données. Cela fonctionne quand le téléphone est allumé et connecté. S'il est éteint, Samsung n'affiche que sa dernière position connue. Samsung Find vous dit où est le téléphone, jamais qui l'a entre les mains.
+
+## Samsung Find, SmartThings Find et Traçage du mobile
+
+Samsung utilise trois noms, ce qui prête à confusion :
+
+- **Samsung Find** est l'application et le site actuels pour retrouver vos appareils Galaxy.
+- **SmartThings Find** est le même service dans l'application SmartThings et sur un site à part. L'aide de Samsung indique que vous pouvez utiliser l'un ou l'autre.
+- **Traçage du mobile** (Find My Mobile, parfois *Localiser mon mobile*) est l'ancien nom. Samsung l'utilise encore dans les paramètres du téléphone.
+
+Pour un téléphone perdu, tous mènent au même endroit. Ce guide parle de Samsung Find.
+
+## Comment localiser un téléphone Samsung
+
+Il vous faut un autre appareil avec un navigateur : un ordinateur, une tablette ou le téléphone de quelqu'un d'autre.
+
+1. Allez sur [samsungfind.samsung.com](https://samsungfind.samsung.com) et connectez-vous avec le compte Samsung présent sur votre téléphone.
+2. Vos appareils apparaissent dans une liste. Sélectionnez le téléphone.
+3. Sa position s'affiche sur la carte.
+
+Si vous avez un autre téléphone ou une tablette Galaxy, vous pouvez y utiliser l'**application Samsung Find**. Un membre de votre famille peut aussi retrouver votre téléphone depuis son application Samsung Find, mais seulement si vous aviez partagé sa position au préalable.
+
+**Si le téléphone a été volé, n'allez pas sur place vous-même.** Samsung le dit aussi : transmettez la position à la police et laissez-la récupérer l'appareil.
+
+## Ce que vous pouvez faire depuis Samsung Find
+
+- **Faire sonner.** Le téléphone sonne pendant une minute, même en mode silencieux ou vibreur. Utile quand il est quelque part à proximité.
+- **Verrouiller.** Vous créez un code PIN et pouvez ajouter un contact d'urgence et un message pour l'écran de verrouillage, afin que la personne qui le trouve sache qui appeler. Samsung appelle aussi cela le **mode Perdu** et précise qu'il limite l'accès à Samsung Pay et Samsung Pass et empêche d'éteindre le téléphone.
+- **Suivre la position.** Vous recevez une position mise à jour toutes les 15 minutes. Samsung le conseille pour un téléphone oublié dans un bus ou un train, ou peut-être volé.
+- **Prolonger l'autonomie de la batterie.** Active à distance le mode d'économie d'énergie maximale, pour que le téléphone reste allumé plus longtemps pendant vos recherches.
+- **Être averti quand il est retrouvé.** Si le téléphone ne peut pas être localisé maintenant, Samsung vous envoie un e-mail quand c'est le cas.
+- **Effacer les données.** Une réinitialisation d'usine à distance. Samsung précise que la carte SD est effacée elle aussi et que la protection de l'appareil de Google reste active : le téléphone demandera encore votre compte Google ensuite. À garder pour la fin, quand vous êtes sûr de ne pas récupérer le téléphone.
+
+Certaines de ces actions, dont l'effacement des données, ne sont disponibles que sur le site, pas dans l'application. Si vous ne pouvez pas effacer le téléphone, Samsung recommande de changer les mots de passe des comptes qui y sont connectés.
+
+## À activer avant d'en avoir besoin
+
+Samsung Find ne fonctionne que si le téléphone a été configuré pour. Vérifiez aujourd'hui :
+
+**Allez dans :**
+`Paramètres > Sécurité et confidentialité > Protection de l'appareil perdu > Traçage du mobile`
+
+Activez les trois options :
+
+- **Autoriser la localisation de ce téléphone.** Samsung indique que c'est activé par défaut quand vous ajoutez un compte Samsung, mais vérifiez.
+- **Envoi de la dernière position.** Le téléphone enregistre sa dernière position sur le serveur de Samsung avant de s'éteindre.
+- **Détection hors ligne.** Les autres appareils Galaxy à proximité peuvent détecter votre téléphone et signaler où il se trouve, même sans données mobiles ni Wi-Fi.
+
+Votre Galaxy dispose aussi du service de Google, Localiser (Find Hub), qui fonctionne séparément de Samsung Find. Gardez les deux activés. Voir [comment localiser un téléphone Android perdu ou volé](/fr/blog/find-stolen-android-phone).
+
+## Ce que Samsung Find ne peut pas faire
+
+- **Localiser un téléphone éteint.** Samsung indique qu'un téléphone éteint n'affiche que sa dernière position connue. La détection hors ligne aide quand le téléphone est allumé mais sans connexion, pas quand il est éteint.
+- **Fonctionner sans compte Samsung.** Si vous n'en avez jamais ajouté sur le téléphone, il n'y a rien à quoi se connecter.
+- **Vous montrer qui a le téléphone.** Vous obtenez un point sur une carte. Pas de photo, pas de nom.
+- **Vous prévenir que quelqu'un essaie d'entrer.** Aucune alerte quand un inconnu saisit de mauvais codes sur votre écran de verrouillage.
+
+Le premier geste d'un voleur est souvent d'éteindre le téléphone ou d'activer le mode Avion. Voir [comment empêcher les voleurs d'éteindre votre téléphone](/fr/blog/block-power-menu).
+
+## Comment obtenir une photo de la personne qui a votre téléphone
+
+Une position sur une carte, c'est utile. Une photo de la personne qui tient votre téléphone, prise à cet endroit, c'est ce que la police peut exploiter.
+
+C'est ce qu'ajoute CrookCatcher. Presque tous ceux qui ramassent un téléphone verrouillé essaient quelques codes. À chaque tentative de déverrouillage ratée, CrookCatcher prend une photo avec la caméra frontale, enregistre la position GPS et une adresse approximative, et vous envoie le tout par e-mail. L'e-mail est dans votre boîte de réception même si le téléphone est éteint une minute plus tard.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-fr.webp" width="990" height="1101" loading="lazy" alt="E-mail d'alerte CrookCatcher avec la photo de l'intrus, l'heure de la tentative et une carte avec la position" />
+  <figcaption>L'e-mail envoyé par CrookCatcher après une tentative de déverrouillage ratée.</figcaption>
+</figure>
+
+Il fonctionne en complément de Samsung Find, pas à sa place : Samsung Find localise et verrouille le téléphone, et CrookCatcher vous montre qui a essayé de passer le verrouillage. Il doit être installé avant que le téléphone disparaisse. Depuis 2014, CrookCatcher a été téléchargé plus de 12 millions de fois et prend environ 1,2 million de photos d'intrus par jour. Pour les réglages de verrouillage propres à Samsung, voir [qui a essayé de déverrouiller votre Samsung](/fr/blog/samsung-who-tried-to-unlock).
+
+<AppCta position="guide_mid" />
+
+## Questions fréquentes
+
+### Q : Peut-on localiser un téléphone Samsung éteint ?
+R : Pas en direct. Samsung indique que, téléphone éteint, seule la dernière position connue est disponible, et uniquement si **Envoi de la dernière position** était activé. La détection hors ligne fonctionne quand le téléphone est allumé mais sans connexion.
+
+### Q : Samsung Find et Traçage du mobile, est-ce la même chose ?
+R : Traçage du mobile (Find My Mobile) est l'ancien nom, que Samsung utilise encore dans les paramètres du téléphone. Samsung Find est l'application et le site actuels. Pour localiser un téléphone perdu, ils font le même travail.
+
+### Q : Puis-je localiser mon Samsung sans compte Samsung ?
+R : Pas avec Samsung Find. Essayez le service de Google sur [google.com/android/find](https://www.google.com/android/find), qui utilise le compte Google présent sur le téléphone.
+
+### Q : Faut-il utiliser Samsung Find ou Localiser de Google ?
+R : Les deux. Ce sont des services distincts, avec des comptes distincts, et un Galaxy peut avoir les deux activés. Si l'un ne trouve pas le téléphone, essayez l'autre.
+
+### Q : Comment verrouiller mon téléphone Samsung volé ?
+R : Connectez-vous sur samsungfind.samsung.com, sélectionnez le téléphone et choisissez le verrouillage. Vous définissez un code PIN et pouvez ajouter un numéro de contact et un message pour l'écran de verrouillage.
+
+### Q : Samsung Find prend-il une photo du voleur ?
+R : Non. Samsung Find affiche la position du téléphone et permet de le faire sonner, de le verrouiller ou de l'effacer. Pour obtenir une photo de quelqu'un qui essaie de le déverrouiller, il faut une application comme CrookCatcher, installée au préalable.
+
+## Sources
+
+- Samsung France : [Samsung Find](https://www.samsung.com/fr/apps/samsung-find/) (fonctions, mode Perdu et détection hors ligne)
+- Samsung US Support : [How to locate your lost Samsung Galaxy phone or tablet](https://www.samsung.com/us/support/answer/ANS10003600/) (en anglais)
+- Samsung : [site Samsung Find](https://samsungfind.samsung.com)
+- Google, Aide Android : [Localiser un appareil Android égaré, le sécuriser ou en effacer les données](https://support.google.com/android/answer/6160491?hl=fr)
+
+## Guides associés
+
+- [Comment localiser un téléphone Android perdu ou volé](/fr/blog/find-stolen-android-phone)
+- [Qui a essayé de déverrouiller votre Samsung ?](/fr/blog/samsung-who-tried-to-unlock)
+- [Comment empêcher les voleurs d'éteindre votre téléphone](/fr/blog/block-power-menu)
+
+<AppCta position="guide_end" />

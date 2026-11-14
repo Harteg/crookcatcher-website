@@ -1,0 +1,126 @@
+---
+title: "Cara Melacak HP yang Hilang atau Dicuri dengan Hub Pencari (Temukan Perangkat Saya) (2026)"
+subtitle: Cara menemukan, mengunci, atau menghapus ponsel Android dari perangkat lain, apa yang terjadi saat ponsel offline atau mati, dan apa yang tidak ditunjukkan Hub Pencari
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
+description: "Untuk melacak HP Android yang hilang atau dicuri, masuk ke Hub Pencari (Find Hub, dulu Temukan Perangkat Saya atau Find My Device) di google.com/android/find dengan akun Google di ponsel itu. Berikut langkahnya, setelan untuk melacak HP dalam keadaan mati atau offline, dan yang tidak ditunjukkan Hub Pencari: siapa yang memegang ponselmu."
+image: '/images/blog/find-stolen-android-phone-header-id.png'
+imageAlt: 'Cara melacak HP Android yang dicuri. Hub Pencari menampilkannya di peta, memutar suara, mengunci, dan menghapusnya. Tidak menunjukkan siapa yang memegangnya dan tidak memberi tahu soal PIN yang salah.'
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Untuk melacak HP Android yang hilang atau dicuri, buka [google.com/android/find](https://www.google.com/android/find) di browser mana pun, atau buka aplikasi Hub Pencari di perangkat Android lain, lalu login dengan akun Google yang ada di ponsel itu.** Hub Pencari menampilkan ponsel di peta dan memungkinkan kamu memutar suara, menandainya hilang, atau menghapusnya. Untuk mengunci atau menghapus, ponsel harus menyala dan terhubung ke data seluler atau Wi-Fi. Kalau ponselmu dicuri, berikan lokasinya kepada polisi dan jangan datangi sendiri.
+
+Hub Pencari adalah nama Indonesia untuk Find Hub, layanan Google yang dulu bernama Temukan Perangkat Saya (Find My Device). Layanannya sama.
+
+## Cara melacak HP yang hilang dengan Hub Pencari
+
+Google menyebut Hub Pencari aktif otomatis saat kamu menambahkan akun Google ke ponsel, jadi tetap layak dicoba meskipun kamu belum pernah menyiapkan apa pun.
+
+1. Di komputer atau ponsel lain, buka [google.com/android/find](https://www.google.com/android/find). Di perangkat Android lain, kamu bisa memakai **aplikasi Hub Pencari**.
+2. Login dengan akun Google (alamat Gmail) dari ponsel yang hilang. Di ponsel teman, buka aplikasi Hub Pencari dan pilih **Login sebagai tamu**.
+3. Pilih ponselnya dari daftar perangkat. Kamu mungkin diminta memasukkan PIN layar kunci ponsel yang hilang, atau sandi Google-mu.
+4. Peta menunjukkan lokasi ponsel. Kalau lokasi saat ini tidak ditemukan, kamu mungkin melihat lokasi terakhir yang diketahui.
+
+Ponsel yang hilang akan mendapat notifikasi saat kamu melakukannya.
+
+Google memperkirakan lokasi dari GPS (akurat hingga sekitar 20 meter di luar ruangan), jaringan Wi-Fi di sekitar, dan menara seluler, yang bisa meleset beberapa ribu meter. Lingkaran di sekitar pin menunjukkan seberapa yakin Hub Pencari.
+
+## Yang bisa kamu lakukan dari Hub Pencari
+
+- **Putar suara.** Ponsel berdering dengan volume maksimum selama 5 menit, meskipun disetel ke mode senyap atau getar.
+- **Tandai hilang.** Mengunci ponsel dengan PIN, pola, atau sandimu, dan kamu bisa menampilkan info kontak serta pesan di layar kunci. Di Android 17 dan yang lebih baru, kalau sidik jari atau buka dengan wajah sudah disiapkan, ponsel lalu meminta PIN sekaligus biometrik, dan menyembunyikan notifikasi serta widget.
+- **Reset ke setelan pabrik.** Menghapus permanen semua data di ponsel, tetapi mungkin tidak menghapus kartu SD. Setelah direset, ponsel tidak lagi tersedia di Hub Pencari, jadi simpan ini untuk terakhir. Kalau ponsel kembali, kamu perlu sandi akun Google untuk memakainya lagi.
+- **Melihat IMEI.** Buka setelan perangkat di Hub Pencari untuk melihat nomor IMEI-nya. Operator selulermu bisa memakainya untuk menonaktifkan ponsel.
+
+Kamu juga bisa mengunci ponsel hanya dengan nomor teleponmu di [android.com/lock](https://www.android.com/lock). Itu Kunci Jarak Jauh, dan harus diaktifkan sebelumnya: baca [5 setelan anti-maling Android untuk diaktifkan hari ini](/id/blog/top_five_settings).
+
+## Cara melacak HP yang hilang dalam keadaan mati atau offline
+
+Di sinilah sebagian besar pencarian HP curian berakhir. Apa yang masih bisa dilakukan Hub Pencari bergantung pada satu setelan:
+
+**Buka:**
+`Setelan > Google > Semua layanan > Hub Pencari > Temukan perangkat offline Anda`
+
+- **Nonaktif:** tidak ada lokasi terbaru yang disimpan, dan ponsel tidak ikut dalam jaringan Hub Pencari.
+- **Tanpa jaringan:** Hub Pencari bisa menunjukkan di mana ponsel berada saat terakhir online.
+- **Dengan jaringan hanya di tempat ramai:** perangkat Android lain di sekitar juga bisa mendeteksi ponselmu lewat Bluetooth dan melaporkan lokasinya, di tempat seperti bandara atau jalan yang ramai.
+- **Dengan jaringan di semua lokasi:** sama, termasuk di tempat sepi dan terpencil.
+
+Opsi dengan jaringan membutuhkan PIN, pola, atau sandi di ponselmu. Lokasinya dienkripsi end-to-end.
+
+**Saat ponsel mati atau baterainya habis:** Google menyebut perangkat yang didukung, seperti seri Pixel 8, masih bisa ditemukan oleh jaringan selama beberapa jam. Syaratnya, salah satu dari dua opsi dengan jaringan dipilih, dan Bluetooth serta Lokasi aktif saat ponsel mati. Di kebanyakan ponsel lain, mati berarti kamu hanya mendapat lokasi terakhir yang diketahui.
+
+## Periksa setelan ini hari ini
+
+Lima menit sekarang menghemat banyak waktu nanti:
+
+- **Akun Google:** periksa di Setelan bahwa akunmu ada di ponsel.
+- **Lokasi:** `Setelan > Lokasi`, aktif.
+- **Hub Pencari:** `Setelan > Keamanan > Hub Pencari`, dengan **Izinkan perangkat untuk ditemukan** aktif.
+- **Perangkat offline:** pilih salah satu opsi dengan jaringan yang dijelaskan di atas.
+- **Kode cadangan:** kalau ponsel adalah metode Verifikasi 2 Langkah-mu, kamu bisa terkunci dari akun Google saat ponsel dicuri. Buat kode cadangan di Akun Google-mu, di bagian Verifikasi 2 Langkah, dan simpan di tempat selain ponsel.
+- **Uji:** buka google.com/android/find dan periksa apakah ponselmu muncul.
+
+Nama menu sedikit berbeda antarmerek. Kalau tidak menemukannya, cari "Hub Pencari" di Setelan. Di Samsung Galaxy, siapkan juga layanan milik Samsung, Samsung Find, di `Setelan > Keamanan dan privasi > Perlindungan perangkat hilang`.
+
+## Yang tidak bisa dilakukan Hub Pencari
+
+- **Mengunci atau menghapus ponsel yang mati atau offline.** Itu butuh daya dan koneksi.
+- **Mencegah pencuri mematikan ponsel.** Baca [cara mencegah pencuri mematikan ponselmu](/id/blog/block-power-menu).
+- **Menunjukkan siapa yang memegang ponselmu.** Kamu mendapat lokasi, bukan wajah.
+- **Memberi tahu bahwa seseorang mencoba membukanya.** Tidak ada peringatan saat orang asing memasukkan PIN yang salah.
+
+## Cara mendapatkan foto orang yang memegang ponselmu
+
+Titik di peta memberi tahu di mana ponselmu. Titik itu tidak memberi tahu siapa di antara orang-orang di sana yang memegangnya, dan lokasi saja sering tidak cukup bagi polisi untuk bertindak.
+
+Itulah celah yang diisi CrookCatcher. Hampir semua orang yang mengambil ponsel terkunci akan mencoba beberapa PIN. Setiap kali percobaan buka kunci gagal, CrookCatcher mengambil foto dengan kamera depan, mencatat lokasi GPS dan perkiraan alamat, lalu mengirim keduanya ke emailmu. Email itu ada di kotak masukmu meskipun ponsel dimatikan semenit kemudian.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-id.webp" width="990" height="1024" loading="lazy" alt="Email peringatan CrookCatcher dengan foto penyusup, waktu percobaan, dan peta lokasi" />
+  <figcaption>Email yang dikirim CrookCatcher setelah percobaan buka kunci yang gagal.</figcaption>
+</figure>
+
+Pakai keduanya: Hub Pencari untuk menemukan dan mengunci ponsel, CrookCatcher untuk melihat siapa yang mencoba melewati kuncinya. Seperti setelan Hub Pencari, aplikasinya harus sudah siap sebelum ponsel hilang. Sejak 2014, CrookCatcher sudah diunduh lebih dari 12 juta kali dan mengambil sekitar 1,2 juta foto penyusup per hari. Penyiapannya hanya beberapa menit: baca [cara melihat siapa yang mencoba membuka ponselmu](/id/blog/see-who-tried-to-unlock-your-phone).
+
+<AppCta position="guide_mid" />
+
+## Pertanyaan yang Sering Diajukan
+
+### Q: Bisakah melacak HP yang hilang dalam keadaan mati?
+A: Di perangkat yang didukung, seperti seri Pixel 8, jaringan Hub Pencari masih bisa menemukan ponsel selama beberapa jam setelah mati, kalau penemuan offline dengan jaringan sudah aktif. Di ponsel lain, kamu melihat lokasi terakhir yang diketahui.
+
+### Q: Bagaimana cara melacak HP hilang dengan email?
+A: Buka google.com/android/find dan login dengan alamat Gmail yang dipakai di ponsel itu. Hub Pencari lalu menampilkan ponselnya di peta. Tidak perlu aplikasi tambahan.
+
+### Q: Apakah Hub Pencari sama dengan Find My Device?
+A: Ya. Google mengganti nama Find My Device (Temukan Perangkat Saya) menjadi Find Hub, yang dalam bahasa Indonesia disebut Hub Pencari. Situsnya, google.com/android/find, tetap sama.
+
+### Q: Bisakah melacak HP curian dengan IMEI?
+A: Kamu sendiri tidak bisa. Google menjelaskan IMEI sebagai nomor yang bisa dipakai operator seluler untuk menonaktifkan ponsel. Hub Pencari menampilkan IMEI supaya kamu bisa memberikannya kepada operator dan polisi.
+
+### Q: Perlukah menghapus HP yang dicuri?
+A: Hanya kalau kamu yakin ponsel tidak akan kembali. Google menyebut ponsel yang sudah direset ke setelan pabrik tidak lagi tersedia di Hub Pencari, jadi setelah itu kamu tidak bisa melacaknya. Tandai hilang lebih dulu.
+
+### Q: Apakah Hub Pencari menunjukkan siapa yang memegang ponselku?
+A: Tidak. Hub Pencari menampilkan lokasi dan memungkinkan kamu membunyikan, mengunci, atau menghapus ponsel. Untuk mendapatkan foto orang yang mencoba membuka kuncinya, kamu perlu aplikasi seperti CrookCatcher yang dipasang sebelumnya.
+
+## Sumber
+
+- Google, Bantuan Android: [Menemukan, mengamankan, atau menghapus data perangkat Android yang hilang](https://support.google.com/android/answer/6160491?hl=id)
+- Google, Bantuan Android: [Persiapan agar perangkat Android yang hilang dapat ditemukan](https://support.google.com/android/answer/3265955?hl=id)
+- Google: [Hub Pencari (Find Hub)](https://www.google.com/android/find)
+- Google: [Kunci Jarak Jauh (android.com/lock)](https://www.android.com/lock)
+
+## Panduan terkait
+
+- [5 setelan anti-maling Android untuk diaktifkan hari ini](/id/blog/top_five_settings)
+- [Cara mencegah pencuri mematikan ponselmu](/id/blog/block-power-menu)
+- [Cara melihat siapa yang mencoba membuka ponselmu (dan mendapatkan fotonya)](/id/blog/see-who-tried-to-unlock-your-phone)
+
+<AppCta position="guide_end" />

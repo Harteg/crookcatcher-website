@@ -55,7 +55,23 @@ From Search Console and Analytics, Oct 14 – Nov 10, 2026. Use this when choosi
 - **Play Store clicks** were not recorded before Nov 14, 2026 (tracking bug, now fixed), so there is no click-through data per guide before that date.
 - **Scale:** the app had about 131,600 installs in October 2026, so the website is a small share of installs.
 
-**Candidates for the next batch** (not yet sized by search volume; size them with DataForSEO first and replace any with low volume): #18 Someone keeps trying to unlock my phone, #19 Someone used my phone while I was asleep, #11 Find Hub, #27 CrookCatcher vs Find Hub. Also translate the new English guides into Spanish.
+**Next batch, sized by US search volume (Nov 14, 2026).** Sized with DataForSEO (Google Ads data, US, monthly searches). The numbers understate long-tail searches ("who tried to unlock my phone" shows 20 a month, yet #1 got 311 clicks in four weeks), so use them to rank topics, not to forecast clicks.
+
+| Topic | US searches / month | Difficulty (0–100) | Decision |
+| --- | --- | --- | --- |
+| #12 Samsung Find | about 55,000 ("samsung find my phone" 27,100, "samsung find" 12,100, "find my samsung phone" 9,900, "how to find lost samsung phone" 3,600) | 14–29 | Drafted |
+| #11 Find Hub | "find hub" 90,500 (difficulty 60); realistic targets "how to find a stolen android phone" 1,900 (difficulty 4), "find hub android" 1,900, "find lost android phone" 590 | 4–60 | Drafted |
+| #33 Who Touched My Phone (WTMP) | about 1,800 ("who touched my phone app" 1,000, "who touched my phone" 590), up 85–108% in a year | 10–17 | Drafted |
+| #34 Lock apps | "how to lock apps on android" 2,900, "on samsung" 880, "secure folder samsung" 8,100 | about 10 | Drafted; at the edge of the topic rules |
+| #23 Left phone in Uber or Lyft | about 7,800 | not rated | On hold: the phone is already gone and the search isn't Android-specific |
+| #17 IMEI block | "imei blacklist check" 6,600 | 22 | On hold: mostly people checking a used phone before buying |
+| #19 Used my phone while asleep | about 1,750, nearly all "girlfriend/boyfriend went through my phone" | not rated | Dropped: relationship searches; #6 covers "how to tell" |
+| #29 Lockwatch, #30 Third Eye | about 300 and 180 | 5 | Later |
+| #18 Keeps trying to unlock | 10 or less per phrasing | — | Dropped: would compete with #1 and #5 |
+| #27 vs Find Hub, #28 vs Samsung Find | 10 or less | — | Dropped: replaced by #33 |
+| #13, #20, #21, #22, #24 | 0 to a few hundred each | — | On hold |
+
+Brand searches: "crook catcher" (two words) 5,400 a month, "crookcatcher" 590. The four drafted guides are also translated into all eight languages as drafts; local search volumes per language are in `docs/translation-review.md`.
 
 ## Priority 1: Who tried to unlock my phone
 
@@ -86,13 +102,14 @@ People search for Google's and Samsung's own features. Explain them honestly, th
 | # | Guide title | Main search | Slug | Status |
 | --- | --- | --- | --- | --- |
 | 10 | Android Theft Detection Lock: What It Does and What It Misses | theft detection lock android | theft-detection-lock | Published 2026-11-14 |
-| 11 | How to Find Your Lost or Stolen Android Phone with Find Hub | find my stolen android phone | find-stolen-android-phone | Planned |
-| 12 | Samsung Find: How to Locate and Lock a Stolen Galaxy | samsung find stolen phone | samsung-find-stolen-phone | Planned |
+| 11 | How to Find a Stolen Android Phone with Find Hub (2026) | how to find a stolen android phone | find-stolen-android-phone | Drafted Nov 14, 2026 (awaiting review); draft translations in pt, fr, es, de, ar, id, it, ja |
+| 12 | Samsung Find My Phone: How to Locate, Lock or Erase a Lost or Stolen Galaxy (2026) | samsung find my phone | samsung-find-stolen-phone | Drafted Nov 14, 2026 (awaiting review); draft translations in pt, fr, es, de, ar, id, it, ja |
 | 13 | Android Phone Stolen in the US? What to Do in the First 10 Minutes | android phone stolen what to do | phone-stolen-us | Planned |
 | 14 | How to Stop Power Off and Airplane Mode From the Lock Screen on Android (2026) | disable airplane mode from lock screen | block-power-menu | Published (retitled Nov 13, 2026) |
 | 15 | How to Stop Thieves from Turning On Airplane Mode | disable airplane mode lock screen | — | Merged into #14 |
 | 16 | 5 Android Anti-Theft Settings to Turn On Today (2026) | android anti theft settings | top_five_settings | Published (rewritten Oct 23, 2026) |
-| 17 | How to Block a Stolen Phone's IMEI in the US | block stolen phone imei | block-stolen-phone-imei-us | Planned |
+| 17 | How to Block a Stolen Phone's IMEI in the US | block stolen phone imei | block-stolen-phone-imei-us | On hold (search volume, Nov 14, 2026) |
+| 34 | How to Lock Apps on Android and Samsung (2026) | how to lock apps on android | lock-apps-android | Drafted Nov 14, 2026 (awaiting review); draft translations in pt, fr, es, de, ar, id, it, ja |
 
 ## Priority 3: Scenario pages
 
@@ -100,12 +117,12 @@ First-person situations, written like Vaultaire's scenarios: open with the momen
 
 | # | Guide title | Situation | Slug | Status |
 | --- | --- | --- | --- | --- |
-| 18 | Someone Keeps Trying to Unlock My Phone | repeated guesses, unknown person | someone-keeps-trying-to-unlock-my-phone | Planned |
-| 19 | I Think Someone Went Through My Phone While I Was Asleep | suspicion at home | someone-used-my-phone-while-asleep | Planned |
+| 18 | Someone Keeps Trying to Unlock My Phone | repeated guesses, unknown person | someone-keeps-trying-to-unlock-my-phone | Dropped (no search volume, Nov 14, 2026) |
+| 19 | I Think Someone Went Through My Phone While I Was Asleep | suspicion at home | someone-used-my-phone-while-asleep | Dropped (covered by #6, Nov 14, 2026) |
 | 20 | My Roommate or Houseguest Tried to Get Into My Phone | shared home | roommate-tried-to-unlock-my-phone | Planned |
 | 21 | A Coworker Tried to Unlock My Phone at Work | phone left on desk | coworker-tried-to-unlock-phone | Planned |
 | 22 | My Kid Keeps Guessing My PIN | family, lockouts | kid-guessing-my-pin | Planned |
-| 23 | I Left My Phone in an Uber or Taxi | lost, not stolen yet | left-phone-in-uber | Planned |
+| 23 | I Left My Phone in an Uber or Taxi | lost, not stolen yet | left-phone-in-uber | On hold (high volume, poor fit) |
 | 24 | My Phone Was Stolen at a Bar or Concert | crowded venue theft | phone-stolen-at-bar-or-concert | Planned |
 | 25 | How People Got Their Stolen Phones Back with CrookCatcher | real recovery stories, with permission | recovery-stories | Planned |
 
@@ -116,10 +133,11 @@ Comparison searches have the highest purchase intent. Keep them fair and factual
 | # | Guide title | Main search | Slug | Status |
 | --- | --- | --- | --- | --- |
 | 26 | Best Intruder Selfie Apps for Android (2026) | best intruder selfie app | best-intruder-selfie-apps-android | Drafted Nov 13, 2026 (awaiting review) |
-| 27 | CrookCatcher vs Find Hub | find my device alternative | crookcatcher-vs-find-hub | Planned |
-| 28 | CrookCatcher vs Samsung Find | samsung find alternative | crookcatcher-vs-samsung-find | Planned |
+| 27 | CrookCatcher vs Find Hub | find my device alternative | crookcatcher-vs-find-hub | Dropped (no search volume, Nov 14, 2026) |
+| 28 | CrookCatcher vs Samsung Find | samsung find alternative | crookcatcher-vs-samsung-find | Dropped (no search volume, Nov 14, 2026) |
 | 29 | CrookCatcher vs Lockwatch | lockwatch alternative | crookcatcher-vs-lockwatch | Planned |
 | 30 | CrookCatcher vs Third Eye | third eye app alternative | crookcatcher-vs-third-eye | Planned |
+| 33 | Who Touched My Phone? How to Find Out on Android (2026) | who touched my phone app | who-touched-my-phone | Drafted Nov 14, 2026 (awaiting review); draft translations in pt, fr, es, de, ar, id, it, ja |
 
 ## Priority 5: Pro feature guides
 

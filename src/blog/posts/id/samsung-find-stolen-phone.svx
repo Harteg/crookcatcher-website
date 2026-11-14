@@ -1,0 +1,123 @@
+---
+title: "Cara Melacak HP Samsung yang Hilang atau Dicuri dengan Samsung Find (Find My Mobile) (2026)"
+subtitle: Cara memakai Samsung Find dari browser mana pun, apa yang perlu diaktifkan sebelum dibutuhkan, dan apa yang tidak bisa diberitahukannya
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
+description: "Untuk melacak HP Samsung yang hilang atau dicuri, masuk ke Samsung Find dengan akun Samsung-mu. Kamu bisa melihat ponsel di peta, membunyikannya, menguncinya, melacak lokasinya, dan menghapus datanya. Berikut langkahnya, pengaturan yang harus aktif lebih dulu, dan yang tidak ditunjukkan Samsung Find: siapa yang memegang ponselmu."
+image: '/images/blog/samsung-find-stolen-phone-header-id.png'
+imageAlt: 'Cara melacak HP Samsung yang hilang dengan Samsung Find: menampilkan ponsel di peta, membunyikan, mengunci, dan menghapus data. Tidak menunjukkan siapa yang memegangnya dan tidak memberi tahu soal PIN yang salah.'
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Untuk melacak HP Samsung yang hilang atau dicuri, buka [samsungfind.samsung.com](https://samsungfind.samsung.com) di browser mana pun dan masuk dengan akun Samsung-mu.** Kamu akan melihat ponsel di peta dan bisa membunyikannya, menguncinya, melacak lokasinya, memperpanjang daya baterainya, atau menghapus datanya. Ini berfungsi saat ponsel menyala dan terhubung. Kalau ponsel mati, Samsung hanya menampilkan lokasi terakhir yang diketahui. Samsung Find memberi tahu di mana ponselmu, tetapi tidak pernah siapa yang memegangnya.
+
+## Samsung Find, SmartThings Find, dan Find My Mobile
+
+Samsung memakai tiga nama, dan itu membingungkan:
+
+- **Samsung Find** adalah aplikasi dan situs yang sekarang dipakai untuk menemukan perangkat Galaxy-mu.
+- **SmartThings Find** adalah layanan yang sama di dalam aplikasi SmartThings dan di situsnya sendiri. Halaman bantuan Samsung menyebut kamu bisa memakai salah satunya.
+- **Find My Mobile** adalah nama lama. Samsung masih memakainya di pengaturan ponsel.
+
+Untuk ponsel yang hilang, semuanya mengarah ke tempat yang sama. Panduan ini memakai Samsung Find.
+
+## Cara melacak HP Samsung yang hilang
+
+Kamu perlu perangkat lain yang punya browser: komputer, tablet, atau ponsel orang lain.
+
+1. Buka [samsungfind.samsung.com](https://samsungfind.samsung.com) dan masuk dengan akun Samsung yang ada di ponselmu.
+2. Perangkatmu muncul dalam daftar. Pilih ponselnya.
+3. Lokasinya muncul di peta.
+
+Kalau kamu punya ponsel atau tablet Galaxy lain, kamu bisa memakai **aplikasi Samsung Find** di sana. Anggota keluarga juga bisa menemukan ponselmu lewat aplikasi Samsung Find miliknya, tetapi hanya kalau kamu sudah membagikan lokasinya sebelumnya.
+
+**Kalau ponselmu dicuri, jangan datangi sendiri lokasinya.** Samsung mengatakan hal yang sama: berikan lokasinya kepada polisi dan biarkan mereka yang mengambilnya.
+
+## Yang bisa kamu lakukan dari Samsung Find
+
+- **Membunyikan.** Ponsel berdering selama satu menit, meskipun dalam mode senyap atau getar. Pakai ini saat ponsel ada di sekitar.
+- **Mengunci.** Kamu membuat PIN dan bisa menambahkan kontak darurat serta pesan untuk layar kunci, supaya penemunya tahu siapa yang harus dihubungi. Samsung juga menyebutnya **Mode Hilang** dan menjelaskan bahwa mode ini membatasi akses ke Samsung Pay dan Samsung Pass serta mencegah ponsel dimatikan.
+- **Melacak lokasi.** Kamu mendapat lokasi terbaru setiap 15 menit. Samsung menyarankannya untuk ponsel yang tertinggal di bus atau kereta, atau yang mungkin dicuri.
+- **Memperpanjang masa pakai baterai.** Mengaktifkan mode hemat daya maksimum dari jauh, supaya ponsel menyala lebih lama selagi kamu mencarinya.
+- **Beri tahu saya saat ditemukan.** Kalau ponsel belum bisa ditemukan sekarang, Samsung mengirim email saat ponsel terdeteksi.
+- **Menghapus data.** Reset pabrik dari jauh. Samsung mencatat bahwa kartu SD ikut terhapus dan perlindungan perangkat Google tetap aktif, jadi ponsel tetap meminta akun Google-mu setelahnya. Ini langkah terakhir, saat kamu yakin ponsel tidak akan kembali.
+
+Beberapa tindakan ini, termasuk Hapus data, hanya ada di situs, tidak di aplikasi. Kalau kamu tidak bisa menghapus ponsel, Samsung menyarankan mengganti sandi akun-akun yang masih login di sana.
+
+## Aktifkan ini sebelum dibutuhkan
+
+Samsung Find hanya berfungsi kalau ponsel sudah disiapkan. Periksa hari ini:
+
+**Buka:**
+`Setelan > Keamanan dan privasi > Perlindungan perangkat hilang`
+
+(Di ponsel Samsung, aplikasi Setelan juga disebut Pengaturan.) Aktifkan ketiganya:
+
+- **Izinkan ponsel ini ditemukan.** Samsung menyebut ini aktif secara default saat kamu menambahkan akun Samsung, tetapi periksa saja.
+- **Kirim lokasi terakhir.** Ponsel menyimpan lokasi terakhirnya di server Samsung sebelum mati.
+- **Pencarian offline** (Offline finding). Perangkat Galaxy lain di sekitar bisa mendeteksi ponselmu dan melaporkan lokasinya, meskipun tanpa data seluler atau Wi-Fi.
+
+Galaxy-mu juga punya Hub Pencari (Find Hub) dari Google, yang bekerja terpisah dari Samsung Find. Aktifkan keduanya. Baca [cara melacak HP yang hilang dengan Hub Pencari](/id/blog/find-stolen-android-phone).
+
+## Yang tidak bisa dilakukan Samsung Find
+
+- **Melacak HP yang mati.** Samsung menyebut ponsel yang mati hanya menampilkan lokasi terakhir yang diketahui. Pencarian offline membantu saat ponsel menyala tetapi tidak terhubung, bukan saat mati.
+- **Bekerja tanpa akun Samsung.** Kalau kamu belum pernah menambahkannya ke ponsel, tidak ada yang bisa kamu buka.
+- **Menunjukkan siapa yang memegang ponselmu.** Kamu mendapat titik di peta. Tanpa foto, tanpa nama.
+- **Memberi tahu bahwa seseorang mencoba masuk.** Tidak ada peringatan saat orang asing memasukkan PIN yang salah di layar kuncimu.
+
+Hal pertama yang biasanya dilakukan pencuri adalah mematikan ponsel atau menyalakan mode pesawat. Baca [cara mencegah pencuri mematikan ponselmu](/id/blog/block-power-menu).
+
+## Cara mendapatkan foto orang yang memegang ponselmu
+
+Lokasi di peta itu berguna. Foto orang yang memegang ponselmu, yang diambil di lokasi itu, adalah yang bisa ditindaklanjuti polisi.
+
+Itulah yang ditambahkan CrookCatcher. Hampir semua orang yang mengambil ponsel terkunci akan mencoba beberapa PIN. Setiap kali percobaan buka kunci gagal, CrookCatcher mengambil foto dengan kamera depan, mencatat lokasi GPS dan perkiraan alamat, lalu mengirim keduanya ke emailmu. Email itu ada di kotak masukmu meskipun ponsel dimatikan semenit kemudian.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-id.webp" width="990" height="1024" loading="lazy" alt="Email peringatan CrookCatcher dengan foto penyusup, waktu percobaan, dan peta lokasi" />
+  <figcaption>Email yang dikirim CrookCatcher setelah percobaan buka kunci yang gagal.</figcaption>
+</figure>
+
+CrookCatcher bekerja berdampingan dengan Samsung Find, bukan menggantikannya: Samsung Find menemukan dan mengunci ponsel, dan CrookCatcher menunjukkan siapa yang mencoba melewati kuncinya. Aplikasinya harus sudah terpasang sebelum ponsel hilang. Sejak 2014, CrookCatcher sudah diunduh lebih dari 12 juta kali dan mengambil sekitar 1,2 juta foto penyusup per hari. Untuk pengaturan layar kunci Samsung sendiri, baca [cara tahu siapa yang mencoba membuka HP Samsung-mu](/id/blog/samsung-who-tried-to-unlock).
+
+<AppCta position="guide_mid" />
+
+## Pertanyaan yang Sering Diajukan
+
+### Q: Bisakah melacak HP Samsung yang hilang dalam keadaan mati?
+A: Tidak secara langsung. Samsung menyebut saat ponsel mati, hanya lokasi terakhir yang diketahui yang tersedia, dan itu pun hanya kalau **Kirim lokasi terakhir** aktif. Pencarian offline berfungsi saat ponsel menyala tetapi tidak terhubung.
+
+### Q: Apakah Samsung Find sama dengan Find My Mobile?
+A: Find My Mobile adalah nama lama, yang masih dipakai Samsung di pengaturan ponsel. Samsung Find adalah aplikasi dan situs yang sekarang. Untuk menemukan ponsel yang hilang, fungsinya sama.
+
+### Q: Bisakah mencari HP Samsung yang hilang tanpa akun Samsung?
+A: Tidak dengan Samsung Find. Coba Hub Pencari dari Google di [google.com/android/find](https://www.google.com/android/find), yang memakai akun Google di ponsel.
+
+### Q: Sebaiknya pakai Samsung Find atau Hub Pencari Google?
+A: Keduanya. Itu dua layanan terpisah dengan akun terpisah, dan Galaxy bisa mengaktifkan dua-duanya. Kalau yang satu tidak menemukan ponsel, coba yang lain.
+
+### Q: Bagaimana cara mengunci HP Samsung yang dicuri?
+A: Masuk ke samsungfind.samsung.com, pilih ponselnya, lalu pilih opsi kunci. Kamu menentukan PIN dan bisa menambahkan nomor kontak serta pesan untuk layar kunci.
+
+### Q: Apakah Samsung Find memotret pencurinya?
+A: Tidak. Samsung Find menampilkan lokasi ponsel dan memungkinkan kamu membunyikan, mengunci, atau menghapusnya. Untuk mendapatkan foto orang yang mencoba membuka kuncinya, kamu perlu aplikasi seperti CrookCatcher yang dipasang sebelumnya.
+
+## Sumber
+
+- Samsung Indonesia: [Samsung Find](https://www.samsung.com/id/apps/samsung-find/) (fitur, Mode Hilang, dan pencarian offline)
+- Samsung US Support: [How to locate your lost Samsung Galaxy phone or tablet](https://www.samsung.com/us/support/answer/ANS10003600/) (bahasa Inggris)
+- Samsung: [situs Samsung Find](https://samsungfind.samsung.com)
+- Google, Bantuan Android: [Menemukan, mengamankan, atau menghapus data perangkat Android yang hilang](https://support.google.com/android/answer/6160491?hl=id)
+
+## Panduan terkait
+
+- [Cara melacak HP yang hilang atau dicuri dengan Hub Pencari](/id/blog/find-stolen-android-phone)
+- [Cara tahu siapa yang mencoba membuka HP Samsung-mu](/id/blog/samsung-who-tried-to-unlock)
+- [Cara mencegah pencuri mematikan ponselmu](/id/blog/block-power-menu)
+
+<AppCta position="guide_end" />

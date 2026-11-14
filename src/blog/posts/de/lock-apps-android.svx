@@ -1,0 +1,146 @@
+---
+title: "Apps sperren auf Android und Samsung: So geht's (2026)"
+subtitle: "Sicherer Ordner, Vertrauliches Profil, App-Sperre und Bildschirmfixierung, und was dir keine davon verrät"
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
+description: "So kannst du auf Android einzelne Apps sperren: Sicherer Ordner auf dem Samsung Galaxy, Vertrauliches Profil ab Android 15, App-Sperre bei Xiaomi, Bildschirmfixierung auf jedem Handy und die eingebaute Sperre in Apps wie WhatsApp. Und was eine App-Sperre nicht kann: dir zeigen, wer es versucht hat."
+image: '/images/blog/lock-apps-android-header-de.png'
+imageAlt: 'Apps sperren auf Android. Samsung: Sicherer Ordner. Android 15+: Vertrauliches Profil. Xiaomi: App-Sperre. Jedes Handy: Bildschirmfixierung. Keine zeigt, wer hineinwollte.'
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Wie du auf Android Apps sperren kannst, hängt vom Handy ab.** Auf einem Samsung Galaxy legst du die App in den **Sicheren Ordner**. Auf einem Pixel oder einem anderen Handy mit Android 15 oder höher nutzt du das **Vertrauliche Profil**. Xiaomi-, Redmi- und POCO-Handys haben eine Einstellung namens **App-Sperre**. Auf jedem Android-Handy kannst du eine App auf dem Bildschirm fixieren, bevor du das Handy weitergibst, und Apps wie WhatsApp haben eine eigene Sperre. Alle halten andere aus einer App heraus. Keine sagt dir, wer es versucht hat.
+
+## Samsung Galaxy: Sicherer Ordner
+
+Samsung-Handys haben keinen Schalter, der eine App an Ort und Stelle sperrt. Stattdessen legst du eine Kopie der App in den Sicheren Ordner, einen getrennten Bereich mit eigener PIN, eigenem Passwort oder Muster.
+
+**Gehe zu:**
+`Einstellungen > Sicherheit und Datenschutz > Weitere Sicherheitseinstellungen > Sicherer Ordner`
+
+Die Menünamen können etwas abweichen. Findest du ihn nicht, suche in den Einstellungen nach „Sicherer Ordner“.
+
+1. Tippe auf **Weiter**, erteile die Berechtigungen und melde dich bei deinem Samsung Account an, wenn du danach gefragt wirst.
+2. Wähle eine PIN, ein Passwort oder ein Muster für den Ordner. Nimm etwas anderes als für den Sperrbildschirm.
+3. Schalte das Zurücksetzen mit dem Samsung Account ein. Ohne das kommst du laut Samsung nicht mehr hinein, wenn du den Code vergisst.
+4. Tippe im Sicheren Ordner auf **Apps hinzufügen** (das Pluszeichen), wähle die App und bestätige.
+
+Die App im Sicheren Ordner ist eine zweite Kopie, du meldest dich dort also neu an. Damit auch das Original außer Reichweite ist, melde dich dort ab oder deinstalliere es außerhalb des Ordners.
+
+Um den Ordner selbst zu verbergen, schalte im selben Menü die Option aus, die den Sicheren Ordner auf dem App-Bildschirm anzeigt. Steht der Sichere Ordner nicht im Menü, unterstützt dein Galaxy-Modell ihn nicht.
+
+## Pixel und andere Handys mit Android 15 oder höher: Vertrauliches Profil
+
+Das Vertrauliche Profil (auf Englisch „Private space“) ist Androids eigener gesperrter Bereich für Apps. Ist es gesperrt, sind seine Apps in der App-Liste, bei den zuletzt verwendeten Apps und in der Suche verborgen, und sie sind vollständig angehalten. Sie zeigen also keine Benachrichtigungen.
+
+**Gehe zu:**
+`Einstellungen > Sicherheit & Datenschutz > Vertrauliches Profil`
+
+1. Bestätige deine Displaysperre und starte die Einrichtung.
+2. Melde dich, wenn du möchtest, mit einem Google-Konto für das Profil an. Google empfiehlt ein separates.
+3. Wähle die Displaysperre des Geräts oder eine neue Sperre nur für das Profil: PIN, Muster, Passwort oder Fingerabdruck.
+4. Installiere die Apps, die du schützen möchtest, im Vertraulichen Profil.
+
+Weil Apps in einem gesperrten Vertraulichen Profil angehalten sind, gehört dort nichts hinein, was im Hintergrund arbeiten muss, etwa ein Wecker oder ein Messenger, den du hören musst.
+
+Das Vertrauliche Profil braucht Android 15 oder höher, und manche Hersteller haben es auf ihren Modellen abgeschaltet.
+
+### Googles eigene App-Sperre ist unterwegs
+
+Eine echte App-Sperre, bei der die App an ihrem Platz bleibt, beim Öffnen aber PIN oder Fingerabdruck verlangt, wird auf Pixel-Handys getestet. Android Authority hat sie im August 2026 in Androids Testversionen gefunden, unter `Settings > Security & privacy > App lock`. Im November 2026 ist sie nicht in der regulären Version von Android 17 enthalten, und Google hat keine Hilfeseite dazu veröffentlicht. Hat dein Pixel dieses Menü nach einem Update, ist das die einfachste Möglichkeit.
+
+## Xiaomi, Redmi und POCO: App-Sperre
+
+**Gehe zu:**
+`Einstellungen > Apps > App-Sperre` (App lock)
+
+Schalte sie ein, lege ein Passwort fest und wähle die Apps aus, die gesperrt werden sollen. Xiaomi weist darauf hin, dass dein Xiaomi-Konto der einzige Weg ist, die App-Sperre wiederherzustellen, wenn du das Passwort vergisst. Füge es also hinzu, wenn du gefragt wirst. Mehrere andere Android-Hersteller haben eine ähnliche Einstellung: Suche in den Einstellungen nach „App-Sperre“.
+
+## Jedes Android-Handy: Fixiere eine App, bevor du dein Handy weitergibst
+
+Die Bildschirmfixierung hält das Handy auf einer einzigen App, bis deine PIN eingegeben wird. Sie ist für den Moment gedacht, in dem du dein Handy einem Freund oder einem Kind gibst.
+
+**Gehe zu:**
+`Einstellungen > Sicherheit > Erweitert > Bildschirmfixierung`
+
+Schalte sie ein. Dann:
+
+1. Öffne die App, die du zeigen möchtest.
+2. Wische nach oben bis zur Mitte des Bildschirms und halte den Finger gedrückt, um die Übersicht der zuletzt verwendeten Apps zu öffnen.
+3. Tippe oben in der Vorschau auf das Symbol der App und dann auf die Option zum Fixieren.
+
+Zum Loslösen wischst du nach oben, hältst und gibst deine PIN, dein Muster oder Passwort ein. Bei der Bedienung über 3 Schaltflächen hältst du „Zurück“ und „Übersicht“ gedrückt.
+
+## Sperren in den Apps selbst
+
+Manche Apps bringen eine eigene Sperre mit, die auf jedem Handy funktioniert:
+
+- **WhatsApp:** In den WhatsApp-Einstellungen unter Datenschutz kannst du die App-Sperre (App lock) einschalten.
+- **Google Fotos:** Verschiebe private Fotos in den **Gesperrten Ordner** (`Sammlungen > Gesperrt`). Er öffnet sich mit der Displaysperre deines Handys.
+- **Banking- und Bezahl-Apps** verlangen meist jedes Mal eine PIN oder den Fingerabdruck. Sieh in den Sicherheitseinstellungen der jeweiligen App nach.
+
+App-Sperren aus Google Play sind ein weiterer Weg. Sieh vor der Installation nach, wann die App zuletzt aktualisiert wurde und welche Berechtigungen sie verlangt.
+
+## Was das Sperren einer App nicht leistet
+
+- **Es sagt dir nicht, dass es jemand versucht hat.** Jemand kann dein Handy nehmen und den Code für deinen Sicheren Ordner oder dein Vertrauliches Profil durchprobieren, und du erfährst es nie. Nichts wird gespeichert, keine Warnung wird gesendet.
+- **Es zeigt dir nicht, wer es war.** Kein Foto der Person.
+- **Es schützt nur, was du hineinlegst.** Alles andere auf dem Handy ist offen für jeden, der am Sperrbildschirm vorbeikommt.
+- **Sperren, die deine Displaysperre nutzen, halten niemanden auf, der deine PIN kennt.** Das Vertrauliche Profil mit der Gerätesperre und der Gesperrte Ordner in Fotos öffnen sich für jeden, der sie kennt.
+
+Eine App-Sperre ist eine zweite Tür. Die erste Tür bleibt dein Sperrbildschirm, und dort hilft es zu wissen, wer es versucht.
+
+## So siehst du, wer in dein Handy will
+
+CrookCatcher sperrt deine anderen Apps nicht. Es überwacht den Sperrbildschirm. Gibt jemand eine falsche PIN, ein falsches Muster oder Passwort ein, macht es ein Foto mit der Frontkamera, erfasst den GPS-Standort und schickt dir beides per E-Mail.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-de.webp" width="990" height="1024" loading="lazy" alt="CrookCatcher-Warn-E-Mail mit dem Foto des Eindringlings, der Uhrzeit des Versuchs und einer Karte mit dem Standort" />
+  <figcaption>Die E-Mail, die CrookCatcher nach einem fehlgeschlagenen Entsperrversuch sendet.</figcaption>
+</figure>
+
+Beides ergänzt sich: Die App-Sperre hält deine privaten Apps geschlossen, und CrookCatcher zeigt dir, wer das Handy genommen und versucht hat hineinzukommen, ob jemand zu Hause oder ein Dieb. Foto, Standort und E-Mail sind kostenlos. CrookCatcher wurde seit 2014 mehr als 12 Millionen Mal heruntergeladen. Die Einrichtung dauert ein paar Minuten: siehe [So siehst du, wer dein Handy entsperren wollte](/de/blog/see-who-tried-to-unlock-your-phone).
+
+<AppCta position="guide_mid" />
+
+## Häufig gestellte Fragen
+
+### Q: Kann ich Apps auf Android sperren, ohne eine App zu installieren?
+A: Ja, auf den meisten Handys. Nutze den Sicheren Ordner bei Samsung, das Vertrauliche Profil ab Android 15 oder die App-Sperre bei Xiaomi. Die Bildschirmfixierung funktioniert auf jedem Android-Handy für den Moment, in dem du es weitergibst.
+
+### Q: Wie kann ich einzelne Apps auf dem Samsung sperren?
+A: Samsung hat keine Sperre, die eine App an Ort und Stelle verriegelt. Samsungs Antwort ist der Sichere Ordner, der eine gesperrte Kopie der App enthält. Du findest ihn unter `Einstellungen > Sicherheit und Datenschutz > Weitere Sicherheitseinstellungen`.
+
+### Q: Wie kann ich WhatsApp sperren?
+A: Öffne in WhatsApp die Einstellungen, gehe zu Datenschutz und schalte die App-Sperre ein. Auf einem Samsung kannst du WhatsApp auch in den Sicheren Ordner legen, ab Android 15 in das Vertrauliche Profil.
+
+### Q: Verbirgt das Sperren einer App ihre Benachrichtigungen?
+A: Beim Vertraulichen Profil ja: Apps in einem gesperrten Vertraulichen Profil sind angehalten und zeigen keine Benachrichtigungen. Bei den anderen Wegen hängt es vom Handy ab. Prüfe also auch die Einstellungen für Benachrichtigungen auf dem Sperrbildschirm.
+
+### Q: Kann jemand, der meine PIN kennt, meine gesperrten Apps öffnen?
+A: Wenn die Sperre deine Displaysperre nutzt, ja. Gib dem Sicheren Ordner oder dem Vertraulichen Profil einen eigenen Code, der sich von dem deines Sperrbildschirms unterscheidet.
+
+### Q: Kann ich sehen, wer meine gesperrten Apps öffnen wollte?
+A: Die App-Sperren von Android und Samsung führen kein Protokoll und machen kein Foto. Um zu sehen, wer in das Handy selbst wollte, fotografiert eine App wie CrookCatcher jeden, der am Sperrbildschirm eine falsche PIN eingibt.
+
+## Quellen
+
+- Samsung US Support: [Use the Secure Folder on your Galaxy phone or tablet](https://www.samsung.com/us/support/answer/ANS10001401/) (auf Englisch)
+- Google, Android-Hilfe: [Sensible Apps mit einem vertraulichen Profil verbergen](https://support.google.com/android/answer/15341885?hl=de)
+- Google, Android-Hilfe: [Bildschirme fixieren und loslösen](https://support.google.com/android/answer/9455138?hl=de)
+- Xiaomi Support: [How to enable App lock](https://www.mi.com/global/support/faq/details/KA-508070/) (auf Englisch)
+- WhatsApp-Hilfebereich: [How to use app lock](https://faq.whatsapp.com/1726618467788240/)
+- Google Fotos-Hilfe: [Vertrauliche Fotos und Videos in gesperrten Ordnern ausblenden](https://support.google.com/photos/answer/10694388?hl=de)
+- Android Authority: [Google is bringing back native app lock for Android, but not for everyone yet](https://www.androidauthority.com/google-android-pixel-app-lock-3695632/) (August 2026, auf Englisch)
+
+## Weitere Ratgeber
+
+- [So siehst du, wer dein Handy entsperren wollte (mit Foto)](/de/blog/see-who-tried-to-unlock-your-phone)
+- [Kann man fehlgeschlagene Entsperrversuche auf Android sehen?](/de/blog/failed-unlock-attempts-android)
+- [5 Android-Einstellungen gegen Diebstahl](/de/blog/top_five_settings)
+
+<AppCta position="guide_end" />

@@ -1,0 +1,126 @@
+---
+title: "Handy orten: verlorenes oder gestohlenes Android-Handy mit „Mein Gerät finden“ (Find Hub) finden (2026)"
+subtitle: "Wie du dein Handy von einem anderen Gerät aus kostenlos ortest, sperrst oder löschst, was passiert, wenn es offline oder ausgeschaltet ist, und was Find Hub nicht zeigt"
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
+description: "Um ein verlorenes oder gestohlenes Android-Handy zu orten, melde dich unter google.com/android/find bei „Mein Gerät finden“ (Find Hub) mit dem Google-Konto des Handys an. Das ist kostenlos. Hier stehen die Schritte, die Einstellungen für ausgeschaltete und Offline-Handys und was Find Hub nicht zeigt: wer das Handy hat."
+image: '/images/blog/find-stolen-android-phone-header-de.png'
+imageAlt: 'Handy orten: So findest du ein gestohlenes Android-Handy. „Mein Gerät finden“ zeigt es auf einer Karte, spielt einen Ton ab, sperrt und löscht es. Es zeigt nicht, wer es hat, und warnt nicht bei falschen PINs.'
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Um ein verlorenes oder gestohlenes Android-Handy zu orten, öffne [google.com/android/find](https://www.google.com/android/find) in einem beliebigen Browser oder die App „Mein Gerät finden“ auf einem anderen Android-Gerät und melde dich mit dem Google-Konto an, das auf dem Handy eingerichtet ist.** Der Dienst ist kostenlos. Er zeigt das Handy auf einer Karte und lässt dich einen Ton abspielen, es als verloren markieren oder löschen. Zum Sperren oder Löschen braucht das Handy Strom und eine Verbindung über mobile Daten oder WLAN. Wurde es gestohlen, gib den Standort der Polizei und geh nicht selbst hin.
+
+Google hat „Mein Gerät finden“ in Find Hub umbenannt. In den deutschen Menüs und Hilfeseiten steht noch der alte Name. Es ist derselbe Dienst.
+
+## So ortest du dein Handy mit „Mein Gerät finden“
+
+Google schreibt, dass der Dienst automatisch eingeschaltet wird, wenn du einem Handy ein Google-Konto hinzufügst. Ein Versuch lohnt sich also auch, wenn du nie etwas eingerichtet hast.
+
+1. Öffne auf einem Computer oder einem anderen Handy [google.com/android/find](https://www.google.com/android/find). Auf einem anderen Android-Gerät kannst du stattdessen die **App „Mein Gerät finden“** verwenden.
+2. Melde dich mit dem Google-Konto des verlorenen Handys an. Auf dem Handy eines Freundes öffnest du die App und wählst **Als Gast anmelden**.
+3. Wähle das Handy aus der Geräteliste aus. Möglicherweise wirst du nach der Sperrbildschirm-PIN des verlorenen Handys oder nach deinem Google-Passwort gefragt.
+4. Die Karte zeigt, wo das Handy ist. Kann der aktuelle Standort nicht gefunden werden, siehst du eventuell den letzten bekannten Standort.
+
+Auf dem verlorenen Handy erscheint dabei eine Benachrichtigung.
+
+Google schätzt den Standort über GPS (im Freien auf etwa 20 Meter genau), WLANs in der Nähe und Mobilfunkmasten, die um einige tausend Meter danebenliegen können. Der Kreis um die Markierung zeigt, wie zuverlässig die Angabe ist.
+
+## Was du mit „Mein Gerät finden“ tun kannst
+
+- **Ton abspielen.** Das Handy klingelt 5 Minuten lang in voller Lautstärke, auch wenn es auf lautlos oder Vibration gestellt ist.
+- **Als verloren markieren.** Sperrt das Handy mit deiner PIN, deinem Muster oder Passwort, und du kannst Kontaktdaten und eine Nachricht auf dem Sperrbildschirm anzeigen lassen. Unter Android 17 oder höher mit eingerichtetem Fingerabdruck oder Gesichtserkennung verlangt das Handy dann PIN und Biometrie und blendet Benachrichtigungen und Widgets aus.
+- **Auf Werkseinstellungen zurücksetzen.** Löscht alle Daten auf dem Handy endgültig, möglicherweise aber nicht die SD-Karte. Danach ist das Handy nicht mehr in „Mein Gerät finden“ verfügbar, heb dir das also für den Schluss auf. Bekommst du das Handy zurück, brauchst du das Passwort deines Google-Kontos, um es wieder zu verwenden.
+- **IMEI anzeigen.** Öffne die Einstellungen des Geräts in „Mein Gerät finden“, um die IMEI zu sehen. Dein Mobilfunkanbieter kann das Handy damit sperren lassen.
+
+Du kannst das Handy auch nur mit deiner Telefonnummer sperren, unter [android.com/lock](https://www.android.com/lock). Das ist „Sperren per Fernzugriff“ und muss vorher eingeschaltet sein: siehe [5 Android-Einstellungen gegen Diebstahl](/de/blog/top_five_settings).
+
+## Handy orten, wenn es ausgeschaltet oder offline ist
+
+Hier enden die meisten Suchen nach einem gestohlenen Handy. Was der Dienst dann noch kann, hängt von einer Einstellung ab:
+
+**Gehe zu:**
+`Einstellungen > Google > Alle Dienste > Mein Gerät finden > Geräte finden, die offline sind`
+
+- **Aus:** Es werden keine letzten Standorte gespeichert, und das Handy ist nicht Teil des Netzwerks.
+- **Ohne Netzwerk:** Du siehst, wo das Handy war, als es zuletzt online war.
+- **Mit Netzwerk nur an stark frequentierten Orten:** Andere Android-Geräte in der Nähe können dein Handy zusätzlich über Bluetooth erkennen und seinen Standort melden, an Orten wie Flughäfen oder belebten Straßen.
+- **Mit Netzwerk überall:** dasselbe, auch in ruhigen und abgelegenen Gegenden.
+
+Für die Netzwerk-Optionen muss auf deinem Handy eine PIN, ein Muster oder ein Passwort eingerichtet sein. Die Standorte sind Ende-zu-Ende-verschlüsselt.
+
+**Wenn das Handy ausgeschaltet oder der Akku leer ist:** Google schreibt, dass unterstützte Geräte wie die Pixel-8-Serie noch mehrere Stunden lang über das Netzwerk geortet werden können. Dafür muss eine der beiden Netzwerk-Optionen gewählt sein, und Bluetooth und Standort müssen beim Ausschalten an sein. Bei den meisten anderen Handys heißt ausgeschaltet: Du siehst nur den letzten bekannten Standort.
+
+## Prüfe diese Einstellungen heute
+
+Fünf Minuten jetzt sparen dir später viel:
+
+- **Google-Konto:** Prüfe in den Einstellungen, ob dein Konto auf dem Handy eingerichtet ist.
+- **Standort:** `Einstellungen > Standort`, eingeschaltet.
+- **Mein Gerät finden:** `Einstellungen > Sicherheit > Mein Gerät finden`, mit **Standortermittlung für Gerät zulassen** eingeschaltet.
+- **Offline-Suche:** Wähle eine der oben beschriebenen Netzwerk-Optionen.
+- **Back-up-Codes:** Wenn dein Handy deine Methode für die Bestätigung in zwei Schritten ist, kommst du nach einem Diebstahl womöglich nicht mehr in dein Google-Konto. Erstelle in deinem Google-Konto bei der Bestätigung in zwei Schritten Back-up-Codes und bewahre sie nicht auf dem Handy auf.
+- **Testen:** Öffne google.com/android/find und prüfe, ob dein Handy erscheint.
+
+Die Menünamen unterscheiden sich je nach Hersteller etwas. Findest du einen nicht, suche in den Einstellungen nach „Mein Gerät finden“ oder „Find Hub“. Richte auf einem Samsung Galaxy zusätzlich Samsungs eigenen Dienst Samsung Find ein, unter `Einstellungen > Sicherheit und Datenschutz > Schutz für verlorene Geräte`.
+
+## Was „Mein Gerät finden“ nicht kann
+
+- **Ein ausgeschaltetes oder Offline-Handy sperren oder löschen.** Dafür braucht es Strom und eine Verbindung.
+- **Einen Dieb daran hindern, das Handy auszuschalten.** Lies dazu [So verhinderst du, dass Diebe dein Handy ausschalten](/de/blog/block-power-menu).
+- **Dir zeigen, wer das Handy hat.** Du bekommst einen Standort, kein Gesicht.
+- **Dich warnen, wenn jemand es entsperren will.** Es gibt keine Warnung, wenn ein Fremder falsche PINs eingibt.
+
+## So bekommst du ein Foto der Person, die dein Handy hat
+
+Ein Punkt auf der Karte sagt dir, wo das Handy ist. Er sagt dir nicht, wer von den Leuten dort es hat, und ein Standort allein reicht der Polizei oft nicht, um zu handeln.
+
+Diese Lücke schließt CrookCatcher. Fast jeder, der ein gesperrtes Handy in die Hand bekommt, probiert ein paar PINs. Bei jedem fehlgeschlagenen Entsperrversuch macht CrookCatcher ein Foto mit der Frontkamera, erfasst den GPS-Standort und eine ungefähre Adresse und schickt dir beides per E-Mail. Die E-Mail liegt in deinem Postfach, auch wenn das Handy eine Minute später ausgeschaltet wird.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-de.webp" width="990" height="1024" loading="lazy" alt="CrookCatcher-Warn-E-Mail mit dem Foto des Eindringlings, der Uhrzeit des Versuchs und einer Karte mit dem Standort" />
+  <figcaption>Die E-Mail, die CrookCatcher nach einem fehlgeschlagenen Entsperrversuch sendet.</figcaption>
+</figure>
+
+Nutze beides: „Mein Gerät finden“, um das Handy zu orten und zu sperren, und CrookCatcher, um zu sehen, wer an der Sperre vorbeiwollte. Wie die Einstellungen oben muss es eingerichtet sein, bevor das Handy weg ist. CrookCatcher wurde seit 2014 mehr als 12 Millionen Mal heruntergeladen und macht rund 1,2 Millionen Fotos von Eindringlingen pro Tag. Die Einrichtung dauert ein paar Minuten: siehe [So siehst du, wer dein Handy entsperren wollte](/de/blog/see-who-tried-to-unlock-your-phone).
+
+<AppCta position="guide_mid" />
+
+## Häufig gestellte Fragen
+
+### Q: Kann man ein ausgeschaltetes Handy orten?
+A: Bei unterstützten Geräten wie der Pixel-8-Serie kann das Netzwerk das Handy noch mehrere Stunden nach dem Ausschalten finden, wenn die Offline-Suche mit Netzwerk eingeschaltet war. Bei anderen Handys siehst du den letzten bekannten Standort.
+
+### Q: Kann ich mein Handy kostenlos orten?
+A: Ja. „Mein Gerät finden“ von Google kostet nichts und ist auf fast jedem Android-Handy mit Google-Konto schon eingeschaltet. Du brauchst nur einen Browser und dein Google-Konto.
+
+### Q: Ist Find Hub dasselbe wie „Mein Gerät finden“?
+A: Ja. Google hat „Mein Gerät finden“ in Find Hub umbenannt. Die deutschen Menüs und Hilfeseiten verwenden noch den alten Namen. Die Website google.com/android/find ist dieselbe.
+
+### Q: Kann ich mein gestohlenes Handy über die IMEI orten?
+A: Selbst nicht. Google beschreibt die IMEI als etwas, womit dein Mobilfunkanbieter das Handy sperren kann. „Mein Gerät finden“ zeigt dir die IMEI, damit du sie dem Anbieter und der Polizei geben kannst.
+
+### Q: Soll ich mein gestohlenes Handy löschen?
+A: Erst, wenn du sicher bist, dass du es nicht zurückbekommst. Google schreibt, dass ein auf Werkseinstellungen zurückgesetztes Handy nicht mehr in „Mein Gerät finden“ verfügbar ist. Du kannst es danach also nicht mehr orten. Markiere es zuerst als verloren.
+
+### Q: Zeigt „Mein Gerät finden“, wer mein Handy hat?
+A: Nein. Der Dienst zeigt einen Standort und lässt dich das Handy klingeln lassen, sperren oder löschen. Für ein Foto von jemandem, der es entsperren will, brauchst du eine App wie CrookCatcher, die vorher installiert wurde.
+
+## Quellen
+
+- Google, Android-Hilfe: [Verlorenes Android-Gerät orten, sperren oder Daten darauf löschen](https://support.google.com/android/answer/6160491?hl=de)
+- Google, Android-Hilfe: [Vorkehrungen für den Fall treffen, dass Ihr Android-Gerät verloren geht](https://support.google.com/android/answer/3265955?hl=de)
+- Google: [Find Hub („Mein Gerät finden“)](https://www.google.com/android/find)
+- Google: [Sperren per Fernzugriff (android.com/lock)](https://www.android.com/lock)
+
+## Weitere Ratgeber
+
+- [5 Android-Einstellungen gegen Diebstahl](/de/blog/top_five_settings)
+- [So verhinderst du, dass Diebe dein Handy ausschalten](/de/blog/block-power-menu)
+- [So siehst du, wer dein Handy entsperren wollte (mit Foto)](/de/blog/see-who-tried-to-unlock-your-phone)
+
+<AppCta position="guide_end" />

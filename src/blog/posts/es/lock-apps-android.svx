@@ -1,0 +1,146 @@
+---
+title: "Cómo poner contraseña a las aplicaciones en Android y Samsung (2026)"
+subtitle: "Carpeta segura, Espacio privado, bloqueo de aplicaciones y fijación de apps, y lo que ninguno te avisa"
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
+description: "Cómo poner contraseña a las aplicaciones en Android: Carpeta segura en Samsung Galaxy, Espacio privado en Android 15 o posterior, bloqueo de aplicaciones en Xiaomi, fijación de apps en cualquier teléfono y el bloqueo que traen apps como WhatsApp. Y lo que un bloqueo de aplicaciones no hace: mostrarte quién intentó entrar."
+image: '/images/blog/lock-apps-android-header-es.png'
+imageAlt: 'Cómo poner contraseña a las aplicaciones en Android. Samsung: Carpeta segura. Android 15+: Espacio privado. Xiaomi: bloqueo de aplicaciones. Cualquier teléfono: fijación de apps. Ninguno muestra quién intentó entrar.'
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**La forma de poner contraseña a una aplicación en Android depende del teléfono.** En un Samsung Galaxy, pon la app en la **Carpeta segura**. En un Pixel u otro teléfono con Android 15 o posterior, usa el **Espacio privado**. Los teléfonos Xiaomi, Redmi y POCO tienen un ajuste de **bloqueo de aplicaciones**. En cualquier Android puedes fijar una app en la pantalla antes de prestar el teléfono, y apps como WhatsApp tienen su propio bloqueo. Todos mantienen a la gente fuera de una app. Ninguno te avisa quién lo intentó.
+
+## Samsung Galaxy: Carpeta segura
+
+Los teléfonos Samsung no tienen un interruptor que bloquee una app donde está. En su lugar, agregas una copia de la app a la Carpeta segura, un espacio aparte con su propio PIN, contraseña o patrón.
+
+**Ve a:**
+`Ajustes > Seguridad y privacidad > Más ajustes de seguridad > Carpeta segura`
+
+Los nombres de los menús pueden variar un poco; si no la encuentras, busca "Carpeta segura" en Ajustes.
+
+1. Presiona **Continuar**, acepta los permisos e inicia sesión en tu cuenta Samsung si te lo pide.
+2. Elige un PIN, una contraseña o un patrón para la carpeta. Usa uno distinto al de tu pantalla de bloqueo.
+3. Activa el restablecimiento con la cuenta Samsung. Sin eso, Samsung advierte que no podrás volver a entrar si olvidas el código.
+4. En la Carpeta segura, presiona **Añadir aplicaciones** (el signo más), elige la app y confirma.
+
+La app que queda en la Carpeta segura es una segunda copia, así que inicias sesión otra vez ahí. Para dejar también la original fuera de alcance, cierra sesión en ella o desinstálala fuera de la carpeta.
+
+Para ocultar la carpeta, desactiva la opción que muestra la Carpeta segura en la pantalla de aplicaciones, en el mismo menú. Si la Carpeta segura no aparece en el menú, tu modelo de Galaxy no la incluye.
+
+## Pixel y otros teléfonos con Android 15 o posterior: Espacio privado
+
+El Espacio privado es el área bloqueada del propio Android para las apps. Cuando está bloqueado, sus apps desaparecen de la lista de apps, de las recientes y de la búsqueda, y quedan detenidas por completo, así que no muestran notificaciones.
+
+**Ve a:**
+`Configuración > Seguridad y privacidad > Espacio privado` (en España, `Ajustes`)
+
+1. Confirma tu bloqueo de pantalla y sigue la configuración.
+2. Si quieres, inicia sesión con una cuenta de Google para el espacio. Google recomienda una distinta.
+3. Elige usar el bloqueo de pantalla del dispositivo o un bloqueo nuevo solo para el espacio: PIN, patrón, contraseña o huella.
+4. Instala dentro del Espacio privado las apps que quieres proteger.
+
+Como las apps de un Espacio privado bloqueado quedan detenidas, no pongas ahí nada que deba funcionar en segundo plano, como una alarma o una app de mensajes que necesitas escuchar.
+
+El Espacio privado necesita Android 15 o posterior, y algunos fabricantes lo desactivaron en sus modelos.
+
+### El bloqueo de aplicaciones de Google viene en camino
+
+Un bloqueo de aplicaciones de verdad, en el que la app se queda en su lugar pero pide tu PIN o tu huella al abrirla, está en pruebas en los teléfonos Pixel. El sitio Android Authority lo encontró en las versiones de prueba de Android en agosto de 2026, en `Settings > Security & privacy > App lock`. A noviembre de 2026 no está en la versión normal de Android 17, y Google no ha publicado ninguna página de ayuda sobre él. Si tu Pixel muestra ese menú después de una actualización, es la opción más simple.
+
+## Xiaomi, Redmi y POCO: bloqueo de aplicaciones
+
+**Ve a:**
+`Ajustes > Aplicaciones > Bloqueo de aplicaciones` (App lock)
+
+Actívalo, define una contraseña y selecciona las apps que quieres bloquear. Xiaomi aclara que la cuenta Xiaomi es la única forma de recuperar el bloqueo de aplicaciones si olvidas la contraseña, así que agrégala cuando te lo pida. Varias otras marcas de Android tienen un ajuste parecido: busca "bloqueo de aplicaciones" en los ajustes.
+
+## Cualquier teléfono Android: fija una app antes de prestar el teléfono
+
+La fijación de apps mantiene el teléfono en una sola app hasta que se ingresa tu PIN. Está pensada para el momento en que le pasas el teléfono a un amigo o a un niño.
+
+**Ve a:**
+`Configuración > Seguridad > Avanzada > Fijación de apps`
+
+Actívala. Después:
+
+1. Abre la app que quieres mostrar.
+2. Desliza el dedo hacia la parte central de la pantalla y mantén presionado, para abrir las apps recientes.
+3. Presiona el ícono de la app en la parte superior de su imagen y luego **Fijar**.
+
+Para dejar de fijarla, desliza hacia arriba, mantén presionado e ingresa tu PIN, patrón o contraseña. Con la navegación de 3 botones, mantén presionados Atrás y Recientes.
+
+## Bloqueos dentro de las propias apps
+
+Algunas apps traen su propio bloqueo, que funciona en cualquier teléfono:
+
+- **WhatsApp:** en los ajustes de WhatsApp, en Privacidad, activa el bloqueo de la aplicación (App lock).
+- **Google Fotos:** mueve tus fotos privadas a la **Carpeta privada** (`Colecciones > Carpeta privada`). Se abre con el bloqueo de pantalla del teléfono.
+- **Las apps de banco y de pagos** suelen pedir un PIN o la huella cada vez. Revisa los ajustes de seguridad de la propia app.
+
+Las apps de bloqueo de aplicaciones de Google Play son otro camino. Antes de instalar una, mira cuándo se actualizó por última vez y qué permisos pide.
+
+## Lo que no hace ponerle contraseña a una app
+
+- **No te avisa que alguien lo intentó.** Una persona puede agarrar tu teléfono y probar el código de tu Carpeta segura o de tu Espacio privado, y nunca lo sabrás. No se guarda nada y no se envía ninguna alerta.
+- **No te muestra quién fue.** No hay foto de la persona.
+- **Solo cubre lo que pones ahí.** Todo lo demás del teléfono queda abierto para quien pase la pantalla de bloqueo.
+- **Los bloqueos que usan tu bloqueo de pantalla no detienen a quien sabe tu PIN.** El Espacio privado con el bloqueo del dispositivo y la Carpeta privada de Fotos se abren para quien lo sepa.
+
+El bloqueo de aplicaciones es una segunda puerta. La primera sigue siendo tu pantalla de bloqueo, y ahí es donde sirve saber quién lo está intentando.
+
+## Cómo ver quién intenta entrar a tu teléfono
+
+CrookCatcher no bloquea tus otras apps. Vigila la pantalla de bloqueo. Cuando alguien ingresa un PIN, patrón o contraseña incorrectos, toma una foto con la cámara frontal, registra la ubicación GPS y te envía ambas cosas por correo.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-es.webp" width="990" height="1024" loading="lazy" alt="Correo de alerta de CrookCatcher con la foto del intruso, la hora del intento y un mapa con la ubicación" />
+  <figcaption>El correo que envía CrookCatcher después de un intento fallido de desbloqueo.</figcaption>
+</figure>
+
+Los dos se complementan: el bloqueo de aplicaciones mantiene cerradas tus apps privadas, y CrookCatcher te muestra quién agarró el teléfono e intentó entrar, sea alguien de tu casa o un ladrón. La foto, la ubicación y el correo son gratis. Desde 2014, CrookCatcher se ha descargado más de 12 millones de veces. Configurarlo toma unos minutos: lee [cómo saber quién intentó desbloquear tu teléfono](/es/blog/see-who-tried-to-unlock-your-phone).
+
+<AppCta position="guide_mid" />
+
+## Preguntas frecuentes
+
+### P: ¿Puedo poner contraseña a las aplicaciones sin instalar nada?
+R: Sí, en la mayoría de los teléfonos. Usa la Carpeta segura en Samsung, el Espacio privado en Android 15 o posterior, o el bloqueo de aplicaciones en Xiaomi. La fijación de apps funciona en cualquier Android para el momento en que prestas el teléfono.
+
+### P: ¿Cómo bloquear aplicaciones en Samsung?
+R: Samsung no tiene un bloqueo que cierre la app donde está. Su respuesta es la Carpeta segura, que guarda una copia bloqueada de la app. Está en `Ajustes > Seguridad y privacidad > Más ajustes de seguridad`.
+
+### P: ¿Cómo poner contraseña a WhatsApp?
+R: En WhatsApp, abre los ajustes, entra a Privacidad y activa el bloqueo de la aplicación. En Samsung también puedes agregar WhatsApp a la Carpeta segura, y en Android 15 o posterior al Espacio privado.
+
+### P: ¿Bloquear una app oculta sus notificaciones?
+R: Con el Espacio privado, sí: las apps de un Espacio privado bloqueado quedan detenidas y no muestran notificaciones. Con los otros métodos depende del teléfono, así que revisa también los ajustes de notificaciones en la pantalla de bloqueo.
+
+### P: ¿Alguien que sabe mi PIN puede abrir mis apps bloqueadas?
+R: Si el bloqueo usa tu bloqueo de pantalla, sí. Ponle a la Carpeta segura o al Espacio privado un código propio, distinto al de tu pantalla de bloqueo.
+
+### P: ¿Puedo ver quién intentó abrir mis apps bloqueadas?
+R: Los bloqueos de aplicaciones de Android y de Samsung no guardan ningún registro ni toman fotos. Para ver quién intentó entrar al teléfono en sí, una app como CrookCatcher fotografía a quien ingresa un PIN incorrecto en la pantalla de bloqueo.
+
+## Fuentes
+
+- Samsung US Support: [Use the Secure Folder on your Galaxy phone or tablet](https://www.samsung.com/us/support/answer/ANS10001401/) (en inglés)
+- Google, Ayuda de Android: [Oculta apps sensibles con un espacio privado](https://support.google.com/android/answer/15341885?hl=es-419)
+- Google, Ayuda de Android: [Cómo fijar y dejar de fijar pantallas](https://support.google.com/android/answer/9455138?hl=es-419)
+- Xiaomi Support: [How to enable App lock](https://www.mi.com/global/support/faq/details/KA-508070/) (en inglés)
+- Centro de ayuda de WhatsApp: [How to use app lock](https://faq.whatsapp.com/1726618467788240/)
+- Ayuda de Google Fotos: [Oculta fotos y videos sensibles en la Carpeta privada](https://support.google.com/photos/answer/10694388?hl=es-419)
+- Android Authority: [Google is bringing back native app lock for Android, but not for everyone yet](https://www.androidauthority.com/google-android-pixel-app-lock-3695632/) (agosto de 2026, en inglés)
+
+## Guías relacionadas
+
+- [Cómo saber quién intentó desbloquear tu teléfono (y obtener su foto)](/es/blog/see-who-tried-to-unlock-your-phone)
+- [¿Se pueden ver los intentos fallidos de desbloqueo en Android?](/es/blog/failed-unlock-attempts-android)
+- [5 ajustes antirrobo de Android para activar hoy](/es/blog/top_five_settings)
+
+<AppCta position="guide_end" />

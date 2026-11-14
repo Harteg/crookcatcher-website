@@ -1,0 +1,110 @@
+---
+title: "¿Quién tocó mi teléfono? Cómo saberlo en Android (2026)"
+subtitle: "Lo que Android muestra por sí solo, lo que registra la app WTMP (Who Touched My Phone) y cómo recibir la foto por correo"
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
+description: "Android no puede mostrarte quién tocó tu teléfono. Para saberlo necesitas una app que fotografíe a la persona en la pantalla de bloqueo. Esto es lo que registra WTMP (Who Touched My Phone), en qué se diferencia CrookCatcher y cuál te conviene según tu caso."
+image: '/images/blog/who-touched-my-phone-header-es.png'
+imageAlt: '¿Quién tocó mi teléfono? Android: sin registro, sin foto. WTMP: un informe en la app. CrookCatcher: una foto por correo.'
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Android no puede decirte quién tocó tu teléfono. No guarda una lista de quién lo desbloqueó y nunca toma una foto.** Para saberlo necesitas una app que use la cámara frontal cuando alguien desbloquea el teléfono o se equivoca de PIN. La más conocida es WTMP, sigla de "Who Touched My Phone" (quién tocó mi teléfono), que guarda un informe en el teléfono cada vez. CrookCatcher toma una foto cuando alguien ingresa un PIN incorrecto y te la envía por correo con la ubicación. Cuál te conviene depende de si piensas en alguien de tu casa o en un robo.
+
+Nosotros hacemos CrookCatcher, así que léelo teniendo eso en cuenta. Lo que decimos de WTMP viene de su propia ficha de Google Play, tal como estaba el 14 de noviembre de 2026. Esta guía trata de proteger tu propio teléfono.
+
+## Lo que Android muestra por sí solo
+
+Poco. Cuando alguien ingresa un PIN incorrecto, Android lo rechaza y, después de varios intentos, hace esperar a la persona. No guarda los intentos en ningún lugar que puedas revisar y no usa la cámara. Lee [qué hace Android con los intentos fallidos de desbloqueo](/es/blog/failed-unlock-attempts-android).
+
+Si alguien logró entrar, quedan rastros: Bienestar digital (Digital Wellbeing) cuenta cuántas veces se desbloqueó el teléfono y qué apps se abrieron, y el historial del navegador y la actividad de tu cuenta de Google muestran lo que se hizo. Nada de eso muestra quién fue.
+
+## Qué hace la app WTMP
+
+WTMP — Who touched my phone? es de Mindfulness Devs. Tiene más de 10 millones de descargas, y su ficha se actualizó por última vez en octubre de 2026. Así la describe la ficha:
+
+1. Abres la app, presionas el botón y bloqueas el teléfono.
+2. Cuando alguien desbloquea el teléfono, o lo intenta, la app empieza un informe: una foto de la cámara frontal y la lista de apps que se abrieron.
+3. Cuando la pantalla se apaga, el informe se guarda.
+4. Lees los informes en la app y puedes sincronizarlos con la nube.
+
+La app usa el permiso de **Administrador de dispositivos** de Android para detectar los intentos de desbloqueo incorrectos. Es gratis de instalar, con compras dentro de la app.
+
+Dos cosas de esa descripción importan:
+
+- **También registra los desbloqueos correctos.** Si alguien sabe tu PIN, igual obtienes su foto y ves qué apps abrió. Ese es el punto fuerte de WTMP.
+- **Los informes se quedan en la app.** La ficha no menciona alerta por correo ni ubicación. Ves lo que pasó cuando tienes el teléfono otra vez en la mano.
+
+## Qué hace distinto CrookCatcher
+
+CrookCatcher reacciona cuando alguien ingresa un PIN, patrón o contraseña incorrectos. Toma una foto con la cámara frontal, registra la ubicación GPS y una dirección aproximada, y te lo envía todo por correo. No necesitas el teléfono para verlo.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-es.webp" width="990" height="1024" loading="lazy" alt="Correo de alerta de CrookCatcher con la foto del intruso, la hora del intento y un mapa con la ubicación" />
+  <figcaption>El correo que envía CrookCatcher después de un intento fallido de desbloqueo.</figcaption>
+</figure>
+
+La foto, la ubicación y el correo son gratis. CrookCatcher Pro agrega la **detección de intrusiones**, que también fotografía a quien se equivoca de PIN y luego lo adivina, además de video con sonido y copia de seguridad en Google Drive. CrookCatcher está en Google Play desde 2014 y toma alrededor de 1,2 millones de fotos de intrusos al día.
+
+Lo que no hace: no fotografía a quien ingresa el PIN correcto en el primer intento, y no lista las apps que abrió.
+
+<AppCta position="guide_mid" />
+
+## WTMP y CrookCatcher comparados
+
+| | WTMP | CrookCatcher |
+| --- | --- | --- |
+| Foto después de un PIN incorrecto | Sí | Sí |
+| Foto después de un desbloqueo correcto | Sí | Solo después de un intento fallido (Pro) |
+| Lista de apps que se abrieron | Sí | No |
+| Alerta por correo con la foto | No se menciona | Sí |
+| Ubicación GPS | No se menciona | Sí |
+| Dónde lo ves | En la app, con sincronización opcional en la nube | En la app y en tu correo |
+| Precio | Gratis, con compras dentro de la app | Gratis, con compras dentro de la app |
+
+"No se menciona" significa que la ficha de la app en Google Play no describe la función.
+
+## ¿Cuál usar?
+
+- **Alguien en tu casa o en el trabajo quizá sabe tu PIN:** WTMP, porque registra los desbloqueos correctos y las apps que se abrieron. Después, cambia tu PIN.
+- **Piensas en un robo, o en un teléfono olvidado en algún lugar:** CrookCatcher, porque la foto y la ubicación llegan a tu correo mientras el teléfono no está contigo.
+- **Alguien intenta adivinar tu PIN una y otra vez:** los dos sirven. CrookCatcher te avisa enseguida por correo; WTMP te lo muestra la próxima vez que abras la app.
+
+Elijas la que elijas, pruébala: bloquea tu teléfono, ingresa un PIN incorrecto a propósito, desbloquéalo y revisa que tu propia foto esté ahí. Vuelve a probar una semana después, porque algunos teléfonos detienen las apps en segundo plano al cabo de unos días.
+
+## Preguntas frecuentes
+
+### P: ¿Android puede mostrar quién tocó mi teléfono?
+R: No. Android no tiene un registro de quién desbloqueó el teléfono y nunca toma una foto. Bienestar digital muestra cuántas veces se desbloqueó, pero no quién lo hizo.
+
+### P: ¿Cómo saber si alguien usó mi celular?
+R: Revisa en Bienestar digital si hay desbloqueos que no hiciste tú. Para saber quién fue, instala antes una de estas apps, para que el próximo intento quede fotografiado.
+
+### P: ¿La app Who Touched My Phone es gratis?
+R: WTMP es gratis de instalar, y su ficha de Google Play indica compras dentro de la app. CrookCatcher también es gratis de instalar; la foto, la ubicación y la alerta por correo están en la versión gratuita.
+
+### P: ¿Es segura la app WTMP?
+R: Su sección de seguridad de los datos en Google Play indica que no se recopilan datos ni se comparten con terceros. Como todas las apps de este tipo, necesita el permiso de Administrador de dispositivos, que hay que desactivar antes de poder desinstalarla.
+
+### P: ¿Estas apps funcionan con huella o desbloqueo facial?
+R: Puedes seguir usando ambos. CrookCatcher reacciona a un PIN, patrón o contraseña incorrectos; un intento fallido con huella o rostro no genera una foto. La ficha de WTMP dice que registra cuando el teléfono se desbloquea o se intenta desbloquear.
+
+### P: ¿Por qué la app no tomó la foto?
+R: Lo más común es que el ahorro de batería del teléfono haya detenido la app en segundo plano, o que el teléfono se acabara de reiniciar. Después de un reinicio, Android solo deja que las apps usen la cámara una vez que el teléfono se desbloqueó una primera vez.
+
+## Fuentes
+
+- Ficha de Google Play de [WTMP — Who touched my phone?](https://play.google.com/store/apps/details?id=com.wtmp.svdsoftware), tal como aparecía en la tienda de EE. UU. el 14 de noviembre de 2026
+- Android Developers: [DeviceAdminReceiver](https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver) (cómo se avisa a las apps de los intentos fallidos de desbloqueo)
+
+## Guías relacionadas
+
+- [Cómo saber quién intentó desbloquear tu teléfono (y obtener su foto)](/es/blog/see-who-tried-to-unlock-your-phone)
+- [¿Se pueden ver los intentos fallidos de desbloqueo en Android?](/es/blog/failed-unlock-attempts-android)
+- [Cómo saber quién intentó desbloquear tu Samsung](/es/blog/samsung-who-tried-to-unlock)
+
+<AppCta position="guide_end" />

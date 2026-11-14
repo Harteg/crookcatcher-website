@@ -1,0 +1,126 @@
+---
+title: "How to Find a Stolen Android Phone with Find Hub (2026)"
+subtitle: How to locate, lock or erase your phone from another device, what happens when it's offline or switched off, and what Find Hub can't show you
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
+description: "To find a lost or stolen Android phone, sign in to Find Hub at google.com/android/find with the Google account on the phone. You can see it on a map, play a sound, mark it as lost or erase it. Here are the steps, the settings for offline finding, and what Find Hub can't do: show you who has the phone."
+image: '/images/blog/find-stolen-android-phone-header.png'
+imageAlt: 'How to find a stolen Android phone. Find Hub shows it on a map, plays a sound, locks and erases it. It does not show who has it or alert you to wrong PINs.'
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**To find a lost or stolen Android phone, go to [google.com/android/find](https://www.google.com/android/find) in any browser, or open the Find Hub app on another Android device, and sign in with the Google account that's on the phone.** Find Hub shows the phone on a map and lets you play a sound, mark it as lost or erase it. To lock or erase it, the phone needs power and a mobile data or Wi-Fi connection. If the phone was stolen, give the location to the police and don't go there yourself.
+
+Find Hub is Google's new name for Find My Device. It's the same service.
+
+## How to find your phone with Find Hub
+
+Google says Find Hub is turned on automatically when you add a Google account to a phone, so it's worth trying even if you never set anything up.
+
+1. On a computer or another phone, go to [google.com/android/find](https://www.google.com/android/find). On another Android device you can use the **Find Hub app** instead.
+2. Sign in with the Google account on the lost phone. On a friend's phone, open the Find Hub app and choose **Sign in as guest**.
+3. Select the phone from the list of devices. You may be asked for the lost phone's lock screen PIN, or for your Google password.
+4. The map shows where the phone is. If its current location can't be found, you may see its last known location instead.
+
+The lost phone gets a notification when you do this.
+
+Google estimates the location from GPS (accurate to around 20 meters outdoors), nearby Wi-Fi networks and cell towers, which can be off by up to a few thousand meters. The circle around the pin shows how confident Find Hub is.
+
+## What you can do from Find Hub
+
+- **Play sound.** The phone rings at full volume for 5 minutes, even if it's set to silent or vibrate.
+- **Mark as lost.** This locks the phone with your PIN, pattern or password and lets you put contact information and a message on the lock screen. On Android 17 and later, with fingerprint or face unlock set up, the phone then needs both your PIN and your fingerprint or face, and hides notifications and widgets.
+- **Factory reset.** This permanently deletes everything on the phone, though it may not erase an SD card. After a reset the phone no longer appears in Find Hub, so do this last. If you get the phone back, you'll need your Google account password to use it again.
+- **See the IMEI.** Open the device's settings in Find Hub to see its IMEI number. Your mobile provider can use it to disable the phone.
+
+You can also lock the phone with just your phone number at [android.com/lock](https://www.android.com/lock). That's Remote Lock, and it has to be switched on in advance: see [5 Android anti-theft settings to turn on today](/blog/top_five_settings).
+
+## If the phone is offline or switched off
+
+This is where most searches for a stolen phone end. What Find Hub can still do depends on one setting:
+
+**Go to:**
+`Settings > Google > All services > Find Hub > Find your offline devices`
+
+- **Off:** no recent locations are stored, and the phone isn't part of the Find Hub network.
+- **Without network:** Find Hub can show where the phone was when it was last online.
+- **With network in busy places only:** other Android devices nearby can also detect your phone over Bluetooth and report its location, in places like airports or busy streets.
+- **With network everywhere:** the same, in quiet and remote areas too.
+
+The network options need a PIN, pattern or password set on your phone. The locations are end-to-end encrypted.
+
+**When the phone is switched off or the battery is dead:** Google says supported devices, like the Pixel 8 series, can still be located by the network for several hours. This needs one of the two network options above, and Bluetooth and Location switched on when the phone shuts down. On most other phones, switched off means you only get the last known location.
+
+## Check these settings today
+
+Five minutes now saves a lot later:
+
+- **Google account:** `Settings > Passwords, passkeys and accounts` should show your account.
+- **Location:** `Settings > Location`, with **Use location** on.
+- **Find Hub:** `Settings > Security > Find Hub`, with **Allow device to be located** on.
+- **Offline finding:** choose one of the network options described above.
+- **Backup codes:** if your phone is your 2-Step Verification method, you could be locked out of your Google account when it's stolen. Create backup codes in your Google Account under **Security & sign-in > 2-Step Verification > Backup codes**, and keep them somewhere other than the phone.
+- **Test it:** open google.com/android/find and check that your phone shows up.
+
+Menu names differ a little between brands. If you can't find one, search for "Find Hub" in Settings. On a Samsung Galaxy, also set up Samsung's own service, Samsung Find, under `Settings > Security and privacy > Lost device protection`.
+
+## What Find Hub can't do
+
+- **Lock or erase a phone that's off or offline.** Those need power and a connection.
+- **Stop a thief from switching the phone off.** See [how to stop power off and airplane mode from the lock screen](/blog/block-power-menu).
+- **Show you who has the phone.** You get a location, not a face.
+- **Tell you someone is trying to unlock it.** There's no alert when a stranger enters wrong PINs.
+
+## How to get a photo of the person who has your phone
+
+A dot on a map tells you where the phone is. It doesn't tell you which of the people there has it, and a location alone often isn't enough for the police to act.
+
+That's the gap CrookCatcher fills. Almost everyone who picks up a locked phone tries a few PINs. Each time an unlock attempt fails, CrookCatcher takes a photo with the front camera, records the GPS location and an approximate address, and emails both to you. The email is in your inbox even if the phone is switched off a minute later.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/hero-alert-800.webp" srcset="/images/hero-alert-480.webp 480w, /images/hero-alert-800.webp 800w, /images/hero-alert-990.webp 990w" sizes="(min-width: 600px) 540px, 100vw" width="990" height="1024" loading="lazy" alt="CrookCatcher email alert with the intruder's photo, the time of the attempt and a map of the location" />
+  <figcaption>The email CrookCatcher sends after a failed unlock attempt.</figcaption>
+</figure>
+
+Use both: Find Hub to locate and lock the phone, CrookCatcher to see who tried to get past the lock. Like Find Hub's settings, it has to be in place before the phone goes missing. CrookCatcher has been downloaded more than 12 million times since 2014 and takes around 1.2 million intruder photos a day. Setup takes a few minutes: see [how to see who tried to unlock your Android phone](/blog/see-who-tried-to-unlock-your-phone).
+
+<AppCta position="guide_mid" />
+
+## Frequently Asked Questions
+
+### Q: Can Find Hub find a phone that is turned off?
+A: On supported devices, like the Pixel 8 series, the Find Hub network can still locate the phone for several hours after it's switched off, if offline finding with the network was on. On other phones you see the last known location.
+
+### Q: Can I find my Android phone without an internet connection?
+A: Find Hub can show where the phone was when it was last online. If offline finding with the network is on, other Android devices nearby can also report its location over Bluetooth.
+
+### Q: Is Find Hub the same as Find My Device?
+A: Yes. Google renamed Find My Device to Find Hub. The website, google.com/android/find, is the same.
+
+### Q: Can I track my stolen phone with the IMEI number?
+A: Not yourself. Google describes the IMEI as something your mobile provider can use to disable the phone. Find Hub shows you the IMEI so you can give it to your provider and the police.
+
+### Q: Should I erase my stolen phone?
+A: Only when you're sure you won't get it back. Google says a phone that has been factory reset is no longer available in Find Hub, so you can't locate it afterwards. Mark it as lost first.
+
+### Q: Does Find Hub show who has my phone?
+A: No. Find Hub shows a location and lets you ring, lock or erase the phone. To get a photo of someone who tries to unlock it, you need an app like CrookCatcher, installed beforehand.
+
+## Sources
+
+- Google, Android Help: [Find, secure, or erase a lost Android device](https://support.google.com/android/answer/6160491?hl=en)
+- Google, Android Help: [Be ready to find a lost Android device](https://support.google.com/android/answer/3265955?hl=en)
+- Google: [Find Hub](https://www.google.com/android/find)
+- Google: [Remote Lock (android.com/lock)](https://www.android.com/lock)
+
+## Related guides
+
+- [5 Android anti-theft settings to turn on today](/blog/top_five_settings)
+- [Android Theft Detection Lock: what it does and what it misses](/blog/theft-detection-lock)
+- [How to stop power off and airplane mode from the lock screen](/blog/block-power-menu)
+
+<AppCta position="guide_end" />

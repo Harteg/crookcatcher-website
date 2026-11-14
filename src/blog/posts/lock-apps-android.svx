@@ -1,0 +1,144 @@
+---
+title: "How to Lock Apps on Android and Samsung (2026)"
+subtitle: Secure Folder, Private space, App lock and app pinning, and what none of them tell you
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
+description: "How to lock individual apps on Android: Secure Folder on Samsung Galaxy, Private space on Android 15 and later, App lock on Xiaomi, app pinning on any phone, and the locks built into apps like WhatsApp. Plus what an app lock can't do: show you who tried to get in."
+image: '/images/blog/lock-apps-android-header.png'
+imageAlt: 'How to lock apps on Android. Samsung: Secure Folder. Android 15+: Private space. Xiaomi: App lock. Any phone: app pinning. None of them show who tried to get in.'
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**How you lock an app on Android depends on the phone.** On a Samsung Galaxy, put the app in **Secure Folder**. On a Pixel or another phone with Android 15 or later, use **Private space**. Xiaomi, Redmi and POCO phones have a setting called **App lock**. On any Android phone you can pin one app to the screen before you hand the phone to someone, and apps like WhatsApp have their own lock. All of them keep people out of an app. None of them tell you who tried.
+
+## Samsung Galaxy: Secure Folder
+
+Samsung phones don't have a switch that locks an app where it is. Instead you add a copy of the app to Secure Folder, a separate area with its own PIN, password or pattern.
+
+**Go to:**
+`Settings > Security and privacy > More security settings > Secure Folder`
+
+1. Tap **Continue**, allow the permissions and sign in to your Samsung account if asked.
+2. Choose a PIN, password or pattern for the folder. Pick a different one from your lock screen.
+3. Turn on **Reset with Samsung account**. Without it, Samsung says you can't get back in if you forget the passcode.
+4. In Secure Folder, tap **Add apps** (the plus sign), choose the app and tap **Add**.
+
+The app in Secure Folder is a second copy, so you sign in to it again there. To keep the original out of reach as well, sign out of it or uninstall it outside the folder.
+
+To hide the folder itself, turn off **Add Secure Folder to Apps screen** in the same settings menu. If Secure Folder isn't in the menu, your Galaxy model doesn't support it.
+
+## Pixel and other phones with Android 15 or later: Private space
+
+Private space is Android's own locked area for apps. When it's locked, the apps in it are hidden from the app list, recent apps and search, and they're completely stopped, so they show no notifications.
+
+**Go to:**
+`Settings > Security & privacy > Private space`
+
+1. Confirm your screen lock and tap **Set up**.
+2. Sign in to a Google account for the space if you want to. Google recommends a separate one.
+3. Choose **Use device screen lock**, or **Choose new lock** to give the space its own PIN, pattern, password or fingerprint.
+4. Install the apps you want to protect inside Private space.
+
+Because apps in a locked Private space are stopped, don't put anything there that has to work in the background, like an alarm or a messaging app you need to hear.
+
+Private space needs Android 15 or later, and some phone makers have turned it off on their models.
+
+### Google's own App lock is on the way
+
+A real app lock, where an app stays in place but asks for your PIN or fingerprint when opened, is being tested on Pixel phones. Android Authority found it in Android's test builds in August 2026 under `Settings > Security & privacy > App lock`. As of November 2026 it isn't in the regular version of Android 17, and Google has published no help page for it. If your Pixel has that menu after an update, it's the simplest option.
+
+## Xiaomi, Redmi and POCO: App lock
+
+**Go to:**
+`Settings > Apps > App lock`
+
+Tap **Turn on**, set a password, then select the apps you want locked. Xiaomi notes that your Xiaomi Account is the only way to restore App lock if you forget the password, so add it when asked. Several other Android brands have a similar setting. Open Settings and search for "App lock".
+
+## Any Android phone: pin one app before you hand over your phone
+
+App pinning keeps the phone on a single app until your PIN is entered. It's made for the moment you hand your phone to a friend or a child.
+
+**Go to:**
+`Settings > Security > Advanced > App pinning`
+
+Turn it on. Then:
+
+1. Open the app you want to show.
+2. Swipe up to the middle of the screen and hold, to open the overview of recent apps.
+3. Tap the app's icon at the top of its preview, then tap **Pin**.
+
+To unpin, swipe up and hold, then enter your PIN, pattern or password. With 3-button navigation, hold Back and Overview instead.
+
+## Locks inside the apps themselves
+
+Some apps bring their own lock, which works on every phone:
+
+- **WhatsApp:** `Settings > Privacy > App lock`.
+- **Google Photos:** move private photos to the **Locked Folder** (`Collections > Locked`). It opens with your phone's screen lock.
+- **Banking and payment apps** usually ask for a PIN or fingerprint each time. Check the app's own security settings.
+
+App lock apps from Google Play are another route. Before you install one, look at when it was last updated and what permissions it asks for.
+
+## What locking an app doesn't do
+
+- **It doesn't tell you someone tried.** A person can pick up your phone and try your Secure Folder or Private space passcode, and you'll never know. Nothing is saved, and no alert is sent.
+- **It doesn't show you who it was.** No photo of the person.
+- **It only covers what you put in it.** Everything else on the phone is open to anyone who gets past the lock screen.
+- **Locks that use your screen lock don't stop someone who knows your PIN.** Private space with the device lock and the Photos Locked Folder open for anyone who has it.
+
+App locks are a second door. The first door is still your lock screen, and that's where it helps to know who is trying.
+
+## How to see who tries to get into your phone
+
+CrookCatcher doesn't lock your other apps. It watches the lock screen. When someone enters a wrong PIN, pattern or password, it takes a photo with the front camera, records the GPS location, and emails both to you.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/hero-alert-800.webp" srcset="/images/hero-alert-480.webp 480w, /images/hero-alert-800.webp 800w, /images/hero-alert-990.webp 990w" sizes="(min-width: 600px) 540px, 100vw" width="990" height="1024" loading="lazy" alt="CrookCatcher email alert with the intruder's photo, the time of the attempt and a map of the location" />
+  <figcaption>The email CrookCatcher sends after a failed unlock attempt.</figcaption>
+</figure>
+
+The two fit together: an app lock keeps your private apps closed, and CrookCatcher shows you who picked up the phone and tried to get in, whether that's someone at home or a thief. The photo, location and email are free. CrookCatcher has been downloaded more than 12 million times since 2014. Setup takes a few minutes: see [how to see who tried to unlock your Android phone](/blog/see-who-tried-to-unlock-your-phone).
+
+<AppCta position="guide_mid" />
+
+## Frequently Asked Questions
+
+### Q: Can I lock apps on Android without installing an app?
+A: Yes, on most phones. Use Secure Folder on Samsung, Private space on Android 15 or later, or App lock on Xiaomi. App pinning works on any Android phone for the moment you hand it to someone.
+
+### Q: Does Samsung have an app lock?
+A: Not one that locks an app where it is. Samsung's answer is Secure Folder, which holds a locked copy of the app. Find it under `Settings > Security and privacy > More security settings`.
+
+### Q: How do I lock WhatsApp on Android?
+A: In WhatsApp, go to `Settings > Privacy > App lock` and turn it on. On Samsung you can also add WhatsApp to Secure Folder, and on Android 15 or later to Private space.
+
+### Q: Does locking an app hide its notifications?
+A: With Private space, yes: apps in a locked Private space are stopped and show no notifications. For other methods it depends on the phone, so check your lock screen notification settings too.
+
+### Q: Can someone who knows my PIN open my locked apps?
+A: If the lock uses your screen lock, yes. Give Secure Folder or Private space its own passcode, different from the one on your lock screen.
+
+### Q: Can I see who tried to open my locked apps?
+A: Android's and Samsung's app locks keep no record and take no photo. To see who tried to get into the phone itself, an app like CrookCatcher photographs anyone who enters a wrong PIN on the lock screen.
+
+## Sources
+
+- Samsung US Support: [Use the Secure Folder on your Galaxy phone or tablet](https://www.samsung.com/us/support/answer/ANS10001401/)
+- Google, Android Help: [Hide sensitive apps with private space](https://support.google.com/android/answer/15341885?hl=en)
+- Google, Android Help: [Pin & unpin screens](https://support.google.com/android/answer/9455138?hl=en)
+- Xiaomi Support: [How to enable App lock](https://www.mi.com/global/support/faq/details/KA-508070/)
+- WhatsApp Help Center: [How to use app lock](https://faq.whatsapp.com/1726618467788240/)
+- Google Photos Help: [Hide sensitive photos & videos in Locked Folders](https://support.google.com/photos/answer/10694388?hl=en)
+- Android Authority: [Google is bringing back native app lock for Android, but not for everyone yet](https://www.androidauthority.com/google-android-pixel-app-lock-3695632/) (August 2026)
+
+## Related guides
+
+- [How to set up a fake home screen on Android](/blog/fake-home-screen-android)
+- [How to tell if someone went through your Android phone](/blog/signs-someone-went-through-your-phone)
+- [How to see who tried to unlock your Android phone (and get their photo)](/blog/see-who-tried-to-unlock-your-phone)
+
+<AppCta position="guide_end" />

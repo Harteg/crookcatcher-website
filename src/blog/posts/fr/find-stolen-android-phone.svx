@@ -1,0 +1,126 @@
+---
+title: "Localiser un téléphone Android perdu ou volé avec Localiser mon appareil (Find Hub) (2026)"
+subtitle: "Comment localiser, verrouiller ou effacer votre téléphone depuis un autre appareil, ce qui se passe quand il est hors connexion ou éteint, et ce que le service ne montre pas"
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
+description: "Pour localiser un téléphone Android perdu ou volé, connectez-vous à Localiser (Find Hub, ex-Localiser mon appareil) sur google.com/android/find avec le compte Google du téléphone. Voici les étapes, les réglages pour le retrouver hors connexion ou éteint, et ce que le service ne montre pas : qui a le téléphone."
+image: '/images/blog/find-stolen-android-phone-header-fr.png'
+imageAlt: "Comment localiser un téléphone Android volé. Localiser (Find Hub) le montre sur une carte, le fait sonner, le verrouille et l'efface. Il ne montre pas qui l'a et n'alerte pas en cas de mauvais code."
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**Pour localiser un téléphone Android perdu ou volé, allez sur [google.com/android/find](https://www.google.com/android/find) dans n'importe quel navigateur, ou ouvrez l'application Localiser sur un autre appareil Android, et connectez-vous avec le compte Google présent sur le téléphone.** Le service affiche le téléphone sur une carte et permet de le faire sonner, de le signaler comme égaré ou de l'effacer. Pour le verrouiller ou l'effacer, le téléphone doit être allumé et connecté aux données mobiles ou au Wi-Fi. S'il a été volé, transmettez la position à la police et n'y allez pas vous-même.
+
+Localiser est le nom français de Find Hub, le service que Google appelait auparavant Localiser mon appareil. C'est le même service.
+
+## Comment localiser votre téléphone
+
+Google indique que Localiser est activé automatiquement quand vous ajoutez un compte Google à un téléphone. Cela vaut donc la peine d'essayer même si vous n'avez jamais rien configuré.
+
+1. Sur un ordinateur ou un autre téléphone, allez sur [google.com/android/find](https://www.google.com/android/find). Sur un autre appareil Android, vous pouvez utiliser l'**application Localiser**.
+2. Connectez-vous avec le compte Google du téléphone perdu. Sur le téléphone d'un ami, ouvrez l'application Localiser et choisissez **Se connecter en tant qu'invité**.
+3. Sélectionnez le téléphone dans la liste des appareils. On peut vous demander le code de l'écran de verrouillage du téléphone perdu, ou votre mot de passe Google.
+4. La carte montre où se trouve le téléphone. Si sa position actuelle est introuvable, sa dernière position connue peut s'afficher.
+
+Le téléphone perdu reçoit une notification quand vous faites cela.
+
+Google estime la position à partir du GPS (précis à environ 20 mètres en extérieur), des réseaux Wi-Fi à proximité et des antennes-relais, qui peuvent se tromper de quelques milliers de mètres. Le cercle autour du repère indique le degré de confiance.
+
+## Ce que vous pouvez faire
+
+- **Faire sonner.** Le téléphone sonne au volume maximal pendant 5 minutes, même en mode silencieux ou vibreur.
+- **Signaler comme égaré.** Verrouille le téléphone avec votre code, schéma ou mot de passe et permet d'afficher des coordonnées et un message sur l'écran de verrouillage. Sur Android 17 ou version ultérieure, avec l'empreinte ou la reconnaissance faciale configurée, le téléphone exige alors le code et la biométrie, et masque les notifications et les widgets.
+- **Rétablir la configuration d'usine.** Supprime définitivement tout le contenu du téléphone, mais pas forcément la carte SD. Après cela, le téléphone n'apparaît plus dans Localiser : gardez cette action pour la fin. Si vous récupérez le téléphone, il vous faudra le mot de passe de votre compte Google pour le réutiliser.
+- **Voir l'IMEI.** Ouvrez les paramètres de l'appareil dans Localiser pour voir son numéro IMEI. Votre opérateur peut s'en servir pour désactiver le téléphone.
+
+Vous pouvez aussi verrouiller le téléphone avec seulement votre numéro sur [android.com/lock](https://www.android.com/lock). C'est le Verrouillage à distance, à activer à l'avance : voir [5 réglages antivol Android à activer aujourd'hui](/fr/blog/top_five_settings).
+
+## Localiser un téléphone hors connexion ou éteint
+
+C'est là que s'arrêtent la plupart des recherches d'un téléphone volé. Ce que le service peut encore faire dépend d'un réglage :
+
+**Allez dans :**
+`Paramètres > Google > Tous les services > Localiser > Localiser vos appareils hors connexion`
+
+- **Désactivé :** aucune position récente n'est stockée, et le téléphone ne participe pas au réseau Localiser.
+- **Sans ce réseau :** le service peut montrer où était le téléphone la dernière fois qu'il était en ligne.
+- **Avec le réseau dans les lieux fréquentés uniquement :** les autres appareils Android à proximité peuvent aussi détecter votre téléphone en Bluetooth et signaler sa position, dans des lieux comme les aéroports ou les rues passantes.
+- **Avec le réseau partout :** la même chose, y compris dans les zones calmes et isolées.
+
+Les options avec réseau exigent un code, un schéma ou un mot de passe sur votre téléphone. Les positions sont chiffrées de bout en bout.
+
+**Quand le téléphone est éteint ou que la batterie est vide :** Google indique que les appareils compatibles, comme la série Pixel 8, peuvent encore être localisés par le réseau pendant plusieurs heures. Il faut l'une des deux options avec réseau, et que le Bluetooth et la localisation soient activés au moment où le téléphone s'éteint. Sur la plupart des autres téléphones, éteint signifie que vous n'avez que la dernière position connue.
+
+## Vérifiez ces réglages aujourd'hui
+
+Cinq minutes maintenant vous en épargnent beaucoup plus tard :
+
+- **Compte Google :** vérifiez dans les Paramètres que votre compte est bien sur le téléphone.
+- **Localisation :** `Paramètres > Localisation`, activée.
+- **Localiser :** `Paramètres > Sécurité > Localiser`, avec **Autoriser la localisation de l'appareil** activé.
+- **Appareils hors connexion :** choisissez l'une des options avec réseau décrites ci-dessus.
+- **Codes de secours :** si votre téléphone est votre moyen de validation en deux étapes, vous pourriez perdre l'accès à votre compte Google en cas de vol. Créez des codes de secours dans votre compte Google, dans la validation en deux étapes, et gardez-les ailleurs que sur le téléphone.
+- **Testez :** ouvrez google.com/android/find et vérifiez que votre téléphone apparaît.
+
+Les noms des menus varient un peu selon les marques. Si vous n'en trouvez pas un, cherchez « Localiser » dans les Paramètres. Sur un Samsung Galaxy, configurez aussi le service de Samsung, Samsung Find, dans `Paramètres > Sécurité et confidentialité > Protection de l'appareil perdu`.
+
+## Ce que Localiser ne peut pas faire
+
+- **Verrouiller ou effacer un téléphone éteint ou hors connexion.** Il faut de la batterie et une connexion.
+- **Empêcher un voleur d'éteindre le téléphone.** Voir [comment empêcher les voleurs d'éteindre votre téléphone](/fr/blog/block-power-menu).
+- **Vous montrer qui a le téléphone.** Vous obtenez une position, pas un visage.
+- **Vous prévenir que quelqu'un essaie de le déverrouiller.** Aucune alerte quand un inconnu saisit de mauvais codes.
+
+## Comment obtenir une photo de la personne qui a votre téléphone
+
+Un point sur une carte vous dit où est le téléphone. Il ne dit pas laquelle des personnes présentes l'a, et une position seule ne suffit souvent pas pour que la police agisse.
+
+C'est le manque que comble CrookCatcher. Presque tous ceux qui ramassent un téléphone verrouillé essaient quelques codes. À chaque tentative de déverrouillage ratée, CrookCatcher prend une photo avec la caméra frontale, enregistre la position GPS et une adresse approximative, et vous envoie le tout par e-mail. L'e-mail est dans votre boîte de réception même si le téléphone est éteint une minute plus tard.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-fr.webp" width="990" height="1101" loading="lazy" alt="E-mail d'alerte CrookCatcher avec la photo de l'intrus, l'heure de la tentative et une carte avec la position" />
+  <figcaption>L'e-mail envoyé par CrookCatcher après une tentative de déverrouillage ratée.</figcaption>
+</figure>
+
+Utilisez les deux : Localiser pour retrouver et verrouiller le téléphone, CrookCatcher pour voir qui a essayé de passer le verrouillage. Comme les réglages de Localiser, il doit être en place avant que le téléphone disparaisse. Depuis 2014, CrookCatcher a été téléchargé plus de 12 millions de fois et prend environ 1,2 million de photos d'intrus par jour. La configuration prend quelques minutes : voir [comment savoir qui a essayé de déverrouiller votre téléphone](/fr/blog/see-who-tried-to-unlock-your-phone).
+
+<AppCta position="guide_mid" />
+
+## Questions fréquentes
+
+### Q : Peut-on localiser un téléphone éteint ?
+R : Sur les appareils compatibles, comme la série Pixel 8, le réseau Localiser peut encore retrouver le téléphone pendant plusieurs heures après son extinction, si la localisation hors connexion avec le réseau était activée. Sur les autres téléphones, vous voyez la dernière position connue.
+
+### Q : Peut-on localiser un téléphone Android sans connexion Internet ?
+R : Le service peut montrer où était le téléphone la dernière fois qu'il était en ligne. Si la localisation hors connexion avec le réseau est activée, les autres appareils Android à proximité peuvent aussi signaler sa position en Bluetooth.
+
+### Q : Localiser, Find Hub et Localiser mon appareil, est-ce la même chose ?
+R : Oui. Google a renommé Localiser mon appareil en Find Hub, appelé Localiser en français. Le site, google.com/android/find, est le même.
+
+### Q : Puis-je localiser un téléphone volé avec son IMEI ?
+R : Pas vous-même. Google décrit l'IMEI comme un numéro que votre opérateur peut utiliser pour désactiver le téléphone. Localiser vous affiche l'IMEI pour que vous le donniez à l'opérateur et à la police.
+
+### Q : Faut-il effacer un téléphone volé ?
+R : Seulement quand vous êtes sûr de ne pas le récupérer. Google indique qu'un téléphone dont la configuration d'usine a été rétablie n'est plus disponible dans Localiser : vous ne pouvez plus le localiser ensuite. Signalez-le d'abord comme égaré.
+
+### Q : Localiser montre-t-il qui a mon téléphone ?
+R : Non. Le service affiche une position et permet de faire sonner, de verrouiller ou d'effacer le téléphone. Pour obtenir une photo de quelqu'un qui essaie de le déverrouiller, il faut une application comme CrookCatcher, installée au préalable.
+
+## Sources
+
+- Google, Aide Android : [Localiser un appareil Android égaré, le sécuriser ou en effacer les données](https://support.google.com/android/answer/6160491?hl=fr)
+- Google, Aide Android : [Retrouver un appareil Android égaré](https://support.google.com/android/answer/3265955?hl=fr)
+- Google : [Localiser (Find Hub)](https://www.google.com/android/find)
+- Google : [Verrouillage à distance (android.com/lock)](https://www.android.com/lock)
+
+## Guides associés
+
+- [5 réglages antivol Android à activer aujourd'hui](/fr/blog/top_five_settings)
+- [Comment empêcher les voleurs d'éteindre votre téléphone](/fr/blog/block-power-menu)
+- [Comment savoir qui a essayé de déverrouiller votre téléphone (et obtenir sa photo)](/fr/blog/see-who-tried-to-unlock-your-phone)
+
+<AppCta position="guide_end" />

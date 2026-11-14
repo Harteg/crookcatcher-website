@@ -1,0 +1,146 @@
+---
+title: "Comment verrouiller une application sur Android et Samsung (2026)"
+subtitle: "Dossier sécurisé, Espace privé, verrouillage d'applications et épinglage, et ce qu'aucun d'eux ne vous dit"
+dateUpdated: '2026-11-14'
+datePublished: '2026-11-14'
+description: "Comment verrouiller une application sur Android : Dossier sécurisé sur Samsung Galaxy, Espace privé sur Android 15 ou version ultérieure, verrouillage d'applications sur Xiaomi, épinglage d'application sur tous les téléphones, et le verrouillage intégré à des applications comme WhatsApp. Et ce qu'un verrouillage d'application ne fait pas : montrer qui a essayé d'entrer."
+image: '/images/blog/lock-apps-android-header-fr.png'
+imageAlt: "Comment verrouiller une application sur Android. Samsung : Dossier sécurisé. Android 15+ : Espace privé. Xiaomi : verrouillage d'applications. Tous les téléphones : épinglage. Aucun ne montre qui a essayé d'entrer."
+published: false
+---
+
+<script>
+  import AppCta from '$lib/components/AppCta.svelte';
+</script>
+
+**La façon de verrouiller une application sur Android dépend du téléphone.** Sur un Samsung Galaxy, placez l'application dans le **Dossier sécurisé**. Sur un Pixel ou un autre téléphone sous Android 15 ou version ultérieure, utilisez l'**Espace privé**. Les téléphones Xiaomi, Redmi et POCO ont un réglage de **verrouillage d'applications**. Sur n'importe quel Android, vous pouvez épingler une application à l'écran avant de prêter votre téléphone, et des applications comme WhatsApp ont leur propre verrouillage. Tous empêchent d'ouvrir une application. Aucun ne vous dit qui a essayé.
+
+## Samsung Galaxy : le Dossier sécurisé
+
+Les téléphones Samsung n'ont pas de bouton qui verrouille une application là où elle se trouve. À la place, vous ajoutez une copie de l'application dans le Dossier sécurisé, un espace séparé avec son propre code PIN, mot de passe ou schéma.
+
+**Allez dans :**
+`Paramètres > Sécurité et confidentialité > Autres paramètres de sécurité > Dossier sécurisé`
+
+Les noms des menus peuvent varier un peu ; si vous ne le trouvez pas, cherchez « Dossier sécurisé » dans les Paramètres.
+
+1. Appuyez sur **Continuer**, accordez les autorisations et connectez-vous à votre compte Samsung si on vous le demande.
+2. Choisissez un code PIN, un mot de passe ou un schéma pour le dossier. Prenez-en un différent de celui de l'écran de verrouillage.
+3. Activez la réinitialisation avec le compte Samsung. Sans elle, Samsung prévient que vous ne pourrez plus entrer si vous oubliez le code.
+4. Dans le Dossier sécurisé, appuyez sur **Ajouter des applications** (le signe plus), choisissez l'application et validez.
+
+L'application dans le Dossier sécurisé est une seconde copie : vous vous y reconnectez. Pour mettre aussi l'originale hors de portée, déconnectez-vous-en ou désinstallez-la en dehors du dossier.
+
+Pour masquer le dossier lui-même, désactivez l'option qui affiche le Dossier sécurisé sur l'écran des applications, dans le même menu. Si le Dossier sécurisé n'apparaît pas dans le menu, votre modèle de Galaxy ne le propose pas.
+
+## Pixel et autres téléphones sous Android 15 ou version ultérieure : l'Espace privé
+
+L'Espace privé est l'espace verrouillé d'Android pour les applications. Quand il est verrouillé, ses applications disparaissent de la liste des applications, des applications récentes et de la recherche, et elles sont complètement arrêtées : elles n'affichent aucune notification.
+
+**Allez dans :**
+`Paramètres > Sécurité et confidentialité > Espace privé`
+
+1. Confirmez votre verrouillage d'écran et lancez la configuration.
+2. Connectez un compte Google à l'espace si vous le souhaitez. Google en recommande un distinct.
+3. Choisissez d'utiliser le verrouillage de l'écran de l'appareil, ou un nouveau verrouillage réservé à l'espace : code, schéma, mot de passe ou empreinte.
+4. Installez dans l'Espace privé les applications que vous voulez protéger.
+
+Comme les applications d'un Espace privé verrouillé sont arrêtées, n'y mettez rien qui doive fonctionner en arrière-plan, comme un réveil ou une messagerie que vous devez entendre.
+
+L'Espace privé nécessite Android 15 ou version ultérieure, et certains fabricants l'ont désactivé sur leurs modèles.
+
+### Le verrouillage d'applications de Google arrive
+
+Un vrai verrouillage d'applications, où l'application reste à sa place mais demande votre code ou votre empreinte à l'ouverture, est en test sur les téléphones Pixel. Le site Android Authority l'a trouvé dans les versions de test d'Android en août 2026, dans `Settings > Security & privacy > App lock`. En novembre 2026, il n'est pas dans la version normale d'Android 17, et Google n'a publié aucune page d'aide à son sujet. Si votre Pixel affiche ce menu après une mise à jour, c'est l'option la plus simple.
+
+## Xiaomi, Redmi et POCO : le verrouillage d'applications
+
+**Allez dans :**
+`Paramètres > Applications > Verrouillage d'applications` (App lock)
+
+Activez-le, définissez un mot de passe, puis sélectionnez les applications à verrouiller. Xiaomi précise que le compte Xiaomi est le seul moyen de récupérer le verrouillage d'applications si vous oubliez le mot de passe : ajoutez-le quand on vous le propose. Plusieurs autres marques Android ont un réglage semblable : cherchez « verrouillage d'applications » dans les Paramètres.
+
+## Tous les téléphones Android : épingler une application avant de prêter votre téléphone
+
+L'épinglage d'application maintient le téléphone sur une seule application jusqu'à la saisie de votre code. Il est fait pour le moment où vous passez votre téléphone à un ami ou à un enfant.
+
+**Allez dans :**
+`Paramètres > Sécurité > Paramètres avancés > Épinglage d'application`
+
+Activez-le. Ensuite :
+
+1. Ouvrez l'application que vous voulez montrer.
+2. Balayez l'écran du bas jusqu'au milieu et maintenez, pour ouvrir l'aperçu des applications récentes.
+3. Appuyez sur l'icône de l'application en haut de son aperçu, puis sur l'option d'épinglage.
+
+Pour retirer l'épinglage, balayez vers le haut et maintenez, puis saisissez votre code, schéma ou mot de passe. Avec la navigation à trois boutons, maintenez Retour et Aperçu.
+
+## Les verrouillages intégrés aux applications
+
+Certaines applications ont leur propre verrouillage, qui fonctionne sur tous les téléphones :
+
+- **WhatsApp :** dans les paramètres de WhatsApp, rubrique Confidentialité, activez le verrouillage de l'application (App lock).
+- **Google Photos :** déplacez vos photos privées dans le **Dossier verrouillé** (`Collections > Verrouillé`). Il s'ouvre avec le verrouillage d'écran du téléphone.
+- **Les applications bancaires et de paiement** demandent en général un code ou une empreinte à chaque ouverture. Vérifiez les réglages de sécurité de l'application.
+
+Les applications de verrouillage du Google Play sont une autre piste. Avant d'en installer une, regardez la date de sa dernière mise à jour et les autorisations qu'elle demande.
+
+## Ce que verrouiller une application ne fait pas
+
+- **Cela ne vous dit pas que quelqu'un a essayé.** Une personne peut prendre votre téléphone et essayer le code de votre Dossier sécurisé ou de votre Espace privé sans que vous le sachiez jamais. Rien n'est enregistré, aucune alerte n'est envoyée.
+- **Cela ne vous montre pas qui c'était.** Aucune photo de la personne.
+- **Cela ne couvre que ce que vous y mettez.** Tout le reste du téléphone est ouvert à quiconque passe l'écran de verrouillage.
+- **Les verrouillages qui reprennent votre verrouillage d'écran n'arrêtent pas quelqu'un qui connaît votre code.** L'Espace privé avec le verrouillage de l'appareil et le Dossier verrouillé de Photos s'ouvrent pour qui le connaît.
+
+Le verrouillage d'applications est une seconde porte. La première reste votre écran de verrouillage, et c'est là qu'il est utile de savoir qui essaie.
+
+## Comment voir qui essaie d'entrer dans votre téléphone
+
+CrookCatcher ne verrouille pas vos autres applications. Il surveille l'écran de verrouillage. Quand quelqu'un saisit un code PIN, un schéma ou un mot de passe incorrect, il prend une photo avec la caméra frontale, enregistre la position GPS, et vous envoie les deux par e-mail.
+
+<figure class="blog-figure" style="max-width: 540px;">
+  <img src="/images/blog/email-alert-fr.webp" width="990" height="1101" loading="lazy" alt="E-mail d'alerte CrookCatcher avec la photo de l'intrus, l'heure de la tentative et une carte avec la position" />
+  <figcaption>L'e-mail envoyé par CrookCatcher après une tentative de déverrouillage ratée.</figcaption>
+</figure>
+
+Les deux se complètent : le verrouillage d'applications garde vos applications privées fermées, et CrookCatcher vous montre qui a pris le téléphone et essayé d'entrer, que ce soit quelqu'un à la maison ou un voleur. La photo, la position et l'e-mail sont gratuits. Depuis 2014, CrookCatcher a été téléchargé plus de 12 millions de fois. La configuration prend quelques minutes : voir [comment savoir qui a essayé de déverrouiller votre téléphone](/fr/blog/see-who-tried-to-unlock-your-phone).
+
+<AppCta position="guide_mid" />
+
+## Questions fréquentes
+
+### Q : Peut-on verrouiller une application sur Android sans installer d'application ?
+R : Oui, sur la plupart des téléphones. Utilisez le Dossier sécurisé sur Samsung, l'Espace privé sur Android 15 ou version ultérieure, ou le verrouillage d'applications sur Xiaomi. L'épinglage d'application fonctionne sur tous les Android pour le moment où vous prêtez le téléphone.
+
+### Q : Comment verrouiller une application sur Samsung ?
+R : Samsung n'a pas de verrouillage qui bloque une application là où elle se trouve. Sa réponse est le Dossier sécurisé, qui contient une copie verrouillée de l'application. Il se trouve dans `Paramètres > Sécurité et confidentialité > Autres paramètres de sécurité`.
+
+### Q : Comment verrouiller WhatsApp sur Android ?
+R : Dans WhatsApp, ouvrez les paramètres, puis Confidentialité, et activez le verrouillage de l'application. Sur Samsung, vous pouvez aussi ajouter WhatsApp au Dossier sécurisé, et sur Android 15 ou version ultérieure à l'Espace privé.
+
+### Q : Verrouiller une application masque-t-il ses notifications ?
+R : Avec l'Espace privé, oui : les applications d'un Espace privé verrouillé sont arrêtées et n'affichent aucune notification. Pour les autres méthodes, cela dépend du téléphone : vérifiez aussi les réglages des notifications sur l'écran de verrouillage.
+
+### Q : Quelqu'un qui connaît mon code peut-il ouvrir mes applications verrouillées ?
+R : Si le verrouillage reprend celui de votre écran, oui. Donnez au Dossier sécurisé ou à l'Espace privé son propre code, différent de celui de l'écran de verrouillage.
+
+### Q : Puis-je voir qui a essayé d'ouvrir mes applications verrouillées ?
+R : Les verrouillages d'applications d'Android et de Samsung ne gardent aucune trace et ne prennent aucune photo. Pour voir qui a essayé d'entrer dans le téléphone lui-même, une application comme CrookCatcher photographie quiconque saisit un mauvais code sur l'écran de verrouillage.
+
+## Sources
+
+- Samsung US Support : [Use the Secure Folder on your Galaxy phone or tablet](https://www.samsung.com/us/support/answer/ANS10001401/) (en anglais)
+- Google, Aide Android : [Masquer les applications sensibles avec l'espace privé](https://support.google.com/android/answer/15341885?hl=fr)
+- Google, Aide Android : [Épingler des écrans et les retirer](https://support.google.com/android/answer/9455138?hl=fr)
+- Xiaomi Support : [How to enable App lock](https://www.mi.com/global/support/faq/details/KA-508070/) (en anglais)
+- Pages d'aide WhatsApp : [How to use app lock](https://faq.whatsapp.com/1726618467788240/)
+- Aide Google Photos : [Masquer des photos et vidéos sensibles dans le Dossier verrouillé](https://support.google.com/photos/answer/10694388?hl=fr)
+- Android Authority : [Google is bringing back native app lock for Android, but not for everyone yet](https://www.androidauthority.com/google-android-pixel-app-lock-3695632/) (août 2026, en anglais)
+
+## Guides associés
+
+- [Comment savoir qui a essayé de déverrouiller votre téléphone (et obtenir sa photo)](/fr/blog/see-who-tried-to-unlock-your-phone)
+- [Peut-on voir les tentatives de déverrouillage ratées sur Android ?](/fr/blog/failed-unlock-attempts-android)
+- [5 réglages antivol Android à activer aujourd'hui](/fr/blog/top_five_settings)
+
+<AppCta position="guide_end" />
