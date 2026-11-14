@@ -1,14 +1,14 @@
 {
   "meta": {
-    "title": "CrookCatcher: Anti-Theft Intruder Selfie App for Android",
-    "description": "CrookCatcher takes an intruder selfie when someone enters a wrong PIN, pattern or password, and emails you their photo and GPS location. Free for Android.",
+    "title": "CrookCatcher: Takes a Picture of Whoever Tries to Unlock Your Phone",
+    "description": "Free Android app that takes a picture when someone enters a wrong password, PIN or pattern, then emails you the photo and location. 12M+ downloads.",
     "canonical": "https://www.crookcatcher.app/",
     "ogImage": "https://www.crookcatcher.app/images/og-share.png",
     "ogImageAlt": "CrookCatcher: catch anyone who tries to unlock your phone. Email alert with intruder photos and map location."
   },
   "hero": {
     "headline": "See who tried to unlock your phone.",
-    "subline": "CrookCatcher takes a photo of anyone who enters a wrong PIN, pattern or password, and emails it to you with their location.",
+    "subline": "CrookCatcher takes a picture of anyone who enters a wrong password, PIN or pattern, and emails it to you with their location.",
     "playNote": "Free on Android · No registration",
     "ratingValue": "4.6",
     "rating": "from 90,000+ ratings",
@@ -167,6 +167,10 @@
     "initialCount": 8,
     "items": [
       {
+        "question": "Is there an app that takes a picture when someone tries to unlock your phone?",
+        "answer": "Yes. CrookCatcher is a free Android app that takes a picture with the front camera when someone enters a wrong password, PIN or pattern, and emails it to you with the phone's location. Android has no built-in setting that does this."
+      },
+      {
         "question": "What happens when someone tries to unlock my phone?",
         "answer": "CrookCatcher takes an intruder selfie with the front camera, records GPS location if available, and emails these to you. With Pro, it can also record video, use the back camera, play alarms, and show a fake home screen."
       },
@@ -175,8 +179,8 @@
         "answer": "You can configure how many failed unlock attempts (wrong PIN, pattern or password) are required before CrookCatcher activates. Once that threshold is reached, it takes photos, records videos (Pro), and sends alerts based on your settings."
       },
       {
-        "question": "What features are included in the free version?",
-        "answer": "The free version includes an intruder selfie on wrong PIN, pattern or password, GPS location, and instant email alerts with the photo and location."
+        "question": "Is CrookCatcher free?",
+        "answer": "Yes. The free version takes a picture on a wrong password, PIN or pattern, records the GPS location, and emails you the photo and location right away. Pro adds extras like video and Google Drive backup."
       },
       {
         "question": "What additional features does Pro offer?",
@@ -230,7 +234,7 @@
   },
   "finalCta": {
     "title": "12 million downloads, plus yours.",
-    "subtitle": "Free on Google Play. Set up in a few minutes.",
+    "subtitle": "A free anti-theft app on Google Play. Set up in a few minutes.",
     "note": "Android only",
     "qrLabel": "Scan to install it on your phone"
   }
