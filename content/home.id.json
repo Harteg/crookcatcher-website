@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "CrookCatcher: Aplikasi Anti-Pencurian Selfie Penyusup untuk Android",
-    "description": "CrookCatcher mengambil selfie penyusup saat seseorang memasukkan PIN, pola, atau sandi yang salah, lalu mengirim foto dan lokasi GPS-nya ke email kamu. Gratis untuk Android.",
+    "title": "CrookCatcher: Aplikasi Anti Maling HP yang Memotret Saat PIN Salah",
+    "description": "Aplikasi anti maling gratis untuk HP Android: memotret siapa pun yang memasukkan PIN, pola, atau sandi yang salah, lalu mengirim foto dan lokasinya ke emailmu.",
     "canonical": "https://www.crookcatcher.app/id",
     "ogImage": "https://www.crookcatcher.app/images/og-share.png",
     "ogImageAlt": "CrookCatcher: tangkap siapa pun yang mencoba membuka ponselmu. Email peringatan dengan foto penyusup dan lokasi di peta."
@@ -167,6 +167,10 @@
     "initialCount": 8,
     "items": [
       {
+        "question": "Apakah ada aplikasi yang memotret orang yang mencoba membuka HP?",
+        "answer": "Ada. CrookCatcher adalah aplikasi Android gratis yang mengambil foto dengan kamera depan saat seseorang memasukkan PIN, pola, atau sandi yang salah, lalu mengirimkannya ke emailmu beserta lokasi ponsel. Android tidak punya setelan bawaan untuk ini."
+      },
+      {
         "question": "Apa yang terjadi saat seseorang mencoba membuka ponselku?",
         "answer": "CrookCatcher mengambil selfie penyusup dengan kamera depan, mencatat lokasi GPS jika tersedia, lalu mengirimkan keduanya ke emailmu. Dengan Pro, aplikasi juga bisa merekam video, memakai kamera belakang, membunyikan alarm, dan menampilkan layar beranda palsu."
       },
@@ -175,8 +179,8 @@
         "answer": "Kamu bisa mengatur berapa kali percobaan membuka kunci yang gagal (PIN, pola, atau sandi salah) sebelum CrookCatcher aktif. Setelah batas itu tercapai, aplikasi mengambil foto, merekam video (Pro), dan mengirim peringatan sesuai pengaturanmu."
       },
       {
-        "question": "Fitur apa saja di versi gratis?",
-        "answer": "Versi gratis mencakup selfie penyusup saat PIN, pola, atau sandi salah, lokasi GPS, dan email peringatan instan dengan foto dan lokasi."
+        "question": "Apakah CrookCatcher gratis?",
+        "answer": "Ya. Versi gratis mengambil foto saat PIN, pola, atau sandi salah, mencatat lokasi GPS, dan langsung mengirim foto serta lokasinya ke emailmu. Pro menambahkan fitur seperti video dan pencadangan ke Google Drive."
       },
       {
         "question": "Fitur tambahan apa yang ditawarkan Pro?",
@@ -230,7 +234,7 @@
   },
   "finalCta": {
     "title": "12 juta unduhan, dan segera termasuk kamu.",
-    "subtitle": "Gratis di Google Play. Selesai diatur dalam beberapa menit.",
+    "subtitle": "Aplikasi anti maling gratis di Google Play. Selesai diatur dalam beberapa menit.",
     "note": "Hanya untuk Android",
     "qrLabel": "Pindai untuk memasangnya di ponselmu"
   }

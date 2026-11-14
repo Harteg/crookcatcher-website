@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "CrookCatcher: Diebstahlschutz mit Einbrecher-Selfie für Android",
-    "description": "CrookCatcher macht ein Einbrecher-Selfie, wenn jemand eine falsche PIN, ein falsches Muster oder Passwort eingibt, und schickt dir das Foto samt GPS-Standort per E-Mail. Kostenlos für Android.",
+    "title": "CrookCatcher: Diebstahlschutz fürs Handy mit Foto bei falscher PIN",
+    "description": "Kostenlose Diebstahlschutz-App für Android: CrookCatcher fotografiert jeden, der eine falsche PIN, ein falsches Muster oder Passwort eingibt, und schickt dir Foto und Standort per E-Mail.",
     "canonical": "https://www.crookcatcher.app/de",
     "ogImage": "https://www.crookcatcher.app/images/og-share.png",
     "ogImageAlt": "CrookCatcher: Erwische jeden, der dein Handy entsperren will. Warn-E-Mail mit Fotos des Eindringlings und Standort auf der Karte."
@@ -167,6 +167,10 @@
     "initialCount": 8,
     "items": [
       {
+        "question": "Gibt es eine App, die ein Foto macht, wenn jemand mein Handy entsperren will?",
+        "answer": "Ja. CrookCatcher ist eine kostenlose Android-App, die mit der Frontkamera ein Foto macht, wenn jemand eine falsche PIN, ein falsches Muster oder Passwort eingibt, und es dir mit dem Standort des Handys per E-Mail schickt. Android selbst hat dafür keine Einstellung."
+      },
+      {
         "question": "Was passiert, wenn jemand versucht, mein Handy zu entsperren?",
         "answer": "CrookCatcher macht mit der Frontkamera ein Einbrecher-Selfie, erfasst wenn möglich den GPS-Standort und schickt dir beides per E-Mail. Mit Pro kann die App außerdem Videos aufnehmen, die Rückkamera nutzen, Alarme abspielen und einen falschen Startbildschirm zeigen."
       },
@@ -175,8 +179,8 @@
         "answer": "Du kannst einstellen, wie viele fehlgeschlagene Entsperrversuche (falsche PIN, falsches Muster oder Passwort) nötig sind, bevor CrookCatcher aktiv wird. Ist diese Schwelle erreicht, nimmt die App Fotos auf, zeichnet Videos auf (Pro) und sendet Warnungen entsprechend deinen Einstellungen."
       },
       {
-        "question": "Welche Funktionen sind in der kostenlosen Version enthalten?",
-        "answer": "Die kostenlose Version enthält ein Einbrecher-Selfie bei falscher PIN, falschem Muster oder Passwort, den GPS-Standort und sofortige Warn-E-Mails mit Foto und Standort."
+        "question": "Ist CrookCatcher kostenlos?",
+        "answer": "Ja. Die kostenlose Version macht ein Foto bei falscher PIN, falschem Muster oder Passwort, erfasst den GPS-Standort und schickt dir Foto und Standort sofort per E-Mail. Pro ergänzt Extras wie Video und ein Backup auf Google Drive."
       },
       {
         "question": "Welche zusätzlichen Funktionen bietet Pro?",
@@ -230,7 +234,7 @@
   },
   "finalCta": {
     "title": "12 Millionen Downloads, und bald auch deiner.",
-    "subtitle": "Kostenlos bei Google Play. In wenigen Minuten eingerichtet.",
+    "subtitle": "Kostenloser Diebstahlschutz fürs Handy bei Google Play. In wenigen Minuten eingerichtet.",
     "note": "Nur für Android",
     "qrLabel": "Scannen, um die App auf deinem Handy zu installieren"
   }

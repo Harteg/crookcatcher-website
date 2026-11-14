@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "CrookCatcher: app antifurto che fotografa gli intrusi su Android",
-    "description": "CrookCatcher scatta un selfie dell'intruso quando qualcuno inserisce un PIN, una sequenza o una password sbagliati, e ti invia via email la sua foto e la posizione GPS. Gratis per Android.",
+    "title": "CrookCatcher: antifurto con foto a chi prova a sbloccare il telefono",
+    "description": "App antifurto gratuita per cellulare Android: scatta una foto a chi inserisce un PIN, una sequenza o una password sbagliati e te la invia via email con la posizione.",
     "canonical": "https://www.crookcatcher.app/it",
     "ogImage": "https://www.crookcatcher.app/images/og-share.png",
     "ogImageAlt": "CrookCatcher: scopri chi prova a sbloccare il tuo telefono. Email di avviso con le foto dell'intruso e la posizione sulla mappa."
@@ -167,6 +167,10 @@
     "initialCount": 8,
     "items": [
       {
+        "question": "Esiste un'app che fa la foto a chi prova a sbloccare il telefono?",
+        "answer": "Sì. CrookCatcher è un'app gratuita per Android che scatta una foto con la fotocamera anteriore quando qualcuno inserisce un PIN, una sequenza o una password sbagliati, e te la invia via email con la posizione del telefono. Android non ha un'impostazione integrata per farlo."
+      },
+      {
         "question": "Cosa succede quando qualcuno prova a sbloccare il mio telefono?",
         "answer": "CrookCatcher scatta un selfie dell'intruso con la fotocamera anteriore, registra la posizione GPS se disponibile e ti invia tutto via email. Con Pro può anche registrare video, usare la fotocamera posteriore, far suonare un allarme e mostrare una falsa schermata Home."
       },
@@ -175,8 +179,8 @@
         "answer": "Puoi scegliere quanti tentativi di sblocco falliti (PIN, sequenza o password sbagliati) servono prima che CrookCatcher si attivi. Raggiunto quel numero, scatta foto, registra video (Pro) e invia avvisi in base alle tue impostazioni."
       },
       {
-        "question": "Quali funzioni sono incluse nella versione gratuita?",
-        "answer": "La versione gratuita include il selfie dell'intruso con PIN, sequenza o password sbagliati, la posizione GPS e gli avvisi email immediati con la foto e la posizione."
+        "question": "CrookCatcher è gratis?",
+        "answer": "Sì. La versione gratuita scatta la foto con PIN, sequenza o password sbagliati, registra la posizione GPS e ti invia subito la foto e la posizione via email. Pro aggiunge extra come il video e il backup su Google Drive."
       },
       {
         "question": "Quali funzioni in più offre Pro?",
@@ -230,7 +234,7 @@
   },
   "finalCta": {
     "title": "12 milioni di download, più il tuo.",
-    "subtitle": "Gratis su Google Play. Si configura in pochi minuti.",
+    "subtitle": "Un'app antifurto gratuita su Google Play. Si configura in pochi minuti.",
     "note": "Solo Android",
     "qrLabel": "Scansiona per installarla sul telefono"
   }

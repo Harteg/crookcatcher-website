@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "CrookCatcher: app antirroubo com selfie do intruso para Android",
-    "description": "O CrookCatcher tira uma selfie do intruso quando alguém erra o PIN, o padrão ou a senha, e envia a foto e a localização GPS para o seu e-mail. Grátis para Android.",
+    "title": "CrookCatcher: aplicativo que tira foto de quem erra a senha do celular",
+    "description": "Aplicativo grátis para Android que tira foto de quem mexe no seu celular e erra a senha, o PIN ou o padrão, e envia a foto e a localização para o seu e-mail.",
     "canonical": "https://www.crookcatcher.app/pt",
     "ogImage": "https://www.crookcatcher.app/images/og-share.png",
     "ogImageAlt": "CrookCatcher: descubra quem tenta desbloquear seu celular. Alerta por e-mail com fotos do intruso e localização no mapa."
@@ -167,6 +167,10 @@
     "initialCount": 8,
     "items": [
       {
+        "question": "Existe aplicativo que tira foto de quem tenta desbloquear o celular?",
+        "answer": "Sim. O CrookCatcher é um aplicativo grátis para Android que tira uma foto com a câmera frontal quando alguém erra a senha, o PIN ou o padrão, e envia para o seu e-mail com a localização do celular. O Android não tem uma configuração nativa que faça isso."
+      },
+      {
         "question": "O que acontece quando alguém tenta desbloquear meu celular?",
         "answer": "O CrookCatcher tira uma selfie do intruso com a câmera frontal, registra a localização GPS, se disponível, e envia tudo para o seu e-mail. Com o Pro, ele também pode gravar vídeo, usar a câmera traseira, tocar alarmes e mostrar uma tela inicial falsa."
       },
@@ -175,8 +179,8 @@
         "answer": "Você pode configurar quantas tentativas de desbloqueio com falha (PIN, padrão ou senha errados) são necessárias para o CrookCatcher ser ativado. Quando esse limite é atingido, ele tira fotos, grava vídeos (Pro) e envia alertas conforme as suas configurações."
       },
       {
-        "question": "Quais recursos estão incluídos na versão grátis?",
-        "answer": "A versão grátis inclui a selfie do intruso quando o PIN, o padrão ou a senha estão errados, a localização GPS e alertas instantâneos por e-mail com a foto e a localização."
+        "question": "O CrookCatcher é grátis?",
+        "answer": "Sim. A versão grátis tira a foto quando alguém erra a senha, o PIN ou o padrão, registra a localização GPS e envia a foto e a localização para o seu e-mail na hora. O Pro acrescenta extras como vídeo e backup no Google Drive."
       },
       {
         "question": "Quais recursos extras o Pro oferece?",
@@ -230,7 +234,7 @@
   },
   "finalCta": {
     "title": "12 milhões de downloads. Falta o seu.",
-    "subtitle": "Grátis no Google Play. Pronto em poucos minutos.",
+    "subtitle": "Um aplicativo antirroubo grátis no Google Play. Pronto em poucos minutos.",
     "note": "Somente Android",
     "qrLabel": "Escaneie para instalar no celular"
   }

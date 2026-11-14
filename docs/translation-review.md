@@ -123,3 +123,20 @@ Samsung's "Samsung Find" page in each country (`samsung.com/<country>/apps/samsu
 
 32 headers (`<slug>-header-<lang>.png`), built from the same HTML layout as the English ones. Arabic is mirrored and uses the system Arabic font; Japanese uses Hiragino Sans. Run `npm run optimize-images` when a translation is published.
 
+
+## Homepage search wording in all languages (2026-11-15)
+
+The homepage title, meta description, first FAQ, the "is it free" FAQ and the closing line were reworded in every language to match local searches, after the same change in English. Sources: Search Console (Aug 14 to Nov 11, 2026) and DataForSEO monthly volumes per country. Volumes are small everywhere, so this is about click rate on searches the site already appears in, not new traffic.
+
+| Language | Wording the title and description now use | Monthly searches |
+| --- | --- | --- |
+| pt (Brazil) | aplicativo que tira foto de quem mexe no celular; … quando erra a senha; aplicativo anti roubo | 70; 40; 40 |
+| fr (France) | antivol téléphone; application qui prend en photo les curieux android | 170; 30 |
+| es (Mexico) | antirrobo celular; app anti robo | 170; 50 |
+| de (Germany) | diebstahlschutz handy; diebstahlschutz android | 590; 390 |
+| it (Italy) | antifurto cellulare; app antifurto | 50; 30 |
+| id (Indonesia) | aplikasi anti maling; alarm anti maling hp | 40; 40 |
+| ja (Japan) | スマホ 防犯 アプリ; スマホ 盗難対策; スマホ 勝手に見られた | 170; 70; 40 |
+| ar (Egypt) | حماية الهاتف من السرقة; تطبيق يصور من يحاول فتح الهاتف | 40; 10 |
+
+Not checked: Spain and Saudi Arabia volumes, and what currently ranks for these searches in each country. DataForSEO's Labs endpoint returned internal errors for Brazil, Mexico and Japan on Nov 15, so those three (and Egypt) come from its Google Ads volume endpoint with ten phrasings each. No native speaker has read the new lines.

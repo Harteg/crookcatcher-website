@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "CrookCatcher: 侵入者を撮影する Android 向け盗難防止アプリ",
-    "description": "CrookCatcher は、誰かが間違った PIN、パターン、パスワードを入力すると侵入者の顔写真を撮影し、その写真と GPS の位置情報をメールで送ります。Android 向け、無料。",
+    "title": "CrookCatcher: スマホを勝手に見ようとした人を撮影する防犯アプリ",
+    "description": "スマホの防犯・盗難対策に。CrookCatcher は、間違った PIN、パターン、パスワードを入力した人を撮影し、写真と位置情報をメールで送る Android 向けの無料アプリです。",
     "canonical": "https://www.crookcatcher.app/ja",
     "ogImage": "https://www.crookcatcher.app/images/og-share.png",
     "ogImageAlt": "CrookCatcher: スマホのロックを解除しようとした人を突き止める。侵入者の写真と地図上の位置が届く通知メール。"
@@ -167,6 +167,10 @@
     "initialCount": 8,
     "items": [
       {
+        "question": "スマホのロックを解除しようとした人を撮影するアプリはありますか？",
+        "answer": "あります。CrookCatcher は Android 向けの無料アプリで、誰かが間違った PIN、パターン、パスワードを入力すると前面カメラで写真を撮り、スマホの位置情報と一緒にメールで送ります。Android 自体にこの機能はありません。"
+      },
+      {
         "question": "誰かがスマホのロックを解除しようとすると、どうなりますか？",
         "answer": "CrookCatcher が前面カメラで侵入者の顔写真を撮影し、取得できれば GPS の位置情報も記録して、メールで送ります。Pro なら動画の録画、背面カメラ、アラーム、偽のホーム画面も使えます。"
       },
@@ -175,8 +179,8 @@
         "answer": "何回ロック解除に失敗したら（PIN、パターン、パスワードの入力ミス）作動するかを設定できます。その回数に達すると、設定に応じて写真の撮影、動画の録画（Pro）、通知の送信を行います。"
       },
       {
-        "question": "無料版にはどんな機能がありますか？",
-        "answer": "無料版では、PIN・パターン・パスワードの入力ミスで侵入者の顔写真を撮影し、GPS の位置情報を取得して、写真と位置情報をすぐにメールで送ります。"
+        "question": "CrookCatcher は無料ですか？",
+        "answer": "はい。無料版では、PIN・パターン・パスワードの入力ミスで写真を撮影し、GPS の位置情報を記録して、写真と位置情報をすぐにメールで送ります。Pro では動画や Google ドライブへのバックアップなどが加わります。"
       },
       {
         "question": "Pro ではどんな機能が追加されますか？",
@@ -230,7 +234,7 @@
   },
   "finalCta": {
     "title": "1,200万ダウンロード。次はあなたの番です。",
-    "subtitle": "Google Play で無料。数分で設定できます。",
+    "subtitle": "Google Play で無料の防犯アプリ。数分で設定できます。",
     "note": "Android 専用",
     "qrLabel": "スキャンしてスマホにインストール"
   }

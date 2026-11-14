@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "CrookCatcher : app antivol avec selfie de l'intrus pour Android",
-    "description": "CrookCatcher prend un selfie de l'intrus quand quelqu'un saisit un mauvais code PIN, schéma ou mot de passe, et vous envoie sa photo et sa position GPS par e-mail. Gratuit sur Android.",
+    "title": "CrookCatcher : l'appli Android qui prend en photo les curieux",
+    "description": "Application antivol gratuite pour téléphone Android : elle prend en photo quiconque saisit un mauvais code, schéma ou mot de passe, et vous envoie la photo et la position par e-mail.",
     "canonical": "https://www.crookcatcher.app/fr",
     "ogImage": "https://www.crookcatcher.app/images/og-share.png",
     "ogImageAlt": "CrookCatcher : attrapez quiconque essaie de déverrouiller votre téléphone. Alerte par e-mail avec les photos de l'intrus et sa position sur une carte."
@@ -167,6 +167,10 @@
     "initialCount": 8,
     "items": [
       {
+        "question": "Existe-t-il une application qui prend en photo la personne qui essaie de déverrouiller mon téléphone ?",
+        "answer": "Oui. CrookCatcher est une application Android gratuite qui prend une photo avec la caméra frontale quand quelqu'un saisit un mauvais code PIN, schéma ou mot de passe, et vous l'envoie par e-mail avec la position du téléphone. Android n'a aucun réglage intégré pour cela."
+      },
+      {
         "question": "Que se passe-t-il quand quelqu'un essaie de déverrouiller mon téléphone ?",
         "answer": "CrookCatcher prend un selfie de l'intrus avec la caméra frontale, enregistre la position GPS si elle est disponible, et vous envoie le tout par e-mail. Avec Pro, il peut aussi enregistrer une vidéo, utiliser la caméra arrière, déclencher une alarme et afficher un faux écran d'accueil."
       },
@@ -175,8 +179,8 @@
         "answer": "Vous pouvez choisir combien de tentatives de déverrouillage ratées (mauvais code PIN, schéma ou mot de passe) sont nécessaires avant que CrookCatcher se déclenche. Une fois ce seuil atteint, il prend des photos, enregistre des vidéos (Pro) et envoie des alertes selon vos réglages."
       },
       {
-        "question": "Quelles fonctionnalités sont incluses dans la version gratuite ?",
-        "answer": "La version gratuite comprend le selfie de l'intrus en cas de mauvais code PIN, schéma ou mot de passe, la position GPS et les alertes instantanées par e-mail avec la photo et la position."
+        "question": "CrookCatcher est-il gratuit ?",
+        "answer": "Oui. La version gratuite prend la photo en cas de mauvais code PIN, schéma ou mot de passe, enregistre la position GPS et vous envoie aussitôt la photo et la position par e-mail. Pro ajoute des options comme la vidéo et la sauvegarde sur Google Drive."
       },
       {
         "question": "Qu'apporte la version Pro en plus ?",
@@ -230,7 +234,7 @@
   },
   "finalCta": {
     "title": "12 millions de téléchargements. Plus le vôtre.",
-    "subtitle": "Gratuit sur Google Play. Prête en quelques minutes.",
+    "subtitle": "Une application antivol gratuite sur Google Play. Prête en quelques minutes.",
     "note": "Android uniquement",
     "qrLabel": "Scannez pour l'installer sur votre téléphone"
   }
