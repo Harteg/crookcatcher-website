@@ -1,12 +1,12 @@
 ---
 title: How to See Who Tried to Unlock Your Xiaomi Phone (2026)
 subtitle: What Xiaomi, Redmi and POCO phones record after a wrong PIN, and how to get a photo of the person
-dateUpdated: '2026-11-13'
-datePublished: '2026-11-13'
+dateUpdated: '2026-11-15'
+datePublished: '2026-11-15'
 description: "Xiaomi, Redmi and POCO phones don't show who tried to unlock them or keep a list of wrong PIN attempts. Here's what HyperOS does after failed unlocks, the Xiaomi settings worth turning on, and how to get a photo of the person by email."
 image: '/images/blog/xiaomi-who-tried-to-unlock-header.png'
 imageAlt: 'How to see who tried to unlock your Xiaomi phone: Xiaomi phones count wrong guesses but never show who made them. CrookCatcher takes their photo.'
-published: false
+published: true
 ---
 
 <script>
