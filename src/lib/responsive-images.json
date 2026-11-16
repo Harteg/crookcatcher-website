@@ -517,6 +517,24 @@
 			"src": "/images/blog/samsung-who-tried-to-unlock-header-1600.webp"
 		}
 	],
+	"/images/blog/signs-someone-went-through-your-phone-header.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/signs-someone-went-through-your-phone-header-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/signs-someone-went-through-your-phone-header-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/signs-someone-went-through-your-phone-header-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/signs-someone-went-through-your-phone-header-1600.webp"
+		}
+	],
 	"/images/blog/theft-detection-lock-header.png": [
 		{
 			"width": 480,

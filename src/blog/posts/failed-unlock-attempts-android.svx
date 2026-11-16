@@ -121,5 +121,6 @@ A: CrookCatcher reacts to a wrong PIN, pattern or password, not to failed finger
 - [How to see who tried to unlock your phone (and get their photo)](/blog/see-who-tried-to-unlock-your-phone)
 - [Top 5 Android settings to secure your phone against theft](/blog/top_five_settings)
 - [How to stop thieves from turning off your phone](/blog/block-power-menu)
+- [How to tell if someone went through your Android phone](/blog/signs-someone-went-through-your-phone)
 
 <AppCta position="guide_end" />

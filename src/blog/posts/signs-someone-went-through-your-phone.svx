@@ -1,12 +1,12 @@
 ---
 title: How to Tell if Someone Went Through Your Android Phone (2026)
 subtitle: Seven places on your own phone that show recent use, and how to catch the person next time
-dateUpdated: '2026-11-13'
-datePublished: '2026-11-13'
+dateUpdated: '2026-11-16'
+datePublished: '2026-11-16'
 description: "Android has no list of who unlocked your phone, but it leaves traces. Check Digital Wellbeing's unlock count, your Google activity, Chrome history, notification history, the Photos trash and linked devices. Here's where to look, and how to get a photo of the person next time."
 image: '/images/blog/signs-someone-went-through-your-phone-header.png'
 imageAlt: 'How to tell if someone went through your Android phone: seven places to check, from unlock counts to linked devices. CrookCatcher photographs whoever tries next time.'
-published: false
+published: true
 ---
 
 <script>

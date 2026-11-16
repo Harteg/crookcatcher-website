@@ -126,5 +126,6 @@ A: Usually because Samsung put the app to sleep to save battery. Add it to **Nev
 - [How to see who tried to unlock your phone (and get their photo)](/blog/see-who-tried-to-unlock-your-phone)
 - [How to stop thieves from turning off your phone](/blog/block-power-menu)
 - [Top 5 Android settings to secure your phone against theft](/blog/top_five_settings)
+- [How to tell if someone went through your Android phone](/blog/signs-someone-went-through-your-phone)
 
 <AppCta position="guide_end" />
