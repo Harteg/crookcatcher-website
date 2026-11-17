@@ -38,7 +38,7 @@
     {
       "icon": "ads_click",
       "title": "Iklan",
-      "body": "<p>Versi gratis CrookCatcher menampilkan iklan dari Google AdMob. Untuk menampilkan iklan, Google menerima ID iklan dan alamat IP perangkatmu, serta informasi tentang perangkat dan cara kamu berinteraksi dengan iklan. Jika diwajibkan, seperti di Wilayah Ekonomi Eropa dan Inggris, CrookCatcher meminta persetujuanmu terlebih dahulu melalui formulir persetujuan Google. CrookCatcher tidak memberikan foto, video, lokasi, atau emailmu kepada AdMob. Pengguna Pro tidak melihat iklan. Baca <a href=\"https://policies.google.com/technologies/ads\">bagaimana Google menggunakan data untuk periklanan</a>.</p>"
+      "body": "<p>Versi gratis CrookCatcher menampilkan iklan dari Google AdMob. Untuk menampilkan iklan, Google menerima ID iklan dan alamat IP perangkatmu, serta informasi tentang perangkat dan cara kamu berinteraksi dengan iklan. Google dapat menggunakan alamat IP untuk memperkirakan lokasi umummu, seperti kota atau wilayahmu, dan menggunakan data ini untuk periklanan, pengukuran, dan pencegahan penipuan. Jika diwajibkan, seperti di Wilayah Ekonomi Eropa dan Inggris, CrookCatcher meminta persetujuanmu terlebih dahulu melalui formulir persetujuan Google. CrookCatcher tidak memberikan foto, video, lokasi, atau emailmu kepada AdMob. Pengguna Pro tidak melihat iklan. Baca <a href=\"https://policies.google.com/technologies/ads\">bagaimana Google menggunakan data untuk periklanan</a>.</p>"
     },
     {
       "icon": "payments",
@@ -48,7 +48,7 @@
     {
       "icon": "lock",
       "title": "Keamanan Data",
-      "body": "<p>Kami menghargai kepercayaanmu dan berkomitmen melindungi datamu. Foto, video, dan lokasimu disimpan di perangkatmu, atau dikirim langsung kepadamu lewat email jika diaktifkan. Semua itu tidak dibagikan kepada pengembang. Satu-satunya data yang sampai ke layanan pihak ketiga adalah data penggunaan, error, iklan, dan pembelian yang dijelaskan di atas.</p>"
+      "body": "<p>Kami menghargai kepercayaanmu dan berkomitmen melindungi datamu. Foto, video, dan lokasimu disimpan di perangkatmu. Jika kamu mengaktifkan peringatan email atau pencadangan Google Drive, semua itu dikirim melalui layanan Gmail dan Drive dari Google ke akun Google milikmu sendiri dan ke alamat email yang kamu pilih. Semua itu tidak pernah dikirim ke pengembang. Selain itu, satu-satunya data yang sampai ke layanan pihak ketiga adalah data penggunaan, error, iklan, dan pembelian yang dijelaskan di atas.</p>"
     },
     {
       "icon": "verified_user",

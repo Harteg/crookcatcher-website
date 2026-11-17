@@ -38,7 +38,7 @@
     {
       "icon": "ads_click",
       "title": "Ads",
-      "body": "<p>The free version of CrookCatcher shows ads from Google AdMob. To show ads, Google receives your device's advertising ID and IP address, plus information about your device and how you interact with ads. Where required, such as in the European Economic Area and the UK, CrookCatcher asks for your consent first through Google's consent form. CrookCatcher does not give AdMob your photos, videos, location or email address. Pro users see no ads. Read <a href=\"https://policies.google.com/technologies/ads\">how Google uses data in advertising</a>.</p>"
+      "body": "<p>The free version of CrookCatcher shows ads from Google AdMob. To show ads, Google receives your device's advertising ID and IP address, plus information about your device and how you interact with ads. Google may use the IP address to estimate your general location, such as your city or region, and uses this data for advertising, measurement and fraud prevention. Where required, such as in the European Economic Area and the UK, CrookCatcher asks for your consent first through Google's consent form. CrookCatcher does not give AdMob your photos, videos, location or email address. Pro users see no ads. Read <a href=\"https://policies.google.com/technologies/ads\">how Google uses data in advertising</a>.</p>"
     },
     {
       "icon": "payments",
@@ -48,7 +48,7 @@
     {
       "icon": "lock",
       "title": "Data Security",
-      "body": "<p>We value your trust and are committed to protecting your data. Your photos, videos and location are stored on your device, or sent directly to you via email if enabled. They are not shared with the developer. The only data that reaches third-party services is the usage, crash, advertising and purchase data described above.</p>"
+      "body": "<p>We value your trust and are committed to protecting your data. Your photos, videos and location are stored on your device. If you turn on email alerts or Google Drive backup, they are sent through Google's Gmail and Drive services to your own Google account and to the email address you chose. They are never sent to the developer. Apart from that, the only data that reaches third-party services is the usage, crash, advertising and purchase data described above.</p>"
     },
     {
       "icon": "verified_user",

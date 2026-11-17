@@ -38,7 +38,7 @@
     {
       "icon": "ads_click",
       "title": "Publicités",
-      "body": "<p>La version gratuite de CrookCatcher affiche des publicités de Google AdMob. Pour les afficher, Google reçoit l'identifiant publicitaire et l'adresse IP de votre appareil, ainsi que des informations sur votre appareil et sur la façon dont vous interagissez avec les publicités. Lorsque la loi l'exige, par exemple dans l'Espace économique européen et au Royaume-Uni, CrookCatcher demande d'abord votre consentement via le formulaire de consentement de Google. CrookCatcher ne transmet à AdMob ni vos photos, ni vos vidéos, ni votre position, ni votre adresse e-mail. Les utilisateurs Pro ne voient aucune publicité. Découvrez <a href=\"https://policies.google.com/technologies/ads\">comment Google utilise les données dans la publicité</a>.</p>"
+      "body": "<p>La version gratuite de CrookCatcher affiche des publicités de Google AdMob. Pour les afficher, Google reçoit l'identifiant publicitaire et l'adresse IP de votre appareil, ainsi que des informations sur votre appareil et sur la façon dont vous interagissez avec les publicités. Google peut utiliser l'adresse IP pour estimer votre position approximative, comme votre ville ou votre région, et utilise ces données pour la publicité, la mesure et la prévention de la fraude. Lorsque la loi l'exige, par exemple dans l'Espace économique européen et au Royaume-Uni, CrookCatcher demande d'abord votre consentement via le formulaire de consentement de Google. CrookCatcher ne transmet à AdMob ni vos photos, ni vos vidéos, ni votre position, ni votre adresse e-mail. Les utilisateurs Pro ne voient aucune publicité. Découvrez <a href=\"https://policies.google.com/technologies/ads\">comment Google utilise les données dans la publicité</a>.</p>"
     },
     {
       "icon": "payments",
@@ -48,7 +48,7 @@
     {
       "icon": "lock",
       "title": "Sécurité des données",
-      "body": "<p>Nous apprécions votre confiance et nous nous engageons à protéger vos données. Vos photos, vidéos et votre position sont stockées sur votre appareil, ou vous sont envoyées directement par e-mail si cette option est activée. Elles ne sont pas partagées avec le développeur. Les seules données qui parviennent à des services tiers sont les données d'utilisation, de plantage, de publicité et d'achat décrites ci-dessus.</p>"
+      "body": "<p>Nous apprécions votre confiance et nous nous engageons à protéger vos données. Vos photos, vidéos et votre position sont stockées sur votre appareil. Si vous activez les alertes par e-mail ou la sauvegarde sur Google Drive, elles sont envoyées via les services Gmail et Drive de Google vers votre propre compte Google et à l'adresse e-mail que vous avez choisie. Elles ne sont jamais envoyées au développeur. En dehors de cela, les seules données qui parviennent à des services tiers sont les données d'utilisation, de plantage, de publicité et d'achat décrites ci-dessus.</p>"
     },
     {
       "icon": "verified_user",

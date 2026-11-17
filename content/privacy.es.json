@@ -38,7 +38,7 @@
     {
       "icon": "ads_click",
       "title": "Anuncios",
-      "body": "<p>La versión gratuita de CrookCatcher muestra anuncios de Google AdMob. Para mostrarlos, Google recibe el ID de publicidad y la dirección IP de tu dispositivo, además de información sobre tu dispositivo y sobre cómo interactúas con los anuncios. Cuando la ley lo exige, como en el Espacio Económico Europeo y el Reino Unido, CrookCatcher te pide antes tu consentimiento mediante el formulario de consentimiento de Google. CrookCatcher no entrega a AdMob tus fotos, vídeos, ubicación ni correo. Los usuarios Pro no ven anuncios. Lee <a href=\"https://policies.google.com/technologies/ads\">cómo usa Google los datos en la publicidad</a>.</p>"
+      "body": "<p>La versión gratuita de CrookCatcher muestra anuncios de Google AdMob. Para mostrarlos, Google recibe el ID de publicidad y la dirección IP de tu dispositivo, además de información sobre tu dispositivo y sobre cómo interactúas con los anuncios. Google puede usar la dirección IP para estimar tu ubicación aproximada, como tu ciudad o región, y usa estos datos para publicidad, medición y prevención del fraude. Cuando la ley lo exige, como en el Espacio Económico Europeo y el Reino Unido, CrookCatcher te pide antes tu consentimiento mediante el formulario de consentimiento de Google. CrookCatcher no entrega a AdMob tus fotos, vídeos, ubicación ni correo. Los usuarios Pro no ven anuncios. Lee <a href=\"https://policies.google.com/technologies/ads\">cómo usa Google los datos en la publicidad</a>.</p>"
     },
     {
       "icon": "payments",
@@ -48,7 +48,7 @@
     {
       "icon": "lock",
       "title": "Seguridad de los datos",
-      "body": "<p>Valoramos tu confianza y nos comprometemos a proteger tus datos. Tus fotos, vídeos y ubicación se guardan en tu dispositivo o se te envían directamente por correo si está activado. No se comparten con el desarrollador. Los únicos datos que llegan a servicios de terceros son los datos de uso, fallos, publicidad y compras descritos arriba.</p>"
+      "body": "<p>Valoramos tu confianza y nos comprometemos a proteger tus datos. Tus fotos, vídeos y ubicación se guardan en tu dispositivo. Si activas las alertas por correo o la copia de seguridad en Google Drive, se envían a través de los servicios Gmail y Drive de Google a tu propia cuenta de Google y a la dirección de correo que elegiste. Nunca se envían al desarrollador. Aparte de eso, los únicos datos que llegan a servicios de terceros son los datos de uso, fallos, publicidad y compras descritos arriba.</p>"
     },
     {
       "icon": "verified_user",

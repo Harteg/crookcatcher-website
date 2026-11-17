@@ -38,7 +38,7 @@
     {
       "icon": "ads_click",
       "title": "Pubblicità",
-      "body": "<p>La versione gratuita di CrookCatcher mostra annunci di Google AdMob. Per mostrare gli annunci, Google riceve l'ID pubblicità e l'indirizzo IP del tuo dispositivo, oltre a informazioni sul dispositivo e su come interagisci con gli annunci. Dove richiesto, come nello Spazio economico europeo e nel Regno Unito, CrookCatcher ti chiede prima il consenso tramite il modulo di consenso di Google. CrookCatcher non fornisce ad AdMob le tue foto, i tuoi video, la tua posizione né il tuo indirizzo email. Gli utenti Pro non vedono pubblicità. Leggi <a href=\"https://policies.google.com/technologies/ads?hl=it\">come Google utilizza i dati nella pubblicità</a>.</p>"
+      "body": "<p>La versione gratuita di CrookCatcher mostra annunci di Google AdMob. Per mostrare gli annunci, Google riceve l'ID pubblicità e l'indirizzo IP del tuo dispositivo, oltre a informazioni sul dispositivo e su come interagisci con gli annunci. Google può usare l'indirizzo IP per stimare la tua posizione approssimativa, ad esempio la città o la regione, e usa questi dati per pubblicità, misurazione e prevenzione delle frodi. Dove richiesto, come nello Spazio economico europeo e nel Regno Unito, CrookCatcher ti chiede prima il consenso tramite il modulo di consenso di Google. CrookCatcher non fornisce ad AdMob le tue foto, i tuoi video, la tua posizione né il tuo indirizzo email. Gli utenti Pro non vedono pubblicità. Leggi <a href=\"https://policies.google.com/technologies/ads?hl=it\">come Google utilizza i dati nella pubblicità</a>.</p>"
     },
     {
       "icon": "payments",
@@ -48,7 +48,7 @@
     {
       "icon": "lock",
       "title": "Sicurezza dei dati",
-      "body": "<p>Teniamo alla tua fiducia e ci impegniamo a proteggere i tuoi dati. Foto, video e posizione restano sul tuo dispositivo, oppure ti vengono inviati direttamente via email se la funzione è attiva. Non vengono condivisi con lo sviluppatore. Gli unici dati che arrivano a servizi di terzi sono i dati di utilizzo, sugli arresti anomali, sulla pubblicità e sugli acquisti descritti sopra.</p>"
+      "body": "<p>Teniamo alla tua fiducia e ci impegniamo a proteggere i tuoi dati. Foto, video e posizione restano sul tuo dispositivo. Se attivi gli avvisi via email o il backup su Google Drive, vengono inviati tramite i servizi Gmail e Drive di Google al tuo account Google e all'indirizzo email che hai scelto. Non vengono mai inviati allo sviluppatore. A parte questo, gli unici dati che arrivano a servizi di terzi sono i dati di utilizzo, sugli arresti anomali, sulla pubblicità e sugli acquisti descritti sopra.</p>"
     },
     {
       "icon": "verified_user",

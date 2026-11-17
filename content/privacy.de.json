@@ -38,7 +38,7 @@
     {
       "icon": "ads_click",
       "title": "Werbung",
-      "body": "<p>Die kostenlose Version von CrookCatcher zeigt Werbung von Google AdMob. Um Werbung anzuzeigen, erhält Google die Werbe-ID und die IP-Adresse deines Geräts sowie Informationen zu deinem Gerät und dazu, wie du mit Anzeigen interagierst. Wo es erforderlich ist, etwa im Europäischen Wirtschaftsraum und im Vereinigten Königreich, fragt CrookCatcher zuvor über das Einwilligungsformular von Google nach deiner Einwilligung. CrookCatcher gibt deine Fotos, Videos, deinen Standort und deine E-Mail-Adresse nicht an AdMob weiter. Pro-Nutzer sehen keine Werbung. Lies, <a href=\"https://policies.google.com/technologies/ads\">wie Google Daten für Werbung verwendet</a>.</p>"
+      "body": "<p>Die kostenlose Version von CrookCatcher zeigt Werbung von Google AdMob. Um Werbung anzuzeigen, erhält Google die Werbe-ID und die IP-Adresse deines Geräts sowie Informationen zu deinem Gerät und dazu, wie du mit Anzeigen interagierst. Google kann die IP-Adresse nutzen, um deinen ungefähren Standort zu schätzen, etwa deine Stadt oder Region, und verwendet diese Daten für Werbung, Messung und Betrugsprävention. Wo es erforderlich ist, etwa im Europäischen Wirtschaftsraum und im Vereinigten Königreich, fragt CrookCatcher zuvor über das Einwilligungsformular von Google nach deiner Einwilligung. CrookCatcher gibt deine Fotos, Videos, deinen Standort und deine E-Mail-Adresse nicht an AdMob weiter. Pro-Nutzer sehen keine Werbung. Lies, <a href=\"https://policies.google.com/technologies/ads\">wie Google Daten für Werbung verwendet</a>.</p>"
     },
     {
       "icon": "payments",
@@ -48,7 +48,7 @@
     {
       "icon": "lock",
       "title": "Datensicherheit",
-      "body": "<p>Wir schätzen dein Vertrauen und setzen uns für den Schutz deiner Daten ein. Deine Fotos, Videos und dein Standort werden auf deinem Gerät gespeichert oder, falls aktiviert, direkt per E-Mail an dich gesendet. Sie werden nicht an den Entwickler weitergegeben. Die einzigen Daten, die Dienste Dritter erreichen, sind die oben beschriebenen Nutzungs-, Absturz-, Werbe- und Kaufdaten.</p>"
+      "body": "<p>Wir schätzen dein Vertrauen und setzen uns für den Schutz deiner Daten ein. Deine Fotos, Videos und dein Standort werden auf deinem Gerät gespeichert. Wenn du E-Mail-Benachrichtigungen oder die Google-Drive-Sicherung aktivierst, werden sie über die Dienste Gmail und Drive von Google an dein eigenes Google-Konto und an die von dir gewählte E-Mail-Adresse gesendet. Sie werden nie an den Entwickler gesendet. Abgesehen davon erreichen nur die oben beschriebenen Nutzungs-, Absturz-, Werbe- und Kaufdaten Dienste Dritter.</p>"
     },
     {
       "icon": "verified_user",
