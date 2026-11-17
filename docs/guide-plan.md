@@ -132,7 +132,7 @@ Comparison searches have the highest purchase intent. Keep them fair and factual
 
 | # | Guide title | Main search | Slug | Status |
 | --- | --- | --- | --- | --- |
-| 26 | Best Intruder Selfie Apps for Android (2026) | best intruder selfie app | best-intruder-selfie-apps-android | Drafted Nov 13, 2026 (awaiting review) |
+| 26 | Best Intruder Selfie Apps for Android (2026) | best intruder selfie app | best-intruder-selfie-apps-android | Published 2026-11-17 (en) |
 | 27 | CrookCatcher vs Find Hub | find my device alternative | crookcatcher-vs-find-hub | Dropped (no search volume, Nov 14, 2026) |
 | 28 | CrookCatcher vs Samsung Find | samsung find alternative | crookcatcher-vs-samsung-find | Dropped (no search volume, Nov 14, 2026) |
 | 29 | CrookCatcher vs Lockwatch | lockwatch alternative | crookcatcher-vs-lockwatch | Planned |

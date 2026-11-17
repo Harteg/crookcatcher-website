@@ -14,7 +14,7 @@ How to use it:
 | theft-detection-lock | yes | Published 2026-11-14 | — | — |
 | xiaomi-who-tried-to-unlock | yes | Published 2026-11-15 | theft-detection-lock | The "Manage battery settings" prompt appears during setup on a Xiaomi phone |
 | signs-someone-went-through-your-phone | yes | Published 2026-11-16 | — | WhatsApp "Linked devices" steps (taken from search snippets) |
-| best-intruder-selfie-apps-android | yes | Draft | signs-someone-went-through-your-phone | Rating and download figures against Google Play; that Pro removes ads |
+| best-intruder-selfie-apps-android | yes | Published 2026-11-17 | signs-someone-went-through-your-phone | Rating and download figures against Google Play; that Pro removes ads |
 | lock-screen-message-android | yes | Draft | — | Setup steps and wording against the app |
 | fake-home-screen-android | yes | Draft | lock-screen-message-android, signs-someone-went-through-your-phone | Setup steps and wording against the app |
 | find-stolen-android-phone | no | Draft | — | Menu paths on a real phone: `Settings > Security > Find Hub` and `Find your offline devices` |

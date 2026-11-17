@@ -158,5 +158,6 @@ A: Changing your PIN, removing unknown fingerprints and logging out linked devic
 - [How to see who tried to unlock your Android phone (and get their photo)](/blog/see-who-tried-to-unlock-your-phone)
 - [Can you see failed unlock attempts on Android?](/blog/failed-unlock-attempts-android)
 - [5 Android anti-theft settings to turn on today](/blog/top_five_settings)
+- [Best intruder selfie apps for Android](/blog/best-intruder-selfie-apps-android)
 
 <AppCta position="guide_end" />

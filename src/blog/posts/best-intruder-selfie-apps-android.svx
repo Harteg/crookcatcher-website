@@ -1,12 +1,12 @@
 ---
 title: Best Intruder Selfie Apps for Android (2026)
 subtitle: Five apps that photograph whoever enters a wrong PIN, compared on what their Google Play listings say
-dateUpdated: '2026-11-13'
-datePublished: '2026-11-13'
+dateUpdated: '2026-11-17'
+datePublished: '2026-11-17'
 description: "An intruder selfie app takes a photo when someone enters a wrong PIN on your Android phone. We compared CrookCatcher, Lockwatch, WTMP, Third Eye and Hidden Eye on email alerts, location, ads and how recently they were updated."
 image: '/images/blog/best-intruder-selfie-apps-android-header.png'
 imageAlt: 'Best intruder selfie apps for Android in 2026: five apps compared on email alerts, location, ads and updates.'
-published: false
+published: true
 ---
 
 <script>
