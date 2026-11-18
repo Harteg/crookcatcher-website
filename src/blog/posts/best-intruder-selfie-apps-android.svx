@@ -43,7 +43,7 @@ We make CrookCatcher, so read this with that in mind. Everything below comes fro
 
 CrookCatcher takes a photo when someone enters a wrong PIN, pattern or password, and emails it to you with the GPS location and an estimated address. All of that is in the free version. It has been on Google Play since 2014 and takes around 1.2 million intruder photos a day.
 
-Pro adds video with sound, a photo from the back camera, Google Drive backup, an alarm, a message on the lock screen, a fake home screen and a disguised app icon.
+Pro adds video with sound, a photo from the back camera, Google Drive backup, an alarm, [a message on the lock screen](/blog/lock-screen-message-android), a fake home screen and a disguised app icon.
 
 - **Good for:** theft and snooping alike, because the evidence leaves the phone.
 - **Keep in mind:** the free version shows ads. It reacts to a wrong PIN, pattern or password, not to a failed fingerprint.

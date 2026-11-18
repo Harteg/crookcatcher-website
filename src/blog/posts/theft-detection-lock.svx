@@ -123,5 +123,6 @@ A: No. Android's theft protection never uses the camera. To get a photo and the 
 - [5 Android anti-theft settings to turn on today](/blog/top_five_settings)
 - [How to stop power off and airplane mode from the lock screen](/blog/block-power-menu)
 - [How to see who tried to unlock your Android phone (and get their photo)](/blog/see-who-tried-to-unlock-your-phone)
+- [How to show a message on your Android lock screen if your phone is lost or stolen](/blog/lock-screen-message-android)
 
 <AppCta position="guide_end" />

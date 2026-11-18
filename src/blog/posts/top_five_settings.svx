@@ -144,5 +144,6 @@ A: The settings protect your data and help you locate the phone. They can't show
 - [Can you see failed unlock attempts on Android?](/blog/failed-unlock-attempts-android)
 - [How to stop thieves from turning off your phone](/blog/block-power-menu)
 - [How to see who tried to unlock your phone (and get their photo)](/blog/see-who-tried-to-unlock-your-phone)
+- [How to show a message on your Android lock screen if your phone is lost or stolen](/blog/lock-screen-message-android)
 
 <AppCta position="guide_end" />

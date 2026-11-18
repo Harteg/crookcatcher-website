@@ -1,12 +1,12 @@
 ---
 title: How to Show a Message on Your Android Lock Screen if Your Phone Is Lost or Stolen (2026)
 subtitle: Android's three built-in lock screen messages, and how to show a thief their own photo after a wrong PIN
-dateUpdated: '2026-11-14'
-datePublished: '2026-11-14'
+dateUpdated: '2026-11-18'
+datePublished: '2026-11-18'
 description: "Android can show a message on your lock screen in three ways: a permanent text, Samsung's Contact information, and Find Hub's Mark as lost. Here's how to set up each, and how to show a full-screen message with the thief's own photo after a wrong PIN."
 image: '/images/blog/lock-screen-message-android-header.png'
 imageAlt: 'Show a thief their own photo: a full-screen message after a wrong PIN, with your text on top. The example screen says "Smile! You have been photographed".'
-published: false
+published: true
 ---
 
 <script>
