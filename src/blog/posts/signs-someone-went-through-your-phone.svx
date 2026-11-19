@@ -159,5 +159,6 @@ A: Changing your PIN, removing unknown fingerprints and logging out linked devic
 - [Can you see failed unlock attempts on Android?](/blog/failed-unlock-attempts-android)
 - [5 Android anti-theft settings to turn on today](/blog/top_five_settings)
 - [Best intruder selfie apps for Android](/blog/best-intruder-selfie-apps-android)
+- [How to set up a fake home screen on Android](/blog/fake-home-screen-android)
 
 <AppCta position="guide_end" />

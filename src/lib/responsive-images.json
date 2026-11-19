@@ -193,6 +193,24 @@
 			"src": "/images/blog/failed-unlock-attempts-android-header-1600.webp"
 		}
 	],
+	"/images/blog/fake-home-screen-android-header.png": [
+		{
+			"width": 480,
+			"src": "/images/blog/fake-home-screen-android-header-480.webp"
+		},
+		{
+			"width": 800,
+			"src": "/images/blog/fake-home-screen-android-header-800.webp"
+		},
+		{
+			"width": 1200,
+			"src": "/images/blog/fake-home-screen-android-header-1200.webp"
+		},
+		{
+			"width": 1600,
+			"src": "/images/blog/fake-home-screen-android-header-1600.webp"
+		}
+	],
 	"/images/blog/lock-screen-message-android-header.png": [
 		{
 			"width": 480,

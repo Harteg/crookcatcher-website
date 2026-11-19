@@ -1,12 +1,12 @@
 ---
 title: How to Set Up a Fake Home Screen on Android (2026)
 subtitle: What Android offers for hiding your apps, and a decoy home screen that appears after a wrong PIN
-dateUpdated: '2026-11-14'
-datePublished: '2026-11-14'
+dateUpdated: '2026-11-19'
+datePublished: '2026-11-19'
 description: "Android has no fake home screen, but Private space, Samsung's Secure Folder, guest mode and app pinning can hide what's on your phone. Here's how each works, and how to show a decoy home screen after a wrong PIN that photographs whoever taps it."
 image: '/images/blog/fake-home-screen-android-header.png'
 imageAlt: 'A fake home screen for thieves: after a wrong PIN they think they are in. They are not. Every tap takes another photo.'
-published: false
+published: true
 ---
 
 <script>

@@ -16,7 +16,7 @@ How to use it:
 | signs-someone-went-through-your-phone | yes | Published 2026-11-16 | — | WhatsApp "Linked devices" steps (taken from search snippets) |
 | best-intruder-selfie-apps-android | yes | Published 2026-11-17 | signs-someone-went-through-your-phone | Rating and download figures against Google Play; that Pro removes ads |
 | lock-screen-message-android | yes | Published 2026-11-18 | — | Setup steps and wording against the app |
-| fake-home-screen-android | yes | Draft | lock-screen-message-android, signs-someone-went-through-your-phone | Setup steps and wording against the app |
+| fake-home-screen-android | yes | Published 2026-11-19 | lock-screen-message-android, signs-someone-went-through-your-phone | Setup steps and wording against the app |
 | find-stolen-android-phone | no | Draft | — | Menu paths on a real phone: `Settings > Security > Find Hub` and `Find your offline devices` |
 | samsung-find-stolen-phone | no | Draft | find-stolen-android-phone | The three Lost device protection switches on a Galaxy; that Lock and Lost mode are the same action |
 | who-touched-my-phone | no | Draft | signs-someone-went-through-your-phone, best-intruder-selfie-apps-android | That WTMP is described fairly; its listing details against Google Play |

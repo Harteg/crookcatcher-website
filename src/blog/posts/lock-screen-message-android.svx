@@ -129,5 +129,6 @@ A: No. The message is shown on top of the lock screen. The phone stays locked, a
 - [How to see who tried to unlock your Android phone (and get their photo)](/blog/see-who-tried-to-unlock-your-phone)
 - [How to stop power off and airplane mode from the lock screen](/blog/block-power-menu)
 - [5 Android anti-theft settings to turn on today](/blog/top_five_settings)
+- [How to set up a fake home screen on Android](/blog/fake-home-screen-android)
 
 <AppCta position="guide_end" />

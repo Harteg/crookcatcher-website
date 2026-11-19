@@ -146,7 +146,7 @@ One guide per Pro feature that has a real search behind it. Open with Android's 
 | # | Guide title | Main search | Slug | Status |
 | --- | --- | --- | --- | --- |
 | 31 | How to Show a Message on Your Android Lock Screen if Your Phone Is Lost or Stolen | lock screen message lost phone android | lock-screen-message-android | Published 2026-11-18 (en) |
-| 32 | How to Set Up a Fake Home Screen on Android | fake home screen android | fake-home-screen-android | Drafted Nov 14, 2026 (awaiting review) |
+| 32 | How to Set Up a Fake Home Screen on Android | fake home screen android | fake-home-screen-android | Published 2026-11-19 (en) |
 
 ## Existing guides and later ideas
 
