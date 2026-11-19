@@ -23,7 +23,7 @@ CrookCatcher is an android app that helps you catch phone thieves. It works like
 
     - You have a laugh when you see your own stressed face in your inbox 🥳
     - You now have a picture of your phone thief and can report them to the police 🚨
-    - You now have proof that your spouse was trying to read your messages and can confront them with it 😱
+    - You find out that someone tried to get into your phone while you weren't looking, and know it's time to change your PIN 🔒
     - ... 
 
 I know, it's pretty good! Go ahead and <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dintroducing-crookcatcher' target="_blank" rel="noopener noreferrer">download CrookCatcher</a> now or, if you'd like, let me tell you a bit more about it first. Read on! ☺️
@@ -35,13 +35,17 @@ The first version of CrookCatcher was pretty basic (<a target="_blank" href="htt
 
 CrookCatcher can disguise itself on your home screen as a file manager icon and can require a pattern code to be opened. It can take *multiple pictures* for every failed unlock, even using the *back facing camera* so you can learn about the surroundings, and it can send pictures to multiple email addresses (TIP: just separate the receiver email addresses in CrookCatcher settings by a comma 😉), it can even take pictures when someone guesses the right password! Oh and did I mention *Google Drive* upload? 
 
-And since people of course don't only use CrookCatcher to catch thieves, but also to catch their snooping spouses, children and coworkers who use their phone without permission, CrookCatcher also has a great interface for looking at pictures and videos directly in the app. It even has an immutable activity log which records when various actions in CrookCatcher are taken. Sorry for the rant, but I think that answers the question. 
+And since you'll want to look back at what happened on your phone, CrookCatcher also has a great interface for looking at pictures and videos directly in the app. It even has an immutable activity log which records when various actions in CrookCatcher are taken. Sorry for the rant, but I think that answers the question. 
 
 
 ## How it works
 CrookCatcher uses a special permission called *Device Admin* to detect wrong unlock attempts right on the normal lock screen. I've then coded some pretty complicated stuff to make the app take pictures without first showing a preview on the screen. CrookCatcher will then retrieve your phone's GPS location and estimated address and send it together with the picture to your email. 
 
 CrookCatcher uses *gmail* to send emails. This ensures complete transparency about which emails CrookCatcher sends and where your data goes. During the CrookCatcher setup process, you'll be asked to grant CrookCatcher access to a gmail account. You can create a new gmail account just for CrookCatcher or use an existing one (you can also use CrookCatcher without email). CrookCatcher only requests permission to send emails and cannot read, delete or modify any emails in your account. CrookCatcher does *automatic image compression* based on your network speed to ensure emails are sent as fast as possible, while keeping quality as good as possible.  
+
+## Only use it on your own phone
+
+CrookCatcher is made to protect *your* phone. Only install it on a device you own. Secretly monitoring someone else's phone isn't what it's for, and in many countries it's illegal.
 
 ## Is it all free?
 
