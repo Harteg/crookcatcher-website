@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**No. Android non tiene un elenco dei tentativi di sblocco falliti e non mostra mai chi li ha fatti.** Conta i PIN, le sequenze e le password sbagliati solo per far aspettare sempre di più chi riprova. Una volta sbloccato il telefono, non resta niente da consultare: nessun elenco, nessun orario, nessuna foto. Per vedere i tentativi falliti ti serve un'app che riceva un avviso ogni volta che uno sblocco fallisce, come [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-it), che scatta una foto alla persona e te la invia via email con la posizione.
+**No. Android non tiene un elenco dei tentativi di sblocco falliti e non mostra mai chi li ha fatti.** Conta i PIN, le sequenze e le password sbagliati solo per far aspettare sempre di più chi riprova. Una volta sbloccato il telefono, non resta niente da consultare: nessun elenco, nessun orario, nessuna foto. Per vedere i tentativi falliti ti serve un'app che riceva un avviso ogni volta che uno sblocco fallisce, come [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=it&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-it), che scatta una foto alla persona e te la invia via email con la posizione.
 
 ## Dopo quanti tentativi di sblocco si blocca il telefono
 

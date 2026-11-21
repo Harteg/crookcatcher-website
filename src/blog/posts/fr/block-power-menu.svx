@@ -23,7 +23,7 @@ C'est important, car éteindre le téléphone ou activer le mode avion est l'une
 2. **Tous les téléphones Android :** activez le *Verrouillage en cas de détection de vol* et le *Verrouillage de l'appareil hors connexion*.
 3. **Retirez le mode avion** des Réglages rapides.
 4. **Cherchez dans les paramètres de votre téléphone** une option « déverrouiller pour éteindre ».
-5. **Installez <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-fr" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** pour recevoir la photo et la position de toute personne qui essaie de déverrouiller votre téléphone.
+5. **Installez <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=fr&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-fr" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** pour recevoir la photo et la position de toute personne qui essaie de déverrouiller votre téléphone.
 
 ---
 

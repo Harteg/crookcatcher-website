@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**Nein. Android führt keine Liste der fehlgeschlagenen Entsperrversuche und zeigt nie, wer sie gemacht hat.** Falsche Eingaben von PIN, Muster und Passwort werden nur gezählt, damit die Person vor dem nächsten Versuch länger warten muss. Sobald das Handy entsperrt ist, gibt es nichts zum Nachschauen: keine Liste, keine Uhrzeit, kein Foto. Um fehlgeschlagene Versuche zu sehen, brauchst du eine App, die bei jedem misslungenen Entsperren benachrichtigt wird, zum Beispiel [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-de). Die App macht ein Foto der Person und schickt es dir mit dem Standort per E-Mail.
+**Nein. Android führt keine Liste der fehlgeschlagenen Entsperrversuche und zeigt nie, wer sie gemacht hat.** Falsche Eingaben von PIN, Muster und Passwort werden nur gezählt, damit die Person vor dem nächsten Versuch länger warten muss. Sobald das Handy entsperrt ist, gibt es nichts zum Nachschauen: keine Liste, keine Uhrzeit, kein Foto. Um fehlgeschlagene Versuche zu sehen, brauchst du eine App, die bei jedem misslungenen Entsperren benachrichtigt wird, zum Beispiel [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=de&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-de). Die App macht ein Foto der Person und schickt es dir mit dem Standort per E-Mail.
 
 ## Was Android bei einer falschen PIN tut
 

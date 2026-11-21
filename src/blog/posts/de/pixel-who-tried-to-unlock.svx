@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**Ein Google Pixel kann dir nicht zeigen, wer es entsperren wollte.** Android zählt falsche Eingaben von PIN, Muster und Passwort nur, damit die Person vor dem nächsten Versuch warten muss. Es gibt keine Liste der Versuche, keine Uhrzeit und kein Foto. Um herauszufinden, wer es war, installierst du eine App, die über fehlgeschlagenes Entsperren benachrichtigt wird, zum Beispiel [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-de). Die App macht nach einer falschen PIN ein Foto mit der Frontkamera und schickt es dir mit dem Standort per E-Mail.
+**Ein Google Pixel kann dir nicht zeigen, wer es entsperren wollte.** Android zählt falsche Eingaben von PIN, Muster und Passwort nur, damit die Person vor dem nächsten Versuch warten muss. Es gibt keine Liste der Versuche, keine Uhrzeit und kein Foto. Um herauszufinden, wer es war, installierst du eine App, die über fehlgeschlagenes Entsperren benachrichtigt wird, zum Beispiel [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=de&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-de). Die App macht nach einer falschen PIN ein Foto mit der Frontkamera und schickt es dir mit dem Standort per E-Mail.
 
 ## Was dein Pixel nach einer falschen PIN tut
 
@@ -77,7 +77,7 @@ CrookCatcher schließt genau diese Lücke. Android benachrichtigt Apps mit der B
 
 **So richtest du es auf deinem Pixel ein:**
 
-1. **Installiere CrookCatcher** aus dem <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-de" target="_blank" rel="noopener noreferrer">Google Play Store</a>. Ein Konto brauchst du nicht.
+1. **Installiere CrookCatcher** aus dem <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=de&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-de" target="_blank" rel="noopener noreferrer">Google Play Store</a>. Ein Konto brauchst du nicht.
 2. **Erlaube den Geräteadministrator.** CrookCatcher nutzt diese Berechtigung nur, um zu erfahren, wann ein Entsperrversuch fehlschlägt.
 3. **Erlaube den Zugriff auf Kamera und Standort.**
 4. **Verbinde ein Gmail-Konto** für die Warn-E-Mails. CrookCatcher kann damit nur E-Mails *senden*, nicht lesen.

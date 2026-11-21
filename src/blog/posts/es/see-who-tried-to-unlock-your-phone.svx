@@ -32,7 +32,7 @@ Para saber quién intentó desbloquear tu teléfono, necesitas una app que vigil
 
 Así se configura con CrookCatcher. Toma unos minutos y no necesitas crear una cuenta.
 
-1. **Instala CrookCatcher** desde <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsee-who-tried-to-unlock-your-phone-es' target="_blank" rel="noopener noreferrer">Google Play</a>.
+1. **Instala CrookCatcher** desde <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=es_419&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsee-who-tried-to-unlock-your-phone-es' target="_blank" rel="noopener noreferrer">Google Play</a>.
 2. **Permite el Administrador de dispositivos.** Es el permiso de Android que le permite a una app detectar cuándo falla un intento de desbloqueo. CrookCatcher lo usa solo para eso.
 3. **Permite el acceso a la cámara y a la ubicación**, para que pueda tomar la foto y registrar dónde ocurrió.
 4. **Conecta una cuenta de Gmail** para los correos de alerta. CrookCatcher solo puede *enviar* correos desde ella; no puede leer, borrar ni cambiar nada en tu bandeja de entrada. Puedes crear una cuenta de Gmail aparte solo para esto, o prescindir del correo y guardar las fotos solo en el teléfono.

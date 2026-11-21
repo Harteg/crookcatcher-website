@@ -3,12 +3,29 @@ import { DEFAULT_LOCALE, type Locale } from '$lib/i18n';
 const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.harteg.crookcatcher';
 
 /**
+ * Play's `hl` value per site language, so a visitor on /de lands on the German store listing.
+ * English has none: Play then shows its own default (the visitor's account language).
+ */
+export const PLAY_HL: Record<Locale, string | undefined> = {
+	en: undefined,
+	pt: 'pt_BR',
+	fr: 'fr',
+	es: 'es_419',
+	de: 'de',
+	ar: 'ar',
+	id: 'id',
+	it: 'it',
+	ja: 'ja'
+};
+
+/**
  * Play Store link with an install referrer. The referrer value must be URL-encoded as a
  * whole: an unencoded `&utm_medium=` ends the referrer early and Play Console never sees it.
  */
-export function playStoreUrl(medium: string, campaign: string) {
+export function playStoreUrl(medium: string, campaign: string, locale: Locale = DEFAULT_LOCALE) {
 	const referrer = `utm_source=website&utm_medium=${medium}&utm_campaign=${campaign}`;
-	return `${PLAY_URL}&referrer=${encodeURIComponent(referrer)}`;
+	const hl = PLAY_HL[locale];
+	return `${PLAY_URL}${hl ? `&hl=${hl}` : ''}&referrer=${encodeURIComponent(referrer)}`;
 }
 
 /**

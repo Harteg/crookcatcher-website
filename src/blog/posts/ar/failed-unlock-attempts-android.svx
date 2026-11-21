@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**لا. لا يحتفظ Android بقائمة بمحاولات فتح القفل الفاشلة، ولا يُظهر أبدًا من قام بها.** هو يعدّ التخمينات الخاطئة لـ PIN والنمط وكلمة المرور فقط ليجعل الشخص ينتظر وقتًا أطول قبل المحاولة مجددًا. وبعد فتح الهاتف لا يوجد شيء يمكن الرجوع إليه: لا قائمة ولا وقت ولا صورة. ولرؤية المحاولات الفاشلة تحتاج إلى تطبيق يتلقى إشعارًا عند كل فشل في فتح القفل، مثل [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-ar) الذي يلتقط صورة للشخص ويرسلها إليك بالبريد الإلكتروني مع الموقع.
+**لا. لا يحتفظ Android بقائمة بمحاولات فتح القفل الفاشلة، ولا يُظهر أبدًا من قام بها.** هو يعدّ التخمينات الخاطئة لـ PIN والنمط وكلمة المرور فقط ليجعل الشخص ينتظر وقتًا أطول قبل المحاولة مجددًا. وبعد فتح الهاتف لا يوجد شيء يمكن الرجوع إليه: لا قائمة ولا وقت ولا صورة. ولرؤية المحاولات الفاشلة تحتاج إلى تطبيق يتلقى إشعارًا عند كل فشل في فتح القفل، مثل [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=ar&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-ar) الذي يلتقط صورة للشخص ويرسلها إليك بالبريد الإلكتروني مع الموقع.
 
 ## ماذا يفعل Android عند إدخال PIN خاطئ
 

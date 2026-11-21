@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**Tidak. Android tidak menyimpan daftar percobaan buka kunci yang gagal dan tidak pernah menunjukkan siapa pelakunya.** Tebakan PIN, pola, dan sandi yang salah hanya dihitung agar orang tersebut harus menunggu lebih lama sebelum mencoba lagi. Setelah ponsel terbuka, tidak ada lagi yang bisa dilihat: tidak ada daftar, waktu, atau foto. Untuk melihat percobaan yang gagal, kamu butuh aplikasi yang diberi tahu setiap kali pembukaan kunci gagal, seperti [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-id), yang memotret orangnya dan mengirimkannya ke emailmu beserta lokasinya.
+**Tidak. Android tidak menyimpan daftar percobaan buka kunci yang gagal dan tidak pernah menunjukkan siapa pelakunya.** Tebakan PIN, pola, dan sandi yang salah hanya dihitung agar orang tersebut harus menunggu lebih lama sebelum mencoba lagi. Setelah ponsel terbuka, tidak ada lagi yang bisa dilihat: tidak ada daftar, waktu, atau foto. Untuk melihat percobaan yang gagal, kamu butuh aplikasi yang diberi tahu setiap kali pembukaan kunci gagal, seperti [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=id&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-id), yang memotret orangnya dan mengirimkannya ke emailmu beserta lokasinya.
 
 ## Apa yang dilakukan Android saat PIN salah
 

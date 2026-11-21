@@ -23,7 +23,7 @@ Esto importa porque apagar el teléfono o activar el modo avión es una de las p
 2. **Todos los teléfonos Android:** activa el *Bloqueo por detección de robo* y el *Bloqueo de dispositivo sin conexión*.
 3. **Quita el modo avión** de la configuración rápida.
 4. **Busca en tu teléfono** una opción para pedir el desbloqueo antes de apagarlo.
-5. **Instala <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-es" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** para obtener una foto y la ubicación de quien intente desbloquear tu teléfono.
+5. **Instala <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=es_419&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-es" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** para obtener una foto y la ubicación de quien intente desbloquear tu teléfono.
 
 ---
 

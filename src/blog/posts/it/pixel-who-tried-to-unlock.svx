@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**Un Google Pixel non può mostrarti chi ha provato a sbloccarlo.** Android conta i PIN, le sequenze e le password sbagliati solo per far aspettare la persona prima di riprovare. Non c'è un elenco dei tentativi, né un orario, né una foto. Per scoprire chi è stato, installa un'app che riceva l'avviso degli sblocchi falliti, come [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-it). Scatta una foto con la fotocamera anteriore dopo un PIN sbagliato e te la invia via email con la posizione.
+**Un Google Pixel non può mostrarti chi ha provato a sbloccarlo.** Android conta i PIN, le sequenze e le password sbagliati solo per far aspettare la persona prima di riprovare. Non c'è un elenco dei tentativi, né un orario, né una foto. Per scoprire chi è stato, installa un'app che riceva l'avviso degli sblocchi falliti, come [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=it&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-it). Scatta una foto con la fotocamera anteriore dopo un PIN sbagliato e te la invia via email con la posizione.
 
 ## Cosa fa il tuo Pixel dopo un PIN sbagliato
 
@@ -79,7 +79,7 @@ CrookCatcher colma proprio questa lacuna. Android avvisa le app con l'autorizzaz
 
 **Configurala sul tuo Pixel:**
 
-1. **Installa CrookCatcher** da <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-it" target="_blank" rel="noopener noreferrer">Google Play</a>. Non c'è nessun account da creare.
+1. **Installa CrookCatcher** da <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=it&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-it" target="_blank" rel="noopener noreferrer">Google Play</a>. Non c'è nessun account da creare.
 2. **Consenti l'amministrazione del dispositivo.** CrookCatcher usa questa autorizzazione solo per sapere quando un tentativo di sblocco fallisce.
 3. **Consenti l'accesso a fotocamera e posizione.**
 4. **Collega un account Gmail** per le email di avviso. CrookCatcher può solo *inviare* email da questo account, non leggerle.

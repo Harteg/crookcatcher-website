@@ -45,7 +45,7 @@
   });
 
   $: tracking = playTracking($page, 'header');
-  $: playUrl = playStoreUrl(tracking.medium, tracking.campaign);
+  $: playUrl = playStoreUrl(tracking.medium, tracking.campaign, $page.data.locale);
 
   function toggleMenu() {
     menuOpen = !menuOpen;

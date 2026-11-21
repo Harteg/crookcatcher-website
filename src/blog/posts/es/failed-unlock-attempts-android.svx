@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**No. Android no guarda una lista de los intentos fallidos de desbloqueo y nunca muestra quién los hizo.** Cuenta los intentos con PIN, patrón o contraseña incorrectos solo para hacer esperar más a la persona antes de volver a intentarlo. Una vez que desbloqueas el teléfono, no hay nada que revisar: ni lista, ni hora, ni foto. Para ver los intentos fallidos necesitas una app que reciba un aviso cada vez que falla un desbloqueo, como [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-es), que toma una foto de la persona y te la envía por correo con la ubicación.
+**No. Android no guarda una lista de los intentos fallidos de desbloqueo y nunca muestra quién los hizo.** Cuenta los intentos con PIN, patrón o contraseña incorrectos solo para hacer esperar más a la persona antes de volver a intentarlo. Una vez que desbloqueas el teléfono, no hay nada que revisar: ni lista, ni hora, ni foto. Para ver los intentos fallidos necesitas una app que reciba un aviso cada vez que falla un desbloqueo, como [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=es_419&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-es), que toma una foto de la persona y te la envía por correo con la ubicación.
 
 ## Cuántos intentos de desbloqueo permite Android
 

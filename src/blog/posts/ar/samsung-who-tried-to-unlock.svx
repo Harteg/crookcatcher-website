@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**لا تستطيع هواتف Samsung Galaxy أن تُظهر لك من حاول فتحها.** تعدّ One UI التخمينات الخاطئة لـ PIN والنمط وكلمة المرور فقط لتقفل الهاتف لفترات أطول فأطول. وهي لا تحتفظ بقائمة يمكنك مراجعتها، ولا تلتقط أي صورة. ولمعرفة من كان، ثبّت تطبيقًا يتفاعل مع فشل فتح القفل، مثل [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-ar). يلتقط صورة بالكاميرا الأمامية بعد إدخال PIN خاطئ ويرسلها إليك بالبريد الإلكتروني مع الموقع.
+**لا تستطيع هواتف Samsung Galaxy أن تُظهر لك من حاول فتحها.** تعدّ One UI التخمينات الخاطئة لـ PIN والنمط وكلمة المرور فقط لتقفل الهاتف لفترات أطول فأطول. وهي لا تحتفظ بقائمة يمكنك مراجعتها، ولا تلتقط أي صورة. ولمعرفة من كان، ثبّت تطبيقًا يتفاعل مع فشل فتح القفل، مثل [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=ar&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-ar). يلتقط صورة بالكاميرا الأمامية بعد إدخال PIN خاطئ ويرسلها إليك بالبريد الإلكتروني مع الموقع.
 
 ## ماذا يفعل هاتف Samsung بعد إدخال PIN خاطئ
 
@@ -81,7 +81,7 @@ published: true
 
 **كيف تُعدّه على هاتف Galaxy:**
 
-1. **ثبّت CrookCatcher** من <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-ar" target="_blank" rel="noopener noreferrer">Google Play</a>. لا حاجة لإنشاء حساب.
+1. **ثبّت CrookCatcher** من <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=ar&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-ar" target="_blank" rel="noopener noreferrer">Google Play</a>. لا حاجة لإنشاء حساب.
 2. **اسمح بمشرف الجهاز.** هذا الإذن في Android هو الطريقة التي يُخطَر بها التطبيق بفشل محاولة فتح القفل. ولا يستخدمه CrookCatcher إلا لهذا الغرض.
 3. **اسمح بالوصول إلى الكاميرا والموقع.**
 4. **اربط حساب Gmail** لرسائل التنبيه. لا يستطيع CrookCatcher إلا *إرسال* الرسائل منه، لا قراءتها.

@@ -23,7 +23,7 @@ published: true
 2. **すべての Android スマホ:** *盗難検出ロック*と*オフライン デバイスロック*をオンにします。
 3. クイック設定から**機内モードを外します**。
 4. **スマホの設定に**「電源を切るにはロック解除が必要」という項目がないか確認します。
-5. **<a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-ja" target="_blank" rel="noopener noreferrer">CrookCatcher</a> をインストール**して、スマホのロックを解除しようとした人の写真と位置情報を受け取れるようにします。
+5. **<a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=ja&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-ja" target="_blank" rel="noopener noreferrer">CrookCatcher</a> をインストール**して、スマホのロックを解除しようとした人の写真と位置情報を受け取れるようにします。
 
 ---
 

@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**Google Pixel では、誰がロックを解除しようとしたかを確認できません。** Android が間違った PIN、パターン、パスワードの回数を数えるのは、次に試すまで待たせるためだけです。試行の一覧も、時刻も、写真もありません。誰だったかを知るには、ロック解除の失敗の通知を受け取るアプリを入れましょう。たとえば [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-ja) は、間違った PIN のあとに前面カメラで写真を撮り、位置情報と一緒にメールで送ります。
+**Google Pixel では、誰がロックを解除しようとしたかを確認できません。** Android が間違った PIN、パターン、パスワードの回数を数えるのは、次に試すまで待たせるためだけです。試行の一覧も、時刻も、写真もありません。誰だったかを知るには、ロック解除の失敗の通知を受け取るアプリを入れましょう。たとえば [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=ja&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-ja) は、間違った PIN のあとに前面カメラで写真を撮り、位置情報と一緒にメールで送ります。
 
 ## 間違った PIN のあと Pixel がすること
 
@@ -79,7 +79,7 @@ Google によると、Android 17 はさらに厳しくなります。ほかに�
 
 **Pixel での設定方法:**
 
-1. **CrookCatcher をインストール**します。<a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-ja" target="_blank" rel="noopener noreferrer">Google Play</a> から入手でき、アカウントを作る必要はありません。
+1. **CrookCatcher をインストール**します。<a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=ja&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-ja" target="_blank" rel="noopener noreferrer">Google Play</a> から入手でき、アカウントを作る必要はありません。
 2. **デバイス管理アプリとして許可**します。CrookCatcher はこの権限を、ロック解除の失敗を知るためだけに使います。
 3. **カメラと位置情報へのアクセスを許可**します。
 4. **通知メール用に Gmail アカウントを連携**します。CrookCatcher ができるのはメールの*送信*だけで、読むことはできません。

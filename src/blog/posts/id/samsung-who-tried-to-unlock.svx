@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**Ponsel Samsung Galaxy tidak bisa menunjukkan siapa yang mencoba membukanya.** One UI menghitung tebakan PIN, pola, dan sandi yang salah hanya untuk mengunci ponsel makin lama. Tidak ada daftar yang bisa kamu periksa, dan tidak pernah ada foto. Untuk melihat siapa pelakunya, pasang aplikasi yang bereaksi terhadap pembukaan kunci yang gagal, seperti [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-id). Aplikasi ini memotret dengan kamera depan setelah PIN salah dan mengirimnya ke emailmu beserta lokasinya.
+**Ponsel Samsung Galaxy tidak bisa menunjukkan siapa yang mencoba membukanya.** One UI menghitung tebakan PIN, pola, dan sandi yang salah hanya untuk mengunci ponsel makin lama. Tidak ada daftar yang bisa kamu periksa, dan tidak pernah ada foto. Untuk melihat siapa pelakunya, pasang aplikasi yang bereaksi terhadap pembukaan kunci yang gagal, seperti [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=id&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-id). Aplikasi ini memotret dengan kamera depan setelah PIN salah dan mengirimnya ke emailmu beserta lokasinya.
 
 ## Berapa kali percobaan buka kunci yang diizinkan Samsung
 
@@ -81,7 +81,7 @@ CrookCatcher mengisi persis celah itu. Saat seseorang memasukkan PIN, pola, atau
 
 **Cara mengaturnya di Galaxy-mu:**
 
-1. **Pasang CrookCatcher** dari <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-id" target="_blank" rel="noopener noreferrer">Google Play</a>. Tidak perlu membuat akun.
+1. **Pasang CrookCatcher** dari <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=id&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-id" target="_blank" rel="noopener noreferrer">Google Play</a>. Tidak perlu membuat akun.
 2. **Izinkan Admin perangkat.** Izin Android ini adalah cara aplikasi diberi tahu bahwa percobaan buka kunci gagal. CrookCatcher hanya memakainya untuk itu.
 3. **Izinkan akses kamera dan lokasi.**
 4. **Hubungkan akun Gmail** untuk email peringatan. CrookCatcher hanya bisa *mengirim* email darinya, tidak membacanya.

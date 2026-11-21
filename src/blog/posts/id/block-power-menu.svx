@@ -23,7 +23,7 @@ Ini penting karena mematikan ponsel atau mengaktifkan mode pesawat adalah salah 
 2. **Semua ponsel Android:** aktifkan *Kunci Deteksi Pencurian* dan *Kunci Perangkat Offline*.
 3. **Hapus mode pesawat** dari Setelan Cepat.
 4. **Periksa pengaturan ponselmu** untuk opsi seperti "wajib buka kunci untuk mematikan".
-5. **Pasang <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-id" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** untuk mendapatkan foto dan lokasi siapa pun yang mencoba membuka ponselmu.
+5. **Pasang <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=id&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-id" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** untuk mendapatkan foto dan lokasi siapa pun yang mencoba membuka ponselmu.
 
 ---
 

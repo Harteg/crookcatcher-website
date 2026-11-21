@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**Samsung-Galaxy-Handys können dir nicht zeigen, wer sie entsperren wollte.** One UI zählt falsche Eingaben von PIN, Muster und Passwort nur, um das Handy immer länger zu sperren. Es führt keine Liste, die du ansehen kannst, und macht nie ein Foto. Um zu sehen, wer es war, installierst du eine App, die auf fehlgeschlagenes Entsperren reagiert, zum Beispiel [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-de). Die App macht nach einer falschen PIN ein Foto mit der Frontkamera und schickt es dir mit dem Standort per E-Mail.
+**Samsung-Galaxy-Handys können dir nicht zeigen, wer sie entsperren wollte.** One UI zählt falsche Eingaben von PIN, Muster und Passwort nur, um das Handy immer länger zu sperren. Es führt keine Liste, die du ansehen kannst, und macht nie ein Foto. Um zu sehen, wer es war, installierst du eine App, die auf fehlgeschlagenes Entsperren reagiert, zum Beispiel [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=de&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-de). Die App macht nach einer falschen PIN ein Foto mit der Frontkamera und schickt es dir mit dem Standort per E-Mail.
 
 ## Wie viele Entsperrversuche ein Samsung erlaubt
 
@@ -81,7 +81,7 @@ CrookCatcher schließt genau diese Lücke. Wenn jemand eine falsche PIN, ein fal
 
 **So richtest du es auf deinem Galaxy ein:**
 
-1. **Installiere CrookCatcher** aus dem <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-de" target="_blank" rel="noopener noreferrer">Google Play Store</a>. Ein Konto brauchst du nicht.
+1. **Installiere CrookCatcher** aus dem <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=de&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-de" target="_blank" rel="noopener noreferrer">Google Play Store</a>. Ein Konto brauchst du nicht.
 2. **Erlaube den Geräteadministrator.** Mit dieser Android-Berechtigung erfährt die App, dass ein Entsperrversuch fehlgeschlagen ist. CrookCatcher nutzt sie nur dafür.
 3. **Erlaube den Zugriff auf Kamera und Standort.**
 4. **Verbinde ein Gmail-Konto** für die Warn-E-Mails. CrookCatcher kann damit nur E-Mails *senden*, nicht lesen.

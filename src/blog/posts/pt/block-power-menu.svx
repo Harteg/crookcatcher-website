@@ -23,7 +23,7 @@ Isso importa porque desligar o aparelho ou ativar o modo avião é uma das prime
 2. **Todos os celulares Android:** ative o *Bloqueio por Detecção de Roubo* e o *Bloqueio de Dispositivo Off-line*.
 3. **Tire o modo avião** das Configurações rápidas.
 4. **Procure nas configurações do seu celular** uma opção de "exigir desbloqueio para desligar".
-5. **Instale o <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-pt" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** para receber a foto e a localização de quem tentar desbloquear seu celular.
+5. **Instale o <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=pt_BR&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-pt" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** para receber a foto e a localização de quem tentar desbloquear seu celular.
 
 ---
 

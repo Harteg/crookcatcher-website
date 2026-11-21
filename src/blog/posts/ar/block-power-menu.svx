@@ -23,7 +23,7 @@ published: true
 2. **جميع هواتف Android:** فعّل *القفل عند رصد سرقة* و*القفل عند انقطاع الإنترنت*.
 3. **أزل وضع الطيران** من الإعدادات السريعة.
 4. **تحقق من إعدادات هاتفك** بحثًا عن خيار مثل «اطلب فتح القفل لإيقاف التشغيل».
-5. **ثبّت <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-ar" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** لتحصل على صورة وموقع أي شخص يحاول فتح هاتفك.
+5. **ثبّت <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=ar&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-ar" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** لتحصل على صورة وموقع أي شخص يحاول فتح هاتفك.
 
 ---
 

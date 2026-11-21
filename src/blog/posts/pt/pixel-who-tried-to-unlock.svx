@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**Um Google Pixel não consegue mostrar quem tentou desbloqueá-lo.** O Android conta os erros de PIN, padrão e senha só para fazer a pessoa esperar antes de tentar de novo. Não há lista de tentativas, nem horário, nem foto. Para descobrir quem foi, instale um app que seja avisado dos desbloqueios com falha, como o [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-pt). Ele tira uma foto com a câmera frontal depois de um PIN errado e envia para o seu e-mail com a localização.
+**Um Google Pixel não consegue mostrar quem tentou desbloqueá-lo.** O Android conta os erros de PIN, padrão e senha só para fazer a pessoa esperar antes de tentar de novo. Não há lista de tentativas, nem horário, nem foto. Para descobrir quem foi, instale um app que seja avisado dos desbloqueios com falha, como o [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=pt_BR&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-pt). Ele tira uma foto com a câmera frontal depois de um PIN errado e envia para o seu e-mail com a localização.
 
 ## O que seu Pixel faz depois de um PIN errado
 
@@ -79,7 +79,7 @@ O CrookCatcher preenche exatamente essa lacuna. O Android avisa os apps com a pe
 
 **Configure no seu Pixel:**
 
-1. **Instale o CrookCatcher** pelo <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-pt" target="_blank" rel="noopener noreferrer">Google Play</a>. Não é preciso criar conta.
+1. **Instale o CrookCatcher** pelo <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=pt_BR&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-pt" target="_blank" rel="noopener noreferrer">Google Play</a>. Não é preciso criar conta.
 2. **Permita o Administrador do dispositivo.** O CrookCatcher usa essa permissão só para saber quando um desbloqueio falha.
 3. **Permita o acesso à câmera e à localização.**
 4. **Conecte uma conta do Gmail** para os e-mails de alerta. O CrookCatcher só consegue *enviar* e-mails por ela, não lê-los.

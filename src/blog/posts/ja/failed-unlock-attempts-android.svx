@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**見られません。Android はロック解除の失敗を一覧で残さず、誰が試したかも表示しません。** 間違った PIN、パターン、パスワードの回数を数えるのは、次に試すまでの待ち時間を延ばすためだけです。ロックを解除したあとに振り返れるものは何もありません。一覧も、時刻も、写真もありません。失敗を確認するには、ロック解除に失敗するたびに通知を受け取るアプリが必要です。たとえば [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-ja) は、相手の写真を撮り、位置情報と一緒にメールで送ります。
+**見られません。Android はロック解除の失敗を一覧で残さず、誰が試したかも表示しません。** 間違った PIN、パターン、パスワードの回数を数えるのは、次に試すまでの待ち時間を延ばすためだけです。ロックを解除したあとに振り返れるものは何もありません。一覧も、時刻も、写真もありません。失敗を確認するには、ロック解除に失敗するたびに通知を受け取るアプリが必要です。たとえば [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=ja&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-ja) は、相手の写真を撮り、位置情報と一緒にメールで送ります。
 
 ## Android のロック解除は何回まで失敗できる？
 

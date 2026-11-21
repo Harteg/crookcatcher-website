@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**Un Google Pixel ne peut pas vous montrer qui a essayé de le déverrouiller.** Android compte les erreurs de code PIN, de schéma et de mot de passe uniquement pour faire patienter la personne avant un nouvel essai. Il n'y a ni liste des tentatives, ni heure, ni photo. Pour savoir qui c'était, installez une app prévenue des déverrouillages ratés, comme [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-fr). Elle prend une photo avec la caméra frontale après un mauvais code PIN et vous l'envoie par e-mail avec la position.
+**Un Google Pixel ne peut pas vous montrer qui a essayé de le déverrouiller.** Android compte les erreurs de code PIN, de schéma et de mot de passe uniquement pour faire patienter la personne avant un nouvel essai. Il n'y a ni liste des tentatives, ni heure, ni photo. Pour savoir qui c'était, installez une app prévenue des déverrouillages ratés, comme [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=fr&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-fr). Elle prend une photo avec la caméra frontale après un mauvais code PIN et vous l'envoie par e-mail avec la position.
 
 ## Ce que fait votre Pixel après un mauvais code PIN
 
@@ -79,7 +79,7 @@ CrookCatcher comble exactement ce manque. Android prévient les apps disposant d
 
 **Configurez-le sur votre Pixel :**
 
-1. **Installez CrookCatcher** depuis <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-fr" target="_blank" rel="noopener noreferrer">Google Play</a>. Aucun compte à créer.
+1. **Installez CrookCatcher** depuis <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=fr&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-fr" target="_blank" rel="noopener noreferrer">Google Play</a>. Aucun compte à créer.
 2. **Autorisez l'administrateur de l'appareil.** CrookCatcher utilise cette autorisation uniquement pour savoir quand un déverrouillage échoue.
 3. **Autorisez l'accès à la caméra et à la position.**
 4. **Connectez un compte Gmail** pour les e-mails d'alerte. CrookCatcher peut seulement *envoyer* des e-mails depuis ce compte, pas les lire.

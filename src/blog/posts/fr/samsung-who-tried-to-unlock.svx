@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**Les téléphones Samsung Galaxy ne peuvent pas vous montrer qui a essayé de les déverrouiller.** One UI compte les erreurs de code PIN, de schéma et de mot de passe uniquement pour bloquer le téléphone de plus en plus longtemps. Il ne garde aucune liste consultable et ne prend jamais de photo. Pour savoir qui c'était, installez une app qui réagit aux déverrouillages ratés, comme [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-fr). Elle prend une photo avec la caméra frontale après un mauvais code PIN et vous l'envoie par e-mail avec la position.
+**Les téléphones Samsung Galaxy ne peuvent pas vous montrer qui a essayé de les déverrouiller.** One UI compte les erreurs de code PIN, de schéma et de mot de passe uniquement pour bloquer le téléphone de plus en plus longtemps. Il ne garde aucune liste consultable et ne prend jamais de photo. Pour savoir qui c'était, installez une app qui réagit aux déverrouillages ratés, comme [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=fr&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-fr). Elle prend une photo avec la caméra frontale après un mauvais code PIN et vous l'envoie par e-mail avec la position.
 
 ## Combien de tentatives de déverrouillage un Samsung autorise
 
@@ -81,7 +81,7 @@ CrookCatcher comble exactement ce manque. Quand quelqu'un saisit un mauvais code
 
 **Configurez-le sur votre Galaxy :**
 
-1. **Installez CrookCatcher** depuis <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-fr" target="_blank" rel="noopener noreferrer">Google Play</a>. Aucun compte à créer.
+1. **Installez CrookCatcher** depuis <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=fr&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-fr" target="_blank" rel="noopener noreferrer">Google Play</a>. Aucun compte à créer.
 2. **Autorisez l'administrateur de l'appareil.** C'est par cette autorisation Android que l'app apprend qu'un déverrouillage a échoué. CrookCatcher ne l'utilise que pour cela.
 3. **Autorisez l'accès à la caméra et à la position.**
 4. **Connectez un compte Gmail** pour les e-mails d'alerte. CrookCatcher peut seulement *envoyer* des e-mails depuis ce compte, pas les lire.

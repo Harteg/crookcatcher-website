@@ -23,7 +23,7 @@ Das ist wichtig, weil das Ausschalten des Handys oder das Einschalten des Flugmo
 2. **Alle Android-Handys:** Aktiviere die *Diebstahl-Displaysperre* und die *Offline-Gerätesperre*.
 3. **Entferne den Flugmodus** aus deinen Schnelleinstellungen.
 4. **Prüfe die Einstellungen deines Handys** auf eine Option wie „Zum Ausschalten entsperren“.
-5. **Installiere <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-de" target="_blank" rel="noopener noreferrer">CrookCatcher</a>**, um ein Foto und den Standort von jedem zu bekommen, der versucht, dein Handy zu entsperren.
+5. **Installiere <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=de&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-de" target="_blank" rel="noopener noreferrer">CrookCatcher</a>**, um ein Foto und den Standort von jedem zu bekommen, der versucht, dein Handy zu entsperren.
 
 ---
 

@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**Samsung Galaxy では、誰がロックを解除しようとしたかを確認できません。** One UI が間違った PIN、パターン、パスワードの回数を数えるのは、ロックの時間を延ばしていくためだけです。確認できる一覧は残らず、写真も撮られません。誰だったかを知るには、ロック解除の失敗に反応するアプリを入れましょう。たとえば [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-ja) は、間違った PIN のあとに前面カメラで写真を撮り、位置情報と一緒にメールで送ります。
+**Samsung Galaxy では、誰がロックを解除しようとしたかを確認できません。** One UI が間違った PIN、パターン、パスワードの回数を数えるのは、ロックの時間を延ばしていくためだけです。確認できる一覧は残らず、写真も撮られません。誰だったかを知るには、ロック解除の失敗に反応するアプリを入れましょう。たとえば [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=ja&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-ja) は、間違った PIN のあとに前面カメラで写真を撮り、位置情報と一緒にメールで送ります。
 
 ## Galaxy のロック解除は何回まで失敗できる？
 
@@ -83,7 +83,7 @@ Samsung によると、細かい点は次のとおりです。
 
 **Galaxy での設定方法:**
 
-1. **CrookCatcher をインストール**します。<a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-ja" target="_blank" rel="noopener noreferrer">Google Play</a> から入手でき、アカウントを作る必要はありません。
+1. **CrookCatcher をインストール**します。<a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=ja&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-ja" target="_blank" rel="noopener noreferrer">Google Play</a> から入手でき、アカウントを作る必要はありません。
 2. **デバイス管理アプリとして許可**します。ロック解除の失敗をアプリに知らせる Android の権限です。CrookCatcher はこの目的にだけ使います。
 3. **カメラと位置情報へのアクセスを許可**します。
 4. **通知メール用に Gmail アカウントを連携**します。CrookCatcher ができるのはメールの*送信*だけで、読むことはできません。

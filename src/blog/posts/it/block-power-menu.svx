@@ -23,7 +23,7 @@ published: true
 2. **Tutti i telefoni Android:** attiva il *Blocco per furto* e il *Blocco dispositivo offline*.
 3. **Togli la modalità aereo** dalle Impostazioni rapide.
 4. **Cerca nelle impostazioni del telefono** un'opzione che richieda lo sblocco per spegnere.
-5. **Installa <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-it" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** per ricevere la foto e la posizione di chiunque provi a sbloccare il telefono.
+5. **Installa <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=it&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dblock-power-menu-it" target="_blank" rel="noopener noreferrer">CrookCatcher</a>** per ricevere la foto e la posizione di chiunque provi a sbloccare il telefono.
 
 ---
 

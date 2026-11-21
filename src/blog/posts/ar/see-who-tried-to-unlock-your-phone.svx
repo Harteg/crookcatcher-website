@@ -32,7 +32,7 @@ published: true
 
 هكذا تُعدّ ذلك باستخدام CrookCatcher. يستغرق بضع دقائق ولا تحتاج إلى إنشاء حساب.
 
-1. **ثبّت CrookCatcher** من <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsee-who-tried-to-unlock-your-phone-ar' target="_blank" rel="noopener noreferrer">Google Play</a>.
+1. **ثبّت CrookCatcher** من <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=ar&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsee-who-tried-to-unlock-your-phone-ar' target="_blank" rel="noopener noreferrer">Google Play</a>.
 2. **اسمح بمشرف الجهاز.** هذا هو إذن Android الذي يتيح لتطبيق ما ملاحظة فشل محاولة فتح القفل. ولا يستخدمه CrookCatcher إلا لهذا الغرض.
 3. **اسمح بالوصول إلى الكاميرا والموقع**، ليتمكن من التقاط الصورة وتسجيل مكان الحدث.
 4. **اربط حساب Gmail** لرسائل التنبيه. لا يستطيع CrookCatcher إلا *إرسال* رسائل منه؛ ولا يمكنه قراءة أو حذف أو تغيير أي شيء في صندوق بريدك. يمكنك إنشاء حساب Gmail منفصل لهذا الغرض فقط، أو الاستغناء عن البريد تمامًا والاحتفاظ بالصور على هاتفك فقط.

@@ -32,7 +32,7 @@ Punya Samsung Galaxy? Lihat [cara melihat siapa yang mencoba membuka ponsel Sams
 
 Berikut cara mengaturnya dengan CrookCatcher. Hanya butuh beberapa menit, dan kamu tidak perlu membuat akun.
 
-1. **Pasang CrookCatcher** dari <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsee-who-tried-to-unlock-your-phone-id' target="_blank" rel="noopener noreferrer">Google Play</a>.
+1. **Pasang CrookCatcher** dari <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=id&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsee-who-tried-to-unlock-your-phone-id' target="_blank" rel="noopener noreferrer">Google Play</a>.
 2. **Izinkan Admin Perangkat.** Ini adalah izin Android yang memungkinkan aplikasi mengetahui saat pembukaan kunci gagal. CrookCatcher hanya memakainya untuk itu.
 3. **Izinkan akses kamera dan lokasi**, agar aplikasi bisa mengambil foto dan mencatat di mana kejadiannya.
 4. **Hubungkan akun Gmail** untuk email peringatan. CrookCatcher hanya bisa *mengirim* email darinya; tidak bisa membaca, menghapus, atau mengubah apa pun di kotak masukmu. Kamu bisa membuat akun Gmail terpisah khusus untuk ini, atau melewatkan email sama sekali dan hanya menyimpan foto di ponsel.

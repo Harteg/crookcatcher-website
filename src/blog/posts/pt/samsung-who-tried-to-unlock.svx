@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**Os celulares Samsung Galaxy não conseguem mostrar quem tentou desbloqueá-los.** O One UI conta os erros de PIN, padrão e senha só para bloquear o celular por cada vez mais tempo. Ele não guarda uma lista que você possa consultar e nunca tira foto. Para ver quem foi, instale um app que reage a desbloqueios com falha, como o [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-pt). Ele tira uma foto com a câmera frontal depois de um PIN errado e envia para o seu e-mail com a localização.
+**Os celulares Samsung Galaxy não conseguem mostrar quem tentou desbloqueá-los.** O One UI conta os erros de PIN, padrão e senha só para bloquear o celular por cada vez mais tempo. Ele não guarda uma lista que você possa consultar e nunca tira foto. Para ver quem foi, instale um app que reage a desbloqueios com falha, como o [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=pt_BR&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-pt). Ele tira uma foto com a câmera frontal depois de um PIN errado e envia para o seu e-mail com a localização.
 
 ## Quantas tentativas de desbloqueio um Samsung permite
 
@@ -81,7 +81,7 @@ O CrookCatcher preenche exatamente essa lacuna. Quando alguém erra o PIN, o pad
 
 **Configure no seu Galaxy:**
 
-1. **Instale o CrookCatcher** pelo <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-pt" target="_blank" rel="noopener noreferrer">Google Play</a>. Não é preciso criar conta.
+1. **Instale o CrookCatcher** pelo <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=pt_BR&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsamsung-who-tried-to-unlock-pt" target="_blank" rel="noopener noreferrer">Google Play</a>. Não é preciso criar conta.
 2. **Permita o Administrador do dispositivo.** É por essa permissão do Android que o app fica sabendo que um desbloqueio falhou. O CrookCatcher a usa só para isso.
 3. **Permita o acesso à câmera e à localização.**
 4. **Conecte uma conta do Gmail** para os e-mails de alerta. O CrookCatcher só consegue *enviar* e-mails por ela, não lê-los.

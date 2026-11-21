@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**Google Pixel tidak bisa menunjukkan siapa yang mencoba membukanya.** Android menghitung tebakan PIN, pola, dan sandi yang salah hanya agar orang itu menunggu sebelum mencoba lagi. Tidak ada daftar percobaan, tidak ada waktu, dan tidak ada foto. Untuk mengetahui siapa pelakunya, pasang aplikasi yang diberi tahu saat pembukaan kunci gagal, seperti [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-id). Aplikasi ini memotret dengan kamera depan setelah PIN salah dan mengirimnya ke emailmu beserta lokasinya.
+**Google Pixel tidak bisa menunjukkan siapa yang mencoba membukanya.** Android menghitung tebakan PIN, pola, dan sandi yang salah hanya agar orang itu menunggu sebelum mencoba lagi. Tidak ada daftar percobaan, tidak ada waktu, dan tidak ada foto. Untuk mengetahui siapa pelakunya, pasang aplikasi yang diberi tahu saat pembukaan kunci gagal, seperti [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=id&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-id). Aplikasi ini memotret dengan kamera depan setelah PIN salah dan mengirimnya ke emailmu beserta lokasinya.
 
 ## Apa yang dilakukan Pixel-mu setelah PIN salah
 
@@ -77,7 +77,7 @@ CrookCatcher mengisi persis celah itu. Android memberi tahu aplikasi yang memili
 
 **Cara mengaturnya di Pixel-mu:**
 
-1. **Pasang CrookCatcher** dari <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-id" target="_blank" rel="noopener noreferrer">Google Play</a>. Tidak perlu membuat akun.
+1. **Pasang CrookCatcher** dari <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=id&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-id" target="_blank" rel="noopener noreferrer">Google Play</a>. Tidak perlu membuat akun.
 2. **Izinkan Admin perangkat.** CrookCatcher memakai izin ini hanya untuk mengetahui kapan pembukaan kunci gagal.
 3. **Izinkan akses kamera dan lokasi.**
 4. **Hubungkan akun Gmail** untuk email peringatan. CrookCatcher hanya bisa *mengirim* email darinya, tidak membacanya.

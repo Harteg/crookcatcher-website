@@ -15,7 +15,7 @@
 </script>
 
 <a
-  href={playStoreUrl(tracking.medium, tracking.campaign)}
+  href={playStoreUrl(tracking.medium, tracking.campaign, $page.data.locale)}
   class="play-store-link"
   class:compact
   target="_blank"

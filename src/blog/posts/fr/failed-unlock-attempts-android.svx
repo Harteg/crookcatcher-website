@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**Non. Android ne garde aucune liste des tentatives de déverrouillage ratées et ne montre jamais qui les a faites.** Il compte les erreurs de code PIN, de schéma et de mot de passe uniquement pour faire patienter la personne de plus en plus longtemps. Une fois le téléphone déverrouillé, il n'y a rien à consulter : ni liste, ni heure, ni photo. Pour voir les tentatives ratées, il vous faut une app prévenue à chaque échec de déverrouillage, comme [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-fr), qui prend la personne en photo et vous l'envoie par e-mail avec sa position.
+**Non. Android ne garde aucune liste des tentatives de déverrouillage ratées et ne montre jamais qui les a faites.** Il compte les erreurs de code PIN, de schéma et de mot de passe uniquement pour faire patienter la personne de plus en plus longtemps. Une fois le téléphone déverrouillé, il n'y a rien à consulter : ni liste, ni heure, ni photo. Pour voir les tentatives ratées, il vous faut une app prévenue à chaque échec de déverrouillage, comme [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=fr&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dfailed-unlock-attempts-android-fr), qui prend la personne en photo et vous l'envoie par e-mail avec sa position.
 
 ## Ce que fait Android après un mauvais code PIN
 

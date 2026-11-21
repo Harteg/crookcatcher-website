@@ -13,7 +13,7 @@ published: true
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**لا يستطيع هاتف Google Pixel أن يُظهر لك من حاول فتحه.** يعدّ Android التخمينات الخاطئة لـ PIN والنمط وكلمة المرور فقط ليجعل الشخص ينتظر قبل المحاولة مجددًا. لا توجد قائمة بالمحاولات ولا وقت ولا صورة. ولمعرفة من كان، ثبّت تطبيقًا يتلقى إشعارًا بفشل فتح القفل، مثل [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-ar). يلتقط صورة بالكاميرا الأمامية بعد إدخال PIN خاطئ ويرسلها إليك بالبريد الإلكتروني مع الموقع.
+**لا يستطيع هاتف Google Pixel أن يُظهر لك من حاول فتحه.** يعدّ Android التخمينات الخاطئة لـ PIN والنمط وكلمة المرور فقط ليجعل الشخص ينتظر قبل المحاولة مجددًا. لا توجد قائمة بالمحاولات ولا وقت ولا صورة. ولمعرفة من كان، ثبّت تطبيقًا يتلقى إشعارًا بفشل فتح القفل، مثل [CrookCatcher](https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=ar&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-ar). يلتقط صورة بالكاميرا الأمامية بعد إدخال PIN خاطئ ويرسلها إليك بالبريد الإلكتروني مع الموقع.
 
 ## ماذا يفعل هاتف Pixel بعد إدخال PIN خاطئ
 
@@ -77,7 +77,7 @@ published: true
 
 **كيف تُعدّه على هاتف Pixel:**
 
-1. **ثبّت CrookCatcher** من <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-ar" target="_blank" rel="noopener noreferrer">Google Play</a>. لا حاجة لإنشاء حساب.
+1. **ثبّت CrookCatcher** من <a href="https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=ar&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dpixel-who-tried-to-unlock-ar" target="_blank" rel="noopener noreferrer">Google Play</a>. لا حاجة لإنشاء حساب.
 2. **اسمح بمشرف الجهاز.** يستخدم CrookCatcher هذا الإذن فقط ليعرف متى يفشل فتح القفل.
 3. **اسمح بالوصول إلى الكاميرا والموقع.**
 4. **اربط حساب Gmail** لرسائل التنبيه. لا يستطيع CrookCatcher إلا *إرسال* الرسائل منه، لا قراءتها.

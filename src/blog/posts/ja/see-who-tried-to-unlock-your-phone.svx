@@ -32,7 +32,7 @@ Samsung Galaxy をお使いなら、Samsung 独自の設定とロックのルー
 
 CrookCatcher での設定方法です。数分で終わり、アカウントを作る必要もありません。
 
-1. **CrookCatcher をインストール**します。<a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsee-who-tried-to-unlock-your-phone-ja' target="_blank" rel="noopener noreferrer">Google Play</a> から入手できます。
+1. **CrookCatcher をインストール**します。<a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=ja&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsee-who-tried-to-unlock-your-phone-ja' target="_blank" rel="noopener noreferrer">Google Play</a> から入手できます。
 2. **デバイス管理アプリとして許可**します。ロック解除の失敗をアプリが知るための Android の権限です。CrookCatcher はこの目的にだけ使います。
 3. **カメラと位置情報へのアクセスを許可**します。写真を撮り、どこで起きたかを記録するためです。
 4. **通知メール用に Gmail アカウントを連携**します。CrookCatcher ができるのはメールの*送信*だけで、受信トレイの中身を読んだり、削除や変更をしたりはできません。この用途専用の Gmail アカウントを作ってもよいですし、メールを使わず写真をスマホに保存するだけにもできます。

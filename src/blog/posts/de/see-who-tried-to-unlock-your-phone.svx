@@ -32,7 +32,7 @@ Hast du ein Samsung Galaxy? Dann lies [so siehst du, wer dein Samsung-Handy ents
 
 So richtest du es mit CrookCatcher ein. Es dauert ein paar Minuten, und du musst kein Konto erstellen.
 
-1. **Installiere CrookCatcher** aus dem <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsee-who-tried-to-unlock-your-phone-de' target="_blank" rel="noopener noreferrer">Google Play Store</a>.
+1. **Installiere CrookCatcher** aus dem <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=de&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsee-who-tried-to-unlock-your-phone-de' target="_blank" rel="noopener noreferrer">Google Play Store</a>.
 2. **Erlaube den Geräteadministrator.** Das ist die Android-Berechtigung, mit der eine App bemerkt, wenn ein Entsperrversuch fehlschlägt. CrookCatcher nutzt sie nur dafür.
 3. **Erlaube den Zugriff auf Kamera und Standort**, damit die App das Foto machen und festhalten kann, wo es passiert ist.
 4. **Verbinde ein Gmail-Konto** für die Warn-E-Mails. CrookCatcher kann damit nur E-Mails *senden*. Es kann nichts in deinem Postfach lesen, löschen oder ändern. Du kannst ein eigenes Gmail-Konto nur dafür anlegen oder ganz auf E-Mails verzichten und die Fotos nur auf dem Handy behalten.

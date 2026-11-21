@@ -32,7 +32,7 @@ Hai un Samsung Galaxy? Leggi [troppi tentativi di sblocco su Samsung: come scopr
 
 Ecco come configurarlo con CrookCatcher. Ci vogliono pochi minuti e non devi creare nessun account.
 
-1. **Installa CrookCatcher** da <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsee-who-tried-to-unlock-your-phone-it' target="_blank" rel="noopener noreferrer">Google Play</a>.
+1. **Installa CrookCatcher** da <a href='https://play.google.com/store/apps/details?id=com.harteg.crookcatcher&hl=it&referrer=utm_source%3Dwebsite%26utm_medium%3Dguide%26utm_campaign%3Dsee-who-tried-to-unlock-your-phone-it' target="_blank" rel="noopener noreferrer">Google Play</a>.
 2. **Consenti l'amministrazione del dispositivo.** È l'autorizzazione di Android che permette a un'app di sapere quando un tentativo di sblocco fallisce. CrookCatcher la usa solo per questo.
 3. **Consenti l'accesso a fotocamera e posizione**, così può scattare la foto e registrare dove è successo.
 4. **Collega un account Gmail** per le email di avviso. CrookCatcher può solo *inviare* email da questo account; non può leggere, eliminare o modificare nulla nella tua casella. Puoi creare un account Gmail apposta, oppure fare a meno dell'email e tenere le foto solo sul telefono.
