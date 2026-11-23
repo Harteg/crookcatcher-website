@@ -127,7 +127,7 @@
       },
       {
         "title": "Difficile da rimuovere",
-        "text": "Blocco dell'app e icona camuffata."
+        "text": "Il blocco dell'app impedisce a chiunque di disattivarla."
       },
       {
         "title": "Allarme e messaggio sulla schermata di blocco",
@@ -184,7 +184,7 @@
       },
       {
         "question": "Quali funzioni in più offre Pro?",
-        "answer": "Pro include video con audio, backup su Google Drive, foto con la fotocamera posteriore, messaggi di avviso sulla schermata di blocco, allarmi sonori, falsa schermata Home, blocco dell'app, icona camuffata, rilevamento effrazione, oggetto email personalizzato, notifiche nascoste e niente pubblicità."
+        "answer": "Pro include video con audio, backup su Google Drive, foto con la fotocamera posteriore, messaggi di avviso sulla schermata di blocco, allarmi sonori, falsa schermata Home, blocco dell'app, rilevamento effrazione, oggetto email personalizzato e niente pubblicità."
       },
       {
         "question": "Quanto costa CrookCatcher Pro?",
@@ -200,7 +200,7 @@
       },
       {
         "question": "Come fa CrookCatcher a restare nascosta?",
-        "answer": "Le funzioni Pro aiutano a nascondere l'app: camuffano l'icona, nascondono le notifiche fino allo sblocco, personalizzano l'oggetto delle email e bloccano l'app stessa con una sequenza."
+        "answer": "Le notifiche restano nascoste fino allo sblocco. Con Pro puoi anche personalizzare l'oggetto delle email e l'app stessa è bloccata con una sequenza, così nessuno può aprirla o disattivarla."
       },
       {
         "question": "Come funziona il rilevamento effrazione? (Pro)",
@@ -208,7 +208,7 @@
       },
       {
         "question": "Posso personalizzare le notifiche di avviso?",
-        "answer": "Gli utenti Pro possono personalizzare l'oggetto delle email, nascondere le notifiche finché il telefono non viene sbloccato e mostrare un messaggio personalizzato sulla schermata di blocco quando scatta un avviso."
+        "answer": "Per impostazione predefinita, le notifiche restano nascoste finché il telefono non viene sbloccato. Gli utenti Pro possono anche personalizzare l'oggetto delle email e mostrare un messaggio personalizzato sulla schermata di blocco quando scatta un avviso."
       },
       {
         "question": "CrookCatcher scarica la batteria?",

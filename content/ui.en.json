@@ -95,10 +95,6 @@
         "title": "App lock",
         "description": "Lock access to CrookCatcher with a pattern code."
       },
-      "disguiseApp": {
-        "title": "Disguise app",
-        "description": "Change the app icon and name to make it look like a file explorer app, so intruders won't find out you have CrookCatcher installed."
-      },
       "breakIn": {
         "title": "Break in detection",
         "description": "Take a picture and send alert email if the crook guesses the right password after having failed."
@@ -106,10 +102,6 @@
       "emailSubject": {
         "title": "Custom email subject",
         "description": "Change alert email subject text, to avoid crooks seeing revealing notifications."
-      },
-      "hideNotifications": {
-        "title": "Hide notifications",
-        "description": "Only show alert notifications on device after successful unlock. This way crooks won't know they got caught."
       },
       "noAds": {
         "title": "No ads",

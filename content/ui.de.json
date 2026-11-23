@@ -95,10 +95,6 @@
         "title": "App-Sperre",
         "description": "Sperrt den Zugriff auf CrookCatcher mit einem Muster."
       },
-      "disguiseApp": {
-        "title": "App tarnen",
-        "description": "Ändert Symbol und Namen der App, sodass sie wie ein Dateimanager aussieht. So merken Eindringlinge nicht, dass CrookCatcher installiert ist."
-      },
       "breakIn": {
         "title": "Einbruchserkennung",
         "description": "Macht ein Foto und sendet eine Warn-E-Mail, wenn der Dieb nach vergeblichen Versuchen das richtige Passwort errät."
@@ -106,10 +102,6 @@
       "emailSubject": {
         "title": "Eigener E-Mail-Betreff",
         "description": "Ändert den Betreff der Warn-E-Mail, damit Diebe keine verräterischen Benachrichtigungen sehen."
-      },
-      "hideNotifications": {
-        "title": "Benachrichtigungen verbergen",
-        "description": "Zeigt Warnbenachrichtigungen auf dem Gerät erst nach erfolgreichem Entsperren. So merken Diebe nicht, dass sie erwischt wurden."
       },
       "noAds": {
         "title": "Keine Werbung",

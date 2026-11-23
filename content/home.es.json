@@ -127,7 +127,7 @@
       },
       {
         "title": "Difícil de quitar",
-        "text": "Bloqueo de la app e ícono disfrazado."
+        "text": "El bloqueo de la app impide que alguien la desactive."
       },
       {
         "title": "Alarma y mensaje en la pantalla de bloqueo",
@@ -184,7 +184,7 @@
       },
       {
         "question": "¿Qué funciones adicionales ofrece Pro?",
-        "answer": "Pro incluye video con sonido, copia en Google Drive, fotos con la cámara trasera, mensajes de aviso en la pantalla de bloqueo, sonidos de alarma, pantalla de inicio falsa, bloqueo de la app, ícono disfrazado, detección de intrusión, asunto de correo personalizado, notificaciones ocultas y sin anuncios."
+        "answer": "Pro incluye video con sonido, copia en Google Drive, fotos con la cámara trasera, mensajes de aviso en la pantalla de bloqueo, sonidos de alarma, pantalla de inicio falsa, bloqueo de la app, detección de intrusión, asunto de correo personalizado y sin anuncios."
       },
       {
         "question": "¿Cuánto cuesta CrookCatcher Pro?",
@@ -200,7 +200,7 @@
       },
       {
         "question": "¿Cómo se mantiene discreto CrookCatcher?",
-        "answer": "Las funciones Pro ayudan a mantener la app oculta: disfrazan el ícono, ocultan las notificaciones hasta que desbloqueas, personalizan el asunto de los correos y protegen la propia app con un patrón."
+        "answer": "Las notificaciones se ocultan hasta que desbloqueas. Con Pro, además, puedes personalizar el asunto de los correos y la propia app se protege con un patrón, para que nadie pueda abrirla ni desactivarla."
       },
       {
         "question": "¿Cómo funciona la detección de intrusión? (Pro)",
@@ -208,7 +208,7 @@
       },
       {
         "question": "¿Puedo personalizar las notificaciones de alerta?",
-        "answer": "Los usuarios Pro pueden personalizar el asunto de los correos, ocultar las notificaciones hasta que se desbloquee el teléfono y mostrar un mensaje personalizado en la pantalla de bloqueo cuando se activa una alerta."
+        "answer": "De forma predeterminada, las notificaciones se ocultan hasta que se desbloquea el teléfono. Los usuarios Pro también pueden personalizar el asunto de los correos y mostrar un mensaje personalizado en la pantalla de bloqueo cuando se activa una alerta."
       },
       {
         "question": "¿CrookCatcher gasta mucha batería?",

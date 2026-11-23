@@ -127,7 +127,7 @@
       },
       {
         "title": "Schwer zu entfernen",
-        "text": "App-Sperre und getarntes Symbol."
+        "text": "Die App-Sperre verhindert, dass jemand sie ausschaltet."
       },
       {
         "title": "Alarm und Sperrbildschirm-Nachricht",
@@ -184,7 +184,7 @@
       },
       {
         "question": "Welche zusätzlichen Funktionen bietet Pro?",
-        "answer": "Pro enthält Video mit Ton, Google-Drive-Sicherung, Fotos mit der Rückkamera, Warnmeldungen auf dem Sperrbildschirm, Alarmtöne, falschen Startbildschirm, App-Sperre, getarntes Symbol, Einbruchserkennung, eigene E-Mail-Betreffs und verborgene Benachrichtigungen. Außerdem entfällt die Werbung."
+        "answer": "Pro enthält Video mit Ton, Google-Drive-Sicherung, Fotos mit der Rückkamera, Warnmeldungen auf dem Sperrbildschirm, Alarmtöne, falschen Startbildschirm, App-Sperre, Einbruchserkennung und eigene E-Mail-Betreffs. Außerdem entfällt die Werbung."
       },
       {
         "question": "Was kostet CrookCatcher Pro?",
@@ -200,7 +200,7 @@
       },
       {
         "question": "Wie bleibt CrookCatcher unauffällig?",
-        "answer": "Mit Pro-Funktionen bleibt die App verborgen: Das App-Symbol wird getarnt, Benachrichtigungen erscheinen erst nach dem Entsperren, E-Mail-Betreffs lassen sich anpassen, und die App selbst ist mit einem Muster gesperrt."
+        "answer": "Benachrichtigungen erscheinen erst nach dem Entsperren. Mit Pro lassen sich außerdem E-Mail-Betreffs anpassen, und CrookCatcher selbst ist mit einem Muster gesperrt, damit niemand es öffnen oder ausschalten kann."
       },
       {
         "question": "Wie funktioniert die Einbruchserkennung? (Pro)",
@@ -208,7 +208,7 @@
       },
       {
         "question": "Kann ich die Warnbenachrichtigungen anpassen?",
-        "answer": "Pro-Nutzer können E-Mail-Betreffs anpassen, Benachrichtigungen bis zum Entsperren des Handys verbergen und bei einer Warnung eine eigene Nachricht auf dem Sperrbildschirm anzeigen."
+        "answer": "Standardmäßig bleiben Benachrichtigungen bis zum Entsperren des Handys verborgen. Pro-Nutzer können außerdem E-Mail-Betreffs anpassen und bei einer Warnung eine eigene Nachricht auf dem Sperrbildschirm anzeigen."
       },
       {
         "question": "Verbraucht CrookCatcher meinen Akku?",

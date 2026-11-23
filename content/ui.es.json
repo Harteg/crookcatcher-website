@@ -95,10 +95,6 @@
         "title": "Bloqueo de la app",
         "description": "Protege el acceso a CrookCatcher con un patrón."
       },
-      "disguiseApp": {
-        "title": "Disfrazar la app",
-        "description": "Cambia el ícono y el nombre de la app para que parezca un explorador de archivos, así los intrusos no sabrán que tienes CrookCatcher instalado."
-      },
       "breakIn": {
         "title": "Detección de intrusión",
         "description": "Toma una foto y envía un correo de alerta si el ladrón adivina la contraseña correcta después de haber fallado."
@@ -106,10 +102,6 @@
       "emailSubject": {
         "title": "Asunto de correo personalizado",
         "description": "Cambia el asunto del correo de alerta para que los ladrones no vean notificaciones que te delaten."
-      },
-      "hideNotifications": {
-        "title": "Ocultar notificaciones",
-        "description": "Muestra las notificaciones de alerta solo después de un desbloqueo correcto. Así el ladrón no sabrá que lo descubriste."
       },
       "noAds": {
         "title": "Sin anuncios",

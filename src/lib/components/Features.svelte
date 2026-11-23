@@ -14,10 +14,8 @@
     { key: 'soundAlarm', inFree: false, inPro: true },
     { key: 'fakeHomeScreen', inFree: false, inPro: true },
     { key: 'appLock', inFree: false, inPro: true },
-    { key: 'disguiseApp', inFree: false, inPro: true },
     { key: 'breakIn', inFree: false, inPro: true },
     { key: 'emailSubject', inFree: false, inPro: true },
-    { key: 'hideNotifications', inFree: false, inPro: true },
     { key: 'noAds', inFree: false, inPro: true, isLast: true }
   ];
 

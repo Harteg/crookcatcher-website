@@ -127,7 +127,7 @@
       },
       {
         "title": "Hard to remove",
-        "text": "App lock and a disguised icon."
+        "text": "App lock stops anyone switching it off."
       },
       {
         "title": "Alarm and lock screen message",
@@ -184,7 +184,7 @@
       },
       {
         "question": "What additional features does Pro offer?",
-        "answer": "Pro includes video with sound, Google Drive backup, back camera photos, lock screen warning messages, alarm sounds, fake home screen, app lock, disguised icon, break-in detection, custom email subjects, hidden notifications, and removes ads."
+        "answer": "Pro includes video with sound, Google Drive backup, back camera photos, lock screen warning messages, alarm sounds, fake home screen, app lock, break-in detection, custom email subjects, and removes ads."
       },
       {
         "question": "How much does CrookCatcher Pro cost?",
@@ -200,7 +200,7 @@
       },
       {
         "question": "How does CrookCatcher stay discreet?",
-        "answer": "Pro features help keep the app hidden by disguising the app icon, hiding notifications until unlock, customizing email subjects, and locking the app itself with a pattern."
+        "answer": "Alert notifications stay hidden until the phone is unlocked. Pro also lets you customize the email subject and locks CrookCatcher itself with a pattern, so nobody can open it or switch it off."
       },
       {
         "question": "How does the break-in detection work? (Pro)",
@@ -208,7 +208,7 @@
       },
       {
         "question": "Can I customize the alert notifications?",
-        "answer": "Pro users can customize email subjects, hide notifications until the phone is unlocked, and display a custom message on the lock screen when an alert is triggered."
+        "answer": "By default, alert notifications stay hidden until the phone is unlocked. Pro users can also customize email subjects and display a custom message on the lock screen when an alert is triggered."
       },
       {
         "question": "Will CrookCatcher drain my battery?",

@@ -95,10 +95,6 @@
         "title": "アプリロック",
         "description": "CrookCatcher をパターンでロックします。"
       },
-      "disguiseApp": {
-        "title": "アプリの偽装",
-        "description": "アプリのアイコンと名前をファイル管理アプリのように変えて、CrookCatcher が入っていることを侵入者に気づかせません。"
-      },
       "breakIn": {
         "title": "不正解除の検出",
         "description": "入力に失敗した人が正しいパスワードを当てた場合も、写真を撮影して通知メールを送ります。"
@@ -106,10 +102,6 @@
       "emailSubject": {
         "title": "メールの件名を変更",
         "description": "通知メールの件名を変えて、泥棒に気づかれるような通知を避けます。"
-      },
-      "hideNotifications": {
-        "title": "通知を隠す",
-        "description": "通知は正しくロック解除されたあとにだけ端末に表示します。これで泥棒は撮影されたことに気づきません。"
       },
       "noAds": {
         "title": "広告なし",

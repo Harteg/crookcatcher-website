@@ -127,7 +127,7 @@
       },
       {
         "title": "Difficile à supprimer",
-        "text": "Verrouillage de l'app et icône déguisée."
+        "text": "Le verrouillage de l'app empêche quiconque de la désactiver."
       },
       {
         "title": "Alarme et message sur l'écran de verrouillage",
@@ -184,7 +184,7 @@
       },
       {
         "question": "Qu'apporte la version Pro en plus ?",
-        "answer": "Pro comprend la vidéo avec le son, la sauvegarde Google Drive, les photos avec la caméra arrière, les messages d'avertissement sur l'écran de verrouillage, les alarmes, le faux écran d'accueil, le verrouillage de l'app, l'icône déguisée, la détection d'intrusion, les objets d'e-mail personnalisés, les notifications masquées, et supprime les publicités."
+        "answer": "Pro comprend la vidéo avec le son, la sauvegarde Google Drive, les photos avec la caméra arrière, les messages d'avertissement sur l'écran de verrouillage, les alarmes, le faux écran d'accueil, le verrouillage de l'app, la détection d'intrusion, les objets d'e-mail personnalisés, et supprime les publicités."
       },
       {
         "question": "Combien coûte CrookCatcher Pro ?",
@@ -200,7 +200,7 @@
       },
       {
         "question": "Comment CrookCatcher reste-t-il discret ?",
-        "answer": "Les fonctionnalités Pro aident à garder l'app cachée : elles déguisent l'icône, masquent les notifications jusqu'au déverrouillage, personnalisent l'objet des e-mails et protègent l'app elle-même par un schéma."
+        "answer": "Les notifications restent masquées jusqu'au déverrouillage. Avec Pro, l'objet des e-mails est aussi personnalisable et l'app elle-même est protégée par un schéma, pour que personne ne puisse l'ouvrir ni la désactiver."
       },
       {
         "question": "Comment fonctionne la détection d'intrusion ? (Pro)",
@@ -208,7 +208,7 @@
       },
       {
         "question": "Puis-je personnaliser les notifications d'alerte ?",
-        "answer": "Les utilisateurs Pro peuvent personnaliser l'objet des e-mails, masquer les notifications jusqu'au déverrouillage du téléphone et afficher un message personnalisé sur l'écran de verrouillage quand une alerte se déclenche."
+        "answer": "Par défaut, les notifications restent masquées jusqu'au déverrouillage du téléphone. Les utilisateurs Pro peuvent aussi personnaliser l'objet des e-mails et afficher un message personnalisé sur l'écran de verrouillage quand une alerte se déclenche."
       },
       {
         "question": "CrookCatcher vide-t-il ma batterie ?",

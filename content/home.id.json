@@ -127,7 +127,7 @@
       },
       {
         "title": "Sulit dihapus",
-        "text": "Kunci aplikasi dan ikon samaran."
+        "text": "Kunci aplikasi mencegah orang lain mematikannya."
       },
       {
         "title": "Alarm dan pesan di layar kunci",
@@ -184,7 +184,7 @@
       },
       {
         "question": "Fitur tambahan apa yang ditawarkan Pro?",
-        "answer": "Pro mencakup video dengan suara, cadangan Google Drive, foto kamera belakang, pesan peringatan di layar kunci, suara alarm, layar beranda palsu, kunci aplikasi, ikon samaran, deteksi pembobolan, subjek email khusus, notifikasi tersembunyi, dan menghapus iklan."
+        "answer": "Pro mencakup video dengan suara, cadangan Google Drive, foto kamera belakang, pesan peringatan di layar kunci, suara alarm, layar beranda palsu, kunci aplikasi, deteksi pembobolan, subjek email khusus, dan menghapus iklan."
       },
       {
         "question": "Berapa harga CrookCatcher Pro?",
@@ -200,7 +200,7 @@
       },
       {
         "question": "Bagaimana CrookCatcher tetap tidak mencolok?",
-        "answer": "Fitur Pro membantu menyembunyikan aplikasi dengan menyamarkan ikon aplikasi, menyembunyikan notifikasi sampai ponsel dibuka, menyesuaikan subjek email, dan mengunci aplikasi itu sendiri dengan pola."
+        "answer": "Notifikasi disembunyikan sampai ponsel dibuka. Dengan Pro, subjek email juga bisa disesuaikan, dan aplikasi itu sendiri dikunci dengan pola, sehingga tidak ada yang bisa membuka atau mematikannya."
       },
       {
         "question": "Bagaimana deteksi pembobolan bekerja? (Pro)",
@@ -208,7 +208,7 @@
       },
       {
         "question": "Bisakah aku menyesuaikan notifikasi peringatan?",
-        "answer": "Pengguna Pro bisa menyesuaikan subjek email, menyembunyikan notifikasi sampai ponsel dibuka, dan menampilkan pesan khusus di layar kunci saat peringatan dipicu."
+        "answer": "Secara bawaan, notifikasi disembunyikan sampai ponsel dibuka. Pengguna Pro juga bisa menyesuaikan subjek email dan menampilkan pesan khusus di layar kunci saat peringatan dipicu."
       },
       {
         "question": "Apakah CrookCatcher menguras baterai?",

@@ -127,7 +127,7 @@
       },
       {
         "title": "Difícil de remover",
-        "text": "Bloqueio do app e ícone disfarçado."
+        "text": "O bloqueio do app impede que alguém o desative."
       },
       {
         "title": "Alarme e mensagem na tela de bloqueio",
@@ -184,7 +184,7 @@
       },
       {
         "question": "Quais recursos extras o Pro oferece?",
-        "answer": "O Pro inclui vídeo com som, backup no Google Drive, fotos com a câmera traseira, mensagens de aviso na tela de bloqueio, alarmes, tela inicial falsa, bloqueio do app, ícone disfarçado, detecção de invasão, assuntos de e-mail personalizados, notificações ocultas e remove os anúncios."
+        "answer": "O Pro inclui vídeo com som, backup no Google Drive, fotos com a câmera traseira, mensagens de aviso na tela de bloqueio, alarmes, tela inicial falsa, bloqueio do app, detecção de invasão, assuntos de e-mail personalizados e remove os anúncios."
       },
       {
         "question": "Quanto custa o CrookCatcher Pro?",
@@ -200,7 +200,7 @@
       },
       {
         "question": "Como o CrookCatcher fica discreto?",
-        "answer": "Os recursos do Pro ajudam a manter o app escondido: disfarçam o ícone, ocultam as notificações até o desbloqueio, personalizam o assunto dos e-mails e protegem o próprio app com um padrão."
+        "answer": "As notificações ficam ocultas até o desbloqueio. Com o Pro, você também pode personalizar o assunto dos e-mails e o próprio app fica protegido com um padrão, para que ninguém consiga abri-lo nem desativá-lo."
       },
       {
         "question": "Como funciona a detecção de invasão? (Pro)",
@@ -208,7 +208,7 @@
       },
       {
         "question": "Posso personalizar as notificações de alerta?",
-        "answer": "Usuários Pro podem personalizar o assunto dos e-mails, ocultar as notificações até o celular ser desbloqueado e mostrar uma mensagem personalizada na tela de bloqueio quando um alerta é disparado."
+        "answer": "Por padrão, as notificações ficam ocultas até o celular ser desbloqueado. Usuários Pro também podem personalizar o assunto dos e-mails e mostrar uma mensagem personalizada na tela de bloqueio quando um alerta é disparado."
       },
       {
         "question": "O CrookCatcher gasta muita bateria?",

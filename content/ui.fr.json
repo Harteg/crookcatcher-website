@@ -95,10 +95,6 @@
         "title": "Verrouillage de l'app",
         "description": "Protège l'accès à CrookCatcher avec un schéma."
       },
-      "disguiseApp": {
-        "title": "Déguiser l'app",
-        "description": "Change l'icône et le nom de l'app pour qu'elle ressemble à un gestionnaire de fichiers, afin que les intrus ne découvrent pas que CrookCatcher est installé."
-      },
       "breakIn": {
         "title": "Détection d'intrusion",
         "description": "Prend une photo et envoie un e-mail d'alerte si le voleur trouve le bon mot de passe après s'être trompé."
@@ -106,10 +102,6 @@
       "emailSubject": {
         "title": "Objet d'e-mail personnalisé",
         "description": "Modifie l'objet de l'e-mail d'alerte pour que le voleur ne voie pas de notification révélatrice."
-      },
-      "hideNotifications": {
-        "title": "Masquer les notifications",
-        "description": "N'affiche les notifications d'alerte sur l'appareil qu'après un déverrouillage réussi. Ainsi, le voleur ne sait pas qu'il a été pris."
       },
       "noAds": {
         "title": "Sans publicité",

@@ -95,10 +95,6 @@
         "title": "Kunci aplikasi",
         "description": "Kunci akses ke CrookCatcher dengan pola."
       },
-      "disguiseApp": {
-        "title": "Samarkan aplikasi",
-        "description": "Ubah ikon dan nama aplikasi agar terlihat seperti aplikasi pengelola file, sehingga penyusup tidak tahu CrookCatcher terpasang."
-      },
       "breakIn": {
         "title": "Deteksi pembobolan",
         "description": "Ambil foto dan kirim email peringatan jika pencuri berhasil menebak sandi yang benar setelah beberapa kali gagal."
@@ -106,10 +102,6 @@
       "emailSubject": {
         "title": "Subjek email khusus",
         "description": "Ubah subjek email peringatan agar pencuri tidak melihat notifikasi yang mencurigakan."
-      },
-      "hideNotifications": {
-        "title": "Sembunyikan notifikasi",
-        "description": "Tampilkan notifikasi peringatan di perangkat hanya setelah berhasil dibuka. Dengan begitu pencuri tidak tahu bahwa mereka tertangkap."
       },
       "noAds": {
         "title": "Tanpa iklan",
