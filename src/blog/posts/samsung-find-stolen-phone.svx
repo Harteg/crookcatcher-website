@@ -74,9 +74,9 @@ A thief's first move is usually to switch the phone off or turn on airplane mode
 
 ## How to get a photo of the person who has your phone
 
-A location on a map is useful. A photo of the person holding your phone, taken at that location, is what the police can act on.
+A location on a map is useful. A photo of the person holding your phone, taken at that location, gives the police far more to go on.
 
-That's what CrookCatcher adds. Almost everyone who picks up a locked phone tries a few PINs. Each time an unlock attempt fails, CrookCatcher takes a photo with the front camera, records the GPS location and an approximate address, and emails both to you. The email is in your inbox even if the phone is switched off a minute later. If the phone has no connection at that moment, the email goes out as soon as it reconnects.
+That's what CrookCatcher adds. Someone who picks up a locked phone usually tries a PIN or two. Each time an unlock attempt fails, CrookCatcher takes a photo with the front camera, records the GPS location and an approximate address, and emails both to you. The email is in your inbox even if the phone is switched off a minute later. If the phone has no connection at that moment, the email goes out as soon as it reconnects.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/hero-alert-800.webp" srcset="/images/hero-alert-480.webp 480w, /images/hero-alert-800.webp 800w, /images/hero-alert-990.webp 990w" sizes="(min-width: 600px) 540px, 100vw" width="990" height="1024" loading="lazy" alt="CrookCatcher email alert with the intruder's photo, the time of the attempt and a map of the location" />

@@ -51,7 +51,7 @@ Das Vertrauliche Profil braucht Android 15 oder höher, und manche Hersteller ha
 
 ### Googles eigene App-Sperre ist unterwegs
 
-Eine echte App-Sperre, bei der die App an ihrem Platz bleibt, beim Öffnen aber PIN oder Fingerabdruck verlangt, wird auf Pixel-Handys getestet. Android Authority hat sie im August 2026 in Androids Testversionen gefunden, unter `Settings > Security & privacy > App lock`. Im November 2026 ist sie nicht in der regulären Version von Android 17 enthalten, und Google hat keine Hilfeseite dazu veröffentlicht. Hat dein Pixel dieses Menü nach einem Update, ist das die einfachste Möglichkeit.
+Eine echte App-Sperre, bei der die App an ihrem Platz bleibt, beim Öffnen aber PIN oder Fingerabdruck verlangt, wird auf Pixel-Handys getestet. Android Authority hat sie im August 2026 in Androids Testversionen gefunden, unter `Settings > Security & privacy > App lock`. Google hat nicht gesagt, wann sie auf normale Handys kommt, und keine Hilfeseite dazu veröffentlicht. Hat dein Pixel dieses Menü nach einem Update, ist das die einfachste Möglichkeit.
 
 ## Xiaomi, Redmi und POCO: App-Sperre
 
@@ -92,11 +92,11 @@ App-Sperren aus Google Play sind ein weiterer Weg. Sieh vor der Installation nac
 - **Es schützt nur, was du hineinlegst.** Alles andere auf dem Handy ist offen für jeden, der am Sperrbildschirm vorbeikommt.
 - **Sperren, die deine Displaysperre nutzen, halten niemanden auf, der deine PIN kennt.** Das Vertrauliche Profil mit der Gerätesperre und der Gesperrte Ordner in Fotos öffnen sich für jeden, der sie kennt.
 
-Eine App-Sperre ist eine zweite Tür. Die erste Tür bleibt dein Sperrbildschirm, und dort hilft es zu wissen, wer es versucht.
+Eine App-Sperre schützt einzelne Apps. Der Sperrbildschirm schützt das ganze Handy, und dort hilft es zu wissen, wer es versucht.
 
 ## So siehst du, wer in dein Handy will
 
-CrookCatcher sperrt deine anderen Apps nicht. Es überwacht den Sperrbildschirm. Gibt jemand eine falsche PIN, ein falsches Muster oder Passwort ein, macht es ein Foto mit der Frontkamera, erfasst den GPS-Standort und schickt dir beides per E-Mail.
+CrookCatcher überwacht den Sperrbildschirm, die Tür zu allem anderen auf dem Handy. Gibt jemand eine falsche PIN, ein falsches Muster oder Passwort ein, macht es ein Foto mit der Frontkamera, erfasst den GPS-Standort und schickt dir beides per E-Mail.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-de.webp" width="990" height="1024" loading="lazy" alt="CrookCatcher-Warn-E-Mail mit dem Foto des Eindringlings, der Uhrzeit des Versuchs und einer Karte mit dem Standort" />

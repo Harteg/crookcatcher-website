@@ -74,9 +74,9 @@ La prima mossa di un ladro di solito è spegnere il telefono o attivare la modal
 
 ## Come ottenere una foto di chi ha il tuo telefono
 
-Una posizione su una mappa è utile. Una foto della persona che ha in mano il tuo telefono, scattata in quel punto, è ciò su cui la polizia può lavorare.
+Una posizione su una mappa è utile. Una foto della persona che ha in mano il tuo telefono, scattata in quel punto, dà alla polizia molto di più su cui lavorare.
 
-È quello che aggiunge CrookCatcher. Quasi tutti quelli che prendono in mano un telefono bloccato provano qualche PIN. A ogni tentativo di sblocco fallito, CrookCatcher scatta una foto con la fotocamera frontale, registra la posizione GPS e un indirizzo approssimativo e ti invia tutto via email. L'email resta nella tua casella anche se il telefono viene spento un minuto dopo. Se in quel momento il telefono non ha connessione, l'email parte appena si riconnette.
+È quello che aggiunge CrookCatcher. Chi prende in mano un telefono bloccato di solito prova un PIN o due. A ogni tentativo di sblocco fallito, CrookCatcher scatta una foto con la fotocamera frontale, registra la posizione GPS e un indirizzo approssimativo e ti invia tutto via email. L'email resta nella tua casella anche se il telefono viene spento un minuto dopo. Se in quel momento il telefono non ha connessione, l'email parte appena si riconnette.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-it.webp" width="990" height="1024" loading="lazy" alt="Email di avviso di CrookCatcher con la foto dell'intruso, l'ora del tentativo e una mappa della posizione" />

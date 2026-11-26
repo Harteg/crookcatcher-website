@@ -51,7 +51,7 @@ El Espacio privado necesita Android 15 o posterior, y algunos fabricantes lo des
 
 ### El bloqueo de aplicaciones de Google viene en camino
 
-Un bloqueo de aplicaciones de verdad, en el que la app se queda en su lugar pero pide tu PIN o tu huella al abrirla, está en pruebas en los teléfonos Pixel. El sitio Android Authority lo encontró en las versiones de prueba de Android en agosto de 2026, en `Settings > Security & privacy > App lock`. A noviembre de 2026 no está en la versión normal de Android 17, y Google no ha publicado ninguna página de ayuda sobre él. Si tu Pixel muestra ese menú después de una actualización, es la opción más simple.
+Un bloqueo de aplicaciones de verdad, en el que la app se queda en su lugar pero pide tu PIN o tu huella al abrirla, está en pruebas en los teléfonos Pixel. El sitio Android Authority lo encontró en las versiones de prueba de Android en agosto de 2026, en `Settings > Security & privacy > App lock`. Google no ha dicho cuándo llegará a los teléfonos normales y no ha publicado ninguna página de ayuda sobre él. Si tu Pixel muestra ese menú después de una actualización, es la opción más simple.
 
 ## Xiaomi, Redmi y POCO: bloqueo de aplicaciones
 
@@ -92,11 +92,11 @@ Las apps de bloqueo de aplicaciones de Google Play son otro camino. Antes de ins
 - **Solo cubre lo que pones ahí.** Todo lo demás del teléfono queda abierto para quien pase la pantalla de bloqueo.
 - **Los bloqueos que usan tu bloqueo de pantalla no detienen a quien sabe tu PIN.** El Espacio privado con el bloqueo del dispositivo y la Carpeta privada de Fotos se abren para quien lo sepa.
 
-El bloqueo de aplicaciones es una segunda puerta. La primera sigue siendo tu pantalla de bloqueo, y ahí es donde sirve saber quién lo está intentando.
+El bloqueo de aplicaciones protege algunas apps. La pantalla de bloqueo protege todo el teléfono, y ahí es donde sirve saber quién lo está intentando.
 
 ## Cómo ver quién intenta entrar a tu teléfono
 
-CrookCatcher no bloquea tus otras apps. Vigila la pantalla de bloqueo. Cuando alguien ingresa un PIN, patrón o contraseña incorrectos, toma una foto con la cámara frontal, registra la ubicación GPS y te envía ambas cosas por correo.
+CrookCatcher vigila la pantalla de bloqueo, la puerta de entrada a todo lo demás del teléfono. Cuando alguien ingresa un PIN, patrón o contraseña incorrectos, toma una foto con la cámara frontal, registra la ubicación GPS y te envía ambas cosas por correo.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-es.webp" width="990" height="1024" loading="lazy" alt="Correo de alerta de CrookCatcher con la foto del intruso, la hora del intento y un mapa con la ubicación" />

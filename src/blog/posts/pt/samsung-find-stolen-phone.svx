@@ -74,9 +74,9 @@ A primeira coisa que um ladrão faz costuma ser desligar o celular ou ativar o m
 
 ## Como conseguir uma foto de quem está com seu celular
 
-Uma localização no mapa ajuda. Uma foto da pessoa segurando seu celular, tirada naquele local, é o que a polícia consegue usar.
+Uma localização no mapa ajuda. Uma foto da pessoa segurando seu celular, tirada naquele local, dá à polícia muito mais com o que trabalhar.
 
-É isso que o CrookCatcher acrescenta. Quase todo mundo que pega um celular bloqueado tenta alguns PINs. A cada tentativa de desbloqueio com falha, o CrookCatcher tira uma foto com a câmera frontal, registra a localização por GPS e um endereço aproximado e envia tudo para o seu e-mail. O e-mail fica na sua caixa de entrada mesmo que o celular seja desligado um minuto depois. Se o celular estiver sem conexão nesse momento, o e-mail sai assim que ele se reconectar.
+É isso que o CrookCatcher acrescenta. Quem pega um celular bloqueado costuma tentar um ou dois PINs. A cada tentativa de desbloqueio com falha, o CrookCatcher tira uma foto com a câmera frontal, registra a localização por GPS e um endereço aproximado e envia tudo para o seu e-mail. O e-mail fica na sua caixa de entrada mesmo que o celular seja desligado um minuto depois. Se o celular estiver sem conexão nesse momento, o e-mail sai assim que ele se reconectar.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-pt.webp" width="990" height="1051" loading="lazy" alt="E-mail de alerta do CrookCatcher com a foto do intruso, o horário da tentativa e um mapa com a localização" />

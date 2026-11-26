@@ -51,7 +51,7 @@ Ruang privasi membutuhkan Android 15 atau yang lebih baru, dan beberapa produsen
 
 ### Kunci aplikasi dari Google sedang dalam perjalanan
 
-Kunci aplikasi yang sebenarnya, yaitu aplikasi tetap di tempatnya tetapi meminta PIN atau sidik jari saat dibuka, sedang diuji di ponsel Pixel. Android Authority menemukannya di versi uji Android pada Agustus 2026, di `Settings > Security & privacy > App lock`. Per November 2026, fitur itu belum ada di versi Android 17 biasa, dan Google belum menerbitkan halaman bantuannya. Kalau Pixel-mu punya menu itu setelah pembaruan, itulah pilihan paling sederhana.
+Kunci aplikasi yang sebenarnya, yaitu aplikasi tetap di tempatnya tetapi meminta PIN atau sidik jari saat dibuka, sedang diuji di ponsel Pixel. Android Authority menemukannya di versi uji Android pada Agustus 2026, di `Settings > Security & privacy > App lock`. Google belum mengumumkan kapan fitur itu hadir di ponsel biasa, dan belum menerbitkan halaman bantuannya. Kalau Pixel-mu punya menu itu setelah pembaruan, itulah pilihan paling sederhana.
 
 ## Xiaomi, Redmi, dan POCO: kunci aplikasi
 
@@ -92,11 +92,11 @@ Aplikasi pengunci dari Google Play adalah jalan lain. Sebelum memasangnya, lihat
 - **Hanya melindungi yang kamu masukkan.** Semua yang lain di ponsel terbuka bagi siapa pun yang melewati layar kunci.
 - **Kunci yang memakai kunci layarmu tidak menghentikan orang yang tahu PIN-mu.** Ruang privasi dengan kunci perangkat dan Folder Terkunci di Foto terbuka bagi siapa pun yang mengetahuinya.
 
-Kunci aplikasi adalah pintu kedua. Pintu pertamanya tetap layar kunci, dan di sanalah berguna untuk tahu siapa yang mencoba.
+Kunci aplikasi melindungi beberapa aplikasi. Layar kunci melindungi seluruh ponsel, dan di sanalah berguna untuk tahu siapa yang mencoba.
 
 ## Cara melihat siapa yang mencoba masuk ke ponselmu
 
-CrookCatcher tidak mengunci aplikasimu yang lain. CrookCatcher mengawasi layar kunci. Saat seseorang memasukkan PIN, pola, atau sandi yang salah, aplikasi ini mengambil foto dengan kamera depan, mencatat lokasi GPS, dan mengirim keduanya ke emailmu.
+CrookCatcher mengawasi layar kunci, pintu menuju semua isi ponsel. Saat seseorang memasukkan PIN, pola, atau sandi yang salah, aplikasi ini mengambil foto dengan kamera depan, mencatat lokasi GPS, dan mengirim keduanya ke emailmu.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-id.webp" width="990" height="1024" loading="lazy" alt="Email peringatan CrookCatcher dengan foto penyusup, waktu percobaan, dan peta lokasi" />

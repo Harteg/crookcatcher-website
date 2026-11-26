@@ -1,11 +1,11 @@
 ---
 title: "Qui a touché à mon téléphone ? Comment le savoir sur Android (2026)"
-subtitle: "Ce qu'Android montre de lui-même, ce qu'enregistre l'application WTMP (Who Touched My Phone), et comment recevoir la photo par e-mail"
-dateUpdated: '2026-11-14'
-datePublished: '2026-11-14'
-description: "Android ne peut pas vous dire qui a touché à votre téléphone. Pour le savoir, il faut une application qui photographie la personne sur l'écran de verrouillage. Voici ce qu'enregistre WTMP (Who Touched My Phone), en quoi CrookCatcher est différent, et lequel convient à votre situation."
+subtitle: "Ce qu'Android montre de lui-même, et comment obtenir une photo de quiconque essaie d'entrer dans votre téléphone"
+dateUpdated: '2026-11-26'
+datePublished: '2026-11-26'
+description: "Android ne peut pas vous dire qui a touché à votre téléphone. Il ne garde aucune trace des personnes qui ont essayé de le déverrouiller et ne prend jamais de photo. Pour le savoir, installez une application qui photographie quiconque se trompe de code et vous envoie la photo par e-mail avec la position. Voici ce qu'Android montre, et comment la configurer."
 image: '/images/blog/who-touched-my-phone-header-fr.png'
-imageAlt: "Qui a touché à mon téléphone ? Android : aucune trace, aucune photo. WTMP : un rapport dans l'application. CrookCatcher : une photo par e-mail."
+imageAlt: "Qui a touché à mon téléphone ? Android ne garde aucune trace et ne prend aucune photo. CrookCatcher photographie quiconque se trompe de code et vous l'envoie par e-mail avec la position."
 published: false
 ---
 
@@ -13,98 +13,80 @@ published: false
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**Android ne peut pas vous dire qui a touché à votre téléphone. Il ne garde aucune liste des personnes qui l'ont déverrouillé et ne prend jamais de photo.** Pour le savoir, il faut une application qui utilise la caméra frontale quand quelqu'un déverrouille le téléphone ou se trompe de code. La plus connue est WTMP, pour « Who Touched My Phone » (qui a touché à mon téléphone), qui enregistre à chaque fois un rapport sur le téléphone. CrookCatcher prend une photo quand quelqu'un saisit un mauvais code et vous l'envoie par e-mail avec la position. Le bon choix dépend de ce que vous voulez : un historique à consulter plus tard sur le téléphone, ou une photo et une position envoyées pendant que le téléphone n'est plus entre vos mains.
-
-Nous éditons CrookCatcher, gardez-le en tête en lisant. Ce qui est dit de WTMP vient de sa propre fiche Google Play, telle qu'elle était le 14 novembre 2026. Ce guide parle de la protection de votre propre téléphone.
+**Android ne peut pas vous dire qui a touché à votre téléphone. Il ne garde aucune liste des personnes qui ont essayé de le déverrouiller et ne prend jamais de photo.** Pour le savoir, il faut une application qui utilise la caméra frontale sur l'écran de verrouillage. CrookCatcher prend une photo quand quelqu'un saisit un mauvais code PIN, schéma ou mot de passe, et vous l'envoie par e-mail avec la position : vous la voyez même quand le téléphone n'est pas avec vous. Elle doit être installée avant, c'est donc la prochaine tentative que vous attrapez.
 
 ## Ce qu'Android montre de lui-même
 
-Pas grand-chose. Quand quelqu'un saisit un mauvais code, Android le refuse et, après plusieurs essais, impose une attente. Il n'enregistre les tentatives nulle part où vous pourriez les consulter, et il n'utilise pas la caméra. Voir [ce qu'Android fait des tentatives de déverrouillage ratées](/fr/blog/failed-unlock-attempts-android).
+Pas grand-chose. Quand quelqu'un saisit un mauvais code, Android le refuse et, après plusieurs essais, impose une attente. Il n'enregistre les tentatives nulle part où vous pourriez les consulter, et il n'utilise pas la caméra. Voici [ce que fait exactement Android des tentatives de déverrouillage ratées](/fr/blog/failed-unlock-attempts-android).
 
 Si quelqu'un est entré, il reste des traces : le Bien-être numérique (Digital Wellbeing) compte le nombre de déverrouillages et les applications ouvertes, et l'historique du navigateur et l'activité de votre compte Google montrent ce qui a été fait. Rien de tout cela ne montre qui c'était.
 
-## Ce que fait l'application WTMP
+## Comment obtenir une photo de la personne qui a touché à votre téléphone
 
-WTMP — Who touched my phone? est édité par Mindfulness Devs. L'application compte plus de 10 millions de téléchargements, et sa fiche a été mise à jour pour la dernière fois en octobre 2026. Voici comment la fiche la décrit :
+Quelqu'un qui prend un téléphone qui n'est pas le sien essaie généralement un code ou deux. CrookCatcher réagit à ce moment-là. À chaque tentative de déverrouillage ratée, il :
 
-1. Vous ouvrez l'application, appuyez sur le bouton et verrouillez votre téléphone.
-2. Quand quelqu'un déverrouille le téléphone, ou essaie, l'application commence un rapport : une photo de la caméra frontale et la liste des applications ouvertes.
-3. Quand l'écran s'éteint, le rapport est enregistré.
-4. Vous lisez les rapports dans l'application et pouvez les synchroniser avec le cloud.
-
-L'application utilise l'autorisation **Administrateur de l'appareil** d'Android pour repérer les tentatives de déverrouillage erronées. Elle est gratuite à installer, avec des achats intégrés.
-
-Deux points de cette description comptent :
-
-- **Elle enregistre aussi les déverrouillages réussis.** Sa fiche indique que chaque rapport contient une photo et les applications ouvertes, même si la personne connaissait votre code.
-- **Les rapports restent dans l'application.** La fiche ne mentionne ni alerte par e-mail ni position. Vous voyez ce qui s'est passé une fois le téléphone revenu entre vos mains.
-
-## Ce que CrookCatcher fait différemment
-
-CrookCatcher réagit quand quelqu'un saisit un code PIN, un schéma ou un mot de passe incorrect. Il prend une photo avec la caméra frontale, enregistre la position GPS et une adresse approximative, et vous envoie le tout par e-mail. Vous n'avez pas besoin du téléphone pour le voir.
+- prend une photo avec la caméra frontale de la personne qui tient le téléphone ;
+- enregistre la position GPS et une adresse approximative ;
+- vous envoie la photo et la position par e-mail. Si le téléphone est connecté, l'e-mail part tout de suite ; sinon, dès qu'il se reconnecte.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-fr.webp" width="990" height="1101" loading="lazy" alt="E-mail d'alerte CrookCatcher avec la photo de l'intrus, l'heure de la tentative et une carte avec la position" />
   <figcaption>L'e-mail envoyé par CrookCatcher après une tentative de déverrouillage ratée.</figcaption>
 </figure>
 
-La photo, la position et l'e-mail sont gratuits. CrookCatcher Pro ajoute la **détection d'intrusion**, qui photographie aussi quelqu'un qui se trompe de code puis trouve le bon, ainsi que la vidéo avec le son et la sauvegarde sur Google Drive. CrookCatcher est sur Google Play depuis 2014 et prend environ 1,2 million de photos d'intrus par jour.
+Chaque tentative est aussi enregistrée dans l'application, avec son heure et sa position. La photo, la position et l'e-mail sont gratuits.
 
-Ce qu'il ne fait pas : il ne photographie pas quelqu'un qui saisit le bon code du premier coup, et il ne liste pas les applications ouvertes.
+**CrookCatcher Pro** ajoute la **détection d'intrusion**, qui prend aussi une photo quand quelqu'un se trompe de code puis trouve le bon, ainsi que la vidéo avec le son, une photo de la caméra arrière, la sauvegarde sur Google Drive, une alarme et un message sur l'écran de verrouillage.
+
+CrookCatcher est sur Google Play depuis 2014, a été téléchargé plus de 12 millions de fois et prend environ 1,2 million de photos d'intrus par jour. La configuration prend quelques minutes et ne demande aucun compte : les étapes sont dans [comment savoir qui a essayé de déverrouiller votre téléphone Android](/fr/blog/see-who-tried-to-unlock-your-phone).
 
 <AppCta position="guide_mid" />
 
-## WTMP et CrookCatcher comparés
+## Si vous pensez que quelqu'un connaît votre code
 
-| | WTMP | CrookCatcher |
-| --- | --- | --- |
-| Photo après un mauvais code | Oui | Oui |
-| Photo après un déverrouillage réussi | Oui | Seulement après une erreur (Pro) |
-| Liste des applications ouvertes | Oui | Non |
-| Alerte par e-mail avec la photo | Non mentionné | Oui |
-| Position GPS | Non mentionné | Oui |
-| Où vous le voyez | Dans l'application, synchronisation cloud en option | Dans l'application et dans vos e-mails |
-| Prix | Gratuit, achats intégrés | Gratuit, achats intégrés |
+Une application photo attrape ceux qui doivent deviner. Quelqu'un qui connaît déjà votre code n'en a pas besoin. Donc :
 
-« Non mentionné » signifie que la fiche Google Play de l'application ne décrit pas la fonction.
+- **Changez votre code PIN, schéma ou mot de passe.** Sur un Pixel, c'est dans `Paramètres > Sécurité et confidentialité > Déverrouillage de l'appareil > Verrouillage de l'écran` ; sur les autres téléphones, recherchez « Verrouillage de l'écran » dans les Paramètres. Choisissez-en un qui n'est ni votre date de naissance ni un schéma facile.
+- **Vérifiez vos empreintes et vos visages.** Dans les mêmes réglages, assurez-vous que seuls vos propres empreintes et votre visage sont enregistrés.
+- **Gardez CrookCatcher actif.** Dès que l'ancien code ne fonctionne plus, quiconque l'essaie est photographié. Avec la détection d'intrusion, vous recevez aussi une photo si la personne devine ensuite le nouveau.
 
-## Laquelle choisir ?
+## Autres applications portant ce nom
 
-- **Quelqu'un d'autre connaît peut-être votre code :** changez-le d'abord, pour qu'il ne fonctionne plus pour cette personne. Si vous voulez aussi un historique des déverrouillages réussis sur le téléphone, la fiche de WTMP indique qu'il le fait.
-- **Vous pensez au vol, ou à un téléphone oublié quelque part :** CrookCatcher, parce que la photo et la position arrivent dans vos e-mails pendant que le téléphone est loin.
-- **Quelqu'un essaie sans cesse de deviner votre code :** les deux conviennent. CrookCatcher vous prévient tout de suite par e-mail ; WTMP vous le montre à la prochaine ouverture de l'application.
+L'application la plus connue appelée « Who Touched My Phone » (qui a touché à mon téléphone) est WTMP, éditée par Mindfulness Devs. Sa fiche Google Play décrit un rapport enregistré dans l'application chaque fois que le téléphone est déverrouillé ou que quelqu'un essaie, avec une photo de la caméra frontale et les applications ouvertes. Vous lisez les rapports sur le téléphone.
 
-Quel que soit votre choix, testez : verrouillez votre téléphone, saisissez exprès un mauvais code, déverrouillez et vérifiez que votre propre photo est bien là. Refaites le test une semaine plus tard, car certains téléphones arrêtent les applications en arrière-plan au bout de quelques jours.
+## Testez
+
+Quelle que soit l'application, testez-la : verrouillez votre téléphone, saisissez exprès un mauvais code, déverrouillez et vérifiez que votre propre photo est bien là. Refaites le test une semaine plus tard, car certains téléphones arrêtent les applications en arrière-plan au bout de quelques jours.
 
 ## Questions fréquentes
 
 ### Q : Android peut-il montrer qui a touché à mon téléphone ?
-R : Non. Android n'a aucun journal des personnes qui ont déverrouillé le téléphone et ne prend jamais de photo. Le Bien-être numérique indique combien de fois le téléphone a été déverrouillé, mais pas par qui.
+R : Non. Android n'a aucun journal des personnes qui ont essayé de déverrouiller le téléphone et ne prend jamais de photo. Le Bien-être numérique indique combien de fois le téléphone a été déverrouillé, mais pas par qui.
 
-### Q : Comment savoir si quelqu'un a utilisé mon téléphone ?
-R : Regardez dans le Bien-être numérique s'il y a des déverrouillages qui ne sont pas les vôtres. Pour savoir qui c'était, installez à l'avance l'une de ces applications, afin que la prochaine tentative soit photographiée.
+### Q : Comment savoir si quelqu'un a touché à mon téléphone pendant que je ne le voyais pas ?
+R : Regardez ensuite dans le Bien-être numérique s'il y a des déverrouillages qui ne sont pas les vôtres. Pour avoir la preuve de qui c'était, installez CrookCatcher à l'avance, afin que le prochain mauvais code soit photographié.
 
-### Q : L'application Who Touched My Phone est-elle gratuite ?
-R : WTMP est gratuit à installer, et sa fiche Google Play indique des achats intégrés. CrookCatcher est gratuit à installer lui aussi ; la photo, la position et l'alerte par e-mail font partie de la version gratuite.
+### Q : Existe-t-il une application gratuite qui montre qui a touché à mon téléphone ?
+R : Oui. La photo, la position et l'alerte par e-mail de CrookCatcher sont gratuites. Pro ajoute la détection d'intrusion, la vidéo avec le son et la sauvegarde sur Google Drive.
 
-### Q : WTMP est-elle une application sûre ?
-R : Au 14 novembre 2026, sa section Sécurité des données sur Google Play indiquait qu'aucune donnée n'était collectée ni partagée avec des tiers. Comme toutes les applications de ce type, elle a besoin de l'autorisation Administrateur de l'appareil, à désactiver avant de pouvoir la désinstaller.
+### Q : Est-ce que ça fonctionne avec l'empreinte ou la reconnaissance faciale ?
+R : Oui, vous pouvez continuer à utiliser les deux. CrookCatcher réagit à un mauvais code PIN, schéma ou mot de passe ; un échec d'empreinte ou de visage ne déclenche pas de photo.
 
-### Q : Ces applications fonctionnent-elles avec l'empreinte ou la reconnaissance faciale ?
-R : Vous pouvez continuer à utiliser les deux. CrookCatcher réagit à un code PIN, un schéma ou un mot de passe incorrect ; un échec d'empreinte ou de visage ne déclenche pas de photo. La fiche de WTMP indique qu'il enregistre quand le téléphone est déverrouillé ou qu'un déverrouillage est tenté.
+### Q : Puis-je savoir qui a touché à mon téléphone si la personne connaissait mon code ?
+R : Pas avec une photo, sauf si elle s'est d'abord trompée : dans ce cas, la détection d'intrusion de CrookCatcher Pro la photographie quand elle entre. Changez votre code, pour que quiconque essaie l'ancien soit pris.
 
 ### Q : Pourquoi l'application n'a-t-elle pas pris de photo ?
 R : Le plus souvent, l'économiseur de batterie du téléphone a arrêté l'application en arrière-plan, ou le téléphone venait de redémarrer. Après un redémarrage, Android ne laisse les applications utiliser la caméra qu'une fois le téléphone déverrouillé une première fois.
 
 ## Sources
 
-- Fiche Google Play de [WTMP — Who touched my phone?](https://play.google.com/store/apps/details?id=com.wtmp.svdsoftware), telle qu'affichée dans la boutique américaine le 14 novembre 2026
 - Android Developers : [DeviceAdminReceiver](https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver) (comment les applications sont informées des tentatives de déverrouillage ratées)
+- Fiche Google Play de [WTMP — Who touched my phone?](https://play.google.com/store/apps/details?id=com.wtmp.svdsoftware), telle qu'affichée dans la boutique américaine le 26 novembre 2026
 
 ## Guides associés
 
 - [Comment savoir qui a essayé de déverrouiller votre téléphone (et obtenir sa photo)](/fr/blog/see-who-tried-to-unlock-your-phone)
 - [Peut-on voir les tentatives de déverrouillage ratées sur Android ?](/fr/blog/failed-unlock-attempts-android)
-- [Qui a essayé de déverrouiller votre Samsung ?](/fr/blog/samsung-who-tried-to-unlock)
+- [Trop de tentatives de déverrouillage sur Samsung : qui a essayé ?](/fr/blog/samsung-who-tried-to-unlock)
 
 <AppCta position="guide_end" />

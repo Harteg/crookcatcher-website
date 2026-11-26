@@ -74,9 +74,9 @@ Hal pertama yang biasanya dilakukan pencuri adalah mematikan ponsel atau menyala
 
 ## Cara mendapatkan foto orang yang memegang ponselmu
 
-Lokasi di peta itu berguna. Foto orang yang memegang ponselmu, yang diambil di lokasi itu, adalah yang bisa ditindaklanjuti polisi.
+Lokasi di peta itu berguna. Foto orang yang memegang ponselmu, yang diambil di lokasi itu, memberi polisi jauh lebih banyak petunjuk.
 
-Itulah yang ditambahkan CrookCatcher. Hampir semua orang yang mengambil ponsel terkunci akan mencoba beberapa PIN. Setiap kali percobaan buka kunci gagal, CrookCatcher mengambil foto dengan kamera depan, mencatat lokasi GPS dan perkiraan alamat, lalu mengirim keduanya ke emailmu. Email itu ada di kotak masukmu meskipun ponsel dimatikan semenit kemudian. Kalau saat itu ponsel tidak terhubung ke internet, email dikirim begitu ponsel tersambung lagi.
+Itulah yang ditambahkan CrookCatcher. Orang yang mengambil ponsel terkunci biasanya mencoba satu atau dua PIN. Setiap kali percobaan buka kunci gagal, CrookCatcher mengambil foto dengan kamera depan, mencatat lokasi GPS dan perkiraan alamat, lalu mengirim keduanya ke emailmu. Email itu ada di kotak masukmu meskipun ponsel dimatikan semenit kemudian. Kalau saat itu ponsel tidak terhubung ke internet, email dikirim begitu ponsel tersambung lagi.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-id.webp" width="990" height="1024" loading="lazy" alt="Email peringatan CrookCatcher dengan foto penyusup, waktu percobaan, dan peta lokasi" />

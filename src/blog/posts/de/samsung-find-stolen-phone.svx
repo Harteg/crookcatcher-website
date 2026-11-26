@@ -74,9 +74,9 @@ Der erste Handgriff eines Diebs ist meist, das Handy auszuschalten oder den Flug
 
 ## So bekommst du ein Foto der Person, die dein Handy hat
 
-Ein Standort auf der Karte hilft. Ein Foto der Person, die dein Handy in der Hand hält, aufgenommen an diesem Ort, ist das, womit die Polizei arbeiten kann.
+Ein Standort auf der Karte hilft. Ein Foto der Person, die dein Handy in der Hand hält, aufgenommen an diesem Ort, gibt der Polizei viel mehr in die Hand.
 
-Das ergänzt CrookCatcher. Fast jeder, der ein gesperrtes Handy in die Hand bekommt, probiert ein paar PINs. Bei jedem fehlgeschlagenen Entsperrversuch macht CrookCatcher ein Foto mit der Frontkamera, erfasst den GPS-Standort und eine ungefähre Adresse und schickt dir beides per E-Mail. Die E-Mail liegt in deinem Postfach, auch wenn das Handy eine Minute später ausgeschaltet wird. Hat das Handy in dem Moment keine Verbindung, geht die E-Mail raus, sobald es wieder online ist.
+Das ergänzt CrookCatcher. Wer ein gesperrtes Handy in die Hand bekommt, probiert meist ein oder zwei PINs. Bei jedem fehlgeschlagenen Entsperrversuch macht CrookCatcher ein Foto mit der Frontkamera, erfasst den GPS-Standort und eine ungefähre Adresse und schickt dir beides per E-Mail. Die E-Mail liegt in deinem Postfach, auch wenn das Handy eine Minute später ausgeschaltet wird. Hat das Handy in dem Moment keine Verbindung, geht die E-Mail raus, sobald es wieder online ist.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-de.webp" width="990" height="1024" loading="lazy" alt="CrookCatcher-Warn-E-Mail mit dem Foto des Eindringlings, der Uhrzeit des Versuchs und einer Karte mit dem Standort" />

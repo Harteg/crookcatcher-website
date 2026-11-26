@@ -41,7 +41,7 @@ Kamu juga bisa mengunci ponsel hanya dengan nomor teleponmu di [android.com/lock
 
 ## Cara melacak HP yang hilang dalam keadaan mati atau offline
 
-Di sinilah sebagian besar pencarian HP curian berakhir. Apa yang masih bisa dilakukan Hub Pencari bergantung pada satu setelan:
+Apa yang masih bisa dilakukan Hub Pencari bergantung pada satu setelan:
 
 **Buka:**
 `Setelan > Google > Semua layanan > Hub Pencari > Temukan perangkat offline Anda`
@@ -56,8 +56,6 @@ Opsi dengan jaringan membutuhkan PIN, pola, atau sandi di ponselmu. Lokasinya di
 **Saat ponsel mati atau baterainya habis:** Google menyebut perangkat yang didukung, seperti seri Pixel 8, masih bisa ditemukan oleh jaringan selama beberapa jam. Syaratnya, salah satu dari dua opsi dengan jaringan dipilih, dan Bluetooth serta Lokasi aktif saat ponsel mati. Di kebanyakan ponsel lain, mati berarti kamu hanya mendapat lokasi terakhir yang diketahui.
 
 ## Periksa setelan ini hari ini
-
-Lima menit sekarang menghemat banyak waktu nanti:
 
 - **Akun Google:** periksa di Setelan bahwa akunmu ada di ponsel.
 - **Lokasi:** `Setelan > Lokasi`, aktif.
@@ -79,7 +77,7 @@ Nama menu sedikit berbeda antarmerek. Kalau tidak menemukannya, cari "Hub Pencar
 
 Titik di peta memberi tahu di mana ponselmu. Titik itu tidak memberi tahu siapa di antara orang-orang di sana yang memegangnya, dan lokasi saja sering tidak cukup bagi polisi untuk bertindak.
 
-Itulah celah yang diisi CrookCatcher. Hampir semua orang yang mengambil ponsel terkunci akan mencoba beberapa PIN. Setiap kali percobaan buka kunci gagal, CrookCatcher mengambil foto dengan kamera depan, mencatat lokasi GPS dan perkiraan alamat, lalu mengirim keduanya ke emailmu. Email itu ada di kotak masukmu meskipun ponsel dimatikan semenit kemudian. Kalau saat itu ponsel tidak terhubung ke internet, email dikirim begitu ponsel tersambung lagi.
+Itulah celah yang diisi CrookCatcher. Orang yang mengambil ponsel terkunci biasanya mencoba satu atau dua PIN. Setiap kali percobaan buka kunci gagal, CrookCatcher mengambil foto dengan kamera depan, mencatat lokasi GPS dan perkiraan alamat, lalu mengirim keduanya ke emailmu. Email itu ada di kotak masukmu meskipun ponsel dimatikan semenit kemudian. Kalau saat itu ponsel tidak terhubung ke internet, email dikirim begitu ponsel tersambung lagi.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-id.webp" width="990" height="1024" loading="lazy" alt="Email peringatan CrookCatcher dengan foto penyusup, waktu percobaan, dan peta lokasi" />

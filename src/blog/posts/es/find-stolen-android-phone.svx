@@ -41,7 +41,7 @@ También puedes bloquear el teléfono solo con tu número en [android.com/lock](
 
 ## Cómo localizar un celular apagado o sin conexión
 
-Aquí es donde terminan la mayoría de las búsquedas de un teléfono robado. Lo que el Localizador todavía puede hacer depende de un ajuste:
+Lo que el Localizador todavía puede hacer depende de un ajuste:
 
 **Ve a:**
 `Configuración > Google > Todos los servicios > Localizador > Encontrar dispositivos sin conexión` (en España, `Ajustes`)
@@ -56,8 +56,6 @@ Las opciones con red necesitan un PIN, un patrón o una contraseña en tu teléf
 **Cuando el teléfono está apagado o sin batería:** Google dice que los dispositivos compatibles, como la serie Pixel 8, todavía se pueden localizar con la red durante varias horas. Hace falta una de las dos opciones con red, y que el Bluetooth y la Ubicación estén activados cuando el teléfono se apague. En la mayoría de los demás teléfonos, apagado significa que solo ves la última ubicación conocida.
 
 ## Revisa estos ajustes hoy
-
-Cinco minutos ahora te ahorran mucho después:
 
 - **Cuenta de Google:** revisa en Configuración que tu cuenta esté en el teléfono.
 - **Ubicación:** `Configuración > Ubicación`, activada.
@@ -79,7 +77,7 @@ Los nombres de los menús cambian un poco entre marcas. Si no encuentras alguno,
 
 Un punto en un mapa te dice dónde está el teléfono. No te dice cuál de las personas que están ahí lo tiene, y muchas veces la ubicación sola no alcanza para que la policía actúe.
 
-Ese es el vacío que cubre CrookCatcher. Casi todos los que agarran un teléfono bloqueado prueban algunos PIN. Cada vez que falla un intento de desbloqueo, CrookCatcher toma una foto con la cámara frontal, registra la ubicación GPS y una dirección aproximada, y te envía ambas cosas por correo. El correo queda en tu bandeja de entrada aunque apaguen el teléfono un minuto después. Si el teléfono no tiene conexión en ese momento, el correo se envía en cuanto se vuelve a conectar.
+Ese es el vacío que cubre CrookCatcher. Quien agarra un teléfono bloqueado suele probar un PIN o dos. Cada vez que falla un intento de desbloqueo, CrookCatcher toma una foto con la cámara frontal, registra la ubicación GPS y una dirección aproximada, y te envía ambas cosas por correo. El correo queda en tu bandeja de entrada aunque apaguen el teléfono un minuto después. Si el teléfono no tiene conexión en ese momento, el correo se envía en cuanto se vuelve a conectar.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-es.webp" width="990" height="1024" loading="lazy" alt="Correo de alerta de CrookCatcher con la foto del intruso, la hora del intento y un mapa con la ubicación" />

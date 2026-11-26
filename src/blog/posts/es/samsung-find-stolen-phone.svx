@@ -74,9 +74,9 @@ Lo primero que suele hacer un ladrón es apagar el teléfono o activar el modo a
 
 ## Cómo obtener una foto de quien tiene tu teléfono
 
-Una ubicación en un mapa sirve. Una foto de la persona que tiene tu teléfono en la mano, tomada en ese lugar, es lo que la policía puede usar.
+Una ubicación en un mapa sirve. Una foto de la persona que tiene tu teléfono en la mano, tomada en ese lugar, le da a la policía mucho más con qué trabajar.
 
-Eso es lo que agrega CrookCatcher. Casi todos los que agarran un teléfono bloqueado prueban algunos PIN. Cada vez que falla un intento de desbloqueo, CrookCatcher toma una foto con la cámara frontal, registra la ubicación GPS y una dirección aproximada, y te envía ambas cosas por correo. El correo queda en tu bandeja de entrada aunque apaguen el teléfono un minuto después. Si el teléfono no tiene conexión en ese momento, el correo se envía en cuanto se vuelve a conectar.
+Eso es lo que agrega CrookCatcher. Quien agarra un teléfono bloqueado suele probar un PIN o dos. Cada vez que falla un intento de desbloqueo, CrookCatcher toma una foto con la cámara frontal, registra la ubicación GPS y una dirección aproximada, y te envía ambas cosas por correo. El correo queda en tu bandeja de entrada aunque apaguen el teléfono un minuto después. Si el teléfono no tiene conexión en ese momento, el correo se envía en cuanto se vuelve a conectar.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-es.webp" width="990" height="1024" loading="lazy" alt="Correo de alerta de CrookCatcher con la foto del intruso, la hora del intento y un mapa con la ubicación" />

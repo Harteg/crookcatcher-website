@@ -41,7 +41,7 @@ Du kannst das Handy auch nur mit deiner Telefonnummer sperren, unter [android.co
 
 ## Handy orten, wenn es ausgeschaltet oder offline ist
 
-Hier enden die meisten Suchen nach einem gestohlenen Handy. Was der Dienst dann noch kann, hängt von einer Einstellung ab:
+Was der Dienst dann noch kann, hängt von einer Einstellung ab:
 
 **Gehe zu:**
 `Einstellungen > Google > Alle Dienste > Mein Gerät finden > Geräte finden, die offline sind`
@@ -56,8 +56,6 @@ Für die Netzwerk-Optionen muss auf deinem Handy eine PIN, ein Muster oder ein P
 **Wenn das Handy ausgeschaltet oder der Akku leer ist:** Google schreibt, dass unterstützte Geräte wie die Pixel-8-Serie noch mehrere Stunden lang über das Netzwerk geortet werden können. Dafür muss eine der beiden Netzwerk-Optionen gewählt sein, und Bluetooth und Standort müssen beim Ausschalten an sein. Bei den meisten anderen Handys heißt ausgeschaltet: Du siehst nur den letzten bekannten Standort.
 
 ## Prüfe diese Einstellungen heute
-
-Fünf Minuten jetzt sparen dir später viel:
 
 - **Google-Konto:** Prüfe in den Einstellungen, ob dein Konto auf dem Handy eingerichtet ist.
 - **Standort:** `Einstellungen > Standort`, eingeschaltet.
@@ -79,7 +77,7 @@ Die Menünamen unterscheiden sich je nach Hersteller etwas. Findest du einen nic
 
 Ein Punkt auf der Karte sagt dir, wo das Handy ist. Er sagt dir nicht, wer von den Leuten dort es hat, und ein Standort allein reicht der Polizei oft nicht, um zu handeln.
 
-Diese Lücke schließt CrookCatcher. Fast jeder, der ein gesperrtes Handy in die Hand bekommt, probiert ein paar PINs. Bei jedem fehlgeschlagenen Entsperrversuch macht CrookCatcher ein Foto mit der Frontkamera, erfasst den GPS-Standort und eine ungefähre Adresse und schickt dir beides per E-Mail. Die E-Mail liegt in deinem Postfach, auch wenn das Handy eine Minute später ausgeschaltet wird. Hat das Handy in dem Moment keine Verbindung, geht die E-Mail raus, sobald es wieder online ist.
+Diese Lücke schließt CrookCatcher. Wer ein gesperrtes Handy in die Hand bekommt, probiert meist ein oder zwei PINs. Bei jedem fehlgeschlagenen Entsperrversuch macht CrookCatcher ein Foto mit der Frontkamera, erfasst den GPS-Standort und eine ungefähre Adresse und schickt dir beides per E-Mail. Die E-Mail liegt in deinem Postfach, auch wenn das Handy eine Minute später ausgeschaltet wird. Hat das Handy in dem Moment keine Verbindung, geht die E-Mail raus, sobald es wieder online ist.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-de.webp" width="990" height="1024" loading="lazy" alt="CrookCatcher-Warn-E-Mail mit dem Foto des Eindringlings, der Uhrzeit des Versuchs und einer Karte mit dem Standort" />

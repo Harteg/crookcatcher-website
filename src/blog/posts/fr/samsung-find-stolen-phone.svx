@@ -74,9 +74,9 @@ Le premier geste d'un voleur est souvent d'éteindre le téléphone ou d'activer
 
 ## Comment obtenir une photo de la personne qui a votre téléphone
 
-Une position sur une carte, c'est utile. Une photo de la personne qui tient votre téléphone, prise à cet endroit, c'est ce que la police peut exploiter.
+Une position sur une carte, c'est utile. Une photo de la personne qui tient votre téléphone, prise à cet endroit, donne beaucoup plus d'éléments à la police.
 
-C'est ce qu'ajoute CrookCatcher. Presque tous ceux qui ramassent un téléphone verrouillé essaient quelques codes. À chaque tentative de déverrouillage ratée, CrookCatcher prend une photo avec la caméra frontale, enregistre la position GPS et une adresse approximative, et vous envoie le tout par e-mail. L'e-mail est dans votre boîte de réception même si le téléphone est éteint une minute plus tard. Si le téléphone n'a pas de connexion à ce moment-là, l'e-mail part dès qu'il se reconnecte.
+C'est ce qu'ajoute CrookCatcher. Quelqu'un qui ramasse un téléphone verrouillé essaie généralement un code ou deux. À chaque tentative de déverrouillage ratée, CrookCatcher prend une photo avec la caméra frontale, enregistre la position GPS et une adresse approximative, et vous envoie le tout par e-mail. L'e-mail est dans votre boîte de réception même si le téléphone est éteint une minute plus tard. Si le téléphone n'a pas de connexion à ce moment-là, l'e-mail part dès qu'il se reconnecte.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-fr.webp" width="990" height="1101" loading="lazy" alt="E-mail d'alerte CrookCatcher avec la photo de l'intrus, l'heure de la tentative et une carte avec la position" />

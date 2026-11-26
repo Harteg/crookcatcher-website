@@ -49,7 +49,7 @@ Private space needs Android 15 or later, and some phone makers have turned it of
 
 ### Google's own App lock is on the way
 
-A real app lock, where an app stays in place but asks for your PIN or fingerprint when opened, is being tested on Pixel phones. Android Authority found it in Android's test builds in August 2026 under `Settings > Security & privacy > App lock`. As of November 2026 it isn't in the regular version of Android 17, and Google has published no help page for it. If your Pixel has that menu after an update, it's the simplest option.
+A real app lock, where an app stays in place but asks for your PIN or fingerprint when opened, is being tested on Pixel phones. Android Authority found it in Android's test builds in August 2026 under `Settings > Security & privacy > App lock`. Google hasn't said when it will reach regular phones, and has published no help page for it. If your Pixel has that menu after an update, it's the simplest option.
 
 ## Xiaomi, Redmi and POCO: App lock
 
@@ -90,11 +90,11 @@ App lock apps from Google Play are another route. Before you install one, look a
 - **It only covers what you put in it.** Everything else on the phone is open to anyone who gets past the lock screen.
 - **Locks that use your screen lock don't stop someone who knows your PIN.** Private space with the device lock and the Photos Locked Folder open for anyone who has it.
 
-App locks are a second door. The first door is still your lock screen, and that's where it helps to know who is trying.
+An app lock protects a few apps. Your lock screen protects the whole phone, and that's where it helps to know who is trying.
 
 ## How to see who tries to get into your phone
 
-CrookCatcher doesn't lock your other apps. It watches the lock screen. When someone enters a wrong PIN, pattern or password, it takes a photo with the front camera, records the GPS location, and emails both to you.
+CrookCatcher watches the lock screen, the door to everything else on the phone. When someone enters a wrong PIN, pattern or password, it takes a photo with the front camera, records the GPS location, and emails both to you.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/hero-alert-800.webp" srcset="/images/hero-alert-480.webp 480w, /images/hero-alert-800.webp 800w, /images/hero-alert-990.webp 990w" sizes="(min-width: 600px) 540px, 100vw" width="990" height="1024" loading="lazy" alt="CrookCatcher email alert with the intruder's photo, the time of the attempt and a map of the location" />

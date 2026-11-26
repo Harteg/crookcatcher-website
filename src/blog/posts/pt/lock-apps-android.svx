@@ -51,7 +51,7 @@ O Espaço privado exige Android 15 ou mais recente, e alguns fabricantes desativ
 
 ### O bloqueio de apps do próprio Google está a caminho
 
-Um bloqueio de apps de verdade, em que o aplicativo fica no lugar mas pede PIN ou digital ao abrir, está em teste nos celulares Pixel. O site Android Authority encontrou a função nas versões de teste do Android em agosto de 2026, em `Settings > Security & privacy > App lock`. Em novembro de 2026 ela não está na versão normal do Android 17, e o Google não publicou nenhuma página de ajuda sobre ela. Se o seu Pixel ganhar esse menu depois de uma atualização, é a opção mais simples.
+Um bloqueio de apps de verdade, em que o aplicativo fica no lugar mas pede PIN ou digital ao abrir, está em teste nos celulares Pixel. O site Android Authority encontrou a função nas versões de teste do Android em agosto de 2026, em `Settings > Security & privacy > App lock`. O Google não disse quando ela chega aos celulares comuns e não publicou nenhuma página de ajuda sobre ela. Se o seu Pixel ganhar esse menu depois de uma atualização, é a opção mais simples.
 
 ## Xiaomi, Redmi e POCO: bloqueio de apps
 
@@ -92,11 +92,11 @@ Os bloqueadores de aplicativos do Google Play são outro caminho. Antes de insta
 - **Só cobre o que você colocou ali.** Todo o resto do celular fica aberto para quem passar da tela de bloqueio.
 - **Bloqueios que usam o bloqueio de tela não barram quem sabe o seu PIN.** O Espaço privado com o bloqueio do dispositivo e a Pasta trancada do Fotos abrem para quem souber.
 
-O bloqueio de apps é uma segunda porta. A primeira continua sendo a tela de bloqueio, e é ali que ajuda saber quem está tentando.
+O bloqueio de apps protege alguns aplicativos. A tela de bloqueio protege o celular inteiro, e é ali que ajuda saber quem está tentando.
 
 ## Como ver quem tenta entrar no seu celular
 
-O CrookCatcher não bloqueia os seus outros aplicativos. Ele vigia a tela de bloqueio. Quando alguém digita um PIN, padrão ou senha errados, ele tira uma foto com a câmera frontal, registra a localização por GPS e envia as duas coisas para o seu e-mail.
+O CrookCatcher vigia a tela de bloqueio, a porta de entrada para todo o resto do celular. Quando alguém digita um PIN, padrão ou senha errados, ele tira uma foto com a câmera frontal, registra a localização por GPS e envia as duas coisas para o seu e-mail.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-pt.webp" width="990" height="1051" loading="lazy" alt="E-mail de alerta do CrookCatcher com a foto do intruso, o horário da tentativa e um mapa com a localização" />

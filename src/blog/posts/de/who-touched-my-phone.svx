@@ -1,11 +1,11 @@
 ---
 title: "Wer war an meinem Handy? So findest du es auf Android heraus (2026)"
-subtitle: "Was Android von sich aus zeigt, was die App WTMP (Who Touched My Phone) aufzeichnet und wie du das Foto per E-Mail bekommst"
-dateUpdated: '2026-11-14'
-datePublished: '2026-11-14'
-description: "Android kann dir nicht zeigen, wer an deinem Handy war. Dafür brauchst du eine App, die die Person am Sperrbildschirm fotografiert. Hier steht, was WTMP (Who Touched My Phone) aufzeichnet, worin sich CrookCatcher unterscheidet und welche App zu deiner Situation passt."
+subtitle: "Was Android von sich aus zeigt und wie du ein Foto von jedem bekommst, der in dein Handy will"
+dateUpdated: '2026-11-26'
+datePublished: '2026-11-26'
+description: "Android kann dir nicht zeigen, wer an deinem Handy war. Es speichert nicht, wer versucht hat, es zu entsperren, und macht nie ein Foto. Um es herauszufinden, installierst du eine App, die jeden fotografiert, der deine PIN falsch eingibt, und dir das Foto mit dem Standort per E-Mail schickt. Hier steht, was Android zeigt und wie du es einrichtest."
 image: '/images/blog/who-touched-my-phone-header-de.png'
-imageAlt: 'Wer war an meinem Handy? Android: kein Protokoll, kein Foto. WTMP: ein Bericht in der App. CrookCatcher: ein Foto per E-Mail.'
+imageAlt: 'Wer war an meinem Handy? Android führt kein Protokoll und macht kein Foto. CrookCatcher fotografiert jeden, der deine PIN falsch eingibt, und schickt dir das Foto mit dem Standort per E-Mail.'
 published: false
 ---
 
@@ -13,98 +13,80 @@ published: false
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**Android kann dir nicht sagen, wer an deinem Handy war. Es führt keine Liste darüber, wer es entsperrt hat, und macht nie ein Foto.** Um es herauszufinden, brauchst du eine App, die die Frontkamera nutzt, wenn jemand das Handy entsperrt oder die PIN falsch eingibt. Die bekannteste ist WTMP, kurz für „Who Touched My Phone“ (wer hat mein Handy angefasst), die jedes Mal einen Bericht auf dem Handy speichert. CrookCatcher macht ein Foto, wenn jemand eine falsche PIN eingibt, und schickt es dir mit dem Standort per E-Mail. Welche besser passt, hängt davon ab, was du willst: einen Bericht, den du später auf dem Handy liest, oder ein Foto mit Standort, das dich erreicht, während das Handy nicht bei dir ist.
-
-Wir entwickeln CrookCatcher, lies das also mit diesem Wissen. Was hier über WTMP steht, stammt aus dem eigenen Google-Play-Eintrag der App, Stand 14. November 2026. In diesem Ratgeber geht es darum, dein eigenes Handy zu schützen.
+**Android kann dir nicht sagen, wer an deinem Handy war. Es führt keine Liste darüber, wer versucht hat, es zu entsperren, und macht nie ein Foto.** Um es herauszufinden, brauchst du eine App, die am Sperrbildschirm die Frontkamera nutzt. CrookCatcher macht ein Foto, wenn jemand eine falsche PIN, ein falsches Muster oder Passwort eingibt, und schickt es dir mit dem Standort per E-Mail. So siehst du es auch, wenn das Handy nicht bei dir ist. Die App muss installiert sein, bevor es passiert. Erwischt wird also der nächste Versuch.
 
 ## Was Android von sich aus zeigt
 
-Nicht viel. Gibt jemand eine falsche PIN ein, lehnt Android sie ab und lässt die Person nach mehreren Versuchen warten. Es speichert die Versuche nirgends, wo du nachsehen könntest, und nutzt die Kamera nicht. Mehr dazu: [Kann man fehlgeschlagene Entsperrversuche auf Android sehen?](/de/blog/failed-unlock-attempts-android)
+Nicht viel. Gibt jemand eine falsche PIN ein, lehnt Android sie ab und lässt die Person nach mehreren Versuchen warten. Es speichert die Versuche nirgends, wo du nachsehen könntest, und nutzt die Kamera nicht. Hier steht [genau, was Android mit fehlgeschlagenen Entsperrversuchen macht](/de/blog/failed-unlock-attempts-android).
 
 Ist jemand hineingekommen, gibt es Spuren: Digital Wellbeing zählt, wie oft das Handy entsperrt wurde und welche Apps geöffnet wurden, und der Browserverlauf und die Aktivitäten in deinem Google-Konto zeigen, was gemacht wurde. Nichts davon zeigt, wer es war.
 
-## Was die App WTMP macht
+## So bekommst du ein Foto von dem, der an deinem Handy war
 
-WTMP — Who touched my phone? stammt von Mindfulness Devs. Die App hat mehr als 10 Millionen Downloads, und ihr Eintrag wurde zuletzt im Oktober 2026 aktualisiert. So beschreibt der Eintrag sie:
+Wer ein fremdes Handy in die Hand nimmt, probiert meist ein oder zwei PINs aus. In diesem Moment reagiert CrookCatcher. Bei jedem fehlgeschlagenen Entsperrversuch:
 
-1. Du öffnest die App, tippst auf die Schaltfläche und sperrst dein Handy.
-2. Entsperrt jemand das Handy oder versucht es, beginnt die App einen Bericht: ein Foto der Frontkamera und die Liste der geöffneten Apps.
-3. Geht der Bildschirm aus, wird der Bericht gespeichert.
-4. Du liest die Berichte in der App und kannst sie mit der Cloud synchronisieren.
-
-Die App nutzt die Android-Berechtigung **Geräteadministrator**, um falsche Entsperrversuche zu bemerken. Die Installation ist kostenlos, es gibt In-App-Käufe.
-
-Zwei Punkte dieser Beschreibung sind wichtig:
-
-- **Sie zeichnet auch richtige Entsperrungen auf.** Laut Eintrag enthält jeder Bericht ein Foto und die geöffneten Apps, auch wenn die Person deine PIN kannte.
-- **Die Berichte bleiben in der App.** Der Eintrag erwähnt keine E-Mail-Warnung und keinen Standort. Du siehst, was passiert ist, wenn du das Handy wieder in der Hand hast.
-
-## Was CrookCatcher anders macht
-
-CrookCatcher reagiert, wenn jemand eine falsche PIN, ein falsches Muster oder Passwort eingibt. Es macht ein Foto mit der Frontkamera, erfasst den GPS-Standort und eine ungefähre Adresse und schickt dir alles per E-Mail. Du brauchst das Handy nicht, um es zu sehen.
+- macht es mit der Frontkamera ein Foto von der Person, die das Handy hält;
+- erfasst es den GPS-Standort und eine ungefähre Adresse;
+- schickt es dir Foto und Standort per E-Mail. Ist das Handy online, geht die E-Mail sofort raus, sonst sobald es wieder verbunden ist.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-de.webp" width="990" height="1024" loading="lazy" alt="CrookCatcher-Warn-E-Mail mit dem Foto des Eindringlings, der Uhrzeit des Versuchs und einer Karte mit dem Standort" />
   <figcaption>Die E-Mail, die CrookCatcher nach einem fehlgeschlagenen Entsperrversuch sendet.</figcaption>
 </figure>
 
-Foto, Standort und E-Mail sind kostenlos. CrookCatcher Pro ergänzt die **Einbruchserkennung**, die auch jemanden fotografiert, der die PIN erst falsch und dann richtig eingibt, außerdem Video mit Ton und ein Backup auf Google Drive. CrookCatcher gibt es seit 2014 bei Google Play, und es macht rund 1,2 Millionen Fotos von Eindringlingen pro Tag.
+Jeder Versuch wird außerdem mit Uhrzeit und Standort in der App gespeichert. Foto, Standort und E-Mail sind kostenlos.
 
-Was es nicht tut: Es fotografiert niemanden, der die richtige PIN beim ersten Versuch eingibt, und es listet die geöffneten Apps nicht auf.
+**CrookCatcher Pro** ergänzt die **Einbruchserkennung**, die auch dann ein Foto macht, wenn jemand die PIN erst falsch und dann richtig eingibt, außerdem Video mit Ton, ein Foto mit der Rückkamera, ein Backup auf Google Drive, einen Alarm und eine Nachricht auf dem Sperrbildschirm.
+
+CrookCatcher gibt es seit 2014 bei Google Play, es wurde mehr als 12 Millionen Mal heruntergeladen und macht rund 1,2 Millionen Fotos von Eindringlingen pro Tag. Die Einrichtung dauert ein paar Minuten und braucht kein Konto. Die Schritte findest du unter [So siehst du, wer dein Android-Handy entsperren wollte](/de/blog/see-who-tried-to-unlock-your-phone).
 
 <AppCta position="guide_mid" />
 
-## WTMP und CrookCatcher im Vergleich
+## Wenn du glaubst, dass jemand deine PIN kennt
 
-| | WTMP | CrookCatcher |
-| --- | --- | --- |
-| Foto nach falscher PIN | Ja | Ja |
-| Foto nach richtiger Entsperrung | Ja | Nur nach einem Fehlversuch (Pro) |
-| Liste der geöffneten Apps | Ja | Nein |
-| E-Mail-Warnung mit Foto | Nicht erwähnt | Ja |
-| GPS-Standort | Nicht erwähnt | Ja |
-| Wo du es siehst | In der App, optional mit Cloud-Synchronisierung | In der App und in deinen E-Mails |
-| Preis | Kostenlos, In-App-Käufe | Kostenlos, In-App-Käufe |
+Eine Foto-App erwischt Leute, die raten müssen. Wer deine PIN schon kennt, muss nicht raten. Deshalb:
 
-„Nicht erwähnt“ heißt, dass der Google-Play-Eintrag der App die Funktion nicht beschreibt.
+- **Ändere deine PIN, dein Muster oder Passwort.** Auf einem Pixel findest du das unter `Einstellungen > Sicherheit & Datenschutz > Geräteentsperrung > Displaysperre`, auf anderen Handys suchst du in den Einstellungen nach „Displaysperre“. Nimm nicht dein Geburtsdatum und kein einfaches Muster.
+- **Prüfe deine Fingerabdrücke und Gesichter.** Stelle in denselben Einstellungen sicher, dass nur deine eigenen Fingerabdrücke und dein eigenes Gesicht eingerichtet sind.
+- **Lass CrookCatcher laufen.** Sobald die alte PIN nicht mehr funktioniert, wird jeder fotografiert, der sie ausprobiert. Mit der Einbruchserkennung bekommst du auch ein Foto, wenn die Person danach die neue errät.
 
-## Welche App solltest du nehmen?
+## Andere Apps mit diesem Namen
 
-- **Jemand anderes kennt vielleicht deine PIN:** Ändere sie zuerst, damit sie für diese Person nicht mehr funktioniert. Wenn du zusätzlich richtige Entsperrungen auf dem Handy festhalten willst: Laut Eintrag kann WTMP das.
-- **Du denkst an Diebstahl oder an ein irgendwo liegen gelassenes Handy:** CrookCatcher, weil Foto und Standort in deinem Postfach ankommen, während das Handy weg ist.
-- **Jemand rät immer wieder deine PIN:** Beide erledigen das. CrookCatcher sagt es dir sofort per E-Mail, WTMP zeigt es dir, wenn du die App das nächste Mal öffnest.
+Die bekannteste App namens „Who Touched My Phone“ (wer hat mein Handy angefasst) ist WTMP von Mindfulness Devs. Ihr Google-Play-Eintrag beschreibt einen Bericht, der jedes Mal in der App gespeichert wird, wenn das Handy entsperrt wird oder jemand es versucht, mit einem Foto der Frontkamera und den geöffneten Apps. Die Berichte liest du auf dem Handy.
 
-Egal, wofür du dich entscheidest, teste es: Sperre dein Handy, gib absichtlich eine falsche PIN ein, entsperre es und prüfe, ob dein eigenes Foto da ist. Teste eine Woche später noch einmal, weil manche Handys Apps im Hintergrund nach ein paar Tagen beenden.
+## Teste es
+
+Egal, welche App du nutzt, teste sie: Sperre dein Handy, gib absichtlich eine falsche PIN ein, entsperre es und prüfe, ob dein eigenes Foto da ist. Teste eine Woche später noch einmal, weil manche Handys Apps im Hintergrund nach ein paar Tagen beenden.
 
 ## Häufig gestellte Fragen
 
 ### Q: Kann Android zeigen, wer an meinem Handy war?
-A: Nein. Android hat kein Protokoll darüber, wer das Handy entsperrt hat, und macht nie ein Foto. Digital Wellbeing zeigt, wie oft das Handy entsperrt wurde, aber nicht von wem.
+A: Nein. Android hat kein Protokoll darüber, wer versucht hat, das Handy zu entsperren, und macht nie ein Foto. Digital Wellbeing zeigt, wie oft das Handy entsperrt wurde, aber nicht von wem.
 
-### Q: Wie finde ich heraus, ob jemand an meinem Handy war?
-A: Sieh in Digital Wellbeing nach, ob es Entsperrungen gibt, die nicht von dir stammen. Um zu erfahren, wer es war, installiere vorher eine dieser Apps, damit der nächste Versuch fotografiert wird.
+### Q: Wie finde ich heraus, ob jemand an meinem Handy war, während ich es nicht im Blick hatte?
+A: Sieh danach in Digital Wellbeing nach, ob es Entsperrungen gibt, die nicht von dir stammen. Für einen Beweis, wer es war, installiere vorher CrookCatcher, damit die nächste falsche PIN fotografiert wird.
 
-### Q: Ist die App Who Touched My Phone kostenlos?
-A: WTMP lässt sich kostenlos installieren, und der Google-Play-Eintrag nennt In-App-Käufe. Auch CrookCatcher ist kostenlos zu installieren. Foto, Standort und E-Mail-Warnung gehören zur kostenlosen Version.
+### Q: Gibt es eine kostenlose App, die zeigt, wer an meinem Handy war?
+A: Ja. Foto, Standort und E-Mail-Warnung von CrookCatcher sind kostenlos. Pro ergänzt Einbruchserkennung, Video mit Ton und ein Backup auf Google Drive.
 
-### Q: Ist WTMP sicher?
-A: Am 14. November 2026 stand im Abschnitt zur Datensicherheit bei Google Play, dass keine Daten erhoben und keine mit Dritten geteilt werden. Wie jede App dieser Art braucht sie die Berechtigung Geräteadministrator, die du vor dem Deinstallieren wieder ausschalten musst.
+### Q: Funktioniert das mit Fingerabdruck oder Gesichtserkennung?
+A: Ja, du kannst beides weiter nutzen. CrookCatcher reagiert auf eine falsche PIN, ein falsches Muster oder Passwort. Ein fehlgeschlagener Fingerabdruck- oder Gesichtsversuch löst kein Foto aus.
 
-### Q: Funktionieren diese Apps mit Fingerabdruck oder Gesichtserkennung?
-A: Du kannst beides weiter nutzen. CrookCatcher reagiert auf eine falsche PIN, ein falsches Muster oder Passwort. Ein fehlgeschlagener Fingerabdruck- oder Gesichtsversuch löst kein Foto aus. Im Eintrag von WTMP steht, dass es aufzeichnet, wenn das Handy entsperrt wird oder jemand es versucht.
+### Q: Kann ich sehen, wer an meinem Handy war, wenn die Person meine PIN kannte?
+A: Mit Foto nicht, außer sie hat sich zuerst vertippt: Dann fotografiert die Einbruchserkennung von CrookCatcher Pro sie, wenn sie hineinkommt. Ändere deine PIN, damit jeder erwischt wird, der die alte ausprobiert.
 
 ### Q: Warum hat die App kein Foto gemacht?
 A: Meist hat der Energiesparmodus des Handys die App im Hintergrund beendet, oder das Handy wurde gerade neu gestartet. Nach einem Neustart lässt Android Apps die Kamera erst nutzen, wenn das Handy einmal entsperrt wurde.
 
 ## Quellen
 
-- Google-Play-Eintrag von [WTMP — Who touched my phone?](https://play.google.com/store/apps/details?id=com.wtmp.svdsoftware), wie er am 14. November 2026 im US-Store angezeigt wurde
 - Android Developers: [DeviceAdminReceiver](https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver) (wie Apps über fehlgeschlagene Entsperrversuche informiert werden)
+- Google-Play-Eintrag von [WTMP — Who touched my phone?](https://play.google.com/store/apps/details?id=com.wtmp.svdsoftware), wie er am 26. November 2026 im US-Store angezeigt wurde
 
 ## Weitere Ratgeber
 
-- [So siehst du, wer dein Handy entsperren wollte (mit Foto)](/de/blog/see-who-tried-to-unlock-your-phone)
-- [Kann man fehlgeschlagene Entsperrversuche auf Android sehen?](/de/blog/failed-unlock-attempts-android)
-- [So siehst du, wer dein Samsung-Handy entsperren wollte](/de/blog/samsung-who-tried-to-unlock)
+- [Wer hat versucht, mein Handy zu entsperren? So findest du es heraus (mit Foto)](/de/blog/see-who-tried-to-unlock-your-phone)
+- [Kann man fehlgeschlagene Entsperrversuche unter Android sehen?](/de/blog/failed-unlock-attempts-android)
+- [Zu viele Entsperrversuche auf dem Samsung: So siehst du, wer es war](/de/blog/samsung-who-tried-to-unlock)
 
 <AppCta position="guide_end" />
