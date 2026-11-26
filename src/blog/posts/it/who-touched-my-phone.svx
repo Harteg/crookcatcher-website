@@ -13,7 +13,7 @@ published: false
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**Android non può dirti chi ha toccato il tuo telefono. Non tiene un elenco di chi l'ha sbloccato e non scatta mai una foto.** Per scoprirlo ti serve un'app che usi la fotocamera frontale quando qualcuno sblocca il telefono o sbaglia il PIN. La più nota è WTMP, sigla di "Who Touched My Phone" (chi ha toccato il mio telefono), che ogni volta salva un report sul telefono. CrookCatcher scatta una foto quando qualcuno inserisce un PIN sbagliato e te la invia via email con la posizione. Quale ti serve dipende da cosa temi: qualcuno in casa, oppure un furto.
+**Android non può dirti chi ha toccato il tuo telefono. Non tiene un elenco di chi l'ha sbloccato e non scatta mai una foto.** Per scoprirlo ti serve un'app che usi la fotocamera frontale quando qualcuno sblocca il telefono o sbaglia il PIN. La più nota è WTMP, sigla di "Who Touched My Phone" (chi ha toccato il mio telefono), che ogni volta salva un report sul telefono. CrookCatcher scatta una foto quando qualcuno inserisce un PIN sbagliato e te la invia via email con la posizione. Quale ti serve dipende da cosa vuoi: un registro da leggere più tardi sul telefono, oppure una foto e la posizione inviate a te mentre il telefono non è nelle tue mani.
 
 CrookCatcher la facciamo noi, quindi leggi tenendolo presente. Quello che diciamo su WTMP viene dalla sua scheda su Google Play, com'era il 14 novembre 2026. Questa guida riguarda la protezione del tuo telefono.
 
@@ -36,7 +36,7 @@ L'app usa l'autorizzazione **amministratore del dispositivo** di Android per acc
 
 Due punti di questa descrizione contano:
 
-- **Registra anche gli sblocchi corretti.** Se qualcuno conosce il tuo PIN, hai comunque la sua foto e vedi quali app ha aperto. È il punto di forza di WTMP.
+- **Registra anche gli sblocchi corretti.** La scheda dice che ogni report contiene una foto e le app aperte, anche se la persona conosceva il tuo PIN.
 - **I report restano nell'app.** La scheda non parla di avvisi via email né di posizione. Vedi cos'è successo quando hai di nuovo il telefono in mano.
 
 ## Cosa fa di diverso CrookCatcher
@@ -70,7 +70,7 @@ Cosa non fa: non fotografa chi inserisce il PIN corretto al primo tentativo e no
 
 ## Quale usare?
 
-- **Qualcuno a casa o al lavoro forse conosce il tuo PIN:** WTMP, perché registra gli sblocchi corretti e le app aperte. Poi cambia il PIN.
+- **Qualcun altro forse conosce il tuo PIN:** cambialo prima di tutto, così smette di funzionare per quella persona. Se vuoi anche un registro degli sblocchi corretti sul telefono, la scheda di WTMP dice che lo fa.
 - **Pensi a un furto, o a un telefono dimenticato da qualche parte:** CrookCatcher, perché la foto e la posizione arrivano nella tua email mentre il telefono è lontano.
 - **Qualcuno continua a provare a indovinare il tuo PIN:** vanno bene entrambe. CrookCatcher te lo dice subito via email; WTMP te lo mostra la prossima volta che apri l'app.
 
@@ -88,7 +88,7 @@ R: Controlla in Benessere digitale se ci sono sblocchi che non hai fatto tu. Per
 R: WTMP si installa gratis, e la scheda su Google Play indica acquisti in-app. Anche CrookCatcher si installa gratis; la foto, la posizione e l'avviso via email sono nella versione gratuita.
 
 ### D: WTMP è sicura?
-R: La sezione sulla sicurezza dei dati su Google Play indica che nessun dato viene raccolto né condiviso con terze parti. Come tutte le app di questo tipo, ha bisogno dell'autorizzazione amministratore del dispositivo, che va disattivata prima di poterla disinstallare.
+R: Al 14 novembre 2026, la sezione sulla sicurezza dei dati su Google Play indicava che nessun dato veniva raccolto né condiviso con terze parti. Come tutte le app di questo tipo, ha bisogno dell'autorizzazione amministratore del dispositivo, che va disattivata prima di poterla disinstallare.
 
 ### D: Queste app funzionano con l'impronta o il riconoscimento del volto?
 R: Puoi continuare a usarli entrambi. CrookCatcher reagisce a un PIN, una sequenza o una password sbagliati; un tentativo fallito con impronta o volto non fa scattare la foto. La scheda di WTMP dice che registra quando il telefono viene sbloccato o qualcuno prova a sbloccarlo.

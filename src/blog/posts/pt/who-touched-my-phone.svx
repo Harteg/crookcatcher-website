@@ -13,7 +13,7 @@ published: false
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**O Android não consegue dizer quem mexeu no seu celular. Ele não guarda uma lista de quem desbloqueou o aparelho e nunca tira foto.** Para saber, você precisa de um aplicativo que use a câmera frontal quando alguém desbloqueia o celular ou erra o PIN. O mais conhecido é o WTMP, sigla de "Who Touched My Phone" (quem tocou no meu celular), que salva um relatório no próprio celular a cada vez. O CrookCatcher tira uma foto quando alguém digita um PIN errado e envia por e-mail com a localização. Qual serve melhor depende de você estar pensando em alguém de casa ou em roubo.
+**O Android não consegue dizer quem mexeu no seu celular. Ele não guarda uma lista de quem desbloqueou o aparelho e nunca tira foto.** Para saber, você precisa de um aplicativo que use a câmera frontal quando alguém desbloqueia o celular ou erra o PIN. O mais conhecido é o WTMP, sigla de "Who Touched My Phone" (quem tocou no meu celular), que salva um relatório no próprio celular a cada vez. O CrookCatcher tira uma foto quando alguém digita um PIN errado e envia por e-mail com a localização. Qual serve melhor depende do que você quer: um registro para ver no celular depois, ou uma foto e a localização enviadas a você enquanto o celular está longe das suas mãos.
 
 Nós fazemos o CrookCatcher, então leia com isso em mente. O que dizemos sobre o WTMP vem da página dele no Google Play, como estava em 14 de novembro de 2026. Este guia é sobre proteger o seu próprio celular.
 
@@ -36,7 +36,7 @@ O aplicativo usa a permissão de **Administrador do dispositivo** do Android par
 
 Dois pontos dessa descrição importam:
 
-- **Ele registra também os desbloqueios corretos.** Se alguém sabe o seu PIN, você ainda recebe a foto e vê quais aplicativos a pessoa abriu. Esse é o ponto forte do WTMP.
+- **Ele registra também os desbloqueios corretos.** A página dele diz que cada relatório traz uma foto e os aplicativos abertos, mesmo que a pessoa soubesse o seu PIN.
 - **Os relatórios ficam no aplicativo.** A página não menciona alerta por e-mail nem localização. Você vê o que aconteceu quando o celular volta para a sua mão.
 
 ## O que o CrookCatcher faz de diferente
@@ -70,7 +70,7 @@ O que ele não faz: não fotografa quem digita o PIN correto na primeira tentati
 
 ## Qual usar?
 
-- **Alguém em casa ou no trabalho talvez saiba o seu PIN:** WTMP, porque ele registra os desbloqueios corretos e os aplicativos abertos. Depois, troque o PIN.
+- **Outra pessoa talvez saiba o seu PIN:** troque-o primeiro, para que ele deixe de funcionar para ela. Se você também quiser um registro dos desbloqueios corretos no celular, a página do WTMP diz que ele faz isso.
 - **Você pensa em roubo, ou em um celular esquecido em algum lugar:** CrookCatcher, porque a foto e a localização chegam ao seu e-mail enquanto o celular está longe.
 - **Alguém fica tentando adivinhar o seu PIN:** os dois resolvem. O CrookCatcher avisa na hora por e-mail; o WTMP mostra na próxima vez que você abrir o aplicativo.
 
@@ -88,7 +88,7 @@ R: Veja no Bem-estar digital se há desbloqueios que não foram seus. Para saber
 R: O WTMP é gratuito para instalar, e a página dele no Google Play indica compras no aplicativo. O CrookCatcher também é gratuito para instalar; a foto, a localização e o alerta por e-mail estão na versão gratuita.
 
 ### P: O WTMP é seguro?
-R: A seção de segurança dos dados no Google Play informa que nenhum dado é coletado nem compartilhado com terceiros. Como todo aplicativo desse tipo, ele precisa da permissão de Administrador do dispositivo, que tem de ser desativada antes de desinstalar.
+R: Em 14 de novembro de 2026, a seção de segurança dos dados no Google Play informava que nenhum dado era coletado nem compartilhado com terceiros. Como todo aplicativo desse tipo, ele precisa da permissão de Administrador do dispositivo, que tem de ser desativada antes de desinstalar.
 
 ### P: Esses aplicativos funcionam com impressão digital ou desbloqueio facial?
 R: Você pode continuar usando os dois. O CrookCatcher reage a um PIN, padrão ou senha errados; uma tentativa com falha de digital ou rosto não gera foto. A página do WTMP diz que ele registra quando o celular é desbloqueado ou quando há uma tentativa.

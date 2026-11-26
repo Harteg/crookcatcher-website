@@ -103,7 +103,7 @@ CrookCatcher ne verrouille pas vos autres applications. Il surveille l'écran de
   <figcaption>L'e-mail envoyé par CrookCatcher après une tentative de déverrouillage ratée.</figcaption>
 </figure>
 
-Les deux se complètent : le verrouillage d'applications garde vos applications privées fermées, et CrookCatcher vous montre qui a pris le téléphone et essayé d'entrer, que ce soit quelqu'un à la maison ou un voleur. La photo, la position et l'e-mail sont gratuits. Depuis 2014, CrookCatcher a été téléchargé plus de 12 millions de fois. La configuration prend quelques minutes : voir [comment savoir qui a essayé de déverrouiller votre téléphone](/fr/blog/see-who-tried-to-unlock-your-phone).
+Les deux se complètent : le verrouillage d'applications garde vos applications privées fermées, et CrookCatcher vous montre qui a pris le téléphone et essayé d'entrer, quelle que soit la personne. La photo, la position et l'e-mail sont gratuits. Depuis 2014, CrookCatcher a été téléchargé plus de 12 millions de fois. La configuration prend quelques minutes : voir [comment savoir qui a essayé de déverrouiller votre téléphone](/fr/blog/see-who-tried-to-unlock-your-phone).
 
 <AppCta position="guide_mid" />
 

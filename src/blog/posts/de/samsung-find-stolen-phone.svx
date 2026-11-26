@@ -20,10 +20,10 @@ published: false
 Samsung verwendet drei Namen, und das verwirrt:
 
 - **Samsung Find** ist die aktuelle App und Website, um deine Galaxy-Geräte zu finden.
-- **SmartThings Find** ist derselbe Dienst in der SmartThings-App und auf einer eigenen Website. Samsungs Hilfe sagt, dass du beide nutzen kannst.
-- **Find My Mobile** ist der ältere Name. Samsung benutzt ihn noch in den Einstellungen auf dem Handy.
+- **SmartThings Find** gehört zur SmartThings-App. Laut Samsung ist das eine andere App als Samsung Find, aber du kannst mit beiden dein Handy orten.
+- **Find My Mobile** ist ein Name, den du noch in den Einstellungen auf dem Handy siehst, unter dem Schutz für verlorene Geräte.
 
-Bei einem verlorenen Handy führen alle zum selben Ziel. Dieser Ratgeber spricht von Samsung Find.
+Dieser Ratgeber spricht von Samsung Find.
 
 ## So ortest du dein Samsung-Handy
 
@@ -40,11 +40,11 @@ Wenn du ein weiteres Galaxy-Handy oder -Tablet hast, kannst du dort die **Samsun
 ## Was du mit Samsung Find tun kannst
 
 - **Klingeln lassen.** Das Handy klingelt eine Minute lang, auch wenn es stumm oder auf Vibration gestellt ist. Hilfreich, wenn es irgendwo in der Nähe liegt.
-- **Sperren.** Du legst eine PIN fest und kannst einen Notfallkontakt und eine Nachricht für den Sperrbildschirm hinzufügen, damit ein Finder weiß, wen er anrufen soll. Samsung nennt das auch **Lost Mode** und schreibt, dass er den Zugriff auf Samsung Pay und Samsung Pass einschränkt und verhindert, dass das Handy ausgeschaltet wird.
+- **Sperren.** Du legst eine PIN fest und kannst einen Notfallkontakt und eine Nachricht für den Sperrbildschirm hinzufügen, damit ein Finder weiß, wen er anrufen soll. Samsung Find hat außerdem den **Lost Mode**, der laut Samsung den Zugriff auf Samsung Pay und Samsung Pass einschränkt und verhindert, dass das Handy ausgeschaltet wird.
 - **Standort verfolgen.** Du bekommst alle 15 Minuten einen aktualisierten Standort. Samsung empfiehlt das für ein Handy, das im Bus oder Zug liegen geblieben ist oder vielleicht gestohlen wurde.
 - **Akkulaufzeit verlängern.** Schaltet aus der Ferne den maximalen Energiesparmodus ein, damit das Handy länger an bleibt, während du es suchst.
-- **Benachrichtigen, wenn es gefunden wurde.** Kann das Handy gerade nicht geortet werden, schickt Samsung dir eine E-Mail, sobald es wieder geht.
-- **Daten löschen.** Ein Zurücksetzen auf die Werkseinstellungen aus der Ferne. Samsung weist darauf hin, dass auch die SD-Karte gelöscht wird und dass der Geräteschutz von Google aktiv bleibt: Das Handy fragt danach weiterhin nach deinem Google-Konto. Das ist der letzte Schritt, wenn du sicher bist, dass das Handy nicht zurückkommt.
+- **Benachrichtigen, wenn es gefunden wurde.** Kann das Handy gerade nicht geortet werden, kann Samsung Find dich benachrichtigen, sobald es wieder erkannt wird.
+- **Daten löschen.** Ein Zurücksetzen auf die Werkseinstellungen aus der Ferne. Samsung weist darauf hin, dass auch die SD-Karte gelöscht wird und dass der Geräteschutz von Google aktiviert wird, wenn ein Google-Konto auf dem Handy war: Das Handy fragt nach dem Zurücksetzen nach diesem Konto. Das ist der letzte Schritt, wenn du sicher bist, dass das Handy nicht zurückkommt.
 
 Einige dieser Aktionen, darunter das Löschen der Daten, gibt es nur auf der Website, nicht in der App. Wenn du das Handy nicht löschen kannst, empfiehlt Samsung, die Passwörter der Konten zu ändern, die darauf angemeldet sind.
 
@@ -76,7 +76,7 @@ Der erste Handgriff eines Diebs ist meist, das Handy auszuschalten oder den Flug
 
 Ein Standort auf der Karte hilft. Ein Foto der Person, die dein Handy in der Hand hält, aufgenommen an diesem Ort, ist das, womit die Polizei arbeiten kann.
 
-Das ergänzt CrookCatcher. Fast jeder, der ein gesperrtes Handy in die Hand bekommt, probiert ein paar PINs. Bei jedem fehlgeschlagenen Entsperrversuch macht CrookCatcher ein Foto mit der Frontkamera, erfasst den GPS-Standort und eine ungefähre Adresse und schickt dir beides per E-Mail. Die E-Mail liegt in deinem Postfach, auch wenn das Handy eine Minute später ausgeschaltet wird.
+Das ergänzt CrookCatcher. Fast jeder, der ein gesperrtes Handy in die Hand bekommt, probiert ein paar PINs. Bei jedem fehlgeschlagenen Entsperrversuch macht CrookCatcher ein Foto mit der Frontkamera, erfasst den GPS-Standort und eine ungefähre Adresse und schickt dir beides per E-Mail. Die E-Mail liegt in deinem Postfach, auch wenn das Handy eine Minute später ausgeschaltet wird. Hat das Handy in dem Moment keine Verbindung, geht die E-Mail raus, sobald es wieder online ist.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-de.webp" width="990" height="1024" loading="lazy" alt="CrookCatcher-Warn-E-Mail mit dem Foto des Eindringlings, der Uhrzeit des Versuchs und einer Karte mit dem Standort" />
@@ -93,7 +93,7 @@ Es arbeitet neben Samsung Find, nicht statt Samsung Find: Samsung Find ortet und
 A: Nicht live. Samsung schreibt, dass bei einem ausgeschalteten Handy nur der letzte bekannte Standort verfügbar ist, und nur, wenn **Letzten Standort senden** eingeschaltet war. Die Offline-Suche funktioniert, wenn das Handy an ist, aber keine Verbindung hat.
 
 ### Q: Ist Samsung Find dasselbe wie Find My Mobile?
-A: Find My Mobile ist der ältere Name, den Samsung noch in den Einstellungen auf dem Handy verwendet. Samsung Find ist die aktuelle App und Website. Zum Orten eines verlorenen Handys leisten beide dasselbe.
+A: Samsung Find ist die aktuelle App und Website, um ein Galaxy zu orten. Find My Mobile ist ein Name, den du noch in den Einstellungen auf dem Handy siehst, unter dem Schutz für verlorene Geräte. Um ein verlorenes Handy zu orten, nimm Samsung Find.
 
 ### Q: Kann ich mein Samsung-Handy ohne Samsung Account finden?
 A: Nicht mit Samsung Find. Versuche Googles „Mein Gerät finden“ unter [google.com/android/find](https://www.google.com/android/find). Das nutzt das Google-Konto auf dem Handy.

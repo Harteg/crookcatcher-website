@@ -103,7 +103,7 @@ CrookCatcher non blocca le altre tue app. Sorveglia la schermata di blocco. Quan
   <figcaption>L'email che CrookCatcher invia dopo un tentativo di sblocco fallito.</figcaption>
 </figure>
 
-Le due cose si completano: il blocco app tiene chiuse le tue app private, e CrookCatcher ti mostra chi ha preso il telefono e ha provato a entrare, che sia qualcuno di casa o un ladro. La foto, la posizione e l'email sono gratuite. Dal 2014 CrookCatcher è stata scaricata più di 12 milioni di volte. La configurazione richiede pochi minuti: leggi [come scoprire chi ha provato a sbloccare il tuo telefono](/it/blog/see-who-tried-to-unlock-your-phone).
+Le due cose si completano: il blocco app tiene chiuse le tue app private, e CrookCatcher ti mostra chi ha preso il telefono e ha provato a entrare, chiunque sia. La foto, la posizione e l'email sono gratuite. Dal 2014 CrookCatcher è stata scaricata più di 12 milioni di volte. La configurazione richiede pochi minuti: leggi [come scoprire chi ha provato a sbloccare il tuo telefono](/it/blog/see-who-tried-to-unlock-your-phone).
 
 <AppCta position="guide_mid" />
 

@@ -20,10 +20,10 @@ published: false
 A Samsung usa três nomes, o que confunde:
 
 - **Samsung Find** é o aplicativo e o site atuais para encontrar seus dispositivos Galaxy.
-- **SmartThings Find** é o mesmo serviço dentro do aplicativo SmartThings e em um site próprio. A ajuda da Samsung diz que você pode usar qualquer um dos dois.
-- **Find My Mobile** (em alguns aparelhos, *Encontrar meu celular* ou *Buscar meu dispositivo*) é o nome antigo. A Samsung ainda o usa nas configurações do próprio celular.
+- **SmartThings Find** faz parte do aplicativo SmartThings. A Samsung diz que é um aplicativo diferente do Samsung Find, mas que você pode usar qualquer um dos dois para localizar o celular.
+- **Find My Mobile** (em alguns aparelhos, *Encontrar meu celular* ou *Buscar meu dispositivo*) é um nome que você ainda vê nas configurações do próprio celular, em Proteção de dispositivo perdido.
 
-Para um celular perdido, todos levam ao mesmo lugar. Este guia usa Samsung Find.
+Este guia usa Samsung Find.
 
 ## Como localizar um celular Samsung
 
@@ -40,11 +40,11 @@ Se você tem outro celular ou tablet Galaxy, pode usar o **aplicativo Samsung Fi
 ## O que dá para fazer pelo Samsung Find
 
 - **Tocar.** O celular toca por um minuto, mesmo no silencioso ou no modo vibrar. Use quando ele estiver por perto.
-- **Bloquear.** Você cria um PIN e pode adicionar um contato de emergência e uma mensagem para a tela de bloqueio, para quem encontrar saber para quem ligar. A Samsung também chama isso de **modo "Perdido"** e diz que ele restringe o Samsung Pay e o Samsung Pass e impede que o celular seja desligado.
+- **Bloquear.** Você cria um PIN e pode adicionar um contato de emergência e uma mensagem para a tela de bloqueio, para quem encontrar saber para quem ligar. O Samsung Find também tem o **modo "Perdido"**, que, segundo a Samsung, restringe o Samsung Pay e o Samsung Pass e impede que o celular seja desligado.
 - **Acompanhar a localização.** Você recebe a localização atualizada a cada 15 minutos. A Samsung sugere isso para um celular esquecido no ônibus ou no trem, ou que possa ter sido roubado.
 - **Prolongar a duração da bateria.** Ativa à distância o modo de economia máxima de energia, para o celular ficar ligado por mais tempo enquanto você procura.
-- **Notifique-me quando for encontrado.** Se o celular não puder ser localizado agora, a Samsung avisa por e-mail quando ele for.
-- **Apagar dados.** Uma restauração de fábrica à distância. A Samsung avisa que o cartão SD também é apagado e que a proteção do dispositivo do Google continua ativa, então o celular ainda pede a sua conta do Google depois. É o último passo, para quando você tiver certeza de que o celular não volta.
+- **Receber uma notificação quando for encontrado.** Se o celular não puder ser localizado agora, o Samsung Find pode avisar quando ele for detectado de novo.
+- **Apagar dados.** Uma restauração de fábrica à distância. A Samsung avisa que o cartão SD também é apagado e que, se havia uma conta do Google no celular, a proteção do dispositivo do Google é ativada, então o celular pede essa conta depois da restauração. É o último passo, para quando você tiver certeza de que o celular não volta.
 
 Algumas dessas ações, como Apagar dados, só existem no site, não no aplicativo. Se não conseguir apagar o celular, a Samsung recomenda trocar as senhas das contas que estão conectadas nele.
 
@@ -76,7 +76,7 @@ A primeira coisa que um ladrão faz costuma ser desligar o celular ou ativar o m
 
 Uma localização no mapa ajuda. Uma foto da pessoa segurando seu celular, tirada naquele local, é o que a polícia consegue usar.
 
-É isso que o CrookCatcher acrescenta. Quase todo mundo que pega um celular bloqueado tenta alguns PINs. A cada tentativa de desbloqueio com falha, o CrookCatcher tira uma foto com a câmera frontal, registra a localização por GPS e um endereço aproximado e envia tudo para o seu e-mail. O e-mail fica na sua caixa de entrada mesmo que o celular seja desligado um minuto depois.
+É isso que o CrookCatcher acrescenta. Quase todo mundo que pega um celular bloqueado tenta alguns PINs. A cada tentativa de desbloqueio com falha, o CrookCatcher tira uma foto com a câmera frontal, registra a localização por GPS e um endereço aproximado e envia tudo para o seu e-mail. O e-mail fica na sua caixa de entrada mesmo que o celular seja desligado um minuto depois. Se o celular estiver sem conexão nesse momento, o e-mail sai assim que ele se reconectar.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-pt.webp" width="990" height="1051" loading="lazy" alt="E-mail de alerta do CrookCatcher com a foto do intruso, o horário da tentativa e um mapa com a localização" />
@@ -93,7 +93,7 @@ Ele funciona junto com o Samsung Find, não no lugar dele: o Samsung Find locali
 R: Não em tempo real. A Samsung diz que, com o celular desligado, só a última localização conhecida fica disponível, e apenas se **Enviar última localização** estava ativado. A localização off-line funciona quando o celular está ligado mas sem conexão.
 
 ### P: Samsung Find e Find My Mobile são a mesma coisa?
-R: Find My Mobile é o nome antigo, que a Samsung ainda usa nas configurações do celular. Samsung Find é o aplicativo e o site atuais. Para localizar um celular perdido, fazem o mesmo trabalho.
+R: Samsung Find é o aplicativo e o site atuais para localizar um Galaxy. Find My Mobile é um nome que você ainda vê nas configurações do celular, em Proteção de dispositivo perdido. Para localizar um celular perdido, use o Samsung Find.
 
 ### P: Consigo localizar meu celular Samsung sem conta Samsung?
 R: Não com o Samsung Find. Tente o Localizador do Google em [google.com/android/find](https://www.google.com/android/find), que usa a conta do Google que está no celular.

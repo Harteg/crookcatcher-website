@@ -103,7 +103,7 @@ O CrookCatcher não bloqueia os seus outros aplicativos. Ele vigia a tela de blo
   <figcaption>O e-mail que o CrookCatcher envia depois de uma tentativa de desbloqueio com falha.</figcaption>
 </figure>
 
-Os dois se completam: o bloqueio de apps mantém fechados os seus aplicativos privados, e o CrookCatcher mostra quem pegou o celular e tentou entrar, seja alguém de casa ou um ladrão. A foto, a localização e o e-mail são gratuitos. Desde 2014, o CrookCatcher já foi baixado mais de 12 milhões de vezes. A configuração leva poucos minutos: veja [como descobrir quem tentou desbloquear seu celular](/pt/blog/see-who-tried-to-unlock-your-phone).
+Os dois se completam: o bloqueio de apps mantém fechados os seus aplicativos privados, e o CrookCatcher mostra quem pegou o celular e tentou entrar, seja quem for. A foto, a localização e o e-mail são gratuitos. Desde 2014, o CrookCatcher já foi baixado mais de 12 milhões de vezes. A configuração leva poucos minutos: veja [como descobrir quem tentou desbloquear seu celular](/pt/blog/see-who-tried-to-unlock-your-phone).
 
 <AppCta position="guide_mid" />
 

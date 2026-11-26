@@ -28,12 +28,12 @@ O Google diz que o Localizador é ativado automaticamente quando você adiciona 
 
 O celular perdido recebe uma notificação quando você faz isso.
 
-O Google estima a localização por GPS (precisão de até cerca de 20 metros ao ar livre), pelas redes Wi-Fi próximas e pelas torres de celular, que podem errar por alguns quilômetros. O círculo em volta do alfinete mostra a confiança na precisão.
+O Google estima a localização por GPS (precisão de até cerca de 20 metros), pelas redes Wi-Fi próximas e pelas torres de celular (precisão de alguns quilômetros). O círculo em volta do alfinete mostra a confiança na precisão.
 
 ## O que dá para fazer pelo Localizador
 
 - **Reproduzir som.** O celular toca no volume máximo por 5 minutos, mesmo no silencioso ou no modo vibrar.
-- **Marcar como perdido.** Bloqueia o celular com seu PIN, padrão ou senha e permite colocar informações de contato e uma mensagem na tela de bloqueio. No Android 17 ou mais recente, com impressão digital ou desbloqueio facial configurados, o celular passa a exigir o PIN e também a biometria, e esconde notificações e widgets.
+- **Marcar como perdido.** Bloqueia o celular com seu PIN, padrão ou senha e permite colocar informações de contato e uma mensagem na tela de bloqueio. No Android 17 ou mais recente, se o celular também tiver impressão digital ou desbloqueio facial, Marcar como perdido pode adicionar uma segunda etapa: o celular passa a exigir o PIN e também a digital ou o rosto, e bloqueia notificações, widgets e o acesso rápido.
 - **Redefinição de fábrica.** Apaga tudo do celular de forma permanente, embora possa não apagar o cartão SD. Depois disso o celular não aparece mais no Localizador, então deixe para o fim. Se você recuperar o aparelho, vai precisar da senha da sua conta do Google para usá-lo de novo.
 - **Ver o IMEI.** Abra as configurações do dispositivo no Localizador para ver o número IMEI. A operadora pode usá-lo para desativar o aparelho.
 
@@ -79,7 +79,7 @@ Os nomes dos menus mudam um pouco entre as marcas. Se não achar algum, pesquise
 
 Um ponto no mapa diz onde o celular está. Não diz qual das pessoas ali está com ele, e só a localização muitas vezes não basta para a polícia agir.
 
-É essa a lacuna que o CrookCatcher cobre. Quase todo mundo que pega um celular bloqueado tenta alguns PINs. A cada tentativa de desbloqueio com falha, o CrookCatcher tira uma foto com a câmera frontal, registra a localização por GPS e um endereço aproximado e envia tudo para o seu e-mail. O e-mail fica na sua caixa de entrada mesmo que o celular seja desligado um minuto depois.
+É essa a lacuna que o CrookCatcher cobre. Quase todo mundo que pega um celular bloqueado tenta alguns PINs. A cada tentativa de desbloqueio com falha, o CrookCatcher tira uma foto com a câmera frontal, registra a localização por GPS e um endereço aproximado e envia tudo para o seu e-mail. O e-mail fica na sua caixa de entrada mesmo que o celular seja desligado um minuto depois. Se o celular estiver sem conexão nesse momento, o e-mail sai assim que ele se reconectar.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-pt.webp" width="990" height="1051" loading="lazy" alt="E-mail de alerta do CrookCatcher com a foto do intruso, o horário da tentativa e um mapa com a localização" />

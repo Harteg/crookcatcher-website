@@ -28,12 +28,12 @@ Google dice que el Localizador se activa automáticamente cuando agregas una cue
 
 El teléfono perdido recibe una notificación cuando haces esto.
 
-Google calcula la ubicación con el GPS (con un margen de unos 20 metros al aire libre), las redes Wi-Fi cercanas y las torres de telefonía, que pueden fallar por unos pocos miles de metros. El círculo alrededor del pin indica qué tan confiable es la ubicación.
+Google calcula la ubicación con el GPS (con un margen de unos 20 metros), las redes Wi-Fi cercanas y las torres de telefonía (con un margen de unos pocos miles de metros). El círculo alrededor del pin indica qué tan confiable es la ubicación.
 
 ## Qué puedes hacer desde el Localizador
 
 - **Reproducir sonido.** El teléfono suena al volumen máximo durante 5 minutos, aunque esté en silencio o en vibración.
-- **Marcar como perdido.** Bloquea el teléfono con tu PIN, patrón o contraseña y te deja poner información de contacto y un mensaje en la pantalla de bloqueo. En Android 17 o posterior, con huella o desbloqueo facial configurados, el teléfono pide entonces el PIN y también la huella o el rostro, y oculta las notificaciones y los widgets.
+- **Marcar como perdido.** Bloquea el teléfono con tu PIN, patrón o contraseña y te deja poner información de contacto y un mensaje en la pantalla de bloqueo. En Android 17 o posterior, si el teléfono también tiene huella o desbloqueo facial, Marcar como perdido puede agregar un segundo paso: el teléfono pide entonces el PIN y también la huella o el rostro, y bloquea las notificaciones, los widgets y el acceso rápido.
 - **Restablecer la configuración de fábrica.** Borra todo el contenido del teléfono de forma permanente, aunque puede que no borre la tarjeta SD. Después, el teléfono ya no aparece en el Localizador, así que déjalo para el final. Si recuperas el teléfono, necesitarás la contraseña de tu cuenta de Google para volver a usarlo.
 - **Ver el IMEI.** Abre la configuración del dispositivo en el Localizador para ver su número IMEI. Tu operador puede usarlo para inhabilitar el teléfono.
 
@@ -79,7 +79,7 @@ Los nombres de los menús cambian un poco entre marcas. Si no encuentras alguno,
 
 Un punto en un mapa te dice dónde está el teléfono. No te dice cuál de las personas que están ahí lo tiene, y muchas veces la ubicación sola no alcanza para que la policía actúe.
 
-Ese es el vacío que cubre CrookCatcher. Casi todos los que agarran un teléfono bloqueado prueban algunos PIN. Cada vez que falla un intento de desbloqueo, CrookCatcher toma una foto con la cámara frontal, registra la ubicación GPS y una dirección aproximada, y te envía ambas cosas por correo. El correo queda en tu bandeja de entrada aunque apaguen el teléfono un minuto después.
+Ese es el vacío que cubre CrookCatcher. Casi todos los que agarran un teléfono bloqueado prueban algunos PIN. Cada vez que falla un intento de desbloqueo, CrookCatcher toma una foto con la cámara frontal, registra la ubicación GPS y una dirección aproximada, y te envía ambas cosas por correo. El correo queda en tu bandeja de entrada aunque apaguen el teléfono un minuto después. Si el teléfono no tiene conexión en ese momento, el correo se envía en cuanto se vuelve a conectar.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-es.webp" width="990" height="1024" loading="lazy" alt="Correo de alerta de CrookCatcher con la foto del intruso, la hora del intento y un mapa con la ubicación" />

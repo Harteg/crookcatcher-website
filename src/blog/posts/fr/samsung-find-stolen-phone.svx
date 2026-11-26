@@ -20,10 +20,10 @@ published: false
 Samsung utilise trois noms, ce qui prête à confusion :
 
 - **Samsung Find** est l'application et le site actuels pour retrouver vos appareils Galaxy.
-- **SmartThings Find** est le même service dans l'application SmartThings et sur un site à part. L'aide de Samsung indique que vous pouvez utiliser l'un ou l'autre.
-- **Traçage du mobile** (Find My Mobile, parfois *Localiser mon mobile*) est l'ancien nom. Samsung l'utilise encore dans les paramètres du téléphone.
+- **SmartThings Find** fait partie de l'application SmartThings. Samsung précise que c'est une application différente de Samsung Find, mais vous pouvez utiliser l'une ou l'autre pour localiser votre téléphone.
+- **Traçage du mobile** (Find My Mobile, parfois *Localiser mon mobile*) est un nom que vous verrez encore dans les paramètres du téléphone, sous Protection de l'appareil perdu.
 
-Pour un téléphone perdu, tous mènent au même endroit. Ce guide parle de Samsung Find.
+Ce guide parle de Samsung Find.
 
 ## Comment localiser un téléphone Samsung
 
@@ -40,11 +40,11 @@ Si vous avez un autre téléphone ou une tablette Galaxy, vous pouvez y utiliser
 ## Ce que vous pouvez faire depuis Samsung Find
 
 - **Faire sonner.** Le téléphone sonne pendant une minute, même en mode silencieux ou vibreur. Utile quand il est quelque part à proximité.
-- **Verrouiller.** Vous créez un code PIN et pouvez ajouter un contact d'urgence et un message pour l'écran de verrouillage, afin que la personne qui le trouve sache qui appeler. Samsung appelle aussi cela le **mode Perdu** et précise qu'il limite l'accès à Samsung Pay et Samsung Pass et empêche d'éteindre le téléphone.
+- **Verrouiller.** Vous créez un code PIN et pouvez ajouter un contact d'urgence et un message pour l'écran de verrouillage, afin que la personne qui le trouve sache qui appeler. Samsung Find propose aussi le **mode Perdu**, qui, selon Samsung, limite l'accès à Samsung Pay et Samsung Pass et empêche d'éteindre le téléphone.
 - **Suivre la position.** Vous recevez une position mise à jour toutes les 15 minutes. Samsung le conseille pour un téléphone oublié dans un bus ou un train, ou peut-être volé.
 - **Prolonger l'autonomie de la batterie.** Active à distance le mode d'économie d'énergie maximale, pour que le téléphone reste allumé plus longtemps pendant vos recherches.
-- **Être averti quand il est retrouvé.** Si le téléphone ne peut pas être localisé maintenant, Samsung vous envoie un e-mail quand c'est le cas.
-- **Effacer les données.** Une réinitialisation d'usine à distance. Samsung précise que la carte SD est effacée elle aussi et que la protection de l'appareil de Google reste active : le téléphone demandera encore votre compte Google ensuite. À garder pour la fin, quand vous êtes sûr de ne pas récupérer le téléphone.
+- **Être averti quand il est retrouvé.** Si le téléphone ne peut pas être localisé maintenant, Samsung Find peut vous avertir quand il est de nouveau détecté.
+- **Effacer les données.** Une réinitialisation d'usine à distance. Samsung précise que la carte SD est effacée elle aussi et que, si un compte Google était présent sur le téléphone, la protection de l'appareil de Google s'active : le téléphone demandera ce compte après la réinitialisation. À garder pour la fin, quand vous êtes sûr de ne pas récupérer le téléphone.
 
 Certaines de ces actions, dont l'effacement des données, ne sont disponibles que sur le site, pas dans l'application. Si vous ne pouvez pas effacer le téléphone, Samsung recommande de changer les mots de passe des comptes qui y sont connectés.
 
@@ -76,7 +76,7 @@ Le premier geste d'un voleur est souvent d'éteindre le téléphone ou d'activer
 
 Une position sur une carte, c'est utile. Une photo de la personne qui tient votre téléphone, prise à cet endroit, c'est ce que la police peut exploiter.
 
-C'est ce qu'ajoute CrookCatcher. Presque tous ceux qui ramassent un téléphone verrouillé essaient quelques codes. À chaque tentative de déverrouillage ratée, CrookCatcher prend une photo avec la caméra frontale, enregistre la position GPS et une adresse approximative, et vous envoie le tout par e-mail. L'e-mail est dans votre boîte de réception même si le téléphone est éteint une minute plus tard.
+C'est ce qu'ajoute CrookCatcher. Presque tous ceux qui ramassent un téléphone verrouillé essaient quelques codes. À chaque tentative de déverrouillage ratée, CrookCatcher prend une photo avec la caméra frontale, enregistre la position GPS et une adresse approximative, et vous envoie le tout par e-mail. L'e-mail est dans votre boîte de réception même si le téléphone est éteint une minute plus tard. Si le téléphone n'a pas de connexion à ce moment-là, l'e-mail part dès qu'il se reconnecte.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-fr.webp" width="990" height="1101" loading="lazy" alt="E-mail d'alerte CrookCatcher avec la photo de l'intrus, l'heure de la tentative et une carte avec la position" />
@@ -93,7 +93,7 @@ Il fonctionne en complément de Samsung Find, pas à sa place : Samsung Find lo
 R : Pas en direct. Samsung indique que, téléphone éteint, seule la dernière position connue est disponible, et uniquement si **Envoi de la dernière position** était activé. La détection hors ligne fonctionne quand le téléphone est allumé mais sans connexion.
 
 ### Q : Samsung Find et Traçage du mobile, est-ce la même chose ?
-R : Traçage du mobile (Find My Mobile) est l'ancien nom, que Samsung utilise encore dans les paramètres du téléphone. Samsung Find est l'application et le site actuels. Pour localiser un téléphone perdu, ils font le même travail.
+R : Samsung Find est l'application et le site actuels pour localiser un Galaxy. Traçage du mobile (Find My Mobile) est un nom que vous verrez encore dans les paramètres du téléphone, sous Protection de l'appareil perdu. Pour localiser un téléphone perdu, utilisez Samsung Find.
 
 ### Q : Puis-je localiser mon Samsung sans compte Samsung ?
 R : Pas avec Samsung Find. Essayez le service de Google sur [google.com/android/find](https://www.google.com/android/find), qui utilise le compte Google présent sur le téléphone.

@@ -101,7 +101,7 @@ CrookCatcher doesn't lock your other apps. It watches the lock screen. When some
   <figcaption>The email CrookCatcher sends after a failed unlock attempt.</figcaption>
 </figure>
 
-The two fit together: an app lock keeps your private apps closed, and CrookCatcher shows you who picked up the phone and tried to get in, whether that's someone at home or a thief. The photo, location and email are free. CrookCatcher has been downloaded more than 12 million times since 2014. Setup takes a few minutes: see [how to see who tried to unlock your Android phone](/blog/see-who-tried-to-unlock-your-phone).
+The two fit together: an app lock keeps your private apps closed, and CrookCatcher shows you who picked up the phone and tried to get in, whoever it was. The photo, location and email are free. CrookCatcher has been downloaded more than 12 million times since 2014. Setup takes a few minutes: see [how to see who tried to unlock your Android phone](/blog/see-who-tried-to-unlock-your-phone).
 
 <AppCta position="guide_mid" />
 

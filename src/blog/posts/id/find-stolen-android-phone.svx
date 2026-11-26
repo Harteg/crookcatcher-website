@@ -28,12 +28,12 @@ Google menyebut Hub Pencari aktif otomatis saat kamu menambahkan akun Google ke 
 
 Ponsel yang hilang akan mendapat notifikasi saat kamu melakukannya.
 
-Google memperkirakan lokasi dari GPS (akurat hingga sekitar 20 meter di luar ruangan), jaringan Wi-Fi di sekitar, dan menara seluler, yang bisa meleset beberapa ribu meter. Lingkaran di sekitar pin menunjukkan seberapa yakin Hub Pencari.
+Google memperkirakan lokasi dari GPS (akurat hingga sekitar 20 meter), jaringan Wi-Fi di sekitar, dan menara seluler (akurat hingga beberapa ribu meter). Lingkaran di sekitar pin menunjukkan seberapa yakin Hub Pencari.
 
 ## Yang bisa kamu lakukan dari Hub Pencari
 
 - **Putar suara.** Ponsel berdering dengan volume maksimum selama 5 menit, meskipun disetel ke mode senyap atau getar.
-- **Tandai hilang.** Mengunci ponsel dengan PIN, pola, atau sandimu, dan kamu bisa menampilkan info kontak serta pesan di layar kunci. Di Android 17 dan yang lebih baru, kalau sidik jari atau buka dengan wajah sudah disiapkan, ponsel lalu meminta PIN sekaligus biometrik, dan menyembunyikan notifikasi serta widget.
+- **Tandai hilang.** Mengunci ponsel dengan PIN, pola, atau sandimu, dan kamu bisa menampilkan info kontak serta pesan di layar kunci. Di Android 17 dan yang lebih baru, kalau ponsel juga punya sidik jari atau buka dengan wajah, Tandai hilang bisa menambahkan langkah kedua: ponsel lalu meminta PIN sekaligus sidik jari atau wajah, dan memblokir notifikasi, widget, serta akses cepat.
 - **Reset ke setelan pabrik.** Menghapus permanen semua data di ponsel, tetapi mungkin tidak menghapus kartu SD. Setelah direset, ponsel tidak lagi tersedia di Hub Pencari, jadi simpan ini untuk terakhir. Kalau ponsel kembali, kamu perlu sandi akun Google untuk memakainya lagi.
 - **Melihat IMEI.** Buka setelan perangkat di Hub Pencari untuk melihat nomor IMEI-nya. Operator selulermu bisa memakainya untuk menonaktifkan ponsel.
 
@@ -79,7 +79,7 @@ Nama menu sedikit berbeda antarmerek. Kalau tidak menemukannya, cari "Hub Pencar
 
 Titik di peta memberi tahu di mana ponselmu. Titik itu tidak memberi tahu siapa di antara orang-orang di sana yang memegangnya, dan lokasi saja sering tidak cukup bagi polisi untuk bertindak.
 
-Itulah celah yang diisi CrookCatcher. Hampir semua orang yang mengambil ponsel terkunci akan mencoba beberapa PIN. Setiap kali percobaan buka kunci gagal, CrookCatcher mengambil foto dengan kamera depan, mencatat lokasi GPS dan perkiraan alamat, lalu mengirim keduanya ke emailmu. Email itu ada di kotak masukmu meskipun ponsel dimatikan semenit kemudian.
+Itulah celah yang diisi CrookCatcher. Hampir semua orang yang mengambil ponsel terkunci akan mencoba beberapa PIN. Setiap kali percobaan buka kunci gagal, CrookCatcher mengambil foto dengan kamera depan, mencatat lokasi GPS dan perkiraan alamat, lalu mengirim keduanya ke emailmu. Email itu ada di kotak masukmu meskipun ponsel dimatikan semenit kemudian. Kalau saat itu ponsel tidak terhubung ke internet, email dikirim begitu ponsel tersambung lagi.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-id.webp" width="990" height="1024" loading="lazy" alt="Email peringatan CrookCatcher dengan foto penyusup, waktu percobaan, dan peta lokasi" />

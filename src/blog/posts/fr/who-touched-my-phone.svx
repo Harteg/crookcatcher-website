@@ -13,7 +13,7 @@ published: false
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**Android ne peut pas vous dire qui a touché à votre téléphone. Il ne garde aucune liste des personnes qui l'ont déverrouillé et ne prend jamais de photo.** Pour le savoir, il faut une application qui utilise la caméra frontale quand quelqu'un déverrouille le téléphone ou se trompe de code. La plus connue est WTMP, pour « Who Touched My Phone » (qui a touché à mon téléphone), qui enregistre à chaque fois un rapport sur le téléphone. CrookCatcher prend une photo quand quelqu'un saisit un mauvais code et vous l'envoie par e-mail avec la position. Le bon choix dépend de ce que vous craignez : quelqu'un à la maison, ou un vol.
+**Android ne peut pas vous dire qui a touché à votre téléphone. Il ne garde aucune liste des personnes qui l'ont déverrouillé et ne prend jamais de photo.** Pour le savoir, il faut une application qui utilise la caméra frontale quand quelqu'un déverrouille le téléphone ou se trompe de code. La plus connue est WTMP, pour « Who Touched My Phone » (qui a touché à mon téléphone), qui enregistre à chaque fois un rapport sur le téléphone. CrookCatcher prend une photo quand quelqu'un saisit un mauvais code et vous l'envoie par e-mail avec la position. Le bon choix dépend de ce que vous voulez : un historique à consulter plus tard sur le téléphone, ou une photo et une position envoyées pendant que le téléphone n'est plus entre vos mains.
 
 Nous éditons CrookCatcher, gardez-le en tête en lisant. Ce qui est dit de WTMP vient de sa propre fiche Google Play, telle qu'elle était le 14 novembre 2026. Ce guide parle de la protection de votre propre téléphone.
 
@@ -36,7 +36,7 @@ L'application utilise l'autorisation **Administrateur de l'appareil** d'Android 
 
 Deux points de cette description comptent :
 
-- **Elle enregistre aussi les déverrouillages réussis.** Si quelqu'un connaît votre code, vous avez quand même sa photo et la liste des applications qu'il a ouvertes. C'est le point fort de WTMP.
+- **Elle enregistre aussi les déverrouillages réussis.** Sa fiche indique que chaque rapport contient une photo et les applications ouvertes, même si la personne connaissait votre code.
 - **Les rapports restent dans l'application.** La fiche ne mentionne ni alerte par e-mail ni position. Vous voyez ce qui s'est passé une fois le téléphone revenu entre vos mains.
 
 ## Ce que CrookCatcher fait différemment
@@ -70,7 +70,7 @@ Ce qu'il ne fait pas : il ne photographie pas quelqu'un qui saisit le bon code 
 
 ## Laquelle choisir ?
 
-- **Quelqu'un à la maison ou au travail connaît peut-être votre code :** WTMP, parce qu'il enregistre les déverrouillages réussis et les applications ouvertes. Changez ensuite de code.
+- **Quelqu'un d'autre connaît peut-être votre code :** changez-le d'abord, pour qu'il ne fonctionne plus pour cette personne. Si vous voulez aussi un historique des déverrouillages réussis sur le téléphone, la fiche de WTMP indique qu'il le fait.
 - **Vous pensez au vol, ou à un téléphone oublié quelque part :** CrookCatcher, parce que la photo et la position arrivent dans vos e-mails pendant que le téléphone est loin.
 - **Quelqu'un essaie sans cesse de deviner votre code :** les deux conviennent. CrookCatcher vous prévient tout de suite par e-mail ; WTMP vous le montre à la prochaine ouverture de l'application.
 
@@ -88,7 +88,7 @@ R : Regardez dans le Bien-être numérique s'il y a des déverrouillages qui ne
 R : WTMP est gratuit à installer, et sa fiche Google Play indique des achats intégrés. CrookCatcher est gratuit à installer lui aussi ; la photo, la position et l'alerte par e-mail font partie de la version gratuite.
 
 ### Q : WTMP est-elle une application sûre ?
-R : Sa section Sécurité des données sur Google Play indique qu'aucune donnée n'est collectée ni partagée avec des tiers. Comme toutes les applications de ce type, elle a besoin de l'autorisation Administrateur de l'appareil, à désactiver avant de pouvoir la désinstaller.
+R : Au 14 novembre 2026, sa section Sécurité des données sur Google Play indiquait qu'aucune donnée n'était collectée ni partagée avec des tiers. Comme toutes les applications de ce type, elle a besoin de l'autorisation Administrateur de l'appareil, à désactiver avant de pouvoir la désinstaller.
 
 ### Q : Ces applications fonctionnent-elles avec l'empreinte ou la reconnaissance faciale ?
 R : Vous pouvez continuer à utiliser les deux. CrookCatcher réagit à un code PIN, un schéma ou un mot de passe incorrect ; un échec d'empreinte ou de visage ne déclenche pas de photo. La fiche de WTMP indique qu'il enregistre quand le téléphone est déverrouillé ou qu'un déverrouillage est tenté.

@@ -104,7 +104,7 @@ CrookCatcher は、ほかのアプリをロックするものではありませ�
   <figcaption>ロック解除の失敗後に CrookCatcher が送るメール。</figcaption>
 </figure>
 
-2 つは組み合わせて使えます。アプリロックが見られたくないアプリを閉じたままにし、CrookCatcher が、スマホを手に取って入ろうとした人を写します。家の中の誰かでも、泥棒でも同じです。写真、位置情報、メールは無料です。CrookCatcher は 2014 年から 1,200 万回以上ダウンロードされています。設定は数分で終わります。[ロックを解除しようとした人を写真で確認する方法](/ja/blog/see-who-tried-to-unlock-your-phone)をご覧ください。
+2 つは組み合わせて使えます。アプリロックが見られたくないアプリを閉じたままにし、CrookCatcher が、スマホを手に取って入ろうとした人を、誰であっても写真に撮ります。写真、位置情報、メールは無料です。CrookCatcher は 2014 年から 1,200 万回以上ダウンロードされています。設定は数分で終わります。[ロックを解除しようとした人を写真で確認する方法](/ja/blog/see-who-tried-to-unlock-your-phone)をご覧ください。
 
 <AppCta position="guide_mid" />
 

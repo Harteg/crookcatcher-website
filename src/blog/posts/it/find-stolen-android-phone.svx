@@ -28,12 +28,12 @@ Google dice che Find Hub si attiva in automatico quando aggiungi un account Goog
 
 Il telefono smarrito riceve una notifica quando lo fai.
 
-Google stima la posizione dal GPS (preciso fino a circa 20 metri all'aperto), dalle reti Wi-Fi vicine e dai ripetitori, che possono sbagliare di qualche migliaio di metri. Il cerchio intorno al segnaposto indica quanto è affidabile la posizione.
+Google stima la posizione dal GPS (preciso fino a circa 20 metri), dalle reti Wi-Fi vicine e dai ripetitori (precisi fino a qualche migliaio di metri). Il cerchio intorno al segnaposto indica quanto è affidabile la posizione.
 
 ## Cosa puoi fare da Find Hub
 
 - **Riproduci audio.** Il telefono squilla a tutto volume per cinque minuti, anche se è in modalità silenziosa o vibrazione.
-- **Contrassegna come smarrito.** Blocca il telefono con il tuo PIN, la sequenza o la password e ti permette di mostrare i dati di contatto e un messaggio sulla schermata di blocco. Su Android 17 o versioni successive, con l'impronta o il volto configurati, il telefono richiede sia il PIN sia la biometria e nasconde notifiche e widget.
+- **Contrassegna come smarrito.** Blocca il telefono con il tuo PIN, la sequenza o la password e ti permette di mostrare i dati di contatto e un messaggio sulla schermata di blocco. Su Android 17 o versioni successive, se il telefono ha anche lo sblocco con impronta o volto, Contrassegna come smarrito può aggiungere un secondo passaggio: il telefono richiede sia il PIN sia l'impronta o il volto e blocca notifiche, widget e accesso rapido.
 - **Ripristino dei dati di fabbrica.** Elimina definitivamente tutto dal telefono, ma potrebbe non cancellare la scheda SD. Dopo il ripristino il telefono non è più disponibile in Find Hub, quindi lascialo per ultimo. Se lo recuperi, ti servirà la password del tuo account Google per usarlo di nuovo.
 - **Vedere l'IMEI.** Apri le impostazioni del dispositivo in Find Hub per vedere il numero IMEI. Il tuo operatore può usarlo per disattivare il telefono.
 
@@ -79,7 +79,7 @@ I nomi dei menu cambiano un po' da una marca all'altra. Se non ne trovi uno, cer
 
 Un punto su una mappa ti dice dov'è il telefono. Non ti dice quale delle persone lì presenti ce l'ha, e la sola posizione spesso non basta alla polizia per intervenire.
 
-È il vuoto che colma CrookCatcher. Quasi tutti quelli che prendono in mano un telefono bloccato provano qualche PIN. A ogni tentativo di sblocco fallito, CrookCatcher scatta una foto con la fotocamera frontale, registra la posizione GPS e un indirizzo approssimativo e ti invia tutto via email. L'email resta nella tua casella anche se il telefono viene spento un minuto dopo.
+È il vuoto che colma CrookCatcher. Quasi tutti quelli che prendono in mano un telefono bloccato provano qualche PIN. A ogni tentativo di sblocco fallito, CrookCatcher scatta una foto con la fotocamera frontale, registra la posizione GPS e un indirizzo approssimativo e ti invia tutto via email. L'email resta nella tua casella anche se il telefono viene spento un minuto dopo. Se in quel momento il telefono non ha connessione, l'email parte appena si riconnette.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-it.webp" width="990" height="1024" loading="lazy" alt="Email di avviso di CrookCatcher con la foto dell'intruso, l'ora del tentativo e una mappa della posizione" />

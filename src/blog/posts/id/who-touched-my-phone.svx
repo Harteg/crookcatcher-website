@@ -13,7 +13,7 @@ published: false
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**Android tidak bisa memberi tahu siapa yang membuka ponselmu. Android tidak menyimpan daftar siapa yang membuka kuncinya dan tidak pernah mengambil foto.** Untuk mengetahuinya, kamu perlu aplikasi yang memakai kamera depan saat seseorang membuka kunci ponsel atau salah memasukkan PIN. Yang paling dikenal adalah WTMP, singkatan dari "Who Touched My Phone" (siapa yang menyentuh ponselku), yang menyimpan laporan di ponsel setiap kali itu terjadi. CrookCatcher mengambil foto saat seseorang memasukkan PIN yang salah dan mengirimkannya ke emailmu bersama lokasinya. Mana yang cocok bergantung pada apa yang kamu khawatirkan: orang di rumah, atau pencurian.
+**Android tidak bisa memberi tahu siapa yang membuka ponselmu. Android tidak menyimpan daftar siapa yang membuka kuncinya dan tidak pernah mengambil foto.** Untuk mengetahuinya, kamu perlu aplikasi yang memakai kamera depan saat seseorang membuka kunci ponsel atau salah memasukkan PIN. Yang paling dikenal adalah WTMP, singkatan dari "Who Touched My Phone" (siapa yang menyentuh ponselku), yang menyimpan laporan di ponsel setiap kali itu terjadi. CrookCatcher mengambil foto saat seseorang memasukkan PIN yang salah dan mengirimkannya ke emailmu bersama lokasinya. Mana yang cocok bergantung pada apa yang kamu mau: catatan yang kamu baca di ponsel nanti, atau foto dan lokasi yang dikirim kepadamu selagi ponsel tidak di tanganmu.
 
 Kami yang membuat CrookCatcher, jadi bacalah dengan mengingat hal itu. Keterangan tentang WTMP diambil dari halaman Google Play aplikasinya sendiri per 14 November 2026. Panduan ini tentang melindungi ponselmu sendiri.
 
@@ -36,7 +36,7 @@ Aplikasi ini memakai izin **Admin perangkat** Android untuk mengetahui percobaan
 
 Dua hal dari keterangan itu penting:
 
-- **Aplikasi ini juga mencatat buka kunci yang benar.** Kalau seseorang tahu PIN-mu, kamu tetap mendapat fotonya dan melihat aplikasi apa yang ia buka. Itu kelebihan WTMP.
+- **Aplikasi ini juga mencatat buka kunci yang benar.** Menurut halamannya, setiap laporan berisi foto dan aplikasi yang dibuka, meskipun orang itu tahu PIN-mu.
 - **Laporannya tetap di aplikasi.** Halamannya tidak menyebut peringatan email atau lokasi. Kamu melihat apa yang terjadi saat ponsel sudah kembali di tanganmu.
 
 ## Yang dilakukan CrookCatcher secara berbeda
@@ -70,7 +70,7 @@ Yang tidak dilakukannya: tidak memotret orang yang memasukkan PIN yang benar pad
 
 ## Mana yang sebaiknya dipakai?
 
-- **Seseorang di rumah atau di kantor mungkin tahu PIN-mu:** WTMP, karena mencatat buka kunci yang benar dan aplikasi yang dibuka. Setelah itu, ganti PIN-mu.
+- **Orang lain mungkin tahu PIN-mu:** ganti dulu PIN-nya, supaya tidak bisa dipakai lagi oleh orang itu. Kalau kamu juga ingin catatan buka kunci yang benar di ponsel, halaman WTMP menyebut aplikasinya bisa melakukannya.
 - **Kamu memikirkan pencurian, atau ponsel yang tertinggal di suatu tempat:** CrookCatcher, karena foto dan lokasinya sampai ke emailmu saat ponsel tidak ada padamu.
 - **Seseorang terus menebak PIN-mu:** keduanya bisa. CrookCatcher langsung memberi tahu lewat email; WTMP menunjukkannya saat kamu membuka aplikasi berikutnya.
 
@@ -88,7 +88,7 @@ A: Periksa di Kesejahteraan Digital apakah ada buka kunci yang bukan darimu. Unt
 A: WTMP gratis dipasang, dan halaman Google Play-nya menyebut pembelian dalam aplikasi. CrookCatcher juga gratis dipasang; foto, lokasi, dan peringatan email sudah ada di versi gratis.
 
 ### Q: Apakah aplikasi WTMP aman?
-A: Bagian keamanan data di Google Play menyebut tidak ada data yang dikumpulkan dan tidak ada yang dibagikan ke pihak ketiga. Seperti semua aplikasi sejenis, WTMP butuh izin Admin perangkat, yang harus dinonaktifkan dulu sebelum aplikasi bisa dihapus.
+A: Per 14 November 2026, bagian keamanan data di Google Play menyebut tidak ada data yang dikumpulkan dan tidak ada yang dibagikan ke pihak ketiga. Seperti semua aplikasi sejenis, WTMP butuh izin Admin perangkat, yang harus dinonaktifkan dulu sebelum aplikasi bisa dihapus.
 
 ### Q: Apakah aplikasi ini bekerja dengan sidik jari atau buka kunci wajah?
 A: Kamu tetap bisa memakai keduanya. CrookCatcher bereaksi terhadap PIN, pola, atau sandi yang salah; sidik jari atau wajah yang gagal tidak memicu foto. Halaman WTMP menyebut aplikasinya mencatat saat ponsel dibuka kuncinya atau saat ada percobaan.

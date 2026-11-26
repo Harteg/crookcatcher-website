@@ -20,10 +20,10 @@ published: false
 Samsung uses three names, which is confusing:
 
 - **Samsung Find** is the current app and website for finding your Galaxy devices.
-- **SmartThings Find** is the same finding service inside Samsung's SmartThings app and on its own website. Samsung's help page says you can use either one.
-- **Find My Mobile** is the older name. Samsung still uses it for the settings on the phone itself.
+- **SmartThings Find** is part of Samsung's SmartThings app. Samsung says it's a different app from Samsung Find, but you can use either one to locate your phone.
+- **Find My Mobile** is a name you'll still see in the phone's own settings, under Lost device protection.
 
-For a lost phone they all lead to the same place. This guide uses Samsung Find.
+This guide uses Samsung Find.
 
 ## How to find your Samsung phone
 
@@ -40,11 +40,11 @@ If you have another Galaxy phone or tablet, you can use the **Samsung Find app**
 ## What you can do from Samsung Find
 
 - **Ring.** The phone plays a ringtone for one minute, even if it's set to mute or vibrate. Use this when it's somewhere nearby.
-- **Lock.** You create a PIN and can add an emergency contact and a message for the lock screen, so a finder knows who to call. Samsung also calls this **Lost mode**, and says it restricts Samsung Pay and Samsung Pass and prevents the phone from being turned off.
+- **Lock.** You create a PIN and can add an emergency contact and a message for the lock screen, so a finder knows who to call. Samsung Find also has **Lost mode**, which Samsung says restricts Samsung Pay and Samsung Pass and prevents the phone from being turned off.
 - **Track location.** You get an updated location every 15 minutes. Samsung suggests it for a phone left on a bus or train, or one that may have been stolen.
 - **Extend battery life.** This turns on Maximum power saving mode remotely, so the phone stays on longer while you look for it.
-- **Notify me when it's found.** If the phone can't be located right now, Samsung emails you when it is.
-- **Erase data.** A remote factory reset. Samsung notes that an SD card in the phone is erased too, and that Google device protection stays active, so the phone still asks for your Google account afterwards. Treat this as the last step, when you're sure the phone isn't coming back.
+- **Get notified when it's found.** If the phone can't be located right now, Samsung Find can notify you when it's detected again.
+- **Erase data.** A remote factory reset. Samsung notes that an SD card in the phone is erased too, and that if a Google account was on the phone, Google device protection is activated, so the phone asks for that account after the reset. Treat this as the last step, when you're sure the phone isn't coming back.
 
 Some of these, including Erase data, are only on the website and not in the app. If you can't erase the phone, Samsung recommends changing the passwords of the accounts that are signed in on it.
 
@@ -76,7 +76,7 @@ A thief's first move is usually to switch the phone off or turn on airplane mode
 
 A location on a map is useful. A photo of the person holding your phone, taken at that location, is what the police can act on.
 
-That's what CrookCatcher adds. Almost everyone who picks up a locked phone tries a few PINs. Each time an unlock attempt fails, CrookCatcher takes a photo with the front camera, records the GPS location and an approximate address, and emails both to you. The email is in your inbox even if the phone is switched off a minute later.
+That's what CrookCatcher adds. Almost everyone who picks up a locked phone tries a few PINs. Each time an unlock attempt fails, CrookCatcher takes a photo with the front camera, records the GPS location and an approximate address, and emails both to you. The email is in your inbox even if the phone is switched off a minute later. If the phone has no connection at that moment, the email goes out as soon as it reconnects.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/hero-alert-800.webp" srcset="/images/hero-alert-480.webp 480w, /images/hero-alert-800.webp 800w, /images/hero-alert-990.webp 990w" sizes="(min-width: 600px) 540px, 100vw" width="990" height="1024" loading="lazy" alt="CrookCatcher email alert with the intruder's photo, the time of the attempt and a map of the location" />
@@ -93,7 +93,7 @@ It works alongside Samsung Find, not instead of it: Samsung Find locates and loc
 A: Not live. Samsung says that when a phone is powered off, only its last known location is available, and only if **Send last location** was on. Offline finding works when the phone is on but has no connection.
 
 ### Q: Is Samsung Find the same as Find My Mobile?
-A: Find My Mobile is the older name, and Samsung still uses it for the settings on the phone. Samsung Find is the current app and website. For locating a lost phone they do the same job.
+A: Samsung Find is the current app and website for locating a Galaxy. Find My Mobile is a name you'll still see in the phone's settings, under Lost device protection. To locate a lost phone, use Samsung Find.
 
 ### Q: Can I find my Samsung phone without a Samsung account?
 A: Not with Samsung Find. Try Google's Find Hub at [google.com/android/find](https://www.google.com/android/find), which uses the Google account on the phone.

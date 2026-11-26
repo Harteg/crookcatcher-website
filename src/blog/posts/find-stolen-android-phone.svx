@@ -28,12 +28,12 @@ Google says Find Hub is turned on automatically when you add a Google account to
 
 The lost phone gets a notification when you do this.
 
-Google estimates the location from GPS (accurate to around 20 meters outdoors), nearby Wi-Fi networks and cell towers, which can be off by up to a few thousand meters. The circle around the pin shows how confident Find Hub is.
+Google estimates the location from GPS (accurate to around 20 meters), nearby Wi-Fi networks and cell towers (accurate to a few thousand meters). The circle around the pin shows how confident Find Hub is.
 
 ## What you can do from Find Hub
 
 - **Play sound.** The phone rings at full volume for 5 minutes, even if it's set to silent or vibrate.
-- **Mark as lost.** This locks the phone with your PIN, pattern or password and lets you put contact information and a message on the lock screen. On Android 17 and later, with fingerprint or face unlock set up, the phone then needs both your PIN and your fingerprint or face, and hides notifications and widgets.
+- **Mark as lost.** This locks the phone with your PIN, pattern or password and lets you put contact information and a message on the lock screen. On Android 17 and later, if the phone also has fingerprint or face unlock, Mark as lost can add a second step: the phone then needs your PIN and your fingerprint or face, and blocks notifications, widgets and quick access.
 - **Factory reset.** This permanently deletes everything on the phone, though it may not erase an SD card. After a reset the phone no longer appears in Find Hub, so do this last. If you get the phone back, you'll need your Google account password to use it again.
 - **See the IMEI.** Open the device's settings in Find Hub to see its IMEI number. Your mobile provider can use it to disable the phone.
 
@@ -79,7 +79,7 @@ Menu names differ a little between brands. If you can't find one, search for "Fi
 
 A dot on a map tells you where the phone is. It doesn't tell you which of the people there has it, and a location alone often isn't enough for the police to act.
 
-That's the gap CrookCatcher fills. Almost everyone who picks up a locked phone tries a few PINs. Each time an unlock attempt fails, CrookCatcher takes a photo with the front camera, records the GPS location and an approximate address, and emails both to you. The email is in your inbox even if the phone is switched off a minute later.
+That's the gap CrookCatcher fills. Almost everyone who picks up a locked phone tries a few PINs. Each time an unlock attempt fails, CrookCatcher takes a photo with the front camera, records the GPS location and an approximate address, and emails both to you. The email is in your inbox even if the phone is switched off a minute later. If the phone has no connection at that moment, the email goes out as soon as it reconnects.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/hero-alert-800.webp" srcset="/images/hero-alert-480.webp 480w, /images/hero-alert-800.webp 800w, /images/hero-alert-990.webp 990w" sizes="(min-width: 600px) 540px, 100vw" width="990" height="1024" loading="lazy" alt="CrookCatcher email alert with the intruder's photo, the time of the attempt and a map of the location" />

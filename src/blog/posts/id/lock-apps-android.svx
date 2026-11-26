@@ -103,7 +103,7 @@ CrookCatcher tidak mengunci aplikasimu yang lain. CrookCatcher mengawasi layar k
   <figcaption>Email yang dikirim CrookCatcher setelah percobaan buka kunci yang gagal.</figcaption>
 </figure>
 
-Keduanya saling melengkapi: kunci aplikasi menjaga aplikasi pribadimu tetap tertutup, dan CrookCatcher menunjukkan siapa yang mengambil ponsel dan mencoba masuk, entah orang di rumah atau pencuri. Foto, lokasi, dan emailnya gratis. Sejak 2014, CrookCatcher sudah diunduh lebih dari 12 juta kali. Penyiapannya hanya beberapa menit: baca [cara melihat siapa yang mencoba membuka ponselmu](/id/blog/see-who-tried-to-unlock-your-phone).
+Keduanya saling melengkapi: kunci aplikasi menjaga aplikasi pribadimu tetap tertutup, dan CrookCatcher menunjukkan siapa yang mengambil ponsel dan mencoba masuk, siapa pun orangnya. Foto, lokasi, dan emailnya gratis. Sejak 2014, CrookCatcher sudah diunduh lebih dari 12 juta kali. Penyiapannya hanya beberapa menit: baca [cara melihat siapa yang mencoba membuka ponselmu](/id/blog/see-who-tried-to-unlock-your-phone).
 
 <AppCta position="guide_mid" />
 

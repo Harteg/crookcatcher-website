@@ -13,7 +13,7 @@ published: false
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**Android kann dir nicht sagen, wer an deinem Handy war. Es führt keine Liste darüber, wer es entsperrt hat, und macht nie ein Foto.** Um es herauszufinden, brauchst du eine App, die die Frontkamera nutzt, wenn jemand das Handy entsperrt oder die PIN falsch eingibt. Die bekannteste ist WTMP, kurz für „Who Touched My Phone“ (wer hat mein Handy angefasst), die jedes Mal einen Bericht auf dem Handy speichert. CrookCatcher macht ein Foto, wenn jemand eine falsche PIN eingibt, und schickt es dir mit dem Standort per E-Mail. Welche besser passt, hängt davon ab, ob du an jemanden zu Hause denkst oder an Diebstahl.
+**Android kann dir nicht sagen, wer an deinem Handy war. Es führt keine Liste darüber, wer es entsperrt hat, und macht nie ein Foto.** Um es herauszufinden, brauchst du eine App, die die Frontkamera nutzt, wenn jemand das Handy entsperrt oder die PIN falsch eingibt. Die bekannteste ist WTMP, kurz für „Who Touched My Phone“ (wer hat mein Handy angefasst), die jedes Mal einen Bericht auf dem Handy speichert. CrookCatcher macht ein Foto, wenn jemand eine falsche PIN eingibt, und schickt es dir mit dem Standort per E-Mail. Welche besser passt, hängt davon ab, was du willst: einen Bericht, den du später auf dem Handy liest, oder ein Foto mit Standort, das dich erreicht, während das Handy nicht bei dir ist.
 
 Wir entwickeln CrookCatcher, lies das also mit diesem Wissen. Was hier über WTMP steht, stammt aus dem eigenen Google-Play-Eintrag der App, Stand 14. November 2026. In diesem Ratgeber geht es darum, dein eigenes Handy zu schützen.
 
@@ -36,7 +36,7 @@ Die App nutzt die Android-Berechtigung **Geräteadministrator**, um falsche Ents
 
 Zwei Punkte dieser Beschreibung sind wichtig:
 
-- **Sie zeichnet auch richtige Entsperrungen auf.** Kennt jemand deine PIN, bekommst du trotzdem sein Foto und siehst, welche Apps er geöffnet hat. Das ist die Stärke von WTMP.
+- **Sie zeichnet auch richtige Entsperrungen auf.** Laut Eintrag enthält jeder Bericht ein Foto und die geöffneten Apps, auch wenn die Person deine PIN kannte.
 - **Die Berichte bleiben in der App.** Der Eintrag erwähnt keine E-Mail-Warnung und keinen Standort. Du siehst, was passiert ist, wenn du das Handy wieder in der Hand hast.
 
 ## Was CrookCatcher anders macht
@@ -70,7 +70,7 @@ Was es nicht tut: Es fotografiert niemanden, der die richtige PIN beim ersten Ve
 
 ## Welche App solltest du nehmen?
 
-- **Jemand zu Hause oder bei der Arbeit kennt vielleicht deine PIN:** WTMP, weil es richtige Entsperrungen und die geöffneten Apps aufzeichnet. Ändere danach deine PIN.
+- **Jemand anderes kennt vielleicht deine PIN:** Ändere sie zuerst, damit sie für diese Person nicht mehr funktioniert. Wenn du zusätzlich richtige Entsperrungen auf dem Handy festhalten willst: Laut Eintrag kann WTMP das.
 - **Du denkst an Diebstahl oder an ein irgendwo liegen gelassenes Handy:** CrookCatcher, weil Foto und Standort in deinem Postfach ankommen, während das Handy weg ist.
 - **Jemand rät immer wieder deine PIN:** Beide erledigen das. CrookCatcher sagt es dir sofort per E-Mail, WTMP zeigt es dir, wenn du die App das nächste Mal öffnest.
 
@@ -88,7 +88,7 @@ A: Sieh in Digital Wellbeing nach, ob es Entsperrungen gibt, die nicht von dir s
 A: WTMP lässt sich kostenlos installieren, und der Google-Play-Eintrag nennt In-App-Käufe. Auch CrookCatcher ist kostenlos zu installieren. Foto, Standort und E-Mail-Warnung gehören zur kostenlosen Version.
 
 ### Q: Ist WTMP sicher?
-A: Im Abschnitt zur Datensicherheit bei Google Play steht, dass keine Daten erhoben und keine mit Dritten geteilt werden. Wie jede App dieser Art braucht sie die Berechtigung Geräteadministrator, die du vor dem Deinstallieren wieder ausschalten musst.
+A: Am 14. November 2026 stand im Abschnitt zur Datensicherheit bei Google Play, dass keine Daten erhoben und keine mit Dritten geteilt werden. Wie jede App dieser Art braucht sie die Berechtigung Geräteadministrator, die du vor dem Deinstallieren wieder ausschalten musst.
 
 ### Q: Funktionieren diese Apps mit Fingerabdruck oder Gesichtserkennung?
 A: Du kannst beides weiter nutzen. CrookCatcher reagiert auf eine falsche PIN, ein falsches Muster oder Passwort. Ein fehlgeschlagener Fingerabdruck- oder Gesichtsversuch löst kein Foto aus. Im Eintrag von WTMP steht, dass es aufzeichnet, wenn das Handy entsperrt wird oder jemand es versucht.

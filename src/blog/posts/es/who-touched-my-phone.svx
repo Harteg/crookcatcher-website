@@ -13,7 +13,7 @@ published: false
   import AppCta from '$lib/components/AppCta.svelte';
 </script>
 
-**Android no puede decirte quién tocó tu teléfono. No guarda una lista de quién lo desbloqueó y nunca toma una foto.** Para saberlo necesitas una app que use la cámara frontal cuando alguien desbloquea el teléfono o se equivoca de PIN. La más conocida es WTMP, sigla de "Who Touched My Phone" (quién tocó mi teléfono), que guarda un informe en el teléfono cada vez. CrookCatcher toma una foto cuando alguien ingresa un PIN incorrecto y te la envía por correo con la ubicación. Cuál te conviene depende de si piensas en alguien de tu casa o en un robo.
+**Android no puede decirte quién tocó tu teléfono. No guarda una lista de quién lo desbloqueó y nunca toma una foto.** Para saberlo necesitas una app que use la cámara frontal cuando alguien desbloquea el teléfono o se equivoca de PIN. La más conocida es WTMP, sigla de "Who Touched My Phone" (quién tocó mi teléfono), que guarda un informe en el teléfono cada vez. CrookCatcher toma una foto cuando alguien ingresa un PIN incorrecto y te la envía por correo con la ubicación. Cuál te conviene depende de lo que quieras: un registro para ver en el teléfono más tarde, o una foto y la ubicación enviadas a ti mientras el teléfono no está en tus manos.
 
 Nosotros hacemos CrookCatcher, así que léelo teniendo eso en cuenta. Lo que decimos de WTMP viene de su propia ficha de Google Play, tal como estaba el 14 de noviembre de 2026. Esta guía trata de proteger tu propio teléfono.
 
@@ -36,7 +36,7 @@ La app usa el permiso de **Administrador de dispositivos** de Android para detec
 
 Dos cosas de esa descripción importan:
 
-- **También registra los desbloqueos correctos.** Si alguien sabe tu PIN, igual obtienes su foto y ves qué apps abrió. Ese es el punto fuerte de WTMP.
+- **También registra los desbloqueos correctos.** Su ficha dice que cada informe incluye una foto y las apps que se abrieron, aunque la persona supiera tu PIN.
 - **Los informes se quedan en la app.** La ficha no menciona alerta por correo ni ubicación. Ves lo que pasó cuando tienes el teléfono otra vez en la mano.
 
 ## Qué hace distinto CrookCatcher
@@ -70,7 +70,7 @@ Lo que no hace: no fotografía a quien ingresa el PIN correcto en el primer inte
 
 ## ¿Cuál usar?
 
-- **Alguien en tu casa o en el trabajo quizá sabe tu PIN:** WTMP, porque registra los desbloqueos correctos y las apps que se abrieron. Después, cambia tu PIN.
+- **Otra persona quizá sabe tu PIN:** cámbialo primero, para que deje de funcionarle. Si además quieres un registro de los desbloqueos correctos en el teléfono, la ficha de WTMP dice que lo hace.
 - **Piensas en un robo, o en un teléfono olvidado en algún lugar:** CrookCatcher, porque la foto y la ubicación llegan a tu correo mientras el teléfono no está contigo.
 - **Alguien intenta adivinar tu PIN una y otra vez:** los dos sirven. CrookCatcher te avisa enseguida por correo; WTMP te lo muestra la próxima vez que abras la app.
 
@@ -88,7 +88,7 @@ R: Revisa en Bienestar digital si hay desbloqueos que no hiciste tú. Para saber
 R: WTMP es gratis de instalar, y su ficha de Google Play indica compras dentro de la app. CrookCatcher también es gratis de instalar; la foto, la ubicación y la alerta por correo están en la versión gratuita.
 
 ### P: ¿Es segura la app WTMP?
-R: Su sección de seguridad de los datos en Google Play indica que no se recopilan datos ni se comparten con terceros. Como todas las apps de este tipo, necesita el permiso de Administrador de dispositivos, que hay que desactivar antes de poder desinstalarla.
+R: Al 14 de noviembre de 2026, su sección de seguridad de los datos en Google Play indicaba que no se recopilaban datos ni se compartían con terceros. Como todas las apps de este tipo, necesita el permiso de Administrador de dispositivos, que hay que desactivar antes de poder desinstalarla.
 
 ### P: ¿Estas apps funcionan con huella o desbloqueo facial?
 R: Puedes seguir usando ambos. CrookCatcher reacciona a un PIN, patrón o contraseña incorrectos; un intento fallido con huella o rostro no genera una foto. La ficha de WTMP dice que registra cuando el teléfono se desbloquea o se intenta desbloquear.

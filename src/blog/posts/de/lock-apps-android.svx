@@ -103,7 +103,7 @@ CrookCatcher sperrt deine anderen Apps nicht. Es überwacht den Sperrbildschirm.
   <figcaption>Die E-Mail, die CrookCatcher nach einem fehlgeschlagenen Entsperrversuch sendet.</figcaption>
 </figure>
 
-Beides ergänzt sich: Die App-Sperre hält deine privaten Apps geschlossen, und CrookCatcher zeigt dir, wer das Handy genommen und versucht hat hineinzukommen, ob jemand zu Hause oder ein Dieb. Foto, Standort und E-Mail sind kostenlos. CrookCatcher wurde seit 2014 mehr als 12 Millionen Mal heruntergeladen. Die Einrichtung dauert ein paar Minuten: siehe [So siehst du, wer dein Handy entsperren wollte](/de/blog/see-who-tried-to-unlock-your-phone).
+Beides ergänzt sich: Die App-Sperre hält deine privaten Apps geschlossen, und CrookCatcher zeigt dir, wer das Handy genommen und versucht hat hineinzukommen, wer auch immer es war. Foto, Standort und E-Mail sind kostenlos. CrookCatcher wurde seit 2014 mehr als 12 Millionen Mal heruntergeladen. Die Einrichtung dauert ein paar Minuten: siehe [So siehst du, wer dein Handy entsperren wollte](/de/blog/see-who-tried-to-unlock-your-phone).
 
 <AppCta position="guide_mid" />
 

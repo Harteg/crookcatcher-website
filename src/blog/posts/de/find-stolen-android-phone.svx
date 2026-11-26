@@ -28,12 +28,12 @@ Google schreibt, dass der Dienst automatisch eingeschaltet wird, wenn du einem H
 
 Auf dem verlorenen Handy erscheint dabei eine Benachrichtigung.
 
-Google schätzt den Standort über GPS (im Freien auf etwa 20 Meter genau), WLANs in der Nähe und Mobilfunkmasten, die um einige tausend Meter danebenliegen können. Der Kreis um die Markierung zeigt, wie zuverlässig die Angabe ist.
+Google schätzt den Standort über GPS (auf etwa 20 Meter genau), WLANs in der Nähe und Mobilfunkmasten (auf einige tausend Meter genau). Der Kreis um die Markierung zeigt, wie zuverlässig die Angabe ist.
 
 ## Was du mit „Mein Gerät finden“ tun kannst
 
 - **Ton abspielen.** Das Handy klingelt 5 Minuten lang in voller Lautstärke, auch wenn es auf lautlos oder Vibration gestellt ist.
-- **Als verloren markieren.** Sperrt das Handy mit deiner PIN, deinem Muster oder Passwort, und du kannst Kontaktdaten und eine Nachricht auf dem Sperrbildschirm anzeigen lassen. Unter Android 17 oder höher mit eingerichtetem Fingerabdruck oder Gesichtserkennung verlangt das Handy dann PIN und Biometrie und blendet Benachrichtigungen und Widgets aus.
+- **Als verloren markieren.** Sperrt das Handy mit deiner PIN, deinem Muster oder Passwort, und du kannst Kontaktdaten und eine Nachricht auf dem Sperrbildschirm anzeigen lassen. Unter Android 17 oder höher kann „Als verloren markieren“ einen zweiten Schritt hinzufügen, wenn das Handy auch Fingerabdruck oder Gesichtserkennung hat: Das Handy verlangt dann PIN und Fingerabdruck oder Gesicht und sperrt Benachrichtigungen, Widgets und den Schnellzugriff.
 - **Auf Werkseinstellungen zurücksetzen.** Löscht alle Daten auf dem Handy endgültig, möglicherweise aber nicht die SD-Karte. Danach ist das Handy nicht mehr in „Mein Gerät finden“ verfügbar, heb dir das also für den Schluss auf. Bekommst du das Handy zurück, brauchst du das Passwort deines Google-Kontos, um es wieder zu verwenden.
 - **IMEI anzeigen.** Öffne die Einstellungen des Geräts in „Mein Gerät finden“, um die IMEI zu sehen. Dein Mobilfunkanbieter kann das Handy damit sperren lassen.
 
@@ -79,7 +79,7 @@ Die Menünamen unterscheiden sich je nach Hersteller etwas. Findest du einen nic
 
 Ein Punkt auf der Karte sagt dir, wo das Handy ist. Er sagt dir nicht, wer von den Leuten dort es hat, und ein Standort allein reicht der Polizei oft nicht, um zu handeln.
 
-Diese Lücke schließt CrookCatcher. Fast jeder, der ein gesperrtes Handy in die Hand bekommt, probiert ein paar PINs. Bei jedem fehlgeschlagenen Entsperrversuch macht CrookCatcher ein Foto mit der Frontkamera, erfasst den GPS-Standort und eine ungefähre Adresse und schickt dir beides per E-Mail. Die E-Mail liegt in deinem Postfach, auch wenn das Handy eine Minute später ausgeschaltet wird.
+Diese Lücke schließt CrookCatcher. Fast jeder, der ein gesperrtes Handy in die Hand bekommt, probiert ein paar PINs. Bei jedem fehlgeschlagenen Entsperrversuch macht CrookCatcher ein Foto mit der Frontkamera, erfasst den GPS-Standort und eine ungefähre Adresse und schickt dir beides per E-Mail. Die E-Mail liegt in deinem Postfach, auch wenn das Handy eine Minute später ausgeschaltet wird. Hat das Handy in dem Moment keine Verbindung, geht die E-Mail raus, sobald es wieder online ist.
 
 <figure class="blog-figure" style="max-width: 540px;">
   <img src="/images/blog/email-alert-de.webp" width="990" height="1024" loading="lazy" alt="CrookCatcher-Warn-E-Mail mit dem Foto des Eindringlings, der Uhrzeit des Versuchs und einer Karte mit dem Standort" />
