@@ -86,6 +86,18 @@ The site is in English (root URLs), Brazilian Portuguese (`/pt`), French (`/fr`)
 - Plain, specific, calm. Short sentences. No hype, no filler intros ("In today's digital world...").
 - Honest about free built-in alternatives; the app is presented as filling a real gap, not as the only option.
 - Use CrookCatcher's real data where it helps (12M downloads, 1.2M intruder photos a day, since 2014).
+- No filler or slogan lines ("Five minutes now saves a lot later", "the second door"). Test: would the line survive in a Google help page?
+
+## Guide quality
+
+These are CrookCatcher's own guides, not a neutral review site. Check every draft against this list before it goes in the publish queue.
+
+- **No hedged cells or claims.** Never write "Not mentioned" or "Not labeled" in a comparison. State what is known; for anything unknown, ask Jakob (he can test competitor apps himself) or leave the row out.
+- **Don't recommend competitors.** Mention them briefly and fairly when the topic needs it (people search for them). The recommendation is CrookCatcher, or Android's free built-in options where those really solve the problem.
+- **Don't lead with CrookCatcher's weaknesses**, and no disclaimers like "We make CrookCatcher, so read this with that in mind". State limits calmly, as what the reader can do ("change your PIN, so anyone who tries the old one is photographed").
+- **No "someone at home", "someone close to you" or "snooping" framing**, and no praise for features that log another person's activity. The app protects your own phone (Play stalkerware risk; see `docs/play-policy-log.md` in crookcatcher-android).
+- **No unsourced statistics or claims about how people behave** ("almost everyone tries a few PINs"). Use CrookCatcher's real numbers instead.
+- **Describe CrookCatcher's features exactly as the app does them.** Check the app's strings, not marketing copy. For example: App lock is a pattern lock on CrookCatcher itself, not on other apps; the alert email is sent when the phone is online, or as soon as it reconnects.
 
 ## Rules
 
