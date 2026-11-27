@@ -1,9 +1,9 @@
 ---
-title: How to Stop Power Off and Airplane Mode From the Lock Screen on Android (2026)
+title: How to Disable Airplane Mode and Power Off on the Android Lock Screen (2026)
 subtitle: The settings that stop a thief turning off your locked phone, and how to catch them on camera
 dateUpdated: '2026-11-13'
 datePublished: '2025-01-19'
-description: "Thieves turn off stolen phones or switch on airplane mode so they can't be tracked. Here's how to make the lock screen ask for your PIN first on Samsung, what other Android phones offer, and how to get the thief's photo."
+description: "On Samsung, turn on Lock network and security, so the lock screen asks for your PIN before the phone can be turned off or taken offline. Here are the steps, what other Android phones offer, and how to get a photo of whoever tries."
 image: /images/blog/Digital_Solitude_Urban_Shadows.jpeg
 imageAlt: Shadowy man with a phone
 published: true

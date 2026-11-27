@@ -101,11 +101,11 @@ People search for Google's and Samsung's own features. Explain them honestly, th
 
 | # | Guide title | Main search | Slug | Status |
 | --- | --- | --- | --- | --- |
-| 10 | Android Theft Detection Lock: What It Does and What It Misses | theft detection lock android | theft-detection-lock | Published 2026-11-14 |
+| 10 | Android Theft Detection Lock: What It Is, How to Turn It On or Off (2026) | theft detection lock android | theft-detection-lock | Published 2026-11-14 |
 | 11 | How to Find a Stolen Android Phone with Find Hub (2026) | how to find a stolen android phone | find-stolen-android-phone | Drafted Nov 14, 2026 (awaiting review); draft translations in pt, fr, es, de, ar, id, it, ja |
 | 12 | Samsung Find My Phone: How to Locate, Lock or Erase a Lost or Stolen Galaxy (2026) | samsung find my phone | samsung-find-stolen-phone | Drafted Nov 14, 2026 (awaiting review); draft translations in pt, fr, es, de, ar, id, it, ja |
 | 13 | Android Phone Stolen in the US? What to Do in the First 10 Minutes | android phone stolen what to do | phone-stolen-us | Planned |
-| 14 | How to Stop Power Off and Airplane Mode From the Lock Screen on Android (2026) | disable airplane mode from lock screen | block-power-menu | Published (retitled Nov 13, 2026) |
+| 14 | How to Disable Airplane Mode and Power Off on the Android Lock Screen (2026) | disable airplane mode from lock screen | block-power-menu | Published (retitled Nov 13, 2026) |
 | 15 | How to Stop Thieves from Turning On Airplane Mode | disable airplane mode lock screen | — | Merged into #14 |
 | 16 | 5 Android Anti-Theft Settings to Turn On Today (2026) | android anti theft settings | top_five_settings | Published (rewritten Oct 23, 2026) |
 | 17 | How to Block a Stolen Phone's IMEI in the US | block stolen phone imei | block-stolen-phone-imei-us | On hold (search volume, Nov 14, 2026) |
